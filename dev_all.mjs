@@ -40,7 +40,7 @@ const APPS = [
   { id: 'car',         port: 3004, prodOrigin: 'https://car.tellmyname.app' }
 ];
 
-function createAssetsEnv(distDir, prodOrigin) {
+function createAssetsEnv(distDir) {
   return {
     ASSETS: {
       async fetch(reqOrUrl) {
@@ -56,7 +56,6 @@ function createAssetsEnv(distDir, prodOrigin) {
             headers: { 'content-type': MIME_TYPES[ext] || 'application/octet-stream' }
           });
         }
-        // Fallback to index.html for SPA routes
         const idx = path.join(distDir, 'index.html');
         if (fs.existsSync(idx)) {
           return new Response(fs.readFileSync(idx), {
@@ -70,22 +69,72 @@ function createAssetsEnv(distDir, prodOrigin) {
   };
 }
 
+function tryServeLocalR2Image(pathname, res) {
+  // Handle /r2/jobs/00512.webp, /r2/cars/00512.webp, /r2/houses/00512.webp across all local ports
+  const m = pathname.match(/^\/r2\/(jobs|cars|houses)\/(\d{5})\.(webp|png|jpg)$/i);
+  if (!m) return false;
+  const [, bucket, padded] = m;
+  if (bucket === 'jobs') {
+    const localPng = path.join(ROOT_DIR, 'occupation', 'images', `${padded}.png`);
+    if (fs.existsSync(localPng)) {
+      res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=3600' });
+      res.end(fs.readFileSync(localPng));
+      return true;
+    }
+  } else if (bucket === 'cars') {
+    const localPng = path.join(ROOT_DIR, 'car', 'images', `${padded}.png`);
+    if (fs.existsSync(localPng)) {
+      res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=3600' });
+      res.end(fs.readFileSync(localPng));
+      return true;
+    }
+  } else if (bucket === 'houses') {
+    res.writeHead(302, { Location: `https://myhome.tellmyname.app/r2/houses/${padded}.webp` });
+    res.end();
+    return true;
+  }
+  return false;
+}
+
 for (const app of APPS) {
   const appDir = path.join(ROOT_DIR, app.id);
   const distDir = path.join(appDir, 'dist');
   const workerPath = path.join(appDir, 'worker.js');
   const workerMod = await import(pathToFileURL(workerPath).href);
   const workerDefault = workerMod.default;
-  const env = createAssetsEnv(distDir, app.prodOrigin);
+  const env = createAssetsEnv(distDir);
 
   const server = http.createServer(async (req, res) => {
     try {
       const fullUrl = `${app.prodOrigin}${req.url || '/'}`;
-      // Proxy /r2/* and /images/* from production if not found locally so images always render locally
       const parsed = new URL(fullUrl);
-      const localCandidate = path.join(distDir, decodeURIComponent(parsed.pathname));
-      if ((parsed.pathname.startsWith('/r2/') || parsed.pathname.startsWith('/images/')) && !fs.existsSync(localCandidate)) {
-        res.writeHead(302, { Location: `${app.prodOrigin}${parsed.pathname}` });
+      const decodedPath = decodeURIComponent(parsed.pathname);
+
+      // 1. Check cross-app /r2/(jobs|cars|houses)/* from local disk or production R2
+      if (decodedPath.startsWith('/r2/')) {
+        if (tryServeLocalR2Image(decodedPath, res)) return;
+      }
+
+      // 2. Check /images/* for food (serve local PNG or WebP directly from disk)
+      const localCandidate = path.join(distDir, decodedPath);
+      if (decodedPath.startsWith('/images/') && !fs.existsSync(localCandidate)) {
+        const rawFoodImg = path.join(ROOT_DIR, 'food', decodedPath);
+        if (fs.existsSync(rawFoodImg) && fs.statSync(rawFoodImg).isFile()) {
+          const ext = path.extname(rawFoodImg).toLowerCase();
+          res.writeHead(200, { 'Content-Type': MIME_TYPES[ext] || 'image/png', 'Cache-Control': 'public, max-age=3600' });
+          res.end(fs.readFileSync(rawFoodImg));
+          return;
+        }
+        const mFood = decodedPath.match(/^\/images\/(?:web\/)?(\d{5})\.(png|webp|jpg)$/i);
+        if (mFood) {
+          const webpPath = path.join(ROOT_DIR, 'food', 'dist', 'images', 'web', `${mFood[1]}.webp`);
+          if (fs.existsSync(webpPath)) {
+            res.writeHead(200, { 'Content-Type': 'image/webp', 'Cache-Control': 'public, max-age=3600' });
+            res.end(fs.readFileSync(webpPath));
+            return;
+          }
+        }
+        res.writeHead(302, { Location: `${app.prodOrigin}${decodedPath}` });
         res.end();
         return;
       }

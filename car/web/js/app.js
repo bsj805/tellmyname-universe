@@ -1,3 +1,4 @@
+import { renderCrossLevelSectionHtml } from './lib/cross_level_map.js';
 // web/js/app.js — 나에게 어울리는 자동차 (MyCar) Frontend Application
 // Features: 14-Language Switcher, Name Search, Random Name Dice, Vehicle Appraisal Card,
 //           Name Stroke Breakdown Accordion, Step Navigation Dock, 9:16 Story Share, Ideal-Type World Cup Tabs

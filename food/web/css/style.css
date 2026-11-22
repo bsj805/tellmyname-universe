@@ -1987,3 +1987,30 @@ body {
     text-align: center;
   }
 }
+
+
+/* Fix header title/slogan and right actions overlap on long English titles */
+.app-header {
+  height: auto !important;
+  min-height: 58px;
+  padding: 6px 0;
+}
+.header-inner {
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.brand-link {
+  flex: 1 1 240px;
+  overflow: hidden;
+}
+.brand-title {
+  flex-wrap: wrap;
+}
+.brand-slogan {
+  white-space: normal !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

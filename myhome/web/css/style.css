@@ -2873,3 +2873,6 @@ input {
     grid-template-columns: 1fr;
   }
 }
+
+/* Hide fixed bottom dock in favor of inline-step-nav-bar */
+.explorer-dock { display: none !important; }

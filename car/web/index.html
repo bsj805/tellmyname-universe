@@ -81,6 +81,9 @@
     <!-- Top Family Site Navigation Bar (tellmyname.app Family Services) -->
     <nav id="family-top-nav" class="family-site-nav family-top-nav" aria-label="tellmyname.app 패밀리 서비스">
       <div class="family-nav-inner">
+        <a href="https://tellmyname.app/" class="family-nav-link" id="family-link-hub" title="TellMyName 허브">
+          <span class="family-nav-icon">✨</span> <span class="family-nav-label">TellMyName 허브</span>
+        </a>
         <a href="https://car.tellmyname.app/" class="family-nav-link active" id="family-link-car" aria-current="page" title="나에게 어울리는 자동차 (MyCar)">
           <span class="family-nav-icon">🚗</span> <span class="family-nav-label" id="family-label-car" data-i18n="familyCar">나에게 어울리는 자동차</span>
         </a>
@@ -103,7 +106,7 @@
     <header class="app-header">
       <!-- Top Utilities Bar (Quick Family Links & Language Selector) -->
       <div class="top-util-bar">
-        <div class="top-util-links">
+        <div class="top-util-links" style="display:none;">
           <a href="https://photodiary.tellmyname.app/" class="photodiary-link" id="photodiary-link" target="_blank" rel="noopener" title="포토 다이어리 바로가기">
             <span>📸</span> <span id="photodiary-text">포토 다이어리</span>
           </a>
@@ -305,7 +308,8 @@
           background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.88) 0%, rgba(15, 23, 42, 0.98) 100%);
           border: 1px solid rgba(56, 189, 248, 0.25);
           border-radius: 24px;
-          padding: 26px 22px;
+          padding: 28px 24px 32px 24px;
+          overflow: visible;
           box-shadow: 0 20px 48px rgba(0, 0, 0, 0.45);
           display: flex;
           flex-direction: column;
@@ -388,7 +392,8 @@
         .pd-promo-frame {
           position: relative;
           width: 100%;
-          height: 320px;
+          aspect-ratio: 4 / 5;
+          max-height: 360px;
           border-radius: 14px;
           overflow: hidden;
           background: #090d16;
@@ -435,7 +440,11 @@
           align-items: center;
           justify-content: center;
           gap: 10px;
-          padding: 14px 28px;
+          padding: 14px 26px;
+          line-height: 1.4;
+          text-align: center;
+          max-width: 100%;
+          box-sizing: border-box;
           background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #7c3aed 100%);
           color: #ffffff !important;
           font-size: 15px;
