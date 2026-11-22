@@ -440,7 +440,7 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
         <div class="cross-card-badge">${escapeHtml(badgeText)}</div>
         <a href="${levelUrl}" class="cross-card-main-link">
           <div class="cross-card-media">
-            <img src="${imgUrl}" alt="Lv.${targetLv} ${escapeHtml(title)}" loading="lazy" width="320" height="240" class="cross-card-img" />
+            <img src="${imgUrl}" alt="Lv.${targetLv} ${escapeHtml(title)}" loading="lazy" width="320" height="240" class="cross-card-img" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22260%22 viewBox=%220 0 400 260%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22><stop offset=%220%25%22 stop-color=%22%230f172a%22/><stop offset=%22100%25%22 stop-color=%22%231e3a8a%22/></linearGradient></defs><rect width=%22400%22 height=%22260%22 fill=%22url(%23g)%22/><text x=%22200%22 y=%22115%22 text-anchor=%22middle%22 font-size=%2248%22>${meta.icon}</text><text x=%22200%22 y=%22165%22 text-anchor=%22middle%22 fill=%22%2338bdf8%22 font-family=%22sans-serif%22 font-size=%2222%22 font-weight=%22bold%22>Lv.${targetLv}</text></svg>';" />
             <span class="cross-lv-pill">Lv.${targetLv}</span>
           </div>
           <div class="cross-card-body">
@@ -471,9 +471,9 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
   return `
     <div id="cross-level-reference-root" class="cross-level-wrapper">
       <nav class="inline-step-nav-bar" aria-label="Level step navigation">
-        <a href="/level/${prevLv}${langQuery}" class="step-nav-btn step-prev-btn" data-target-level="${prevLv}" data-target-level="${prevLv}" data-step-level="${prevLv}">${escapeHtml(prevLabel)}</a>
-        <a href="/level/${randLv}${langQuery}" class="step-nav-btn step-rand-btn" data-target-level="${randLv}" data-target-level="${randLv}" data-step-level="${randLv}">${escapeHtml(randLabel)}</a>
-        <a href="/level/${nextLv}${langQuery}" class="step-nav-btn step-next-btn" data-target-level="${nextLv}" data-target-level="${nextLv}" data-step-level="${nextLv}">${escapeHtml(nextLabel)}</a>
+        <a href="/level/${prevLv}${langQuery}" class="step-nav-btn step-prev-btn" data-target-level="${prevLv}" data-target-level="${prevLv}" data-target-level="${prevLv}" data-step-level="${prevLv}">${escapeHtml(prevLabel)}</a>
+        <a href="/level/${randLv}${langQuery}" class="step-nav-btn step-rand-btn" data-target-level="${randLv}" data-target-level="${randLv}" data-target-level="${randLv}" data-step-level="${randLv}">${escapeHtml(randLabel)}</a>
+        <a href="/level/${nextLv}${langQuery}" class="step-nav-btn step-next-btn" data-target-level="${nextLv}" data-target-level="${nextLv}" data-target-level="${nextLv}" data-step-level="${nextLv}">${escapeHtml(nextLabel)}</a>
       </nav>
       <section class="cross-level-section" aria-label="Multiverse Level ${lv} Cross-Reference">
         <div class="cross-level-header">

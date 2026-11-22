@@ -924,6 +924,19 @@ function updateLocalizedStaticTexts() {
     setElText('wp-art3-title', dict.whitepaper.art3Title);
     setElText('wp-art3-p1', dict.whitepaper.art3P1);
     setElText('wp-art3-p2', dict.whitepaper.art3P2);
+    if (dict.whitepaper.art4Title) {
+      setElText('wp-art4-title', dict.whitepaper.art4Title);
+      setElText('wp-art4-p1', dict.whitepaper.art4P1);
+      setElText('wp-art4-p2', dict.whitepaper.art4P2);
+    } else if (state.lang !== 'ko') {
+      const wcT = getWorldCupTranslation(state.lang);
+      setElText('wp-art4-title', `🏆 4. ${wcT.tabWorst || 'World Cup'} vs ${wcT.tabBest || 'Tournament'}`);
+      setElText('wp-art4-p1', wcT.subWorst || '');
+      setElText('wp-art4-p2', wcT.subBest || '');
+    }
+    if (typeof window !== 'undefined' && typeof window.updatePhotoDiaryPromoLang === 'function') {
+      window.updatePhotoDiaryPromoLang(state.lang);
+    }
   }
 
   if (dict.footer) {

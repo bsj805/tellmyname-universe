@@ -188,6 +188,17 @@ export async function buildStaticSite() {
   fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsTxt, 'utf8');
   fs.writeFileSync(path.join(DIST_DIR, `${INDEXNOW_KEY}.txt`), `${INDEXNOW_KEY}\n`, 'utf8');
   fs.writeFileSync(path.join(DIST_DIR, '.nojekyll'), '# Disable Jekyll\n', 'utf8');
+  
+  // Copy public/samples/italy/* into dist/samples/italy/*
+  const samplesSrcDir = path.join(ROOT_DIR, 'public', 'samples', 'italy');
+  if (fs.existsSync(samplesSrcDir)) {
+    const samplesDistDir = path.join(DIST_DIR, 'samples', 'italy');
+    fs.mkdirSync(samplesDistDir, { recursive: true });
+    for (const sFile of fs.readdirSync(samplesSrcDir)) {
+      fs.copyFileSync(path.join(samplesSrcDir, sFile), path.join(samplesDistDir, sFile));
+    }
+  }
+
   fs.writeFileSync(
     path.join(DIST_DIR, 'ads.txt'),
     'google.com, pub-8793936135959956, DIRECT, f08c47fec0942fa0\n',
