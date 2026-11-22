@@ -1,0 +1,402 @@
+{
+ "00101": {
+  "name": "The Yellow Sea Convenience Store Instant Cup Ramen & Hotbar",
+  "tagline": "The ravenous convenience store feast of piping-hot cup ramen and fish cake sausage devoured in anger."
+ },
+ "00102": {
+  "name": "The Outlaws Jang Chen Fiery Mala Crawfish (Mala Longxia)",
+  "tagline": "Spicy, numbing crawfish swimming in fiery red chili oil, cracked open and devoured bare-handed."
+ },
+ "00103": {
+  "name": "Reply 1988 Ssangmun-dong Sweet Seasoned Whole Chicken",
+  "tagline": "Classic vintage sweet-glazed whole fried chicken brought home in a paper bag on payday."
+ },
+ "00104": {
+  "name": "Spirited Away Mysterious Juicy Giant Meat Pocket Dumpling",
+  "tagline": "The legendary mysterious gelatinous meat pocket that bursts with rich broth when punctured."
+ },
+ "00105": {
+  "name": "Howl's Moving Castle Calcifer Flame-Seared Thick Bacon & Eggs",
+  "tagline": "Thick-cut sizzling bacon slabs and whole eggs cracked over Calcifer's roaring hearth."
+ },
+ "00106": {
+  "name": "Ratatouille Chef Remy Confit Byaldi Vegetable Casserole",
+  "tagline": "Thinly layered baked summer squash, zucchini, and tomato spiral that moved critic Anton Ego to tears."
+ },
+ "00107": {
+  "name": "Pulp Fiction Vincent Vega $5 Thick Vanilla Milkshake",
+  "tagline": "The decadently rich and creamy five-dollar vanilla shake topped with whipped cream and a cherry."
+ },
+ "00108": {
+  "name": "My Love from the Star Cheon Song-yi First Snow Chimaek",
+  "tagline": "Crispy fried chicken and ice-cold beer enjoyed during the romantic winter first snowfall."
+ },
+ "00109": {
+  "name": "The Godfather Clemenza Sunday Meatball Spaghetti Gravy",
+  "tagline": "Rich garlic tomato sauce simmered slowly with browned Italian sausages and homemade meatballs."
+ },
+ "00110": {
+  "name": "The Devil Wears Prada Late-Night Gourmet Grilled Cheese",
+  "tagline": "Golden butter-toasted sandwich loaded with melted artisan cheese made with love after midnight."
+ },
+ "00111": {
+  "name": "New World Gangster Hanwoo Ox Head Hangover Soup",
+  "tagline": "Steaming clay pot loaded with rich ox head meat and gelatinous skin shared between mob brothers."
+ },
+ "00112": {
+  "name": "Ponyo Steaming Instant Ramen with Thick Ham Slice & Egg",
+  "tagline": "Piping-hot instant noodle soup topped with a thick slab of ham, green onion, and boiled egg."
+ },
+ "00113": {
+  "name": "The Witch Train Mystery Baked Sauna Brown Eggs & Cider",
+  "tagline": "Chewy, nutty mineral-baked brown eggs inhaled by the dozen aboard a high-speed train."
+ },
+ "00114": {
+  "name": "The Handmaiden Sweet Peeled White Peach Slice",
+  "tagline": "Luscious, velvety white peach peeled and offered tenderly in an intimate sunlit moment."
+ },
+ "00115": {
+  "name": "Kamome Diner Hand-Pressed Salted Plum Onigiri Rice Ball",
+  "tagline": "Warm, comforting Japanese rice ball wrapped in crisp nori and centered with tart pickled plum."
+ },
+ "00116": {
+  "name": "Tender Bossam Pork Belly with Sweet Garlic Glaze",
+  "tagline": "Moist boiled pork belly smothered in pungent sweet crushed garlic sauce with crisp radish kimchi."
+ },
+ "00117": {
+  "name": "Busan Bupyeong Chilled Jellyfish Mustard Jokbal Salad",
+  "tagline": "Thinly sliced chilled pork trotters tossed with crunchy jellyfish in eye-watering hot mustard sauce."
+ },
+ "00118": {
+  "name": "Crispy Deep-Fried Schweinshaxe Style Jokbal Knuckle",
+  "tagline": "German-inspired deep-fried pork knuckle with a crackling golden skin and tender juicy interior."
+ },
+ "00119": {
+  "name": "Spicy Braised Chicken Stew with Aged Mugeonji Kimchi",
+  "tagline": "Tender chicken and potatoes braised in fiery gochujang broth with deeply fermented ripe kimchi."
+ },
+ "00120": {
+  "name": "Spicy Pollack Stew with Soft Roe & Silken Tofu",
+  "tagline": "Hearty winter hot pot packed with flaky frozen pollack, creamy roe, and spicy peppery broth."
+ },
+ "00121": {
+  "name": "Masan Spicy Braised Monkfish with Bean Sprouts (Agujjim)",
+  "tagline": "Succulent monkfish and crunchy soybean sprouts smothered in fiery spicy chili starch gravy."
+ },
+ "00122": {
+  "name": "Incheon Sinpo Market Sweet Crunchy Fried Chicken Bites",
+  "tagline": "Crispy fried chicken bites tossed in a sticky sweet chili glaze garnished with peanuts."
+ },
+ "00123": {
+  "name": "Chuncheon Spicy Stir-Fried Chicken with Chewy Udon",
+  "tagline": "Boneless chicken marinated in spicy paste and stir-fried with cabbage, sweet potatoes, and udon."
+ },
+ "00124": {
+  "name": "Yeongdeok Bamboo-Steamed Snow Crab with Fried Rice",
+  "tagline": "Freshly steamed king snow crab served with savory fried rice packed inside the crab shell."
+ },
+ "00125": {
+  "name": "Crispy Soy Garlic Chicken Wings & Drumettes Combo",
+  "tagline": "Crunchy double-fried chicken wings glazed in savory-sweet soy sauce and fragrant garlic."
+ },
+ "00126": {
+  "name": "Gwangju Pan-Fried Beef Pancake (Yukjeon) with Chive Salad",
+  "tagline": "Paper-thin slices of beef coated in egg batter, seared golden, and paired with spicy chives."
+ },
+ "00127": {
+  "name": "Damyang Bamboo Charcoal-Grilled Beef Tteokgalbi",
+  "tagline": "Hand-minced prime beef rib patties grilled over fragrant bamboo charcoal to juicy perfection."
+ },
+ "00128": {
+  "name": "Gwangjang Market Crispy Mung Bean Pancake (Bindaetteok)",
+  "tagline": "Stone-ground savory mung bean pancake fried crispy in oil, served with pickled onion soy dip."
+ },
+ "00129": {
+  "name": "Cheongjin-dong 24h Ox Bone & Blood Hangover Soup",
+  "tagline": "Deep, hearty ox bone broth packed with tender beef tripe, Napa cabbage, and fresh blood curd."
+ },
+ "00130": {
+  "name": "Suwon Plaza Thin-Crust Handmade Fried Dumplings (10pcs)",
+  "tagline": "Paper-thin pastry dumplings fried extra crispy and bursting with juicy pork and scallion filling."
+ },
+ "00131": {
+  "name": "Chuncheon Buckwheat Makguksu in Icy Dongchimi Radish Broth",
+  "tagline": "Nutty buckwheat noodles swimming in refreshing tangy radish water kimchi with sesame oil."
+ },
+ "00132": {
+  "name": "Boseong Green Tea Smoked Pork Belly BBQ Wrap Set",
+  "tagline": "Tender pork belly smoked with aromatic Boseong green tea leaves, wrapped with fresh farm greens."
+ },
+ "00133": {
+  "name": "Tongyeong Raw Oysters on the Half Shell with Chogochujang",
+  "tagline": "Fresh plump sea oysters glistening on the half shell served with spicy vinegared chili dip."
+ },
+ "00134": {
+  "name": "Jeju Black Pork Thick Belly BBQ with Fermented Anchovy Dip",
+  "tagline": "Thick cuts of Jeju black pork grilled on volcanic rock and dipped in boiling anchovy meljeot."
+ },
+ "00135": {
+  "name": "Tokyo Asakusa Jumbo Prawn Tempura Rice Bowl (Tendon)",
+  "tagline": "Crispy colossal tiger prawn and vegetable tempura resting on hot rice with sweet tare sauce."
+ },
+ "00136": {
+  "name": "Premium Fresh Seafood Sashimi Bowl (Kaisendon) with Roe",
+  "tagline": "Vinegared rice crowned with glistening tuna, salmon, white fish sashimi, and popping salmon roe."
+ },
+ "00137": {
+  "name": "Sapporo Rich Miso Ramen with Chashu & Pan-Fried Gyoza",
+  "tagline": "Savory Hokkaido fermented miso broth enriched with melted butter, sweet corn, and seared pork."
+ },
+ "00138": {
+  "name": "Hanoi Grilled Pork & Rice Noodles with Nuoc Cham (Bun Cha)",
+  "tagline": "Charcoal-grilled pork patties and belly slices dipped into sweet-sour nuoc cham with rice noodles."
+ },
+ "00139": {
+  "name": "Thai Spicy & Sour Tom Yum Goong Soup with King Prawns",
+  "tagline": "World-famous zesty herbal soup fragrant with lemongrass, galangal, lime leaves, and juicy prawns."
+ },
+ "00140": {
+  "name": "Thai Soft Shell Crab Yellow Coconut Curry (Poo Pad Pong)",
+  "tagline": "Crispy fried whole soft-shell crabs bathed in velvety egg and yellow coconut curry sauce."
+ },
+ "00141": {
+  "name": "Authentic Mexican Birria Beef Tacos with Guacamole (3pcs)",
+  "tagline": "Crispy broth-dipped corn tortillas stuffed with slow-braised shredded beef, cilantro, and onion."
+ },
+ "00142": {
+  "name": "Hawaiian Fresh Salmon Poke Bowl with Brown Rice & Avocado",
+  "tagline": "Cubed fresh salmon tossed in spicy mayo with ripe avocado, edamame, and crispy shallots."
+ },
+ "00143": {
+  "name": "Sous-Vide Tender Chicken Breast & Roasted Pumpkin Salad",
+  "tagline": "Ultra-moist sous-vide chicken breast paired with sweet roasted pumpkin and balsamic glaze."
+ },
+ "00144": {
+  "name": "Creamy Rosé Tteokbokki with Crispy Chicken Karaage",
+  "tagline": "Chewy rice cakes in velvety spicy cream sauce topped with bite-sized crunchy chicken nuggets."
+ },
+ "00145": {
+  "name": "Sweet Kiwi Sauce Ham & Cheese Special Toast Sandwich",
+  "tagline": "Golden toasted bread spread with sweet fruit sauce, layered with ham, melted cheese, and cabbage."
+ },
+ "00146": {
+  "name": "Crispy Flattened Croissant (Croongji) & Vanilla Ice Cream",
+  "tagline": "Buttery croissant pressed flat like scorched rice and caramelized, paired with cold ice cream."
+ },
+ "00147": {
+  "name": "Chewy Salted Caramel & Cheddar Cheese Butter Bar",
+  "tagline": "Thick shortbread crust loaded with dense, chewy cheddar cheese fudge and sweet caramel."
+ },
+ "00148": {
+  "name": "American Smoked BBQ Baby Back Ribs with Coleslaw & Fries",
+  "tagline": "Slow-smoked fall-off-the-bone pork ribs glazed in tangy barbecue sauce with crisp cabbage slaw."
+ },
+ "00149": {
+  "name": "Southern Soul Fried Chicken & Waffles with Maple Syrup",
+  "tagline": "Crispy seasoned buttermilk fried chicken served atop warm Belgian waffles dripping with syrup."
+ },
+ "00150": {
+  "name": "Authentic Philadelphia Cheesesteak with Cheez Whiz",
+  "tagline": "Thinly sliced ribeye steak and grilled onions smothered in velvety melted cheese sauce in a hoagie roll."
+ },
+ "00151": {
+  "name": "Classic Buffalo Wings with Blue Cheese Dip & Celery (10pcs)",
+  "tagline": "Crispy fried chicken wings tossed in tangy cayenne pepper butter sauce with cool creamy dressing."
+ },
+ "00152": {
+  "name": "Chipotle Style Steak Burrito Bowl with Guacamole & Salsa",
+  "tagline": "Cilantro-lime rice topped with grilled steak, black beans, fajita veggies, salsa, and fresh guac."
+ },
+ "00153": {
+  "name": "Baked Four-Cheese Creamy Macaroni and Cheese Casserole",
+  "tagline": "Elbow pasta drowned in a velvety four-cheese blend and baked with golden breadcrumbs."
+ },
+ "00154": {
+  "name": "Chuncheon Chewy Potato Bread with Mashed Potato Filling",
+  "tagline": "Mashed seasoned potato wrapped in chewy tapioca dough resembling a freshly harvested potato."
+ },
+ "00155": {
+  "name": "Gapyeong Rest Stop Pine Nut Salted Caramel Butter Sand",
+  "tagline": "Crisp butter shortbread biscuits filled with salted caramel cream and toasted native pine nuts."
+ },
+ "00156": {
+  "name": "Gyeongju Historic Hwangnam-ppang Red Bean Pastries (3pcs)",
+  "tagline": "Delicate paper-thin pastry cases packed almost entirely with smooth, sweet Korean red bean paste."
+ },
+ "00157": {
+  "name": "Daejeon Sungsimdang Deep-Fried Soboro & Chive Bread Combo",
+  "tagline": "Crispy fried streusel-topped buns filled with sweet red bean paste and savory fresh chive bread."
+ },
+ "00158": {
+  "name": "Cheonan Walnut Pastries with Whole Walnut & White Paste",
+  "tagline": "Fluffy sponge cake balls containing crunchy walnut chunks and smooth sweet white kidney bean paste."
+ },
+ "00159": {
+  "name": "Highway Rest Stop Grilled Sausage & Rice Cake (Sotteok)",
+  "tagline": "Skewered alternating fried sausages and rice cakes brushed with tangy ketchup and mustard."
+ },
+ "00160": {
+  "name": "Highway Rest Stop Butter-Roasted Baby Potatoes",
+  "tagline": "Golden skillet baby potatoes tossed in sizzling butter and dusted with sweet sugar and salt."
+ },
+ "00161": {
+  "name": "Gyeongju 10-Won Coin Bread with Stretchy Mozzarella",
+  "tagline": "Coin-shaped fluffy pancake pastry filled with warm mozzarella cheese that stretches endlessly."
+ },
+ "00162": {
+  "name": "Air-Fried Crispy Bibigo Royal Mandu Dumplings (6pcs)",
+  "tagline": "Golden blistered dumplings packed with coarsely minced pork, garlic chives, and rich savory broth."
+ },
+ "00163": {
+  "name": "Crispy Mozzarella & Sausage Half-and-Half Corn Dog",
+  "tagline": "Crunchy panko-crusted corn dog with gooey mozzarella on top and savory smoked sausage below."
+ },
+ "00164": {
+  "name": "Ultra-Thin Skin Steamed Spicy Kimchi Dumplings",
+  "tagline": "Translucent paper-thin wrappers revealing fiery minced kimchi, tofu, and pork filling."
+ },
+ "00165": {
+  "name": "Korean Native Chicken & Neungi Herbal Soup with Sticky Rice",
+  "tagline": "Earthy dark herbal broth infused with wild black neungi mushrooms and tender whole native chicken."
+ },
+ "00166": {
+  "name": "Mountain Trail Acorn Jelly Salad with Wild Perilla Dressing",
+  "tagline": "Silky chilled acorn starch jelly tossed with fresh crown daisy, perilla oil, and soy chili dressing."
+ },
+ "00167": {
+  "name": "Crispy Seafood Scallion Pancake (Haemul Pajeon) & Makgeolli",
+  "tagline": "Golden pan-fried pancake loaded with whole green onions, squid, and shrimp paired with rice wine."
+ },
+ "00168": {
+  "name": "Chuncheon Spicy Buckwheat Bibim Makguksu with Sesame Oil",
+  "tagline": "Tender buckwheat noodles tossed in fiery-sweet chili paste, toasted sesame seeds, and fragrant oil."
+ },
+ "00169": {
+  "name": "Warm Steamed Tofu with Spicy Stir-Fried Aged Kimchi",
+  "tagline": "Thick slabs of hot fresh tofu served alongside caramelized aged kimchi and thinly sliced pork."
+ },
+ "00170": {
+  "name": "Mountain Summit Thermal Flask Cup Ramen with Kimchi",
+  "tagline": "Piping-hot instant noodle soup brewed at the windy mountain summit paired with chilled kimchi."
+ },
+ "00171": {
+  "name": "Sunchang Fire-Grilled Spicy Gochujang Pork Belly BBQ",
+  "tagline": "Thick pork belly marinated in artisanal aged chili paste and caramelized over roaring charcoal."
+ },
+ "00172": {
+  "name": "Cheongyang Spicy Chili Glazed Chicken Wings & Draft Beer",
+  "tagline": "Crispy fried chicken wings coated in tongue-tingling Korean hot chili glaze with frosty beer."
+ },
+ "00173": {
+  "name": "Yeongam Ripe Fig & Prosciutto Burrata Cheese Salad",
+  "tagline": "Honey-sweet fresh figs paired with creamy burrata cheese, salty prosciutto, and balsamic drizzle."
+ },
+ "00174": {
+  "name": "Uiseong Whole Black Garlic Glazed Smoked Pork Ribs",
+  "tagline": "Tender pork spare ribs slow-roasted in sweet-and-savory fermented black garlic glaze."
+ },
+ "00175": {
+  "name": "Cheongyang Fiery Chili Paste Bibimbap with Fried Egg",
+  "tagline": "Steamed rice tossed with seasonal mountain herbs, a runny fried egg, and intense spicy chili paste."
+ },
+ "00176": {
+  "name": "Roman Classic Guanciale & Pecorino Carbonara Spaghetti",
+  "tagline": "Traditional pasta tossed with crispy cured pork cheek, creamy egg yolks, and sharp Pecorino cheese."
+ },
+ "00177": {
+  "name": "Neapolitan Wood-Fired Margherita Pizza with Mozzarella",
+  "tagline": "Blistered sourdough crust topped with San Marzano tomatoes, fresh mozzarella, and sweet basil."
+ },
+ "00178": {
+  "name": "Genovese Basil Pesto Trofie Pasta with Pine Nuts & Olive Oil",
+  "tagline": "Twisted Ligurian pasta coated in vibrant crushed fresh basil, pine nuts, garlic, and Parmigiano."
+ },
+ "00179": {
+  "name": "Creamy Porcini Mushroom Risotto with Grated Parmesan",
+  "tagline": "Rich Arborio rice slowly simmered in aromatic wild porcini mushroom broth with butter and cheese."
+ },
+ "00180": {
+  "name": "Saffron Milanese Risotto with Braised Ossobuco Veal",
+  "tagline": "Vibrant golden saffron rice served alongside tender braised veal shank in rich wine reduction."
+ },
+ "00181": {
+  "name": "Chilled Sicilian Lemon Granita with Warm Brioche Bun",
+  "tagline": "Zesty shaved lemon ice enjoyed by dipping fluffy warm Sicilian butter brioche directly into it."
+ },
+ "00182": {
+  "name": "Tokyo Ginza Charcoal-Grilled Unagi Eel Rice Box (Unaju)",
+  "tagline": "Sweet soy-glazed freshwater eel grilled over binchotan charcoal served in an elegant lacquer box."
+ },
+ "00183": {
+  "name": "Osaka Dotonbori Crispy Golden Pork Loin Tonkatsu Set",
+  "tagline": "Thick pork cutlet fried in fresh panko breadcrumbs, served with tangy fruit tonkatsu sauce."
+ },
+ "00184": {
+  "name": "Hakata Style Mentaiko Cream Udon with Nori Flakes",
+  "tagline": "Chewy thick sanuki udon noodles coated in creamy spicy cod roe sauce with shredded seaweed."
+ },
+ "00185": {
+  "name": "Nagoya Taiwan Mazesoba Dry Ramen with Spicy Minced Pork",
+  "tagline": "Brothless noodles topped with spicy garlic minced pork, scallions, nori, fish powder, and egg yolk."
+ },
+ "00186": {
+  "name": "Tokyo Tsukemen Dipping Ramen with Ultra-Rich Pork Broth",
+  "tagline": "Chilled extra-thick noodles plunged into piping-hot concentrated seafood and tonkotsu broth."
+ },
+ "00187": {
+  "name": "Charcoal-Grilled Japanese Yakitori Skewers Platter (7pcs)",
+  "tagline": "An assortment of chicken thigh, skin, meatball, and cartilage skewers grilled over charcoal."
+ },
+ "00188": {
+  "name": "Nagoya Hitsumabushi Grilled Eel Rice Bowl in Wooden Tub",
+  "tagline": "Glazed grilled eel rice bowl enjoyed plain, with condiments, and finished with warm dashi tea."
+ },
+ "00189": {
+  "name": "Tandoor Roasted Spiced Tandoori Chicken with Mint Chutney",
+  "tagline": "Yogurt-and-spice marinated chicken roasted on skewers in a clay kiln until smoky and charred."
+ },
+ "00190": {
+  "name": "Palak Paneer Indian Spinach Curry with Cottage Cheese",
+  "tagline": "Silky puréed spinach gravy simmered with garam masala and tender cubes of mild paneer cheese."
+ },
+ "00191": {
+  "name": "Tandoor Baked Giant Butter Garlic Naan Flatbread",
+  "tagline": "Pillowy clay-oven flatbread blistered golden and brushed generously with ghee and minced garlic."
+ },
+ "00192": {
+  "name": "Murgh Makhani Classic Indian Butter Chicken Curry",
+  "tagline": "Tender tandoori chicken simmered in an ultra-smooth tomato, butter, and cashew cream gravy."
+ },
+ "00193": {
+  "name": "Royal Hyderabadi Chicken Dum Biryani with Cool Raita",
+  "tagline": "Fragrant basmati rice slow-steamed in layers with spiced marinated chicken and saffron."
+ },
+ "00194": {
+  "name": "Crispy Fried Vegetable Samosa Pastries with Chutney (2pcs)",
+  "tagline": "Flaky triangular pastries packed with spiced potatoes and peas served with tangy tamarind dip."
+ },
+ "00195": {
+  "name": "Sichuan Yu-Xiang Crispy Eggplant Stuffed with Shrimp",
+  "tagline": "Crispy fried eggplant pockets filled with minced shrimp, tossed in spicy sweet-and-sour garlic sauce."
+ },
+ "00196": {
+  "name": "Shanghai Steamed Soup Dumplings (Xiaolongbao, 6pcs)",
+  "tagline": "Delicate steamed dumplings bursting with savory seasoned pork and piping-hot rich broth."
+ },
+ "00197": {
+  "name": "Crispy Roasted Peking Duck Slices with Pancakes & Sauce",
+  "tagline": "Glassy roasted duck skin and tender meat wrapped in thin wheat crepes with scallions and sweet sauce."
+ },
+ "00198": {
+  "name": "Dongbei Style Crispy Fried Sweet and Sour Pork (Guobaorou)",
+  "tagline": "Large pork cutlets coated in chewy potato starch crust fried crisp and tossed in tangy vinegar sauce."
+ },
+ "00199": {
+  "name": "Sichuan Spicy Dandan Noodles with Sesame & Minced Pork",
+  "tagline": "Springy noodles coated in nutty toasted sesame paste, tongue-numbing chili oil, and savory pork."
+ },
+ "00200": {
+  "name": "Hangzhou Braised Dongpo Pork Belly in Sweet Soy Glaze",
+  "tagline": "Melt-in-your-mouth slow-braised pork belly square infused with Shaoxing wine and dark soy."
+ }
+}

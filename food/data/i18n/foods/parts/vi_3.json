@@ -1,0 +1,402 @@
+{
+  "00201": {
+    "name": "Ốc nướng bơ tỏi ngò tây kiểu Bourgogne truyền thống nước Pháp (6 con)",
+    "tagline": "Dùng kẹp và nĩa gắp thịt ốc giòn dai ngập trong lớp sốt bơ tỏi thảo mộc thơm nức sôi lục bục."
+  },
+  "00202": {
+    "name": "Bò hầm rượu vang đỏ Boeuf Bourguignon kiểu Pháp mềm tơi từng thớ",
+    "tagline": "Thịt nạm bò hầm cùng rượu vang Pinot Noir thịt xông khói nấm mỡ và hành tím mềm tan đậm đà."
+  },
+  "00203": {
+    "name": "Bánh kem trứng nướng cháy đường Crème Brûlée hạt vani béo mịn",
+    "tagline": "Dùng thìa gõ nhẹ lớp caramel giòn tan khám phá lớp kem trứng sữa hạt vani mát lạnh mềm mượt."
+  },
+  "00204": {
+    "name": "Rau củ hầm thảo mộc Ratatouille vùng Provence nước Pháp",
+    "tagline": "Bí ngòi cà tím cà chua ninh nhừ cùng dầu ô-liu và cỏ xạ hương ngọt thanh ăn kèm bánh mì giòn."
+  },
+  "00205": {
+    "name": "Gà hầm rượu vang đỏ Coq au Vin truyền thống nước Pháp",
+    "tagline": "Thịt gà ngâm rượu vang hầm nhừ ánh sắc tím thơm nồng quyện thịt xông khói và nấm róc xương mềm ngọt."
+  },
+  "00206": {
+    "name": "Bánh tart trứng mặn Quiche Lorraine thịt xông khói và phô mai Gruyère",
+    "tagline": "Đế tart giòn tan ôm trọn lớp kem trứng mềm mịn như bánh flan cùng thịt xông khói đậm vị cho bữa sáng."
+  },
+  "00207": {
+    "name": "Tháp bánh kếp bơ sữa Buttermilk Pancake 3 tầng đẫm si-rô lá phong",
+    "tagline": "Ba tầng bánh pancake xốp mềm béo ngậy phủ viên bơ tươi tan chảy chan ngập si-rô phong ngọt thơm."
+  },
+  "00208": {
+    "name": "Pizza đế dày Chicago Deep Dish ngập tràn phô mai và sốt cà chua thịt",
+    "tagline": "Đế bánh cao 5cm chứa trọn biển phô mai mozzarella kéo sợi hòa cùng lớp sốt cà chua thịt băm đậm đà."
+  },
+  "00209": {
+    "name": "Bánh mì kẹp cua lột chiên giòn Po-Boy New Orleans sốt remoulade",
+    "tagline": "Bánh mì baguette Pháp kẹp nguyên con cua lột chiên giòn rụm sốt cay remoulade cà chua và xà lách tươi."
+  },
+  "00210": {
+    "name": "Burger bò bít tết nạc lưng Ribeye cao cấp kẹp sốt tỏi truffle aioli",
+    "tagline": "Miếng thịt bò nạc lưng 200g nướng mọng nước tan chảy cùng mứt thịt xông khói và phô mai cheddar ủ lâu năm."
+  },
+  "00211": {
+    "name": "Súp nghêu New England Clam Chowder Boston đựng trong tô bánh mì men chua",
+    "tagline": "Nghêu tươi khoai tây hầm kem béo đặc quánh đựng trong ổ bánh mì sourdough nướng giòn rụm thơm lừng."
+  },
+  "00212": {
+    "name": "Cơm rang Jambalaya xúc xích Andouille gà và tôm sốt cay Louisiana",
+    "tagline": "Tinh hoa ẩm thực Cajun miền Nam nước Mỹ với hạt cơm ngấm đượm gia vị ớt chuông tỏi tây và tôm mọng nước."
+  },
+  "00213": {
+    "name": "Bột ngũ cốc rang Misutgaru truyền thống pha mật ong hoa đá lạnh",
+    "tagline": "Mười loại hạt ngũ cốc rang thơm bùi xay mịn khuấy cùng mật ong rừng và đá lạnh ngọt lành giải nhiệt."
+  },
+  "00214": {
+    "name": "Yến mạch ngâm sữa qua đêm Overnight Oats hạt chia và việt quất tươi",
+    "tagline": "Yến mạch cán dẹt ngâm sữa hạnh nhân mềm mịn phủ quả việt quất chua ngọt và si-rô thùa lành mạnh."
+  },
+  "00215": {
+    "name": "Cháo bí đỏ ngọt bùi tự nhiên thả viên bánh nếp dẻo thơm",
+    "tagline": "Vị ngọt thanh thuần khiết từ bí đỏ chín vàng hòa quyện viên nếp tròn dẻo dai làm ấm êm dạ dày."
+  },
+  "00216": {
+    "name": "Nước cơm cháy vạc gang Sungnyung thơm bùi ăn kèm mắm mực cay",
+    "tagline": "Cơm cháy giòn đáy nồi chan nước sôi thơm lừng bùi bùi ăn cùng miếng mắm mực cay mặn đưa miệng."
+  },
+  "00217": {
+    "name": "Nước ép xanh thanh lọc cơ thể cần tây cải xoăn táo xanh và chanh tươi",
+    "tagline": "Ép lạnh 100% rau củ hữu cơ không pha nước mang lại nguồn vitamin tươi mát dồi dào cho buổi sáng."
+  },
+  "00218": {
+    "name": "Sinh tố đạm Whey Protein sô-cô-la 30g kèm một quả chuối chín mọng",
+    "tagline": "Bột đạm whey isolate lắc sữa hạnh nhân không đường bổ sung năng lượng nhanh chóng cho người tập luyện."
+  },
+  "00219": {
+    "name": "Bánh mì lúa mạch đen phết bơ đậu phộng nguyên chất và chuối thái lát",
+    "tagline": "Lát bánh nướng giòn phết bơ đậu phộng không đường béo ngậy xếp chuối ngọt và hạt chia bổ dưỡng."
+  },
+  "00220": {
+    "name": "Cháo bào ngư gan xanh Jeonbokjuk xào dầu mè thơm lừng bổ dưỡng",
+    "tagline": "Thịt bào ngư tươi thái hạt lựu xào cùng gan béo ngậy tạo nên sắc xanh ngọc quý giá vị thuốc của biển."
+  },
+  "00221": {
+    "name": "Cháo thịt bò băm nấu nấm hương và cà rốt bồi bổ sức khỏe",
+    "tagline": "Thịt nạc bò mềm ngọt cùng hương nấm hương phảng phất ngấm sâu vào từng hạt gạo ninh nhừ dễ tiêu hóa."
+  },
+  "00222": {
+    "name": "Cháo sữa mè đen cung đình Heukimja Tarakjuk thanh tao béo ngậy",
+    "tagline": "Món cháo hoàng gia triều Joseon từ mè đen rang thơm bùi quấy cùng gạo nếp và sữa tươi bổ dưỡng."
+  },
+  "00223": {
+    "name": "Bánh mì mềm kẹp salad trứng gà nghiền sốt mayonnaise béo bùi (2 cái)",
+    "tagline": "Lòng đỏ trứng gà bùi bùi quyện mayonnaise và mù tạt vàng hạt kẹp đầy đặn trong ổ bánh mì tròn."
+  },
+  "00224": {
+    "name": "Một quả táo giòn ngọt ăn cả vỏ kèm 15 hạt hạnh nhân sấy mộc",
+    "tagline": "Chất xơ tự nhiên từ quả táo tươi giòn kết hợp vị bùi béo giòn rụm của hạnh nhân nạp năng lượng lành mạnh."
+  },
+  "00225": {
+    "name": "Ly sữa đậu nành nguyên chất không đường kèm 2 quả trứng luộc lòng đào",
+    "tagline": "Vị ngọt bùi nguyên bản của sữa đậu nành sánh mịn cùng lòng đỏ trứng dẻo quánh giàu protein buổi sáng."
+  },
+  "00226": {
+    "name": "Bánh mì men chua Sourdough nướng phết bơ tươi nghiền ớt vỡ mở mặt",
+    "tagline": "Bơ sáp nghiền tươi mọng chanh tươi muối biển phết dày trên lát bánh mì nướng giòn rưới dầu ô-liu."
+  },
+  "00227": {
+    "name": "Trứng bác mềm mượt bơ Pháp kiểu khách sạn kèm cà chua bi nướng than",
+    "tagline": "Khuấy đều trứng cùng kem tươi và bơ lạt trên lửa nhỏ tạo nên lớp trứng xốp mềm như dải lụa vàng."
+  },
+  "00228": {
+    "name": "Trứng chần sốt cà chua cay Shakshuka Địa Trung Hải phô mai Feta",
+    "tagline": "Hai quả trứng lòng đào nổi bồng bềnh trong chảo sốt cà chua thơm ớt chuông thì là và phô mai mặn."
+  },
+  "00229": {
+    "name": "Bánh mì nướng kiểu Pháp French Toast ngâm sữa trứng sốt si-rô phong",
+    "tagline": "Bánh mì nhúng hỗn hợp sữa trứng vani rán vàng bơ bên ngoài giòn bên trong mềm ẩm rắc bột quế thơm nức."
+  },
+  "00230": {
+    "name": "Canh giá đỗ cá minh thái khô Hwangtae giải rượu thanh mát ấm bụng",
+    "tagline": "Khô cá xé sợi xào dầu mè ninh cùng giá đỗ củ cải tạo nên nước canh ngọt thanh mát gan giã rượu tức thì."
+  },
+  "00231": {
+    "name": "Canh đậu hũ non nước trong Chodang Gangneung chấm nước tương ớt",
+    "tagline": "Đậu hũ non đông bằng nước biển sâu hạt đậu ngọt lành thanh khiết chấm nước tương ớt tỏi đậm vị."
+  },
+  "00232": {
+    "name": "Sữa ngũ cốc dinh dưỡng Seonsik từ hạt lúa mạch mè đen yến mạch ấm nóng",
+    "tagline": "Bột ngũ cốc dưỡng sinh theo phương pháp cổ truyền hòa trong sữa yến mạch ấm thơm lành cho dạ dày."
+  },
+  "00233": {
+    "name": "Tô sinh tố quả Acai Bowl kèm chuối granola và hạt chia nhiệt đới",
+    "tagline": "Quả acai tím thẫm xay mịn sánh đặc như kem phủ trái cây tươi mát và ngũ cốc nướng giòn rụm vui miệng."
+  },
+  "00234": {
+    "name": "Cháo yến mạch nấu ức gà xé cà rốt và bí ngòi thanh đạm bổ dưỡng",
+    "tagline": "Thay thế gạo bằng yến mạch nấu chậm trong nước luộc gà cùng thịt ức mềm tơi lý tưởng cho vóc dáng thon gọn."
+  },
+  "00235": {
+    "name": "Nước ép thanh lọc ABC táo củ dền cà rốt tươi tăng cường đề kháng",
+    "tagline": "Tỉ lệ vàng giữa táo củ dền và cà rốt giàu chất chống oxy hóa giúp da sáng khỏe và thanh lọc nội tạng."
+  },
+  "00236": {
+    "name": "Bánh mì English Muffin kẹp thịt giăm bông Canada phô mai và trứng chiên",
+    "tagline": "Bánh muffin tròn nướng xốp kẹp lát phô mai cheddar tan chảy thịt xông khói và trứng chiên thơm nức."
+  },
+  "00237": {
+    "name": "Nửa quả bưởi chùm đỏ Ruby tươi kèm tô sữa chua Hy Lạp sánh đặc",
+    "tagline": "Tép bưởi hồng mọng nước chua ngọt nhẹ thưởng thức cùng sữa chua Hy Lạp đặc quánh giàu đạm không đường."
+  },
+  "00238": {
+    "name": "Cháo hạt thông Gapyeong Jatjuk thanh tao thơm bùi vị cung đình",
+    "tagline": "Hạt thông rừng Gapyeong xay nhuyễn quấy cùng bột nếp sánh mịn món cháo bồi bổ thượng hạng xưa kia."
+  },
+  "00239": {
+    "name": "Khoai tây mùa mới Haenam hấp bở tơi chấm muối biển kèm ly sữa tươi",
+    "tagline": "Khoai tây nóng hổi nứt vỏ bở tung chấm tí muối hột rồi hớp ngụm sữa tươi mát lạnh ngọt bùi dân dã."
+  },
+  "00240": {
+    "name": "Bánh mì tròn Bagel nướng phết sốt kem phô mai hành lá thơm lừng",
+    "tagline": "Vỏ bagel nướng giòn ruột dai mềm phết ngập lớp kem phô mai mịn mượt trộn hành lá tươi cay dịu thơm nồng."
+  },
+  "00241": {
+    "name": "Cháo đậu đỏ Patjuk ngày đông chí nấu cùng viên bánh nếp tròn dẻo",
+    "tagline": "Hạt đậu đỏ ninh nhừ xay mịn nấu sánh đặc thả những viên nếp dẻo thơm xua tan giá lạnh mùa đông."
+  },
+  "00242": {
+    "name": "Cháo yến mạch nóng nấu sữa thơm mùi quế mật ong rừng và hạt óc chó",
+    "tagline": "Bát yến mạch ấm sực tỏa hương bột quế ấm nồng quyện mật ong ngọt ngào và nhân óc chó giòn bùi."
+  },
+  "00243": {
+    "name": "Cơm nắm tam giác Samgak Kimbap nhân cá ngừ sốt mayonnaise béo bùi",
+    "tagline": "Lá rong biển giòn tan bọc lớp cơm dẻo ôm trọn nhân cá ngừ trộn sốt mayonnaise béo ngậy món số một cửa hàng tiện lợi."
+  },
+  "00244": {
+    "name": "Cơm nắm tam giác Samgak Kimbap cơm trộn Jeonju sốt ớt bò băm cay",
+    "tagline": "Cơm đỏ thơm lừng dầu mè trộn tương ớt thịt bò băm xào đậm đà kích thích vị giác trong từng miếng cắn."
+  },
+  "00245": {
+    "name": "Cơm nắm tam giác Samgak Kimbap nhân gà cay Buldak sốt kem béo",
+    "tagline": "Vị cay bỏng rát từ sốt gà cay Buldak được xoa dịu hoàn hảo nhờ lớp sốt mayonnaise béo ngậy thơm ngon."
+  },
+  "00246": {
+    "name": "Cơm nắm tam giác Samgak Kimbap cơm chiên kim chi kẹp thịt hộp Spam",
+    "tagline": "Miếng thịt hộp Spam mặn mà kẹp chặt giữa lớp cơm chiên kim chi chua cay thơm lừng bắt mắt."
+  },
+  "00247": {
+    "name": "Cơm nắm tam giác Samgak Kimbap nhân trứng cá minh thái sốt mayonnaise",
+    "tagline": "Trứng cá minh thái mằn mặn nổ lách tách hòa quyện sốt mayonnaise sánh mịn chuẩn vị cơm nắm Nhật Bản."
+  },
+  "00248": {
+    "name": "Cơm nắm tam giác Samgak Kimbap bò nướng Bulgogi khói than Eonyang",
+    "tagline": "Thịt bò ướp sốt tương ngọt nướng đượm hương khói than băm nhỏ đầy đặn trong nắm cơm dẻo thơm."
+  },
+  "00249": {
+    "name": "Cơm nắm tam giác Samgak Kimbap nhân đôi cá ngừ sốt béo và kim chi xào",
+    "tagline": "Sự kết hợp hoàn mỹ giữa cá ngừ mayonnaise béo ngậy và kim chi xào chua cay không hề gây ngấy."
+  },
+  "00250": {
+    "name": "Cơm nắm tam giác Samgak Kimbap cá ngừ trộn ớt hiểm Cheongyang cay nồng",
+    "tagline": "Ớt xanh Cheongyang băm nhỏ xào cùng cá ngừ tạo nên vị cay thanh sảng khoái đánh thức mọi giác quan."
+  },
+  "00251": {
+    "name": "Cơm nắm tam giác Samgak Kimbap thịt heo xào cay Jeyuk đậm đà",
+    "tagline": "Thịt heo xào tương ớt lửa lớn đượm khói nhồi đẫm trong nắm cơm dẻo mang hương vị quán cơm bình dân."
+  },
+  "00252": {
+    "name": "Cơm nắm tam giác Samgak Kimbap phủ nguyên lát Spam sốt tương ngọt",
+    "tagline": "Lát thịt hộp Spam dày dặn quét sốt teriyaki óng ả phủ trọn một mặt cơm nắm thơm lừng đậm đà."
+  },
+  "00253": {
+    "name": "Mì ly lẩu bò cay Nongshim Yukgaejang sợi mảnh chả cá xoắn hồng",
+    "tagline": "Hương vị hoài niệm với sợi mì mỏng chín nhanh trong 3 phút ngập trong nước dùng bò cay thanh dễ chịu."
+  },
+  "00254": {
+    "name": "Mì ly nhỏ Shin Ramyun Nongshim súp nấm hương và thịt bò cay nồng",
+    "tagline": "Sợi mì dai giòn trứ danh cùng lát nấm hương và nước dùng thịt bò cay sắc nét chuẩn vị mì cay quốc dân."
+  },
+  "00255": {
+    "name": "Mì ly lớn Ottogi mè rang trứng xốp và dầu mè tía tô thơm nức",
+    "tagline": "Khối trứng sấy nở bồng bềnh trong nước sôi rưới gói dầu mè thơm phức làm nên bát mì đậm đà ấm bụng."
+  },
+  "00256": {
+    "name": "Mì tô xào khô Samyang Buldak sốt gà cay nảy lửa mè rang rong biển",
+    "tagline": "Chắt nước rồi trộn gói sốt đen cay xé lưỡi cùng mè rang và vụn rong biển tạo nên cơn sốt ẩm thực toàn cầu."
+  },
+  "00257": {
+    "name": "Mì tô lớn Nongshim Udon chả cá chiên giòn vụn nước dùng dashi thanh",
+    "tagline": "Nước dùng tương cá ngừ dashi thanh ngọt điểm xuyết vụn tempura giòn tan ngậm nước súp mềm ngọt."
+  },
+  "00258": {
+    "name": "Mì hộp vuông Paldo Doshirak hoài niệm với nước hầm bò thanh ngọt",
+    "tagline": "Thiết kế hộp chữ nhật kinh điển từ năm 1986 với sợi mì mảnh và nắp mở rộng tiện lợi ấm áp thân quen."
+  },
+  "00259": {
+    "name": "Mì tô lớn Nongshim Neoguri sợi tròn dày hải sản cay kèm lá rong biển",
+    "tagline": "Sợi mì udon to tròn dai ngon nấu cùng lá rong biển Wando giòn ngọt và miếng chả cá hình chú chồn đáng yêu."
+  },
+  "00260": {
+    "name": "Mì ly lớn Ottogi Jin Ramen vị cay nước hầm xương bò đậm vị",
+    "tagline": "Sự cân bằng hoàn hảo giữa sợi mì dẻo dai và nước súp thịt bò ớt cay ăn cùng cơm trắng ngon số một."
+  },
+  "00261": {
+    "name": "Mì tô lớn GS25 Omori canh kim chi chua cay có gói kim chi muối thật",
+    "tagline": "Không dùng kim chi khô gói kim chi ủ 3 năm thật đem lại vị nước canh kim chi đậm đà chuẩn vị quê nhà."
+  },
+  "00262": {
+    "name": "Mì tô xào gà cay kem phô mai Samyang Carbo Buldak màu hồng béo ngậy",
+    "tagline": "Sự kết hợp thần thánh giữa bột kem phô mai béo ngậy và sốt gà cay mang đến hương vị mì Rosé quyến rũ."
+  },
+  "00263": {
+    "name": "Mì tô nắp đĩa lớn Paldo Wang Ttukkeong sợi dai nước súp cay nồng",
+    "tagline": "Chiếc nắp nhựa rộng làm đĩa gắp mì làm nguội đặc trưng cùng lượng mì đầy ắp và nước dùng cay đậm đà."
+  },
+  "00264": {
+    "name": "Mì ly nhỏ Nongshim Chapagetti Beombeok trộn tương đen đậm đặc",
+    "tagline": "Nấu xăm xắp nước không cần chắt hòa tan bột tương đen sền sệt xúc từng thìa mì đậm đà thơm bùi."
+  },
+  "00265": {
+    "name": "Xiên xúc xích xông khói Frank nướng than hoa cửa hàng tiện lợi",
+    "tagline": "Quay 30 giây trong lò vi sóng là có ngay thanh xúc xích thơm lừng khói than mọng nước giòn sần sật."
+  },
+  "00266": {
+    "name": "Xiên xúc xích heo tỏi Uiseong giòn vỏ đậm vị cửa hàng tiện lợi",
+    "tagline": "Hơn 90% thịt heo giòn sần sật thơm nồng tỏi Uiseong cắn ngập miệng vỏ nổ giòn tan ngon lành."
+  },
+  "00267": {
+    "name": "Cơm hộp Bento GS25 Hyeja thịt heo xào cay 7 món trứng ốp la",
+    "tagline": "Biểu tượng cơm hộp bình dân chất lượng với cơm gạo lứt trứng ốp lòng đào và đĩa thịt heo xào cay đầy đặn."
+  },
+  "00268": {
+    "name": "Cơm hộp Bento CU Baek Jong-won đại tiệc thịt nướng và trứng cuộn",
+    "tagline": "Công thức thịt nướng sốt tương thịt viên nướng và trứng cuộn vàng óng thơm ngon của chuyên gia ẩm thực."
+  },
+  "00269": {
+    "name": "Bánh mì gối kẹp salad trứng nghiền béo ngậy cắt bỏ viền tiện lợi",
+    "tagline": "Bánh mì sữa mềm mượt cắt viền kẹp chặt lớp trứng gà nghiền mayonnaise béo mịn tan ngay trong miệng."
+  },
+  "00270": {
+    "name": "Burger bò hai tầng phô mai sốt tương ngọt Bulgogi tiệm tiện lợi",
+    "tagline": "Bánh mì rắc mè mềm thơm ôm trọn hai miếng bò áp chảo phô mai chảy mềm và dưa chuột muối giòn tan."
+  },
+  "00271": {
+    "name": "Đùi gà hun khói gỗ sồi khổng lồ tiện lợi đậm đà ăn đêm",
+    "tagline": "Chiếc đùi gà cỡ lớn thơm nức mùi khói gỗ sồi thịt mềm ẩm mọng nước gặm trực tiếp cực kỳ đã miệng."
+  },
+  "00272": {
+    "name": "Khay bắp ngọt đút lò phô mai Mozzarella Corn Cheese tiệm tiện lợi",
+    "tagline": "Bắp ngọt giòn quyện sốt mayonnaise và phô mai mozzarella kéo sợi nướng nóng hổi như quán nhậu."
+  },
+  "00273": {
+    "name": "Cà phê túi hương hạt phỉ Hazelnut rót ly đá mát lạnh tiệm tiện lợi",
+    "tagline": "Cắt miệng túi rót dòng cà phê thơm ngát hương hạt phỉ vào ly đầy ắp đá viên mát lạnh xua tan nóng nực."
+  },
+  "00274": {
+    "name": "Bánh mì mềm nhân kem sữa tươi ngập tràn Yonsei Milk Cream Bread",
+    "tagline": "Chiếc bánh mì làm mưa làm gió với lớp vỏ mỏng dai ôm trọn hơn 80% kem tươi béo ngậy ngọt dịu mát lạnh."
+  },
+  "00275": {
+    "name": "Sữa tươi hương chuối Binggrae hũ tròn màu vàng ống hút xanh lá",
+    "tagline": "Hương vị tuổi thơ 50 năm qua với sữa béo ngọt dịu hương chuối ngát thơm cắm ống hút nhâm nhi sau khi tắm."
+  },
+  "00276": {
+    "name": "Nước gạo rang lên men Sikhye ướp lạnh túi đá giải nhiệt truyền thống",
+    "tagline": "Nước mầm lúa mạch ngọt mát thanh khiết điểm xuyết hạt gạo lắng dưới đáy giúp thanh lọc tiêu hóa sảng khoái."
+  },
+  "00277": {
+    "name": "Hủ tiếu xào Pad Thai Kung tôm sú đậu phộng giá đỗ chợ đêm Bangkok",
+    "tagline": "Bánh phở xào sốt me chua ngọt tôm sú tươi trứng gà đậu phộng rang giã nhỏ vắt chanh thơm ngát đường phố Thái."
+  },
+  "00278": {
+    "name": "Bánh mì kẹp thịt heo nướng pa-tê gan đồ chua và ngò rí kiểu Việt",
+    "tagline": "Vỏ bánh mì giòn rụm ruột mềm kẹp pa-tê gan béo ngậy thịt heo nướng thơm lừng đồ chua giòn ngọt sốt cay."
+  },
+  "00279": {
+    "name": "Bánh xếp nướng Quesadilla thịt bò phô mai Mexico kèm bơ nghiền",
+    "tagline": "Vỏ bánh tortilla nướng xém phô mai chảy tràn kẹp thịt bò băm cắt miếng tam giác chấm sốt kem chua và bơ sáp."
+  },
+  "00280": {
+    "name": "Tacos bò hầm Birria Mexico chấm súp Consomé thịt hầm (3 cái)",
+    "tagline": "Vỏ bánh ngô nhúng mỡ bò nướng giòn kẹp nạm bò xé mềm ngò rí nhúng ngập trong bát nước súp consomé sánh đỏ."
+  },
+  "00281": {
+    "name": "Bánh quẩy Churros Tây Ban Nha rắc đường quế kèm sô-cô-la nóng (5 cái)",
+    "tagline": "Bánh quẩy sao vàng giòn rụm bên ngoài dai mềm bên trong phủ đường bột quế chấm ngập sốt sô-cô-la đen đặc quánh."
+  },
+  "00282": {
+    "name": "Bánh cuộn Pita Gyros thịt cừu nướng Hy Lạp kèm sốt sữa chua dưa leo",
+    "tagline": "Thịt cừu nướng xiên quay đượm khói cuộn trong bánh pita dày xốp cùng khoai tây chiên cà chua và sốt tzatziki mát lạnh."
+  },
+  "00283": {
+    "name": "Bánh mì kẹp cá thu nướng Balik Ekmek cầu Galata Istanbul vắt chanh",
+    "tagline": "Phi-lê cá thu béo ngậy áp chảo rắc muối tiêu kẹp giữa bánh mì giòn rụm thêm hành tây và vắt đẫm chanh tươi."
+  },
+  "00284": {
+    "name": "Kem sữa trâu Kaymak Thổ Nhĩ Kỳ ăn kèm mật ong rừng và bánh mì Pide",
+    "tagline": "Hương vị thiên đường với lớp váng sữa trâu béo ngậy quánh dẻo chan mật ong rừng vàng óng quết bánh mì ấm."
+  },
+  "00285": {
+    "name": "Gà rán khổng lồ Jipai chợ đêm Đài Loan rắc bột muối tiêu ngũ vị",
+    "tagline": "Miếng ức gà đập dẹp to bản ướp ngũ vị hương lăn bột năng chiên giòn rụm thơm nức mũi đựng trong túi giấy."
+  },
+  "00286": {
+    "name": "Bánh tart trứng nghìn lớp Hồng Kông nhân kem trứng sữa mềm mượt (3 cái)",
+    "tagline": "Hàng trăm lớp vỏ bánh giòn tan vụn vỡ ôm trọn lớp nhân trứng sữa vàng ươm núng nính ngọt dịu."
+  },
+  "00287": {
+    "name": "Cơm chiên Nasi Goreng Indonesia tôm tươi sốt tương ngọt và trứng ốp",
+    "tagline": "Hạt cơm xào săn đẫm sốt tương ngọt kecap manis sốt ớt sambal tôm tươi giòn rụm ăn cùng trứng ốp la lòng đào."
+  },
+  "00288": {
+    "name": "Xiên thịt gà nướng Satay Indonesia thơm khói kèm sốt tương đậu phộng",
+    "tagline": "Thịt gà ướp sả nghệ nướng than hoa thơm lừng chấm ngập trong nước sốt đậu phộng giã mịn cay bùi béo ngậy."
+  },
+  "00289": {
+    "name": "Bánh mì nướng giòn phết mứt Kaya bơ lạnh Singapore kèm trứng chần",
+    "tagline": "Bánh mì giòn tan phết mứt dừa lá dứa kẹp tảng bơ lạnh thơm ngậy chấm vào chén trứng chần tiêu đen nước tương."
+  },
+  "00290": {
+    "name": "Cua sốt ớt Chilli Crab Singapore sốt trứng cay kèm bánh bao chiên giòn",
+    "tagline": "Càng cua biển chắc nịch đẫm trong sốt cà chua ớt trứng đánh sánh đỏ quánh chấm bánh bao chiên giòn ngọt đậm đà."
+  },
+  "00291": {
+    "name": "Kem Gelato thủ công La Mã 2 viên vị hạt dẻ cười Bronte và gạo sữa Riso",
+    "tagline": "Chất kem dẻo mịn ít bọt khí đậm vị hạt dẻ cười đảo Sicily bùi béo hòa quyện từng hạt gạo sữa dẻo thơm nước Ý."
+  },
+  "00292": {
+    "name": "Cơm gà và thịt cừu nướng Halal Guys phố 53 New York sốt trắng đặc trưng",
+    "tagline": "Cơm vàng nghệ tây phủ thịt gà xé và thịt cừu xào đẫm lớp sốt trắng thần thánh và tương ớt đỏ cay nồng."
+  },
+  "00293": {
+    "name": "Bánh viên bạch tuộc Takoyaki Osaka 8 viên cá bào Katsuobushi nhảy múa",
+    "tagline": "Vỏ ngoài giòn ruột trong mềm mịn nhân bạch tuộc giòn sần sật rưới sốt teriyaki mayonnaise và cá bào mỏng."
+  },
+  "00294": {
+    "name": "Bánh xèo Okonomiyaki Osaka thịt ba chỉ bắp cải tôm tươi áp chảo",
+    "tagline": "Bánh xèo dày dặn nướng chín vàng trên bàn nướng phủ sốt mặn ngọt mayonnaise zíc zắc và rong biển xanh."
+  },
+  "00295": {
+    "name": "Thịt cừu nướng chảo gang vòm Jingisukan Sapporo cùng giá đỗ hành boa-rô",
+    "tagline": "Thịt cừu tươi nướng trên chảo gang hình chiếc nón sắt mỡ thịt chảy xuống nướng chín rau củ ngọt lịm."
+  },
+  "00296": {
+    "name": "Cá tuyết tẩm bột bia chiên giòn Fish and Chips truyền thống Anh Quốc",
+    "tagline": "Phi-lê cá tuyết lăn bột bia chiên vàng ươm giòn rụm bên trong mọng nước ăn cùng khoai tây chiên dày và sốt tartar."
+  },
+  "00297": {
+    "name": "Tôm rim dầu ô-liu tỏi ớt Gambas al Ajillo niêu đất kèm bánh mì nướng",
+    "tagline": "Dầu ô-liu sôi sùng sục thơm nức tỏi phi và ớt khô ngấm vào từng con tôm giòn ngọt chấm bánh mì baguette giòn rụm."
+  },
+  "00298": {
+    "name": "Bánh phô mai nướng New York Cheesecake đậm đà béo ngậy một lát",
+    "tagline": "Lớp bánh kem phô mai nướng đậm đặc sánh mịn không bột tan ngay nơi đầu lưỡi trên đế bánh quy bơ giòn rụm."
+  },
+  "00299": {
+    "name": "Khay bánh ngô chiên giòn Nachos sốt phô mai Cheddar chảy và ớt Jalapeño",
+    "tagline": "Miếng bánh ngô tam giác giòn rụm phủ đẫm sốt phô mai vàng óng ấm nóng ớt jalapeño cay the và sốt salsa tươi mát."
+  },
+  "00300": {
+    "name": "Bánh táo nướng kiểu Mỹ American Apple Pie đan lưới kem vani một lát",
+    "tagline": "Vỏ bánh ngàn lớp thơm bơ giòn rụm bọc nhân táo ngọt ninh mềm mùi bột quế thơm nức ăn cùng viên kem vani."
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "totalLevels": 1001,
+  "minLevel": 0,
+  "maxLevel": 1000,
+  "realCount": 501,
+  "fictionCount": 500,
+  "badZoneCount": 500,
+  "goodZoneCount": 501,
+  "tiersCount": 20,
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "태초의 밑바닥·지옥 노역",
+      "range": [
+        0,
+        49
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 2,
+      "name": "고대·중세 오물·극한 잡역",
+      "range": [
+        50,
+        99
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 3,
+      "name": "방구석 골방백수·잉여 인간",
+      "range": [
+        100,
+        149
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 4,
+      "name": "기괴한 실험체·인간 샌드백",
+      "range": [
+        150,
+        199
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 5,
+      "name": "판타지·애니 속 최하층 잡졸",
+      "range": [
+        200,
+        249
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 6,
+      "name": "극한 기상·재난 현장 중계",
+      "range": [
+        250,
+        299
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 7,
+      "name": "황당한 길거리 장사·무모한 상인",
+      "range": [
+        300,
+        349
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 8,
+      "name": "영혼 갈리는 블랙기업·야근 지옥",
+      "range": [
+        350,
+        399
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 9,
+      "name": "아찔한 고소작업·극한 수리공",
+      "range": [
+        400,
+        449
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 10,
+      "name": "폭망의 끝자락·아슬아슬 생계형",
+      "range": [
+        450,
+        499
+      ],
+      "zone": "BAD",
+      "zoneLabel": "폭망 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 11,
+      "name": "세상에 이런 꿀직업이·이색 억대 호사",
+      "range": [
+        500,
+        549
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 12,
+      "name": "대박 장사꾼·미식·럭셔리 투어리스트",
+      "range": [
+        550,
+        599
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 13,
+      "name": "괴짜 천재·크립토·실리콘밸리 승부사",
+      "range": [
+        600,
+        649
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 14,
+      "name": "월드클래스 스타·저작권 연금·스포츠 제왕",
+      "range": [
+        650,
+        699
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 15,
+      "name": "초호화 슈퍼리치·억만장자 VIP 전담 디렉터",
+      "range": [
+        700,
+        749
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 16,
+      "name": "월스트리트·빅테크·명품 제국 최고 권력자",
+      "range": [
+        750,
+        799
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 17,
+      "name": "글로벌 카르텔·다이아몬드·석유·카지노 대부",
+      "range": [
+        800,
+        849
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 18,
+      "name": "국가급 랜드마크·세계 경제를 쥐락펴락하는 거물",
+      "range": [
+        850,
+        899
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 19,
+      "name": "지구 최정상 부호·인류 미래 기술 독점 제왕",
+      "range": [
+        900,
+        949
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 50
+    },
+    {
+      "tier": 20,
+      "name": "우주 개척·은하계·다중우주 시공간 창조 아키텍트",
+      "range": [
+        950,
+        1000
+      ],
+      "zone": "GOOD",
+      "zoneLabel": "대박 직업",
+      "itemCount": 51
+    }
+  ],
+  "categoryBreakdown": {
+    "HISTORICAL_EXTREME": 50,
+    "FANTASY_MEDIA_JOB": 200,
+    "BACKSU_NEETS": 50,
+    "BIZARRE_REAL_JOB": 125,
+    "EXTREME_JOURNALISM": 50,
+    "WEIRD_BIZ_TRADE": 100,
+    "TOURISM_EVENT": 50,
+    "TYCOON_LUXURY": 175,
+    "HACKER_UNDERGROUND": 50,
+    "EARTH_MEGAPROJECT": 100,
+    "SPACE_SCIFI_JOB": 26,
+    "MULTIVERSE_GOD": 25
+  },
+  "landmarkSamples": {
+    "level0": "고대 로마 콜로세움 맹수 우리 맨손 배설물 청소부",
+    "level100": "10년 차 골방 이불 속 발가락 리모컨 조작 장인",
+    "level250": "대설특보 광화문에서 머리 위 눈이 30cm 쌓인 채 생방송 인터뷰하는 박대기 기자",
+    "level600": "비트코인 8조 원을 해킹해 남태평양 무인도 해변에서 코코넛 마시는 전설의 유령 개발자",
+    "level999": "100조 개의 평행우주 시나리오를 집필하고 빅뱅 스위치를 누르는 다중우주 총감독",
+    "level1000": "다중우주 빅뱅 시뮬레이션 및 오메가 포인트 영생 클라우드 총괄 창조 아키텍트"
+  },
+  "generatedAt": "2026-11-15T15:20:34.486Z"
+}

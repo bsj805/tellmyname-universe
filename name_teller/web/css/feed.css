@@ -1,0 +1,230 @@
+/* web/css/feed.css — 스크롤 다운 무한 이름 피드 스타일 */
+
+#feed-root {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+  box-sizing: border-box;
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.feed-header {
+  text-align: center;
+  padding: 24px 0 18px;
+  border-top: 1px dashed var(--line, #E7E5E4);
+  margin-top: 12px;
+}
+
+.feed-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--accent-soft, #FEF3C7);
+  color: var(--accent, #D97706);
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.feed-title {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink, #1C1917);
+}
+
+.feed-desc {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted, #78716C);
+}
+
+.feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.feed-item-card {
+  background: var(--card, #FFFFFF);
+  border: 1px solid var(--line, #E7E5E4);
+  border-radius: 18px;
+  padding: 18px 18px 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feed-item-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  border-color: rgba(217, 119, 6, 0.4);
+}
+
+.feed-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.feed-item-name-group {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.feed-item-name {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink, #1C1917);
+}
+
+.feed-item-hanja {
+  font-size: 0.95rem;
+  color: var(--accent, #D97706);
+  font-weight: 600;
+}
+
+.feed-item-tag {
+  font-size: 0.72rem;
+  background: #F5F5F4;
+  color: #78716C;
+  padding: 2px 7px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.feed-item-select-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  background: #FAF7F2;
+  border: 1px solid var(--line, #E7E5E4);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink, #1C1917);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.feed-item-card:hover .feed-item-select-btn {
+  background: var(--ink, #1C1917);
+  color: #FFFFFF;
+  border-color: var(--ink, #1C1917);
+}
+
+.feed-item-meaning {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #44403C;
+}
+
+.feed-item-syls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.feed-syl-pill {
+  font-size: 0.74rem;
+  background: #FDFBF7;
+  border: 1px solid #EAE6DF;
+  color: #78716C;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.feed-sentinel {
+  padding: 24px 0 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted, #78716C);
+}
+
+.feed-loading-spinner {
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* ---------- 인피드 스폰서 광고 카드 ---------- */
+.feed-ad-card {
+  cursor: default;
+  background: #FAF7F2;
+  border: 1px dashed rgba(217, 119, 6, 0.35);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  padding: 14px 16px;
+}
+
+.feed-ad-card:hover {
+  transform: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  border-color: rgba(217, 119, 6, 0.35);
+}
+
+.feed-ad-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.feed-ad-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(28, 25, 23, 0.06);
+}
+
+.feed-ad-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #B45309;
+  background: #FEF3C7;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.feed-ad-desc {
+  font-size: 11px;
+  color: #78716C;
+}
+
+.feed-ad-body {
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid rgba(28, 25, 23, 0.04);
+  overflow: hidden;
+}
+
+.feed-ad-body ins.adsbygoogle {
+  width: 100%;
+  min-height: 120px;
+}

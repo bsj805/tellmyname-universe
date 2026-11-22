@@ -1,0 +1,402 @@
+{
+ "00101": {
+  "name": "Mie Gelas Instan dan Hotbar 30 Detik Ha Jung-woo di Film The Yellow Sea",
+  "tagline": "Momen legendaris Ha Jung-woo melahap rakus mie instan panas mendidih dan mengunyah hotbar sosis ikan di toserba."
+ },
+ "00102": {
+  "name": "Mala Longxia (Lobster Air Tawar Pedas) Santapan Jang Chen di Film The Outlaws",
+  "tagline": "Hidangan mala pedas minyak cabai merah yang dinikmati Jang Chen sambil memelintir kepala lobster berkulit tebal."
+ },
+ "00103": {
+  "name": "Ayam Utuh Bumbu Yangnyeom Manis Klasik dan Salad Kol Drama Reply 1988",
+  "tagline": "Ayam goreng berselimut saus manis sirup beras jadul yang dibawa pulang ayah berbungkus kantong kuning nostalgia."
+ },
+ "00104": {
+  "name": "Kantong Daging Raksasa Berkuah Gurih yang Ditelan Ayah di Spirited Away",
+  "tagline": "Daging misterius kenyal bergelatin yang saat ditusuk sumpit memancarkan kuah kaldu melimpah hingga ditelan bulat."
+ },
+ "00105": {
+  "name": "Telur Mata Sapi dan Daging Bacon Tebal Panggang Calcifer di Howl's Moving Castle",
+  "tagline": "Empat lembar bacon tebal 1 cm dan enam butir telur ceplok yang dipanggang api iblis Calcifer di atas wajan besi."
+ },
+ "00106": {
+  "name": "Casserole Sayuran Berlapis Ratatouille Rumahan Penggugah Haru Kritikus Ego",
+  "tagline": "Irisan tipis zukini, terong, dan tomat yang dipanggang melingkar indah di atas saus piperade khas koki Remy."
+ },
+ "00107": {
+  "name": "Milkshake Vanila 5 Dolar Vincent Vega yang Dipuji John Travolta di Pulp Fiction",
+  "tagline": "Milkshake vanila kental luar biasa bertabur ceri merah segar yang membuat Vincent Vega berdecak kagum."
+ },
+ "00108": {
+  "name": "Paket Chimaek Ayam Goreng dan Bir Kaleng Salju Pertama Cheon Song-yi",
+  "tagline": "Sensasi romansa musim dingin Cheon Song-yi dalam My Love from the Star yang menyulut demam chimaek ke seluruh Asia."
+ },
+ "00109": {
+  "name": "Spageti Bakso Saus Tomat Gravy Racikan Clemenza untuk Mafia di The Godfather",
+  "tagline": "Saus pasta legendaris mafia berlumur minyak zaitun, bawang putih harum, sosis italia, dan bakso daging cincang."
+ },
+ "00110": {
+  "name": "Sandwich Keju Panggang Leleh Larut Malam Andy di The Devil Wears Prada",
+  "tagline": "Roti panggang mentega keemasan dengan keju gurih meleleh yang disiapkan penuh perhatian untuk Andy di larut malam."
+ },
+ "00111": {
+  "name": "Sup Kepala Sapi Hanwoo Kaldu Tulang Sumpah Persaudaraan di Film New World",
+  "tagline": "Mangkuk tembikar mendidih berisi potongan daging kepala sapi empuk dan kulit kenyal gurih pereda mabuk para gangster."
+ },
+ "00112": {
+  "name": "Mie Instan Kuah Hangat dengan Irisan Ham Tebal dan Telur Rebus Ponyo",
+  "tagline": "Kepulan uap wangi setelah tutup mangkok dibuka tiga menit, memperlihatkan selembar ham merah muda dan telur rebus."
+ },
+ "00113": {
+  "name": "Telur Panggang Batu Sauna Kereta Api Lahapan Kim Da-mi di Film The Witch",
+  "tagline": "Telur cokelat kenyal gurih hasil panggang batu elvan sauna yang dilahap habis sepuluh butir di dalam kereta api."
+ },
+ "00114": {
+  "name": "Irisan Buah Persik Putih Manis Kupas Suguhan Kim Tae-ri di The Handmaiden",
+  "tagline": "Buah persik putih matang musim panas yang lembut memikat dengan tetesan sari buah manis segar di sela jemari."
+ },
+ "00115": {
+  "name": "Onigiri Segitiga Nasi Hangat Isi Plum Asin (Umeboshi) di Kamome Diner",
+  "tagline": "Nasi hangat kepal bertabur garam dengan isian umeboshi berbalut rumput laut renyah lambang ketenangan jiwa."
+ },
+ "00116": {
+  "name": "Daging Rebus Bossam Siram Saus Bawang Putih Manis & Kimchi Lobak",
+  "tagline": "Irisan samgyeopsal rebus lembut bertumpuk saus madu bawang putih khas dengan cocolan kimchi lobak renyah."
+ },
+ "00117": {
+  "name": "Salad Kaki Babi Dingin Jokbal Ubur-Ubur Saus Mustar Khas Bupyeong Busan",
+  "tagline": "Kaki babi iris tipis berpadu kenyalnya ubur-ubur dan mentimun segar dalam balutan saus mustar pedas menyengat hidung."
+ },
+ "00118": {
+  "name": "Kaki Babi Goreng Krispi Renyah Gaya Schweinshaxe Jerman (Twigim Jokbal)",
+  "tagline": "Kaki babi utuh goreng tepung renyah berkerak garing bak kerupuk dengan daging kolagen kenyal di dalamnya."
+ },
+ "00119": {
+  "name": "Sup Ayam Pedas Dakdoritang Mangkuk Batu dengan Mugeonji Kimchi Matang",
+  "tagline": "Potongan paha ayam empuk dan kentang pulen yang direbus pedas gurih bersama lembaran kimchi tua fermentasi."
+ },
+ "00120": {
+  "name": "Sup Ikan Pollack Pedas Dongtaetang dengan Telur Ikan dan Tahu Sutra",
+  "tagline": "Kesegaran kaldu ikan pollack pedas membara berisi telur ikan gurih, tauge, dan sayur mahkota krisan penghilang lelah."
+ },
+ "00121": {
+  "name": "Tumis Ikan Monkfish Pedas Masan Agujjim dengan Tauge & Nasi Goreng",
+  "tagline": "Daging ikan monkfish montok kenyal ditumis pedas kental bersama tauge berakar tebal dan cocolan kecap wasabi."
+ },
+ "00122": {
+  "name": "Budae Jjigae Asli Uijeongbu dengan Spam, Sosis, dan Mie Ramen Tambahan",
+  "tagline": "Rebusan sup tentara khas korea berisi daging olahan spam, sosis gurih, kacang panggang, dan lelehan keju cheddar."
+ },
+ "00123": {
+  "name": "Ayam Goreng Krispi Tabur Bumbu Keju Bburinkle dengan Saus Cocol Yoghurt",
+  "tagline": "Ayam goreng super renyah berlumur bubuk keju bawang gurih manis yang dicelupkan ke saus yoghurt putih segar."
+ },
+ "00124": {
+  "name": "Ayam Panggang Oven Pedas Krispi Gochu Basasak dengan Saus Mayo Cabai",
+  "tagline": "Kulit ayam renyah berbintik cabai cheongyang pedas dipanggang oven tanpa minyak dengan cocolan saus mayones pedas."
+ },
+ "00125": {
+  "name": "Kombo Sayap & Paha Bawah Ayam Renyah Saus Bawang Putih Manis Gaya Kyochon",
+  "tagline": "Sayap ayam goreng renyah dilapisi kuas tipis saus kecap kedelai bawang putih manis gurih yang meresap sempurna."
+ },
+ "00126": {
+  "name": "Ayam Panggang Barbeku Bakar Arang Saus Pedas dengan Mie Udon Kenyal",
+  "tagline": "Ayam panggang tanpa tulang beraroma asap arang kuat disajikan bersama kue beras dan mie udon kenyal berlumur bumbu."
+ },
+ "00127": {
+  "name": "Pizza Gorgonzola Panggang Tungku Tipis Kenyal dengan Cocolan Madu Murni",
+  "tagline": "Adonan pizza tipis bergelembung khas tungku kayu dengan taburan keju biru gurih asin yang dicocol madu bunga."
+ },
+ "00128": {
+  "name": "Pizza Deep Dish Persegi Renyah Pepperoni Gaya Detroit",
+  "tagline": "Sudut loyang persegi dengan kerak keju garing terkaramelisasi dipenuhi hamparan bunga pepperoni berlimpah."
+ },
+ "00129": {
+  "name": "Burger Keju Daging Sapi Smash Juicy dengan Roti Brioche Mentega",
+  "tagline": "Dua lapis patty daging sapi giling pipih panggang wajan dengan keju leleh lezat diapit roti brioche empuk wangi."
+ },
+ "00130": {
+  "name": "Burger Barbeku Daging Babi Pulled Pork Asap Texas 12 Jam & Coleslaw",
+  "tagline": "Suwiran daging bahu babi empuk asap kayu hickory berpadu segarnya salad kubis coleslaw asam manis."
+ },
+ "00131": {
+  "name": "Mie Ganja-Jjang Saus Kedelai Hitam Kering Seafood Wok & Telur Ceplok",
+  "tagline": "Mie kenyal disiram saus chunjang pekat tumis kering aneka seafood dan bawang bombay tanpa air plus telur mata sapi."
+ },
+ "00132": {
+  "name": "Mie Jjamppong Kuah Kaldu Seafood dan Daging Sandung Lamur Beraroma Asap",
+  "tagline": "Kuah kaldu merah membara penuh aroma wajan berisi irisan daging brisket sapi, cumi, dan kerang segar."
+ },
+ "00133": {
+  "name": "Roti Goreng Isi Udang Cincang Renyah Menbosha (6 Pcs)",
+  "tagline": "Roti tawar garing renyah keemasan membungkus adonan udang cincang manis kenyal berair khas hidangan tionghoa."
+ },
+ "00134": {
+  "name": "Nasi Mapo Tofu Sichuan Pedas Beraroma Lada Sancho dan Minyak Cabai",
+  "tagline": "Tahu sutra lembut berpadu cincangan daging babi dan pedas kebas lada sichuan huajiao di atas nasi putih panas."
+ },
+ "00135": {
+  "name": "Tendon Spesial Gaya Edo dengan Udang Raja, Belut, dan Tempura Sayuran",
+  "tagline": "Gunungan tempura renyah beraroma minyak wijen disiram saus tare manis gurih di atas semangkuk nasi hangat."
+ },
+ "00136": {
+  "name": "Semangkuk Nasi Sashimi Kaisendon Segar dengan Telur Ikan Salmon Ikura",
+  "tagline": "Hamparan sashimi ikan segar pilihan musiman dan letupan telur ikan salmon ikura berkilau di atas nasi sushi."
+ },
+ "00137": {
+  "name": "Ramen Kuah Miso Sapporo dengan Empat Lembar Chashu Babi & Gyoza Mini",
+  "tagline": "Kaldu pasta kedelai miso gurih dengan lelehan mentega, jagung manis, irisan babi chashu bakar, dan pangsit gyoza."
+ },
+ "00138": {
+  "name": "Bun Cha Hanoi dengan Daging Babi Panggang Arang & Saus Nuoc Cham",
+  "tagline": "Bola daging dan samgyeopsal bakar arang dicelup ke kuah nuoc cham segar bersama bihun beras dan daun herba."
+ },
+ "00139": {
+  "name": "Sup Tom Yum Goong Asam Pedas Thailand dengan Udang Raja & Mie Beras",
+  "tagline": "Kuah sup asam pedas beraroma serai, daun jeruk purut, lengkuas, santan gurih, dan udang galah segar montok."
+ },
+ "00140": {
+  "name": "Kepiting Cangkang Lunak Goreng Kari Kuning Kelapa Telur (Poo Pad Pong Karee)",
+  "tagline": "Kepiting soka goreng renyah yang bisa dimakan seutuhnya dalam selimut saus kari kuning telur santan yang lembut."
+ },
+ "00141": {
+  "name": "Tiga Pcs Taco Daging Sapi Birria Meksiko Otentik dengan Guacamole & Jeruk Nipis",
+  "tagline": "Tortilla celup kuah kaldu panggang berisi suwiran daging sapi lembut, daun ketumbar, salsa, dan cocolan guacamole."
+ },
+ "00142": {
+  "name": "Hawaiian Salmon Poke Bowl Nasi Beras Cokelat dengan Alpukat & Tobiko",
+  "tagline": "Potongan salmon segar bumbu spicy mayo, alpukat lembut, kacang arab, rumput laut wakame, dan taburan bawang renyah."
+ },
+ "00143": {
+  "name": "Salad Hangat Dada Ayam Sous-Vide Lembut dan Labu Kuning Panggang",
+  "tagline": "Dada ayam matang presisi uap rendah tanpa rasa kering dipadukan dengan manisnya labu panggang saus cuka balsamik."
+ },
+ "00144": {
+  "name": "Tteokbokki Rosé Krim Pedas Kental dengan Topping Ayam Goreng Karaage",
+  "tagline": "Kue beras dalam saus krim gochujang susu lembut creamy yang disajikan bersama potongan ayam goreng karaage krispi."
+ },
+ "00145": {
+  "name": "Roti Panggang Spesial Daging Ham & Keju Saus Kiwi Buah Nostalgia",
+  "tagline": "Roti panggang mentega isi telur dadar jagung manis, lembaran ham gurih, keju, dan siraman saus buah manis khas."
+ },
+ "00146": {
+  "name": "Croissant Pipih Renyah Karamel (Croongji) dengan Es Krim Vanila Lembut",
+  "tagline": "Kue croissant dipipihkan garing bak kerak nasi beraroma mentega karamel disajikan bersama satu skop es krim vanila."
+ },
+ "00147": {
+  "name": "Butter Bar Keju Kuning Chewy Karamel Asin Panggang Renyah",
+  "tagline": "Lapisan biskuit mentega tebal dipanggang bersama adonan keju cheddar kuning kenyal legit peneman kopi dingin."
+ },
+ "00148": {
+  "name": "Iga Babi Barbeku Baby Back Ribs Asap Amerika dengan Salad Coleslaw",
+  "tagline": "Iga babi muda asap lambat 8 jam hingga daging lembut rontok dari tulang berbalut lumuran saus barbeku pekat."
+ },
+ "00149": {
+  "name": "Ayam Goreng Krispi Khas Selatan dan Wafel Belgia Guyur Sirup Maple",
+  "tagline": "Perpaduan unik ayam goreng renyah bumbu cajun gurih asin di atas wafel panas bersiram limpahan sirup mapel manis."
+ },
+ "00150": {
+  "name": "Sandwich Cheesesteak Daging Sapi Philadelphia Asli dengan Saus Keju Cheez Whiz",
+  "tagline": "Roti panjang isi tumisan irisan tipis daging sapi berair dan bawang bombay karamel berlumur lelehan keju gurih."
+ },
+ "00151": {
+  "name": "Sayap Ayam Buffalo Pedas Asam Klasik (10 Pcs) dengan Saus Blue Cheese & Seledri",
+  "tagline": "Sayap ayam goreng renyah berlumur saus cabai asam pedas mentega khas Buffalo dengan cocolan keju biru dingin."
+ },
+ "00152": {
+  "name": "Burrito Bowl Daging Steak Panggang Gaya Chipotle dengan Guacamole & Salsa",
+  "tagline": "Nasi ketumbar jeruk nipis disajikan bersama steak daging sapi panggang, kacang hitam, salsa segar, dan guacamole."
+ },
+ "00153": {
+  "name": "Casserole Makaroni Panggang Keju Mac and Cheese Empat Jenis Keju Meleleh",
+  "tagline": "Pasta makaroni berlumur saus keju cheddar dan mozzarella kuning gurih yang dipanggang oven hingga berkulit keemasan."
+ },
+ "00154": {
+  "name": "Roti Kentang Tumbuk Asli Chuncheon dan Roti Jagung Manis Kenyal",
+  "tagline": "Roti kenyal berbentuk persis umbi kentang berlumur bubuk kedelai isi adonan kentang manis asli Chuncheon."
+ },
+ "00155": {
+  "name": "Biskuit Mentega Kacang Pinus Karamel Asin Rest Area Gapyeong (Matnam Sand)",
+  "tagline": "Kue kering mentega renyah bertabur kacang pinus Gapyeong dengan isian karamel asin dan krim mentega lembut."
+ },
+ "00156": {
+  "name": "Tiga Roti Hwangnam Tradisional Gyeongju Isi Pasta Kacang Merah Manis 90%",
+  "tagline": "Kue legendaris sejak 1939 berkulit sangat tipis yang membungkus padatnya pasta kacang merah manis asli Korea."
+ },
+ "00157": {
+  "name": "Roti Soboro Goreng Krispi Kacang Merah & Roti Kucai Legendaris Sungsimdang",
+  "tagline": "Roti berkerak soboro renyah goreng isi selai kacang merah legit berpadu roti gurih isi tumisan sayur kucai telur."
+ },
+ "00158": {
+  "name": "Kue Walnut Hodu-gwaja Tradisional Cheonan Isi Selai Kacang Putih & Kenari Utuh",
+  "tagline": "Kue bulat hangat isi setengah butir kacang kenari renyah dan pasta kacang putih manis lembut favorit perjalanan."
+ },
+ "00159": {
+  "name": "Sate Sotteok Sotteok Sosis & Kue Beras Berselimut Saus Tomat Mustar",
+  "tagline": "Tusukan sosis gurih dan kue beras kenyal yang digigit bersamaan menyamping berlumur bumbu pedas manis saus tomat."
+ },
+ "00160": {
+  "name": "Kentang Bulat Mini Panggang Mentega Manis Gurih Khas Rest Area Tol",
+  "tagline": "Kentang kecil utuh ditumis wajan dengan mentega hingga berkulit kuning emas lalu ditaburi gula pasir dan garam."
+ },
+ "00161": {
+  "name": "Roti Koin Sepuluh Won Cheomseongdae Gyeongju Isi Keju Mozzarella Molor",
+  "tagline": "Pancake cetak motif koin 10 won berisi keju mozzarella batangan yang meleleh mulur panjang saat ditarik."
+ },
+ "00162": {
+  "name": "Enam Pcs Mandu Panggang Krispi Bibigo Wanggyoja Masak Air Fryer",
+  "tagline": "Pangsit daging babi cincang dan kucai segar dengan kulit garing berderak serta kaldu daging juicy saat digigit."
+ },
+ "00163": {
+  "name": "Hot Dog Jagung Setengah Keju Mozzarella + Setengah Sosis Lapisan Renyah",
+  "tagline": "Hot dog beku berbalut beras merah krispi berisi keju mulur di ujung depan dan sosis lezat di bagian belakang."
+ },
+ "00164": {
+  "name": "Pangsit Kukus Kimchi Pedas Kulit Tipis Transparan (Thin-Skin Kimchi Mandu)",
+  "tagline": "Kulit mandu setipis 0,7 mm yang memperlihatkan kelezatan cincangan kimchi pedas segar dan daging cincang berlimpah."
+ },
+ "00165": {
+  "name": "Sup Herbal Ayam Kampung Neungi Baeksuk Usai Mendaki dengan Bubur Ketan",
+  "tagline": "Rebusan ayam kampung utuh bersama jamur neungi hitam Jirisan berkhasiat tinggi disajikan dengan bubur beras ketan."
+ },
+ "00166": {
+  "name": "Salad Jeli Acorn Dotori-muk Bumbu Minyak Perilla & Daun Wijen Gunung",
+  "tagline": "Potongan jeli buah ek kenyal agak pahit diaduk bersama mentimun, selada, dan minyak perilla murni pegunungan."
+ },
+ "00167": {
+  "name": "Bakwan Daun Bawang Seafood Pajeon Tebal Renyah dengan Cumi Utuh",
+  "tagline": "Pancake gurih garing berkulit krispi bertabur daun bawang utuh, potongan cumi kenyal, dan daging kerang segar."
+ },
+ "00168": {
+  "name": "Dua Roti Telur Utuh Manis Gurih Gyeran-ppang Jajanan Kaki Lima Musim Dingin",
+  "tagline": "Adonan kue bolu manis lembut memanggang sebutir telur ayam utuh setengah matang bertabur peterseli dan garam."
+ },
+ "00169": {
+  "name": "Tiga Tusuk Tteokkkochi Kue Beras Goreng Saus Gochujang Pedas Manis",
+  "tagline": "Kue beras silinder digoreng garing di luar kenyal di dalam lalu diolesi kuas saus pedas manis saus tomat gochujang."
+ },
+ "00170": {
+  "name": "Tiga Tusuk Mool-tteok Kue Beras Kenyal Kuah Kaldu Odeng Tenda Busan",
+  "tagline": "Kue beras garaetteok utuh direndam lama dalam panci kuah kaldu ikan teri dan kepiting hingga empuk kenyal gurih."
+ },
+ "00171": {
+  "name": "Spaghetti Carbonara Otentik Roma dengan Guanciale, Kuning Telur & Pecorino",
+  "tagline": "Resep asli Roma tanpa krim! Lemak pipi babi guanciale teremulsi sempurna dengan kuning telur dan keju domba pecorino."
+ },
+ "00172": {
+  "name": "Pizza Margherita Panggang Kayu Napoli dengan Keju Kerbau Mozzarella Segar",
+  "tagline": "Dipanggang 90 detik dalam tungku 480 derajat dengan tomat San Marzano, daun basil segar, dan keju mozzarella kerbau."
+ },
+ "00173": {
+  "name": "Gnocchi Labu Madu Buatan Rumah Panggang Renyah Mentega Sage",
+  "tagline": "Adonan pasta gnocchi labu kuning manis dan keju ricotta digoreng wajan mentega cokelat beraroma daun sage harum."
+ },
+ "00174": {
+  "name": "Risotto Seafood Tinta Cumi Mediterania Gaya Venesia Al Dente",
+  "tagline": "Beras risotto bertekstur al dente dimasak dalam kuah kaldu pekat hitam tinta cumi segar dengan cumi dan kerang laut."
+ },
+ "00175": {
+  "name": "Risotto Krim Jamur Porcini Hutan dan Keju Parmigiano-Reggiano 24 Bulan",
+  "tagline": "Keharuman jamur porcini liar dalam rebusan kaldu pekat berpadu parutan melimpah keju Parmigiano-Reggiano matang."
+ },
+ "00176": {
+  "name": "Pasta Linguine Vongole Kerang Segar dengan Bawang Putih dan Anggur Putih",
+  "tagline": "Sari kaldu gurih kerang segar teremulsi harmonis dengan minyak zaitun extra virgin dan bawang putih wangi."
+ },
+ "00177": {
+  "name": "Lasagna Panggang Oven Lapis Lima Daging Ragù Sapi Bolognese & Béchamel",
+  "tagline": "Lembaran pasta lebar berlapis saus daging sapi cincang masak lambat dan kelembutan saus béchamel panggang keemasan."
+ },
+ "00178": {
+  "name": "Pasta Trofie Saus Pesto Kemangi Genoa dengan Kacang Pinus & Minyak Zaitun",
+  "tagline": "Pasta ulir trofie berbalut ulekan daun basil segar, kacang pinus gurih, minyak zaitun murni, dan keju parut Grana Padano."
+ },
+ "00179": {
+  "name": "Pizza Quattro Formaggi Empat Keju Gurih dengan Madu Akasia Manis",
+  "tagline": "Perpaduan lumer keju gorgonzola, taleggio, mozzarella, dan parmigiano panggang tipis yang dicelup madu manis murni."
+ },
+ "00180": {
+  "name": "Gnocchi Kentang Buatan Tangan Saus Krim Jamur dan Irisan Truffle Hitam",
+  "tagline": "Gnocchi kentang lembut empuk buatan tangan tersiram saus krim jamur kancing kental bermahkotakan irisan truffle hitam."
+ },
+ "00181": {
+  "name": "Donburi Butadon Daging Perut Babi Bakar Arang Obihiro Hokkaido Saus Tare",
+  "tagline": "Irisan samgyeopsal tebal bakar arang disusun melingkar seperti kelopak bunga berlumur saus tare manis gurih berasap."
+ },
+ "00182": {
+  "name": "Ramen Tori Paitan Kaldu Ayam Kental Berbusa dengan Dada Ayam Lembut",
+  "tagline": "Kaldu rebusan tulang ayam 10 jam yang dikocok berbusa selembut cappuccino disajikan dengan dada ayam sous-vide basah."
+ },
+ "00183": {
+  "name": "Ramen Miso Hati Ikan Monkfish (Ankimo) Gurih Kental Umami Laut",
+  "tagline": "Pasta hati ikan monkfish lembut diaduk ke dalam kuah ramen miso menghasilkan ledakan cita rasa umami laut termewah."
+ },
+ "00184": {
+  "name": "Hot Pot Sukiyaki Daging Sapi Premium Kanto dengan Celupan Telur Mentah",
+  "tagline": "Irisan daging sapi marbled tipis dimasak dalam kuah kecap manis gurih bersama jamur shiitake dan tahu bakar."
+ },
+ "00185": {
+  "name": "Mazesoba Kering Daging Cincang Pedas Nagoya dengan Kuning Telur & Bubuk Ikan",
+  "tagline": "Mie tebal tanpa kuah diaduk rata bersama daging cincang pedas, daun bawang, bubuk ikan makarel, dan kuning telur mentah."
+ },
+ "00186": {
+  "name": "Tsukemen Mie Super Tebal Dingin dengan Celupan Kuah Kental Babi Katsuobushi",
+  "tagline": "Mie dingin kenyal sebesar udon dicelupkan ke dalam mangkuk kuah kaldu tulang babi katsuo pekat mengepul panas."
+ },
+ "00187": {
+  "name": "Piring 7 Tusuk Sate Ayam Yakitori Bakar Arang Tradisional Jepang Saus Tare",
+  "tagline": "Koleksi sate paha ayam daun bawang, kulit renyah, hati empuk, dan tsukune cincang yang dibakar arang berlumur tare."
+ },
+ "00188": {
+  "name": "Paket Nasi Belut Panggang Hitsumabushi Khas Nagoya (Satu Setengah Ekor)",
+  "tagline": "Belut panggang saus manis gurih di bak kayu yang dinikmati dalam 3 cara: original, berbumbu wasabi, dan berkuah dashi."
+ },
+ "00189": {
+  "name": "Ayam Tandoori Panggang Oven Tanah Liat Bumbu Masala Merah dan Chutney Mint",
+  "tagline": "Ayam berbumbu yoghurt dan rempah masala merah dipanggang dalam tandoor tanah liat hingga bebas lemak dan harum asap."
+ },
+ "00190": {
+  "name": "Palak Paneer Kari Bayam Halus India dengan Keju Kotak Homemade",
+  "tagline": "Puree bayam hijau berpadu rempah garam masala hangat dan potongan keju paneer tawar lembut yang menyehatkan."
+ },
+ "00191": {
+  "name": "Roti Naan Bawang Putih Mentega Ghee Raksasa Panggang Tandoor",
+  "tagline": "Roti pipih kenyal selebar dua jengkal dipanggang dinding tungku lalu diolesi mentega ghee dan cincangan bawang putih wangi."
+ },
+ "00192": {
+  "name": "Kari Ayam Mentega Murgh Makhani Klasik dengan Saus Tomat Krim Mete",
+  "tagline": "Potongan ayam tandoori empuk dalam kuah tomat kental berpadu krim susu segar dan pasta kacang mete yang lembut gurih."
+ },
+ "00193": {
+  "name": "Nasi Biryani Ayam Kerajaan Hyderabadi dengan Beras Basmati & Raita",
+  "tagline": "Beras basmati berbulir panjang dikukus berlapis bersama daging ayam berbumbu kapulaga, cengkeh, dan helai saffron harum."
+ },
+ "00194": {
+  "name": "Dua Pcs Samosa Sayuran Renyah Segitiga Kari dengan Chutney Asam Jawa",
+  "tagline": "Pastry segitiga goreng garing berisi kentang tumbuk rempah jintan dan kacang polong disajikan dengan cocolan asam tamarind."
+ },
+ "00195": {
+  "name": "Terong Renyah Goreng Isi Udang Cincang Saus Yuxiang Asam Pedas Sichuan",
+  "tagline": "Potongan terong berlapis adonan udang renyah di luar juicy di dalam disiram saus yuxiang doubanjiang pedas manis segar."
+ },
+ "00196": {
+  "name": "Enam Pcs Dimsum Xiao Long Bao Sup Kaldu Ayam Shanghai Kukus",
+  "tagline": "Pangsit kukus berkulit tipis yang menyimpan semburan kaldu ayam gurih panas dan daging cincang lembut di dalamnya."
+ },
+ "00197": {
+  "name": "Bebek Panggang Peking Kulit Renyah dengan Kulit Lumpia & Saus Manis",
+  "tagline": "Kulit bebek garing berkilau dan daging empuk dinikmati berbalut lembaran pancake tipis, mentimun, daun bawang, dan saus tianmian."
+ },
+ "00198": {
+  "name": "Daging Babi Goreng Renyah Kenyal Guobaorou Saus Asam Manis Dongbei",
+  "tagline": "Irisan daging babi berbalut tepung tapioka goreng super renyah berpadu siraman saus karamel cuka asam manis menyengat."
+ },
+ "00199": {
+  "name": "Mie Dandan Pedas Sichuan dengan Saus Pasta Wijen dan Daging Cincang",
+  "tagline": "Mie lembut berbalut saus pasta wijen zhima gurih pekat beradu pedas kebas cabai sichuan dan taburan daging cincang renyah."
+ },
+ "00200": {
+  "name": "Daging Perut Babi Rebus Dongpo Khas Hangzhou Lembut Lumer Saus Karamel",
+  "tagline": "Daging samgyeopsal tebal direbus perlahan 4 jam dalam anggur shaoxing dan kecap karamel hingga lumer selembut jeli di mulut."
+ }
+}

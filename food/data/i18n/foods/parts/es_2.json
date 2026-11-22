@@ -1,0 +1,402 @@
+{
+ "00101": {
+  "name": "Ramen instantáneo y salchicha de The Yellow Sea que devoró Ha Jung-woo",
+  "tagline": "La mítica combinación de fideos humeantes y salchicha que devora con furia el protagonista en The Yellow Sea."
+ },
+ "00102": {
+  "name": "Cangrejos de río picantes (Mala Longxia) de Jang Chen en Ciudad sin ley",
+  "tagline": "«¿Acaso sabes quién soy?» El plato picante de cangrejos salteados en aceite de chile que desmenuza Jang Chen."
+ },
+ "00103": {
+  "name": "Pollo frito glaseado tradicional y ensalada de col de Reply 1988",
+  "tagline": "Nostálgico pollo frito en bolsa amarilla bañado en salsa agridulce que traía el padre a casa el día de cobro."
+ },
+ "00104": {
+  "name": "Bolsa gigante y jugosa de carne de El viaje de Chihiro",
+  "tagline": "El misterioso bocado translúcido lleno de sabrosos jugos de carne que devora vorazmente el padre de Chihiro."
+ },
+ "00105": {
+  "name": "Huevos con beicon grueso cocinados por Calcifer en El castillo ambulante",
+  "tagline": "Cuatro lonchas de beicon grueso de un centímetro y seis huevos fritos al fuego vivo del demonio Calcifer."
+ },
+ "00106": {
+  "name": "Ratatouille provenzal que conmovió al crítico Ego en Ratatouille",
+  "tagline": "Finas láminas de calabacín, berenjena y tomate asadas en espiral que despiertan los recuerdos de infancia de Anton Ego."
+ },
+ "00107": {
+  "name": "Batido de vainilla de cinco dólares de Vincent Vega en Pulp Fiction",
+  "tagline": "«¿Le echan bourbon o qué? ¡Maldita sea, está buenísimo!» El cremoso batido coronado con una guinda de Pulp Fiction."
+ },
+ "00108": {
+  "name": "Chimaek de pollo y cerveza con la primera nevada de Mi amor de las estrellas",
+  "tagline": "«Un día de nieve pide pollo y cerveza». El romance invernal de Cheon Song-yi que desató la fiebre del chimaek."
+ },
+ "00109": {
+  "name": "Espaguetis con albóndigas en salsa de tomate de Clemenza en El Padrino",
+  "tagline": "«Deja la pistola, coge los cannoli». La clásica receta casera de pasta con albóndigas para la familia mafiosa."
+ },
+ "00110": {
+  "name": "Sándwich de queso fundido a la plancha de El diablo viste de Prada",
+  "tagline": "«Te preparé un sándwich con un queso delicioso de ocho dólares». Pan tostado a la mantequilla con queso derretido."
+ },
+ "00111": {
+  "name": "Sopa de cabeza de ternera de los gánsteres en la película New World",
+  "tagline": "«Oye, hermano, ¿has comido ya?» Humeante tazón en olla de barro con carne tierna de cabeza de ternera y piel sabrosa."
+ },
+ "00112": {
+  "name": "Ramen humeante con jamón dulce y té con miel de Ponyo en el acantilado",
+  "tagline": "Fideos instantáneos con una gruesa loncha de jamón cocido y huevo hervido que hacen brillar los ojos de Ponyo."
+ },
+ "00113": {
+  "name": "Huevos cocidos en piedra volcánica que devoró Ja-yoon en The Witch",
+  "tagline": "Huevos cocidos sobre piedras calientes con clara tostada muy elástica devorados en grandes cantidades en el tren."
+ },
+ "00114": {
+  "name": "Dulce melocotón blanco pelado a mano de la película La doncella",
+  "tagline": "Melocotón blanco veraniego extraordinariamente tierno y jugoso con néctar dulce que gotea entre los dedos."
+ },
+ "00115": {
+  "name": "Triángulo de arroz onigiri con ciruela umeboshi de El restaurante Kamome",
+  "tagline": "Arroz caliente moldeado a mano con sal y envuelto en crujiente alga nori, el auténtico símbolo del bienestar japonés."
+ },
+ "00116": {
+  "name": "Panceta hervida con salsa dulce de ajo y kimchi de rábano (Maneul-bossam)",
+  "tagline": "Tiernas lonchas de panceta de cerdo hervida cubiertas de abundante salsa de ajo y miel acompañadas de kimchi."
+ },
+ "00117": {
+  "name": "Ensalada fría de manitas de cerdo y medusa a la mostaza (Naengchae-jokbal)",
+  "tagline": "Finas lonchas de manitas de cerdo con tiras de medusa crujiente y pepino aliñadas con aderezo picante de mostaza."
+ },
+ "00118": {
+  "name": "Manitas de cerdo ultracrujientes fritas al estilo alemán Schweinshaxe",
+  "tagline": "Pieza entera de cerdo frita con corteza dorada como una galleta y carne jugosa rica en colágeno por dentro."
+ },
+ "00119": {
+  "name": "Estofado picante de pollo con patatas y kimchi añejo (Dak-bokkeumtang)",
+  "tagline": "Muslos jugosos de pollo guisados con patatas tiernas y hojas de kimchi fermentado en rica salsa picante."
+ },
+ "00120": {
+  "name": "Sopa picante de abadejo con huevas y tofu en olla de barro (Dongtae-tang)",
+  "tagline": "Caldo reparador y picante con abadejo fresco, huevas, rábano blanco y brotes de soja para reponer fuerzas."
+ },
+ "00121": {
+  "name": "Rape picante estofado con abundante soja germinada estilo Masan (Agujjim)",
+  "tagline": "Trozos tiernos de rape y marisco salteados con brotes gruesos de soja en una sabrosa salsa picante espesada."
+ },
+ "00122": {
+  "name": "Guiso militar budae-jjigae de Uijeongbu con Spam, salchichas y fideos ramen",
+  "tagline": "Contundente estofado coreano con embutidos, carne picada, alubias cocidas, queso cheddar y fideos instantáneos."
+ },
+ "00123": {
+  "name": "Pollo frito crujiente con condimento de queso dulce y salsa de yogur (Bburinkle)",
+  "tagline": "Pollo rebozado ultracrujiente cubierto de queso, cebolla y ajo en polvo servido con salsa dip de yogur dulce."
+ },
+ "00124": {
+  "name": "Pollo crujiente al horno con pimientos verdes picantes y salsa mayonesa de chile",
+  "tagline": "Trozos de pollo horneados con crujiente rebozado de chile cheongyang y suave salsa cremosa picante."
+ },
+ "00125": {
+  "name": "Alitas y muslitos de pollo crujientes con salsa de soja y ajo estilo Kyochon",
+  "tagline": "Alas de pollo fritas con rebozado fino glaseadas a mano con salsa reducida de soja, ajo y azúcar moreno."
+ },
+ "00126": {
+  "name": "Pollo a la brasa con salsa barbacoa picante y fideos udon salteados",
+  "tagline": "Pollo deshuesado asado al carbón con pastelitos de arroz y fideos udon elásticos en salsa picante ahumada."
+ },
+ "00127": {
+  "name": "Pizza gorgonzola artesanal al horno de leña con miel pura de abejas",
+  "tagline": "Masa fina fermentada y cocida en horno de leña con queso gorgonzola intenso para mojar en miel pura."
+ },
+ "00128": {
+  "name": "Pizza gruesa Detroit de pepperoni crujiente con borde de queso caramelizado",
+  "tagline": "Masa rectangular esponjosa con bordes crujientes de queso tostado cubierta con abundantes rodajas de pepperoni."
+ },
+ "00129": {
+  "name": "Hamburguesa gourmet smashed en pan brioche con doble ternera y queso",
+  "tagline": "Doble hamburguesa de ternera aplastada a la plancha con queso americano derretido en tierno pan brioche."
+ },
+ "00130": {
+  "name": "Sándwich de cerdo deshilachado pulled pork ahumado 12 horas al estilo Texas",
+  "tagline": "Carne de aguja de cerdo ahumada lentamente durante doce horas con leña de nogal y ensalada cremosa de col."
+ },
+ "00131": {
+  "name": "Fideos gan-jjajang de mariscos salteados al wok con huevo frito",
+  "tagline": "Salsa densa de judía negra salteada sin agua con cebollas dulces y mariscos sobre fideos coronados con huevo frito."
+ },
+ "00132": {
+  "name": "Sopa picante jjamppong de mariscos y falda de ternera con sabor ahumado",
+  "tagline": "Fideos en caldo picante de huesos con falda de ternera a la llama, calamares y mejillones salteados al wok."
+ },
+ "00133": {
+  "name": "Seis tostadas de gambas picadas fritas crujientes (Menbosha)",
+  "tagline": "Pan de molde dorado y crujiente relleno de jugosa pasta de gambas enteras picadas al estilo chino gourmet."
+ },
+ "00134": {
+  "name": "Tazón de arroz con tofu picante mapo tofu al estilo Sichuan con pimienta y cerdo",
+  "tagline": "Suave tofu sedoso con carne de cerdo picada salteado en salsa de pasta de guindilla y aromática pimienta de Sichuan."
+ },
+ "00135": {
+  "name": "Bol de arroz tendon con tempura especial de langostino real, anguila y calabaza",
+  "tagline": "Fritura japonesa crujiente de marisco y verduras sobre arroz blanco caliente bañado con salsa tare dulce."
+ },
+ "00136": {
+  "name": "Bol de arroz chirashi kaisendon con surtido de sashimi fresco y huevas de salmón",
+  "tagline": "Selección de pescados crudos frescos de temporada con huevas brillantes de salmón servidos sobre arroz de sushi."
+ },
+ "00137": {
+  "name": "Ramen de miso estilo Sapporo con cuatro lonchas de chashu y empanadillas gyoza",
+  "tagline": "Caldo aromático de pasta de soja con mantequilla, maíz dulce y tierna panceta chashu asada con empanadillas."
+ },
+ "00138": {
+  "name": "Fideos bun cha estilo Hanói con panceta y albóndigas de cerdo a la brasa",
+  "tagline": "Fideos de arroz con carne de cerdo ahumada a las brasas y hierbas frescas para mojar en salsa agridulce nuoc cham."
+ },
+ "00139": {
+  "name": "Sopa tailandesa Tom Yum Goong con langostinos, hierba limón y fideos de arroz",
+  "tagline": "Famosa sopa aromática tailandesa con langostinos grandes, leche de coco, lima kaffir y hierba limón."
+ },
+ "00140": {
+  "name": "Curry amarillo cremoso con cangrejo de concha blanda crujiente (Poo Pad Pong Karee)",
+  "tagline": "Cangrejo frito de caparazón tierno cubierto con sedoso curry tailandés de huevo batido y leche de coco."
+ },
+ "00141": {
+  "name": "Tres tacos tradicionales mexicanos de ternera birria con guacamole y lima",
+  "tagline": "Tortillas de maíz bañadas en caldo y doradas con carne deshebrada de ternera, cebolla picada y cilantro fresco."
+ },
+ "00142": {
+  "name": "Poke bowl hawaiano con salmón fresco marinado, aguacate y arroz integral",
+  "tagline": "Dados de salmón crudo fresco con mayonesa picante, aguacate maduro, edamame y cebolla crujiente sobre arroz."
+ },
+ "00143": {
+  "name": "Ensalada templada con pechuga de pollo cocinada al vacío y calabaza asada",
+  "tagline": "Pechuga de pollo ultrasuave cocinada a baja temperatura con rodajas de calabaza asada y reducción de balsámico."
+ },
+ "00144": {
+  "name": "Tteokbokki cremoso en salsa rosé picante coronado con pollo frito karaage",
+  "tagline": "Pasteles de arroz en aterciopelada salsa cremosa de nata y pasta gochujang acompañados de crujiente pollo frito."
+ },
+ "00145": {
+  "name": "Sándwich tostado especial de jamón, queso, huevo y salsa dulce de kiwi estilo Issac",
+  "tagline": "Tostada dorada a la mantequilla rellena de jamón dulce, queso, tortilla con maíz y la secreta salsa de frutas."
+ },
+ "00146": {
+  "name": "Croissant plano caramelizado crujiente (Croongji) con helado de vainilla",
+  "tagline": "Croissant aplastado y tostado como un barquillo crujiente glaseado con caramelo servido con bola de vainilla."
+ },
+ "00147": {
+  "name": "Barrita mantecosa y densa de queso cheddar con corteza de caramelo salado",
+  "tagline": "Masa mantecosa horneada con intenso sabor a queso cheddar y caramelo salado de textura sumamente densa."
+ },
+ "00148": {
+  "name": "Costillas de cerdo baby back ahumadas a la barbacoa con ensalada coleslaw",
+  "tagline": "Costillar tierno de cerdo cocinado a fuego lento con salsa barbacoa ahumada servido con patatas y ensalada."
+ },
+ "00149": {
+  "name": "Pollo frito sureño crujiente con gofre belga y abundante sirope de arce",
+  "tagline": "Pollo frito cajún con especias del sur de Estados Unidos sobre gofres calientes recién hechos con sirope de arce."
+ },
+ "00150": {
+  "name": "Sándwich Philly Cheesesteak de ternera con cebolla a la plancha y queso fundido",
+  "tagline": "Pan tierno alargado relleno de finas tiras de ternera salteadas con cebolla dulce y crema caliente de queso fundido."
+ },
+ "00151": {
+  "name": "Diez alitas de pollo Buffalo picantes con salsa de queso azul y bastones de apio",
+  "tagline": "Alitas de pollo fritas bañadas en salsa picante de mantequilla y vinagre de Nueva York con salsa de queso azul."
+ },
+ "00152": {
+  "name": "Burrito bowl estilo Chipotle con filete de ternera, guacamole y frijoles negros",
+  "tagline": "Arroz con lima y cilantro cubierto de tiras de ternera a la parrilla, frijoles negros, pico de gallo y guacamole."
+ },
+ "00153": {
+  "name": "Macarrones con queso cremosos gratinados al horno con cuatro quesos (Mac & Cheese)",
+  "tagline": "Macarrones horneados envueltos en una densa salsa de queso cheddar y fontina con costra dorada de queso crujiente."
+ },
+ "00154": {
+  "name": "Panecillos artesanales de patata y maíz de Chuncheon con relleno cremoso",
+  "tagline": "Panecillos masticables con apariencia de patata recién cosechada rellenos de puré dulce de patata y harina de soja."
+ },
+ "00155": {
+  "name": "Galletas de mantequilla con piñones y caramelo salado del área de Gapyeong",
+  "tagline": "Crujientes pastas de mantequilla rellenas de crema de caramelo con sal y piñones enteros tostados de Gapyeong."
+ },
+ "00156": {
+  "name": "Tres pastelitos tradicionales Hwangnam-ppang rellenos de pasta de judía roja dulce",
+  "tagline": "Históricos dulces de Gyeongju de masa ultrafina rellenos por completo de pasta suave de judía roja artesanal."
+ },
+ "00157": {
+  "name": "Pan soboro frito crujiente con judía dulce y pan de cebollino de Sungsimdang",
+  "tagline": "El famoso dulce frito de Daejeon con costra crujiente de soboro relleno de judía roja junto al pan salado de cebollino."
+ },
+ "00158": {
+  "name": "Pastelitos con forma de nuez rellenos de crema de alubia blanca de Cheonan",
+  "tagline": "Bizcochitos tradicionales en forma de nuez rellenos con media nuez entera y dulce pasta de alubia blanca."
+ },
+ "00159": {
+  "name": "Brocheta ensartada de salchicha y pastel de arroz con kétchup y mostaza (Sotteok)",
+  "tagline": "Salchicha y pastel de arroz intercalados en brocheta y fritos para morder juntos con salsa agridulce y mostaza."
+ },
+ "00160": {
+  "name": "Patatitas asadas a la mantequilla en plancha con azúcar y sal de área de servicio",
+  "tagline": "Pequeñas patatas enteras doradas en mantequilla en plancha caliente espolvoreadas con una pizca de azúcar y sal."
+ },
+ "00161": {
+  "name": "Pastel con forma de moneda de diez wones relleno de mozzarella de Gyeongju",
+  "tagline": "Bizcocho caliente grabado con la pagoda Dabotap relleno con abundante queso mozzarella que se estira al morder."
+ },
+ "00162": {
+  "name": "Seis empanadillas reales mandu doradas en freidora de aire con carne y puerro",
+  "tagline": "Crujientes empanadillas coreanas con masa fina y relleno abundante de carne de cerdo picada, puerro y fideos."
+ },
+ "00163": {
+  "name": "Perrito caliente coreano con rebozado crujiente relleno mitad queso y mitad salchicha",
+  "tagline": "Perrito con rebozado crujiente de arroz que esconde queso mozzarella elástico en la punta y salchicha detrás."
+ },
+ "00164": {
+  "name": "Empanadillas al vapor de masa ultrafina rellenas de kimchi picante y carne",
+  "tagline": "Empanadillas con piel translúcida rellenas de kimchi fermentado crujiente, tofu y cerdo con un toque picante."
+ },
+ "00165": {
+  "name": "Pollo campero hervido con setas negras neungi y gachas de arroz (Baeksuk)",
+  "tagline": "Pollo entero hervido con setas aromáticas neungi en un caldo oscuro medicinal servido con gachas de arroz."
+ },
+ "00166": {
+  "name": "Ensalada de gelatina de bellota aliñada con aceite de perilla y sésamo (Dotori-muk)",
+  "tagline": "Dados de gelatina de bellota con lechuga fresca y pepino aliñados con aceite de perilla virgen y salsa de soja."
+ },
+ "00167": {
+  "name": "Tortilla crujiente gigante de calamar fresco y cebolleta (Haemul Pajeon)",
+  "tagline": "Crepe salada frita en sartén con bordes crujientes repleta de calamares enteros tiernos y cebolleta tierna."
+ },
+ "00168": {
+  "name": "Dos pastelitos callejeros de bizcocho rellenos con un huevo entero (Gyeran-ppang)",
+  "tagline": "Tierno pan dulce esponjoso horneado con un huevo entero de yema tierna en su interior y sal picada."
+ },
+ "00169": {
+  "name": "Tres brochetas de pastel de arroz fritas con glaseado agridulce y picante",
+  "tagline": "Brochetas con pasteles de arroz fritos con piel crujiente e interior elástico barnizados con salsa picante gochujang."
+ },
+ "00170": {
+  "name": "Tres brochetas de pasteles de arroz ablandados en caldo de pescado (Mooltteok)",
+  "tagline": "Pasteles gruesos de arroz cocidos en olla de caldo caliente de anchoas y marisco hasta quedar extremadamente tiernos."
+ },
+ "00171": {
+  "name": "Carbonara tradicional romana con guanciale crujiente, yema y pecorino romano",
+  "tagline": "Receta romana auténtica sin nata preparada emulsionando yemas frescas con queso pecorino y grasa de guanciale."
+ },
+ "00172": {
+  "name": "Pizza napolitana Margherita al horno de leña con mozzarella de búfala y albahaca",
+  "tagline": "Masa artesanal con bordes aireados horneada a leña con tomate San Marzano, mozzarella fresca y albahaca."
+ },
+ "00173": {
+  "name": "Ñoquis caseros de calabaza dorados en mantequilla tostada y hojas de salvia",
+  "tagline": "Tiernos ñoquis artesanales de calabaza salteados en salsa de mantequilla tostada aromatizada con salvia fresca."
+ },
+ "00174": {
+  "name": "Risotto mediterráneo a la tinta de calamar con chipirones y mejillones frescos",
+  "tagline": "Cremoso arroz al dente teñido de negro azabache con tinta natural de sepia, calamares y mejillones al vapor."
+ },
+ "00175": {
+  "name": "Risotto cremoso de setas boletus edulis (porcini) y queso Parmigiano Reggiano",
+  "tagline": "Arroz arborio bañado en rico caldo de boletus secos ligado con mantequilla y abundante queso parmesano añejado."
+ },
+ "00176": {
+  "name": "Linguine alle vongole con almejas frescas salteadas al vino blanco y ajo",
+  "tagline": "Pasta larga al dente impregnada de jugo natural de almejas frescas con ajo dorado y aceite de oliva virgen."
+ },
+ "00177": {
+  "name": "Lasaña boloñesa al horno con capas de ragú de ternera y cremosa bechamel",
+  "tagline": "Capas alternas de pasta fresca al huevo, ragú tradicional de ternera a fuego lento y suave salsa bechamel."
+ },
+ "00178": {
+  "name": "Pasta trofie con auténtico pesto genovés de albahaca fresca, piñones y queso",
+  "tagline": "Especialidad de Liguria con pasta trofie bañada en fragante pesto de albahaca machacada, piñones y aceite de oliva."
+ },
+ "00179": {
+  "name": "Pizza cuatro quesos Quattro Formaggi con gorgonzola y miel de acacia",
+  "tagline": "Combinación fundente de quesos mozzarella, gorgonzola, taleggio y parmesano servida con un toque de miel dulce."
+ },
+ "00180": {
+  "name": "Ñoquis caseros de patata con crema de trufa negra y champiñones laminados",
+  "tagline": "Suaves ñoquis artesanos de patata servidos en una rica salsa de nata reducida con trufa negra y setas."
+ },
+ "00181": {
+  "name": "Bol de arroz butadon estilo Obihiro con panceta a la brasa y salsa tare dulce",
+  "tagline": "Generosas lonchas de panceta de cerdo a la brasa con salsa tare caramelizada servidas sobre arroz blanco."
+ },
+ "00182": {
+  "name": "Ramen tori paitan espumoso en denso caldo de pollo con pechuga al vacío",
+  "tagline": "Sedoso caldo blanco de pollo emulsionado con textura cremosa de capuchino y pechuga tierna cocinada sous-vide."
+ },
+ "00183": {
+  "name": "Ramen de miso con paté untuoso de hígado de rape (ankimo) y caldo umami",
+  "tagline": "Innovador caldo de fideos ramen con pasta de soja enriquecido con el delicado foie gras marino del hígado de rape."
+ },
+ "00184": {
+  "name": "Cazuela sukiyaki estilo Kanto con ternera de primera, verduras y yema de huevo cruda",
+  "tagline": "Láminas finas de ternera marmoleada cocinadas con setas shiitake y tofu en salsa dulce de soja para mojar en huevo crudo."
+ },
+ "00185": {
+  "name": "Fideos mazesoba secos estilo Nagoya con carne picada picante y yema de huevo",
+  "tagline": "Fideos gruesos sin caldo mezclados vigorosamente con carne picada especiada, cebollino fresco, ajo y yema de huevo."
+ },
+ "00186": {
+  "name": "Fideos gruesos tsukemen para mojar en caldo concentrado de cerdo y bonito seco",
+  "tagline": "Fideos elásticos servidos fríos para sumergir bocado a bocado en un hirviente y espeso caldo tonkotsu de cerdo."
+ },
+ "00187": {
+  "name": "Surtido de siete brochetas japonesas yakitori a la brasa con salsa tare",
+  "tagline": "Brochetas de pollo variadas a la brasa que incluyen muslo con puerro, piel crujiente y albóndiga tsukune con salsa tare."
+ },
+ "00188": {
+  "name": "Menú hitsumabushi de anguila a la brasa sobre arroz en tres pasos estilo Nagoya",
+  "tagline": "Anguila asada glaseada sobre arroz servida en cuenco de madera para comer sola, con condimentos y con té dashi."
+ },
+ "00189": {
+  "name": "Pollo tandoori marinado en yogur y especias asado al horno de barro",
+  "tagline": "Pollo marinado en especias garam masala y yogur asado al fuego del horno tradicional tandoor indio."
+ },
+ "00190": {
+  "name": "Curry indio de espinacas suaves con dados de queso fresco paneer (Palak Paneer)",
+  "tagline": "Curry verde aromático de espinacas cocinadas a fuego lento con especias suaves y cubos de queso paneer artesanal."
+ },
+ "00191": {
+  "name": "Pan plano gigante naan con mantequilla ghee y ajo picado al horno tandoor",
+  "tagline": "Masa de pan tierno inflada en las paredes del horno de barro y untada con aromática mantequilla clarificada y ajo."
+ },
+ "00192": {
+  "name": "Pollo a la mantequilla Murgh Makhani con salsa cremosa de tomate y anacardos",
+  "tagline": "Trozos tiernos de pollo asado en rica salsa aterciopelada de tomate fresco, mantequilla y crema de frutos secos."
+ },
+ "00193": {
+  "name": "Arroz basmati especiado biryani real con pollo al azafrán y salsa raita",
+  "tagline": "Plato festivo indio de arroz basmati cocinado al vapor con capas de pollo marinado en azafrán y especias aromáticas."
+ },
+ "00194": {
+  "name": "Dos empanadillas samosa crujientes rellenas de patata al curry con tamarindo",
+  "tagline": "Crujiente masa triangular frita rellena de patatas con especias aromáticas servida con chutney agridulce de tamarindo."
+ },
+ "00195": {
+  "name": "Berenjenas crujientes rellenas de gambas con salsa agridulce y picante Yuxiang",
+  "tagline": "Rodajas de berenjena rellenas de picadillo de gambas fritas y salteadas con la tradicional salsa fragante de Sichuan."
+ },
+ "00196": {
+  "name": "Seis empanadillas xiaolongbao al vapor rellenas de sopa concentrada de pollo y cerdo",
+  "tagline": "Delicadas empanadillas al vapor con fina masa que encierra un sabroso y reconfortante caldo caliente en su interior."
+ },
+ "00197": {
+  "name": "Pato laqueado a la pequinesa con piel crujiente, crepes finas y salsa hoisin",
+  "tagline": "Corteza de pato asado finísima y crujiente servida con tortitas de trigo al vapor, pepino, cebolleta y salsa dulce."
+ },
+ "00198": {
+  "name": "Lomo de cerdo crujiente agridulce en masa de fécula estilo Dongbei (Guobaorou)",
+  "tagline": "Finas láminas de cerdo fritas con un rebozado crujiente de almidón y bañadas en jarabe agridulce aromatizado con jengibre."
+ },
+ "00199": {
+  "name": "Fideos dandan picantes estilo Sichuan con pasta de sésamo y carne picada",
+  "tagline": "Fideos con una salsa densa y adictiva de sésamo tostado, aceite picante de guindilla y carne de cerdo salteada."
+ },
+ "00200": {
+  "name": "Panceta de cerdo Dongpo estofada a fuego lento con cinco especias y pak choi",
+  "tagline": "Cuadrados de panceta de cerdo cocinados pacientemente durante horas en salsa de soja y vino Shaoxing hasta derretirse."
+ }
+}

@@ -1,0 +1,402 @@
+{
+ "00001": {
+  "name": "Spageti Saus Daging Tomat Spesial Hari Rabu",
+  "tagline": "Spageti legendaris dan sepotong roti bawang putih yang membuat antrean kafetaria dua kali lipat lebih panjang."
+ },
+ "00002": {
+  "name": "Tumis Sosis Sayuran Saus Tomat (Sso-Ya)",
+  "tagline": "Sosis vienna bentuk gurita dan paprika-bawang bombay ditumis manis dengan saus tomat, lauk favorit anak sekolah."
+ },
+ "00003": {
+  "name": "Cutlet Babi Bentuk Pikachu Renyah Nostalgia",
+  "tagline": "Cutlet babi bentuk Pikachu masa kecil berlumur saus bumbu yangnyeom manis pedas yang melimpah."
+ },
+ "00004": {
+  "name": "King Pork Cutlet Saus Demiglace Gaya Kantin Sekolah",
+  "tagline": "Donkatsu ukuran raksasa selebar nampan berlumur saus demiglace cokelat manis gurih buatan tangan."
+ },
+ "00005": {
+  "name": "Kentang Spiral Tornado Tusuk Bumbu Keju",
+  "tagline": "Kentang utuh iris spiral goreng renyah yang ditaburi bubuk keju cheddar gurih menggugah selera."
+ },
+ "00006": {
+  "name": "Ubi Manis Karamel Renyah Wijen Hitam (Mattang)",
+  "tagline": "Ubi manis renyah berlapis karamel gula seperti permen dengan taburan wijen hitam yang pulen di dalam."
+ },
+ "00007": {
+  "name": "Kodari Gangjeong (Ikan Pollack Renyah Saus Pedas Manis)",
+  "tagline": "Potongan ikan pollack kenyal berbalut tepung renyah berpadu saus pedas manis istimewa kafetaria."
+ },
+ "00008": {
+  "name": "Bibim Mandu (Pangsit Goreng Renyah dengan Salad Kol Pedas)",
+  "tagline": "Pangsit goreng isi bihun renyah disajikan dengan salad kol segar berbumbu saus gochujang asam manis pedas."
+ },
+ "00009": {
+  "name": "Sup Udon Tusuk Odeng dan Inari Sushi (Yubu Chobap)",
+  "tagline": "Tusukan sate kue ikan odeng dalam kuah kaldu gurih disajikan bersama sushi kulit tahu manis asam."
+ },
+ "00010": {
+  "name": "Salad Makaroni dan Jagung Manis Mayones",
+  "tagline": "Jagung manis renyah, makaroni kenyal, dan potongan ham berpadu dalam saus mayones gurih lembut."
+ },
+ "00011": {
+  "name": "Tumis Cumi Kering dan Ikan Pipih Saus Gochujang",
+  "tagline": "Lauk cumi kering kenyal dilapisi mayones lalu ditumis dengan sirup beras dan bumbu gochujang pedas manis."
+ },
+ "00012": {
+  "name": "Sosis Pink Klasik Goreng Balur Telur",
+  "tagline": "Irisan sosis merah muda retro berbalut kocokan telur gurih yang digoreng lembut penuh nostalgia."
+ },
+ "00013": {
+  "name": "Tteokgalbi Panggang Buatan Rumah Gaya Kantin Sekolah",
+  "tagline": "Daging cincang panggang bercap gril berlumur saus teriyaki kecap manis berkilau khas makan siang sekolah."
+ },
+ "00014": {
+  "name": "Nasi Mentega Telur Puyuh Kecap Asin (Jangjorim Butter Bibimbap)",
+  "tagline": "Nasi hangat diaduk bersama mentega meleleh, kuah gurih semur daging telur puyuh, dan taburan rumput laut."
+ },
+ "00015": {
+  "name": "Tteokbokki Beras Kantin Sekolah dengan Topping Gimmari",
+  "tagline": "Kue beras kenyal berkuah pedas manis khas depan sekolah disajikan dengan dua gorengan rumput laut renyah."
+ },
+ "00016": {
+  "name": "Yoghurt Beku dan Susu Pisang Penutup Kafetaria",
+  "tagline": "Sensasi segar menyeruput dua botol yoghurt beku setengah es dan susu rasa pisang botol klasik nostalgia."
+ },
+ "00017": {
+  "name": "Hot Dog Tornado Tabur Gula dengan Saus Tomat & Mustar",
+  "tagline": "Hot dog berbalut adonan lembut renyah yang digulingkan di gula pasir lalu disiram saus tomat dan mustar madu."
+ },
+ "00018": {
+  "name": "Nasi Saus Jajang Mini dengan Pangsit Goreng & Danmuji",
+  "tagline": "Nasi bersiram saus kedelai hitam jajang lembut berisi potongan kentang dan daging, plus acar lobak kuning dan pangsit."
+ },
+ "00019": {
+  "name": "Sup Rumput Laut Biji Perilla dan Tumis Bebek Asap Kucai",
+  "tagline": "Sup rumput laut kental gurih beraroma perilla dinikmati bersama bebek asap panggang dan kucai segar harum."
+ },
+ "00020": {
+  "name": "Roti Sobek Isi Salad Buah Krim Manis",
+  "tagline": "Roti lembut bertabur salad buah koktail, apel segar, dan olesan mayones krim manis yang melimpah."
+ },
+ "00021": {
+  "name": "[Michelin 3★] Tartare Sapi Hanwoo & Bulu Babi di atas Bugak Rumput Laut",
+  "tagline": "Tartare daging sapi Hanwoo 1++ dan bulu babi Hokkaido lembut di atas keripik bugak ketan renyah."
+ },
+ "00022": {
+  "name": "[Michelin 3★] Risotto Saus Hati Abalon Wando dengan Truffle Hitam",
+  "tagline": "Irisan truffle hitam segar di atas risotto saus jeroan abalon gurih dengan abalon hidup kukus asal Wando."
+ },
+ "00023": {
+  "name": "[Michelin 3★] Kaviar Osetra dan Mousse Kentang Lembut Amuse-Bouche",
+  "tagline": "Sesendok kaviar Royal Osetra berkilau keemasan di atas mousse kentang asap selembut sutra sebagai pembuka."
+ },
+ "00024": {
+  "name": "[Michelin 3★] Salad Daging Kepiting Salju Saus Emulsi Kacang Pinus",
+  "tagline": "Daging kaki kepiting salju manis berserat lembut dipadukan dengan saus emulsi kacang pinus Gapyeong gurih."
+ },
+ "00025": {
+  "name": "[Michelin 3★] Hanwoo Beef Wellington dengan Saus Périgord Truffle Jus",
+  "tagline": "Daging tenderloin sapi Hanwoo medium rare berbalut duxelles jamur dan pastry puff keemasan renyah."
+ },
+ "00026": {
+  "name": "[Michelin 3★] Nasi Onban Kuah Kaldu Bening Hanwoo dan Jamur Matsutake",
+  "tagline": "Hidangan nasi kuah kaldu bening brisket Hanwoo berpadu jamur matsutake alami beraroma hutan musim gugur."
+ },
+ "00027": {
+  "name": "[Michelin 3★] Ayam Muda Bresse Panggang Prancis dengan Krim Jamur Morel",
+  "tagline": "Ayam Bresse Prancis panggang mentega truffle disajikan dengan saus velouté jamur morel yang mewah."
+ },
+ "00028": {
+  "name": "[Michelin 3★] Sorbet Sampanye Dom Pérignon & Persik Putih Emas 24K",
+  "tagline": "Kompot persik putih matang dengan sorbet sampanye vintage bertabur serpihan emas murni 24K yang dapat dimakan."
+ },
+ "00029": {
+  "name": "[Michelin 3★] Lobster Biru Brittany Poached dengan Emulsi Bisque Saffron",
+  "tagline": "Ekor lobster biru empuk dimasak perlahan dalam mentega dengan saus bisque krustasea saffron keemasan."
+ },
+ "00030": {
+  "name": "[Michelin 3★] Pasta Tajarin Truffle Putih Alba Buatan Tangan",
+  "tagline": "Pasta segar berbalut 40 kuning telur berlimpah serutan jamur truffle putih Alba seperti salju keemasan."
+ },
+ "00031": {
+  "name": "[Michelin 2★] Nasi Pot Ikan Blackthroat Seaperch Bakar & Sayuran Musim Semi",
+  "tagline": "Kulit ikan seaperch bakar arang renyah dan daging lembut disajikan di atas nasi periuk sayur musim semi."
+ },
+ "00032": {
+  "name": "[Michelin 2★] Striploin Sapi Hanwoo 1++ Asap Jerami dengan Puree Bawang Hitam",
+  "tagline": "Daging sapi Hanwoo asap jerami alami beraroma arang dipadukan dengan puree bawang putih hitam fermentasi."
+ },
+ "00033": {
+  "name": "[Michelin 2★] Ikan Tilefish Jeju Sisik Renyah dan Sup Rumput Laut Bulu Babi",
+  "tagline": "Ikan tilefish Jeju dengan sisik mekar renyah disiram minyak panas, disajikan dengan kuah bulu babi gurih."
+ },
+ "00034": {
+  "name": "[Michelin 2★] Kerang Scallop Hokkaido Panggang dan Velouté Kembang Kol",
+  "tagline": "Scallop tebal berkerak keemasan dengan mentega cokelat hazelnut dan krim kembang kol yang lembut."
+ },
+ "00035": {
+  "name": "[Michelin 2★] Mie Gandum Soba Dingin Gamtae dengan Bulu Babi & Udang Manis",
+  "tagline": "Mie soba rumput laut gamtae Taean kenyal disajikan dingin dengan limpahan udang manis amaebi dan uni."
+ },
+ "00036": {
+  "name": "[Michelin 2★] Terrine Foie Gras Bebek dan Roti Panggang Brioche Ara",
+  "tagline": "Terrine foie gras lembut bak beludru di atas brioche hangat dengan kompot buah ara karamel anggur."
+ },
+ "00037": {
+  "name": "[Michelin 2★] Es Krim Mugwort dan Kue Tradisional Gaeseong Juak Renyah",
+  "tagline": "Perpaduan modern kue beras pulen juak Gaeseong berlumur sirup jocheong dan es krim tanaman herbal mugwort Jeju."
+ },
+ "00038": {
+  "name": "[Michelin 1★] Pasta Capellini Minyak Perilla dengan Tartare Sapi Hanwoo & Uni",
+  "tagline": "Pasta helai rambut malaikat berbalut minyak perilla perasan segar bertabur daging sapi mentah dan bulu babi."
+ },
+ "00039": {
+  "name": "[Michelin 1★] Confit Bebek Renyah dengan Saus Gastrique Jeruk",
+  "tagline": "Paha bebek dimasak perlahan dalam minyak bebek selama 12 jam, berkulit renyah tipis dengan daging empuk lembut."
+ },
+ "00040": {
+  "name": "[Michelin 1★] Sup Bawang Prancis Klasik Panggang Keju Gruyère",
+  "tagline": "Karamelisasi bawang bombay selama 5 jam dalam kaldu sapi pekat bertabur roti baguette keju Gruyère leleh."
+ },
+ "00041": {
+  "name": "[Michelin 1★] Asparagus Putih Panggang dengan Telur Poached Saus Hollandaise Truffle",
+  "tagline": "Sayuran musim semi asparagus putih panggang dengan telur rebus setengah matang dan saus hollandaise truffle."
+ },
+ "00042": {
+  "name": "[Michelin 1★] Steak Tteokgalbi Sapi Hanwoo Truffle Bakar Arang & Puree Daun Bawang",
+  "tagline": "Daging iga cincang Hanwoo bakar arang berair dipadukan dengan keharuman puree daun bawang panggang."
+ },
+ "00043": {
+  "name": "[Michelin 1★] Sushi Omakase Otoro Tuna Bluefin & Akami Nigiri",
+  "tagline": "Nasi sushi cuka merah dengan topping daging perut tuna berlemak otoro matang 10 hari dan tuna merah akami."
+ },
+ "00044": {
+  "name": "[Michelin 1★] Paris-Brest Pistachio dan Sus Krim Espresso",
+  "tagline": "Pastry choux almond renyah berisi krim praline pistachio Sisilia yang pekat dan gurih aromatik."
+ },
+ "00045": {
+  "name": "[Bib Gourmand] Mie Dingin Soba Pyongyang Murni (100% Buckwheat) Kuah Kaldu Sapi",
+  "tagline": "Mie soba murni bertekstur khas dengan kuah kaldu sapi Hanwoo dingin yang bening, segar, dan beraroma dalam."
+ },
+ "00046": {
+  "name": "[Bib Gourmand] Sup Daging Babi Bening Berkshire K Gaya Okdongsik dengan Nasi",
+  "tagline": "Nasi hangat mangkuk kuningan dengan irisan daging babi hitam Jirisan lembut dalam kaldu bening yang kaya rasa."
+ },
+ "00047": {
+  "name": "[Bib Gourmand] Mie Kalguksu Potong Tangan dan Mandu Raksasa Gaya Myeongdong",
+  "tagline": "Mie kuah kaldu ayam kental dengan tumisan daging cincang beraroma wajan dan pangsit rebus berkulit tipis."
+ },
+ "00048": {
+  "name": "[Bib Gourmand] Porsi Ganda Mie Soba Dingin Nampan dan Pancake Gulung Soba",
+  "tagline": "Mie soba nampan dicelup ke kuah tsuyu dingin es berbumbu lobak parut dan rumput laut, plus pancake gulung soba."
+ },
+ "00049": {
+  "name": "[Bib Gourmand] Sup Tulang Sapi Seollongtang Tradisional 100 Tahun Restoran Kuno",
+  "tagline": "Kuah putih pekat rebusan tulang sapi dan brisket semalaman disajikan dengan mie somen dan nasi putih hangat."
+ },
+ "00050": {
+  "name": "[Bib Gourmand] Paket Kepiting Betina Telur Penuh Fermentasi Kecap Asin (Ganjang Gejang)",
+  "tagline": "Kepiting betina pesisir barat bertelur jingga melimpah dimarinasi dalam kecap asin rahasia yang tidak terlalu asin."
+ },
+ "00051": {
+  "name": "[Bib Gourmand] Mie Kuah Sapi Taiwan Kaldu Tulang Pekat dan Terong Saus Yuxiang",
+  "tagline": "Kaldu sapi beraroma pekak dengan potongan shank empuk dan terong goreng saus pedas manis renyah."
+ },
+ "00052": {
+  "name": "[Bib Gourmand] Makguksu Minyak Perilla Kupas Gurih dan Irisan Daging Rebus Bossam",
+  "tagline": "Mie soba dingin berlumur minyak perilla murni dan wijen kupas disajikan dengan irisan daging babi herbal lembut."
+ },
+ "00053": {
+  "name": "[Bib Gourmand] Paket Rebusan Kedelai Fermentasi Cheonggukjang & Bibimbap Cumi Pedas",
+  "tagline": "Sup pasta kedelai pekat harum disajikan dengan nasi mangkuk besar bertabur cumi tumis pedas wangi bakaran."
+ },
+ "00054": {
+  "name": "[Bib Gourmand] Kaki Babi Rebus Jokbal Hitam Jeju dan Mie Nampan Asam Pedas",
+  "tagline": "Kaki babi hitam Jeju bertekstur kenyal kaya kolagen disajikan hangat bersama mie dingin salad sayuran asam manis."
+ },
+ "00055": {
+  "name": "Wortel Mentah Segar Organik Utuh Asal Gujwa Jeju",
+  "tagline": "Kerenyahan murni wortel segar manis alami yang menyegarkan dahaga dan menyehatkan mata seketika."
+ },
+ "00056": {
+  "name": "Tomat Merah Matang Iris Tabur Gula Pasir Salju",
+  "tagline": "Nostalgia manis buah tomat ransek bertabur gula pasir hingga menyisakan kuah manis segar yang nikmat diseruput."
+ },
+ "00057": {
+  "name": "Secangkir Tomat Ceri Kurma Segar Manis",
+  "tagline": "Camilan malam renyah berair tanpa rasa bersalah yang meletup segar manis asam di setiap gigitan."
+ },
+ "00058": {
+  "name": "Mentimun Segar Utuh Renyah dengan Pasta Cocol Ssamjang",
+  "tagline": "Mentimun berair 95% penghilang dahaga di puncak pendakian yang dicocol pasta ssamjang gurih sedap."
+ },
+ "00059": {
+  "name": "Seikat Anggur Shine Muscat Manis Raksasa Kualitas Premium Gimcheon",
+  "tagline": "Butiran anggur sebesar plum berkulit renyah dengan rasa manis pekat 18 brix beraroma mangga tropis."
+ },
+ "00060": {
+  "name": "Apel Madu Cheongsong Renyah Manis Dimakan Bersama Kulitnya",
+  "tagline": "Apel fuji Cheongsong sarat intisari madu manis alami yang segar dan menyehatkan di pagi hari."
+ },
+ "00061": {
+  "name": "Ubi Labu Haenam Kukus Hangat dengan Kimchi Lobak Chonggak",
+  "tagline": "Manis pulennya ubi madu kuning keemasan yang mengepul hangat disantap bersama gigitan kimchi lobak segar renyah."
+ },
+ "00062": {
+  "name": "Semangkuk Greek Yogurt Kental Buatan Rumah dengan Blueberry Beku & Madu Sarang",
+  "tagline": "Yoghurt Yunani kental selembut keju berpadu kesegaran blueberry beku dan sepotong sarang lebah madu alami."
+ },
+ "00063": {
+  "name": "Dua Butir Telur Rebus Setengah Matang Berbumbu (Gamdongran) & Es Americano",
+  "tagline": "Telur rebus gurih dengan kuning telur meleleh basah dinikmati bersama segarnya segelas es kopi americano."
+ },
+ "00064": {
+  "name": "Bungkusan Daun Kol Kukus Manis dengan Pasta Rebusan Siput (Ureong Gang-doenjang)",
+  "tagline": "Manis lembutnya daun kubis kukus dipadu gurih pedasnya rebusan tauco pekat berisi siput sawah kenyal."
+ },
+ "00065": {
+  "name": "Piring Buah Persik Pipih Donat Eropa & Nektarin Segar",
+  "tagline": "Gigitan pertama persik gepeng manis beraroma wangi yang membanjiri mulut dengan sari buah segar."
+ },
+ "00066": {
+  "name": "Lima Butir Jeruk Keprok Manis Segar Kebun Terbuka Jeju",
+  "tagline": "Mengupas buah jeruk manis Jeju satu per satu hingga jemari menguning sambil bersantai di bawah selimut hangat."
+ },
+ "00067": {
+  "name": "Stik Paprika Tiga Warna Renyah Segar dengan Saus Hummus Lemon Bawang Putih",
+  "tagline": "Potongan paprika merah, kuning, dan oranye dicocol ke pasta hummus kacang arab beraroma lemon segar yang sehat."
+ },
+ "00068": {
+  "name": "Babi Renyah Tangsuyuk Saus Cokelat Mint Siram",
+  "tagline": "Olahan fusi kontroversial babi goreng tepung kenyal berpadu dingin segarnya mint dan manis legitnya cokelat."
+ },
+ "00069": {
+  "name": "Bungeoppang Pistachio Kataifi Cokelat Khas Dubai",
+  "tagline": "Kue ikan bungeoppang mewah kekinian berisi mie garing kataifi, selai pistachio kental, dan cokelat pekat."
+ },
+ "00070": {
+  "name": "Mie Jajang Tinta Cumi Hitam dengan Cumi Utuh Goreng Raksasa",
+  "tagline": "Mie kenyal hitam tinta cumi disajikan dengan topping cumi-cumi goreng tepung krispi berukuran jumbo."
+ },
+ "00071": {
+  "name": "Tteokbokki Rosé Mala Air Terjun Keju Mozzarella & Bunmoja",
+  "tagline": "Kue beras dan bihun kentang kenyal dalam kuah rosé mala pedas creamy bersiram lelehan keju mozzarella melimpah."
+ },
+ "00072": {
+  "name": "Es Serut Bingsu Cokelat Telur Dinosaurus Raksasa Dipecah Palu",
+  "tagline": "Palu kayu pemecah cangkang cokelat dinosaurus raksasa yang mengungkap salju es susu lembut dan permen jeli."
+ },
+ "00073": {
+  "name": "Pho Daging Sandung Lamur Kuah Sapi dengan Gunungan Daun Ketumbar",
+  "tagline": "Surga pencinta daun ketumbar dalam semangkuk mie pho berkuah kaldu sapi pekat bertabur tumpukan herba segar."
+ },
+ "00074": {
+  "name": "Sushi Daging Sapi Mentah Hanwoo Yukhoe 55cm Bertabur Lembaran Emas 24K",
+  "tagline": "Papan kayu 55cm berlapis sushi daging sapi mentah bumbu wijen yang diselimuti lembaran emas murni 24K mewah."
+ },
+ "00075": {
+  "name": "Es Krim Lembut Rasa Wasabi Segar dengan Keripik Kentang Asin",
+  "tagline": "Keunikan es krim susu manis dingin berpadu sengatan pedas wasabi tajam yang dicolek keripik kentang renyah."
+ },
+ "00076": {
+  "name": "Deep Dish Pizza Chicago Isi Rebusan Iga Babi Kimchi Pedas",
+  "tagline": "Adonan pai tebal berlumur keju leleh dan daging iga babi rebusan kimchi tua asam pedas yang menggoda selera."
+ },
+ "00077": {
+  "name": "Es Serut Melon Utuh dengan Air Terjun Susu Kental Manis",
+  "tagline": "Buah melon muskmelon dikeruk bulat disajikan dengan gunungan es susu dan siraman kental manis yang melimpah."
+ },
+ "00078": {
+  "name": "Sup Sundaeguk Mangkuk Batu Kaldu Tulang Babi Tabur Bubuk Perilla",
+  "tagline": "Sup sosis darah korea dan irisan daging kepala mendidih dalam mangkuk tembikar dengan dua sendok bubuk perilla gurih."
+ },
+ "00079": {
+  "name": "Sup Tulang Leher Babi Pedas Pereda Mabuk (Ppyeo Haejangguk)",
+  "tagline": "Daging empuk yang mudah lepas dari tulang leher babi berpadu kuah kaldu pedas sawi kering dan daun perilla."
+ },
+ "00080": {
+  "name": "Rebusan Kimchi Daging Babi Tebal dan Telur Dadar Gulung Saus Tomat",
+  "tagline": "Sup kimchi fermentasi pedas gurih berisi daging babi tebal dan tahu, disajikan dengan telur dadar gulung lembut."
+ },
+ "00081": {
+  "name": "Sup Tauco Doenjang Sandung Lamur Sapi & Nasi Campur Daun Lobak Muda",
+  "tagline": "Gurihnya kuah tauco daging sapi sandung lamur berpadu nasi jelai aduk kimchi lobak muda dan minyak wijen."
+ },
+ "00082": {
+  "name": "Tumis Daging Babi Pedas Api Membara Gaya Restoran Supir & Lalap Selada",
+  "tagline": "Daging babi tumis pedas manis beraroma wajan menyengat dinikmati bersama nasi hangat dan sebaskom daun selada segar."
+ },
+ "00083": {
+  "name": "Samgyeopsal Fermentasi Panggang Kuali Besi dengan Daun Minari & Nasi Goreng",
+  "tagline": "Lembaran samgyeopsal tebal dipanggang bersama minyak kimchi dan daun minari wangi berujung nasi goreng kuali."
+ },
+ "00084": {
+  "name": "Nasi Mentega Telur Setengah Matang Kecap Asin dengan Irisan Daging Spam Goreng",
+  "tagline": "Mentega meleleh di bawah nasi panas dengan dua butir telur mata sapi setengah matang dan gurihnya irisan spam bakar."
+ },
+ "00085": {
+  "name": "Sup Tauge Cumi Pasar Selatan Jeonju dengan Telur Poached Hangat",
+  "tagline": "Kesegaran kuah tauge renyah bercampur cincangan cumi dan cabai pedas dinikmati dengan sesendok telur rebus lembut."
+ },
+ "00086": {
+  "name": "Ayam Goreng Setengah Renyah Original Golden Crispy + Setengah Pedas Manis Yangnyeom",
+  "tagline": "Jawaban terbaik atas perdebatan ayam goreng renyah bumbu gurih versus lumuran saus pedas manis korea."
+ },
+ "00087": {
+  "name": "Aneka Babat & Usus Sapi Hanwoo Panggang Batu dengan Tumis Kucai",
+  "tagline": "Kenikmatan babat, usus besar kenyal meleleh, dan jantung sapi bakar di atas piring batu bersama kucai segar."
+ },
+ "00088": {
+  "name": "Paket 10 Pcs Sushi Salmon Segar Norwegia Tebal dan Udon Mini",
+  "tagline": "Irisan salmon segar oranye tebal dan salmon bakar aburi berlemak gurih lengkap dengan semangkuk mie udon hangat."
+ },
+ "00089": {
+  "name": "Donkatsu Renyah Isi Lelehan Keju Mozzarella Utuh Gaya Yeondon",
+  "tagline": "Balutan tepung roti renyah dan irisan tenderloin babi yang membungkus keju mozzarella meleleh mulur tanpa henti."
+ },
+ "00090": {
+  "name": "Paket Kombinasi Buldak-Getti Pedas Gurih dan Kimbap Segitiga Tuna Mayo",
+  "tagline": "Paduan viral mie pedas buldak dan saus jajang manis gurih dinikmati dengan onigiri kimbap tuna mayones."
+ },
+ "00091": {
+  "name": "Dua Roti Garam Mentega Renyah (Shio Pan) dan Es Kopi Latte",
+  "tagline": "Roti gurih berongga mentega gurih renyah di dasar bertabur kristal garam laut ditemani es latte segar."
+ },
+ "00092": {
+  "name": "Bungeoppang Hangat Musim Dingin Isi Kacang Merah & Krim Custard (6 Pcs)",
+  "tagline": "Kenikmatan kantong kertas cokelat berisi tiga kue ikan manis kacang merah dan tiga kue ikan lembut isi vla custard."
+ },
+ "00093": {
+  "name": "Eggs Benedict Kafe Brunch dengan Telur Poached & Salad Alpukat",
+  "tagline": "Muffin inggris panggang bertabur salmon asap, telur rebus poached goyang, dan siraman saus hollandaise kuning keemasan."
+ },
+ "00094": {
+  "name": "Ramen Tonkotsu Kaldu Tulang Babi Pekat Gaya Hakata & Telur Ajitama",
+  "tagline": "Rebusan kaldu tulang babi kental gurih berpadu irisan daging chashu panggang dan telur marinasi setengah matang."
+ },
+ "00095": {
+  "name": "Es Serut Salju Susu Bingsu Kacang Merah Manis & Kue Beras Injeolmi",
+  "tagline": "Es serut selembut salju susu meleleh di lidah bertabur potongan kue ketan injeolmi kenyal, bubuk kedelai, dan kacang merah."
+ },
+ "00096": {
+  "name": "Cheeseburger Klasik yang Pertama Kali Dicari Tony Stark Iron Man Sepulang Penyekapan",
+  "tagline": "Burger keju legendaris yang dikunyah lahap sambil duduk di lantai ruang jumpa pers usai lolos dari gua Afganistan."
+ },
+ "00097": {
+  "name": "Pangsit Mandu Goreng Emas Restoran Jagumseong Makanan Choi Min-sik Selama 15 Tahun di Oldboy",
+  "tagline": "Pangsit goreng garing yang diantar lewat celah pintu besi selama 15 tahun penyekapan tanpa kata."
+ },
+ "00098": {
+  "name": "Chapaguri Ram-don Sirloin Sapi Hanwoo Pesanan 8 Menit Nyonya Park di Parasite",
+  "tagline": "Paduan mie chapagetti dan neoguri bertabur potongan daging sirloin sapi hanwoo mewah lambang jurang kesenjangan sosial."
+ },
+ "00099": {
+  "name": "Ayam Goreng Bumbu Iga Sapi Suwon King Galbi Pasukan Detektif Extreme Job",
+  "tagline": "Perpaduan renyahnya ayam goreng utuh berselimut bumbu manis gurih iga sapi bakar legendaris khas Suwon."
+ },
+ "00100": {
+  "name": "Steak Tenderloin Sapi Kanada yang Dibeli Gong Yoo untuk Kim Go-eun di Goblin",
+  "tagline": "Pintu teleportasi menuju restoran Quebec tempat sang Goblin berusia 939 tahun menikmati potongan daging steak lembut."
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "00301": {
+  "name": "Pastel de Nata Tart Telur Portugis Lisbon Belém Berkaramel 2 Biji",
+  "tagline": "Kulit pastri rapuh berkecai dihiasi inti telur bakar berkaramel keperangan dan sedikit taburan serbuk kayu manis."
+ },
+ "00302": {
+  "name": "Daging Perut Khinzir Bakar Tudung Kawah Besi Panas & Kimchi Matang",
+  "tagline": "Minyak daging babi mengalir ke tepi tudung kawah menggoreng garing kimchi tua, tauge dan ulas bawang putih keemasan."
+ },
+ "00303": {
+  "name": "Daging Lembu Hanwoo 1++ Marbling Bunga Bakar Arang Kayu Putih",
+  "tagline": "Daging ribeye marbling mewah dibakar sekilas atas bara arang putih dinikmati bersama sedikit garam laut asli."
+ },
+ "00304": {
+  "name": "Dwaeji Galbi Rusuk Khinzir Lembut Perap Kicap Manis Bakar Arang",
+  "tagline": "Daging rusuk babi dikelar diperap jus buah pir dan bawang manis dibakar teliti atas jaring besi beraroma salai."
+ },
+ "00305": {
+  "name": "Set Aneka Usus Lembu Gopchang & Daechang Bakar Kuali Besi Kucai",
+  "tagline": "Usus kecil penuh lemak gurih dan usus besar garing dibakar kuali leper bersama timbunan daun kucai segar."
+ },
+ "00306": {
+  "name": "Kimchi Jjigae Stew Kimchi Daging Bahu Khinzir Pedas & Taufu Lembut",
+  "tagline": "Kimchi matang ditumis minyak daging babi direbus sup bilis bersama ketulan daging tebal dan taufu penyegar jiwa."
+ },
+ "00307": {
+  "name": "Doenjang Jjigae Stew Pes Soya Siput Air Tawar Desa & Taufu",
+  "tagline": "Stew pes kacang soya fermentasi pekat buatan desa dimasak bersama siput air tawar kenyal dan ketulan taufu lembut."
+ },
+ "00308": {
+  "name": "Jjageuli Daging Tetel Lembu Pedas Pekat Bersama Labu & Kentang",
+  "tagline": "Antara stew dan tumisan daging tetel berlemak direnek kuah gochujang pekat hingga kentang hancur penambah selera nasi."
+ },
+ "00309": {
+  "name": "Gamjatang Stew Tulang Belakang Khinzir Pekat Sayur Ugeoji & Perilla",
+  "tagline": "Tulang belakang babi direbus lama hingga isi relai daripada tulang dalam kuah pekat beraroma biji perilla wangi."
+ },
+ "00310": {
+  "name": "Doganitang Sup Tulang Rawan Lutut Lembu Hanwoo Jernih Berkolagen",
+  "tagline": "Sup rebusan sendi dan urat lutut lembu Hanwoo jernih pekat kolagen berkhasiat tinggi dimakan bersama kimchi lobak."
+ },
+ "00311": {
+  "name": "Sotong Segar Laut Timur Kukus Seekor Penuh dengan Pes Hati Hitam",
+  "tagline": "Sotong segar dikukus bulat bersama isi perut menghasilkan pes hati berkrim pekat berdakwat yang sangat lazat."
+ },
+ "00312": {
+  "name": "Nakgop Sae Stew Periuk Pedas Sotong Kurita, Usus Lembu & Udang Busan",
+  "tagline": "Gandingan tiga rasa kurita kenyal, usus lembu berlemak dan udang manis dalam kuah pedas pekat berdaun kucai."
+ },
+ "00313": {
+  "name": "Periuk Panas Aneka Kerang Segar Laut Dalam dengan Kuah Manis Asli",
+  "tagline": "Timbunan kekapis, kupang dan kepah besar merekah dalam kuah laut jernih manis beraroma cili hijau dan sayur kubis."
+ },
+ "00314": {
+  "name": "Jjukkumi Kurita Kecil Tumis Kuali Berapi Pedas Bersama Telur Ikan",
+  "tagline": "Kurita kecil montok ditumis api marak bersos pes cili pedas membara dibalut daun perilla dan telur ikan terbang."
+ },
+ "00315": {
+  "name": "Kaki Ayam Tanpa Tulang Bakar Arang Pedas Berasap & Mangkuk Telur Kukus",
+  "tagline": "Kaki ayam kenyal tanpa tulang disalut pes pedas menyengat dibakar arang berasap dipadankan telur kukus lembut."
+ },
+ "00316": {
+  "name": "Shabu-Shabu Daging Lembu Hiris Nipis & Sayuran Segar Sup Dashi Jernih",
+  "tagline": "Hirisan daging lembu dicelup tiga saat dalam sup sayuran menggelegak sebelum dicicah sos cili masam manis herba."
+ },
+ "00317": {
+  "name": "Yuk-Kal Mi Hiris Tangan Kalguksu dalam Sup Daging Lembu Pedas",
+  "tagline": "Mi gandum buatan tangan diadun ke dalam sup daging lembu carik pedas pekat beraroma minyak cili dan daun bawang manis."
+ },
+ "00318": {
+  "name": "Bindaetteok Lempeng Kacang Hijau Kisar Batu Rangup Pasar Gwangjang",
+  "tagline": "Kacang hijau kisar batu tradisional digoreng kuali besi bersama daging babi dan tauge menghasilkan kerak sangat garing."
+ },
+ "00319": {
+  "name": "Bokjiri Sup Ikan Buntal Jernih Segar Daun Pegaga Air & Tauge",
+  "tagline": "Isi ikan buntal putih kenyal direbus sup jernih beraroma pegaga air dan tauge dititis sedikit cuka penawar mabuk."
+ },
+ "00320": {
+  "name": "Salad Siput Laut Pedas Golbaengi Muchim bersama Mi Somen Halus",
+  "tagline": "Siput laut tin kenyal digaul sos cili cuka masam manis bersama timun dan daun bawang dimakan bersama mi somen halus."
+ },
+ "00321": {
+  "name": "Abalon Hidup Wando Panggang Mentega Perancis Emas 5 Ekor",
+  "tagline": "Abalon segar dikelar berlian dipanggang pantas atas kuali bersama mentega wangi dan bawang putih rangup berjus."
+ },
+ "00322": {
+  "name": "Janchi Guksu Mi Sup Kenduri Panas Kuah Bilis Dashi Pekat & Zukini",
+  "tagline": "Mi halus dalam kuah dashi ikan bilis jernih mendalam dihiasi kepingan telur dadar, rumpai laut dan sos kicap pedas."
+ },
+ "00323": {
+  "name": "Belut Laut Kkomjangeo Bakar Arang Bersos Gochujang Pasar Jagalchi",
+  "tagline": "Belut laut kenyal dibakar bara api disapu sos pes cili merah pedas berasap hidangan jalanan ikonik pelabuhan Busan."
+ },
+ "00324": {
+  "name": "Sannakji Tangtangi Kurita Hidup Cincang Minyak Bijan & Garam Mokpo",
+  "tagline": "Kurita hidup segar dicincang pantas atas papan pemotong digaul minyak bijan wangi dan garam laut meletop di mulut."
+ },
+ "00325": {
+  "name": "Dubu Kimchi Taufu Kukus Suam bersama Daging Babi & Kimchi Goreng",
+  "tagline": "Kepingan taufu kampung lembut suam dialas kimchi masak ditumis minyak daging babi lauk pendamping arak beras makgeolli."
+ },
+ "00326": {
+  "name": "Mungtigi Daging Lembu Hanwoo Mentah Segar Daegu dengan Sos Cili Bawang",
+  "tagline": "Daging lembu mentah pejal segar dipotong dadu dicicah sos pes cili bawang putih kasar kebanggaan bandar Daegu."
+ },
+ "00327": {
+  "name": "Mi Sejuk Naengmyeon Gandum Kuda Berais & Daging Bakar Arang Manis",
+  "tagline": "Mi gandum sejuk kenyal dalam kuah sup berais masam manis dinikmati bersama sekeping daging lembu bakar arang."
+ },
+ "00328": {
+  "name": "Jjolmyeon Mi Kenyal Sos Pedas Masam Pasar Sinpo Incheon & Tauge",
+  "tagline": "Mi kenyal bergetah disalut sos cili merah manis masam bersama tauge rangup dan timun segar penyeri selera."
+ },
+ "00329": {
+  "name": "Tteok-Manduguk Sup Tulang Lembu Putih Ladu Daging Gergasi & Kek Beras",
+  "tagline": "Sup tulang lembu putih pekat berisi ladu buatan tangan gergasi dan kepingan kek beras kenyal sajian pagi Tahun Baru."
+ },
+ "00330": {
+  "name": "Kalguksu Mi Hiris Tangan Kepah Segar Bertimbun Daebudo Kuah Jernih",
+  "tagline": "Timbunan kepah segar mengeluarkan sup laut jernih berpadu mi tebal kenyal buatan sendiri yang menghangatkan badan."
+ },
+ "00331": {
+  "name": "Sujebi Kepingan Doh Koyak dalam Sup Krim Biji Perilla & Cendawan",
+  "tagline": "Kepingan doh ditarik nipis tangan dimasak dalam kuah berkrim serbuk biji perilla pekat bersama cendawan shiitake."
+ },
+ "00332": {
+  "name": "Jang-Kalguksu Mi Sup Pes Cili & Kacang Soya Pekat Gangneung",
+  "tagline": "Sup mi merah pekat diadun pes cili gochujang dan pes soya bersama telur hancur, kentang dan labu manis Gangneung."
+ },
+ "00333": {
+  "name": "Mi Somen Nipis Gaul Kimchi Matang Pedas Masam & Minyak Bijan",
+  "tagline": "Mi somen halus digaul hirisan kimchi matang rangup, minyak bijan wangi dan pes cili pembuka selera tengah hari musim panas."
+ },
+ "00334": {
+  "name": "Mandu Leper Goreng Rangup Pasar Seomun Daegu & Kerabu Kubis Pedas",
+  "tagline": "Ladu leper senipis kertas berinti mihun digoreng garing atas kuali leper ditaburi daun bawang dan kuah cili kicap."
+ },
+ "00335": {
+  "name": "Tteokbokki Kek Beras Pulut Padat Inti Lelehan Keju Mozzarella Bom",
+  "tagline": "Kek beras kenyal berintikan keju mozzarella padat meletus dalam kuah sos merah manis pedas pekat menyelerakan."
+ },
+ "00336": {
+  "name": "Aneka Tempura Rangup Buatan Tangan (Gim-Mari, Sotong, Keledek & Sayur)",
+  "tagline": "Gulungan rumpai laut celup tepung, jejari sotong, keledek manis dan sayuran digoreng keemasan serangup keropok."
+ },
+ "00337": {
+  "name": "Sundae Sosej Tradisi Byeongcheon Inti Sayuran & Darah Khinzir Lembut",
+  "tagline": "Sosej usus babi tradisi diisi kubis, mihun dan darah lembut menghasilkan tekstur gebu enak tanpa sebarang bau hamis."
+ },
+ "00338": {
+  "name": "Hotdog Rangup Separuh Mozzarella Tarik & Separuh Sosej Bersalut Gula",
+  "tagline": "Lapisan serbuk roti garing menutupi separuh keju mozzarella tarik memanjang dan separuh sosej daging berperisa."
+ },
+ "00339": {
+  "name": "Kongguksu Mi Sejuk Sup Pati Kacang Soya Hitam Seoritae Kisar Batu",
+  "tagline": "Pati kacang soya hitam tulen berkrim sejuk berais membalut mi kenyal dihiasi timun hiris sajian berkhasiat musim panas."
+ },
+ "00340": {
+  "name": "Mayak Kimbap Gulungan Mini Berperisa Pasar Gwangjang & Sos Mustard",
+  "tagline": "Lima gulung kimbap mini berinti lobak jeruk dan lobak merah disapu minyak bijan dicicah sos mustard pedas menyengat."
+ },
+ "00341": {
+  "name": "Kalguksu Mi Hiris Ayam Separuh Ekor Rebusan Bawang Putih Ilsan",
+  "tagline": "Separuh ekor ayam lembut direbus sup dashi kepah dan bawang putih harum dihidangkan bersama mi hiris tangan kenyal."
+ },
+ "00342": {
+  "name": "Yukhoe Bibimbap Nasi Campur Daging Mentah Hanwoo Mangkuk Tembaga Jeonju",
+  "tagline": "Mangkuk tembaga tradisional berisi aneka sayur lima warna, daging lembu cincang mentah diperap minyak bijan dan telur kuning."
+ },
+ "00343": {
+  "name": "Albap Nasi Mangkuk Batu Panas Berkerak Telur Ikan Terbang & Kimchi",
+  "tagline": "Bunyi gemersik telur ikan terbang meletus atas kerak nasi panas berpadu kimchi goreng rangup dan rumpai laut wangi."
+ },
+ "00344": {
+  "name": "Ttukbaegi Bulgogi Daging Lembu Hiris Kicap Manis & Mihun Periuk Tanah",
+  "tagline": "Daging lembu hiris nipis dan cendawan enoki mendidih dalam periuk tanah liat kuah kicap manis menyerap ke dalam mihun kaca."
+ },
+ "00345": {
+  "name": "Nasi Campur Kerang Bulu Pedas Pantai Anmok Gangneung & Daun Sup",
+  "tagline": "Isi kerang bulu montok digaul pes cili pedas dan pegaga air ditimbun atas nasi panas beraroma minyak bijan pekat."
+ },
+ "00346": {
+  "name": "Nasi Periuk Besi Kawah Abalon Hidup & Rumpai Laut Hijau Wando",
+  "tagline": "Abalon segar dan rumpai laut tot dimasak tanak dalam periuk kawah besi dihidangkan bersama sos kicap herba chive liar."
+ },
+ "00347": {
+  "name": "Nasi Herba Gondre Jeongseon dengan Pes Kacang Soya Desa Gangdoenjang",
+  "tagline": "Daun herba gondre gunung Gangwon yang lembut wangi digaulkan bersama sesudu pes kacang soya desa pekat berkhasiat."
+ },
+ "00348": {
+  "name": "Seolleongtang Sup Tulang Daging Lembu Hanwoo Kawah 24 Jam & Mi Somen",
+  "tagline": "Sup putih susu direbus kawah besi 24 jam tanpa perasa tiruan dihidangkan bersama hirisan daging lembut dan kimchi lobak."
+ },
+ "00349": {
+  "name": "Gomtang Sup Daging Lembu Hanwoo Jernih Manis Asli Naju Geumseonggwan",
+  "tagline": "Sup rebusan daging batang pinang lembu jernih keemasan bertabur hirisan telur dadar dan daun bawang manis semula jadi."
+ },
+ "00350": {
+  "name": "Sup Tauge Rendam Mesra Nasi Gaya Pasar Selatan Jeonju & Dua Telur Carak",
+  "tagline": "Nasi dan tauge direndam sup panas bertabur sotong cincang cili hijau diiringi dua biji telur separuh masak berlemak."
+ },
+ "00351": {
+  "name": "Dwaeji Gukbap Sup Daging Khinzir Lembut Busan Lorong Seomyeon",
+  "tagline": "Sup tulang babi putih pekat sarat hirisan daging rebus empuk diperisakan kucai segar dan pes udang masin pembakar semangat."
+ },
+ "00352": {
+  "name": "Galchi Jorim Ikan Layur Perak Jeju & Lobak Putih Renek Pedas Manis",
+  "tagline": "Isi ikan layur putih bersih dan ketulan lobak manis lembut direnek kuah pedas manis pekat menyelerakan di atas nasi."
+ },
+ "00353": {
+  "name": "Ikan Kembung Masin Bakar Garam Laut Rangup Berjus Set Makanan Tradisi",
+  "tagline": "Kulit ikan kembung dibakar garing menitiskan minyak omega sihat dengan isi berjus lembut masin sederhana pelengkap selera."
+ },
+ "00354": {
+  "name": "Dakgalbi Ayam Tumis Pedas Kuali Leper Chuncheon dengan Sungai Mozzarella",
+  "tagline": "Ayam pedas dan kek beras ditumis atas kuali bulat besar dicelup ke dalam laluan keju mozzarella cair di bahagian tengah."
+ },
+ "00355": {
+  "name": "Osam Bulgogi Sotong & Daging Khinzir Tumis Kuali Berapi Pedas Manis",
+  "tagline": "Kenyal manis sotong segar berpadu lemak daging perut babi ditumis api garang dalam sos cili gochujang pekat berkilat."
+ },
+ "00356": {
+  "name": "Sup Tiram Segar & Rumpai Laut Halus Sutera Maesaengi Musim Sejuk Tongyeong",
+  "tagline": "Tiram gemuk berjus dimasak sup jernih bersama rumpai laut maesaengi hijau sehalus sutera pemanas badan musim sejuk."
+ },
+ "00357": {
+  "name": "Dotori Mukbap Sup Jeli Buah Oak Berais Sejuk Masam Manis dengan Nasi",
+  "tagline": "Jeli akorn kenyal dihiris panjang disimbah kuah kimchi berais masam manis dimakan bersama nasi putih penyejuk musim panas."
+ },
+ "00358": {
+  "name": "Gyeranjjim Telur Kukus Gebu Naik Mangkuk Tanah Keju Cheddar & Telur Ikan",
+  "tagline": "Telur kukus menggelembung tinggi melebihi mangkuk tanah liat bertabur keju cheddar leleh dan butiran telur ikan terbang."
+ },
+ "00359": {
+  "name": "Hongeo Samhap Gabungan Ikan Pari Feri, Daging Babi Rebus & Kimchi Tua",
+  "tagline": "Gabungan unik aroma tajam ikan pari fermentasi, kelembutan perut babi rebus dan kematangan kimchi 3 tahun warisan Selatan."
+ },
+ "00360": {
+  "name": "Yukjeon Daging Lembu Celup Telur Goreng Nipis Gwangju & Salad Daun Bawang",
+  "tagline": "Hirisan daging batang pinang lembut disalut adunan telur digoreng keemasan dihidangkan panas bersama kerabu daun bawang."
+ },
+ "00361": {
+  "name": "Sundae Putih Goreng Kuali Besi Tanpa Cili Pasar Sillim-dong",
+  "tagline": "Sosej sundae dan mihun kenyal digoreng kuali besi bersama kubis dan serbuk perilla dicicah sos pes cili istimewa."
+ },
+ "00362": {
+  "name": "Roti Garam Shio Pan Kerak Mentega Rangup Rongga Meleleh Panas",
+  "tagline": "Bahagian bawah roti digoreng garing mentega manakala dalamnya berongga mentega leleh ditaburi butiran garam laut asli."
+ },
+ "00363": {
+  "name": "Pastri Kouign-Amann Mentega & Karamel Berlipat Rangup Tradisi Brittany",
+  "tagline": "Doh pastri berlipat mentega dan gula dibakar hingga lapisan luar berkaramel manis rangup manakala dalamnya lembut berserat."
+ },
+ "00364": {
+  "name": "Kek Fondant au Chocolat Lava Coklat Gelap Hangat Meleleh Gebu",
+  "tagline": "Kek span coklat lembut yang apabila dibelah mengeluarkan lelehan lahar coklat gelap Belgium 70 peratus panas pekat."
+ },
+ "00365": {
+  "name": "Pastri Canelé Bordeaux Berkulit Rangup Lilin Lebah & Inti Kastard Rom",
+  "tagline": "Dibakar dalam acuan tembaga bersalut lilin lebah menghasilkan kulit perang berkilat serangup gula dengan inti vanila berkrim."
+ },
+ "00366": {
+  "name": "Croffle Wafel Croissant Karamel Mentega Bersama Aiskrim Vanila & Sirap",
+  "tagline": "Doh croissant ditekan atas pembuat wafel berkaramel rangup dihidangkan bersama skop aiskrim vanila dan limpahan sirap mapel."
+ },
+ "00367": {
+  "name": "Kek Keju Bakar Hangus Basque Karamel Asap & Tengah Berkrim Lembut",
+  "tagline": "Permukaan atas dibakar perang gelap beraroma asap karamel mengimbangi kelembutan krim keju cair sehalus sutera di tengah."
+ },
+ "00368": {
+  "name": "Tiramisu Itali Buatan Sendiri Biskut Savoiardi Kopi Espreso & Mascarpone",
+  "tagline": "Biskut jejari direndam kopi espreso pekat dilapisi krim keju mascarpone gebu dan taburan serbuk koko Belanda wangi."
+ },
+ "00369": {
+  "name": "Teh Susu Mutiara Gula Perang Harimau Taiwan dengan Susu Segar Boba",
+  "tagline": "Mutiara tapioka kenyal suam berkaramel gula perang diadun susu segar sejuk membentuk corak belang harimau memikat."
+ },
+ "00370": {
+  "name": "Matcha Espresso Latte Tiga Lapisan Teh Hijau Organik Jeju & Buih Susu",
+  "tagline": "Gradasi tiga warna memukau teh hijau matcha pekat Jeju, susu putih segar berkrim dan espreso kopi gelap harum."
+ },
+ "00371": {
+  "name": "Pedal Ayam Tumis Bawang Putih Bulat & Garam Minyak Bijan Gerai Pocha",
+  "tagline": "Pedal ayam kenyal rangup ditumis wangi bersama ulas bawang putih keemasan dan minyak bijan lauk malam klasik."
+ },
+ "00372": {
+  "name": "Sup Kupang Segar Periuk Tanah Pedas Cili Padi Gerai Jalanan Korea",
+  "tagline": "Satu periuk penuh kupang segar direbus sup putih jernih beraroma cili padi hijau dan daun bawang penghilang lelah."
+ },
+ "00373": {
+  "name": "Kulit Khinzir Bakar Arang Corak Sarang Lebah Rangup Kenyal & Serbuk Soya",
+  "tagline": "Ditekan besi pemanggang membuang minyak berlebihan menghasilkan kulit serangup keropok kaya kolagen dicicah serbuk soya."
+ },
+ "00374": {
+  "name": "Tulang Rawan Khinzir Cincang Tumis Pedas Berapi & Bebola Nasi Rumpai Laut",
+  "tagline": "Tulang rawan babi rangup ditumis pes cili api membara dimakan bersama bebola nasi kepal telur ikan rumpai laut."
+ },
+ "00375": {
+  "name": "Bajirak Suljjim Kepah Segar Reneh Mentega Bawang Putih & Wain Putih",
+  "tagline": "Kepah segar merekah dalam kuah mentega bawang putih wain putih dan cili keping menghasilkan rasa laut mendalam."
+ },
+ "00376": {
+  "name": "Muneo Sukhoe Hirisan Kurita Gergasi Laut Timur Celur Minyak Bijan Garam",
+  "tagline": "Kaki kurita gergasi dicelur lembut dihiris nipis dinikmati bersama cicahan minyak bijan garam laut dan sos cili masam."
+ },
+ "00377": {
+  "name": "Churrasco Picanha Stik Daging Punggung Lembu Bakar Cucuk Arang Brazil",
+  "tagline": "Kepingan daging bersalut lapisan lemak tebal diperam garam kasar dibakar cucuk panjang dan dihiris nipis di depan meja."
+ },
+ "00378": {
+  "name": "Asado Rusuk Lembu Bakar Perlahan Kayu Api 4 Jam Argentina & Sos Chimichurri",
+  "tagline": "Rusuk lembu dipanggang perlahan empat jam atas api kayu terbuka disirami sos herba pasli bawang putih chimichurri segar."
+ },
+ "00379": {
+  "name": "Keju Cair Raclette Pegunungan Alps Disagat atas Kentang Rebus & Acar",
+  "tagline": "Roda keju Swiss dipanaskan hingga meleleh lalu dikikis mengalir seperti air terjun menutupi kentang rebus panas dan sosej."
+ },
+ "00380": {
+  "name": "Motsunabe Periuk Panas Usus Lembu Daging Hanwoo Timbunan Kucai Hakata",
+  "tagline": "Usus lembu berlemak putih direbus kuah kicap dashi jernih di bawah timbunan daun kucai hijau dan serbuk cili merah."
+ },
+ "00381": {
+  "name": "Huoguo Periuk Panas Berkembar Yin-Yang Sup Mala Pedas Sichuan & Sup Tulang",
+  "tagline": "Periuk bersekat dua menawarkan sensasi pedas kebas lada Sichuan huajiao dan kemanisan sup rebusan tulang putih pekat."
+ },
+ "00382": {
+  "name": "Brisket Daging Dada Lembu Salai Kayu Oak 16 Jam Austin Texas",
+  "tagline": "Daging dada lembu disalai perlahan selama 16 jam menghasilkan kerak lada hitam garing dan gegelang asap merah jambu empuk."
+ },
+ "00383": {
+  "name": "Bistecca alla Fiorentina Stik T-Bone 1kg Daging Lembu Chianina Firenze",
+  "tagline": "Stik tulang T setebal lima sentimeter dipanggang arang kayu oak gaya Tuscan menghasilkan isi bahagian dalam merah berjus."
+ },
+ "00384": {
+  "name": "Khao Soi Mi Kari Kelapa Kuning Paha Ayam & Mi Telur Rangup Chiang Mai",
+  "tagline": "Paha ayam empuk dalam kuah kari santan kuning berkrim dihiasi mi telur goreng rangup dan perahan limau nipis segar."
+ },
+ "00385": {
+  "name": "Bun Bo Hue Mi Beras Daging Lembu Sup Serai Pedas Diraja Vietnam",
+  "tagline": "Mi beras bulat tebal dalam kuah rebusan daging lembu beraroma serai wangi, pes udang dan minyak cili pedas menyengat."
+ },
+ "00386": {
+  "name": "Ceviche Ikan Putih Segar & Udang Masak Jus Limau Nipis Leche de Tigre Peru",
+  "tagline": "Isi ikan putih segar dimasak dingin menggunakan asid jus limau nipis digaul bersama bawang merah, ketumbar dan jagung manis."
+ },
+ "00387": {
+  "name": "Loco Moco Mangkuk Nasi Daging Burger Berjus Kuah Gravi & Telur Mata Hawaii",
+  "tagline": "Nasi putih gebu dialas kepingan daging burger lembu berjus disirami kuah gravi perang pekat dan telur mata kuning meleleh."
+ },
+ "00388": {
+  "name": "Bebola Daging Lembu Tradisional Stockholm Kuah Gravi Krim & Jem Lingonberry",
+  "tagline": "Bebola daging empuk disalut kuah perang berkrim dihidangkan bersama kentang lecek baldu dan jem buah lingonberry manis masam."
+ },
+ "00389": {
+  "name": "Poutine Kentang Goreng Panas Ketulan Keju Dadih & Kuah Gravi Daging Quebec",
+  "tagline": "Kentang goreng rangup panas ditimbuni ketulan keju dadih segar yang memanjang disiram kuah gravi daging lembu panas pekat."
+ },
+ "00390": {
+  "name": "Gyukatsu Set Daging Lembu Goreng Tepung Rangup Bakar Batu Mini Kyoto",
+  "tagline": "Daging lembu bersalut serbuk roti digoreng pantas 60 saat lalu dipanggang sendiri di atas dapur batu besi mini mengikut citarasa."
+ },
+ "00391": {
+  "name": "Lu Rou Fan Nasi Daging Perut Khinzir Renek Kicap Gelap Manis Taiwan",
+  "tagline": "Daging babi dipotong dadu direnek lama bersama kicap manis pekat, bawang goreng dan rempah lima rasa di atas nasi panas."
+ },
+ "00392": {
+  "name": "Moussaka Lapisan Terung Bakar, Daging Kambing Ragù & Béchamel Yunani",
+  "tagline": "Kaserol tradisional membakar terung, kentang dan sos daging kambing berempah kayu manis diselaputi sos putih béchamel gebu."
+ },
+ "00393": {
+  "name": "Taco Carnitas Daging Khinzir Rendidik Rempah Jus Oren Mexico 3 Ketul",
+  "tagline": "Daging babi direndidih perlahan dalam minyak dan jus oren hingga garing di luar dicarik lembut ke atas tortilla jagung."
+ },
+ "00394": {
+  "name": "Kebab Seekh Daging Kambing Cincang Rempah Bakar Relau Tandoor 2 Cucuk",
+  "tagline": "Daging kambing cincang diadun rempah jintan putih dan garam masala dicucuk besi dibakar garing dalam relau tanah liat."
+ },
+ "00395": {
+  "name": "Okonomiyaki Hiroshima Lapisan Mi Yakisoba, Kubis & Khinzir Bertingkat",
+  "tagline": "Lempeng nipis dialas timbunan kubis manis, mi yakisoba goreng, daging babi dan telur goreng disalut sos perang pekat."
+ },
+ "00396": {
+  "name": "Pad Krapow Moo Saap Daging Khinzir Cincang Tumis Daun Selasih Thai & Telur",
+  "tagline": "Daging babi cincang ditumis api marak bersama daun selasih suci pedas cili padi dan sos tiram dihidang dengan telur goreng."
+ },
+ "00397": {
+  "name": "Risotto Emas Safron Mewah alla Milanese & Keju Parmigiano Autentik",
+  "tagline": "Beras risotto dimasak kuah rebusan sumsum lembu menyerap warna kuning keemasan herba safron mewah dan keju parmigiano."
+ },
+ "00398": {
+  "name": "Polbo á Feira Kurita Rebus Lembut Galicia Minyak Zaitun & Paprika Salai",
+  "tagline": "Kurita direbus empuk dalam kawah tembaga dihiris atas pinggan kayu disiram minyak zaitun dara dan serbuk paprika salai."
+ },
+ "00399": {
+  "name": "Ayam Goreng Buttermilk Rangup Berempah Cajun Selatan Amerika",
+  "tagline": "Daging ayam diperap susu mentega 24 jam digoreng tepung garing berempah paprika dan bawang putih sangat berjus."
+ },
+ "00400": {
+  "name": "Elote Jagung Bakar Jalanan Mexico Bersalut Mayonis, Keju Cotija & Cili",
+  "tagline": "Tongkol jagung bakar disapu mayonis berkrim, parutan keju cotija putih masin dan serbuk cili merah disempurnakan limau nipis."
+ },
+ "00401": {
+  "name": "Salade Niçoise Salad Ikan Tuna Segar, Telur Rebus, Zaitun & Sos Vinaigrette",
+  "tagline": "Kepingan tuna segar panggang, telur rebus, buah zaitun hitam dan kacang buncis digaul sos cuka vinaigrette herba Riviera."
+ }
+}

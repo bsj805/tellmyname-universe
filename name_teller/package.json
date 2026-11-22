@@ -1,0 +1,18 @@
+{
+  "name": "name_teller",
+  "version": "2.0.0",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "bsj805",
+  "description": "이름을 설명해드립니다 (Name Teller) — 한글 이름 한자 뜻풀이 & 365일 익명 메시지 전달소",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/dev_server.mjs",
+    "build": "node scripts/generate_static_site.mjs",
+    "batch:daily": "node scripts/batch_daily_update.mjs",
+    "adsense:set": "node scripts/configure_adsense.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

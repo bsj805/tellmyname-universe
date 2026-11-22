@@ -1,0 +1,402 @@
+{
+ "00201": {
+  "name": "Burgundy Escargots with Parsley Garlic Herb Butter (6pcs)",
+  "tagline": "Tender snails baked in their shells with bubbling aromatic parsley and garlic butter."
+ },
+ "00202": {
+  "name": "Classic Boeuf Bourguignon French Red Wine Beef Stew",
+  "tagline": "Tender beef brisket braised for hours in Pinot Noir wine with bacon lardons and button mushrooms."
+ },
+ "00203": {
+  "name": "Classic French Vanilla Crème Brûlée with Caramel Crust",
+  "tagline": "Velvety chilled vanilla bean custard beneath a paper-thin, crackling torched sugar crust."
+ },
+ "00204": {
+  "name": "Provençal Traditional Vegetable Ratatouille Stew",
+  "tagline": "Summer zucchini, eggplant, and ripe tomatoes slowly simmered in extra virgin olive oil and herbs."
+ },
+ "00205": {
+  "name": "Coq au Vin French Red Wine Braised Chicken",
+  "tagline": "Rustic French chicken braised in rich red wine reduction with pearl onions and smoked bacon."
+ },
+ "00206": {
+  "name": "Classic Quiche Lorraine Tart with Smoked Bacon & Gruyère",
+  "tagline": "Flaky buttery pastry filled with creamy egg custard, crispy smoked bacon, and nutty Gruyère."
+ },
+ "00207": {
+  "name": "American Fluffy Buttermilk Pancake Stack with Maple Syrup",
+  "tagline": "Golden buttermilk pancakes stacked three high, topped with whipped butter and pure maple syrup."
+ },
+ "00208": {
+  "name": "Chicago Deep Dish Stuffed Cheese Pizza with Tomato Sauce",
+  "tagline": "Thick buttery crust holding a deep lake of melted mozzarella topped with crushed tomato sauce."
+ },
+ "00209": {
+  "name": "New Orleans Crispy Soft Shell Crab Po-Boy Sandwich",
+  "tagline": "Golden-fried soft shell crab stuffed inside French bread with shredded lettuce and spicy remoulade."
+ },
+ "00210": {
+  "name": "Gourmet Ribeye Steak Burger with Cheddar & Truffle Aioli",
+  "tagline": "Juicy ribeye beef patty topped with aged cheddar cheese, savory bacon jam, and truffle aioli."
+ },
+ "00211": {
+  "name": "Boston Clam Chowder in Crusty Sourdough Bread Bowl",
+  "tagline": "Creamy New England clam chowder loaded with tender clams and potatoes inside a hollowed bread loaf."
+ },
+ "00212": {
+  "name": "Louisiana Creole Jambalaya with Andouille, Chicken & Shrimp",
+  "tagline": "Zesty seasoned rice simmered with smoky andouille sausage, chicken, plump shrimp, and peppers."
+ },
+ "00213": {
+  "name": "Traditional Korean Multi-Grain Shake (Misutgaru) with Honey",
+  "tagline": "Roasted ten-grain nutritious shake sweetened with acacia honey and served over cold ice."
+ },
+ "00214": {
+  "name": "Blueberry Overnight Oats with Chia Seeds & Almond Milk",
+  "tagline": "Rolled oats soaked overnight with chia seeds, creamy almond milk, and antioxidant-rich blueberries."
+ },
+ "00215": {
+  "name": "Steamed Sweet Kabocha Squash Wedges & Roasted Walnuts",
+  "tagline": "Tender naturally sweet kabocha squash wedges served with crunchy toasted walnut halves."
+ },
+ "00216": {
+  "name": "Crisp Golden Baguette Slice with Salted French Butter",
+  "tagline": "Freshly baked artisan sourdough baguette slathered with rich Normandy sea salt butter."
+ },
+ "00217": {
+  "name": "Golden Butter-Fried Sunny-Side Up Eggs (2pcs) with Salt",
+  "tagline": "Two fresh farm eggs fried in sizzling butter with crispy lacy edges and runny golden yolks."
+ },
+ "00218": {
+  "name": "Fresh Banana & Peanut Butter Toast with Chia Seeds",
+  "tagline": "Crisp whole wheat toast spread with thick peanut butter, sliced bananas, and chia seeds."
+ },
+ "00219": {
+  "name": "Refreshing Morning Apple & Carrot Detox Green Juice",
+  "tagline": "Cold-pressed sweet apple, carrot, and fresh kale juice that revitalizes the body instantly."
+ },
+ "00220": {
+  "name": "Warm Roasted Tomato Soup with Toasted Garlic Sourdough",
+  "tagline": "Silky slow-roasted tomato basil soup served with a warm, crunchy slice of garlic sourdough."
+ },
+ "00221": {
+  "name": "Nutty Muesli Cereal Bowl with Warm Milk & Dried Cranberries",
+  "tagline": "Nutritious Swiss-style rolled oats, seeds, nuts, and tart cranberries soaked in warm milk."
+ },
+ "00222": {
+  "name": "Smoked Salmon & Cream Cheese Sourdough Open Sandwich",
+  "tagline": "Toasted rye bread topped with silky cream cheese, ribbons of smoked salmon, capers, and dill."
+ },
+ "00223": {
+  "name": "Homemade Strawberry Chia Seed Jam on Multi-Grain Toast",
+  "tagline": "Thick whole grain toast spread with low-sugar strawberry compote and nutrient-dense chia."
+ },
+ "00224": {
+  "name": "Crisp Romaine Caesar Salad with Boiled Egg & Croutons",
+  "tagline": "Crisp romaine hearts tossed in garlicky Caesar dressing with parmesan, croutons, and egg."
+ },
+ "00225": {
+  "name": "Organic Scrambled Eggs with Steamed Broccoli Florets",
+  "tagline": "Fluffy organic eggs scrambled softly and accompanied by vibrant steamed broccoli."
+ },
+ "00226": {
+  "name": "Artisan Sourdough Avocado Toast with Olive Oil & Pepper",
+  "tagline": "Creamy mashed Haas avocado spread over crusty sourdough with chili flakes and olive oil."
+ },
+ "00227": {
+  "name": "Hotel Breakfast Fluffy Butter Scrambled Eggs & Tomatoes",
+  "tagline": "Velvety soft-scrambled eggs enriched with cream and butter, paired with sweet blistered tomatoes."
+ },
+ "00228": {
+  "name": "Chilled Sweet Mango & Coconut Milk Smoothie Bowl",
+  "tagline": "Tropical blended ripe mango and coconut milk base topped with coconut flakes and fresh fruit."
+ },
+ "00229": {
+  "name": "Classic Golden French Toast Soaked in Vanilla Custard",
+  "tagline": "Brioche bread soaked in rich vanilla cinnamon custard, griddled golden and dusted with sugar."
+ },
+ "00230": {
+  "name": "Golden Roasted Tofu Steaks Glazed with Seasoned Soy",
+  "tagline": "Pan-seared firm tofu cutlets drizzled with sweet scallion soy sauce and roasted sesame seeds."
+ },
+ "00231": {
+  "name": "Gangneung Chodang Soft Tofu Stew with Seasoned Soy Sauce",
+  "tagline": "Curdled soft tofu freshly made with clean seawater, served steaming with savory soy dressing."
+ },
+ "00232": {
+  "name": "Golden Crispy Waffles with Whipped Cream & Fresh Berries",
+  "tagline": "Freshly ironed Belgian waffles topped with a mountain of light whipped cream and berries."
+ },
+ "00233": {
+  "name": "Açaí Berry Smoothie Bowl with Granola & Fresh Banana",
+  "tagline": "Antioxidant-packed frozen acai purée topped with crunchy honey granola and sliced fruits."
+ },
+ "00234": {
+  "name": "Tender Shredded Chicken & Vegetable Oatmeal Porridge",
+  "tagline": "Healthy oat-based Korean chicken porridge cooked with tender shredded chicken and carrots."
+ },
+ "00235": {
+  "name": "Warm Roasted Sweet Chestnut Milk Latte with Cinnamon",
+  "tagline": "Creamy steamed milk infused with roasted sweet chestnut purée and dusted with cinnamon."
+ },
+ "00236": {
+  "name": "English Muffin Sandwich with Canadian Bacon & Cheddar",
+  "tagline": "Toasted English muffin stacked with savory Canadian bacon, a fried egg, and melted cheddar."
+ },
+ "00237": {
+  "name": "Fresh Ruby Red Grapefruit Half with Greek Yogurt",
+  "tagline": "Juicy sweet-tart ruby grapefruit segments scooped and paired with protein-rich Greek yogurt."
+ },
+ "00238": {
+  "name": "Gapyeong Pine Nut Porridge (Jatjuk) with Nutty Flavor",
+  "tagline": "Silky, elegant royal rice porridge blended with fragrant native Gapyeong pine nuts."
+ },
+ "00239": {
+  "name": "Steamed Haenam Sweet Potatoes (2pcs) with Cold Milk",
+  "tagline": "Piping-hot honey sweet potatoes paired naturally with a refreshing cold glass of milk."
+ },
+ "00240": {
+  "name": "Toasted Bagel with Homemade Scallion Cream Cheese",
+  "tagline": "Chewy toasted plain bagel thickly spread with creamy cheese loaded with fresh scallions."
+ },
+ "00241": {
+  "name": "Traditional Winter Red Bean Porridge (Patjuk) with Mochi",
+  "tagline": "Warm, earthy slow-cooked red bean porridge studded with chewy glutinous rice balls."
+ },
+ "00242": {
+  "name": "Warm Cinnamon Oatmeal Porridge with Walnuts & Honey",
+  "tagline": "Creamy hot oats infused with aromatic cinnamon and topped with toasted walnuts and honey."
+ },
+ "00243": {
+  "name": "Tuna Mayo Triangle Kimbap (Samgak Gimbap) - Best Seller",
+  "tagline": "Korea's favorite convenience store snack packed with creamy tuna mayo inside crispy seaweed."
+ },
+ "00244": {
+  "name": "Spicy Jeonju Bibimbap Triangle Kimbap with Minced Beef",
+  "tagline": "Seasoned red pepper rice with savory minced beef gochujang tucked in the center."
+ },
+ "00245": {
+  "name": "Fiery Buldak Spicy Chicken Mayo Triangle Kimbap",
+  "tagline": "Intensely spicy shredded chicken tamed with creamy mayonnaise wrapped in seasoned rice."
+ },
+ "00246": {
+  "name": "Thick Spam & Stir-Fried Kimchi Rice Triangle Kimbap",
+  "tagline": "A thick slab of savory Spam layered over zesty caramelized kimchi fried rice."
+ },
+ "00247": {
+  "name": "Gourmet Spicy Pollack Roe Mayo (Myeongran) Triangle Kimbap",
+  "tagline": "Salty, umami-rich spicy cod roe blended with smooth mayonnaise inside seasoned rice."
+ },
+ "00248": {
+  "name": "Eonyang Sweet Bulgogi Beef BBQ Triangle Kimbap",
+  "tagline": "Finely minced beef marinated in sweet soy and flame-grilled for deep smoky flavor."
+ },
+ "00249": {
+  "name": "Tuna & Stir-Fried Kimchi Duo Triangle Kimbap",
+  "tagline": "The perfect duo of rich creamy tuna mayo and spicy caramelized aged kimchi."
+ },
+ "00250": {
+  "name": "Spicy Cheongyang Chili Pepper Tuna Triangle Kimbap",
+  "tagline": "Zesty tuna salad spiked with minced fiery Cheongyang green chilies for a clean spicy kick."
+ },
+ "00251": {
+  "name": "Spicy Stir-Fried Pork (Jeyuk) Triangle Kimbap",
+  "tagline": "Generous filling of fire-grilled spicy pork shoulder wrapped in seasoned seaweed rice."
+ },
+ "00252": {
+  "name": "Sweet Teriyaki Glazed Whole Spam Triangle Kimbap",
+  "tagline": "A whole slice of savory Spam glazed in glossy teriyaki sauce sitting atop seasoned rice."
+ },
+ "00253": {
+  "name": "Nongshim Yukgaejang Bowl Noodle Soup with Thin Noodles",
+  "tagline": "Nostalgic thin curly noodles in light, savory beef broth ready in just three minutes."
+ },
+ "00254": {
+  "name": "Nongshim Shin Ramyun Spicy Beef Broth Small Cup",
+  "tagline": "The quintessential Korean spicy ramen featuring chewy noodles and robust peppery beef soup."
+ },
+ "00255": {
+  "name": "Ottogi Sesame Ramen Big Cup with Egg Block & Sesame Oil",
+  "tagline": "Comforting ramen with a fluffy egg block and a fragrant drizzle of roasted sesame oil."
+ },
+ "00256": {
+  "name": "Samyang Buldak Hot Chicken Ramen Extreme Spicy Big Bowl",
+  "tagline": "The legendary fire noodles coated in extreme tongue-numbing sweet chili glaze."
+ },
+ "00257": {
+  "name": "Nongshim Tempura Udon Big Bowl with Crispy Tempura Flakes",
+  "tagline": "Clean, savory bonito dashi broth swimming with thick chewy noodles and crispy tempura bits."
+ },
+ "00258": {
+  "name": "Paldo Dosirac Square Cup Noodle Soup with Savory Broth",
+  "tagline": "Classic retro square container packed with thin tender noodles and savory mild broth."
+ },
+ "00259": {
+  "name": "Nongshim Neoguri Spicy Seafood Big Bowl with Thick Noodles",
+  "tagline": "Plump udon noodles in spicy seafood soup enriched with real Wando island kelp."
+ },
+ "00260": {
+  "name": "Ottogi Jin Ramen Spicy Big Cup with Chewy Noodles",
+  "tagline": "Korea's household favorite spicy ramen with balanced rich beef broth and springy noodles."
+ },
+ "00261": {
+  "name": "GS25 Omori Aged Kimchi Stew Ramen Big Bowl",
+  "tagline": "Contains real aged kimchi stew concentrate for an authentic, deeply sour and spicy soup."
+ },
+ "00262": {
+  "name": "Samyang Carbo Buldak Creamy Spicy Chicken Big Bowl",
+  "tagline": "Creamy cheese and cream powder mellowing out fiery spicy hot chicken sauce."
+ },
+ "00263": {
+  "name": "Paldo King Ttukkeong Spicy Noodle Soup Big Bowl",
+  "tagline": "Colossal cup ramen whose wide plastic lid doubles as a handy cooling bowl for noodles."
+ },
+ "00264": {
+  "name": "Nongshim Chapagetti Beombeok Mini Cup Black Bean Noodles",
+  "tagline": "Compact cup of savory Korean black bean noodles coated in sweet, glossy chunjang sauce."
+ },
+ "00265": {
+  "name": "Nongshim Shin Ramyun Black Premium Big Bowl",
+  "tagline": "Elevated spicy ramen enriched with rich ox bone broth powder and hearty mushroom slices."
+ },
+ "00266": {
+  "name": "Ottogi Yeul Ramen Fiery Spicy Pepper Big Cup",
+  "tagline": "Blazing hot pepper broth packed with fiery spice that leaves a lingering sweat."
+ },
+ "00267": {
+  "name": "Samyang Cheese Buldak Spicy Four-Cheese Big Bowl",
+  "tagline": "Fiery Buldak sauce softened with a generous blend of four creamy, savory cheeses."
+ },
+ "00268": {
+  "name": "Baek Jong-won Deluxe Bento Box with Bulgogi & Rolled Egg",
+  "tagline": "A lavish Korean bento feast filled with soy bulgogi, sausages, rolled omelet, and sides."
+ },
+ "00269": {
+  "name": "GS25 Hyeja-Style Crispy Pork Cutlet & Sausage Bento Box",
+  "tagline": "Great-value hearty bento box loaded with golden pork cutlet, Vienna sausage, and kimchi."
+ },
+ "00270": {
+  "name": "7-Eleven 11-Side-Dish Royal Feast Lunch Box",
+  "tagline": "A bountiful cafeteria-style lunch box featuring eleven assorted meats and traditional side dishes."
+ },
+ "00271": {
+  "name": "Jumbo Smoked BBQ Chicken Drumstick (Convenience Store)",
+  "tagline": "Giant, juicy chicken drumstick smoked in savory barbecue glaze, eaten right off the bone."
+ },
+ "00272": {
+  "name": "Chewy Oven-Baked Fish Sausage Stick with Cheddar Core",
+  "tagline": "Snack-sized fish cake sausage stuffed with gooey processed cheddar cheese."
+ },
+ "00273": {
+  "name": "Peppery Pork Jerky Stick & Smoked Quail Eggs (3pcs)",
+  "tagline": "Savory chewy pork jerky stick paired with tender, soy-marinated smoked quail eggs."
+ },
+ "00274": {
+  "name": "Ice Cup with Sweet Cantabile Peach Iced Tea Pouch",
+  "tagline": "A cold plastic cup of ice paired with a refreshing, sweet floral peach iced tea pouch."
+ },
+ "00275": {
+  "name": "Ice Cup with Deep Cantabile Hazelnut Drip Coffee Pouch",
+  "tagline": "Sweet, aromatic hazelnut iced coffee poured fresh over a cup full of crushed ice."
+ },
+ "00276": {
+  "name": "Iced Traditional Korean Sweet Rice Drink (Sikhye) Pouch",
+  "tagline": "Sweet malted barley drink containing tender cooked rice grains, served ice-cold."
+ },
+ "00277": {
+  "name": "Iced Tangy Pomegranate & Hibiscus Ade Drink Pouch",
+  "tagline": "Vibrant ruby-red tart pomegranate and floral hibiscus juice poured over crisp ice."
+ },
+ "00278": {
+  "name": "Vietnamese Banh Mi Baguette with Pork & Pickled Daikon",
+  "tagline": "Crispy French baguette packed with savory roasted pork, liver pâté, pickled daikon, and fresh cilantro."
+ },
+ "00279": {
+  "name": "Crispy Grilled Beef Quesadilla with Melted Cheese & Guac",
+  "tagline": "Toasted tortilla folded over seasoned beef and molten cheese, served with fresh guacamole."
+ },
+ "00280": {
+  "name": "Authentic Mexican Carnitas Pork Street Tacos (3pcs)",
+  "tagline": "Slow-braised citrus pork carnitas nestled on warm corn tortillas with onion and cilantro."
+ },
+ "00281": {
+  "name": "Cuban Pressed Sandwich with Roast Pork, Ham & Swiss",
+  "tagline": "Crispy pressed Cuban roll filled with mojo roast pork, sweet ham, Swiss cheese, and dill pickles."
+ },
+ "00282": {
+  "name": "Greek Lamb Gyros Pita Wrap with Fries & Creamy Tzatziki",
+  "tagline": "Warm fluffy pita wrapped around spit-roasted lamb, fresh tomatoes, french fries, and tzatziki."
+ },
+ "00283": {
+  "name": "Istanbul Grilled Mackerel Sandwich (Balik Ekmek)",
+  "tagline": "Freshly grilled oily mackerel fillet stuffed in crusty bread with crisp lettuce, onion, and lemon juice."
+ },
+ "00284": {
+  "name": "Moroccan Lamb Tagine Stew with Apricots & Couscous",
+  "tagline": "Slow-simmered clay pot lamb stew fragrant with cinnamon, dried apricots, almonds, and couscous."
+ },
+ "00285": {
+  "name": "Taiwanese Night Market Giant Crispy Chicken (Jipai)",
+  "tagline": "Extra-large fried chicken cutlet coated in spiced starch and dusted with pepper salt."
+ },
+ "00286": {
+  "name": "Thai Pad Thai Stir-Fried Rice Noodles with Tiger Prawns",
+  "tagline": "Rice noodles stir-fried with eggs, tofu, bean sprouts, and tiger prawns in sweet tamarind sauce."
+ },
+ "00287": {
+  "name": "Indonesian Nasi Goreng Fried Rice with Sweet Soy & Egg",
+  "tagline": "Aromatic fried rice seasoned with kecap manis and shrimp paste, topped with a runny fried egg."
+ },
+ "00288": {
+  "name": "Balinese Charcoal-Grilled Chicken Satay with Peanut Sauce",
+  "tagline": "Spiced chicken skewers grilled over hot coals and smothered in a rich, chunky peanut sauce."
+ },
+ "00289": {
+  "name": "Singapore Kaya Toast with Butter Slabs & Soft Boiled Eggs",
+  "tagline": "Toasted bread with slabs of cold butter and fragrant pandan jam, dipped in soft-boiled eggs with dark soy."
+ },
+ "00290": {
+  "name": "Singapore Jumbo Chili Crab with Sweet Gravy & Fried Buns",
+  "tagline": "Succulent mud crab bathed in sweet, spicy, egg-thickened chili tomato gravy with fried mantou."
+ },
+ "00291": {
+  "name": "Authentic Roman Artisan Gelato 2 Scoops (Pistachio & Rice)",
+  "tagline": "Dense, creamy Italian gelato scoops made from Sicilian pistachio and sweet chewy Arborio rice."
+ },
+ "00292": {
+  "name": "NYC 53rd Street Halal Guys Chicken & Gyro Platter",
+  "tagline": "Fragrant yellow saffron rice topped with grilled spiced chicken, gyro meat, pita, and creamy white sauce."
+ },
+ "00293": {
+  "name": "Osaka Dotonbori Octopus Takoyaki (8pcs) with Bonito",
+  "tagline": "Crispy-edged batter balls with tender octopus pieces, topped with sweet brown sauce and dancing flakes."
+ },
+ "00294": {
+  "name": "Osaka Style Savory Okonomiyaki with Pork Belly & Shrimp",
+  "tagline": "Thick cabbage pancake griddled with pork belly and shrimp, drizzled with sweet sauce and kewpie mayo."
+ },
+ "00295": {
+  "name": "Sapporo Jingisukan Charcoal-Grilled Lamb Cutlets",
+  "tagline": "Fresh tender lamb chops grilled on a dome-shaped iron hot plate over heaps of bean sprouts."
+ },
+ "00296": {
+  "name": "British Beer-Battered Cod Fish & Chips with Tartar Sauce",
+  "tagline": "Crispy golden ale-battered cod fillet served alongside thick-cut chips and tangy tartar dip."
+ },
+ "00297": {
+  "name": "Spanish Sizzling Garlic Prawns (Gambas al Ajillo)",
+  "tagline": "Juicy prawns sizzling in fragrant extra virgin olive oil with sliced garlic, chili, and baguette."
+ },
+ "00298": {
+  "name": "Classic New York Baked Rich Cream Cheesecake Slice",
+  "tagline": "Dense, velvety cheesecake baked with Philadelphia cream cheese and sour cream on a graham crust."
+ },
+ "00299": {
+  "name": "Loaded Nacho Platter with Warm Cheddar, Jalapeños & Salsa",
+  "tagline": "Crispy corn tortilla chips drowned in velvety melted cheddar, pickled jalapeños, and fresh salsa."
+ },
+ "00300": {
+  "name": "American Spiced Apple Pie Slice with Vanilla Ice Cream",
+  "tagline": "Warm flaky lattice-topped pie bursting with spiced caramelized apples and cold vanilla ice cream."
+ }
+}

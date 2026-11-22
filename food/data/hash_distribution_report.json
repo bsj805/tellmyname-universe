@@ -1,0 +1,480 @@
+{
+  "testDate": "2026-11-08T13:44:15.625Z",
+  "determinismPass": true,
+  "deduplicationPass": true,
+  "dayToDayChangeRate": "99.57%",
+  "overallStatus": "PASSED",
+  "sampleDailyRecommendation": {
+    "name": "김서윤",
+    "date": "2026-11-08",
+    "strokeInfo": {
+      "cleanName": "김서윤",
+      "charCount": 3,
+      "strokes": [
+        7,
+        4,
+        6
+      ],
+      "totalStrokes": 17,
+      "strokeHarmony": 1710,
+      "steps": [
+        [
+          7,
+          4,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "nameBaseHash": 1666010471,
+    "dateSeed": 3229717457,
+    "meals": {
+      "breakfast": {
+        "mealKey": "breakfast",
+        "mealOrder": 1,
+        "mealLabel": "아침",
+        "mealFullLabel": "아침 추천",
+        "mealEmoji": "🌅",
+        "timeRangeText": "05:00 ~ 09:59",
+        "themeColor": "#FF9F43",
+        "hash": 1232954091,
+        "poolIndex": 86,
+        "poolSize": 163,
+        "food": {
+          "index": 221,
+          "code": "00221",
+          "id": "food_00221",
+          "name": "다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽",
+          "englishName": "Savory Minced Beef & Shiitake Mushroom Vegetable Porridge",
+          "originGroup": "KOREAN_POPULAR",
+          "originLabel": "한국인이 사랑하는 대중 메뉴",
+          "originBadge": "🍲 한국 인기 메뉴",
+          "deliveryCategory": "SOUP_STEW",
+          "emoji": "🥣",
+          "candidateMeals": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "primaryMeal": "breakfast",
+          "calories": "340 kcal",
+          "priceRange": "10,000원",
+          "tagline": "기름기 적은 소고기 우둔살과 은은한 표고 향이 쌀알에 푹 배어 속을 부드럽게 채워주는 스테디셀러",
+          "funComment": "어릴 적 아플 때 엄마가 정성껏 저어가며 끓여주던 그리운 손맛과 따스한 온기.",
+          "pairingTip": "잘게 찢은 쇠고기 장조림을 한 젓가락 얹어 짭조름하게 드세요.",
+          "tags": [
+            "소고기야채죽",
+            "영양죽",
+            "속편한음식",
+            "아침죽"
+          ],
+          "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
+          "imageUrl": "/images/00221.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+        }
+      },
+      "lunch": {
+        "mealKey": "lunch",
+        "mealOrder": 2,
+        "mealLabel": "점심",
+        "mealFullLabel": "점심 추천",
+        "mealEmoji": "☀️",
+        "timeRangeText": "10:00 ~ 13:59",
+        "themeColor": "#FF6B6B",
+        "hash": 864655797,
+        "poolIndex": 201,
+        "poolSize": 279,
+        "food": {
+          "index": 292,
+          "code": "00292",
+          "id": "food_00292",
+          "name": "뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터",
+          "englishName": "NYC 53rd Street Halal Guys Style Chicken & Gyro Combo Platter with White Sauce",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "FAST_CONVENIENCE",
+          "emoji": "🍛",
+          "candidateMeals": [
+            "lunch",
+            "dinner",
+            "night"
+          ],
+          "primaryMeal": "dinner",
+          "calories": "820 kcal",
+          "priceRange": "14,000원",
+          "tagline": "스파이스 치킨과 양고기를 볶아 노란 밥 위에 얹고 은박 용기에 담아 전설의 하얀 화이트 소스를 듬뿍",
+          "funComment": "매운 레드 소스는 딱 두 방울만! 하얀 소스를 듬뿍 뿌려 비벼 먹는 뉴욕 스트리트의 진정한 소울.",
+          "pairingTip": "피타 빵 조각 위에 밥과 고기, 화이트 소스를 올려 쌈처럼 싸서 드세요.",
+          "tags": [
+            "할랄가이즈",
+            "치킨오버라이스",
+            "뉴욕스트리트",
+            "화이트소스"
+          ],
+          "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
+          "imageUrl": "/images/00292.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+        }
+      },
+      "snack": {
+        "mealKey": "snack",
+        "mealOrder": 3,
+        "mealLabel": "간식",
+        "mealFullLabel": "간식(디저트) 추천",
+        "mealEmoji": "🍰",
+        "timeRangeText": "14:00 ~ 16:59",
+        "themeColor": "#F368E0",
+        "hash": 2895432570,
+        "poolIndex": 108,
+        "poolSize": 141,
+        "food": {
+          "index": 274,
+          "code": "00274",
+          "id": "food_00274",
+          "name": "우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵",
+          "englishName": "Yonsei Cream Bread Overstuffed with Pure Milk Whipped Cream",
+          "originGroup": "KOREAN_POPULAR",
+          "originLabel": "한국인이 사랑하는 대중 메뉴",
+          "originBadge": "🍲 한국 인기 메뉴",
+          "deliveryCategory": "CAFE_DESSERT",
+          "emoji": "🥯",
+          "candidateMeals": [
+            "breakfast",
+            "snack",
+            "night"
+          ],
+          "primaryMeal": "snack",
+          "calories": "410 kcal",
+          "priceRange": "2,900원",
+          "tagline": "편의점 오픈런 디저트 대란의 주인공! 얇은 빵 피 속에 묵직한 동물성 우유 생크림이 80% 이상",
+          "funComment": "반으로 가르면 하얀 크림이 폭포처럼 쏟아져 나와 입가에 묻히며 먹는 크림 천국.",
+          "pairingTip": "냉동실에 30분 살짝 얼려 먹으면 아이스크림 빵처럼 더욱 맛있습니다.",
+          "tags": [
+            "연세우유생크림빵",
+            "편의점디저트",
+            "생크림폭탄",
+            "디저트오픈런"
+          ],
+          "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
+          "imageUrl": "/images/00274.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+        }
+      },
+      "dinner": {
+        "mealKey": "dinner",
+        "mealOrder": 4,
+        "mealLabel": "저녁",
+        "mealFullLabel": "저녁 추천",
+        "mealEmoji": "🌙",
+        "timeRangeText": "17:00 ~ 20:59",
+        "themeColor": "#54A0FF",
+        "hash": 1173787300,
+        "poolIndex": 132,
+        "poolSize": 278,
+        "food": {
+          "index": 190,
+          "code": "00190",
+          "id": "food_00190",
+          "name": "신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)",
+          "englishName": "Palak Paneer Indian Spinach Curry with Cubed Cottage Cheese",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "ASIAN_WORLD",
+          "emoji": "🍛",
+          "candidateMeals": [
+            "lunch",
+            "dinner"
+          ],
+          "primaryMeal": "lunch",
+          "calories": "490 kcal",
+          "priceRange": "16,500원",
+          "tagline": "초록빛 시금치 퓨레에 버터와 가람 마살라를 더하고 쫄깃담백한 수제 파니르 치즈를 띄운 건강 커리",
+          "funComment": "시금치 싫어하는 사람도 두 손 들고 밥 비벼 먹게 만드는 부드럽고 크리미한 마법의 녹색 커리.",
+          "pairingTip": "탄두르 화덕 벽에 붙여 구워낸 쫄깃하고 거대한 버터 갈릭 난을 찢어 커리를 듬뿍 떠드세요.",
+          "tags": [
+            "팔락파니르",
+            "시금치커리",
+            "인도커리",
+            "베지테리언"
+          ],
+          "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
+          "imageUrl": "/images/00190.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+        }
+      },
+      "night": {
+        "mealKey": "night",
+        "mealOrder": 5,
+        "mealLabel": "야식",
+        "mealFullLabel": "야식 추천",
+        "mealEmoji": "🦉",
+        "timeRangeText": "21:00 ~ 04:59",
+        "themeColor": "#8395A7",
+        "hash": 2253593392,
+        "poolIndex": 154,
+        "poolSize": 206,
+        "food": {
+          "index": 297,
+          "code": "00297",
+          "id": "food_00297",
+          "name": "스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트",
+          "englishName": "Spanish Sizzling Garlic & Chili Prawns (Gambas al Ajillo) with Sliced Baguette",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "PIZZA_BURGER",
+          "emoji": "🦐",
+          "candidateMeals": [
+            "lunch",
+            "dinner",
+            "night"
+          ],
+          "primaryMeal": "dinner",
+          "calories": "620 kcal",
+          "priceRange": "19,000원",
+          "tagline": "카술라 뚝배기에서 보글보글 끓는 마늘 기름에 페페론치노와 새우 향이 스며든 스페인 타파스 최고 인기 메뉴",
+          "funComment": "새우를 다 먹고 바게트 빵을 기름 바닥까지 싹싹 문질러 적셔 먹는 맛이 진짜 주인공!",
+          "pairingTip": "차가운 스페인 카바(스파클링 와인)와 함께 즐기세요.",
+          "tags": [
+            "감바스",
+            "감바스알아히요",
+            "스페인타파스",
+            "바게트찍먹"
+          ],
+          "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
+          "imageUrl": "/images/00297.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+        }
+      }
+    },
+    "orderedList": [
+      {
+        "mealKey": "breakfast",
+        "mealOrder": 1,
+        "mealLabel": "아침",
+        "mealFullLabel": "아침 추천",
+        "mealEmoji": "🌅",
+        "timeRangeText": "05:00 ~ 09:59",
+        "themeColor": "#FF9F43",
+        "hash": 1232954091,
+        "poolIndex": 86,
+        "poolSize": 163,
+        "food": {
+          "index": 221,
+          "code": "00221",
+          "id": "food_00221",
+          "name": "다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽",
+          "englishName": "Savory Minced Beef & Shiitake Mushroom Vegetable Porridge",
+          "originGroup": "KOREAN_POPULAR",
+          "originLabel": "한국인이 사랑하는 대중 메뉴",
+          "originBadge": "🍲 한국 인기 메뉴",
+          "deliveryCategory": "SOUP_STEW",
+          "emoji": "🥣",
+          "candidateMeals": [
+            "breakfast",
+            "lunch",
+            "dinner"
+          ],
+          "primaryMeal": "breakfast",
+          "calories": "340 kcal",
+          "priceRange": "10,000원",
+          "tagline": "기름기 적은 소고기 우둔살과 은은한 표고 향이 쌀알에 푹 배어 속을 부드럽게 채워주는 스테디셀러",
+          "funComment": "어릴 적 아플 때 엄마가 정성껏 저어가며 끓여주던 그리운 손맛과 따스한 온기.",
+          "pairingTip": "잘게 찢은 쇠고기 장조림을 한 젓가락 얹어 짭조름하게 드세요.",
+          "tags": [
+            "소고기야채죽",
+            "영양죽",
+            "속편한음식",
+            "아침죽"
+          ],
+          "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
+          "imageUrl": "/images/00221.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+        }
+      },
+      {
+        "mealKey": "lunch",
+        "mealOrder": 2,
+        "mealLabel": "점심",
+        "mealFullLabel": "점심 추천",
+        "mealEmoji": "☀️",
+        "timeRangeText": "10:00 ~ 13:59",
+        "themeColor": "#FF6B6B",
+        "hash": 864655797,
+        "poolIndex": 201,
+        "poolSize": 279,
+        "food": {
+          "index": 292,
+          "code": "00292",
+          "id": "food_00292",
+          "name": "뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터",
+          "englishName": "NYC 53rd Street Halal Guys Style Chicken & Gyro Combo Platter with White Sauce",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "FAST_CONVENIENCE",
+          "emoji": "🍛",
+          "candidateMeals": [
+            "lunch",
+            "dinner",
+            "night"
+          ],
+          "primaryMeal": "dinner",
+          "calories": "820 kcal",
+          "priceRange": "14,000원",
+          "tagline": "스파이스 치킨과 양고기를 볶아 노란 밥 위에 얹고 은박 용기에 담아 전설의 하얀 화이트 소스를 듬뿍",
+          "funComment": "매운 레드 소스는 딱 두 방울만! 하얀 소스를 듬뿍 뿌려 비벼 먹는 뉴욕 스트리트의 진정한 소울.",
+          "pairingTip": "피타 빵 조각 위에 밥과 고기, 화이트 소스를 올려 쌈처럼 싸서 드세요.",
+          "tags": [
+            "할랄가이즈",
+            "치킨오버라이스",
+            "뉴욕스트리트",
+            "화이트소스"
+          ],
+          "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
+          "imageUrl": "/images/00292.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+        }
+      },
+      {
+        "mealKey": "snack",
+        "mealOrder": 3,
+        "mealLabel": "간식",
+        "mealFullLabel": "간식(디저트) 추천",
+        "mealEmoji": "🍰",
+        "timeRangeText": "14:00 ~ 16:59",
+        "themeColor": "#F368E0",
+        "hash": 2895432570,
+        "poolIndex": 108,
+        "poolSize": 141,
+        "food": {
+          "index": 274,
+          "code": "00274",
+          "id": "food_00274",
+          "name": "우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵",
+          "englishName": "Yonsei Cream Bread Overstuffed with Pure Milk Whipped Cream",
+          "originGroup": "KOREAN_POPULAR",
+          "originLabel": "한국인이 사랑하는 대중 메뉴",
+          "originBadge": "🍲 한국 인기 메뉴",
+          "deliveryCategory": "CAFE_DESSERT",
+          "emoji": "🥯",
+          "candidateMeals": [
+            "breakfast",
+            "snack",
+            "night"
+          ],
+          "primaryMeal": "snack",
+          "calories": "410 kcal",
+          "priceRange": "2,900원",
+          "tagline": "편의점 오픈런 디저트 대란의 주인공! 얇은 빵 피 속에 묵직한 동물성 우유 생크림이 80% 이상",
+          "funComment": "반으로 가르면 하얀 크림이 폭포처럼 쏟아져 나와 입가에 묻히며 먹는 크림 천국.",
+          "pairingTip": "냉동실에 30분 살짝 얼려 먹으면 아이스크림 빵처럼 더욱 맛있습니다.",
+          "tags": [
+            "연세우유생크림빵",
+            "편의점디저트",
+            "생크림폭탄",
+            "디저트오픈런"
+          ],
+          "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
+          "imageUrl": "/images/00274.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+        }
+      },
+      {
+        "mealKey": "dinner",
+        "mealOrder": 4,
+        "mealLabel": "저녁",
+        "mealFullLabel": "저녁 추천",
+        "mealEmoji": "🌙",
+        "timeRangeText": "17:00 ~ 20:59",
+        "themeColor": "#54A0FF",
+        "hash": 1173787300,
+        "poolIndex": 132,
+        "poolSize": 278,
+        "food": {
+          "index": 190,
+          "code": "00190",
+          "id": "food_00190",
+          "name": "신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)",
+          "englishName": "Palak Paneer Indian Spinach Curry with Cubed Cottage Cheese",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "ASIAN_WORLD",
+          "emoji": "🍛",
+          "candidateMeals": [
+            "lunch",
+            "dinner"
+          ],
+          "primaryMeal": "lunch",
+          "calories": "490 kcal",
+          "priceRange": "16,500원",
+          "tagline": "초록빛 시금치 퓨레에 버터와 가람 마살라를 더하고 쫄깃담백한 수제 파니르 치즈를 띄운 건강 커리",
+          "funComment": "시금치 싫어하는 사람도 두 손 들고 밥 비벼 먹게 만드는 부드럽고 크리미한 마법의 녹색 커리.",
+          "pairingTip": "탄두르 화덕 벽에 붙여 구워낸 쫄깃하고 거대한 버터 갈릭 난을 찢어 커리를 듬뿍 떠드세요.",
+          "tags": [
+            "팔락파니르",
+            "시금치커리",
+            "인도커리",
+            "베지테리언"
+          ],
+          "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
+          "imageUrl": "/images/00190.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+        }
+      },
+      {
+        "mealKey": "night",
+        "mealOrder": 5,
+        "mealLabel": "야식",
+        "mealFullLabel": "야식 추천",
+        "mealEmoji": "🦉",
+        "timeRangeText": "21:00 ~ 04:59",
+        "themeColor": "#8395A7",
+        "hash": 2253593392,
+        "poolIndex": 154,
+        "poolSize": 206,
+        "food": {
+          "index": 297,
+          "code": "00297",
+          "id": "food_00297",
+          "name": "스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트",
+          "englishName": "Spanish Sizzling Garlic & Chili Prawns (Gambas al Ajillo) with Sliced Baguette",
+          "originGroup": "GLOBAL_DINING",
+          "originLabel": "세계 각국 레스토랑 미식",
+          "originBadge": "🌍 세계 레스토랑 미식",
+          "deliveryCategory": "PIZZA_BURGER",
+          "emoji": "🦐",
+          "candidateMeals": [
+            "lunch",
+            "dinner",
+            "night"
+          ],
+          "primaryMeal": "dinner",
+          "calories": "620 kcal",
+          "priceRange": "19,000원",
+          "tagline": "카술라 뚝배기에서 보글보글 끓는 마늘 기름에 페페론치노와 새우 향이 스며든 스페인 타파스 최고 인기 메뉴",
+          "funComment": "새우를 다 먹고 바게트 빵을 기름 바닥까지 싹싹 문질러 적셔 먹는 맛이 진짜 주인공!",
+          "pairingTip": "차가운 스페인 카바(스파클링 와인)와 함께 즐기세요.",
+          "tags": [
+            "감바스",
+            "감바스알아히요",
+            "스페인타파스",
+            "바게트찍먹"
+          ],
+          "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
+          "imageUrl": "/images/00297.png",
+          "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+        }
+      }
+    ]
+  }
+}

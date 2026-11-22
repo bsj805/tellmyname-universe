@@ -1,0 +1,60 @@
+/* web/css/style.css ??怨듭슜 湲곕낯 ?ㅽ??? 紐⑤뱢蹂??ㅽ??쇱? 媛??뱀뀡 二쇱꽍 釉붾줉 ?덉뿉留?異붽??섏꽭?? */
+:root {
+  --bg: #FAF7F2; --ink: #1C1917; --muted: #78716C; --line: #E7E5E4;
+  --accent: #D97706; --accent-soft: #FEF3C7; --card: #FFFFFF;
+  --chat-bg: #ECE5DD; --bubble-in: #FFFFFF; --bubble-out: #DCF8C6;
+  --header-h: 60px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Noto Sans KR', system-ui, sans-serif; }
+a { color: inherit; }
+.serif { font-family: 'Noto Serif KR', serif; }
+.app-header { position: sticky; top: 0; z-index: 30; height: var(--header-h); background: rgba(250,247,242,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.app-main { max-width: 520px; margin: 0 auto; }
+.app-footer { text-align: center; font-size: 12px; color: var(--muted); padding: 24px 0 40px; }
+[hidden] { display: none !important; }
+
+/* Family Service Navigation Bar */
+.family-service-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(231, 229, 228, 0.8);
+  font-size: 0.8125rem;
+  color: var(--muted);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.family-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.family-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.family-link.current {
+  color: var(--ink);
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.family-dot {
+  color: #cbd5e1;
+  user-select: none;
+}
+
+
+

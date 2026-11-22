@@ -1,0 +1,402 @@
+{
+ "00001": {
+  "name": "Mittwochs-Schulspezialität: Spaghetti mit Tomaten-Fleischsauce",
+  "tagline": "Die legendären Schulkantinen-Spaghetti mit Knoblauchbrot, für die man mittwochs doppelt so lange anstand."
+ },
+ "00002": {
+  "name": "Ssoya (Gebratene Würstchen & Gemüse in Ketchup)",
+  "tagline": "Im Oktopus-Schnitt eingeschnittene Wiener Würstchen mit Paprika und Zwiebeln, süßlich in Ketchup gebraten."
+ },
+ "00003": {
+  "name": "Pikachu-Schnitzel (Frittiertes Kotelett am Spieß)",
+  "tagline": "Das nostalgische Schweineschnitzel in Pikachu-Form, bestrichen mit süß-scharfer Dakgangjeong-Sauce."
+ },
+ "00004": {
+  "name": "Riesen-Schweineschnitzel nach Mensa-Art (Wang-Donkatsu)",
+  "tagline": "Ein riesiges Schnitzel, das über das Tablett ragt, reichlich mit süßlicher brauner Demiglace-Sauce übergossen."
+ },
+ "00005": {
+  "name": "Tornado-Kartoffelspieß mit Käsegewürz",
+  "tagline": "Knusprig frittierte Spiralkartoffel am Spieß, bestreut mit herzhaft-würzigem Cheddar-Käsepulver."
+ },
+ "00006": {
+  "name": "Mattang (Karamellisierte Süßkartoffeln)",
+  "tagline": "Außen zuckrig-knusprig wie Bonbons, innen zartmehlig und mit aromatischem schwarzem Sesam bestreut."
+ },
+ "00007": {
+  "name": "Kodari-Gangjeong (Knusprig glasierter Seelachs)",
+  "tagline": "Sieht aus wie Hähnchen, verführt aber mit zartem Trockenseelachs in würzig-süßer Glasur."
+ },
+ "00008": {
+  "name": "Bibim-Mandu (Gebratene Teigtaschen mit Krautsalat)",
+  "tagline": "Halbmondförmige, krosse Teigtaschen, serviert mit feinem Weißkohl in süß-säuerlicher Chogochujang-Sauce."
+ },
+ "00009": {
+  "name": "Fischkuchen-Udon und Inari-Sushi (Yubu-Chobap)",
+  "tagline": "Herzhafte Udon-Nudelsuppe mit Fischkuchenspieß in Sardellendashi, serviert mit süß-sauren Tofutaschen."
+ },
+ "00010": {
+  "name": "Cremiger Makkaroni- und Zuckermaissalat",
+  "tagline": "Knackiger Mais, Makkaroni und feine Schinkenwürfel, reichhaltig in cremiger Mayonnaise angemacht."
+ },
+ "00011": {
+  "name": "Süß-scharfe getrocknete Tintenfisch- und Feilenfischstreifen",
+  "tagline": "Mit Mayonnaise verfeinerte und in feuriger Gochujang-Sauce gebratene, zähe Fischstreifen."
+ },
+ "00012": {
+  "name": "Gebratene Retro-Wurstscheiben im Eimantel",
+  "tagline": "Traditionelle rosa Wurstscheiben, in geschlagenes Ei getaucht und goldgelb in der Pfanne ausgebacken."
+ },
+ "00013": {
+  "name": "Hausgemachte gegrillte Tteokgalbi-Frikadellen",
+  "tagline": "Dicke Hacksteaks vom Rind mit Grillmuster, glasiert mit süß-würziger Soja-Teriyaki-Sauce."
+ },
+ "00014": {
+  "name": "Butter-Bibimbap mit geschmorten Soja-Eiern und Seetang",
+  "tagline": "Heißer Reis mit geschmolzener Butter, würzigem Sojasud, Wachteleiern und feinen Nori-Streifen."
+ },
+ "00015": {
+  "name": "Schulkantinen-Tteokbokki mit knusprigen Gimmari-Rollen",
+  "tagline": "Süßlich-scharfe Reiskuchen in Sauce, getoppt mit zwei krossen frittierten Seetang-Glasnudelrollen."
+ },
+ "00016": {
+  "name": "Schuldessert: Gefrorener Joghurt & Bananenmilch",
+  "tagline": "Zwei eiskalte Joghurtfläschchen zum Aufbeißen und die legendäre koreanische Bananenmilch im bauchigen Becher."
+ },
+ "00017": {
+  "name": "Gedrehter Tornado-Corn-Dog mit Zucker, Ketchup & Senf",
+  "tagline": "Im fluffigen Teigmantel frittiertes Würstchen, in Zucker gewälzt und mit Ketchup sowie Senf garniert."
+ },
+ "00018": {
+  "name": "Mini-Jjajangbap mit gebratenen Teigtaschen & Rettich",
+  "tagline": "Reis mit milder schwarzer Bohnensauce, Kartoffelwürfeln und Schweinefleisch, dazu Mandu und gelber Rettich."
+ },
+ "00019": {
+  "name": "Seetangsuppe mit Perillasamen & geräucherte Ente mit Schnittlauch",
+  "tagline": "Sämige Algensuppe mit gemahlenen Perillasamen, serviert mit gebratener Ente und Schnittlauchsirup."
+ },
+ "00020": {
+  "name": "Milchbrötchen mit süßem Früchte-Creme-Salat",
+  "tagline": "Fluffiges Milchbrötchen, gefüllt mit Cocktailfrüchten, Apfelstücken und süßer Sahne-Mayonnaise."
+ },
+ "00021": {
+  "name": "[Michelin 3★] Hanwoo-Tartar mit Seeigel auf Algen-Bugak",
+  "tagline": "Edles 1++ Hanwoo-Rindertartar und cremiger Hokkaido-Seeigel auf knusprigem Reis-Seetang-Chip."
+ },
+ "00022": {
+  "name": "[Michelin 3★] Risotto mit Wando-Abalone, Geu-Sauce & Schwarzem Trüffel",
+  "tagline": "Gedämpfte frische Abalone auf sämigem Innereien-Risotto, reichlich mit frischem schwarzem Trüffel gehobelt."
+ },
+ "00023": {
+  "name": "[Michelin 3★] Osietra-Kaviar mit seidigem Kartoffelmousse",
+  "tagline": "Fein geräuchertes, samtiges Kartoffelmousse, gekrönt mit einem Löffel königlichem Osietra-Kaviar."
+ },
+ "00024": {
+  "name": "[Michelin 3★] Schneekrabbensalat mit Pinienkern-Dressing",
+  "tagline": "Zartes Fleisch von der Ostsee-Krabbe an einem feinen Emulsionsdressing aus Gapyeong-Pinienkernen."
+ },
+ "00025": {
+  "name": "[Michelin 3★] Hanwoo-Rinderfilet Wellington mit Périgord-Trüffeljus",
+  "tagline": "Zartes Hanwoo-Rinderfilet mit Pilzduxelles im goldbraunen Blätterteigmantel mit Périgord-Jus."
+ },
+ "00026": {
+  "name": "[Michelin 3★] Onban-Reissuppe mit Kiefernpilzen & Hanwoo-Consommé",
+  "tagline": "Edle Matsutake-Waldpilze in einer 24 Stunden geklärten, aromatischen Rinderbrühe über Reis."
+ },
+ "00027": {
+  "name": "[Michelin 3★] Gebratene Bresse-Poularde mit Morchel-Velouté",
+  "tagline": "Königliche Bresse-Poularde mit Trüffelbutter unter der Haut, serviert an cremiger Morchelrahmsauce."
+ },
+ "00028": {
+  "name": "[Michelin 3★] Dom Pérignon Champagner-Sorbet mit Blattgold-Pfirsich",
+  "tagline": "Aromatisches Weißer-Pfirsich-Kompott mit edlem Jahrgangs-Champagnersorbet und 24-Karat-Blattgold."
+ },
+ "00029": {
+  "name": "[Michelin 3★] Pochierter Blauer Hummer mit Safran-Bisque",
+  "tagline": "In Butter sanft gegarter bretonischer Blauer Hummer an einer goldgelben Safran-Krustentierbisque."
+ },
+ "00030": {
+  "name": "[Michelin 3★] Tajarin-Pasta mit weißem Alba-Trüffel",
+  "tagline": "Hausgemachte goldgelbe Tajarin-Eiernudeln, schneegleich bedeckt mit feinsten weißen Alba-Trüffeln."
+ },
+ "00031": {
+  "name": "[Michelin 2★] Gegrillter Schwarzkehl-Seebarsch mit Frühlingskräuter-Topfreis",
+  "tagline": "Auf Holzkohle gegrillter Seebarsch mit knuspriger Haut über duftendem Frühlingskräuter-Reis im Tontopf."
+ },
+ "00032": {
+  "name": "[Michelin 2★] Strohgeräuchertes Hanwoo-Rumpsteak mit schwarzem Knoblauch",
+  "tagline": "Über Reisstroh geräuchertes 1++ Hanwoo-Rumpsteak mit feinem Püree aus fermentiertem schwarzem Knoblauch."
+ },
+ "00033": {
+  "name": "[Michelin 2★] Jeju-Ziegelfisch mit krossen Schuppen & Seeigel-Algensuppe",
+  "tagline": "Knusprig schuppig übergossener Ziegelfisch aus Jeju mit reichhaltiger Seeigel-Seetangbrühe."
+ },
+ "00034": {
+  "name": "[Michelin 2★] Gebratene Jakobsmuschel mit Blumenkohl-Velouté",
+  "tagline": "Goldbraun sautierte Hokkaido-Jakobsmuschel auf cremigem Blumenkohlpüree mit Haselnuss-Nussbutter."
+ },
+ "00035": {
+  "name": "[Michelin 2★] Kalte Gamtae-Buchweizennudeln mit Seeigel & Eismeergarnele",
+  "tagline": "Handgemachte Buchweizennudeln mit Meeresalgen, üppig belegt mit süßen Garnelen und cremigem Seeigel."
+ },
+ "00036": {
+  "name": "[Michelin 2★] Enten-Foie-Gras-Terrine mit Feigen-Brioche-Toast",
+  "tagline": "Cremige Entenleberterrine auf warmem Butterbrioche mit fein eingekochtem Feigenkompott."
+ },
+ "00037": {
+  "name": "[Michelin 2★] Beifuß-Eiscreme mit knusprigem Gaeseong-Juak-Gebäck",
+  "tagline": "Traditionell in Reissirup getauchtes Klebreisgebäck, kombiniert mit herb-frischem Beifuß-Eis."
+ },
+ "00038": {
+  "name": "[Michelin 1★] Perillaöl-Capellini mit Hanwoo-Tartar & Seeigel",
+  "tagline": "Feine Capellini-Pasta mit frisch gepresstem Perillaöl, belegt mit edlem Rindertartar und Seeigel."
+ },
+ "00039": {
+  "name": "[Michelin 1★] Krosses Entenconfit mit Orangen-Gastrique",
+  "tagline": "In Entenschmalz sanft gegarte Entenkeule mit glaskrosser Haut an fruchtig-säuerlicher Orangensauce."
+ },
+ "00040": {
+  "name": "[Michelin 1★] Klassische französische Zwiebelsuppe mit Gruyère überbacken",
+  "tagline": "Fünf Stunden karamellisierte Zwiebeln in kräftiger Rinderbrühe, gratiniert mit Baguette und Gruyère."
+ },
+ "00041": {
+  "name": "[Michelin 1★] Gegrillter weißer Spargel mit Trüffel-Hollandaise & pochiertem Ei",
+  "tagline": "Frischer weißer Stangenspargel mit wachsweichem pochiertem Ei und feiner Trüffel-Hollandaise."
+ },
+ "00042": {
+  "name": "[Michelin 1★] Holzkohle-Tteokgalbi vom Hanwoo-Rind mit gegrilltem Lauch",
+  "tagline": "Über Holzkohle gegrilltes Hacksteak aus feinem Rindfleisch, serviert mit Röstlauch-Püree."
+ },
+ "00043": {
+  "name": "[Michelin 1★] Sushi-Omakase: Otoro & Akami Nigiri vom Blauflossenthunfisch",
+  "tagline": "Zehn Tage gereifter fettiger Thunfischbauch und mageres Filet auf traditionellem Roter-Essig-Reis."
+ },
+ "00044": {
+  "name": "[Michelin 1★] Pistazien-Paris-Brest mit Espresso-Brandteig",
+  "tagline": "Knuspriger Mandelbrandteigring gefüllt mit aromatischer sizilianischer Pistazien-Pralinécreme."
+ },
+ "00045": {
+  "name": "[Bib Gourmand] Pjöngjang-Naengmyeon (100% Buchweizennudeln in Rinderbrühe)",
+  "tagline": "Pure 100%ige Buchweizennudeln in einer dezenten, eiskalten und tief aromatischen Rinderbrühe."
+ },
+ "00046": {
+  "name": "[Bib Gourmand] Klare Berkshire-K-Schweinesuppe mit Reis (Gukbap)",
+  "tagline": "Hauchdünnes Jirisan-Schwarzschweinefleisch in einer glasklaren, tiefwürzigen Brühe auf heißem Reis."
+ },
+ "00047": {
+  "name": "[Bib Gourmand] Handgeschnittene Kalguksu nach Myeongdong-Art & Riesen-Mandu",
+  "tagline": "Kräftige Hühnerbrühe mit Schnittnudeln, würzigem Hackfleisch, Lauch und dünnwandigen gedämpften Teigtaschen."
+ },
+ "00048": {
+  "name": "[Bib Gourmand] Gwanghwamun Pan-Buckwheat-Soba mit Buchweizen-Pfannkuchen",
+  "tagline": "Kühle Buchweizennudeln auf Holzgittern zum Eintauchen in eiskalte Tsuyu-Brühe mit Rettich und Nori."
+ },
+ "00049": {
+  "name": "[Bib Gourmand] 100 Jahre Seosomun-Tradition: Hanwoo-Seolleongtang",
+  "tagline": "Über Stunden im Kessel gekochte, milchig-weiße Rinderknochensuppe mit Rinderbrust, Nudeln und Reis."
+ },
+ "00050": {
+  "name": "[Bib Gourmand] Ganjang-Gejang-Menü (Eingelegte Westmeer-Krabbe mit Rogen)",
+  "tagline": "Frische weibliche Krabbe voller saftigem Rogen, gereift in milder, meisterhafter Sojasauce."
+ },
+ "00051": {
+  "name": "[Bib Gourmand] Taiwanesische Rindfleischnudelsuppe mit Yu-Xiang-Aubergine",
+  "tagline": "Würzige Sternanis-Rinderbrühe mit butterweicher Wade, begleitet von knusprig frittierter Aubergine."
+ },
+ "00052": {
+  "name": "[Bib Gourmand] Makguksu mit geschältem Perillasamenöl & Bossam-Schweinebauch",
+  "tagline": "Herrlich nussige Buchweizennudeln mit Perillaöl und Seetang, dazu zart gekochte Schweinebauchscheiben."
+ },
+ "00053": {
+  "name": "[Bib Gourmand] Cheonggukjang-Eintopf nach Jongno-Tradition & Tintenfisch-Reis",
+  "tagline": "Kräftiger Eintopf aus fermentierten Sojabohnen, serviert mit feurig gebratenem Tintenfisch auf Reis."
+ },
+ "00054": {
+  "name": "[Bib Gourmand] Jeju-Schwarzschwein-Jokbal mit süß-scharfen Tablett-Nudeln",
+  "tagline": "Frisch gekochte, saftige Schweinshaxe voller Kollagen, serviert mit knackigem Gemüsenudelsalat."
+ },
+ "00055": {
+  "name": "Ganze frische Bio-Karotte aus Gujwa (Jeju)",
+  "tagline": "Knackig-süße frische Möhre direkt aus dem Acker – purer, erfrischender Naturgenuss bei jedem Bissen."
+ },
+ "00056": {
+  "name": "Vollreife Fleischtomate dick mit weißem Zucker bestreut",
+  "tagline": "Der koreanische Kindheitsklassiker: saftige Tomatenscheiben in geschmolzenem, süßem Tomaten-Zuckersaft."
+ },
+ "00057": {
+  "name": "Ein Becher frische Dattel-Cocktailtomaten",
+  "tagline": "Süß-fruchtige, knackige Kirschtomaten – der perfekte gesunde Snack für den späten Abend."
+ },
+ "00058": {
+  "name": "Knackige Salatgurke mit Ssamjang-Dip auf dem Berggipfel",
+  "tagline": "Purer Durstlöscher mit 95 % Wassergehalt: frische Gurke mit herzhafter fermentierter Sojapaste."
+ },
+ "00059": {
+  "name": "Gimcheon-Premium-Shine-Muscat-Weintrauben",
+  "tagline": "Große, knackige kernlose Weintrauben mit honigsüßem Mangoduft und 18 Grad Brix Süße."
+ },
+ "00060": {
+  "name": "Knackiger Cheongsong-Honigapfel mit Schale",
+  "tagline": "Frischer Apfel aus Cheongsong mit sichtbarem Honigherz – morgens der beste fruchtige Vitamin-Kick."
+ },
+ "00061": {
+  "name": "Dampfende Haenam-Kürbissüßkartoffeln mit Chonggak-Kimchi",
+  "tagline": "Honigsüße, weich gedämpfte gelbe Süßkartoffel, kombiniert mit knackig-frischem Rettich-Kimchi."
+ },
+ "00062": {
+  "name": "Fester hausgemachter griechischer Joghurt mit Blaubeeren & Wabenhonig",
+  "tagline": "Cremig-dicker Joghurt getoppt mit gefrorenen Blaubeeren und einem Stück goldener Natur-Honigwabe."
+ },
+ "00063": {
+  "name": "Zwei wachsweiche Gamdong-Eier mit Iced Americano",
+  "tagline": "Perfekt gesalzenes Eiweiß mit cremigem, weichem Eigelb, serviert mit eiskaltem schwarzem Kaffee."
+ },
+ "00064": {
+  "name": "Gedämpfte Kohlwickel mit herzhafter Schnecken-Ssamjang-Paste",
+  "tagline": "Zarte, süßlich gedämpfte Weißkohlblätter zum Einwickeln mit würzig-fester Schlammschneckenpaste."
+ },
+ "00065": {
+  "name": "Platte mit süßen Plattpfirsichen & Nektarinen",
+  "tagline": "Saftige flache Tellerpfirsiche und aromatische Nektarinen, deren süßer Fruchtsaft sofort verführt."
+ },
+ "00066": {
+  "name": "Fünf sonnengereifte Jeju-Mandarinen",
+  "tagline": "Unter der warmen Decke geschälte süße Mandarinen aus Jeju, die im Handumdrehen verputzt sind."
+ },
+ "00067": {
+  "name": "Dreifarbige Paprikasticks mit Zitronen-Knoblauch-Hummus",
+  "tagline": "Knackige rote, gelbe und orange Paprikastreifen, gereicht mit nussig-frischem Kichererbsenhummus."
+ },
+ "00068": {
+  "name": "Minz-Schoko-Tangsuyuk (Knuspriges Schweinefleisch mit Minzschokosauce)",
+  "tagline": "Die virale Fusionsüberraschung: krosses Klebreis-Schweinefleisch umhüllt von süß-frischer Minzschokolade."
+ },
+ "00069": {
+  "name": "Dubai-Schokoladen-Bungeoppang mit Pistazie & Kadayif",
+  "tagline": "Luxus-Fischgebäck gefüllt mit knusprigem Kadayif, dicker Pistaziencreme und dunkler Schokolade."
+ },
+ "00070": {
+  "name": "Tintenfischtinten-Jjajangmyeon mit riesigem knusprigem Tintenfisch",
+  "tagline": "Pechschwarze Tintennudeln, belegt mit einem gewaltigen, goldbraun im Ganzen frittierten Tintenfisch."
+ },
+ "00071": {
+  "name": "Mala-Rosé-Tteokbokki mit Mozzarella-Wasserfall & Bunmoja",
+  "tagline": "Prickelnde Mala-Schärfe in cremiger Rosésauce mit Glasnudeln, übergossen mit einem Kilo Mozzarella."
+ },
+ "00072": {
+  "name": "Schoko-Dinosaurier-Ei-Bingsu zum Zerschlagen mit dem Holzhammer",
+  "tagline": "Zerbrich die Schokoeierschale mit dem Hämmerchen, um zartes Milcheis und Dino-Gummibärchen zu entdecken!"
+ },
+ "00073": {
+  "name": "Koriander-Bombe: Rindfleisch-Pho mit einem Berg frischem Koriander",
+  "tagline": "Für wahre Korianderfans: kräftige Rinderknochensuppe mit Reisnudeln unter einem Riesenberg frischem Grün."
+ },
+ "00074": {
+  "name": "55 cm langes Hanwoo-Tartar-Sushi mit 24-Karat-Blattgold",
+  "tagline": "Ein halber Meter feinste Rindertartar-Sushileiste, glanzvoll bedeckt mit essbarem echtem Gold."
+ },
+ "00075": {
+  "name": "Frisches Wasabi-Softeis mit salzigen Kartoffelchips",
+  "tagline": "Cremiges Milcheis mit dem prickelnden Schärfekick von echtem Wasabi, kombiniert mit krossen Chips."
+ },
+ "00076": {
+  "name": "Chicago-Deep-Dish-Pizza gefüllt mit scharfem Kimchi-Rippcheneintopf",
+  "tagline": "Dicker Mürbeteigrand prall gefüllt mit zart geschmorten Schweinerippchen, reifem Kimchi und viel Käse."
+ },
+ "00077": {
+  "name": "Ganze ausgehöhlte Zuckermelone als Bingsu mit Kondensmilch",
+  "tagline": "Eine frische Netzmelone, gefüllt mit runden Melonenbällchen, feinem Milcheis und Vanilleeiscreme."
+ },
+ "00078": {
+  "name": "Sundaegukbap (Kochende Blutwurstsuppe mit Perillasamen)",
+  "tagline": "Brodelnder Tontopf mit Schweineblutwurst, zartem Kopffleisch, kräftiger Brühe und viel Perillapulver."
+ },
+ "00079": {
+  "name": "Feurige Schweinenackenknochensuppe (Gamjatang/Haejangguk)",
+  "tagline": "Butterweiches Schweinefleisch, das von den Wirbelknochen fällt, gekocht mit Kohlblättern und Perillablättern."
+ },
+ "00080": {
+  "name": "Kimchi-Eintopf mit Schweineschulter & dicke Omelettrolle mit Ketchup",
+  "tagline": "Würziger Kimchi-Jjigae mit dicken Fleischstücken und Tofu, serviert mit einer fluffigen Eierrolle."
+ },
+ "00081": {
+  "name": "Doenjang-Jjigae mit Rinderbrust & Rettichblatt-Bibimbap",
+  "tagline": "Herzhafter Sojabohnenpasten-Eintopf mit zarter Rinderbrust, serviert zu knackigem Sommerrettich-Reis."
+ },
+ "00082": {
+  "name": "Jeyuk-Bokkeum (Feurig gegrilltes Schweinefleisch mit Salatblättern)",
+  "tagline": "Über starkem Feuer gebratenes mariniertes Schweinefleisch mit Rauchnote zum Einwickeln in frischen Salat."
+ },
+ "00083": {
+  "name": "Gereifter Schweinebauch auf dem Gusseisen-Deckel mit Minari & Bratreis",
+  "tagline": "Kross gebratener Schweinebauch in eigenem Fett mit Kimchi, Sojasprossen und duftendem Wasserfenchel."
+ },
+ "00084": {
+  "name": "Gebratener Spam mit Butter-Spiegelei auf Sojasaucen-Reis",
+  "tagline": "Heißer Reis mit schmelzender Butter, zwei Spiegeleiern und knusprig gebratenen Scheiben Dosenfleisch."
+ },
+ "00085": {
+  "name": "Jeonju-Sojasprossensuppe mit pochiertem Ei & Tintenfisch",
+  "tagline": "Erfrischende Brühe mit knackigen Sojasprossen, Tintenfischwürfeln, Chili und cremigem pochiertem Ei."
+ },
+ "00086": {
+  "name": "Halb-und-Halb-Hähnchen: Krosses Golden Fried & Süß-Scharfes Yangnyeom",
+  "tagline": "Löst jedes Dilemma: Die Hälfte goldbraun superkross paniert, die andere in würzig-klebriger Sauce glasiert."
+ },
+ "00087": {
+  "name": "Gegrillte Rinderdärme (Gopchang & Daechang) mit Schnittlauchsalat",
+  "tagline": "Auf der heißen Steinplatte brutzelnde Rinderinnereien mit Knoblauchschnittlauch und Kartoffelscheiben."
+ },
+ "00088": {
+  "name": "Zehn dicke Scheiben gereiftes Lachs-Sushi & Mini-Udon",
+  "tagline": "Saftiges norwegisches Lachsfilet und abgeflämmter Lachs auf Reis, dazu eine warme Schale Udon."
+ },
+ "00089": {
+  "name": "Mozzarella-Käseschnitzel nach Yeondon-Art",
+  "tagline": "Hauchdünnes Schweinefilet in knuspriger Panko-Panade, gefüllt mit schier endlos ziehendem Mozzarella."
+ },
+ "00090": {
+  "name": "Buldakgetti (Scharfe Buldak- & Jjapagetti-Nudeln) mit Thunfisch-Onigiri",
+  "tagline": "Der K-Convenience-Hit: Feurige Chilinudeln vereint mit schwarzer Bohnensauce und Reisdreieck."
+ },
+ "00091": {
+  "name": "Zwei ofenfrische knusprige Salzbrötchen (Shio Pan) mit Eislatte",
+  "tagline": "Unten butterkross ausgebacken, innen luftig mit Butterschmelz und groben Meersalzkristallen bestreut."
+ },
+ "00092": {
+  "name": "Sechs winterliche Bungeoppang (Rote Bohnen & Vanillepudding)",
+  "tagline": "Aus der warmen Papiertüte: drei knusprige Fische mit süßer roter Bohnenpaste und drei mit Vanillecreme."
+ },
+ "00093": {
+  "name": "Eggs Benedict mit pochiertem Ei, Sauce Hollandaise & Avocadosalat",
+  "tagline": "Getoasteter English Muffin mit Räucherlachs, pochiertem Ei und samtig zerlaufender Sauce Hollandaise."
+ },
+ "00094": {
+  "name": "Hakata-Tonkotsu-Ramen mit Chashu & mariniertem Ei (Ajitama)",
+  "tagline": "24 Stunden gekochte cremige Schweineknochenbrühe mit geflämmtem Schweinebauch und weichem Ei."
+ },
+ "00095": {
+  "name": "Milchschnee-Bingsu mit Injeolmi-Reiskuchen & roten Bohnen",
+  "tagline": "Hauchzartes Milcheis mit nussigem Sojamehl, zähen Reiskuchenstückchen und gekochten roten Bohnen."
+ },
+ "00096": {
+  "name": "Cheeseburger nach der Rettung (Tony Stark in Iron Man)",
+  "tagline": "Der legendäre Burger, den Tony Stark nach der Höhlenflucht am Boden der Pressekonferenz verschlang."
+ },
+ "00097": {
+  "name": "Gebratene Teigtaschen aus Oldboy (15 Jahre Einzelhaft)",
+  "tagline": "Die krossen Mandu, die Oh Dae-su 15 Jahre lang täglich aß, bevor er sich auf die Suche machte."
+ },
+ "00098": {
+  "name": "Hanwoo-Rumpsteak-Jjapaguri aus Parasite (Ram-don)",
+  "tagline": "Das 8-Minuten-Gericht aus Jjapagetti und Neoguri, garniert mit teurem Rindfleisch als Sinnbild des Klassenunterschieds."
+ },
+ "00099": {
+  "name": "Suwon-King-Galbi-Hähnchen aus Extreme Job",
+  "tagline": "„So etwas gab es noch nie: Ist das Rippchen oder Hähnchen?“ Brathähnchen in süßer Galbi-Sauce."
+ },
+ "00100": {
+  "name": "Kanadisches Rindersteak aus dem K-Drama Goblin",
+  "tagline": "Das zarte Rumpsteak, das der 939 Jahre alte Goblin bei Regen im Restaurant in Québec bestellte."
+ }
+}

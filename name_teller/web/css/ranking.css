@@ -1,0 +1,367 @@
+/* web/css/ranking.css — 랭킹 및 편지 수집 리더보드 모달 스타일 */
+
+.ranking-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 25, 23, 0.6);
+  backdrop-filter: blur(6px);
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.ranking-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ranking-dialog {
+  background: #FFFFFF;
+  width: 100%;
+  max-width: 520px;
+  max-height: 88vh;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: rankingSlideUp 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes rankingSlideUp {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.ranking-header {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #FAF7F2;
+}
+
+.ranking-title-group {
+  flex: 1;
+}
+
+.ranking-main-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ranking-sub-title {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.ranking-close-btn {
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ranking-close-btn:hover {
+  background: #E7E5E4;
+  color: var(--ink);
+}
+
+/* 탭 전환 버튼 바 */
+.ranking-tabs {
+  display: flex;
+  padding: 10px 16px;
+  gap: 8px;
+  background: #FFFFFF;
+  border-bottom: 1px solid var(--line);
+}
+
+.ranking-tab-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.ranking-tab-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: #B45309;
+  font-weight: 800;
+}
+
+/* 랭킹 리스트 스크롤 영역 */
+.ranking-list-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overscroll-behavior: contain;
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #FFFFFF;
+  border: 1px solid var(--line);
+  gap: 12px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.ranking-item:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.08);
+}
+
+.ranking-medal {
+  width: 28px;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.ranking-medal.top-1 { font-size: 20px; }
+.ranking-medal.top-2 { font-size: 18px; }
+.ranking-medal.top-3 { font-size: 18px; }
+
+.ranking-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.ranking-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.ranking-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ranking-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.ranking-count-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 9999px;
+  background: #FEF3C7;
+  color: #B45309;
+}
+
+.ranking-teaser {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 3px;
+}
+
+.ranking-view-action {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+/* 법원 개명 랭킹 전용 서브 필터 및 뱃지 스타일 */
+.ranking-subfilter-bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.ranking-subfilter-pill {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ranking-subfilter-pill.active {
+  background: #1C1917;
+  border-color: #1C1917;
+  color: #FFFFFF;
+}
+
+.ranking-gender-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.ranking-gender-tag.female {
+  background: #FDF2F8;
+  color: #BE185D;
+}
+
+.ranking-gender-tag.male {
+  background: #F0F9FF;
+  color: #0369A1;
+}
+
+.ranking-court-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #EEF2FF;
+  color: #4F46E5;
+}
+
+/* 상단 차트 아이콘 버튼 스타일 (search.css 연계) */
+.search-ranking-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.search-ranking-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+
+/* 개명 전 원래 이름 박스 및 알약 버튼 스타일 */
+.ranking-rename-box {
+  margin-top: 6px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.rename-origin-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 11.5px;
+}
+
+.rename-origin-label {
+  color: #64748B;
+  font-weight: 700;
+  font-size: 11.5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.rename-origin-pills {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.rename-origin-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  color: #1E293B;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.rename-origin-pill:hover {
+  background: #EFF6FF;
+  border-color: #3B82F6;
+  color: #1D4ED8;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.15);
+}
+
+.rename-pill-search {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.rename-note-desc {
+  font-size: 11.5px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 4px;
+  line-height: 1.4;
+}

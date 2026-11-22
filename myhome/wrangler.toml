@@ -1,0 +1,14 @@
+name = "myhome"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+html_handling = "auto-trailing-slash"
+run_worker_first = true
+
+[[r2_buckets]]
+binding = "MYHOME_R2"
+bucket_name = "myhome-houses-r2"

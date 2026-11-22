@@ -1,0 +1,102 @@
+{
+  "totalRawFoods": 401,
+  "buildTime": "2026-11-22T06:19:26.719Z",
+  "capSetting": "UNLIMITED",
+  "categories": {
+    "breakfast": {
+      "label": "아침",
+      "fullLabel": "아침 추천",
+      "emoji": "🌅",
+      "timeRange": "05:00 ~ 09:59",
+      "rawCandidatesCount": 163,
+      "activeCount": 163,
+      "originBreakdown": {
+        "SCHOOL_LUNCH": 10,
+        "MICHELIN_3": 3,
+        "MICHELIN_2": 5,
+        "MICHELIN_1": 4,
+        "BIB_GOURMAND": 3,
+        "RAW_NATURAL": 31,
+        "UNIQUE_SPECIAL": 5,
+        "KOREAN_POPULAR": 71,
+        "GLOBAL_DINING": 31
+      }
+    },
+    "lunch": {
+      "label": "점심",
+      "fullLabel": "점심 추천",
+      "emoji": "☀️",
+      "timeRange": "10:00 ~ 13:59",
+      "rawCandidatesCount": 279,
+      "activeCount": 279,
+      "originBreakdown": {
+        "SCHOOL_LUNCH": 19,
+        "MICHELIN_3": 8,
+        "MICHELIN_2": 6,
+        "MICHELIN_1": 9,
+        "BIB_GOURMAND": 9,
+        "RAW_NATURAL": 9,
+        "UNIQUE_SPECIAL": 13,
+        "KOREAN_POPULAR": 117,
+        "GLOBAL_DINING": 89
+      }
+    },
+    "snack": {
+      "label": "간식",
+      "fullLabel": "간식(디저트) 추천",
+      "emoji": "🍰",
+      "timeRange": "14:00 ~ 16:59",
+      "rawCandidatesCount": 141,
+      "activeCount": 141,
+      "originBreakdown": {
+        "SCHOOL_LUNCH": 9,
+        "MICHELIN_3": 2,
+        "MICHELIN_2": 2,
+        "MICHELIN_1": 3,
+        "BIB_GOURMAND": 1,
+        "RAW_NATURAL": 28,
+        "UNIQUE_SPECIAL": 11,
+        "KOREAN_POPULAR": 53,
+        "GLOBAL_DINING": 32
+      }
+    },
+    "dinner": {
+      "label": "저녁",
+      "fullLabel": "저녁 추천",
+      "emoji": "🌙",
+      "timeRange": "17:00 ~ 20:59",
+      "rawCandidatesCount": 278,
+      "activeCount": 278,
+      "originBreakdown": {
+        "SCHOOL_LUNCH": 10,
+        "MICHELIN_3": 10,
+        "MICHELIN_2": 8,
+        "MICHELIN_1": 8,
+        "BIB_GOURMAND": 10,
+        "RAW_NATURAL": 11,
+        "UNIQUE_SPECIAL": 16,
+        "KOREAN_POPULAR": 116,
+        "GLOBAL_DINING": 89
+      }
+    },
+    "night": {
+      "label": "야식",
+      "fullLabel": "야식 추천",
+      "emoji": "🦉",
+      "timeRange": "21:00 ~ 04:59",
+      "rawCandidatesCount": 206,
+      "activeCount": 206,
+      "originBreakdown": {
+        "SCHOOL_LUNCH": 11,
+        "MICHELIN_3": 3,
+        "MICHELIN_2": 1,
+        "MICHELIN_1": 5,
+        "BIB_GOURMAND": 5,
+        "RAW_NATURAL": 11,
+        "UNIQUE_SPECIAL": 20,
+        "KOREAN_POPULAR": 104,
+        "GLOBAL_DINING": 46
+      }
+    }
+  }
+}

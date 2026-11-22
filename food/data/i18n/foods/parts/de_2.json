@@ -1,0 +1,402 @@
+{
+ "00101": {
+  "name": "Becherramen & Hotbar aus The Yellow Sea (Ha Jung-woo)",
+  "tagline": "Die legendäre Szene, in der Ha Jung-woo wütend dampfende Fertigramen und Würstchen am Spieß verschlingt."
+ },
+ "00102": {
+  "name": "Scharfe Mala-Flusskrebse aus The Outlaws (Mala Longxia)",
+  "tagline": "In feurigem Chiliöl gebratene Krebse, die Jang Chen mit bloßen Plastikhandschuhen zerlegte."
+ },
+ "00103": {
+  "name": "Retro-Brathähnchen in süß-scharfer Sauce aus Reply 1988",
+  "tagline": "Das klassische glasierte Brathähnchen in der gelben Papiertüte, das der Vater am Zahltag mitbrachte."
+ },
+ "00104": {
+  "name": "Riesige saftige Fleischtasche aus Chihiros Reise ins Zauberland",
+  "tagline": "Die mysteriöse, gallertartige Riesenfleischtasche, die Chihiros Vater gierig auf einen Happs verschlang."
+ },
+ "00105": {
+  "name": "Calcifers dicker Speck mit Eiern aus Das wandelnde Schloss",
+  "tagline": "Dicke Speckstreifen und Spiegeleier, die der Feuerdämon Calcifer knisternd in der Gusseisenpfanne briet."
+ },
+ "00106": {
+  "name": "Remy's traditionelle Ratatouille Confit Byaldi",
+  "tagline": "Hauchfein geschichtete Zucchini, Auberginen und Tomaten, die den gestrengen Kritiker Ego zu Tränen rührten."
+ },
+ "00107": {
+  "name": "Vincent Vegas 5-Dollar-Milchshake aus Pulp Fiction",
+  "tagline": "„Da ist kein Bourbon drin? Verdammt, das ist ein verdammt guter Milchshake!“ Dickflüssig mit Kirsche."
+ },
+ "00108": {
+  "name": "Chimaek bei erstem Schnee aus My Love from the Star",
+  "tagline": "Knuspriges Hähnchen mit Dosenbier, das Cheon Song-yi bei Neuschnee zur weltweiten Sucht machte."
+ },
+ "00109": {
+  "name": "Clemenzas Fleischbällchen-Spaghetti aus Der Pate",
+  "tagline": "„Lass die Waffe liegen, nimm die Cannoli.“ Tomatensauce mit Wurst und Fleischbällchen für die Familie."
+ },
+ "00110": {
+  "name": "Gourmet Grilled-Cheese-Sandwich aus Der Teufel trägt Prada",
+  "tagline": "„Ich habe dir ein fantastisches 8-Dollar-Käsesandwich gemacht.“ Butterknusprig mit schmelzendem Käse."
+ },
+ "00111": {
+  "name": "Ochsenkopfsuppe mit Rinderbrühe aus New World",
+  "tagline": "„Hey Bruder, hast du schon gegessen?“ Dampfender Tontopf mit zartem Kopffleisch der Gangsterboss-Szene."
+ },
+ "00112": {
+  "name": "Ponyos heißer Tee mit Honig & Ramen mit dicker Schinkenscheibe",
+  "tagline": "Drei Minuten Deckel drauf: dampfende Ramen mit einer Scheibe Saftschinken und weichem gekochtem Ei."
+ },
+ "00113": {
+  "name": "Gebackene Sauna-Eier aus dem Zug in The Witch",
+  "tagline": "Knusprig-feste braune Eier auf Mineralstein gebacken, von denen Ja-yoon im Zug ein ganzes Tablett aß."
+ },
+ "00114": {
+  "name": "Süßer weißer Pfirsich aus Die Taschendiebin (The Handmaiden)",
+  "tagline": "Der zart geschälte, verlockend saftige weiße Pfirsich, den Sook-hee Lady Hideko sanft reichte."
+ },
+ "00115": {
+  "name": "Umeboshi-Onigiri mit gesalzener Pflaume aus Kamome Diner",
+  "tagline": "Mit gesalzenen Händen geformter warmer Reis mit eingelegter Pflaume, umhüllt von knusprigem Nori."
+ },
+ "00116": {
+  "name": "Knoblauch-Bossam mit süßer Honig-Knoblauchsauce & Rettich",
+  "tagline": "Zart gedämpfter Schweinebauch unter einem Berg milder Knoblauchsauce, serviert mit knackigem Rettich-Kimchi."
+ },
+ "00117": {
+  "name": "Kalter Quallensalat mit Jokbal & Senfdressing nach Busan-Art",
+  "tagline": "Würzig-scharfes Senfdressing über knackigen Quallenstreifen, Gurken und Schweinshaxe für heiße Sommerabende."
+ },
+ "00118": {
+  "name": "Frittierte Schweinshaxe nach Haxen-Art mit Dip-Saucen",
+  "tagline": "Schweinshaxe im Ganzen kross ausgebacken: krachende Knusperkruste und saftig-kollagenreiches Fleisch."
+ },
+ "00119": {
+  "name": "Feuriger Hähncheneintopf mit reifem Mugeonji-Kimchi (Dakdoritang)",
+  "tagline": "Im Tontopf geschmortes Hähnchen mit mehligen Kartoffeln und tief aromatischem, altem Kimchi."
+ },
+ "00120": {
+  "name": "Scharfer Seelachseintopf mit Rogen & Tofu (Dongtaetang)",
+  "tagline": "Feurige Brühe mit Seelachsfilet, weichem Fischrogen, Rettich und Kronenanemonen – der Kater-Retter."
+ },
+ "00121": {
+  "name": "Scharf geschmorter Seeteufel mit Sojasprossen nach Masan-Art",
+  "tagline": "Fester Seeteufel und Meeresfrüchte in sämig-scharfer Sauce mit dicken, knackigen Sojasprossen."
+ },
+ "00122": {
+  "name": "Original Budae-Jjigae aus Uijeongbu mit Spam, Würstchen & Ramen",
+  "tagline": "Der legendäre Armeeeintopf mit Hackfleisch, Baked Beans, Käse, Schinken und Instantnudeln."
+ },
+ "00123": {
+  "name": "Ppurinkle-Hähnchen mit Käse-Zwiebel-Würze & Joghurt-Dip",
+  "tagline": "Goldkrosses Hähnchen paniert in magischem Cheddar-Zwiebel-Puder zum Eintauchen in süß-saure Joghurtsauce."
+ },
+ "00124": {
+  "name": "Ofenknuspriges Chili-Brathähnchen mit Chili-Mayonnaise",
+  "tagline": "Fettarm im Ofen gebackenes Huhn mit gehackten scharfen Pfefferschoten in der Kruste und cremigem Dip."
+ },
+ "00125": {
+  "name": "Knusprige Soja-Knoblauch-Hähnchenflügel nach Kyochon-Art",
+  "tagline": "Mit feiner Soja-Knoblauchsauce dünn bepinselte, extrem knusprig frittierte Wings und Drumettes."
+ },
+ "00126": {
+  "name": "Holzkohle-Barbecue-Hähnchen mit zähen Udon-Nudeln",
+  "tagline": "Über glühender Kohle gegrilltes Hähnchenfleisch in würziger BBQ-Sauce mit gebratenen Udon-Nudeln."
+ },
+ "00127": {
+  "name": "Steinofen-Gorgonzola-Pizza mit flüssigem Bienenhonig",
+  "tagline": "Dünner, knusprig aufgegangener Holzofenteig mit pikantem Blauschimmelkäse zum Eintauchen in puren Honig."
+ },
+ "00128": {
+  "name": "Detroit-Style Deep-Dish-Pizza mit Pepperoni-Kruste",
+  "tagline": "Rechteckige Pfannenpizza mit karamellisiertem Käserand, Tomatensauce und knusprigen Peperoniwurst-Scheiben."
+ },
+ "00129": {
+  "name": "Smashed-Beef-Burger mit zweifach Rindfleisch auf Brioche",
+  "tagline": "Zwei saftig flachgepresste Rinderpatties mit schmelzendem Cheddar in gebuttertem Brioche-Brötchen."
+ },
+ "00130": {
+  "name": "Texas Pulled-Pork-Burger aus 12 Stunden geräucherter Schulter",
+  "tagline": "Zart zerzupftes, rauchiges Schweinefleisch mit würziger Barbecuesauce und knackigem Krautsalat."
+ },
+ "00131": {
+  "name": "Ganzhang-Jjajang mit Wok-Aroma, Meeresfrüchten & Spiegelei",
+  "tagline": "Ohne Wasser scharf im Wok gebratene Bohnenpaste mit vielen Zwiebeln, Tintenfisch und Ei auf Nudeln."
+ },
+ "00132": {
+  "name": "Raucharomatische Rinderbrust-Meeresfrüchte-Jjamppong",
+  "tagline": "Kräftige Knochenbrühe mit feurigem Wok-Aroma, zarter Rinderbrust, Muscheln und Tintenfisch."
+ },
+ "00133": {
+  "name": "Sechs knusprige Menbosha (Garnelentoast nach chinesischer Art)",
+  "tagline": "Zwischen Weißbrotscheiben eingebettete, saftige Garnelenfarce, goldgelb und krachend ausgebacken."
+ },
+ "00134": {
+  "name": "Feuriges Sichuan-Mapo-Tofu auf gedämpftem Jasminreis",
+  "tagline": "Zarter Seidentofu und Hackfleisch in betörendem Sichuan-Pfeffer-Chiliöl mit betäubender Schärfe."
+ },
+ "00135": {
+  "name": "Edo-Spezial-Tendon: Riesengarnele, Aal & Kürbis-Tempura auf Reis",
+  "tagline": "Kross im Sesamöl ausgebackenes Edelfisch- und Gemüsetempura mit Tare-Glasur über Reisschale getürmt."
+ },
+ "00136": {
+  "name": "Kaisendon: Frische Meeresfrüchte-Schale mit Lachsforellen-Kaviar",
+  "tagline": "Bunte Komposition aus edlem rohem Thunfisch, Lachs, Weißfisch und knackigem Lachskaviar auf Essigreis."
+ },
+ "00137": {
+  "name": "Sapporo-Miso-Ramen mit vier Scheiben Chashu & Mini-Gyoza",
+  "tagline": "Kräftige Misobrühe mit Butter, Mais, geröstetem Schweinebauch und knusprigen kleinen Teigtaschen."
+ },
+ "00138": {
+  "name": "Hanoi Bun Cha: Gegrilltes Schweinefleisch & Reisnudeln mit Nuoc Cham",
+  "tagline": "Über Holzkohle gegrillte Hackbällchen und Bauchfleisch in süß-saurer Fischsauce mit frischen Kräutern."
+ },
+ "00139": {
+  "name": "Tom Yam Gung: Thailändische Garnelensuppe mit Zitronengras & Nudeln",
+  "tagline": "Sauer-scharfe Garnelensuppe mit Kaffir-Limettenblättern, Galgant und einem Hauch Kokosmilch."
+ },
+ "00140": {
+  "name": "Poo Pad Pong Karee: Weichschalenkrabbe in gelbem Kokos-Curry",
+  "tagline": "Im Ganzen essbare Knusperkrabbe in samtiger Kokos-Eier-Currysauce nach thailändischer Art."
+ },
+ "00141": {
+  "name": "Drei traditionelle mexikanische Rindfleisch-Tacos mit Guacamole",
+  "tagline": "Maisfladen gefüllt mit zartem Schmorrindfleisch, Koriander, Zwiebeln, Salsa und frischer Limette."
+ },
+ "00142": {
+  "name": "Hawaiianische Lachs-Poke-Bowl mit braunem Reis & Avocado",
+  "tagline": "Frische Lachswürfel in pikanter Mayonnaise mit Edamame, Kichererbsen, Algen und Knusperzwiebeln."
+ },
+ "00143": {
+  "name": "Warmer Salat mit Sous-Vide-Hähnchenbrust & Ofenkürbis",
+  "tagline": "Butterweiche, auf den Punkt gegarte Hähnchenbrust mit süß geröstetem Kürbis und Balsamico-Dressing."
+ },
+ "00144": {
+  "name": "Cremige Rosé-Tteokbokki mit knusprigem Hähnchen-Karaage",
+  "tagline": "Reiskuchen in samtiger Sauce aus Chili und Sahne, gekrönt mit saftig frittierten Hähnchenbällchen."
+ },
+ "00145": {
+  "name": "Isaac Ham-Special-Toast mit süßer Kiwi-Sauce, Schinken & Käse",
+  "tagline": "Der K-Street-Toastklassiker mit süßer Fruchtsauce, Mais-Omelett, Schinken, Käse und Kraut."
+ },
+ "00146": {
+  "name": "Krosses Croongji (Gepresstes Croissant) mit Vanilleeis",
+  "tagline": "Hauchdünn plattiert und knusprig karamellisiert gebackenes Croissant mit Bourbon-Vanilleeis."
+ },
+ "00147": {
+  "name": "Cheddar-Butterriegel mit gesalzenem Karamell (Butter Bar)",
+  "tagline": "Fester Butterkeksboden belegt mit dichtem, karamellisiertem Käseteig zum Kaltgenießen."
+ },
+ "00148": {
+  "name": "Räucher-Barbecue Baby Back Ribs mit Krautsalat (Uber Eats Hit)",
+  "tagline": "Acht Stunden über Hickoryholz gegarte Schweinerippchen, deren Fleisch förmlich vom Knochen fällt."
+ },
+ "00149": {
+  "name": "Southern Fried Chicken mit belgischen Waffeln & Ahornsirup",
+  "tagline": "Würzig-kross paniertes Südstaaten-Hähnchen auf frisch gebackenen Waffeln mit reichlich Sirup."
+ },
+ "00150": {
+  "name": "Original Philadelphia Cheesesteak mit Rindfleisch & Zwiebeln",
+  "tagline": "Hauchdünn geschnittenes Rindfleisch von der Grillplatte mit Zwiebeln und geschmolzener Käsesauce im Baguette."
+ },
+ "00151": {
+  "name": "Zehn würzige Buffalo Wings mit Blauschimmel-Dip & Sellerie",
+  "tagline": "Original aus Buffalo, New York: Knusprige Flügel in feuriger Buttersauce mit mildem Dip."
+ },
+ "00152": {
+  "name": "Steak-Burrito-Bowl nach Chipotle-Art mit Guacamole & Salsa",
+  "tagline": "Koriander-Limetten-Reis mit gegrilltem Rindfleisch, schwarzen Bohnen, Gemüsestreifen und Salsa."
+ },
+ "00153": {
+  "name": "Überbackene Vier-Käse-Makkaroni mit Cheddar (Mac and Cheese)",
+  "tagline": "Goldbraun im Ofen gebackene Makkaroni in einer extrem cremigen, ziehenden Käsesauce."
+ },
+ "00154": {
+  "name": "Kartoffelbrot und Maisbrot nach Chuncheon-Originalrezept",
+  "tagline": "Täuschend echt wie frisch geerntete Knollen aussehendes Klebreisgebäck mit süßer Kartoffelfüllung."
+ },
+ "00155": {
+  "name": "Gapyeong-Raststätten-Mürbekekse mit Pinienkernen & Karamell",
+  "tagline": "Kekse mit heimischen Gapyeong-Pinienkernen, gefüllt mit Salzkaramell und feiner Buttercreme."
+ },
+ "00156": {
+  "name": "Drei traditionelle Gyeongju Hwangnam-ppang mit roter Bohnenpaste",
+  "tagline": "Das Kultgebäck seit 1939: hauchdünner Teigmantel randvoll mit süßem koreanischem Bohnenmus."
+ },
+ "00157": {
+  "name": "Sungsimdang-Klassiker: Frittiertes Soboro & Schnittlauchbrötchen",
+  "tagline": "Daejeons Legende: Krachend kross frittierte Streuselhülle mit süßem roten Bohnenkern."
+ },
+ "00158": {
+  "name": "Traditionelle Cheonan-Walnussküchlein mit weißer Bohnenpaste",
+  "tagline": "Warme Gebäckkugeln mit knackiger Walnusshälfte und feiner heller Bohnenfüllung von der Raststätte."
+ },
+ "00159": {
+  "name": "Sotteok-Sotteok (Würstchen- und Reiskuchenspieß mit Saucen)",
+  "tagline": "Immer quer abbeißen: Knusprig gebratene Reiskuchen und Würstchen mit Ketchup und Senf."
+ },
+ "00160": {
+  "name": "In Butter geröstete kleine Raststätten-Kartoffeln mit Zucker & Salz",
+  "tagline": "Goldgelb auf der Grillplatte in Butter gewendete Minikartoffeln, bestreut mit süß-salzigem Puder."
+ },
+ "00161": {
+  "name": "Gyeongju 10-Won-Münzbrot mit endlosem Mozzarellakern",
+  "tagline": "Pfannkuchenteig in Form der historischen 10-Won-Münze, gefüllt mit schmelzendem Mozzarella."
+ },
+ "00162": {
+  "name": "Sechs knusprige Heißluftfritteusen-Bibigo-Königs-Mandu",
+  "tagline": "In zehn Minuten perfekt kross gebackene Riesenteigtaschen mit saftigem Schweinefleisch und Schnittlauch."
+ },
+ "00163": {
+  "name": "Krosser Mozzarella- und Würstchen-Corn-Dog mit Naturreispanade",
+  "tagline": "Außen knackig knusprig mit Reiscrispies, innen erst zähflüssiger Käse und dann ein saftiges Würstchen."
+ },
+ "00164": {
+  "name": "Dampfende Kimchi-Mandu im hauchdünnen Teigmantel",
+  "tagline": "Nur 0,7 mm Teigdicke: Die feurig-würzige Füllung aus gehacktem Kimchi und Fleisch schimmert durch."
+ },
+ "00165": {
+  "name": "Neungi-Pilz-Kräutersuppe mit Freilandhuhn & Klebreisbrei",
+  "tagline": "Im Bergtal gekochtes Hähnchen in dunkler Wildpilz-Heilkräuterbrühe, serviert mit klebrigem Reisbrei."
+ },
+ "00166": {
+  "name": "Eichelgelee-Salat mit Perillaöl & Gemüse (Dotori-muk)",
+  "tagline": "Feinherbes, elastisches Eichelgelee angemacht mit frischen Wildkräutern, Chili und aromatischem Perillaöl."
+ },
+ "00167": {
+  "name": "Knusprig dicker Meeresfrüchte-Lauch-Pfannkuchen (Haemul Pajeon)",
+  "tagline": "Krachend kross gebackener Pfannkuchen mit ganzen Frühlingszwiebeln, Tintenfisch und Muscheln."
+ },
+ "00168": {
+  "name": "Zwei koreanische Straßen-Eierbrötchen (Gyeran-ppang)",
+  "tagline": "Fluffiger, leicht süßlicher Teig mit einem ganzen eingebackenen Spiegelei und Petersilie."
+ },
+ "00169": {
+  "name": "Drei frittierte Reiskuchenspieße mit süß-scharfer Chiliglasur",
+  "tagline": "Fünf Klebreiskuchen am Holzspieß kross in Öl gebraten und mit klebriger Gochujang-Sauce bestrichen."
+ },
+ "00170": {
+  "name": "Drei Busan-Mul-Tteok (In Fischbrühe gegarte Reiskuchenspieße)",
+  "tagline": "Lange in herzhafter Sardellen-Krabben-Brühe gequollene, wunderbar weiche und saftige Reiskuchen."
+ },
+ "00171": {
+  "name": "Authentische römische Carbonara mit Guanciale & Pecorino",
+  "tagline": "Ohne Sahne: Knusprige Schweinebacke emulgiert mit frischem Eigelb und feinstem Pecorino Romano."
+ },
+ "00172": {
+  "name": "Neapolitanische Pizza Margherita mit Büffelmozzarella aus dem Holzofen",
+  "tagline": "Bei 480 Grad in 90 Sekunden gebacken: Hoher luftiger Rand mit San-Marzano-Tomaten und Basilikum."
+ },
+ "00173": {
+  "name": "Hausgemachte Kürbisgnocchi in gebräunter Salbeibutter",
+  "tagline": "Aus feinstem Butternusskürbis und Ricotta geformte Klößchen, goldbraun in aromatischer Nussbutter geschwenkt."
+ },
+ "00174": {
+  "name": "Venezianisches Tintenfischtinten-Risotto mit Calamari & Muscheln",
+  "tagline": "Glänzendes schwarzes Meeresfrüchterisotto mit perfektem al-dente Biss nach Adria-Tradition."
+ },
+ "00175": {
+  "name": "Steinpilz-Risotto mit 24 Monate gereiftem Parmigiano Reggiano",
+  "tagline": "Aromatische Waldsteinpilze in samtiger Reiskreation mit reichlich gehobeltem italienischem Hartkäse."
+ },
+ "00176": {
+  "name": "Linguine alle Vongole mit Venusmuscheln, Knoblauch & Weißwein",
+  "tagline": "Frischer Muschelsud und kaltgepresstes Olivenöl verbinden sich zur perfekten Emulsion um die Pasta."
+ },
+ "00177": {
+  "name": "Geschichtete Lasagne Bolognese mit Rinderragù & Béchamelsauce",
+  "tagline": "Fünf Schichten feiner Teigblätter mit stundenlang eingekochtem Rinderragout und cremiger Béchamel."
+ },
+ "00178": {
+  "name": "Trofie-Pasta mit genovesischem Basilikumpesto & Pinienkernen",
+  "tagline": "Frisch im Mörser gestampftes Basilikum mit ligurischem Olivenöl und gereiftem Grana Padano."
+ },
+ "00179": {
+  "name": "Quattro-Formaggi-Pizza mit Akazienhonig",
+  "tagline": "Kräftige Mischung aus Gorgonzola, Taleggio, Mozzarella und Parmesan, serviert mit feinem Honig."
+ },
+ "00180": {
+  "name": "Handgemachte Kartoffelgnocchi mit Trüffel-Pilz-Rahmsauce",
+  "tagline": "Luftige Gnocchi aus mehligen Kartoffeln, umhüllt von einer dichten Trüffel-Champignon-Rahmsauce."
+ },
+ "00181": {
+  "name": "Hokkaido Butadon: Gegrillter Schweinebauch mit Tare auf Reis",
+  "tagline": "Über Holzkohle kross gegrillte Scheiben Schweinebauch mit süß-rauchiger Sojaglasur auf Reis."
+ },
+ "00182": {
+  "name": "Cremiges Toripaitan-Hühnerramen mit Sous-Vide-Hähnchenbrust",
+  "tagline": "Zehn Stunden gekochte, seidig aufgeschäumte Hühnerbrühe mit saftig gegarter Hähnchenbrust."
+ },
+ "00183": {
+  "name": "Miso-Ramen mit Seeteufelleber-Paste (Ankimo)",
+  "tagline": "Die feine Meeresleber schmilzt in der würzigen Misobrühe zu einer unvergleichlichen Umami-Bombe."
+ },
+ "00184": {
+  "name": "Premium Rindfleisch-Sukiyaki nach Kanto-Art mit rohem Frischei",
+  "tagline": "Zart marmoriertes Rindfleisch, Tofu und Shiitake in süßer Sojasauce am Tisch gegart zum Dippen im Ei."
+ },
+ "00185": {
+  "name": "Nagoya Taiwan-Mazesoba mit Hackfleisch, Frühlingszwiebeln & Eigelb",
+  "tagline": "Brühelose Nudeln mit feurigem Schweinehack, Knoblauch, Makrelenpulver und seidigem Eigelb verrührt."
+ },
+ "00186": {
+  "name": "Tsukemen: Dicke kühle Nudeln zum Eintauchen in heiße Bonito-Brühe",
+  "tagline": "Feste dicke Nudeln treffen auf eine hocharomatische, konzentrierte Schweine- und Thunfischdipsuppe."
+ },
+ "00187": {
+  "name": "Sieben japanische Holzkohle-Yakitori-Geflügelspieße vom Grill",
+  "tagline": "Schenkel mit Lauch, Hähnchenhaut, Knorpel, Herzen und Frikadelle mit meisterhafter Tare-Sauce."
+ },
+ "00188": {
+  "name": "Hitsumabushi: Gegrillter Aal auf Reis in drei Schritten genossen",
+  "tagline": "Edler Grill-Aal im Holzbottich: pur, mit Wasabi und Lauch oder als Aufguss mit heißer Dashi-Brühe."
+ },
+ "00189": {
+  "name": "Tandoori-Hähnchen aus dem Lehmofen mit Minz-Chutney",
+  "tagline": "In würziger Joghurtmarinade eingelegtes Hähnchen, im traditionellen Tandoor-Ofen feurig gegart."
+ },
+ "00190": {
+  "name": "Palak Paneer (Würziger Spinat-Curry mit indischem Frischkäse)",
+  "tagline": "Fein pürierter Blattspinat mit Garam Masala und milden Würfeln aus hausgemachtem Paneer-Käse."
+ },
+ "00191": {
+  "name": "Großes Butter-Knoblauch-Naan frisch aus dem Tandoor-Ofen",
+  "tagline": "Im Lehmofen gebackenes, luftig-knuspriges Fladenbrot, glänzend mit gehacktem Knoblauch und Ghee bestrichen."
+ },
+ "00192": {
+  "name": "Murgh Makhani (Butter Chicken mit Tomaten-Sahnesauce)",
+  "tagline": "Zartes Hähnchen in einer samtig-milden Currysauce aus sonnengereiften Tomaten, Butter und Cashews."
+ },
+ "00193": {
+  "name": "Königliches Hyderabadi Chicken Biryani mit Basmatireis & Raita",
+  "tagline": "Mit Safran, Kardamom und Nelken geschichteter Würzreis mit sanft im Dampf gegartem Geflügelfleisch."
+ },
+ "00194": {
+  "name": "Zwei knusprige Gemüse-Samosas mit Tamarinden-Chutney",
+  "tagline": "Dreieckige Teigtaschen mit würziger Kartoffel-Erbsen-Füllung und Kreuzkümmel, goldgelb ausgebacken."
+ },
+ "00195": {
+  "name": "Gefüllte Aubergine mit Garnelenhack in Yuxiang-Sauce",
+  "tagline": "Kross gebratene Auberginentaschen mit feiner Garnelenfüllung in süß-sauer-scharfer Saucenkreation."
+ },
+ "00196": {
+  "name": "Sechs Shanghai Xiaolongbao (Gedämpfte Suppenteigtaschen)",
+  "tagline": "Im Bambusdämpfer servierte Teigtaschen, gefüllt mit heißer aromatischer Fleischsuppe und Füllung."
+ },
+ "00197": {
+  "name": "Knusprige Peking-Ente mit feinen Pfannkuchen & Tianmian-Sauce",
+  "tagline": "Hauchkrosse Entenhaut mit zartem Fleisch, Frühlingszwiebeln und Gurke in Weizenteigfladen gerollt."
+ },
+ "00198": {
+  "name": "Guobaorou (Knusprig gebackenes Schweinefilet in Essigsauce)",
+  "tagline": "Hauchdünne Schweinelendenscheiben in Klebreispanade mit betörend spritziger Essig-Zucker-Sauce."
+ },
+ "00199": {
+  "name": "Sichuan Dan-Dan-Nudeln mit Chiliöl & nussiger Sesampaste",
+  "tagline": "Würzige Weizennudeln in reichhaltiger Erdnuss-Sesam-Sauce mit krossem Schweinehack und Sichuanpfeffer."
+ },
+ "00200": {
+  "name": "Dongpo-Schweinebauch nach Hangzhou-Art mit Pak Choi",
+  "tagline": "Vier Stunden in Gewürzsauce butterweich geschmorter Schweinebauch, der auf der Zunge zergeht."
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-20T15:12:55.106Z",
+  "bucket": "myhome-houses-r2",
+  "cacheControl": "public, max-age=31536000, immutable",
+  "dryRun": true,
+  "startLevel": 100,
+  "endLevel": 120,
+  "totalObjects": 21,
+  "stagedFilesCount": 21,
+  "shards": {
+    "shard_0": 21
+  },
+  "sampleCommands": [
+    "wrangler r2 object put myhome-houses-r2/houses/00100.webp --file=\"data/r2_staging/shard_0/00100.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00101.webp --file=\"data/r2_staging/shard_0/00101.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00102.webp --file=\"data/r2_staging/shard_0/00102.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00103.webp --file=\"data/r2_staging/shard_0/00103.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00104.webp --file=\"data/r2_staging/shard_0/00104.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00105.webp --file=\"data/r2_staging/shard_0/00105.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00106.webp --file=\"data/r2_staging/shard_0/00106.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00107.webp --file=\"data/r2_staging/shard_0/00107.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00108.webp --file=\"data/r2_staging/shard_0/00108.svg\" --content-type=\"image/svg+xml\"",
+    "wrangler r2 object put myhome-houses-r2/houses/00109.webp --file=\"data/r2_staging/shard_0/00109.svg\" --content-type=\"image/svg+xml\""
+  ],
+  "status": "DRY_RUN_COMPLETED"
+}

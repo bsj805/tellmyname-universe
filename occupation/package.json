@@ -1,0 +1,19 @@
+{
+  "name": "occupation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "나에게 어울리는 직업 (MyJob) — 이름 기반 0~1000단계 극단적 다중우주 직업·일자리 감정소 & 직업 이상형 월드컵 (job.tellmyname.app)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate_static_site.mjs",
+    "dev": "node scripts/dev_server.mjs",
+    "deploy": "npm run build && npx wrangler deploy",
+    "test:hash": "node scripts/test_hash_distribution.mjs",
+    "generate:prompts": "node scripts/generate_prompt_txt_files.mjs",
+    "upload:r2": "node scripts/upload_r2_images.mjs",
+    "test": "node tests/test_all_features.mjs"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}

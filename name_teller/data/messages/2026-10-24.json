@@ -1,0 +1,68 @@
+[
+  {
+    "id": "m_20261024_01",
+    "hangulName": "서윤",
+    "recipientHint": "3학년 2반 서윤이",
+    "senderNickname": "익명의 다정한 친구",
+    "stampTheme": "blossom",
+    "content": "서윤아! 네 이름 뜻처럼 늘 상서롭고 따스한 단비 같은 친구가 되어줘서 고마워 ㅎㅎ 오늘도 화이팅!",
+    "likesCount": 14,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  },
+  {
+    "id": "m_20261024_02",
+    "hangulName": "서윤",
+    "recipientHint": "디자인팀 서윤님",
+    "senderNickname": "옆자리 동료",
+    "stampTheme": "warm_tea",
+    "content": "항상 차분하게 프로젝트 챙겨주셔서 든든해요! 서윤(瑞潤)이라는 한자 뜻이 너무 잘 어울리십니다 ☕",
+    "likesCount": 9,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  },
+  {
+    "id": "m_20261024_03",
+    "hangulName": "윤슬",
+    "recipientHint": "햇살처럼 반짝이는 윤슬",
+    "senderNickname": "시집 읽는 이웃",
+    "stampTheme": "starlight",
+    "content": "윤슬이라는 이름 볼 때마다 물결 위에 반짝이는 햇빛이 떠올라요. 이름처럼 늘 눈부시길 응원할게요 ✨",
+    "likesCount": 19,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  },
+  {
+    "id": "m_20261024_04",
+    "hangulName": "도윤",
+    "recipientHint": "우리 조장 도윤이",
+    "senderNickname": "조원 1호",
+    "stampTheme": "clover",
+    "content": "도윤아 이번 발표 준비하느라 진짜 고생 많았어!! 네 이름 뜻 그대로 큰길로 쭉쭉 뻗어나가자 🍀",
+    "likesCount": 11,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  },
+  {
+    "id": "m_20261024_05",
+    "hangulName": "지안",
+    "recipientHint": "전국의 지안님에게",
+    "senderNickname": "익명 우체부",
+    "stampTheme": "blossom",
+    "content": "지혜롭고 평안하다는 뜻처럼 오늘 하루도 마음 편안하고 행복한 일만 가득하길 바랄게요 🌸",
+    "likesCount": 8,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  },
+  {
+    "id": "m_20261024_06",
+    "hangulName": "미리내",
+    "recipientHint": "은하수를 닮은 미리내",
+    "senderNickname": "별헤는밤",
+    "stampTheme": "starlight",
+    "content": "시집 속에서 나온 것 같은 너무 예쁜 이름이에요! 밤하늘 은하수처럼 반짝이는 날들만 가득하세요 🌌",
+    "likesCount": 15,
+    "createdAt": "2026-10-24",
+    "expiresAt": "2027-10-24"
+  }
+]

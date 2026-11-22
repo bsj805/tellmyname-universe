@@ -1,0 +1,402 @@
+{
+ "00101": {
+  "name": "Nouilles instantanées en bol et hotbar de supérette (The Yellow Sea)",
+  "tagline": "Le combo légendaire de nouilles fumantes et saucisse hotbar englouti avec fureur dans le film The Yellow Sea."
+ },
+ "00102": {
+  "name": "Écrevisses au mala épicé décortiquées à pleines mains (The Outlaws)",
+  "tagline": "« Tu sais qui je suis ? » : les écrevisses piquantes baignant dans l'huile pimentée dévorées dans The Outlaws."
+ },
+ "00103": {
+  "name": "Poulet entier frit à l'ancienne et salade de chou (Reply 1988)",
+  "tagline": "Le poulet enrobé d'une sauce sucrée ramené dans un sac en papier un soir de paie comme dans Reply 1988."
+ },
+ "00104": {
+  "name": "Grande poche de viande juteuse et mystérieuse (Le Voyage de Chihiro)",
+  "tagline": "La mystérieuse poche de viande translucide et juteuse que le père de Chihiro engloutit goulûment."
+ },
+ "00105": {
+  "name": "Tranches de bacon épais et œufs au plat de Calcifer (Le Château ambulant)",
+  "tagline": "Les épaisses tranches de bacon et les œufs poêlés sur le feu ardent du démon Calcifer dans Le Château ambulant."
+ },
+ "00106": {
+  "name": "Le confit byaldi façon ratatouille paysanne du chef Rémy (Ratatouille)",
+  "tagline": "Fines rondelles de courgette, aubergine et tomate en rosace sur piperade qui ont ému le critique Anton Ego."
+ },
+ "00107": {
+  "name": "Le milk-shake vanille à 5 dollars de Vincent Vega (Pulp Fiction)",
+  "tagline": "« C'est un sacrément bon milk-shake ! » : la boisson onctueuse couronnée d'une cerise savourée dans Pulp Fiction."
+ },
+ "00108": {
+  "name": "Le poulet frit chimaek et bière fraîche des premiers flocons (My Love from the Star)",
+  "tagline": "« Rien ne vaut un poulet-bière par jour de neige » : le festin d'hiver culte de l'héroïne de My Love from the Star."
+ },
+ "00109": {
+  "name": "Les spaghettis aux boulettes de viande de Clemenza (Le Parrain)",
+  "tagline": "« Laisse le flingue, prends les cannoli » : la sauce tomate mijotée à l'ail, saucisses et boulettes du Parrain."
+ },
+ "00110": {
+  "name": "Le sandwich grillé au fromage réconfortant (Le diable s'habille en Prada)",
+  "tagline": "Le sandwich au fromage fondu préparé avec amour pour réconforter Andy dans Le diable s'habille en Prada."
+ },
+ "00111": {
+  "name": "La soupe de tête de bœuf Hanwoo des gangsters (New World)",
+  "tagline": "« Entre donc, mon frère ! » : un bouillon brûlant d'os de bœuf et morceaux de tête savouré dans New World."
+ },
+ "00112": {
+  "name": "Les ramen au jambon et thé chaud au miel de Ponyo (Ponyo sur la falaise)",
+  "tagline": "Le bol fumant de nouilles garni d'une tranche de jambon et d'un œuf mollet partagé dans Ponyo sur la falaise."
+ },
+ "00113": {
+  "name": "Les œufs durs cuits sur pierre de sauna dans le train (The Witch)",
+  "tagline": "Les œufs bruns cuits sur pierres chaudes de sauna dévorés en un éclair dans le train du thriller The Witch."
+ },
+ "00114": {
+  "name": "La pêche blanche juteuse pelée à la main (Mademoiselle)",
+  "tagline": "Les quartiers fondants de pêche blanche juteuse partagés avec douceur dans le chef-d'œuvre Mademoiselle."
+ },
+ "00115": {
+  "name": "L'onigiri triangulaire à la prune umeboshi (Kamome Diner)",
+  "tagline": "La boulette de riz tiède façonnée à la main et enveloppée d'algue croustillante du film Kamome Diner."
+ },
+ "00116": {
+  "name": "Porc bouilli bossam nappé d'une crème d'ail doux et radis mariné",
+  "tagline": "Tranches de poitrine de porc fondantes recouvertes d'une sauce onctueuse à l'ail et au miel avec kimchi de radis."
+ },
+ "00117": {
+  "name": "Salade fraîche de pieds de porc à la méduse et moutarde de Busan",
+  "tagline": "Fines lamelles de porc et lanières de méduse croquante assaisonnées d'une sauce moutardée piquante et rafraîchissante."
+ },
+ "00118": {
+  "name": "Pied de porc croustillant rôti façon jarret Schweinshaxe",
+  "tagline": "Jambonneau coréen frit entier à la peau soufflée ultra-croustillante et chair fondante riche en collagène."
+ },
+ "00119": {
+  "name": "Ragoût de poulet mijoté au vieux kimchi et pommes de terre (Dakdoritang)",
+  "tagline": "Morceaux de poulet tendres et pommes de terre mijotés dans une sauce pimentée au kimchi affiné bien relevée."
+ },
+ "00120": {
+  "name": "Soupe épicée de colin de la mer de l'Est aux œufs et laitance",
+  "tagline": "Bouillon corsé et piquant au colin frais, radis blanc et laitance crémeuse pour dissiper les excès de la veille."
+ },
+ "00121": {
+  "name": "Lotte braisée très épicée aux pousses de soja de Masan (Agujjim)",
+  "tagline": "Morceaux charnus de lotte et pousses de soja épaisses sautés dans une sauce pimentée liée à l'amidon."
+ },
+ "00122": {
+  "name": "Ragoût de l'armée d'Uijeongbu au Spam, saucisses et nouilles (Budae jjigae)",
+  "tagline": "Bouillon épicé mijoté avec tranches de Spam, saucisses viennoises, haricots à la tomate et nouilles instantanées."
+ },
+ "00123": {
+  "name": "Poulet frit poudré d'épices au fromage doux et sauce au yaourt",
+  "tagline": "Morceaux de poulet croustillants enrobés d'un assaisonnement au fromage doux et à l'oignon, trempés dans du yaourt."
+ },
+ "00124": {
+  "name": "Poulet croustillant au piment vert rôti au four et sauce chili-mayo",
+  "tagline": "Cuisses de poulet cuites au four à la peau croustillante incrustée de piment vert, avec trempette crémeuse."
+ },
+ "00125": {
+  "name": "Ailes et pilons de poulet croustillants laqués au soja et à l'ail",
+  "tagline": "Ailes de poulet dorées badigeonnées d'une sauce sirupeuse au soja et à l'ail pour un goût sucré-salé irrésistible."
+ },
+ "00126": {
+  "name": "Poulet barbecue grillé au charbon de bois et nouilles udon sautées",
+  "tagline": "Morceaux de poulet désossés et grillés à la flamme, servis avec de grosses nouilles udon sautées dans la sauce BBQ."
+ },
+ "00127": {
+  "name": "Pizza fine au gorgonzola au feu de bois et miel d'acacia",
+  "tagline": "Pâte fine cuite au four à bois garnie de gorgonzola corsé fondant, à napper généreusement de miel liquide."
+ },
+ "00128": {
+  "name": "Pizza carrée de Détroit au pepperoni et croûte croustillante",
+  "tagline": "Pâte épaisse et aérée cuite en moule carré avec bords au fromage caramélisé et myriade de tranches de pepperoni."
+ },
+ "00129": {
+  "name": "Smash burger au bœuf juteux et cheddar fondu dans un pain brioché",
+  "tagline": "Deux steaks de bœuf écrasés sur plaque brûlante avec double cheddar fondu dans un pain brioché beurré."
+ },
+ "00130": {
+  "name": "Sandwich au porc effiloché fumé 12 heures façon Texas et coleslaw",
+  "tagline": "Épaule de porc fumée au bois d'hickory effilochée avec sauce barbecue fumée et salade de chou croquante."
+ },
+ "00131": {
+  "name": "Nouilles samseon gan-jjajang aux fruits de mer et œuf au plat",
+  "tagline": "Pâtes fraîches nappées d'une sauce aux haricots noirs sautée au wok avec oignons doux, calmar et crevettes."
+ },
+ "00132": {
+  "name": "Soupe jjamppong très épicée à la poitrine de bœuf et fruits de mer",
+  "tagline": "Bouillon rouge fumant au goût de flamme intense garni de lamelles de bœuf, moules et calmars tendres."
+ },
+ "00133": {
+  "name": "Toasts croustillants farcis à la chair de crevettes (Mianbaoxia)",
+  "tagline": "Six toasts dorés et frits renfermant une farce moelleuse et parfumée de crevettes hachées."
+ },
+ "00134": {
+  "name": "Tofu mapo épicé au poivre du Sichuan sur lit de riz vapeur",
+  "tagline": "Dés de tofu soyeux et porc haché mijotés dans une sauce ardente aux piments et baies de Sichuan engourdissantes."
+ },
+ "00135": {
+  "name": "Bol de riz tendon aux beignets tempura de gambas, anguille et courge",
+  "tagline": "Beignets japonais ultra-croustillants dressés sur un bol de riz chaud et arrosés d'une sauce tare sirupeuse."
+ },
+ "00136": {
+  "name": "Grand bol kaisendon de sashimi de saumon, thon et œufs de saumon ikura",
+  "tagline": "Éventail de poissons crus d'une grande fraîcheur et perles d'œufs de saumon éclatantes sur riz vinaigré."
+ },
+ "00137": {
+  "name": "Ramen au bouillon miso de Sapporo, porc chashu et mini gyozas",
+  "tagline": "Bouillon réconfortant à la pâte de soja avec quatre tranches de poitrine de porc fondante, maïs et raviolis grillés."
+ },
+ "00138": {
+  "name": "Vermicelles de riz bun cha au porc grillé à la braise et sauce nuoc-mâm",
+  "tagline": "Spécialité de Hanoï : boulettes et lamelles de porc grillé trempées avec des herbes fraîches dans un bouillon acidulé."
+ },
+ "00139": {
+  "name": "Soupe thaïe tom yum goong aux crevettes géantes et citronnelle",
+  "tagline": "Le grand classique thaïlandais combinant saveurs acides, pimentées et lait de coco avec de grosses crevettes."
+ },
+ "00140": {
+  "name": "Crabe en mue croustillant au curry jaune et lait de coco (Poo pad pong karee)",
+  "tagline": "Crabe à carapace molle frit et nappé d'un curry jaune doux et velouté lié aux œufs et au lait de coco."
+ },
+ "00141": {
+  "name": "Trio de tacos mexicains au bœuf effiloché, guacamole et salsa fraîche",
+  "tagline": "Tortillas de maïs imbibées de bouillon garnies de viande fondante, oignons émincés, coriandre et citron vert."
+ },
+ "00142": {
+  "name": "Poke bowl hawaïen au saumon mariné, avocat et riz complet",
+  "tagline": "Dés de saumon frais assaisonnés à la mayonnaise épicée avec edamames, algues et oignons frits croquants."
+ },
+ "00143": {
+  "name": "Salade tiède de blanc de poulet sous-vide et potimarron rôti",
+  "tagline": "Poitrine de volaille ultra-tendre cuite à basse température accompagnée de courge rôtie et réduction balsamique."
+ },
+ "00144": {
+  "name": "Tteokbokki crémeux à la sauce rosé et beignets de poulet karaage",
+  "tagline": "Bâtonnets de riz dans une sauce veloutée mêlant crème fraîche et piment doux, surmontés de poulet croustillant."
+ },
+ "00145": {
+  "name": "Toast coréen spécial jambon, fromage fondu et sauce kiwi douce",
+  "tagline": "Sandwich toasté au beurre garni d'omelette au maïs, jambon, fromage et sauce fruitée emblématique de Séoul."
+ },
+ "00146": {
+  "name": "Croissant caramélisé pressé façon croongji et glace à la vanille",
+  "tagline": "Croissant beurré aplati et grillé comme une tuile croustillante caramélisée servi avec de la glace vanille."
+ },
+ "00147": {
+  "name": "Barre fondante au beurre caramélisé et cheddar doux (Butter bar)",
+  "tagline": "Gâteau dense et sablé à la croûte dorée garni d'une crème riche au fromage cheddar doux à déguster très frais."
+ },
+ "00148": {
+  "name": "Travers de porc fumés au barbecue américain et salade coleslaw",
+  "tagline": "Côtes levées fondantes cuites huit heures à basse température avec une sauce barbecue fumée et frites maison."
+ },
+ "00149": {
+  "name": "Gaufres liégeoises et poulet frit croustillant au sirop d'érable",
+  "tagline": "Le classique soul food américain combinant poulet frit croustillant, gaufres chaudes et filet de sirop d'érable."
+ },
+ "00150": {
+  "name": "Sandwich cheesesteak de Philadelphie au bœuf émincé et fromage fondu",
+  "tagline": "Pain allongé garni de fines lamelles de bœuf saisies à la plancha avec oignons fondus et sauce au cheddar coulant."
+ },
+ "00151": {
+  "name": "Ailes de poulet Buffalo piquantes, sauce au bleu et branches de céleri",
+  "tagline": "Ailes croustillantes enrobées de sauce piquante au piment de Cayenne et beurre servies avec crème au fromage bleu."
+ },
+ "00152": {
+  "name": "Burrito bowl de bœuf grillé façon Chipotle, haricots noirs et guacamole",
+  "tagline": "Riz à la coriandre et au citron vert surmonté de steak mariné, salsa fraîche, maïs doux et crème d'avocat."
+ },
+ "00153": {
+  "name": "Gratin de macaronis fondant aux quatre cheddars affinés (Mac and Cheese)",
+  "tagline": "Pâtes enrobées d'une béchamel au fromage riche et gratinées au four jusqu'à obtenir une belle croûte dorée."
+ },
+ "00154": {
+  "name": "Brioches trompe-l'œil à la pomme de terre et au maïs de Chuncheon",
+  "tagline": "Pâtisseries moelleuses au tapioca imitant de vraies pommes de terre avec un cœur fondant de purée sucrée."
+ },
+ "00155": {
+  "name": "Biscuits sablés au beurre, pignons de Gapyeong et caramel au beurre salé",
+  "tagline": "Biscuits sablés croustillants fourrés d'une crème au beurre onctueuse, pignons torréfiés et caramel au sel."
+ },
+ "00156": {
+  "name": "Trio de pâtisseries hwangnamppang aux haricots rouges de Gyeongju",
+  "tagline": "Petits gâteaux à la pâte fine renfermant un généreux cœur fondant de pâte de haricots rouges de Corée."
+ },
+ "00157": {
+  "name": "Duo brioche soboro frite aux haricots rouges et pain à la ciboulette",
+  "tagline": "La légendaire brioche croustillante frite de la boulangerie Sungsimdang garnie de pâte de haricots sucrée."
+ },
+ "00158": {
+  "name": "Gâteaux aux noix en forme de coque farcis de pâte blanche de Cheonan",
+  "tagline": "Moelleuses petites bouchées en forme de noix renfermant un cerneau entier et une pâte fine de haricots blancs."
+ },
+ "00159": {
+  "name": "Brochette sotteok-sotteok de saucisse et gâteau de riz grillé",
+  "tagline": "Alternance de gâteaux de riz moelleux et saucisses grillées nappés de ketchup et moutarde douce."
+ },
+ "00160": {
+  "name": "Petites pommes de terre poêlées au beurre, sucre et fleur de sel",
+  "tagline": "Grenailles dorées à la poêle dans du beurre mousseux, saupoudrées d'une pincée de sucre et de sel fin."
+ },
+ "00161": {
+  "name": "Pain pièce de monnaie de dix wons fourré à la mozzarella filante",
+  "tagline": "Gaufre chaude estampillée d'une pièce coréenne ancienne renfermant un cœur de mozzarella très étirable."
+ },
+ "00162": {
+  "name": "Six grands raviolis royaux croustillants au porc et ciboule (Bibigo)",
+  "tagline": "Gros raviolis mandu dorés à la perfection, à la farce juteuse de viande de porc émincée et légumes croquants."
+ },
+ "00163": {
+  "name": "Corndog croustillant moitié mozzarella filante et moitié saucisse",
+  "tagline": "Beignet sur bâtonnet enrobé d'une chapelure de riz soufflé croustillante, avec fromage fondant puis saucisse."
+ },
+ "00164": {
+  "name": "Raviolis vapeur à pâte ultrafine farcis au porc et kimchi épicé",
+  "tagline": "Fines bouchées presque translucides généreusement garnies de farce relevée au kimchi artisanal croquant."
+ },
+ "00165": {
+  "name": "Poulet fermier mijoté aux champignons noirs neungi et riz gluant",
+  "tagline": "Plat revigorant de montagne coréen : bouillon sombre parfumé aux champignons sauvages et riz gluant onctueux."
+ },
+ "00166": {
+  "name": "Salade de gelée de glands dotorimuk à l'huile de pérille et herbes",
+  "tagline": "Dés de gelée de glands rafraîchissants mêlés à des légumes croquants et une vinaigrette parfumée au sésame."
+ },
+ "00167": {
+  "name": "Grande galette coréenne croustillante aux fruits de mer et ciboule",
+  "tagline": "Crêpe épaisse et dorée garnie de calmars tendres, crevettes et longues tiges de ciboule verte croquante."
+ },
+ "00168": {
+  "name": "Pains briochés d'hiver cuits avec un œuf entier (Gyeranppang)",
+  "tagline": "Petits pains moelleux cuits au moule renfermant un œuf entier coulant et assaisonnés d'une touche sucrée-salée."
+ },
+ "00169": {
+  "name": "Brochettes de gâteaux de riz frits glacés à la sauce douce (Tteokkkochi)",
+  "tagline": "Bâtonnets de riz croustillants dehors et moelleux dedans nappés d'une sauce caramélisée au gochujang."
+ },
+ "00170": {
+  "name": "Brochettes de gâteaux de riz fondants mijotés au bouillon de Busan",
+  "tagline": "Bâtons de riz tendres et gorgés du parfum iodé d'un grand bouillon d'anchois et de crabe des étals de Busan."
+ },
+ "00171": {
+  "name": "Spaghettis à la vraie carbonara au guanciale, jaune d'œuf et pecorino",
+  "tagline": "La recette romaine sans crème : pâtes liées à l'eau de cuisson avec jaune d'œuf crémeux et joue de porc croustillante."
+ },
+ "00172": {
+  "name": "Pizza Margherita napolitaine au feu de bois, bufala et basilic",
+  "tagline": "Pâte aérée aux bords alvéolés cuite à très haute température avec tomates San Marzano et mozzarella fondante."
+ },
+ "00173": {
+  "name": "Gnocchis maison de courge butternut rissolés au beurre de sauge",
+  "tagline": "Délicats gnocchis moelleux dorés à la poêle dans un beurre noisette infusé aux feuilles de sauge fraîche."
+ },
+ "00174": {
+  "name": "Risotto vénitien à l'encre de seiche, calmars et moules fraîches",
+  "tagline": "Riz Carnaroli cuit al dente dans un fumet noir profond et garni de fruits de mer tendres de l'Adriatique."
+ },
+ "00175": {
+  "name": "Risotto crémeux aux cèpes sauvages et parmesan vieux 24 mois",
+  "tagline": "Risotto onctueux imprégné du parfum puissant des champignons porcini et lié au Parmigiano Reggiano affiné."
+ },
+ "00176": {
+  "name": "Linguines aux palourdes fraîches, ail et vin blanc (Vongole)",
+  "tagline": "Pâtes longues enrobées d'une émulsion soyeuse d'huile d'olive vierge, jus de coquillages et persil frais."
+ },
+ "00177": {
+  "name": "Lasagnes traditionnelles de Bologne au bœuf mijoté et béchamel",
+  "tagline": "Feuilles de pâtes fraîches superposées avec une sauce bolognaise mijotée des heures et une béchamel fondante."
+ },
+ "00178": {
+  "name": "Pâtes trofie au pesto de basilic génois frais, pignons et parmesan",
+  "tagline": "Petites pâtes liguriennes tourbillonnantes nappées d'un pesto pilé au mortier avec basilic frais et pignons de pin."
+ },
+ "00179": {
+  "name": "Pizza aux quatre fromages italiens affinés et filet de miel",
+  "tagline": "Délicieuse alliance fondante de gorgonzola piquant, taleggio, mozzarella et parmesan avec une touche miellée."
+ },
+ "00180": {
+  "name": "Gnocchis de pomme de terre à la crème de champignons et truffe noire",
+  "tagline": "Gnocchis aériens faits main enrobés d'une crème riche aux champignons de Paris et lamelles de truffe noire."
+ },
+ "00181": {
+  "name": "Bol butadon d'Obihiro au porc laqué grillé au charbon de bois",
+  "tagline": "Tranches épaisses de poitrine de porc caramélisées sur la braise disposées en rosace sur un bol de riz chaud."
+ },
+ "00182": {
+  "name": "Ramen tori paitan au bouillon blanc de poulet et suprême sous-vide",
+  "tagline": "Bouillon de volaille corsé fouetté comme un cappuccino crémeux et garni de tendre blanc de poulet mariné."
+ },
+ "00183": {
+  "name": "Ramen gastronomique au bouillon miso enrichi au foie de lotte (Ankimo)",
+  "tagline": "Soupe de nouilles au bouillon miso profond sublimé par la richesse veloutée du foie de lotte poché."
+ },
+ "00184": {
+  "name": "Sukiyaki traditionnel de bœuf persillé en cocotte fonte et œuf cru",
+  "tagline": "Fines tranches de bœuf saisies dans un bouillon doux au soja et mirin avec champignons, à tremper dans l'œuf cru."
+ },
+ "00185": {
+  "name": "Mazesoba de Nagoya aux nouilles épaisses, porc pimenté et œuf coulant",
+  "tagline": "Nouilles sans bouillon à mélanger vivement avec porc haché épicé, ciboulette, poudre de poisson et jaune coulant."
+ },
+ "00186": {
+  "name": "Tsukemen de Tokyo aux nouilles épaisses et bouillon corsé au poisson",
+  "tagline": "Grosses nouilles japonaises fraîches et fermes à plonger dans un concentré de bouillon de porc et bonite fumée."
+ },
+ "00187": {
+  "name": "Assortiment de sept brochettes de volaille grillées au binchotan",
+  "tagline": "Brochettes artisanales de cuisse, boulettes tsukune et peau laquées à la sauce tare sur charbon de bois blanc."
+ },
+ "00188": {
+  "name": "Riz à l'anguille grillée hitsumabushi de Nagoya en trois services",
+  "tagline": "Anguille laquée croustillante servie dans un baquet de bois, à savourer nature, aux condiments puis en bouillon dashi."
+ },
+ "00189": {
+  "name": "Poulet tandoori mariné au yaourt épicé cuit au four d'argile",
+  "tagline": "Cuisses de volaille marinées aux épices rouges et grillées à très haute température dans un tandoor indien."
+ },
+ "00190": {
+  "name": "Curry d'épinards onctueux au fromage indien maison (Palak paneer)",
+  "tagline": "Purée fine d'épinards frais mijotée au garam masala et enrichie de dés de fromage paneer moelleux."
+ },
+ "00191": {
+  "name": "Grand pain naan géant au beurre clarifié et ail cuit au tandoor",
+  "tagline": "Galette de pain gonflée sur les parois du four tandoor, dorée au beurre ghee et recouverte d'ail frais émincé."
+ },
+ "00192": {
+  "name": "Curry de poulet au beurre, tomates douces et noix de cajou",
+  "tagline": "Morceaux de poulet tendres nappés d'une sauce veloutée et parfumée à la crème, tomate et pâte de cajou."
+ },
+ "00193": {
+  "name": "Biryani royal de poulet au riz basmati safrané et épices douces",
+  "tagline": "Plat impérial mijoté à l'étouffée où le riz basmati s'imprègne des arômes de cardamome, clous de girofle et volaille."
+ },
+ "00194": {
+  "name": "Deux samoussas croustillants aux pommes de terre et petits pois",
+  "tagline": "Triangles de pâte feuilletée bien dorés renfermant une farce parfumée au cumin et coriandre avec chutney tamarin."
+ },
+ "00195": {
+  "name": "Aubergines croustillantes farcies aux crevettes sauce aigre-douce",
+  "tagline": "Tranches d'aubergine dorées à la friture garnies de hachis de crevettes et nappées d'une sauce sichuanaise yuxiang."
+ },
+ "00196": {
+  "name": "Six raviolis xiaolongbao de Shanghai vapeur au bouillon de porc",
+  "tagline": "Bouchées vapeurs renfermant une farce délicate et une cuillerée de bouillon doré brûlant sous une pâte fine."
+ },
+ "00197": {
+  "name": "Canard laqué pékinois servi avec fines crêpes et sauce aux prunes",
+  "tagline": "Peau de canard caramélisée ultra-croustillante et chair tendre à enrouler avec concombre et ciboule fraîche."
+ },
+ "00198": {
+  "name": "Porc croustillant sauce aigre-douce au vinaigre (Guobaorou)",
+  "tagline": "Larges lamelles de porc panées à la fécule de pomme de terre enrobées d'un glaçage translucide bien acidulé."
+ },
+ "00199": {
+  "name": "Nouilles dandan sichuanaises au sésame et porc haché pimenté",
+  "tagline": "Nouilles de blé nappées d'une sauce onctueuse au sésame grillé et huile de piment rouge aux baies de Sichuan."
+ },
+ "00200": {
+  "name": "Poitrine de porc braisée Dongpo aux cinq-épices et chou pak-choï",
+  "tagline": "Gros carré de porc mijoté longuement dans un vin de Shaoxing et sauce soja douce, fondant sous la cuillère."
+ }
+}

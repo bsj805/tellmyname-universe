@@ -1,0 +1,19 @@
+{
+  "name": "myhome",
+  "version": "1.0.0",
+  "private": true,
+  "description": "나에게 어울리는 집 (MyHome) — 이름 기반 0~499단계 극단적 AI 부동산·우주 건축 감정소 (myhome.tellmyname.app)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate_static_site.mjs",
+    "dev": "node scripts/dev_server.mjs",
+    "deploy": "npm run build && npx wrangler deploy",
+    "test:hash": "node scripts/test_hash_distribution.mjs",
+    "build:taxonomy": "node scripts/build_taxonomy_dataset.mjs",
+    "upload:r2": "node scripts/upload_r2_images.mjs",
+    "test": "node tests/test_feature_1_hash.mjs && node tests/test_feature_2_taxonomy.mjs && node tests/test_feature_3_shards.mjs && node tests/test_feature_4_r2.mjs && node tests/test_feature_5_worker.mjs && node tests/test_feature_6_seo.mjs && node tests/test_feature_7_ui.mjs && node tests/test_feature_8_share.mjs && node tests/test_features_9_to_16_new.mjs"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}

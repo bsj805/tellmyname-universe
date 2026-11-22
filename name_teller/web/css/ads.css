@@ -1,0 +1,133 @@
+/* web/css/ads.css — 구글 애드센스 및 세련된 스폰서 컨테이너 공통 스타일 */
+
+.main-ad-wrap {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 12px 18px;
+  box-sizing: border-box;
+}
+
+.ad-sponsor-container {
+  background: #FAF7F2;
+  border: 1px solid rgba(28, 25, 23, 0.09);
+  border-radius: 18px;
+  padding: 12px 14px 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.ad-sponsor-container:hover {
+  border-color: rgba(217, 119, 6, 0.25);
+}
+
+.ad-sponsor-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(28, 25, 23, 0.06);
+}
+
+.ad-sponsor-pill {
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #B45309;
+  background: #FEF3C7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1.2;
+}
+
+.ad-sponsor-note {
+  font-size: 11px;
+  color: #78716C;
+  letter-spacing: -0.2px;
+}
+
+.ad-sponsor-slot {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 12px;
+  border: 1px solid rgba(28, 25, 23, 0.04);
+  overflow: hidden;
+}
+
+.ad-sponsor-slot ins.adsbygoogle {
+  width: 100%;
+  min-height: 100px;
+}
+
+/* ---------- 애드센스 승인 전/후 빈 공간 대체 감성 플레이스홀더 ---------- */
+.ad-placeholder-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 90px;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #FAF7F2 0%, #F5EFEB 100%);
+  border-radius: 10px;
+}
+
+.ad-placeholder-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.ad-placeholder-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+  animation: ad-sparkle 2.5s ease-in-out infinite;
+}
+
+.ad-placeholder-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ad-placeholder-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #1C1917;
+  letter-spacing: 0.04em;
+}
+
+.ad-placeholder-desc {
+  font-size: 11.5px;
+  color: #78716C;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+}
+
+/* 광고가 정상 주입(iframe 생성 또는 filled 상태)되면 플레이스홀더를 부드럽게 숨김 */
+.ad-sponsor-slot:has(ins.adsbygoogle iframe) .ad-placeholder-content,
+.ad-sponsor-slot ins.adsbygoogle[data-ad-status="filled"] ~ .ad-placeholder-content,
+.feed-ad-body:has(ins.adsbygoogle iframe) .ad-placeholder-content,
+.feed-ad-body ins.adsbygoogle[data-ad-status="filled"] ~ .ad-placeholder-content,
+.letters-sent-ad-body:has(ins.adsbygoogle iframe) .ad-placeholder-content,
+.letters-sent-ad-body ins.adsbygoogle[data-ad-status="filled"] ~ .ad-placeholder-content {
+  display: none !important;
+}
+
+@keyframes ad-sparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.9; }
+  50% { transform: scale(1.15) rotate(10deg); opacity: 1; }
+}

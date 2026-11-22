@@ -1,0 +1,18 @@
+{
+  "name": "tellmyname-universe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unified Monorepo for tellmyname.app family services (name_teller, myhome, food, occupation, car)",
+  "scripts": {
+    "verify:ko": "python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" name_teller/web/index.html && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" myhome/data/chunks && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" food/data/foods_master.json && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" occupation/data/chunks && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" car/data/chunks",
+    "build": "node deploy_all.mjs --build-only",
+    "deploy": "node deploy_all.mjs --deploy",
+    "deploy:open": "node deploy_all.mjs --deploy --only=name_teller,myhome,food",
+    "deploy:hub": "node deploy_all.mjs --deploy --only=name_teller",
+    "deploy:myhome": "node deploy_all.mjs --deploy --only=myhome",
+    "deploy:food": "node deploy_all.mjs --deploy --only=food",
+    "deploy:job": "node deploy_all.mjs --deploy --only=occupation",
+    "deploy:car": "node deploy_all.mjs --deploy --only=car"
+  }
+}

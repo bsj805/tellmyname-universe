@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>TellMyName - 이름으로 즐기는 다중우주 집·식단·직업·자동차 테스트 & 이상형 월드컵 허브</title>
+  <meta name="description" content="이름만 입력하면 나에게 어울리는 집(1,000단계), 오늘 뭐 먹지 하루 5끼 식단(401선), 나에게 어울리는 직업(1,001단계), 나에게 어울리는 자동차(1,001단계)를 즉시 찾아주는 TellMyName 공식 포털입니다." />
+  <meta name="keywords" content="TellMyName, 나에게 어울리는 집, 오늘 뭐 먹지, 나에게 어울리는 직업, 나에게 어울리는 자동차, 포토 다이어리, 이름 테스트, 이상형 월드컵" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://tellmyname.app/" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" href="/favicon.ico" />
+
+  <!-- Search Engine Verifications -->
+  <meta name="naver-site-verification" content="500b75986dd93e8da7fcbbb280dae50e9f195b04" />
+  <meta name="yandex-verification" content="05d40864cd87eefe" />
+  <meta name="msvalidate.01" content="2ACD105E72F63152A701D20FEC1AD467" />
+
+  <!-- Google AdSense Verification -->
+  <meta name="google-adsense-account" content="ca-pub-8793936135959956" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TellMyName" />
+  <meta property="og:title" content="TellMyName - 이름으로 즐기는 집·식단·직업·자동차 테스트 통합 포털" />
+  <meta property="og:description" content="이름 하나로 펼쳐지는 다중우주 세계관! 나에게 어울리는 집, 오늘 뭐 먹지 하루 5끼 식단, 직업, 자동차 테스트와 이상형 월드컵을 한곳에서 만나보세요." />
+  <meta property="og:url" content="https://tellmyname.app/" />
+  <meta property="og:image" content="https://myhome.tellmyname.app/r2/houses/00512.webp" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TellMyName",
+    "url": "https://tellmyname.app/",
+    "description": "이름 기반 다중우주 라이프스타일 매칭(집·음식·직업·자동차) 및 이상형 월드컵 통합 포털",
+    "publisher": {
+      "@type": "Person",
+      "name": "bsj805",
+      "email": "mailto:contact@tellmyname.app"
+    },
+    "hasPart": [
+      {
+        "@type": "WebApplication",
+        "name": "나에게 어울리는 집 (MyHome)",
+        "url": "https://myhome.tellmyname.app/"
+      },
+      {
+        "@type": "WebApplication",
+        "name": "오늘 뭐 먹지? (Mukbang)",
+        "url": "https://food.tellmyname.app/"
+      },
+      {
+        "@type": "WebApplication",
+        "name": "나에게 어울리는 직업 (MyJob)",
+        "url": "https://job.tellmyname.app/"
+      },
+      {
+        "@type": "WebApplication",
+        "name": "나에게 어울리는 자동차 (MyCar)",
+        "url": "https://car.tellmyname.app/"
+      },
+      {
+        "@type": "WebApplication",
+        "name": "포토 다이어리 (Photo Diary)",
+        "url": "https://photodiary.tellmyname.app/"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <style>
+    :root {
+      --bg: #0b1120;
+      --surface: #131c31;
+      --surface-hover: #1a2642;
+      --border: rgba(148, 163, 184, 0.22);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --gold: #fbbf24;
+      --green: #34d399;
+      --purple: #c084fc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #172554 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(11, 17, 32, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .brand-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.16);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+    .header-nav {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .header-nav a {
+      text-decoration: none;
+      color: #cbd5e1;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.4rem 0.75rem;
+      border-radius: 8px;
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid var(--border);
+      transition: all 0.18s ease;
+    }
+    .header-nav a:hover {
+      color: #fff;
+      border-color: var(--accent);
+      background: rgba(56, 189, 248, 0.15);
+    }
+    .hero-section {
+      text-align: center;
+      padding: 3.5rem 0 2.25rem;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 0.3rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    .hero-title {
+      font-size: clamp(1.85rem, 4vw, 2.75rem);
+      font-weight: 900;
+      line-height: 1.25;
+      margin-bottom: 0.85rem;
+      letter-spacing: -0.02em;
+    }
+    .hero-subtitle {
+      max-width: 680px;
+      margin: 0 auto 1.75rem;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+    .quick-name-bar {
+      max-width: 540px;
+      margin: 0 auto;
+      background: rgba(19, 28, 49, 0.9);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      border-radius: 16px;
+      padding: 0.65rem;
+      display: flex;
+      gap: 0.5rem;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    }
+    .quick-name-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 0.75rem;
+      outline: none;
+    }
+    .quick-name-input::placeholder { color: #64748b; }
+    .quick-name-status {
+      margin-top: 0.65rem;
+      font-size: 0.88rem;
+      color: var(--gold);
+      font-weight: 600;
+    }
+    .section-block {
+      padding: 2rem 0;
+    }
+    .section-header {
+      margin-bottom: 1.35rem;
+    }
+    .section-tag {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-top: 0.2rem;
+    }
+    .section-desc {
+      font-size: 0.94rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 1.35rem;
+    }
+    .service-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, 0.55);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.42);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .card-icon {
+      font-size: 2.2rem;
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      background: rgba(56, 189, 248, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-pill {
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.14);
+      color: #cbd5e1;
+    }
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .card-domain {
+      font-size: 0.82rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .card-desc {
+      font-size: 0.93rem;
+      color: #cbd5e1;
+      line-height: 1.65;
+    }
+    .card-highlights {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: rgba(11, 17, 32, 0.55);
+      padding: 0.85rem 1rem;
+      border-radius: 12px;
+    }
+    .card-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      margin-top: auto;
+    }
+    .btn-main {
+      display: block;
+      text-align: center;
+      padding: 0.8rem 1rem;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: opacity 0.15s ease;
+    }
+    .btn-main:hover { opacity: 0.92; }
+    .sub-btns {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .btn-sub {
+      flex: 1;
+      text-align: center;
+      padding: 0.55rem 0.65rem;
+      border-radius: 10px;
+      background: rgba(30, 41, 59, 0.85);
+      border: 1px solid var(--border);
+      color: #e2e8f0;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .btn-sub:hover {
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .creator-card {
+      background: linear-gradient(135deg, rgba(88, 28, 135, 0.32), rgba(19, 28, 49, 0.95));
+      border: 1px solid rgba(192, 132, 252, 0.35);
+    }
+    .creator-card .btn-main {
+      background: linear-gradient(135deg, #7c3aed, #9333ea);
+    }
+    .editorial-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-top: 1rem;
+    }
+    .editorial-box h3 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin: 1.35rem 0 0.5rem;
+    }
+    .editorial-box h3:first-child { margin-top: 0; }
+    .editorial-box p {
+      font-size: 0.94rem;
+      color: #cbd5e1;
+      margin-bottom: 0.75rem;
+    }
+    .site-footer {
+      border-top: 1px solid var(--border);
+      margin-top: 3.5rem;
+      padding: 2.25rem 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .footer-links {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0.75rem 0;
+    }
+    .footer-links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer-links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo">
+        <span>✨</span>
+        <span>TellMyName</span>
+        <span class="brand-badge">OFFICIAL HUB</span>
+      </a>
+      <nav class="header-nav" aria-label="패밀리 사이트 바로가기">
+        <a href="https://myhome.tellmyname.app/">🏠 내 집 찾기</a>
+        <a href="https://food.tellmyname.app/">🍱 오늘 뭐 먹지?</a>
+        <a href="https://job.tellmyname.app/">💼 내 직업 찾기</a>
+        <a href="https://car.tellmyname.app/">🚗 내 자동차 찾기</a>
+        <a href="https://photodiary.tellmyname.app/">📸 포토 다이어리</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero & Global Name Quick Input -->
+    <section class="hero-section">
+      <span class="hero-eyebrow">MULTIVERSE NAME MATCHING & IDEAL WORLD CUP</span>
+      <h1 class="hero-title">이름 하나로 펼쳐지는 다중우주 라이프스타일</h1>
+      <p class="hero-subtitle">
+        아래에 이름을 입력하면 <strong>나에게 어울리는 집 · 오늘 뭐 먹지 5끼 식단 · 직업 · 자동차</strong> 카드가 해당 이름의 전용 결과 링크로 즉시 연동됩니다.
+      </p>
+      <div class="quick-name-bar">
+        <input
+          type="text"
+          id="hub-name-input"
+          class="quick-name-input"
+          placeholder="이름을 입력하세요 (예: 김서윤, 홍길동, Steve...)"
+          maxlength="30"
+          autocomplete="off"
+        />
+      </div>
+      <p id="hub-name-status" class="quick-name-status">💡 이름을 입력하고 아래 서비스 카드를 눌러보세요!</p>
+    </section>
+
+    <!-- Section 1: TellMyName Core Services -->
+    <section class="section-block" aria-label="TellMyName 패밀리 서비스">
+      <div class="section-header">
+        <span class="section-tag">TELLMYNAME FAMILY SERVICES</span>
+        <h2 class="section-title">🌟 이름으로 알아보는 4대 세계관 & 이상형 월드컵</h2>
+        <p class="section-desc">모든 서비스는 회원가입이나 개인정보 저장 없이 이름만으로 즉시 결과를 계산하며, 같은 레벨(Lv.N)의 집·직업·자동차를 상호 비교할 수 있습니다.</p>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Card 1: MyHome -->
+        <article class="service-card">
+          <div class="card-top">
+            <div class="card-icon">🏠</div>
+            <span class="card-pill">1,000단계 · 실존 50% & 허구 50%</span>
+          </div>
+          <div>
+            <h3 class="card-title">나에게 어울리는 집 (MyHome)</h3>
+            <p class="card-domain">myhome.tellmyname.app</p>
+          </div>
+          <p class="card-desc">
+            유황 광산 옆 바위 틈새(Lv.0)와 마그마 반지하부터 아이언맨 절벽 저택, 다이슨 스피어, 다중우주 펜트하우스(Lv.999)까지 1,000종의 기상천외한 집 중 내 이름에 배정된 거처를 감정합니다.
+          </p>
+          <ul class="card-highlights">
+            <li>✔ 짝수 단계는 지구상 실존 건축물, 홀수 단계는 영화·SF 속 공간 교차 배치</li>
+            <li>✔ 건축연도 · 추산 가치 · 특별한 기능 · AI 수석 감정평 제공</li>
+            <li>✔ 같은 레벨(Lv.N)의 직업·자동차 상호 참조 및 16~256강 집 월드컵 지원</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://myhome.tellmyname.app/" id="btn-go-myhome" class="btn-main" data-base="https://myhome.tellmyname.app">🏠 나에게 어울리는 집 찾으러 가기 →</a>
+            <div class="sub-btns">
+              <a href="https://myhome.tellmyname.app/worldcup/worst-to-best" class="btn-sub">💀 나쁜 집 월드컵</a>
+              <a href="https://myhome.tellmyname.app/worldcup/best-to-worst" class="btn-sub">🌟 좋은 집 월드컵</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Food (Mukbang) -->
+        <article class="service-card">
+          <div class="card-top">
+            <div class="card-icon">🍱</div>
+            <span class="card-pill">401선 메뉴 · 하루 5끼 타임존 추천</span>
+          </div>
+          <div>
+            <h3 class="card-title">오늘 뭐 먹지? (Mukbang)</h3>
+            <p class="card-domain">food.tellmyname.app</p>
+          </div>
+          <p class="card-desc">
+            이름의 한글 자모 획수와 오늘 날짜, 접속 타임존의 현재 시간을 결합해 아침·점심·간식·저녁·야식 하루 5끼 맞춤 식단을 짜줍니다. 매일 자정에 새로운 메뉴 조합이 열립니다.
+          </p>
+          <ul class="card-highlights">
+            <li>✔ 초중고 추억의 급식부터 미슐랭 1~3스타, 빕 구르망, 자연식 등 8대 출처 큐레이션</li>
+            <li>✔ 401가지 전 메뉴 일러스트 도감, 예상 열량·가격 및 페어링 팁 수록</li>
+            <li>✔ 끼니별(아침·점심·간식·저녁·야식·최악의 메뉴) 음식 이상형 월드컵</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://food.tellmyname.app/" id="btn-go-food" class="btn-main" data-base="https://food.tellmyname.app">🍱 오늘의 하루 5끼 식단 추천받기 →</a>
+            <div class="sub-btns">
+              <a href="https://food.tellmyname.app/gallery" class="btn-sub">🖼️ 401선 일러스트 도감</a>
+              <a href="https://food.tellmyname.app/worldcup" class="btn-sub">🏆 음식 이상형 월드컵</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Occupation (MyJob) -->
+        <article class="service-card">
+          <div class="card-top">
+            <div class="card-icon">💼</div>
+            <span class="card-pill">1,001단계 · 극한 알바 ~ 신의 직장</span>
+          </div>
+          <div>
+            <h3 class="card-title">나에게 어울리는 직업 (MyJob)</h3>
+            <p class="card-domain">job.tellmyname.app</p>
+          </div>
+          <p class="card-desc">
+            고대 로마 콜로세움 맹수 우리 청소부(Lv.0)부터 은하계 중앙은행 총재와 다중우주 시공간 총감독(Lv.1000)까지, 역사 속 실존 극한 직업과 판타지·SF 속 대박 커리어 1,001종을 매칭합니다.
+          </p>
+          <ul class="card-highlights">
+            <li>✔ 0~499단계 폭망 극한 직업 & 500~1,000단계 초고액 연봉 대박 직업</li>
+            <li>✔ 시대 및 근무지 · 추산 연봉 · 특수 직무 내역 · 커리어 감정평 수록</li>
+            <li>✔ 그나마 출근할 만한 최악 중 최선 / 하기 싫은 최선 중 최악 직업 월드컵</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://job.tellmyname.app/" id="btn-go-job" class="btn-main" data-base="https://job.tellmyname.app">💼 나에게 어울리는 직업 찾으러 가기 →</a>
+            <div class="sub-btns">
+              <a href="https://job.tellmyname.app/worldcup/worst-to-best" class="btn-sub">💀 극한 직업 월드컵</a>
+              <a href="https://job.tellmyname.app/worldcup/best-to-worst" class="btn-sub">🌟 대박 직업 월드컵</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: Car (MyCar) -->
+        <article class="service-card">
+          <div class="card-top">
+            <div class="card-icon">🚗</div>
+            <span class="card-pill">1,001단계 · 석기시대 수레 ~ 항성간 전함</span>
+          </div>
+          <div>
+            <h3 class="card-title">나에게 어울리는 자동차 (MyCar)</h3>
+            <p class="card-domain">car.tellmyname.app</p>
+          </div>
+          <p class="card-desc">
+            기원전 9,000년 네모 바퀴 화강암 손수레(Lv.0)부터 비스포크 하이퍼카, 마법 양탄자, 초광속 워프 크루저(Lv.1000)까지 1,001종의 실존 및 상상 속 탈것을 감정합니다.
+          </p>
+          <ul class="card-highlights">
+            <li>✔ 역사 속 기상천외한 이동수단과 영화·애니메이션 속 모빌리티 총망라</li>
+            <li>✔ 출시 시대 · 추산 가치 · 특수 주행 성능 · 차고 감정원 총평 제공</li>
+            <li>✔ 타고 출근해야 한다면? 폭망 탈것 월드컵 & 드림카 월드컵</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://car.tellmyname.app/" id="btn-go-car" class="btn-main" data-base="https://car.tellmyname.app">🚗 나에게 어울리는 자동차 찾으러 가기 →</a>
+            <div class="sub-btns">
+              <a href="https://car.tellmyname.app/worldcup/worst-to-best" class="btn-sub">💀 폭망 탈것 월드컵</a>
+              <a href="https://car.tellmyname.app/worldcup/best-to-worst" class="btn-sub">🌟 드림카 월드컵</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: Creator's Other Sites (Photodiary) -->
+    <section class="section-block" aria-label="개발자가 만든 다른 사이트">
+      <div class="section-header">
+        <span class="section-tag" style="color: var(--purple);">CREATOR'S OTHER PROJECTS</span>
+        <h2 class="section-title">👨‍💻 개발자가 만든 다른 사이트</h2>
+        <p class="section-desc">TellMyName 시리즈를 만든 개발자가 직접 설계하고 운영하는 일상 기록 웹 서비스입니다.</p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="service-card creator-card">
+          <div class="card-top">
+            <div class="card-icon" style="background: rgba(192, 132, 252, 0.18);">📸</div>
+            <span class="card-pill" style="color: #e9d5ff;">DAILY PHOTO & EMOTION ARCHIVE</span>
+          </div>
+          <div>
+            <h3 class="card-title">포토 다이어리 (Photo Diary)</h3>
+            <p class="card-domain" style="color: var(--purple);">photodiary.tellmyname.app</p>
+          </div>
+          <p class="card-desc">
+            사진 한 장과 짧은 문장으로 오늘 하루의 순간, 여행의 기억, 소소한 감정을 차곡차곡 기록하는 감성 포토 다이어리 웹 서비스입니다. 복잡한 소셜 미디어의 피로감 없이 나만의 일상 장면을 한 장의 폴라로이드 카드처럼 깔끔하게 남기고 돌아볼 수 있습니다.
+          </p>
+          <ul class="card-highlights">
+            <li>✔ 사진과 날짜, 기분, 한 줄 일기를 결합한 직관적인 포토 다이어리 카드</li>
+            <li>✔ 모바일과 데스크톱 어디서나 간편하게 기록하고 이미지로 저장·공유</li>
+            <li>✔ 다국어 인터페이스 지원 및 깔끔한 타임라인 아카이브 뷰</li>
+          </ul>
+          <div class="card-actions">
+            <a href="https://photodiary.tellmyname.app/" class="btn-main">📸 포토 다이어리 바로가기 →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 3: Platform Architecture & Editorial Whitepaper -->
+    <section class="section-block" aria-label="플랫폼 원리 및 해설">
+      <div class="editorial-box">
+        <h3>1. 결정론적 한글 자모 획수 해시 알고리즘과 다중우주 레벨 상호참조</h3>
+        <p>
+          TellMyName 플랫폼의 모든 이름 매칭 서비스는 무작위 난수(Random)가 아니라 한글 정자법 획수 분해와 32비트 FNV-1a 결정론적 해시 알고리즘을 결합해 동작합니다. 같은 이름을 입력하면 언제 어디서 접속하더라도 동일한 레벨(Lv.0 ~ Lv.1000)이 산출되며, 이름 한 글자나 획수 하나만 달라져도 눈사태 효과(Avalanche Effect)로 전혀 다른 등급이 배정됩니다.
+        </p>
+        <p>
+          특히 집(MyHome), 직업(MyJob), 자동차(MyCar) 세 가지 세계관은 동일한 레벨 체계를 공유하면서도 각기 다른 해시 시드(Salt)를 사용해 독립적인 결과를 보여줍니다. 또한 각 결과 화면 하단의 <strong>다중우주 같은 레벨(Lv.N) 상호참조 시스템</strong>을 통해 내가 배정받은 레벨 N이 다른 세계관(직업·자동차·집)에서는 어떤 모습인지 한눈에 비교하고 탐색할 수 있습니다.
+        </p>
+
+        <h3>2. 개인정보 무저장(Zero-Storage) 아키텍처와 14개 언어 글로벌 지원</h3>
+        <p>
+          사용자가 입력하는 모든 이름은 브라우저와 엣지 연산 과정에서만 즉시 해시값으로 변환될 뿐, 어떠한 서버 데이터베이스에도 저장되거나 수집되지 않습니다. 한국어를 비롯해 영어, 일본어, 중국어, 스페인어, 프랑스어, 독일어, 포르투갈어, 이탈리아어, 러시아어, 힌디어, 베트남어, 인도네시아어, 말레이어까지 총 14개 언어를 지원하여 전 세계 어떤 문자의 이름이든 고유한 코드포인트와 획수로 분석할 수 있습니다.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>TellMyName 공식 포털 (tellmyname.app)</strong></p>
+      <div class="footer-links">
+        <a href="https://myhome.tellmyname.app/">나에게 어울리는 집</a> ·
+        <a href="https://food.tellmyname.app/">오늘 뭐 먹지?</a> ·
+        <a href="https://job.tellmyname.app/">나에게 어울리는 직업</a> ·
+        <a href="https://car.tellmyname.app/">나에게 어울리는 자동차</a> ·
+        <a href="https://photodiary.tellmyname.app/">포토 다이어리</a>
+      </div>
+      <div class="footer-links">
+        <a href="/about.html">서비스 소개 (About)</a> ·
+        <a href="/contact.html">문의하기 (Contact)</a> ·
+        <a href="/privacy.html">개인정보처리방침 (Privacy Policy)</a> ·
+        <a href="/terms.html">이용약관 (Terms of Service)</a>
+      </div>
+      <p style="margin-top: 0.5rem;">© 2026 TellMyName (Operated by bsj805 · contact@tellmyname.app). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      const input = document.getElementById('hub-name-input');
+      const status = document.getElementById('hub-name-status');
+      const buttons = [
+        { id: 'btn-go-myhome', defaultText: '🏠 나에게 어울리는 집 찾으러 가기 →', tpl: "🏠 '{name}'님의 어울리는 집 바로 보기 →" },
+        { id: 'btn-go-food', defaultText: '🍱 오늘의 하루 5끼 식단 추천받기 →', tpl: "🍱 '{name}'님의 오늘 5끼 식단 바로 보기 →" },
+        { id: 'btn-go-job', defaultText: '💼 나에게 어울리는 직업 찾으러 가기 →', tpl: "💼 '{name}'님의 어울리는 직업 바로 보기 →" },
+        { id: 'btn-go-car', defaultText: '🚗 나에게 어울리는 자동차 찾으러 가기 →', tpl: "🚗 '{name}'님의 어울리는 자동차 바로 보기 →" }
+      ];
+      if (!input) return;
+      input.addEventListener('input', () => {
+        const name = input.value.trim();
+        buttons.forEach(b => {
+          const el = document.getElementById(b.id);
+          if (!el) return;
+          const base = el.getAttribute('data-base');
+          if (name) {
+            el.href = base + '/name/' + encodeURIComponent(name);
+            el.textContent = b.tpl.replace('{name}', name);
+          } else {
+            el.href = base + '/';
+            el.textContent = b.defaultText;
+          }
+        });
+        if (status) {
+          status.textContent = name
+            ? "✨ '" + name + "' 이름으로 모든 서비스 카드의 바로가기 링크가 준비되었습니다!"
+            : "💡 이름을 입력하고 아래 서비스 카드를 눌러보세요!";
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

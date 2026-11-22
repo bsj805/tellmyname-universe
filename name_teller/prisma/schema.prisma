@@ -1,0 +1,58 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum SourceType {
+  SEED
+  GEMINI_GENERATED
+}
+
+model NameEntry {
+  id                  String             @id @default(uuid())
+  hangulName          String             @unique @map("hangul_name")
+  initialConsonant    String             @map("initial_consonant") // 초성 허브 색인용 (ㄱ~ㅎ)
+  primaryHanja        String             @map("primary_hanja")
+  syllableBreakdown   Json               @map("syllable_breakdown")
+  poeticTitle         String             @map("poetic_title")
+  storyInterpretation String             @db.Text @map("story_interpretation")
+  altHanjaCombos      Json               @map("alt_hanja_combos")
+  vibeTags            String[]           @map("vibe_tags")
+  faqItems            Json               @map("faq_items")
+  sourceType          SourceType         @default(SEED) @map("source_type")
+  qcAuditScore        Int                @default(95) @map("qc_audit_score") // 적대적 리뷰 서브에이전트 점수 (0~100)
+  qcAuditLog          Json?              @map("qc_audit_log")     // 적대적 리뷰 감사 및 자체 교정 로그
+  isIndexable         Boolean            @default(true) @map("is_indexable") // 90점 이상만 Sitemap 및 index 허용
+  searchCount         Int                @default(1) @map("search_count")
+  createdAt           DateTime           @default(now()) @map("created_at")
+  updatedAt           DateTime           @updatedAt @map("updated_at")
+  messages            AnonymousMessage[]
+
+  @@index([hangulName])
+  @@index([initialConsonant])
+  @@index([isIndexable, searchCount(sort: Desc)])
+  @@map("names_dictionary")
+}
+
+model AnonymousMessage {
+  id             String    @id @default(uuid())
+  hangulName     String    @map("hangul_name")
+  recipientHint  String?   @map("recipient_hint")
+  senderNickname String    @map("sender_nickname")
+  stampTheme     String    @default("blossom") @map("stamp_theme")
+  content        String    @db.Text
+  qcSafetyScore  Float     @default(1.0) @map("qc_safety_score") // AdSense 브랜드 세이프티 점수
+  qcSafetyNote   String?   @map("qc_safety_note")
+  likesCount     Int       @default(0) @map("likes_count")
+  createdAt      DateTime  @default(now()) @map("created_at")
+
+  nameEntry      NameEntry @relation(fields: [hangulName], references: [hangulName], onDelete: Cascade)
+
+  @@index([hangulName, createdAt(sort: Desc)])
+  @@map("anonymous_messages")
+}

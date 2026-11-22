@@ -1,0 +1,402 @@
+{
+  "00001": {
+    "name": "Spaghetti al ragù di carne e pomodoro del mercoledì",
+    "tagline": "I mitici spaghetti della mensa con salsa di carne e pomodoro, serviti con pane all'aglio."
+  },
+  "00002": {
+    "name": "Soya: salsicce a polipetto e verdure saltate al ketchup",
+    "tagline": "Wurstel intagliati a forma di polpo saltati con peperoni e cipolle in salsa agrodolce al ketchup."
+  },
+  "00003": {
+    "name": "Cotoletta di maiale nostalgica a forma di Pikachu",
+    "tagline": "Cotoletta di maiale a forma di Pikachu glassata con salsa agrodolce e piccante stile pollo fritto."
+  },
+  "00004": {
+    "name": "Cotoletta gigante di maiale in salsa demi-glace stile mensa",
+    "tagline": "Cotoletta formato gigante croccante fuori e morbida dentro, affogata in vellutata salsa demi-glace."
+  },
+  "00005": {
+    "name": "Spiedino di patata a spirale al formaggio cheddar",
+    "tagline": "Spirale di patata intera fritta su spiedo lungo e spolverata con polvere di formaggio cheddar saporito."
+  },
+  "00006": {
+    "name": "Mattang: patate dolci caramellate croccanti al sesamo nero",
+    "tagline": "Bocconcini di patata dolce fritta con guscio croccante di sciroppo di zucchero e semi di sesamo nero."
+  },
+  "00007": {
+    "name": "Gangjeong di merluzzo essiccato agrodolce e piccante",
+    "tagline": "Bocconcini dorati di merluzzo marinato, fritti e glassati con salsa piccante e miele."
+  },
+  "00008": {
+    "name": "Bibim-mandu: ravioli fritti con insalata di cavolo piccante",
+    "tagline": "Ravioli a mezzaluna ripieni di vermicelli serviti con rinfrescante insalata di cavolo e salsa agrodolce."
+  },
+  "00009": {
+    "name": "Zuppa udon con spiedino di eomuk e fagottini di riso inari",
+    "tagline": "Brodo caldo con spiedino di tortino di pesce e tasche di tofu fritto ripiene di riso aromatizzato."
+  },
+  "00010": {
+    "name": "Insalata cremosa di maccheroni e mais dolce alla maionese",
+    "tagline": "Maccheroncini, chicchi di mais dolce croccante e dadini di prosciutto in una ricca salsa maionese."
+  },
+  "00011": {
+    "name": "Filetti di calamaro e pesce essiccato saltati al gochujang",
+    "tagline": "Striscioline di pesce e calamaro essiccato saltate in padella con peperoncino gochujang e miele."
+  },
+  "00012": {
+    "name": "Salsiccia rosa vintage dorata in pastella d'uovo",
+    "tagline": "Fette spesse di classica salsiccia rosa passate nell'uovo sbattuto e dorate in padella."
+  },
+  "00013": {
+    "name": "Tteokgalbi artigianale grigliato in salsa teriyaki",
+    "tagline": "Polpetta di carne macinata marinata alla soia con striature della griglia, morbida e succosa."
+  },
+  "00014": {
+    "name": "Bibimbap al burro con uova brasate alla soia e alghe gim",
+    "tagline": "Riso caldo mantecato al burro con uova marinate in salsa di soia e striscioline sottili di alga tostate."
+  },
+  "00015": {
+    "name": "Tteokbokki di riso con rotolini di alga fritti gim-mari",
+    "tagline": "Gnocchi di riso morbidi in salsa densa piccante serviti con croccanti involtini di alga ripieni di vermicelli."
+  },
+  "00016": {
+    "name": "Coppia di yogurt da bere ghiacciati e latte alla banana",
+    "tagline": "La classica merenda della ricreazione con due bottigliette di yogurt rinfrescante e latte alla banana."
+  },
+  "00017": {
+    "name": "Tornado hot dog con zucchero, ketchup e salsa di senape",
+    "tagline": "Hot dog a spirale fritto e croccante, rotolato nello zucchero e condito con ketchup e senape al miele."
+  },
+  "00018": {
+    "name": "Riso con salsa jjajang di fagioli neri, ravioli e daikon",
+    "tagline": "Riso condito con saporita salsa scura jjajang di maiale e patate, con ravioli mandu fritti e ravanello giallo."
+  },
+  "00019": {
+    "name": "Zuppa di alghe ai semi di perilla con anatra affumicata ed erba cipollina",
+    "tagline": "Vellutato brodo di alghe con farina di perilla accompagnato da anatra arrosto affumicata ed erba cipollina."
+  },
+  "00020": {
+    "name": "Panino al latte con insalata cremosa di frutta e panna",
+    "tagline": "Panino morbido farcito generosamente con macedonia di frutta sciroppata, mele e crema dolce alla maionese."
+  },
+  "00021": {
+    "name": "[Michelin 3★] Tartare di manzo Hanwoo e riccio di mare su cialda bugak",
+    "tagline": "Tartare di pregiato manzo Hanwoo 1++ con cremoso riccio di mare Hokkaido su cialda croccante di alga."
+  },
+  "00022": {
+    "name": "[Michelin 3★] Risotto al fegato di abalone di Wando e tartufo nero",
+    "tagline": "Abalone al vapore con risotto mantecato al fegato di mollusco ed eleganti lamelle di tartufo nero fresco."
+  },
+  "00023": {
+    "name": "[Michelin 3★] Mousse soffice di patate con caviale Oscietra reale",
+    "tagline": "Mousse vellutata di patate affumicate sormontata da una ricca quenelle di caviale Oscietra reale."
+  },
+  "00024": {
+    "name": "[Michelin 3★] Insalata fredda di granchio reale in salsa ai pinoli",
+    "tagline": "Polpa dolce di granchio reale del mare orientale accompagnata da un'emulsione ai pinoli freschi."
+  },
+  "00025": {
+    "name": "[Michelin 3★] Filetto di manzo Hanwoo alla Wellington con jus al tartufo",
+    "tagline": "Filetto avvolto in pasta sfoglia dorata con duxelles di funghi e servito con salsa jus al tartufo del Périgord."
+  },
+  "00026": {
+    "name": "[Michelin 3★] Onban in consommé di Hanwoo con funghi matsutake selvatici",
+    "tagline": "Pregiati funghi matsutake profumati in un limpido consommé di manzo Hanwoo su letto di riso caldo."
+  },
+  "00027": {
+    "name": "[Michelin 3★] Galletto di Bresse arrosto con crema di spugnole",
+    "tagline": "Tenero pollo francese di Bresse cotto a puntino con ricca salsa vellutata ai funghi spugnole."
+  },
+  "00028": {
+    "name": "[Michelin 3★] Sorbetto allo champagne Dom Pérignon e pesca bianca con foglia d'oro",
+    "tagline": "Elegante sorbetto allo champagne Dom Pérignon con pesche bianche dolci e finissima foglia d'oro 24 carati."
+  },
+  "00029": {
+    "name": "[Michelin 3★] Astice blu in camicia con emulsione di bisque allo zafferano",
+    "tagline": "Polpa delicata di astice blu cotta dolcemente in camicia, servita con vellutata bisque allo zafferano."
+  },
+  "00030": {
+    "name": "[Michelin 3★] Tajarin fatti a mano al burro fuso e tartufo bianco pregiato",
+    "tagline": "Tagliolini freschi all'uovo mantecati nel burro chiarificato con una generosa pioggia di tartufo bianco d'Alba."
+  },
+  "00031": {
+    "name": "[Michelin 2★] Pesce rosso alla brace di carbone con riso in pentola ed erbe",
+    "tagline": "Pesce orata bruna cotto su carbone dolce con riso al calderone ed erbe selvatiche di stagione."
+  },
+  "00032": {
+    "name": "[Michelin 2★] Lombata di manzo Hanwoo affumicata alla paglia con aglio nero",
+    "tagline": "Pregiata lombata Hanwoo 1++ affumicata con paglia di riso e servita con aglio nero invecchiato."
+  },
+  "00033": {
+    "name": "[Michelin 2★] Pesce tegola di Jeju dalle scaglie croccanti con zuppa di riccio",
+    "tagline": "Pesce tegola con scaglie arricciate e croccanti servito insieme a un brodo ricco di ricci di mare e alghe."
+  },
+  "00034": {
+    "name": "[Michelin 2★] Capesante di Hokkaido scottate con vellutata di cavolfiore",
+    "tagline": "Capesante dorate al burro nocciola servite su una setosa crema di cavolfiore e nocciole tostate."
+  },
+  "00035": {
+    "name": "[Michelin 2★] Tagliolini di soba e alga gamtae con riccio e gamberi dolci",
+    "tagline": "Soba fredda all'alga aromatica gamtae arricchita con gamberetti dolci crudi e cremoso riccio di mare."
+  },
+  "00036": {
+    "name": "[Michelin 2★] Terrina di foie gras d'anatra con brioche tostata e fichi",
+    "tagline": "Foie gras d'anatra vellutato accompagnato da fette di brioche fragrante e composta dolce di fichi al vino."
+  },
+  "00037": {
+    "name": "[Michelin 2★] Gelato all'artemisia con juak di Gaeseong appena fritto",
+    "tagline": "Bocconcino tradizionale glassato al miele servito su un vassoietto con gelato all'artemisia isolana."
+  },
+  "00038": {
+    "name": "[Michelin 1★] Capellini all'olio di perilla con tartare di manzo e riccio",
+    "tagline": "Capellini freschi conditi con olio di perilla di frantoio e salsa di soia bianca, con tartare e riccio di mare."
+  },
+  "00039": {
+    "name": "[Michelin 1★] Confit d'anatra croccante con riduzione all'arancia",
+    "tagline": "Coscia d'anatra tenera e succosa dalla pelle croccantissima, servita con salsa agrodolce all'arancia."
+  },
+  "00040": {
+    "name": "[Michelin 1★] Zuppa di cipolle francese con crosta di formaggio groviera",
+    "tagline": "Cipolle dolci stufate a fuoco lento in ricco brodo di manzo, gratinate al forno con formaggio gruyère fuso."
+  },
+  "00041": {
+    "name": "[Michelin 1★] Asparagi bianchi alla piastra con uovo in camicia e olandese",
+    "tagline": "Punte di asparagi bianchi dorati alla griglia con uovo morbido in camicia ed emulsione al tartufo."
+  },
+  "00042": {
+    "name": "[Michelin 1★] Tteokgalbi di manzo Hanwoo al tartufo e porri alla brace",
+    "tagline": "Polpetta saporita di costine di manzo battute al coltello con crema vellutata di porri arrosto e tartufo."
+  },
+  "00043": {
+    "name": "[Michelin 1★] Nigiri omakase con ventresca di tonno otoro e akami",
+    "tagline": "Riso all'aceto rosso modellato a mano con pregiata ventresca di tonno rosso frollata e tenero filetto magro."
+  },
+  "00044": {
+    "name": "[Michelin 1★] Paris-Brest al pistacchio con bignè all'espresso",
+    "tagline": "Corona di pasta choux con scaglie di mandorle farcita con crema morbida al pistacchio di Sicilia."
+  },
+  "00045": {
+    "name": "[Bib Gourmand] Naengmyeon di Pyongyang con tagliolini di soba pura al 100%",
+    "tagline": "Noodles artigianali di solo grano saraceno serviti in un delicato e rinfrescante brodo freddo di manzo."
+  },
+  "00046": {
+    "name": "[Bib Gourmand] Zuppa limpida di maiale Berkshire K stile Okdongsik",
+    "tagline": "Brodo cristallino e profondo con sottili fette di maiale nero e riso caldo serviti in ciotola di bronzo."
+  },
+  "00047": {
+    "name": "[Bib Gourmand] Tagliolini kalguksu stile Myeongdong e grandi mandu al vapore",
+    "tagline": "Pasta fresca in brodo denso di pollo con macinato saltato all'aroma di brace e grandi ravioli ripieni."
+  },
+  "00048": {
+    "name": "[Bib Gourmand] Vassoi di soba fredda di Gwanghwamun con crespella di grano saraceno",
+    "tagline": "Due porzioni di soba fredda da intingere nel brodo tsuyu con ravanello bianco e crespella arrotolata."
+  },
+  "00049": {
+    "name": "[Bib Gourmand] Seolleongtang tradizionale centenario di Seosomun",
+    "tagline": "Brodo vellutato di ossa di manzo fatto sobbollire tutta la notte, servito con riso, spaghettini e petto morbido."
+  },
+  "00050": {
+    "name": "[Bib Gourmand] Granchio femmina marinato alla salsa di soia della costa occidentale",
+    "tagline": "Crostaceo colmo di uova e polpa fresca marinato a lungo nella speciale soia aromatizzata della casa."
+  },
+  "00051": {
+    "name": "[Bib Gourmand] Tagliolini taiwanesi in brodo di manzo con melanzane yuxiang",
+    "tagline": "Brodo ricco aromatizzato all'anice stellato con morbido muscolo di manzo e melanzane agrodolci croccanti."
+  },
+  "00052": {
+    "name": "[Bib Gourmand] Makguksu freddo all'olio di perilla e maiale bollito bossam",
+    "tagline": "Spaghetti di grano saraceno conditi con olio di perilla fragrante e fettine tenere di maiale speziato."
+  },
+  "00053": {
+    "name": "[Bib Gourmand] Stufato cheonggukjang con bibimbap di calamari piccanti di Jongno",
+    "tagline": "Rustico stufato di soia fermentata con calamari saltati al profumo di wok e verdure da mescolare al riso."
+  },
+  "00054": {
+    "name": "[Bib Gourmand] Zampetto di maiale nero di Jeju con vassoio di makguksu",
+    "tagline": "Zampetto di maiale cotto a vapore con pelle elastica e saporita, abbinato a tagliolini freddi agrodolci."
+  },
+  "00055": {
+    "name": "Carota biologica fresca intera di Gujwa dell'isola di Jeju",
+    "tagline": "Carota biologica appena raccolta, dolce e croccante da sgranocchiare al naturale per un pieno di energia."
+  },
+  "00056": {
+    "name": "Pomodoro ramato maturo a fette con spolverata di zucchero",
+    "tagline": "Pomodoro succoso tagliato a fette e cosparso di zucchero, con il dolce succo finale da bere fino all'ultima goccia."
+  },
+  "00057": {
+    "name": "Bicchiere di pomodori datterini freschi e sodi da asporto",
+    "tagline": "Pomodorini datterini dolci e dissetanti da sgranocchiare per uno spuntino leggero e rinfrescante."
+  },
+  "00058": {
+    "name": "Cetriolo fresco intero da escursione con pasta ssamjang",
+    "tagline": "Cetriolo freschissimo e idratante da mordere e intingere nella saporita pasta coreana di soia e peperoncino."
+  },
+  "00059": {
+    "name": "Grappolo di uva Shine Muscat gigante premium di Gimcheon",
+    "tagline": "Acini giganti zuccherini con buccia croccante e aromatica nota di mango, ad altissimo grado brix."
+  },
+  "00060": {
+    "name": "Mela croccante al miele di Cheongsong da gustare con la buccia",
+    "tagline": "Mela fuji zuccherina e succosa con striature ambrate di miele naturale, perfetta da mangiare con la buccia."
+  },
+  "00061": {
+    "name": "Patata dolce di Haenam al vapore con kimchi di ravanello chonggak",
+    "tagline": "Dolce patata arancione cotta al vapore, irresistibile abbinata al gusto piccante e croccante del kimchi chonggak."
+  },
+  "00062": {
+    "name": "Yogurt greco colato artigianale con mirtilli e favo di miele grezzo",
+    "tagline": "Cremoso yogurt greco dalla consistenza densa sormontato da mirtilli brinati e un pezzo di favo di miele dorato."
+  },
+  "00063": {
+    "name": "Coppia di uova sode marinate con cuore morbido e caffè americano",
+    "tagline": "Due uova con tuorlo morbido e albume saporito già salato, abbinate a un rinfrescante caffè americano."
+  },
+  "00064": {
+    "name": "Involtini di cavolo verza al vapore con denso stufato gang-doenjang",
+    "tagline": "Foglie tenere di cavolo cotto al vapore ripiene di riso e condite con saporito stufato di soia e lumache."
+  },
+  "00065": {
+    "name": "Piatto di pesche tabacchiere piatte e nettarine dolci",
+    "tagline": "Fette profumate di pesche noci e pesche piatte dolcissime, ricche di succo fresco e vellutato."
+  },
+  "00066": {
+    "name": "Cinque mandarini freschi dolci dell'isola di Jeju",
+    "tagline": "Mandarini agrodolci e succosi da sbucciare con le mani mentre ci si rilassa al tepore di casa."
+  },
+  "00067": {
+    "name": "Bastoncini di peperoni tricolore crudi con hummus al limone e aglio",
+    "tagline": "Bastoncini croccanti di peperone giallo, rosso e arancione serviti con un'emulsione cremosa di ceci e limone."
+  },
+  "00068": {
+    "name": "Tangsuyuk di maiale fritto croccante con salsa menta e cioccolato",
+    "tagline": "Bocconcini fritti di maiale in pastella di riso glutinoso conditi con un'insolita salsa dolce a base di cioccolato e menta."
+  },
+  "00069": {
+    "name": "Bungeoppang Dubai al pistacchio, pasta kataifi croccante e cioccolato",
+    "tagline": "Waffle a pesce ripieno di finissima pasta kataifi tostata, crema pura di pistacchio e copertura di cioccolato fondente."
+  },
+  "00070": {
+    "name": "Jjajangmyeon al nero di seppia con calamaro intero dorato e croccante",
+    "tagline": "Spaghetti con cremosa salsa nera di fagioli e nero di seppia, sovrastati da un maestoso calamaro intero fritto."
+  },
+  "00071": {
+    "name": "Tteokbokki rosato al mala con spaghettoni bunmoja e cascata di mozzarella",
+    "tagline": "Gnocchi di riso e noodles morbidi in cremosa salsa rosé al pepe mala piccante con un fiume di formaggio fuso."
+  },
+  "00072": {
+    "name": "Bingsu all'uovo di dinosauro al cioccolato da rompere con martelletto",
+    "tagline": "Guscio gigante di cioccolato da spaccare a martellate per scoprire un soffice letto di neve al latte e caramelle."
+  },
+  "00073": {
+    "name": "Zuppa pho di manzo ricoperta da una collina di coriandolo fresco",
+    "tagline": "Delizioso brodo di manzo a cottura lenta con spaghettini di riso e una generosissima porzione di coriandolo fresco."
+  },
+  "00074": {
+    "name": "Sushi di yukhoe lungo 55 cm con foglia d'oro alimentare 24 carati",
+    "tagline": "Uno spettacolare asse di legno da 55 cm con tartare di manzo Hanwoo su riso da sushi e finissima foglia d'oro."
+  },
+  "00075": {
+    "name": "Gelato soft al wasabi fresco piccante con chips di patate salate",
+    "tagline": "Gelato cremoso al latte con una decisa e sorprendente nota piccante di radice di wasabi e patatine croccanti."
+  },
+  "00076": {
+    "name": "Pizza deep dish Chicago con ripieno di costine di maiale al kimchi",
+    "tagline": "Spessa torta salata ripiena di succulente costine di maiale cotte a puntino nel kimchi maturo e formaggio filante."
+  },
+  "00077": {
+    "name": "Bingsu estivo in guscio di melone cantalupo intero e latte condensato",
+    "tagline": "Melone dolce scavato e farcito con sofficissimo ghiaccio al latte, palline di frutta fresca e gelato alla vaniglia."
+  },
+  "00078": {
+    "name": "Sundaeguk: stufato bollente di sanguinaccio con polvere di perilla",
+    "tagline": "Zuppa fumante in ciotola di terracotta con salsiccia di riso e sangue sundae, interiora morbide e semi di perilla."
+  },
+  "00079": {
+    "name": "Ppyeohaejangguk: stufato di costine di maiale alle foglie di senape",
+    "tagline": "Brodo piccante rigenerante con tenere costine di maiale che si staccano dall'osso e verdure stufate."
+  },
+  "00080": {
+    "name": "Kimchi jjigae di maiale rustico con frittata arrotolata al ketchup",
+    "tagline": "Piccante stufato di maiale e cavolo fermentato servito con una soffice e spessa frittata arrotolata coreana."
+  },
+  "00081": {
+    "name": "Doenjang jjigae di petto di manzo e bibimbap d'orzo con ravanelli",
+    "tagline": "Saporito stufato alla pasta di soia con carne morbida, servito con orzo perlato, foglie di ravanello e sesamo."
+  },
+  "00082": {
+    "name": "Jeyuk-bokkeum: maiale piccante saltato alla fiamma viva con lattuga",
+    "tagline": "Carne di maiale affettata sottile e saltata al wok con salsa dolce piccante, da avvolgere in croccanti foglie di lattuga."
+  },
+  "00083": {
+    "name": "Pancetta frollata su coperchio di calderone con crescione d'acqua",
+    "tagline": "Fette spesse di pancetta dorate su ghisa rovente con kimchi saltato, germogli di soia e crescione acquatico."
+  },
+  "00084": {
+    "name": "Riso caldo al burro e salsa di soia con fette di Spam e uova al tegamino",
+    "tagline": "Riso bollente con fiocchetto di burro sciolto, saporito prosciutto cotto Spam dorato e due uova con tuorlo liquido."
+  },
+  "00085": {
+    "name": "Zuppa di germogli di soia stile Jeonju con dadini di calamaro e uovo",
+    "tagline": "Brodo rinfrescante con germogli di soia e pezzetti di calamaro, servito con un delicato uovo in camicia separato."
+  },
+  "00086": {
+    "name": "Pollo fritto croccante dorato e glassato piccante mezza porzione e mezza",
+    "tagline": "L'intramontabile combinazione coreana con metà pollo dorato e friabile e metà tuffato nella salsa rossa agrodolce."
+  },
+  "00087": {
+    "name": "Misto di interiora e trippa di manzo Hanwoo alla piastra con erba cipollina",
+    "tagline": "Frattaglie e intestino di manzo Hanwoo rosolati su piastra di pietra bollente con porri, cipollotto e patate."
+  },
+  "00088": {
+    "name": "Nigiri di salmone fresco frollato 10 pezzi con ciotolina di udon",
+    "tagline": "Dieci fette spesse di salmone norvegese setoso e fiammeggiato su riso da sushi, con zuppa di spaghettoni udon."
+  },
+  "00089": {
+    "name": "Cotoletta di maiale fritta con cuore di mozzarella filante Yeondon",
+    "tagline": "Spessa cotoletta avvolta da briciole di panko croccanti e ripiena fino all'orlo di mozzarella filante fusa."
+  },
+  "00090": {
+    "name": "Combo di noodles Buldak e Chapagetti con onigiri al tonno e maionese",
+    "tagline": "Fusione piccante di spaghetti istantanei al peperoncino e salsa nera con triangolo di riso ripieno di tonno."
+  },
+  "00091": {
+    "name": "Due panini morbidi al burro e fiocchi di sale con caffellatte freddo",
+    "tagline": "Panini dorati dal fondo fragrante al burro e chicchi di sale perlato, accompagnati da latte freddo con caffè."
+  },
+  "00092": {
+    "name": "Bungeoppang invernali assortiti sei pezzi con fagioli azuki e crema",
+    "tagline": "Waffle tradizionali caldi a forma di pesce, farciti con confettura dolce di fagioli rossi o densa crema pasticcera."
+  },
+  "00093": {
+    "name": "Uova alla Benedict su muffin inglese con salsa olandese e avocado",
+    "tagline": "Uova in camicia su pane tostato inglese con salmone affumicato, insalata fresca di avocado e salsa olandese al burro."
+  },
+  "00094": {
+    "name": "Hakata ramen in brodo denso di tonkotsu con chashu e uovo marinato",
+    "tagline": "Lenta cottura di brodo di maiale bianco e vellutato con fette rosolate di maiale chashu e uovo marinato ajitama."
+  },
+  "00095": {
+    "name": "Bingsu al latte fiocco di neve con gnocchetti injeolmi e fagioli dolci",
+    "tagline": "Ghiaccio finissimo di solo latte sormontato da cubetti gommosi di riso alla farina di soia tostata e pasta di azuki."
+  },
+  "00096": {
+    "name": "Il cheeseburger classico ordinato da Tony Stark dopo la prigionia",
+    "tagline": "Il primo cibo desiderato da Tony Stark di ritorno dal rapimento: un succulento doppio cheeseburger classico."
+  },
+  "00097": {
+    "name": "Ravioli mandu fritti dorati mangiati per 15 anni in Oldboy",
+    "tagline": "I celebri ravioli croccanti cinesi serviti attraverso lo spioncino della cella di Oh Dae-su per quindici lunghi anni."
+  },
+  "00098": {
+    "name": "Ram-don Chapaguri di Parasite con dadini di controfiletto di manzo Hanwoo",
+    "tagline": "Il celebre piatto preparato in otto minuti con spaghetti saltati e pregiata carne di manzo Hanwoo tagliata spessa."
+  },
+  "00099": {
+    "name": "Pollo fritto di Suwon di Extreme Job in salsa agrodolce di costine reali",
+    "tagline": "\"Non c'è mai stato un sapore simile prima\": il famoso pollo fritto glassato nella salsa di costine reali di Suwon."
+  },
+  "00100": {
+    "name": "Filetto di manzo al camino ordinato dal Goblin per la sua sposa in Québec",
+    "tagline": "La tenera bistecca ordinata a Quebec City dal Goblin per Eun-tak mentre fuori pioveva dolcemente."
+  }
+}

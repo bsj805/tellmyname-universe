@@ -1,0 +1,406 @@
+{
+ "00301": {
+  "name": "Lisbon Belém Pastel de Nata Portuguese Egg Tarts (2pcs)",
+  "tagline": "Caramelized flaky puff pastry tarts filled with warm egg custard and dusted with cinnamon."
+ },
+ "00302": {
+  "name": "Sizzling Thick Pork Belly on Iron Lid with Aged Kimchi",
+  "tagline": "Thick pork belly seared on a cast-iron cauldron lid with sizzling fermented kimchi and garlic."
+ },
+ "00303": {
+  "name": "Hanwoo 1++ Marbled Ribeye Grilled over Hardwood Charcoal",
+  "tagline": "Pinnacle of Korean beef marbled with snowy fat, kissed by oak charcoal flame and sea salt."
+ },
+ "00304": {
+  "name": "Tender Sweet Soy Marinated Grilled Pork Ribs (Dwaeji Galbi)",
+  "tagline": "Succulent pork ribs tenderized in sweet pear and soy marinade, caramelized over live coals."
+ },
+ "00305": {
+  "name": "Sizzling Beef Gopchang, Daechang & Makchang Intestines Combo",
+  "tagline": "A sizzling skillet loaded with rich beef intestines, garlic chives, potatoes, and savory dipping sauce."
+ },
+ "00306": {
+  "name": "Spicy Pork & Tofu Kimchi Stew (Kimchi Jjigae) in Clay Pot",
+  "tagline": "Korea's ultimate comfort stew packed with aged kimchi, thick chunks of pork shoulder, and soft tofu."
+ },
+ "00307": {
+  "name": "Rustic River Snail Soybean Paste Stew (Doenjang Jjigae)",
+  "tagline": "Deep, savory fermented bean stew simmered with chewy freshwater snails, zucchini, and tofu."
+ },
+ "00308": {
+  "name": "Spicy Beef Brisket Jjagae Stew with Potatoes & Zucchini",
+  "tagline": "Rich, thick stew loaded with fatty beef brisket, mashed potatoes, and sweet onions spooned over rice."
+ },
+ "00309": {
+  "name": "Rich Pork Backbone Stew (Gamjatang) with Radish Greens",
+  "tagline": "Fall-apart tender pork neck bones simmered in nutty perilla broth with tender dried radish greens."
+ },
+ "00310": {
+  "name": "Clear Ox Knee Cartilage Soup (Doganitang) with Tendons",
+  "tagline": "Nourishing clear collagen-rich ox cartilage and tendon soup served with peppery radish kimchi."
+ },
+ "00311": {
+  "name": "Steamed Whole Fresh Squid with Rich Squid Ink & Viscera",
+  "tagline": "Freshly caught whole East Sea squid steamed intact with creamy, savory dark viscera inside."
+ },
+ "00312": {
+  "name": "Busan Nakgop Sae Spicy Octopus, Intestine & Shrimp Stew",
+  "tagline": "A fiery Busan hot pot combining tender baby octopus, fatty beef intestines, and sweet shrimp."
+ },
+ "00313": {
+  "name": "Giant Seafood Clam Hot Pot with Scallops & Mussels",
+  "tagline": "A mountain of fresh clams, scallops, and mussels steaming in crystal-clear briny green-chili broth."
+ },
+ "00314": {
+  "name": "Spicy Pork Ribs Braised with Sweet Aged Kimchi",
+  "tagline": "Tender pork spare ribs wrapped in whole leaves of deeply sour aged kimchi and slow-braised."
+ },
+ "00315": {
+  "name": "Whole Braised Daegu Codfish Head Stew with Spicy Radish",
+  "tagline": "Chewy, collagen-rich cod head stew simmered in fiery red pepper sauce with sweet radish."
+ },
+ "00316": {
+  "name": "Jeju Braised Black Pork Spare Ribs with Soft Abalone",
+  "tagline": "Succulent Jeju black pork ribs and tender whole abalones braised together in sweet garlic soy glaze."
+ },
+ "00317": {
+  "name": "Yeongam Braised Octopus & Galbi Stew (Galnak-tang)",
+  "tagline": "The legendary stamina soup combining prime tender beef short ribs and whole live tidal octopus."
+ },
+ "00318": {
+  "name": "Charcoal-Grilled Eel with Sweet Soy Tare & Pickled Ginger",
+  "tagline": "Freshwater eel charcoal-grilled to golden perfection and glazed in rich sweet soy sauce."
+ },
+ "00319": {
+  "name": "Pohang Icy Water Mulhoe Chilled Raw Fish Soup with Rice",
+  "tagline": "Sliced fresh white fish and seasonal vegetables served in slushy sweet-and-sour red chili broth."
+ },
+ "00320": {
+  "name": "Yeosu Chilled Pike Eel Raw Fish Wrap (Hamo Yubiki)",
+  "tagline": "Delicate sea eel quickly blanched until blooming like a white blossom, dipped in onion soy sauce."
+ },
+ "00321": {
+  "name": "Yeonggwang Dried Yellow Croaker (Gulbi) with Green Tea Rice",
+  "tagline": "Chewy sea-breeze dried croaker fish enjoyed by dipping in cold green tea water over steamed rice."
+ },
+ "00322": {
+  "name": "Wando Butter-Grilled Fresh Abalone (5pcs) with Garlic",
+  "tagline": "Fresh abalones scored in diamonds and sizzling in fragrant melted butter with roasted garlic."
+ },
+ "00323": {
+  "name": "Chilled Sea Squirt & Wild Herb Bibimbap with Sesame Oil",
+  "tagline": "Aromatic ocean-fresh sea squirt tossed with wild greens, seaweed, and toasted sesame oil over warm rice."
+ },
+ "00324": {
+  "name": "Grilled Sea Eel (Anago) Glazed in Spicy Red Chili Sauce",
+  "tagline": "Nutritious sea eel fillets broiled over charcoal with sweet and spicy gochujang sauce."
+ },
+ "00325": {
+  "name": "Tongyeong Live Rock Octopus Stir-Fry with Spicy Chives",
+  "tagline": "Plump live octopus quickly wok-fried over roaring flame with garlic chives and spicy chili oil."
+ },
+ "00326": {
+  "name": "Daegu Fresh Raw Beef Mungtigi with Coarse Garlic Chili Paste",
+  "tagline": "Firm, ruby-red same-day raw beef slices dipped in coarse garlic, chili flakes, and toasted sesame oil."
+ },
+ "00327": {
+  "name": "Arrowroot Mul-Naengmyeon Cold Noodles with Charcoal Beef",
+  "tagline": "Chewy dark arrowroot buckwheat noodles in icy beef broth paired with smoky barbecue meat."
+ },
+ "00328": {
+  "name": "Incheon Sinpo Market Chewy Spicy Jjolmyeon with Sprouts",
+  "tagline": "Ultra-chewy thick wheat noodles tossed with spicy sweet chili dressing, crunchy sprouts, and cabbage."
+ },
+ "00329": {
+  "name": "Ox Bone Broth Tteok-Manduguk with Rice Cakes & Dumplings",
+  "tagline": "Milky ox bone soup loaded with tender oval rice cakes, giant meat dumplings, and egg ribbons."
+ },
+ "00330": {
+  "name": "Daebudo Clam Kalguksu Knife-Cut Noodles in Briny Broth",
+  "tagline": "Plump fresh clams boiled in comforting, clean broth with thick handmade knife-cut noodles."
+ },
+ "00331": {
+  "name": "Creamy Perilla Seed Dough Flake Soup (Deulkkae Sujebi)",
+  "tagline": "Nutty, creamy roasted perilla seed broth filled with hand-torn chewy dough flakes and shiitake."
+ },
+ "00332": {
+  "name": "Gangneung Spicy Red Pepper Jang-Kalguksu Noodle Soup",
+  "tagline": "Rustic hand-cut noodles cooked in a spicy, comforting soybean and chili paste broth with zucchini."
+ },
+ "00333": {
+  "name": "Chilled Spicy Kimchi Bibim Guksu Thin Noodles with Sesame Oil",
+  "tagline": "Thin wheat noodles tossed with finely chopped ripe kimchi, sweet chili sauce, and roasted sesame."
+ },
+ "00334": {
+  "name": "Busan Ssiat Hotteok Sweet Fried Pancake with Seeds",
+  "tagline": "Crispy fried yeast pancake slit open and stuffed with toasted sunflower seeds, pumpkin seeds, and brown sugar."
+ },
+ "00335": {
+  "name": "Gangwon-do 100% Grated Potato Pancake (Gamjajeon)",
+  "tagline": "Pure grated fresh potato pan-fried with crispy lacy borders and a chewy, naturally savory center."
+ },
+ "00336": {
+  "name": "Crispy Fried Street Snack Fritters (Gimmari, Squid & Yam)",
+  "tagline": "Assortment of golden street food tempura including seaweed noodle rolls, squid, and sweet potato."
+ },
+ "00337": {
+  "name": "Charcoal-Grilled Rice Cakes with Honey & Toasted Soy Powder",
+  "tagline": "Crispy puffed rice cake sticks grilled over embers and dipped in raw honey and roasted bean powder."
+ },
+ "00338": {
+  "name": "Half Mozzarella Half Sausage Corn Dog Rolled in Sugar",
+  "tagline": "Crunchy street corn dog filled with stretchy melted cheese and juicy sausage, rolled in sugar."
+ },
+ "00339": {
+  "name": "Summer Chilled Black Soybean Noodle Soup (Kongguksu)",
+  "tagline": "Stone-ground chilled black soybean milk served over chewy noodles with cucumber slices and ice."
+ },
+ "00340": {
+  "name": "Gwangjang Market Mini Mayak Kimbap (5 Rolls) with Mustard",
+  "tagline": "Bite-sized seaweed rice rolls with carrot and radish dipped into addictive pungent yellow mustard."
+ },
+ "00341": {
+  "name": "Ilsan Style Half-Chicken Kalguksu with Rich Garlic Broth",
+  "tagline": "A tender half-chicken served atop handmade knife-cut noodles in fragrant scallion and clam broth."
+ },
+ "00342": {
+  "name": "Jeonju Brass Bowl Hanwoo Beef Tartare Bibimbap Set",
+  "tagline": "Fresh seasoned raw Hanwoo beef over warm rice with five-color mountain vegetables in a brass bowl."
+ },
+ "00343": {
+  "name": "Sizzling Stone Pot Albap with Flying Fish Roe & Radish",
+  "tagline": "Crispy scorched rice topped with popping flying fish roe, pickled radish, and fragrant sesame oil."
+ },
+ "00344": {
+  "name": "Clay Pot Sweet Soy Beef Stew (Ttukbaegi Bulgogi)",
+  "tagline": "Thinly shaved tender beef marinated in sweet soy broth with glass noodles and enoki mushrooms."
+ },
+ "00345": {
+  "name": "Gangneung Spicy Cockle Clam Bibimbap with Water Parsley",
+  "tagline": "Tender cockle clams seasoned with spicy chili dressing and water parsley tossed with warm rice."
+ },
+ "00346": {
+  "name": "Cast-Iron Abalone & Hijiki Seaweed Pot Rice with Chives",
+  "tagline": "Fresh whole abalones and mineral-rich hijiki seaweed cooked in cast iron with wild chive sauce."
+ },
+ "00347": {
+  "name": "Jeongseon Gondre Wild Thistle Rice with Rustic Ssamjang",
+  "tagline": "Fragrant dried mountain thistle leaves steamed with rice and stirred with rich rustic soybean paste."
+ },
+ "00348": {
+  "name": "24-Hour Ox Bone Seolleongtang Soup with Beef & Somen",
+  "tagline": "Milky, rich ox bone broth simmered for 24 hours loaded with tender brisket slices and somen noodles."
+ },
+ "00349": {
+  "name": "Naju Style Clear Hanwoo Beef Gomtang with Egg Garnish",
+  "tagline": "Clear, elegant Hanwoo beef shank consommé served with tender brisket slices and shredded yellow egg."
+ },
+ "00350": {
+  "name": "Jeonju Nambu Market Style Bean Sprout Hangover Soup",
+  "tagline": "Comforting warm bean sprout broth served with diced squid, chopped chili, and side soft-poached eggs."
+ },
+ "00351": {
+  "name": "Busan Dwaeji Gukbap Rich Pork Soup Loaded with Pork Slices",
+  "tagline": "Rich, creamy simmered pork bone soup brimming with tender boiled pork slices and garlic chives."
+ },
+ "00352": {
+  "name": "Jeju Braised Silver Cutlassfish (Galchi Jorim) with Radish",
+  "tagline": "Fatty Jeju beltfish simmered in sweet and spicy chili broth with tender melt-in-your-mouth radish."
+ },
+ "00353": {
+  "name": "Salt-Grilled Mackerel (Godeungeo Gui) with Seasonal Sides",
+  "tagline": "Whole fresh mackerel seasoned with sea salt and roasted golden with crispy skin and juicy flesh."
+ },
+ "00354": {
+  "name": "Chuncheon Spicy Dakgalbi Chicken with Mozzarella River",
+  "tagline": "Spicy chicken thigh stir-fry on a flat griddle paired with a flowing river of melted mozzarella."
+ },
+ "00355": {
+  "name": "Sizzling Spicy Squid & Pork Belly Stir-Fry (Osam Bulgogi)",
+  "tagline": "Chewy whole squid and tender pork belly wok-tossed in smoky sweet-spicy gochujang paste."
+ },
+ "00356": {
+  "name": "Winter Seaweed Fulvescens (Maesaengi) & Fresh Oyster Soup",
+  "tagline": "Silky emerald maesaengi seaweed simmered with plump fresh winter oysters in savory broth."
+ },
+ "00357": {
+  "name": "Chilled Acorn Jelly Cold Soup (Dotori Mukbap) with Rice",
+  "tagline": "Springy acorn starch jelly strips in ice-cold radish dongchimi soup served with warm rice."
+ },
+ "00358": {
+  "name": "Volcano Steamed Egg Bowl (Gyeranjjim) with Melted Cheddar",
+  "tagline": "Puffy souffle-style steamed egg towering above the earthenware bowl topped with melted cheese."
+ },
+ "00359": {
+  "name": "Hongeo Samhap Trio: Fermented Skate, Pork Belly & Kimchi",
+  "tagline": "The legendary southern trio: pungent fermented skate, steamed fatty pork belly, and aged kimchi."
+ },
+ "00360": {
+  "name": "Jeolla Pan-Fried Beef Slices in Egg Batter (Yukjeon)",
+  "tagline": "Thinly sliced beef dipped in egg wash and pan-fried golden, served with spicy shredded green onions."
+ },
+ "00361": {
+  "name": "Sillim-dong White Sundae Stir-Fry with Perilla Seeds",
+  "tagline": "Non-spicy blood sausage and glass noodles griddled with cabbage and perilla seeds with dipping dip."
+ },
+ "00362": {
+  "name": "Artisan Sea Salt Butter Roll Bread (Shio Pan)",
+  "tagline": "Crisp golden outer crust with a hollow butter cave inside and a sprinkle of flaky sea salt."
+ },
+ "00363": {
+  "name": "Breton Caramelized Flaky Butter Kouign-Amann Pastry",
+  "tagline": "Laminated puff pastry folded with salted butter and sugar, baked until deeply caramelized and crunchy."
+ },
+ "00364": {
+  "name": "Warm Molten Dark Chocolate Lava Cake (Fondant au Chocolat)",
+  "tagline": "Decadent baked chocolate cake with a warm, liquid bittersweet chocolate center that flows freely."
+ },
+ "00365": {
+  "name": "Bordeaux Vanilla & Rum Canelé Pastries (2pcs)",
+  "tagline": "Dark caramelized crunchy outer crust concealing a soft, custardy rum and vanilla bean center."
+ },
+ "00366": {
+  "name": "Crispy Croissant Waffle (Croffle) with Vanilla Ice Cream",
+  "tagline": "Flaky butter croissant pressed on a waffle iron until crisp, topped with cold vanilla ice cream."
+ },
+ "00367": {
+  "name": "Traditional Portuguese Custard Egg Tarts (Pastel de Nata, 2pcs)",
+  "tagline": "Flaky puff pastry cups filled with warm, silky custard blistered under high heat."
+ },
+ "00368": {
+  "name": "Authentic Italian Tiramisu with Espresso & Mascarpone",
+  "tagline": "Ladyfingers soaked in dark espresso and marsala wine layered with velvety mascarpone cream."
+ },
+ "00369": {
+  "name": "Taiwanese Brown Sugar Boba Fresh Milk with Chewy Tapioca",
+  "tagline": "Warm brown sugar tapioca pearls paired with cold fresh milk creating signature tiger stripes."
+ },
+ "00370": {
+  "name": "Chilled Watermelon Shaved Ice (Bingsu) with Vanilla Ice Cream",
+  "tagline": "Sweet round watermelon balls scooped inside a hollow melon with snowflake milk ice."
+ },
+ "00371": {
+  "name": "Street Pocha Stir-Fried Chicken Gizzards with Whole Garlic",
+  "tagline": "Crunchy chicken gizzards stir-fried with roasted whole garlic cloves and sesame salt."
+ },
+ "00372": {
+  "name": "Spicy Steamed Mussels in Clay Pot (Honghaptang)",
+  "tagline": "Fresh black mussels simmered in a steaming clay pot with sharp green chili broth."
+ },
+ "00373": {
+  "name": "Honeycomb Grilled Pork Rinds (Kkeopdegi) with Bean Powder",
+  "tagline": "Thick pork skin cross-hatched and grilled chewy and crisp, dipped in nutty roasted soybean powder."
+ },
+ "00374": {
+  "name": "Fiery Spicy Pork Cartilage Stir-Fry with Flying Fish Roe Rice Balls",
+  "tagline": "Crunchy minced pork cartilage wok-fried in blazing red chili paste paired with seaweed rice balls."
+ },
+ "00375": {
+  "name": "Golden Crispy Seaweed Glass Noodle Fritters (Gimmari, 5pcs)",
+  "tagline": "Battered and deep-fried nori seaweed rolls packed with seasoned glass noodles."
+ },
+ "00376": {
+  "name": "Thinly Sliced Steamed Giant Octopus (Muneo Sukhoe)",
+  "tagline": "Tender poached Pacific giant octopus sliced thinly and dipped in toasted sesame oil and salt."
+ },
+ "00377": {
+  "name": "Brazilian Churrasco Picanha Rump Steak on Large Skewer",
+  "tagline": "Crescent-shaped prime beef rump cap skewered, seasoned with coarse rock salt, and roasted over embers."
+ },
+ "00378": {
+  "name": "Argentine Asado Slow-Roasted Beef Ribs with Chimichurri",
+  "tagline": "Beef short ribs slow-roasted over wood embers for four hours served with tangy herb chimichurri."
+ },
+ "00379": {
+  "name": "Swiss Alpine Melted Raclette Cheese over Boiled Potatoes",
+  "tagline": "Molten bubbling raclette cheese scraped straight from the wheel onto hot baby potatoes and gherkins."
+ },
+ "00380": {
+  "name": "Hakata Style Beef Intestine Hot Pot (Motsunabe) with Chives",
+  "tagline": "Sweet and savory garlic soy broth bubbling with tender beef offal and a towering mound of chives."
+ },
+ "00381": {
+  "name": "Sapporo Dome-Grill Mutton Jingisukan with Sweet Onions",
+  "tagline": "Tender fresh lamb chops grilled on a convex cast-iron helmet griddle with onions and bean sprouts."
+ },
+ "00382": {
+  "name": "Texas Austin 16-Hour Smoked Beef Brisket with Pickles",
+  "tagline": "Prime beef brisket smoked over post oak logs for 16 hours with peppery bark and luscious fat."
+ },
+ "00383": {
+  "name": "Traditional Russian Beef Stroganoff over Buttered Egg Noodles",
+  "tagline": "Sautéed strips of beef tenderloin in rich sour cream and mushroom sauce over buttered egg noodles."
+ },
+ "00384": {
+  "name": "Beijing Style Stir-Fried Tomato and Scrambled Eggs Rice",
+  "tagline": "Juicy sweet-tart tomatoes quickly wok-tossed with fluffy scrambled eggs served over steamed rice."
+ },
+ "00385": {
+  "name": "Hue Royal Spicy Lemongrass Beef Noodle Soup (Bun Bo Hue)",
+  "tagline": "Spicy aromatic beef and pork shank soup infused with lemongrass, shrimp paste, and thick vermicelli."
+ },
+ "00386": {
+  "name": "London Crispy Beer-Battered Fish & Chips with Mushy Peas",
+  "tagline": "Golden ale-battered flaky haddock fillet served with chunky chips, malt vinegar, and mushy peas."
+ },
+ "00387": {
+  "name": "Hawaiian Classic Loco Moco Rice Bowl with Brown Gravy",
+  "tagline": "Fluffy white rice topped with a thick grilled beef patty, sunny fried egg, and rich brown gravy."
+ },
+ "00388": {
+  "name": "Spanish Seafood Paella with Saffron Rice, Prawns & Mussels",
+  "tagline": "Valencian saffron-infused rice cooked in a wide pan with jumbo prawns, calamari, mussels, and socarrat."
+ },
+ "00389": {
+  "name": "Spanish Tapas Sizzling Shrimp in Garlic Olive Oil (Gambas)",
+  "tagline": "Prawns gently poached in hot olive oil scented with dried red chilies and garlic, served with bread."
+ },
+ "00390": {
+  "name": "Kyoto Rare Gyukatsu Deep-Fried Beef Cutlet with Mini Griddle",
+  "tagline": "Crispy panko-coated rare sirloin cutlet seared table-side on an individual hot cast-iron stone."
+ },
+ "00391": {
+  "name": "Taiwanese Braised Pork Belly Rice Bowl (Lu Rou Fan)",
+  "tagline": "Finely diced pork belly slow-simmered in soy, fried shallots, and five-spice over hot rice."
+ },
+ "00392": {
+  "name": "Greek Moussaka Layered with Eggplant, Lamb & Béchamel",
+  "tagline": "Baked Mediterranean casserole layered with sliced eggplant, spiced cinnamon minced lamb, and béchamel."
+ },
+ "00393": {
+  "name": "Slow-Braised Mexican Pork Carnitas Tacos with Salsa Verde (3pcs)",
+  "tagline": "Tender shredded pork shoulder braised in lard with orange juice, served on corn tortillas with green salsa."
+ },
+ "00394": {
+  "name": "Tandoor-Grilled Spiced Minced Lamb Seekh Kebabs (2pcs)",
+  "tagline": "Minced lamb blended with cumin, coriander, and chili, roasted on iron skewers in a clay tandoor."
+ },
+ "00395": {
+  "name": "Hiroshima Layered Okonomiyaki with Yakisoba & Fried Egg",
+  "tagline": "Layered savory pancake with crepe base, cabbage mountain, pork belly, yakisoba noodles, and fried egg."
+ },
+ "00396": {
+  "name": "Thai Holy Basil Spicy Minced Pork (Pad Krapow Moo Saap)",
+  "tagline": "Minced pork wok-fried fiercely with holy basil leaves, bird's eye chilies, and crispy fried egg."
+ },
+ "00397": {
+  "name": "Authentic Risotto alla Milanese Infused with Golden Saffron",
+  "tagline": "Creamy Arborio rice simmered in rich bone marrow broth infused with precious golden saffron."
+ },
+ "00398": {
+  "name": "Galician Tender Boiled Octopus (Polbo á Feira) with Paprika",
+  "tagline": "Tender sliced octopus rounds seasoned with extra virgin olive oil, coarse sea salt, and smoked paprika."
+ },
+ "00399": {
+  "name": "Southern Buttermilk Fried Chicken Crispy with Cajun Spices",
+  "tagline": "Tender chicken marinated in buttermilk and double-dredged in spicy seasoned flour for maximum crunch."
+ },
+ "00400": {
+  "name": "Mexican Street Corn (Elote) with Cotija Cheese & Chili",
+  "tagline": "Charred corn on the cob brushed with tangy mayo, salty crumbled cotija cheese, chili, and lime."
+ },
+ "00401": {
+  "name": "French Riviera Salade Niçoise with Seared Tuna & Olives",
+  "tagline": "Fresh Mediterranean salad with seared tuna slices, black olives, green beans, boiled eggs, and vinaigrette."
+ }
+}

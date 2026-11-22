@@ -1,0 +1,406 @@
+{
+ "00301": {
+  "name": "Dos pasteles de nata artesanales de Belém con canela al estilo de Lisboa",
+  "tagline": "Hojaldre crujiente relleno de crema pastelera caramelizada a alta temperatura espolvoreada con canela."
+ },
+ "00302": {
+  "name": "Panceta de cerdo asada a la plancha de hierro con kimchi añejo",
+  "tagline": "Tiras gruesas de panceta con cortes en la superficie doradas junto a kimchi madurado y brotes de soja."
+ },
+ "00303": {
+  "name": "Lomo alto de ternera Hanwoo 1++ marmoleado a la brasa de carbón vegetal",
+  "tagline": "Infiltración sublime de grasa asada al carbón que se deshace en la boca con solo una pizca de sal marina."
+ },
+ "00304": {
+  "name": "Costillas de cerdo marinadas en salsa de soja dulce a la brasa (Dwaeji-galbi)",
+  "tagline": "Tiernas costillas de cerdo maceradas con puré de pera y cebolla asadas con destreza sobre la parrilla de carbón."
+ },
+ "00305": {
+  "name": "Surtido a la plancha de callos y menudillos de ternera con cebollino fresco",
+  "tagline": "Selección crujiente y jugosa de intestinos y corazón de ternera asados con abundante cebollino a la plancha."
+ },
+ "00306": {
+  "name": "Estofado kimchi-jjigae en olla de barro con carne de cerdo y dados de tofu",
+  "tagline": "El plato más representativo de Corea: kimchi salteado en grasa de cerdo cocido en caldo con tofu tierno."
+ },
+ "00307": {
+  "name": "Guiso rústico doenjang-jjigae con caracoles de río, calabacín y tofu tierno",
+  "tagline": "Sopa espesa de pasta de soja artesanal con tiernos caracoles de agua dulce que aportan un sabor profundo."
+ },
+ "00308": {
+  "name": "Guiso espeso jjageuli de falda de ternera picante con patatas y calabacín",
+  "tagline": "Estofado reducido de ternera con verduras en salsa espesa y picante de gochujang ideal para mezclar con arroz."
+ },
+ "00309": {
+  "name": "Sopa gamjatang de espinazo de cerdo con hojas secas de rábano y perilla",
+  "tagline": "Huesos carnosos de cerdo cocidos a fuego lento cuya carne tierna se desprende sola en rico caldo de perilla."
+ },
+ "00310": {
+  "name": "Sopa reconstituyente doganitang de cartílago de ternera Hanwoo con rábano kkakdugi",
+  "tagline": "Caldo transparente rico en colágeno con tendones tiernos de ternera hervidos con ginseng y dátiles secos."
+ },
+ "00311": {
+  "name": "Calamar fresco entero al vapor con su propia tinta e interiores de la costa Este",
+  "tagline": "Calamar cocinado entero sin eviscerar para disfrutar de su carne tierna bañada en su rica y untuosa tinta natural."
+ },
+ "00312": {
+  "name": "Cazuela picante Nak-Gop-Sae de pulpo, entrañas de ternera y gambas estilo Busan",
+  "tagline": "Sabrosa combinación a fuego vivo de pulpo elástico, tripa grasa de ternera y gambas en salsa picante espesa."
+ },
+ "00313": {
+  "name": "Gran cazuela marinera de marisco con almejas, vieiras y mejillones en caldo claro",
+  "tagline": "Abundante selección de bivalvos cocidos en su propio jugo con caldo reconfortante aromatizado con chile y verduras."
+ },
+ "00314": {
+  "name": "Pulpitos salteados al wok con salsa picante a la plancha y huevas de pez volador",
+  "tagline": "Pulpitos cocinados a fuego vivo con salsa picante ahumada para envolver con mayonesa y huevas de pez volador."
+ },
+ "00315": {
+  "name": "Patas de pollo deshuesadas picantes a la brasa con cazuela de huevo al vapor",
+  "tagline": "Patas de pollo gelatinosas asadas al carbón con intenso picante ahumado acompañadas de huevo esponjoso al vapor."
+ },
+ "00316": {
+  "name": "Shabu-shabu de ternera cortada fina con verduras frescas y salsa ponzu",
+  "tagline": "Láminas ultrafinas de ternera cocinadas tres segundos en caldo caliente con verduras frescas y salsa ponzu cítrica."
+ },
+ "00317": {
+  "name": "Sopa picante de ternera yukgaejang con fideos frescos cortados a mano (Yuk-kal)",
+  "tagline": "Fideos artesanales bañados en un intenso caldo picante de falda deshebrada de ternera y puerros dulces."
+ },
+ "00318": {
+  "name": "Tortilla crujiente bindaetteok de judía mungo molida a la piedra con cerdo",
+  "tagline": "Especialidad del mercado Gwangjang frita en abundante aceite con masa de judía mungo, cerdo y brotes crujientes."
+ },
+ "00319": {
+  "name": "Sopa clara de pez globo bokjiri con apio de agua minari y brotes de soja",
+  "tagline": "Caldo cristalino y ligero de carne delicada de pez globo aderezado con un toque de vinagre y hierbas frescas."
+ },
+ "00320": {
+  "name": "Ensalada picante de caracolas de mar con fideos finos somen (Golbaengi-muchim)",
+  "tagline": "Caracolas marinas aliñadas con verduras frescas y salsa agridulce gochujang servidas con fideos para mezclar."
+ },
+ "00321": {
+  "name": "Cinco abalones frescos de Wando salteados a la mantequilla francesa y ajo",
+  "tagline": "Abalones marcados con cortes en diamante salteados a fuego vivo con mantequilla aromática y dientes de ajo."
+ },
+ "00322": {
+  "name": "Sopa de fideos finos janchi guksu en caldo caliente de anchoas secas y calabacín",
+  "tagline": "Reconfortante plato tradicional de fideos de trigo en caldo limpio de anchoas con tiras de huevo y algas."
+ },
+ "00323": {
+  "name": "Morena kkomjangeo a la brasa con salsa picante de gochujang estilo Jagalchi",
+  "tagline": "Especialidad del mercado de Busan de textura cartilaginosa crujiente asada al carbón con salsa picante."
+ },
+ "00324": {
+  "name": "Pulpo fresco picado en vivo sannakji aliñado con aceite de sésamo y sal",
+  "tagline": "Bocados de pulpo recién cortados a cuchillo aliñados con aromático aceite de sésamo virgen y semillas tostadas."
+ },
+ "00325": {
+  "name": "Tofu rústico caliente al vapor con kimchi salteado y panceta (Dubu-kimchi)",
+  "tagline": "Gruesos dados de tofu casero templado servidos con kimchi fermentado frito en sartén con lonchas de panceta."
+ },
+ "00326": {
+  "name": "Ternera cruda magra cortada a tacos mungtigi con salsa de ajo y guindilla de Daegu",
+  "tagline": "Carne fresca de ternera recién sacrificada tan tersa que no cae del plato, servida con pasta de ajo y guindilla."
+ },
+ "00327": {
+  "name": "Fideos fríos de raíz de arrurruz en caldo con escarcha y ternera a la brasa",
+  "tagline": "Fideos elásticos en caldo helado agridulce acompañados de tiernas lonchas de ternera asadas al carbón."
+ },
+ "00328": {
+  "name": "Fideos masticables jjolmyeon con salsa agridulce picante y brotes de soja de Incheon",
+  "tagline": "Fideos gruesos y elásticos mezclados con salsa picante, verduras frescas y soja germinada crujiente."
+ },
+ "00329": {
+  "name": "Sopa tteok-manduguk de caldo de huesos con pastel de arroz y grandes empanadillas",
+  "tagline": "Plato tradicional de año nuevo con láminas de pastel de arroz y empanadillas gigantes en caldo blanco de ternera."
+ },
+ "00330": {
+  "name": "Fideos artesanales kalguksu con montaña de almejas frescas de Daebudo",
+  "tagline": "Fideos cortados a mano cocinados en un caldo cristalino rebosante de almejas frescas con intenso sabor a mar."
+ },
+ "00331": {
+  "name": "Guiso cremoso sujebi de masa pellizcada con semillas de perilla y setas shiitake",
+  "tagline": "Trozos finos de masa de trigo cocidos a mano en un espeso y aterciopelado caldo de semillas de perilla molidas."
+ },
+ "00332": {
+  "name": "Sopa jang-kalguksu de Gangneung con fideos en caldo picante de soja y guindilla",
+  "tagline": "Fideos gruesos en caldo espeso sazonado con pastas fermentadas doenjang y gochujang con calabacín y patata."
+ },
+ "00333": {
+  "name": "Fideos finos fríos bibim guksu con kimchi fermentado y aceite de sésamo tostado",
+  "tagline": "Sencillo y apetitoso plato de fideos fríos de verano mezclados con kimchi ácido picado y fragante aceite de sésamo."
+ },
+ "00334": {
+  "name": "Empanadillas planas fritas del mercado Seomun con ensalada de col picante",
+  "tagline": "Finas obleas de masa rellenas de fideos transparentes doradas a la plancha servidas con verduras agridulces."
+ },
+ "00335": {
+  "name": "Tteokbokki de arroz picante con relleno fundente de queso mozzarella",
+  "tagline": "Pasteles de arroz rellenos de queso derretido en su interior bañados en salsa dulce y picante espesa."
+ },
+ "00336": {
+  "name": "Surtido crujiente de tempura casera coreana con rollitos de alga, calamar y batata",
+  "tagline": "Fritura dorada y crujiente de rollitos de fideos gimmari, anillas de calamar tierno y rodajas de batata dulce."
+ },
+ "00337": {
+  "name": "Plato tradicional de morcilla Byeongcheon con verduras y sangre de cerdo de Cheonan",
+  "tagline": "Morcilla artesanal suave rellena de col, verduras picadas y fideos transparentes sin aromas desagradables."
+ },
+ "00338": {
+  "name": "Perrito caliente coreano con mozzarella y salchicha rebozado en azúcar y kétchup",
+  "tagline": "Rebozado frito crujiente que alberga queso fundido elástico en la punta y salchicha ahumada en la base."
+ },
+ "00339": {
+  "name": "Sopa fría kongguksu de soja negra molida con hielo picado y pepino",
+  "tagline": "Espesa y nutritiva crema vegetal de soja negra servida fría con fideos elásticos, rodajas de pepino y tomate."
+ },
+ "00340": {
+  "name": "Cinco rollitos mini mayak-kimbap con salsa adictiva de mostaza de Gwangjang",
+  "tagline": "Pequeños rollos de arroz y alga con zanahoria y nabo para mojar en la famosa y punzante salsa de mostaza picante."
+ },
+ "00341": {
+  "name": "Fideos kalguksu de Ilsan con medio pollo tierno en rico caldo de ave y puerro",
+  "tagline": "Medio pollo campero entero servido sobre fideos de trigo en caldo sabroso de ave enriquecido con almejas."
+ },
+ "00342": {
+  "name": "Bibimbap tradicional de Jeonju con tartar de ternera Hanwoo en cuenco de bronce",
+  "tagline": "Arroz con verduras de cinco colores coronado con tartar fresco de ternera cruda sazonada y yema de huevo."
+ },
+ "00343": {
+  "name": "Arroz crujiente albap en cuenco de piedra caliente con huevas de pez volador y kimchi",
+  "tagline": "Huevas crujientes que estallan al comer servidas sobre arroz que chisporrotea y crea costra en la piedra caliente."
+ },
+ "00344": {
+  "name": "Guiso ttukbaegi bulgogi de ternera marinada con fideos transparentes en cazuela",
+  "tagline": "Finas tiras de ternera cocinadas con setas y fideos de batata en un caldo dulce de soja reconfortante."
+ },
+ "00345": {
+  "name": "Bibimbap picante de berberechos frescos con apio de agua estilo Gangneung",
+  "tagline": "Tiernos berberechos de mar marinados en salsa agridulce y picante servidos sobre arroz caliente con hierba minari."
+ },
+ "00346": {
+  "name": "Arroz en olla de hierro con abalón fresco de Wando, algas hijiki y salsa de cebollino",
+  "tagline": "Arroz cocido al vapor en cazuela de hierro con abalones tiernos y algas aromáticas con salsa de cebollino silvestre."
+ },
+ "00347": {
+  "name": "Arroz con hojas de cardo silvestre gondre de Jeongseon y pasta densa de soja",
+  "tagline": "Aromáticas hierbas de montaña cocinadas con arroz para mezclar con un guiso espeso de soja fermentada de pueblo."
+ },
+ "00348": {
+  "name": "Sopa seolleongtang de huesos de ternera cocida 24 horas con fideos y kimchi kkakdugi",
+  "tagline": "Profundo caldo blanco elaborado durante un día entero servido con láminas de falda de ternera, fideos y cebolleta."
+ },
+ "00349": {
+  "name": "Sopa clara gomtang de ternera Hanwoo estilo Naju con tiras finas de tortilla",
+  "tagline": "Caldo transparente de ternera aromatizado con cebolla y carne magra coronado con finas hebras de huevo."
+ },
+ "00350": {
+  "name": "Sopa tibia de brotes de soja estilo mercado Nambu de Jeonju con dos huevos escalfados",
+  "tagline": "Reconfortante caldo servido a temperatura óptima con brotes crujientes, calamar picado y huevos escalfados."
+ },
+ "00351": {
+  "name": "Sopa dwaeji gukbap de carne y huesos de cerdo estilo callejón de Busan",
+  "tagline": "Rico caldo lechoso de cerdo con abundantes lonchas finas de carne hervida sazonado con cebollino y gambas saladas."
+ },
+ "00352": {
+  "name": "Pez sable plateado de Jeju estofado con rábano en salsa picante (Galchi-jorim)",
+  "tagline": "Jugosos lomos de pez sable cocinados a fuego lento con gruesas rodajas de rábano tierno impregnadas de salsa picante."
+ },
+ "00353": {
+  "name": "Menú de caballa asada a la sal con piel crujiente y guarniciones del día",
+  "tagline": "Pescado azul asado a fuego vivo con piel tostada y crujiente y carne jugosa rica en aceites omega-3 naturales."
+ },
+ "00354": {
+  "name": "Pollo picante dakgalbi salteado en plancha con río de queso mozzarella de Chuncheon",
+  "tagline": "Dados de pollo especiados salteados con col, batata y pasteles de arroz para enrollar en queso mozzarella fundido."
+ },
+ "00355": {
+  "name": "Salteado a la plancha de calamar entero y panceta de cerdo en salsa picante (Osam)",
+  "tagline": "Maridaje en sartén de calamar elástico y panceta crujiente en salsa dulce y picante con cebolleta tierna."
+ },
+ "00356": {
+  "name": "Sopa de invierno de ostras frescas de Tongyeong y algas verdes maesaengi con arroz",
+  "tagline": "Delicadas algas verdes sedosas cocidas con tiernas ostras marinas que desprenden un reconfortante aroma a océano."
+ },
+ "00357": {
+  "name": "Sopa fría dotori mukbap de gelatina de bellota en caldo helado dongchimi con arroz",
+  "tagline": "Refrescante sopa estival de rábano con dados de gelatina de bellota, kimchi picado y cuenco de arroz para mezclar."
+ },
+ "00358": {
+  "name": "Cazuela volcánica de huevo al vapor gyeranjjim con queso cheddar y huevas",
+  "tagline": "Esponjosa masa de huevo batido que sube como un suflé coronada con queso fundido y huevas crujientes."
+ },
+ "00359": {
+  "name": "Trilogía Samhap de raya fermentada de Heuksando, panceta de cerdo y kimchi añejo",
+  "tagline": "La famosa combinación de sabor amoniacal punzante de raya fermentada con suave cerdo hervido y kimchi añejo."
+ },
+ "00360": {
+  "name": "Finas láminas de ternera rebozadas en huevo yukjeon con ensalada de cebolleta de Gwangju",
+  "tagline": "Tierna ternera empanada en huevo dorado servida recién hecha con ensalada fresca de cebolleta aliñada."
+ },
+ "00361": {
+  "name": "Salteado blanco de morcilla sundae en plancha con perilla y repollo de Sillim-dong",
+  "tagline": "Morcilla frita a la plancha sin guindilla con fideos y verduras para mojar en salsa de aceite de perilla."
+ },
+ "00362": {
+  "name": "Pan artesanal de sal y mantequilla recién horneado con corteza dorada y crujiente",
+  "tagline": "Panecillo dorado con base frita en mantequilla fundida e interior aireado y tierno con granos de sal marina."
+ },
+ "00363": {
+  "name": "Pastel hojaldrado bretón Kouign-Amann caramelizado con mantequilla salada",
+  "tagline": "Masa hojaldrada doblada con mantequilla y azúcar que crea una crujiente costra de caramelo dorado al hornearse."
+ },
+ "00364": {
+  "name": "Volcán de chocolate fondant au chocolat con corazón caliente fundido de cacao",
+  "tagline": "Bizcocho tierno recién horneado cuyo centro líquido de chocolate negro belga brota al hundir la cuchara."
+ },
+ "00365": {
+  "name": "Dos pastelitos tradicionales canelé de Burdeos con costra crujiente y centro de vainilla",
+  "tagline": "Dulces franceses horneados en molde de cobre con cera de abeja con exterior crujiente y corazón suave con ron."
+ },
+ "00366": {
+  "name": "Croffle crujiente de masa de croissant en gofrera con helado y sirope de arce",
+  "tagline": "Hojaldre de croissant prensado y tostado como un gofre crujiente coronado con bola de helado y sirope dulce."
+ },
+ "00367": {
+  "name": "Tarta de queso tostada tradicional al estilo vasco con centro cremoso y fundente",
+  "tagline": "Cheesecake horneada a alta temperatura con superficie caramelizada ahumada e interior sumamente cremoso."
+ },
+ "00368": {
+  "name": "Tiramisú artesanal italiano con bizcochos de soletilla al café espresso y mascarpone",
+  "tagline": "Clásico postre italiano de capas de bizcochos empapados en café licoroso con suave crema de queso y cacao puro."
+ },
+ "00369": {
+  "name": "Té con leche fresca y perlas de tapioca al azúcar moreno estilo tigre de Taiwán",
+  "tagline": "Dulces perlas masticables cocidas en espeso sirope negro que dibujan rayas sobre la leche fresca y fría."
+ },
+ "00370": {
+  "name": "Latte de tres capas con té verde matcha ecológico de Jeju, leche y café espresso",
+  "tagline": "Vistoso café en tres colores que equilibra el amargor del té verde matcha con la suavidad de la leche y el café."
+ },
+ "00371": {
+  "name": "Mollejas de pollo salteadas con dientes de ajo enteros y sal de sésamo",
+  "tagline": "Bocados crujientes y elásticos de molleja dorados en sartén con ajos tiernos y aromático aceite de sésamo."
+ },
+ "00372": {
+  "name": "Sopa picante de mejillones en olla de barro con guindilla fresca y puerro",
+  "tagline": "Generosa ración de mejillones frescos en caldo aromático picante ideal como reconfortante tentempié nocturno."
+ },
+ "00373": {
+  "name": "Corteza de cerdo marinada a la brasa con cortes en panal y polvo de soja tostada",
+  "tagline": "Piel de cerdo asada a la parrilla con textura gelatinosa crujiente servida con harina tostada de soja injeolmi."
+ },
+ "00374": {
+  "name": "Salteado picante de cartílagos de cerdo a la llama con bolitas de arroz y alga",
+  "tagline": "Trozos crujientes de ternilla salteados al fuego vivo en salsa picante acompañados de bolitas de arroz con huevas."
+ },
+ "00375": {
+  "name": "Almejas frescas al vapor en vino blanco y mantequilla con ajo y guindilla",
+  "tagline": "Almejas jugosas abiertas al calor de vino blanco y mantequilla fundida con láminas de ajo y copos de chile."
+ },
+ "00376": {
+  "name": "Pulpo gigante cocido al vapor en finas rodajas con aceite de sésamo y salsa picante",
+  "tagline": "Tiernas láminas de pulpo cocinado en su punto justo para mantener una textura suave y delicado dulzor marino."
+ },
+ "00377": {
+  "name": "Picaña de ternera a la brasa en espada estilo churrasco brasileño con sal gorda",
+  "tagline": "Corte noble de ternera con capa exterior de grasa asado a las brasas ensartado en espada y cortado al momento."
+ },
+ "00378": {
+  "name": "Asado argentino de tira de costilla a la leña con salsa chimichurri fresca",
+  "tagline": "Costillas de ternera asadas pacientemente al fuego durante horas regadas con aromático chimichurri de hierbas."
+ },
+ "00379": {
+  "name": "Queso raclette suizo fundido raspado sobre patatas cocidas, embutidos y pepinillos",
+  "tagline": "El espectáculo alpino del queso raclette derretido en parrilla vertido en cascada cremosa sobre patatas calientes."
+ },
+ "00380": {
+  "name": "Cazuela motsunabe de callos de ternera con montaña de cebollino y ajo estilo Hakata",
+  "tagline": "Caldo profundo con tiernos intestinos de ternera y abundantes tallos de cebollino fresco espolvoreados con chile."
+ },
+ "00381": {
+  "name": "Hot pot huoguo de Sichuan en olla dividida con caldo picante mala y caldo claro",
+  "tagline": "Cazuela yin-yang que ofrece el electrizante picante de Sichuan con pimienta y el reconfortante caldo blanco de huesos."
+ },
+ "00382": {
+  "name": "Falda de ternera brisket ahumada durante 16 horas al estilo de Austin Texas",
+  "tagline": "Carne tierna con corteza crujiente especiada y anillo de humo rosa que se desmenuza con los propios dedos."
+ },
+ "00383": {
+  "name": "Bistecca alla Fiorentina de un kilo de chuletón de ternera toscana a la brasa",
+  "tagline": "Grueso filete T-bone asado a la brasa de encina poco hecho para apreciar la terneza del solomillo y el lomo."
+ },
+ "00384": {
+  "name": "Sopa Khao Soi de fideos al curry amarillo y leche de coco con fideos crujientes",
+  "tagline": "Especialidad de Chiang Mai con muslo tierno de pollo en curry cremoso coronado con fideos fritos crujientes y lima."
+ },
+ "00385": {
+  "name": "Sopa imperial Bun Bo Hue de fideos de arroz con ternera y hierba limón picante",
+  "tagline": "Fideos gruesos en aromático caldo rojo de ternera condimentado con citronela, pasta de gambas y hierbas frescas."
+ },
+ "00386": {
+  "name": "Ceviche peruano clásico de pescado blanco fresco y camarones en leche de tigre",
+  "tagline": "Pescado marinado en zumo fresco de lima con cebolla morada, cilantro y ají acompañado de choclo y boniato."
+ },
+ "00387": {
+  "name": "Plato hawaiano Loco Moco de hamburguesa de ternera con salsa gravy y huevo sobre arroz",
+  "tagline": "El reconfortante bocado de los surfistas de Hawái: hamburguesa casera con densa salsa marrón y huevo de yema blanda."
+ },
+ "00388": {
+  "name": "Albóndigas tradicionales suecas con puré de patata, salsa de crema y mermelada de arándanos rojos",
+  "tagline": "Clásicas albóndigas caseras de ternera bañadas en cremosa salsa gravy acompañadas de dulce confitura nórdica."
+ },
+ "00389": {
+  "name": "Poutine tradicional de Quebec con patatas fritas, queso en grano y salsa gravy caliente",
+  "tagline": "Crujientes patatas recién fritas con bocaditos elásticos de queso cuajado fundidos bajo espesa salsa de carne."
+ },
+ "00390": {
+  "name": "Menú de chuleta de ternera empanada gyukatsu con miniparrilla individual de piedra",
+  "tagline": "Lomo tierno de ternera poco hecho envuelto en fina costra crujiente para sellar al gusto en la plancha de mesa."
+ },
+ "00391": {
+  "name": "Bol taiwanés Lu Rou Fan de panceta de cerdo estofada en cinco especias sobre arroz",
+  "tagline": "Carne picada de panceta glaseada lentamente con chalotas fritas, salsa de soja y especias con huevo marinado."
+ },
+ "00392": {
+  "name": "Musaka tradicional griega al horno con berenjenas, ragú de cordero y bechamel",
+  "tagline": "Pastel horneado de capas de berenjena asada y sabrosa carne picada especiada cubierta de suave costra de bechamel."
+ },
+ "00393": {
+  "name": "Tres tacos mexicanos de carnitas de cerdo confitadas con cilantro, cebolla y salsa verde",
+  "tagline": "Cerdo cocinado a fuego lento en manteca hasta quedar jugoso y crujiente servido en tortillas de maíz con lima."
+ },
+ "00394": {
+  "name": "Dos brochetas indias seekh kebab de cordero especiado con chutney de menta fresca",
+  "tagline": "Picadillo de cordero condimentado con comino y garam masala asado ensartado en brocheta al calor del tandoor."
+ },
+ "00395": {
+  "name": "Okonomiyaki al estilo de Hiroshima en capas con fideos yakisoba y huevo a la plancha",
+  "tagline": "Torre de cinco capas con fina masa crepe, col tierna, fideos fritos, cerdo y huevo decorada con salsa y alga nori."
+ },
+ "00396": {
+  "name": "Salteado Pad Krapow Moo Saap de cerdo picado con albahaca sagrada tailandesa y huevo frito",
+  "tagline": "El almuerzo callejero tailandés más popular: cerdo picado a la llama con albahaca holy basil y huevo crujiente."
+ },
+ "00397": {
+  "name": "Auténtico Risotto alla Milanese impregnado con azafrán dorado y queso parmesano",
+  "tagline": "Arroz cremoso de noble color amarillo bañado en infusión de azafrán puro y caldo de tuétano con mantequilla."
+ },
+ "00398": {
+  "name": "Pulpo á feira a la gallega con patatas cocidas, pimentón de la Vera y aceite virgen",
+  "tagline": "Rodajas de pulpo tierno cocido en caldera de cobre servidas sobre tabla de madera con sal gruesa y pimentón ahumado."
+ },
+ "00399": {
+  "name": "Pollo frito sureño marinado en suero de leche con especias cajún crujientes",
+  "tagline": "Pollo jugoso reposado un día entero en suero de leche para ablandar la carne frito con rebozado fino y crujiente."
+ },
+ "00400": {
+  "name": "Mazorca de maíz asada elote mexicano con mayonesa, queso cotija y chile en polvo",
+  "tagline": "Maíz tierno dorado a la parrilla untado con cremosa mayonesa, queso salado desmenuzado, lima y chile molido."
+ },
+ "00401": {
+  "name": "Ensalada Niçoise de la Costa Azul con atún marcado, huevo duro, judías verdes y aceitunas negras",
+  "tagline": "Colorido plato provenzal con verduras frescas crujientes, lomo de atún, anchoas y vinagreta francesa clásica."
+ }
+}

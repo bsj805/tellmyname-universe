@@ -1,0 +1,402 @@
+{
+ "00201": {
+  "name": "Sechs Weinbergschnecken nach Burgunder Art (Escargots)",
+  "tagline": "In Knoblauch-Kräuter-Butter zischend im Ofen überbackene zarte Schnecken nach traditioneller französischer Art."
+ },
+ "00202": {
+  "name": "Klassisches Boeuf Bourguignon (Rinderschmortopf in Rotwein)",
+  "tagline": "In Burgunder Rotwein mit Speck, Champignons und Schalotten sanft geschmortes butterzartes Rindfleisch."
+ },
+ "00203": {
+  "name": "Klassische Crème Brûlée mit echter Bourbon-Vanille",
+  "tagline": "Kühle, samtige Vanillecreme unter einer hauchdünnen, goldbraun karamellisierten Knusperzuckerschicht."
+ },
+ "00204": {
+  "name": "Provenzalisches Ratatouille mit frischen Kräutern",
+  "tagline": "Zucchini, Auberginen und Tomaten sanft in Olivenöl mit Thymian und Basilikum geschmort – warmer Gemüsetraum."
+ },
+ "00205": {
+  "name": "Traditionelles Coq au Vin (Huhn in Rotweinsauce)",
+  "tagline": "In kräftigem Rotwein mit Speckwürfeln und Pilzen sanft geschmortes Hähnchen, das vom Knochen fällt."
+ },
+ "00206": {
+  "name": "Quiche Lorraine mit geräuchertem Speck & Gruyère",
+  "tagline": "Knuspriger Mürbeteigboden gefüllt mit sahnigem Eierguss, herzhaftem Speck und würzigem Käse."
+ },
+ "00207": {
+  "name": "Amerikanischer Buttermilch-Pancake-Turm mit Ahornsirup",
+  "tagline": "Drei fluffige Pfannkuchen aufeinandergetürmt, belegt mit schmelzender Butter und feinstem Ahornsirup."
+ },
+ "00208": {
+  "name": "Chicago-Deep-Dish-Pizza mit Tomaten-Stücken & viel Käse",
+  "tagline": "Hoher Teigrand gefüllt mit einem ganzen Kilo schmelzendem Mozzarella und stückiger Tomatensauce."
+ },
+ "00209": {
+  "name": "New Orleans Po-Boy-Sandwich mit Weichschalenkrabbe",
+  "tagline": "Knuspriges französisches Baguette gefüllt mit frittierter Krabbe, pikanter Remoulade und Salat."
+ },
+ "00210": {
+  "name": "Gourmet Ribeye-Steak-Burger mit Trüffel-Aioli & Cheddar",
+  "tagline": "Saftiges Ribeye-Hacksteak medium gebraten, belegt mit Bacon-Marmelade, gereiftem Cheddar und Trüffelmayo."
+ },
+ "00211": {
+  "name": "Boston Clam Chowder im Sauerteig-Brotlaib",
+  "tagline": "Cremig eingekochte Muschelsuppe mit Kartoffelwürfeln und Sahne, serviert im ausgehöhlten Sauerteigbrot."
+ },
+ "00212": {
+  "name": "Kreolische Jambalaya mit Andouille-Wurst, Huhn & Garnelen",
+  "tagline": "Reisgericht der Südstaaten-Küche: Würzige Wurst, Geflügel und Riesengarnelen mit Tomaten und Sellerie."
+ },
+ "00213": {
+  "name": "Kaltes Misutgaru (Traditioneller koreanischer Mehrkornshake)",
+  "tagline": "Aus zehn gerösteten Getreidesorten gemahlenes Pulver mit Akazienhonig und Eiswürfeln schaumig gerührt."
+ },
+ "00214": {
+  "name": "Overnight Oats mit Chiasamen, Heidelbeeren & Mandelmilch",
+  "tagline": "Über Nacht sanft gequollene Haferflocken mit frischen Heidelbeeren und Agavendicksaft – gesunder Start in den Tag."
+ },
+ "00215": {
+  "name": "Süßer Kabocha-Kürbisbrei mit Klebreisbällchen (Hobakjuk)",
+  "tagline": "Samtiger Brei aus sonnengereiftem Kürbis mit zähen Klebreisklößchen, der von innen wärmt."
+ },
+ "00216": {
+  "name": "Sungnyung (Gerösteter Reisaufguss) mit gewürztem Tintenfisch",
+  "tagline": "Heißes Reiswasser über knusprigem Kesselreis, perfekt kombiniert mit würzig eingelegtem Tintenfisch."
+ },
+ "00217": {
+  "name": "Kaltgepresster Detox-Saft mit Grünkohl, grünem Apfel & Zitrone",
+  "tagline": "Ohne Wasserzusatz schonend gepresste Vitamine aus frischem Gemüse und Obst für den perfekten Morgen."
+ },
+ "00218": {
+  "name": "Schoko-Proteinshake (30 g Eiweiß) mit reifer Banane",
+  "tagline": "Cremiges Molkenprotein in ungesüßter Mandelmilch, ergänzt durch eine sonnengereifte Banane als Energielieferant."
+ },
+ "00219": {
+  "name": "Roggen-Vollkorntoast mit reinem Erdnussmus & Bananenscheiben",
+  "tagline": "Knusprig geröstetes Vollkornbrot mit zuckerfreier Erdnussbutter, Banane und knackigen Chiasamen."
+ },
+ "00220": {
+  "name": "Jeonbokjuk (Abalone-Reisbrei mit Meeresessenz)",
+  "tagline": "In aromatischem Sesamöl angerösteter Reis mit frischer Abalone und Innereien – das Stärkungsmittel der Meere."
+ },
+ "00221": {
+  "name": "Nahrhafter Rindfleisch- und Shiitake-Pilz-Reisbrei",
+  "tagline": "Fein gehacktes Rindfleisch und duftende Pilze langsam im Reisbrei gegart – sanft und wohltuend."
+ },
+ "00222": {
+  "name": "Schwarzer Sesam-Milchreisbrei (Heukimja-Tarakjuk)",
+  "tagline": "Königliche Hofspeise aus geröstetem schwarzem Sesam, Klebreis und Milch mit tiefem, nussigem Aroma."
+ },
+ "00223": {
+  "name": "Zwei Vollkorn-Milchbrötchen mit feinem Eiersalat",
+  "tagline": "Cremig mit Mayonnaise und Senf angemachtes gekochtes Ei in zwei weichen Vollkornbrötchen."
+ },
+ "00224": {
+  "name": "Ein knackiger Apfel mit einer Handvoll gerösteter Mandeln",
+  "tagline": "Frischer, ballaststoffreicher Apfel mit Schale und knackige ungesalzene Mandeln für den Morgen."
+ },
+ "00225": {
+  "name": "Ungesüßte Sojamilch mit zwei wachsweich gekochten Eiern",
+  "tagline": "Reine, cremige Sojamilch aus gelben Bohnen, serviert mit zwei weichen Frühstückseiern voller Eiweiß."
+ },
+ "00226": {
+  "name": "Avocado-Sauerteig-Toast mit Olivenöl & Chiliflocken",
+  "tagline": "Frische Avocado mit Zitronensaft auf knusprigem Natursauerteigbrot, beträufelt mit feinstem Olivenöl."
+ },
+ "00227": {
+  "name": "Cremiges Butter-Rührei mit gegrillten Kirschtomaten",
+  "tagline": "Auf kleiner Flamme sanft gerührtes, seidig weiches Ei mit Butter und süß gerösteten Cocktailtomaten."
+ },
+ "00228": {
+  "name": "Mediterrane Shakshuka mit Tomaten, Eiern & Fetakäse",
+  "tagline": "In pikanter Tomatensauce mit Kreuzkümmel pochierte Eier, bestreut mit Feta und frischer Petersilie."
+ },
+ "00229": {
+  "name": "Klassischer French Toast mit Bourbon-Vanille & Ahornsirup",
+  "tagline": "In Vanille-Eier-Milch getränktes Toastbrot, butterknusprig ausgebacken und mit Zimt verfeinert."
+ },
+ "00230": {
+  "name": "Klare Trockenfisch- und Sojasprossensuppe (Hwangtaeguk)",
+  "tagline": "In Perillaöl angebratener getrockneter Seelachs mit knackigen Sojasprossen in einer wohltuenden Brühe."
+ },
+ "00231": {
+  "name": "Chodang-Seidentofusuppe mit gewürzter Sojasauce",
+  "tagline": "Mit reinem Meerwasser geronnener weicher Tofu aus Gangneung – unverfälschte Reinheit im Tontopf."
+ },
+ "00232": {
+  "name": "Geröstete Mehrkorn-Seonsik-Latte mit warmer Hafermilch",
+  "tagline": "Traditionelles koreanisches Seonsik-Getreidepulver, cremig aufgeschäumt mit Hafermilch."
+ },
+ "00233": {
+  "name": "Acai-Smoothie-Bowl mit frischer Banane, Granola & Chiasamen",
+  "tagline": "Fruchtig-dichtes Püree aus gefrorenen Acai-Beeren, getoppt mit knusprigem Müsli und frischem Obst."
+ },
+ "00234": {
+  "name": "Zarter Hähnchenbrust-Haferbrei mit Gemüse (Dakjuk-Art)",
+  "tagline": "Proteinreiche Hähnchenstreifen und feines Gemüse in einer leichten, bekömmlichen Haferflockenbrühe."
+ },
+ "00235": {
+  "name": "Frisch gepresster ABC-Detox-Saft (Apfel, Rote Bete, Karotte)",
+  "tagline": "Die bewährte Vitaminbombe aus Apfel, Roter Bete und Karotte für Vitalität und frischen Teint."
+ },
+ "00236": {
+  "name": "English Muffin Frühstückssandwich mit Schinken, Ei & Cheddar",
+  "tagline": "Getoasteter englischer Muffin mit gebratenem Frühstücksschinken, Spiegelei und geschmolzenem Käse."
+ },
+ "00237": {
+  "name": "Halbe frische Pampelmuse mit dickem griechischem Joghurt",
+  "tagline": "Fruchtig-herbe rosa Grapefruit zum Auslöffeln, begleitet von festem Naturjoghurt und Chiasamen."
+ },
+ "00238": {
+  "name": "Gapyeong-Pinienkern-Reisbrei (Jatjuk)",
+  "tagline": "Aus feinsten heimischen Pinienkernen und Klebreis langsam geschlagener, aromatischer Luxusbrei."
+ },
+ "00239": {
+  "name": "Zwei gedämpfte Kartoffeln mit Meersalz & ein Glas kalte Milch",
+  "tagline": "Mehlige Kartoffeln frisch aus dem Dampf, stilecht mit einer Prise Salz und kalter Vollmilch genossen."
+ },
+ "00240": {
+  "name": "Getoasteter Bagel mit hausgemachtem Frühlingszwiebel-Frischkäse",
+  "tagline": "Kross getoasteter Hefe-Bagel, dick bestrichen mit cremigem Frischkäse und frischem Frühlingslauch."
+ },
+ "00241": {
+  "name": "Dongji-Patjuk (Traditioneller Roter Bohnenbrei mit Reiskugeln)",
+  "tagline": "Dicker Brei aus passierten roten Adzukibohnen mit zähen Klebreisbällchen gegen die Winterkälte."
+ },
+ "00242": {
+  "name": "Warmer Zimt-Haferbrei mit Walnüssen & Bienenhonig",
+  "tagline": "Cremig gekochte Haferflocken mit einer Prise Ceylon-Zimt, gehackten Walnüssen und reinem Honig."
+ },
+ "00243": {
+  "name": "Thunfisch-Mayo-Dreiecks-Kimbap (Samgak-Gimbap)",
+  "tagline": "Der unangefochtene Bestseller: Würziger Thunfisch mit sahniger Mayonnaise im knusprigen Noriblatt."
+ },
+ "00244": {
+  "name": "Jeonju-Bibimbap-Dreiecks-Kimbap mit Rinder-Gochujang",
+  "tagline": "Pikanter Reis mit Sesamöl und einem würzigen Rindfleisch-Chili-Kern im knusprigen Algenmantel."
+ },
+ "00245": {
+  "name": "Feuriges Buldak-Hähnchen-Mayo-Dreiecks-Kimbap",
+  "tagline": "Höllisch scharf gewürztes Hähnchen, abgemildert durch cremige Mayonnaise im Reisdreieck."
+ },
+ "00246": {
+  "name": "Spam- und Kimchi-Bratreis-Dreiecks-Kimbap",
+  "tagline": "Pikant gebratener Kimchireis mit einem dicken Stück gebratenem Schinkenfleisch in der Mitte."
+ },
+ "00247": {
+  "name": "Pikantes Myeongran-Dorschrogen-Mayo-Dreiecks-Kimbap",
+  "tagline": "Edler marinierter Dorschrogen mit samtiger Mayonnaise im Reis – die Delikatesse für unterwegs."
+ },
+ "00248": {
+  "name": "Eonyang-Bulgogi-Dreiecks-Kimbap vom Grill",
+  "tagline": "Süß-würzig mariniertes Rindfleisch mit feinem Holzkohlearoma, verpackt im praktischen Snack-Dreieck."
+ },
+ "00249": {
+  "name": "Thunfisch-Kimchi-Duo-Dreiecks-Kimbap",
+  "tagline": "Perfekte Balance aus saftigem Thunfisch und scharf gebratenem Kimchi im krossen Seetangblatt."
+ },
+ "00250": {
+  "name": "Scharfes Cheongyang-Chili-Thunfisch-Dreiecks-Kimbap",
+  "tagline": "Aromatisch gebratener Thunfisch mit feurigen koreanischen grünen Chilischoten für frische Schärfe."
+ },
+ "00251": {
+  "name": "Jeyuk-Bokkeum-Dreiecks-Kimbap mit gebratenem Schweinefleisch",
+  "tagline": "Feurig in Gochujang gebratenes Schweinefleisch mit Rauchnote, reichlich gefüllt im Reisdreieck."
+ },
+ "00252": {
+  "name": "Teriyaki-Spam-Dreiecks-Kimbap mit süßer Glasur",
+  "tagline": "Ein großes Scheibchen saftiges Dosenfleisch mit süß-würziger Teriyaki-Sojasauce auf Reis."
+ },
+ "00253": {
+  "name": "Nongshim Yukgaejang Becherramen mit dünnen Nudeln",
+  "tagline": "Der Kultklassiker mit feinen Wellennudeln in würziger Rinderbrühe – in 3 Minuten fertig zum Schlürfen."
+ },
+ "00254": {
+  "name": "Nongshim Shin Ramyun kleiner Becher (Scharfe Rinderbrühe)",
+  "tagline": "Koreas weltberühmte Chilinudelsuppe mit Shiitake-Pilzen und feuriger Rinderbrühe im handlichen Becher."
+ },
+ "00255": {
+  "name": "Ottogi Sesam-Ramen großer Becher mit Ei-Block & Sesamöl",
+  "tagline": "Heißes Wasser verwandelt den Eierblock in zarte Flocken; abgerundet mit aromatischem Röstsesamöl."
+ },
+ "00256": {
+  "name": "Samyang Buldak feurige Chilinudeln großer Becher",
+  "tagline": "Das weltberühmte Phänomen extremer Schärfe: Nudeln mit feuriger Sauce, Röstsesam und Seetang."
+ },
+ "00257": {
+  "name": "Nongshim Tempura-Udon-Bechersuppe mit Knusperflocken",
+  "tagline": "Milde, klare Bonitobrühe mit dicken Nudeln und knusprigen Tempuraflocken, die in der Suppe quellen."
+ },
+ "00258": {
+  "name": "Paldo Dosirac eckige Becherramen mit herzhafter Fleischbrühe",
+  "tagline": "Die nostalgische quadratische Schale aus den 80ern mit feinen Nudeln in milder Rinderbouillon."
+ },
+ "00259": {
+  "name": "Nongshim Neoguri Meeresfrüchte-Becher mit Seetang",
+  "tagline": "Dicke Udon-Nudeln in scharfer Krustentiersuppe mit echtem Wando-Kelpblatt und Seetangflocken."
+ },
+ "00260": {
+  "name": "Ottogi Jin Ramen scharfer großer Becher",
+  "tagline": "Ausgewogen scharfe, kräftige Rinderbrühe mit elastischen Nudeln – Koreas liebste Schüssel-Suppe."
+ },
+ "00261": {
+  "name": "GS25 Omori gereifte Kimchi-Eintopf-Ramen im Becher",
+  "tagline": "Enthält einen echten Beutel mit drei Jahre gereiftem Kimchi für authentischen Kimchi-Jjigae-Geschmack."
+ },
+ "00262": {
+  "name": "Samyang Carbonara Buldak cremige Chilinudeln im Becher",
+  "tagline": "Die rosa Kult-Edition: feurige Buldak-Würze verschmilzt mit samtigem Sahne-Käse-Pulver."
+ },
+ "00263": {
+  "name": "Paldo Wang-Ttukkeong Riesen-Becherramen mit Plastikdeckel",
+  "tagline": "Riesige Portion feurige Nudelsuppe, deren breiter Schalendeckel als Servierteller dient."
+ },
+ "00264": {
+  "name": "Nongshim Chapagetti Beombeok Mini-Becher mit Bohnensauce",
+  "tagline": "Kleine Portion dunkle schwarze Bohnensauce direkt mit den Nudeln löffelfertig eingedickt."
+ },
+ "00265": {
+  "name": "Grill-Frankfurter-Hotbar-Spieß aus dem Mikrowellenregal",
+  "tagline": "In 30 Sekunden erhitzt: Saftiges Brühwürstchen am Holzspieß mit rauchigem Barbecuegeschmack."
+ },
+ "00266": {
+  "name": "Uiseong-Knoblauch-Wurstspieß mit knackigem Biss",
+  "tagline": "Über 90 Prozent Schweinefleisch mit dem feinen Aroma von koreanischem Uiseong-Knoblauch."
+ },
+ "00267": {
+  "name": "GS25 Hyeja-Bento-Box mit Gochujang-Schweinefleisch & 7 Beilagen",
+  "tagline": "Reichhaltige Mahlzeit mit scharf gebratenem Fleisch, Spiegelei auf Reis und traditionellen Beilagen."
+ },
+ "00268": {
+  "name": "CU Baek Jong-won Festtags-Bento mit Bulgogi & Eierrolle",
+  "tagline": "Herzhafte Lunchbox mit saftigem Rinderhacksteak, süßem Rindfleisch und gerolltem Omelett."
+ },
+ "00269": {
+  "name": "K-Convenience Eiersalat-Sandwich ohne Kruste",
+  "tagline": "Zartes weißes Toastbrot prall gefüllt mit cremigem, fein zerdrücktem Eiersalat und Mayonnaise."
+ },
+ "00270": {
+  "name": "Doppelter Bulgogi-Käseburger aus dem Kühlregal",
+  "tagline": "Kurz warm gemacht: Saftiges Rindfleisch-Patty mit süßer Bulgogisauce und schmelzendem Käse."
+ },
+ "00271": {
+  "name": "Große geräucherte Hähnchenkeule aus dem Kühlregal",
+  "tagline": "Über Buchenholz geräucherte saftige Hühnerkeule zum einfachen Abknabbern für den späten Hunger."
+ },
+ "00272": {
+  "name": "Überbackener Mais mit Käse & Mayonnaise (Corn Cheese)",
+  "tagline": "Der beliebte Kneipensnack für die Mikrowelle: Süßer Dosenmais in Mayonnaise mit dickem Mozzarella."
+ },
+ "00273": {
+  "name": "Eiskaffee mit Haselnussaroma im Beutel mit Eisbecher",
+  "tagline": "Der Sommerhit im K-Markt: Aromatischen Kaffeebeutel einfach über den transparenten Eisbecher gießen."
+ },
+ "00274": {
+  "name": "Yonsei-Milchcreme-Brötchen prall gefüllt mit Sahne",
+  "tagline": "Der virale Bäckereitrend: Fluffiges Hefegebäck zu über 80 Prozent mit zarter frischer Milchcreme gefüllt."
+ },
+ "00275": {
+  "name": "Binggrae Bananenmilch im gelben Tonnenbecher",
+  "tagline": "Das Kultgetränk seit 1974: Süße, samtige Milch mit Bananengeschmack aus dem bauchigen Becher."
+ },
+ "00276": {
+  "name": "Eiskaltes Sikhye (Süßes fermentiertes Reisgetränk mit Reiskörnern)",
+  "tagline": "Traditioneller kühler Malzreis-Drink mit weichen Reiskörnern – herrlich süß und verdauungsfördernd."
+ },
+ "00277": {
+  "name": "Bangkok Street Pad Thai Kung mit Riesengarnelen & Erdnüssen",
+  "tagline": "In der heißen Wokpfanne gebratene Reisnudeln mit Tamarinde, Tofu, Ei, frischen Sojasprossen und Limette."
+ },
+ "00278": {
+  "name": "Vietnamesisches Banh Mi Baguette mit Schweinebraten & Koriander",
+  "tagline": "Knusprig leichtes Baguette mit Leberpastete, würzigem Grillfleisch, eingelegtem Gemüse und Kräutern."
+ },
+ "00279": {
+  "name": "Knusprige Rindfleisch-Quesadilla mit Käse & Guacamole",
+  "tagline": "Auf der Grillplatte gerösteter Weizentortilla mit Hackrind und zerlaufenem Käse, gedippt in Salsa."
+ },
+ "00280": {
+  "name": "Drei mexikanische Birria-Tacos mit kräftiger Consomé-Brühe",
+  "tagline": "In Rinderfett kross gebratene Maistortillas mit zupfzartem Fleisch, getaucht in die heiße Schmorbrühe."
+ },
+ "00281": {
+  "name": "Fünf Madrider Knusper-Churros mit dicker heißer Schokolade",
+  "tagline": "In Zimtzucker gewälztes sternförmiges Spritzgebäck zum Eintauchen in dickflüssige Trinkschokolade."
+ },
+ "00282": {
+  "name": "Griechischer Lamm-Gyros-Pita-Wrap mit Tzatziki & Pommes",
+  "tagline": "Warmes Fladenbrot gefüllt mit gewürztem Lammfleisch vom Drehspieß, Tomaten, Fritten und Knoblauchjoghurt."
+ },
+ "00283": {
+  "name": "Balik Ekmek: Gegrilltes Makrelensandwich von der Galatabrücke",
+  "tagline": "Frisches Makrelenfilet mit Zwiebeln und reichlich Zitronensaft im knusprigen Istanbuler Weißbrot."
+ },
+ "00284": {
+  "name": "Türkisches Kaymak-Menü mit Bienenhonig & warmem Pide-Brot",
+  "tagline": "Aus Büffelmilch geschöpfter dicker Schmand, serviert mit Naturwabenhonig und ofenfrischem Fladenbrot."
+ },
+ "00285": {
+  "name": "Taiwanesisches Riesen-Hähnchenschnitzel (Jipai) mit Fünf-Gewürze-Salz",
+  "tagline": "Riesiges plattiertes Geflügelfilet in Tapiokapanade, goldbraun frittiert mit aromatischem Pfeffer gewürzt."
+ },
+ "00286": {
+  "name": "Drei Hongkong Egg Tarts mit Blätterteig & Eierpudding",
+  "tagline": "Hunderte knusprige Teigschichten umhüllen eine warme, herrlich zarte Vanille-Eiercreme."
+ },
+ "00287": {
+  "name": "Indonesisches Nasi Goreng mit Garnelen, Kecap Manis & Spiegelei",
+  "tagline": "Mit süßer Sojasauce und Sambal im Wok gebratener Würzreis, getoppt mit krossem Spiegelei."
+ },
+ "00288": {
+  "name": "Fünf Hähnchen-Satay-Spieße aus Bali mit Erdnusssauce",
+  "tagline": "Über Holzkohle gegrillte Spieße mit Kurkuma-Marinade, dick überzogen mit nussiger Erdnusssauce."
+ },
+ "00289": {
+  "name": "Singapur Kaya-Toast mit Pandan-Marmelade & kalter Butter",
+  "tagline": "Über Kohlen geröstetes Toastbrot gefüllt mit grüner Kokos-Kaya-Konfitüre und dicken Butterscheiben."
+ },
+ "00290": {
+  "name": "Singapur Chili Crab mit Krabbenfleisch & frittierten Mantou",
+  "tagline": "Saftiges Krabbenfleisch in pikanter Tomaten-Chili-Eiersauce, aufgetunkt mit goldbraunen Dampfbrötchen."
+ },
+ "00291": {
+  "name": "Zwei Kugeln original römisches Gelato (Pistazie & Reis)",
+  "tagline": "Dichtes, samtiges Handwerkseis: sizilianische Bronte-Pistazie und traditionelles Reiserlebnis."
+ },
+ "00292": {
+  "name": "NYC Halal Guys Hähnchen- und Gyros-Platter mit weißer Sauce",
+  "tagline": "Gebratenes Fleisch auf Saftreis im Aluteller, großzügig begossen mit der legendären cremigen Sauce."
+ },
+ "00293": {
+  "name": "Acht Osaka Takoyaki-Bällchen mit Oktopus & Bonitoflocken",
+  "tagline": "Heiße Teigkugeln mit zartem Tintenfischkern, verziert mit Mayonnaise und tanzenden Fischflocken."
+ },
+ "00294": {
+  "name": "Osaka Okonomiyaki mit Schweinebauch, Garnelen & Kohl",
+  "tagline": "Auf der Stahlplatte gebratener herzhafter Gemüsekuchen mit krosser Einlage und süß-würziger Sauce."
+ },
+ "00295": {
+  "name": "Sapporo Jingisukan: Gegrilltes Lammfleisch auf der Eisenhaube",
+  "tagline": "Zarte Lammkoteletts über Holzkohle gegrillt, während das Bratfett die frischen Sojasprossen würzt."
+ },
+ "00296": {
+  "name": "Traditionelle britische Fish and Chips mit Bierteig & Remoulade",
+  "tagline": "In krossem Bierteig gebackenes Kabeljaufilet mit dicken Pommes frites und Erbsenpüree."
+ },
+ "00297": {
+  "name": "Gambas al Ajillo (Garnelen in brodelndem Knoblauchöl) mit Baguette",
+  "tagline": "Im Tontopf zischende Garnelen mit Knoblauchscheiben und getrocknetem Chili zum Auftunken mit Weißbrot."
+ },
+ "00298": {
+  "name": "Ein Stück New York Cheesecake mit reichhaltigem Frischkäse",
+  "tagline": "Dichter, im Ofen gebackener Kuchen aus reinem Frischkäse und Sauerrahm auf feinem Keksboden."
+ },
+ "00299": {
+  "name": "Große Nacho-Platte mit warmer Cheddar-Käsesauce & Jalapeños",
+  "tagline": "Krosse Maistortillachips übergossen mit goldgelbem Käsedip, scharfen Chilis und frischer Salsa."
+ },
+ "00300": {
+  "name": "Warmer amerikanischer Apfelkuchen mit Vanilleeiscreme",
+  "tagline": "Mürber Gitterkuchen gefüllt mit zimtig gedünsteten Apfelstücken, serviert mit schmelzendem Eis."
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mukbang",
+  "version": "1.0.0",
+  "private": true,
+  "description": "오늘 뭐 먹지? (Mukbang) — 이름 × 날짜 × 타임존 기반 하루 5끼(아침·점심·간식·저녁·야식) 음식 추천 서비스 (food.tellmyname.app)",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect_all_foods.mjs",
+    "build:data": "node scripts/build_food_dataset.mjs",
+    "build:prompts": "node scripts/generate_prompt_txt_files.mjs",
+    "build:i18n": "node scripts/build_i18n_bundles.mjs",
+    "build": "node scripts/build_i18n_bundles.mjs && node scripts/generate_static_site.mjs",
+    "dev": "node scripts/dev_server.mjs",
+    "deploy": "npm run build && npx wrangler deploy",
+    "upload:r2": "node scripts/upload_to_r2.mjs",
+    "test:hash": "node scripts/test_hash_distribution.mjs",
+    "test:seo": "node tests/test_seo.mjs",
+    "test:all": "node tests/test_all_features.mjs && node tests/test_i18n.mjs && node tests/test_seo.mjs && node tests/test_worldcup.mjs",
+    "test": "node tests/test_all_features.mjs && node tests/test_i18n.mjs && node tests/test_seo.mjs && node tests/test_worldcup.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.158.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

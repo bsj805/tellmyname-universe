@@ -1,0 +1,402 @@
+{
+ "00001": {
+  "name": "Wednesday School Special Tomato Meat Spaghetti",
+  "tagline": "The legendary school lunch spaghetti and garlic bread that doubled the cafeteria queue every Wednesday."
+ },
+ "00002": {
+  "name": "Sausage & Vegetable Ketchup Stir-Fry (Sso-Ya)",
+  "tagline": "Octopus-cut Vienna sausages stir-fried with bell peppers and onions in sweet ketchup sauce."
+ },
+ "00003": {
+  "name": "Nostalgic Pikachu Pork Cutlet",
+  "tagline": "Pikachu-shaped pork cutlet generously slathered with sweet and spicy seasoned chicken sauce."
+ },
+ "00004": {
+  "name": "School Cafeteria Giant Pork Cutlet (Wang-Donkkaseu)",
+  "tagline": "An oversized pork cutlet overflowing the metal lunch tray, smothered in sweet brown demi-glace sauce."
+ },
+ "00005": {
+  "name": "Cheddar Cheese Seasoned Tornado Potato Skewer",
+  "tagline": "Crispy spiral-cut fried potato skewer dusted with savory cheddar cheese powder."
+ },
+ "00006": {
+  "name": "Crispy Candied Sweet Potato (Mattang)",
+  "tagline": "Sweet and crunchy sugar-glazed sweet potato bites topped with roasted black sesame seeds."
+ },
+ "00007": {
+  "name": "Sweet & Spicy Crispy Pollack Gangjeong",
+  "tagline": "Chewy dried pollack bites fried crispy and glazed in a finger-licking sweet-chili sauce."
+ },
+ "00008": {
+  "name": "School Cafeteria Fried Mandu with Spicy Cabbage Salad",
+  "tagline": "Crispy fried crescent dumplings served alongside tangy spicy cabbage and noodle salad."
+ },
+ "00009": {
+  "name": "Fish Cake Skewer Udon Soup with Inari Sushi",
+  "tagline": "Chewy fish cake skewers in deep anchovy-kelp broth paired with sweet-and-sour tofu pockets."
+ },
+ "00010": {
+  "name": "Creamy Sweet Corn & Macaroni Salad",
+  "tagline": "Chewy macaroni, sweet corn kernels, and diced ham tossed in rich savory mayonnaise."
+ },
+ "00011": {
+  "name": "Spicy Stir-Fried Dried Squid & Filefish Strips",
+  "tagline": "Chewy dried seafood strips coated in mayonnaise and tossed in a sticky sweet gochujang sauce."
+ },
+ "00012": {
+  "name": "Pan-Fried Pink Sausage in Egg Batter",
+  "tagline": "Thick round slices of retro Korean pink sausage dipped in egg batter and pan-fried golden."
+ },
+ "00013": {
+  "name": "School Lunch Grilled Short Rib Patties (Tteokgalbi)",
+  "tagline": "Thick, juicy grilled meat patties glazed with glossy sweet teriyaki sauce."
+ },
+ "00014": {
+  "name": "Soy-Braised Egg & Butter Rice with Seaweed",
+  "tagline": "Warm rice tossed with savory quail egg soy broth, melting butter, and roasted seaweed flakes."
+ },
+ "00015": {
+  "name": "School Tteokbokki with Crispy Seaweed Rolls (Gimmari)",
+  "tagline": "Sweet and saucy rice cakes served with crunchy fried seaweed glass noodle rolls."
+ },
+ "00016": {
+  "name": "Frozen Yogurt Drinks & Banana Milk Treat",
+  "tagline": "Nostalgic slushy yogurt bottles and classic sweet banana-flavored milk."
+ },
+ "00017": {
+  "name": "Sugar-Dusted Tornado Hot Dog with Mustard & Ketchup",
+  "tagline": "Fluffy battered sausage rolled in sugar and drizzled with ketchup and honey mustard."
+ },
+ "00018": {
+  "name": "Mini Jjajang Rice with Fried Dumplings & Yellow Radish",
+  "tagline": "Savory black bean sauce with diced pork and potatoes over steamed rice with crispy dumplings."
+ },
+ "00019": {
+  "name": "Perilla Seaweed Soup & Smoked Duck Chive Salad",
+  "tagline": "Rich, nutty perilla seaweed soup paired with pan-seared smoked duck and seasoned chives."
+ },
+ "00020": {
+  "name": "Crispy French Fries with Cheese Stick & Milk",
+  "tagline": "Crunchy shoestring fries and stretchy mozzarella sticks with cold school milk."
+ },
+ "00021": {
+  "name": "[Michelin 3★] Hanwoo Beef & Sea Urchin Tartare on Bugak",
+  "tagline": "Delicate Hanwoo beef tartare topped with fresh sea urchin on a crisp seaweed chip."
+ },
+ "00022": {
+  "name": "[Michelin 3★] Black Truffle & Abalone Liver Risotto",
+  "tagline": "Creamy Wando abalone liver risotto infused with aromatic shaved black truffles."
+ },
+ "00023": {
+  "name": "[Michelin 3★] Ossetra Caviar with Velvety Potato Mousse",
+  "tagline": "Luxurious Ossetra caviar resting on silky smooth warm potato mousse amuse-bouche."
+ },
+ "00024": {
+  "name": "[Michelin 3★] Snow Crab Salad with Korean Pine Nut Sauce",
+  "tagline": "Sweet East Sea snow crab meat paired with an elegant, velvety Korean pine nut dressing."
+ },
+ "00025": {
+  "name": "[Michelin 3★] Hanwoo Beef Wellington with Truffle Jus",
+  "tagline": "Tender Hanwoo beef wrapped in golden puff pastry served with rich Périgord truffle jus."
+ },
+ "00026": {
+  "name": "[Michelin 3★] Wild Pine Mushroom Consommé Rice",
+  "tagline": "Fragrant wild matsutake mushrooms in a crystal-clear Hanwoo beef broth over rice."
+ },
+ "00027": {
+  "name": "[Michelin 3★] Roasted Bresse Chicken with Morel Cream",
+  "tagline": "Tender roasted French Bresse chicken breast served with earthy morel mushroom velouté."
+ },
+ "00028": {
+  "name": "[Michelin 3★] Dom Pérignon Sorbet & Gold White Peach",
+  "tagline": "Refreshing Dom Pérignon champagne sorbet accompanied by 24K gold leaf and poached white peach."
+ },
+ "00029": {
+  "name": "[Michelin 3★] Poached Blue Lobster with Saffron Bisque",
+  "tagline": "Succulent Brittany blue lobster gently poached in butter with creamy saffron bisque emulsion."
+ },
+ "00030": {
+  "name": "[Michelin 3★] Alba White Truffle Tajarin Pasta",
+  "tagline": "Silky hand-cut Piedmontese tajarin pasta generously blanketed with freshly shaved white truffle."
+ },
+ "00031": {
+  "name": "[Michelin 2★] Charcoal Blackthroat Seaperch Pot Rice",
+  "tagline": "Charcoal-grilled seasonal blackthroat seaperch served over fragrant spring herb cast-iron rice."
+ },
+ "00032": {
+  "name": "[Michelin 2★] Straw-Smoked Hanwoo Striploin with Black Garlic",
+  "tagline": "Prime Hanwoo striploin kissed by straw smoke and paired with sweet fermented black garlic purée."
+ },
+ "00033": {
+  "name": "[Michelin 2★] Crispy-Scale Jeju Tilefish & Uni Soup",
+  "tagline": "Crispy scale-seared Jeju tilefish served alongside a briny sea urchin seaweed soup."
+ },
+ "00034": {
+  "name": "[Michelin 2★] Pan-Seared Scallop with Cauliflower Velouté",
+  "tagline": "Plump Hokkaido sea scallop perfectly seared on velvety cauliflower cream."
+ },
+ "00035": {
+  "name": "[Michelin 2★] Chilled Gamtae Soba with Sweet Shrimp & Uni",
+  "tagline": "Cold buckwheat noodles wrapped in fragrant sea fiber and topped with sweet shrimp and sea urchin."
+ },
+ "00036": {
+  "name": "[Michelin 2★] Duck Foie Gras Terrine & Fig Brioche",
+  "tagline": "Velvety duck liver terrine served on toasted brioche with sweet spiced fig compote."
+ },
+ "00037": {
+  "name": "[Michelin 2★] Mugwort Ice Cream & Crisp Gaeseong Juak",
+  "tagline": "Modern herbal Jeju mugwort ice cream paired with traditional honey-glazed sticky rice pastries."
+ },
+ "00038": {
+  "name": "[Michelin 1★] Hanwoo Beef Tartare & Uni Capellini",
+  "tagline": "Angel hair pasta tossed in fresh artisanal perilla oil and topped with Hanwoo tartare and uni."
+ },
+ "00039": {
+  "name": "[Michelin 1★] Crispy Duck Confit with Orange Gastrique",
+  "tagline": "Slow-cooked duck leg with crisp skin and fall-apart meat in tangy orange reduction."
+ },
+ "00040": {
+  "name": "[Michelin 1★] French Onion Soup with Gruyère Crust",
+  "tagline": "Caramelized onion soup in rich beef broth gratineed with toasted baguette and Gruyère cheese."
+ },
+ "00041": {
+  "name": "[Michelin 1★] Grilled White Asparagus & Truffle Hollandaise",
+  "tagline": "Tender grilled royal white asparagus topped with a poached egg and truffle hollandaise."
+ },
+ "00042": {
+  "name": "[Michelin 1★] Charcoal Hanwoo Truffle Tteokgalbi Set",
+  "tagline": "Smoky hand-chopped Hanwoo beef patties served with sweet roasted scallion purée."
+ },
+ "00043": {
+  "name": "[Michelin 1★] Bluefin Otoro & Akami Sushi Omakase",
+  "tagline": "Aged bluefin tuna fatty belly and lean nigiri seasoned over red vinegar sushi rice."
+ },
+ "00044": {
+  "name": "[Michelin 1★] Pistachio Paris-Brest & Espresso Choux",
+  "tagline": "Crispy choux pastry filled with Sicilian pistachio praline cream and espresso ganache."
+ },
+ "00045": {
+  "name": "[Bib Gourmand] Pyongyang Cold Buckwheat Noodles (100% Soba)",
+  "tagline": "Pure buckwheat noodles served in an elegant, chilled clear Hanwoo beef broth."
+ },
+ "00046": {
+  "name": "[Bib Gourmand] Clear Berkshire K Pork Soup with Rice",
+  "tagline": "Thinly sliced Jirisan black pork in a crystal-clear broth served in traditional brass ware."
+ },
+ "00047": {
+  "name": "[Bib Gourmand] Myeongdong Knife-Cut Noodles & Dumplings",
+  "tagline": "Handmade noodles in rich chicken broth with spicy minced meat garnish and juicy dumplings."
+ },
+ "00048": {
+  "name": "[Bib Gourmand] Gwanghwamun Chilled Soba Trays & Crepe",
+  "tagline": "Chewy buckwheat noodles dipped in ice-cold savory dashi broth with rolled buckwheat crepes."
+ },
+ "00049": {
+  "name": "[Bib Gourmand] 100-Year Traditional Hanwoo Seolleongtang",
+  "tagline": "Milky ox bone soup slow-simmered in giant cauldrons since dawn, served with somen noodles."
+ },
+ "00050": {
+  "name": "[Bib Gourmand] Soy Sauce Marinated West Coast Female Crab",
+  "tagline": "Fresh blue crab bursting with sweet roe and aged in master soy marinade."
+ },
+ "00051": {
+  "name": "[Bib Gourmand] Taiwanese Beef Noodle Soup & Fish-Fragrant Eggplant",
+  "tagline": "Aromatic star anise beef shank noodle soup paired with crispy sweet-savory fried eggplant."
+ },
+ "00052": {
+  "name": "[Bib Gourmand] Perilla Oil Makguksu & Boiled Pork Belly",
+  "tagline": "Buckwheat noodles tossed in stone-ground perilla oil and seaweed alongside tender pork belly."
+ },
+ "00053": {
+  "name": "[Bib Gourmand] Rustic Cheonggukjang & Spicy Squid Bibimbap",
+  "tagline": "Earthy fermented soybean stew paired with smoky spicy squid tossed over rice."
+ },
+ "00054": {
+  "name": "[Bib Gourmand] Braised Jeju Pork Trotters & Spicy Tray Noodles",
+  "tagline": "Tender, gelatinous steamed pork trotters served with chilled spicy vegetable tray noodles."
+ },
+ "00055": {
+  "name": "Whole Fresh Jeju Organic Raw Carrot",
+  "tagline": "A crunchy, refreshingly sweet organic carrot fresh from Jeju volcanic soil."
+ },
+ "00056": {
+  "name": "Chilled Ripe Beefsteak Tomato with Sugar",
+  "tagline": "Ripe sliced tomato heavily dusted with sugar, leaving sweet tomato syrup at the bottom."
+ },
+ "00057": {
+  "name": "Crisp Date Cherry Tomatoes",
+  "tagline": "A guilt-free midnight snack of sweet, juicy bite-sized date tomatoes."
+ },
+ "00058": {
+  "name": "Summit Raw Cucumber with Korean Ssamjang Dip",
+  "tagline": "A cold, crunchy whole cucumber dipped in savory ssamjang at the mountain peak."
+ },
+ "00059": {
+  "name": "Premium Giant Shine Muscat Grape Cluster",
+  "tagline": "Crisp-skinned, seedless green grapes bursting with honey and mango aroma."
+ },
+ "00060": {
+  "name": "Crisp Cheongsong Honey Apple with Skin",
+  "tagline": "Freshly picked sweet and tart apple with translucent honey core eaten skin-on."
+ },
+ "00061": {
+  "name": "Steamed Haenam Sweet Potato with Radish Kimchi",
+  "tagline": "Piping-hot honey sweet potato paired with crisp, tangy ponytail radish kimchi."
+ },
+ "00062": {
+  "name": "Thick Greek Yogurt with Blueberries & Honeycomb",
+  "tagline": "Dense, creamy artisan Greek yogurt topped with frozen blueberries and raw honeycomb."
+ },
+ "00063": {
+  "name": "Soft-Boiled Seasoned Eggs & Americano",
+  "tagline": "Perfect soft-boiled eggs with jammy savory yolks paired with rich coffee."
+ },
+ "00064": {
+  "name": "Steamed Cabbage Wraps with Snail Ssamjang",
+  "tagline": "Tender steamed cabbage leaves wrapped around chewy river snails in seasoned soybean paste."
+ },
+ "00065": {
+  "name": "European Flat Donut Peach & Nectarine Plate",
+  "tagline": "Juicy, fragrant donut peach and crisp nectarine slices dripping with nectar."
+ },
+ "00066": {
+  "name": "Sweet Jeju Field Tangerines (5pcs)",
+  "tagline": "Sweet and tangy seedless mandarin oranges peeled lazily under a warm blanket."
+ },
+ "00067": {
+  "name": "Tri-Color Bell Pepper Sticks with Lemon Hummus",
+  "tagline": "Crisp colorful sweet bell pepper spears served with creamy citrus garlic hummus."
+ },
+ "00068": {
+  "name": "Ice Water Watermelon Spears",
+  "tagline": "Crisp, icy watermelon slices enjoyed during a sweltering summer afternoon."
+ },
+ "00069": {
+  "name": "Warm Steamed Edamame Pods with Sea Salt",
+  "tagline": "Plump green soybean pods freshly steamed and tossed with coarse flaky sea salt."
+ },
+ "00070": {
+  "name": "Fresh Celery Sticks with Creamy Peanut Butter",
+  "tagline": "Crunchy, fibrous celery sticks paired with nutty, savory whole peanut butter."
+ },
+ "00071": {
+  "name": "Roasted Chestnuts in Brown Paper Bag",
+  "tagline": "Warm, sweet winter chestnuts freshly roasted over open coals until cracked open."
+ },
+ "00072": {
+  "name": "Warm Soy Milk & Soft White Tofu with Soy Sauce",
+  "tagline": "Comforting warm soy milk paired with cloud-soft fresh tofu drizzled with seasoned soy."
+ },
+ "00073": {
+  "name": "Crunchy Kohlrabi & Korean Radish Strips",
+  "tagline": "Refreshing crisp raw turnip and sweet Korean radish sticks dipped in savory chili paste."
+ },
+ "00074": {
+  "name": "Steamed Glutinous Corn on the Cob (2pcs)",
+  "tagline": "Chewy, naturally sweet Korean waxy corn freshly steamed in street cauldrons."
+ },
+ "00075": {
+  "name": "Fresh Strawberry & Shine Muscat Cup",
+  "tagline": "A vibrant fresh fruit cup loaded with fragrant King strawberries and crunchy muscat grapes."
+ },
+ "00076": {
+  "name": "Thin-Crust Gorgonzola Pizza with Pure Honey",
+  "tagline": "Crisp oven-baked flatbread topped with pungent Gorgonzola cheese and sweet wildflower honey."
+ },
+ "00077": {
+  "name": "Deep-Fried Boneless Chicken & Fried Rice Cakes",
+  "tagline": "Crunchy double-fried boneless chicken tossed with chewy rice cakes in sweet soy glaze."
+ },
+ "00078": {
+  "name": "Pork Belly Kimchi Stew with Extra Soft Tofu",
+  "tagline": "Rich, bubbling aged kimchi stew packed with thick pork belly and silky soft tofu."
+ },
+ "00079": {
+  "name": "Gochujang Pork Bulgogi Rice Bowl with Fried Egg",
+  "tagline": "Spicy fire-grilled pork shoulder over hot rice topped with a runny fried egg."
+ },
+ "00080": {
+  "name": "Crispy Potato Pancake with Green Onion Soy Dip",
+  "tagline": "Finely grated pan-fried potato pancake with crunchy edges and tender center."
+ },
+ "00081": {
+  "name": "Creamy Shrimp Rose Pasta with Garlic Baguette",
+  "tagline": "Plump shrimp tossed in velvety tomato cream sauce served with toasted garlic bread."
+ },
+ "00082": {
+  "name": "Spicy Mixed Cold Noodles with Grilled Galbi",
+  "tagline": "Chewy buckwheat noodles tossed in sweet-chili sauce paired with smoky charcoal grilled ribs."
+ },
+ "00083": {
+  "name": "Traditional Samgyetang (Ginseng Whole Chicken Soup)",
+  "tagline": "Tender whole spring chicken stuffed with sticky rice, ginseng, and jujubes in medicinal broth."
+ },
+ "00084": {
+  "name": "Spicy Mala Tang Hot Pot Bowl with Chinese Vermicelli",
+  "tagline": "Numbing Sichuan hot pot soup filled with wide glass noodles, beef slices, and fresh greens."
+ },
+ "00085": {
+  "name": "Jeonju Bean Sprout Hangover Soup with Poached Eggs",
+  "tagline": "Clear, revitalizing bean sprout soup served with separate soft-poached eggs and seaweed."
+ },
+ "00086": {
+  "name": "Half Golden Fried Half Seasoned Crispy Chicken",
+  "tagline": "The ultimate midnight classic: half extra-crispy fried and half sweet and spicy glazed chicken."
+ },
+ "00087": {
+  "name": "Grilled Hanwoo Gopchang & Daechang Platter",
+  "tagline": "Sizzling beef small and large intestines grilled with seasoned garlic chives on hot stone."
+ },
+ "00088": {
+  "name": "Fresh Norwegian Salmon Nigiri (10pcs) & Mini Udon",
+  "tagline": "Thick slices of fresh and torched salmon sushi served with comforting hot noodle broth."
+ },
+ "00089": {
+  "name": "Crispy Cutlet Stuffed with Molten Mozzarella",
+  "tagline": "Crunchy golden panko pork cutlet overflowing with endless melted mozzarella cheese."
+ },
+ "00090": {
+  "name": "Buldak Jjapaghetti Combo & Tuna Mayo Triangle Kimbap",
+  "tagline": "Fiery spicy chicken ramen mixed with sweet black bean noodles and a savory rice triangle."
+ },
+ "00091": {
+  "name": "Warm Crispy Butter Salt Bread & Iced Latte",
+  "tagline": "Freshly baked bread with a hollow butter cave, crunchy base, flaky sea salt, and iced coffee."
+ },
+ "00092": {
+  "name": "Red Bean & Custard Bungeoppang Pastries (6pcs)",
+  "tagline": "Warm fish-shaped winter street waffles stuffed with sweet red bean paste and rich custard."
+ },
+ "00093": {
+  "name": "Brunch Cafe Eggs Benedict with Avocado Salad",
+  "tagline": "Toasted English muffins layered with smoked salmon, poached eggs, and golden hollandaise."
+ },
+ "00094": {
+  "name": "Rich Hakata Tonkotsu Ramen with Chashu & Egg",
+  "tagline": "Creamy 24-hour pork bone broth with springy noodles, seared pork belly, and soft-boiled egg."
+ },
+ "00095": {
+  "name": "Milk Shaved Ice with Sweet Red Beans & Injeolmi",
+  "tagline": "Snowy milk shaved ice piled with slow-cooked sweet red beans and chewy roasted soybean rice cakes."
+ },
+ "00096": {
+  "name": "Tony Stark First-Thing-Home Cheeseburger (Iron Man)",
+  "tagline": "The legendary classic double cheeseburger Tony Stark demanded right after escaping captivity."
+ },
+ "00097": {
+  "name": "Oldboy 15-Year Confinement Golden Fried Mandu",
+  "tagline": "The crisp fried dumplings Oh Dae-su ate every single day during his 15-year solitary lockup."
+ },
+ "00098": {
+  "name": "Parasite Hanwoo Sirloin Chapaguri (Ram-don)",
+  "tagline": "Rich combination of Chapagetti and Neoguri noodles topped with lavish cubes of Hanwoo sirloin."
+ },
+ "00099": {
+  "name": "Extreme Job Suwon King Galbi Fried Chicken",
+  "tagline": "Crispy fried chicken tossed in sweet and savory Suwon beef short-rib marinade."
+ },
+ "00100": {
+  "name": "Goblin Quebec Tenderloin Steak by the Fireplace",
+  "tagline": "The tender beef tenderloin steak the ancient Goblin treated his bride to in Quebec."
+ }
+}

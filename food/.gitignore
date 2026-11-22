@@ -1,0 +1,8 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.wrangler/
+.DS_Store
+images/failed_images.log
+screenshot_*.png

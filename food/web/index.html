@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍱</text></svg>" />
+  
+  <title>오늘 뭐 먹지? (Mukbang) - 이름 × 날짜 × 타임존 맞춤 하루 5끼 미식 식단소</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="초중고 급식 피카츄돈까스부터 미슐랭 3스타 한우 우니 타르타르, 생당근 자연식까지! 오늘 내 이름에 추천된 하루 5끼(아침·점심·간식·저녁·야식) 식단을 확인하고 인스타 스토리와 카카오톡으로 공유해보세요." />
+  <meta name="keywords" content="오늘뭐먹지, 이름음식추천, 하루5끼식단, 점심추천, 저녁메뉴, 급식메뉴, 미슐랭3스타, 먹방, Mukbang, tellmyname" />
+  <meta name="author" content="Mukbang - 오늘 뭐 먹지?" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://food.tellmyname.app" />
+
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="오늘 뭐 먹지? (Mukbang)" />
+  <meta property="og:title" content="오늘 뭐 먹지? - 내 이름의 하루 5끼 맞춤 추천 식단" />
+  <meta property="og:description" content="지금 먹을 끼니가 최상단에 쏙! 아침부터 야식까지 5끼 정배열 식단표와 9:16 인스타 스토리 맞춤 공유를 즐겨보세요." />
+  <meta property="og:image" content="https://food.tellmyname.app/images/00001.png" />
+  <meta property="og:url" content="https://food.tellmyname.app" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="오늘 뭐 먹지? (Mukbang) - 이름 기반 하루 5끼 추천" />
+  <meta name="twitter:description" content="내 이름과 오늘 날짜에 딱 맞춘 아침·점심·간식·저녁·야식 메뉴를 확인해보세요!" />
+  <meta name="twitter:image" content="https://food.tellmyname.app/images/00001.png" />
+
+  <!-- Web Fonts (Pretendard & Noto Serif KR) -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/share.css" />
+  <link rel="stylesheet" href="/css/gallery.css" />
+  <link rel="stylesheet" href="/css/worldcup.css" />
+</head>
+<body>
+  <div class="app-layout">
+
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-inner container">
+        <a href="/" class="brand-link" id="brand-home-link" aria-label="오늘 뭐 먹지? 홈으로 이동">
+          <span class="brand-emoji" aria-hidden="true">🍱</span>
+          <div class="brand-text-group">
+            <h1 class="brand-title"><span data-i18n="brandTitle">오늘 뭐 먹지?</span> <span class="brand-badge" data-i18n="brandBadge">Mukbang</span></h1>
+            <p class="brand-slogan" data-i18n="brandSlogan">이름 × 날짜 × 타임존 기반 하루 5끼 맞춤 미식 식단소</p>
+          </div>
+        </a>
+
+        <div class="header-right-actions">
+          <div id="langSlot">
+            <div class="lang-selector-wrap">
+              <span class="lang-globe-icon" aria-hidden="true">🌐</span>
+              <label for="lang-select" class="sr-only">언어 선택 (Language)</label>
+              <select id="lang-select" class="lang-select" aria-label="언어 선택">
+                <option value="ko" selected>한국어</option>
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="fr">Français</option>
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="ru">Русский</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="zh">简体中文</option>
+                <option value="ms">Bahasa Melayu</option>
+              </select>
+            </div>
+          </div>
+          <a href="https://tellmyname.app" class="sub-network-link" title="TellMyName 패밀리 허브">
+            <span class="network-icon">✨</span> <span data-i18n="subNetworkLink">TellMyName</span>
+          </a>
+          <a href="https://myhome.tellmyname.app" class="sub-network-link" title="나에게 어울리는 집">
+            <span class="network-icon">🏡</span> <span data-i18n="footerMyHomeLink">나에게 어울리는 집</span>
+          </a>
+          <a href="https://photodiary.tellmyname.app" class="sub-network-link" title="포토 다이어리">
+            <span class="network-icon">📷</span> <span data-i18n="footerPhotoDiaryLink">포토 다이어리</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Navigation Tab Bar: [🍽 오늘의 식단] / [🖼 일러스트 도감] -->
+    <nav class="app-main-tabs" aria-label="메인 탭 네비게이션">
+      <div class="tabs-container">
+        <button type="button" id="tab-nav-daily" class="main-tab-btn active" data-tab="daily">
+          <span class="tab-emoji">🍽</span> <span data-i18n="dailyTab">오늘의 식단</span>
+        </button>
+        <button type="button" id="tab-nav-gallery" class="main-tab-btn" data-tab="gallery">
+          <span class="tab-emoji">🖼</span> <span data-i18n="galleryTab">일러스트 도감</span>
+        </button>
+        <button type="button" id="tab-nav-worldcup" class="main-tab-btn" data-tab="worldcup">
+          <span class="tab-emoji">🏆</span> <span data-i18n="worldcupTab">음식 월드컵</span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="app-main container">
+
+      <!-- Daily Recommendation View (Default Tab) -->
+      <div id="daily-view" class="daily-view">
+
+      <!-- Section 1: Name Input & Sample Chips -->
+      <section class="name-hero-section" aria-label="이름 입력 및 검색">
+        <div class="name-search-box">
+          <form id="name-form" class="name-form" onsubmit="return false;">
+            <div class="name-input-wrap">
+              <label for="name-input" class="sr-only" data-i18n="nameInputLabel">추천받을 이름 입력</label>
+              <span class="input-icon" aria-hidden="true">✍️</span>
+              <input
+                type="text"
+                id="name-input"
+                class="name-input"
+                placeholder="이름을 입력하세요 (예: 김서윤, 손흥민, 아이유...)"
+                data-i18n-placeholder="nameInputPlaceholder"
+                maxlength="20"
+                autocomplete="off"
+                spellcheck="false"
+              />
+              <button type="submit" id="name-submit-btn" class="btn btn-primary name-submit-btn">
+                <span data-i18n="nameSubmitBtn">추천받기</span>
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </button>
+            </div>
+          </form>
+
+          <!-- Trending Sample Names & Random Button (Horizontally Scrollable 1 Row) -->
+          <div class="sample-names-bar">
+            <span class="sample-label" data-i18n="sampleLabel">🔥 추천:</span>
+            <div class="sample-chips-list" id="sample-chips-container">
+              <button type="button" class="sample-chip" data-name="김서윤">김서윤</button>
+              <button type="button" class="sample-chip" data-name="이민준">이민준</button>
+              <button type="button" class="sample-chip" data-name="박지훈">박지훈</button>
+              <button type="button" class="sample-chip" data-name="최수아">최수아</button>
+              <button type="button" class="sample-chip" data-name="정우성">정우성</button>
+              <button type="button" class="sample-chip" data-name="홍길동">홍길동</button>
+              <button type="button" class="sample-chip" data-name="아이유">아이유</button>
+              <button type="button" class="sample-chip" data-name="손흥민">손흥민</button>
+            </div>
+            <button type="button" id="random-name-btn" class="btn-random-name" title="랜덤 이름 뽑기" data-i18n-title="randomNameTitle">
+              <span aria-hidden="true">🎲</span> <span data-i18n="randomNameBtn">랜덤</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Top Hero Spotlight Section (Current Timezone & Hour Active Meal) -->
+      <section id="hero-current-meal" class="hero-current-meal-section" aria-label="현재 시간 추천 끼니">
+        <!-- Will be dynamically injected by web/js/app.js -->
+        <div class="hero-loading-skeleton" id="hero-skeleton">
+          <div class="skeleton-pill"></div>
+          <div class="skeleton-headline"></div>
+          <div class="skeleton-image"></div>
+          <div class="skeleton-text"></div>
+        </div>
+      </section>
+
+      <!-- 5-Meal Mini Chips Navigation (Tap to swap Hero meal) -->
+      <nav class="hero-meal-chips-nav" id="hero-meal-chips-nav" aria-label="끼니 바로가기 탭">
+        <button type="button" class="hero-meal-chip" data-meal="breakfast" data-i18n="chip_breakfast">🌅 아침</button>
+        <button type="button" class="hero-meal-chip active" data-meal="lunch" data-i18n="chip_lunch">☀️ 점심</button>
+        <button type="button" class="hero-meal-chip" data-meal="snack" data-i18n="chip_snack">🍰 간식</button>
+        <button type="button" class="hero-meal-chip" data-meal="dinner" data-i18n="chip_dinner">🌙 저녁</button>
+        <button type="button" class="hero-meal-chip" data-meal="night" data-i18n="chip_night">🦉 야식</button>
+      </nav>
+
+      <!-- Section 3: Daily Retention Bar (One-Line Midnight Countdown) -->
+      <section class="retention-bar-section" aria-label="메뉴 카운트다운">
+        <div class="midnight-countdown-bar" id="countdown-wrap" title="자정 리셋까지 남은 시간" data-i18n-title="countdownTooltip">
+          <span class="countdown-icon" aria-hidden="true">⏳</span>
+          <span class="countdown-label" data-i18n="nextMenuCountdown">다음 메뉴까지</span>
+          <strong id="midnight-countdown" class="countdown-timer">00:00:00</strong>
+        </div>
+      </section>
+
+      <!-- Section 4: Bottom 5-Meal Chronological Timeline (Breakfast -> Lunch -> Snack -> Dinner -> Night) -->
+      <section id="daily-timeline-section" class="daily-timeline-section" aria-label="하루 5끼 전체 식단표">
+        <div class="timeline-header-wrap">
+          <div class="timeline-title-group">
+            <div class="timeline-badge" data-i18n="timelineBadge">DAILY 5 MEALS</div>
+            <h2 class="timeline-title" id="timeline-main-title">
+              <span id="timeline-user-name">김서윤</span>님의 하루 5끼 전체 식단표
+            </h2>
+            <p class="timeline-desc" data-i18n="timelineDesc">
+              아침부터 야식까지 순서대로 엄선된 맞춤 메뉴입니다. 원하는 끼니를 체크하여 자유롭게 공유해보세요!
+            </p>
+          </div>
+
+          <!-- Date Navigation Bar -->
+          <div class="date-nav-group" id="date-nav-group">
+            <button type="button" id="btn-prev-day" class="btn-date-nav" title="어제 메뉴 보기">
+              <span aria-hidden="true">◀</span> <span data-i18n="prevDay">어제</span>
+            </button>
+            <button type="button" id="btn-today" class="btn-date-nav active" title="오늘 메뉴 보기">
+              📅 <span id="current-date-text">오늘 (2026.11.08)</span>
+            </button>
+            <button type="button" id="btn-next-day" class="btn-date-nav" title="내일 메뉴 미리보기">
+              <span data-i18n="nextDay">내일 미리보기</span> <span aria-hidden="true">▶</span>
+            </button>
+          </div>
+
+          <div class="timeline-selection-controls">
+            <button type="button" id="btn-select-all" class="btn-control-chip" title="5끼 전체 선택">
+              <span aria-hidden="true">✓</span> <span data-i18n="selectAll">전체 선택 (5끼)</span>
+            </button>
+            <button type="button" id="btn-select-current" class="btn-control-chip" title="현재 시간 끼니만 선택">
+              <span aria-hidden="true">🎯</span> <span data-i18n="selectCurrent">지금 끼니만</span>
+            </button>
+            <button type="button" id="btn-deselect-all" class="btn-control-chip" title="선택 해제">
+              ✕ <span data-i18n="deselectAll">선택 해제</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 5 Chronological Meal Cards (Ordered: Breakfast -> Lunch -> Snack -> Dinner -> Night) -->
+        <div class="timeline-cards-grid" id="timeline-cards-container">
+          <!-- Dynamically populated by web/js/app.js -->
+        </div>
+      </section>
+
+      <!-- Section 5: Fun Variety & Origin Spectrum Guide (Shown ONLY on initial root screen before name search) -->
+      <section class="origin-spectrum-section" id="initial-spectrum-section" aria-label="8대 음식 출처 스펙트럼 안내">
+        <div class="spectrum-card">
+          <h3 class="spectrum-title" data-i18n="spectrumTitle">🌈 매일 만나는 극단의 미식 스펙트럼</h3>
+          <p class="spectrum-desc" data-i18n="spectrumDesc">
+            유기농 생당근·자연식부터 초중고 급식 피카츄돈까스, 미슐랭 3스타 파인다이닝, 기상천외한 특이 메뉴까지 매일 새롭게 펼쳐집니다.
+          </p>
+          <div class="origin-chips-grid">
+            <span class="origin-chip origin-school" data-i18n="origin_SCHOOL_LUNCH">🍱 초중고 급식메뉴</span>
+            <span class="origin-chip origin-michelin3" data-i18n="origin_MICHELIN_3">⭐⭐⭐ 미슐랭 3스타</span>
+            <span class="origin-chip origin-michelin2" data-i18n="origin_MICHELIN_2">⭐⭐ 미슐랭 2스타</span>
+            <span class="origin-chip origin-michelin1" data-i18n="origin_MICHELIN_1">⭐ 미슐랭 1스타</span>
+            <span class="origin-chip origin-bib" data-i18n="origin_BIB_GOURMAND">🏅 미슐랭 빕 구르망</span>
+            <span class="origin-chip origin-raw" data-i18n="origin_RAW_NATURAL">🥕 생야채·과일·자연식</span>
+            <span class="origin-chip origin-unique" data-i18n="origin_UNIQUE_SPECIAL">🧪 음식점 특이메뉴</span>
+            <span class="origin-chip origin-korean" data-i18n="origin_KOREAN_POPULAR">🍲 한국 인기 메뉴</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: Timezone & Hour Simulator Details (Bottom <details>, Closed by Default) -->
+      <section class="tz-simulator-section" aria-label="타임존 및 시간대 시뮬레이터">
+        <details class="tz-simulator-details" id="tz-simulator-details">
+          <summary class="tz-simulator-summary">
+            <span class="summary-left">
+              <span class="summary-icon">⚙️</span>
+              <strong class="summary-title" data-i18n="simulatorTitle">시간대 체험 (시뮬레이터)</strong>
+            </span>
+            <span class="summary-badge" id="tz-summary-status" data-i18n="simLiveMode">실시간 모드</span>
+          </summary>
+
+          <div class="tz-simulator-card">
+            <div class="tz-sim-top">
+              <div class="tz-status-wrap">
+                <span id="tz-live-indicator" class="pulse-dot active" aria-hidden="true"></span>
+                <span id="tz-status-text" class="tz-status-text" data-i18n="simLiveModeDetect">실시간 감지 모드</span>
+                <span id="tz-current-time-badge" class="tz-time-badge">12:00</span>
+              </div>
+
+              <!-- Timezone Selector -->
+              <div class="tz-select-wrap">
+                <label for="tz-select" class="tz-label" data-i18n="tzLabel">🌍 접속 타임존:</label>
+                <select id="tz-select" class="tz-select" aria-label="시뮬레이션 타임존 선택">
+                  <option value="Asia/Seoul" selected>🇰🇷 서울 (Asia/Seoul · KST)</option>
+                  <option value="Asia/Tokyo">🇯🇵 도쿄 (Asia/Tokyo · JST)</option>
+                  <option value="America/New_York">🇺🇸 뉴욕 (America/New_York · EST)</option>
+                  <option value="America/Los_Angeles">🇺🇸 LA (America/Los_Angeles · PST)</option>
+                  <option value="Europe/London">🇬🇧 런던 (Europe/London · GMT)</option>
+                  <option value="Europe/Paris">🇫🇷 파리 (Europe/Paris · CET)</option>
+                  <option value="Asia/Bangkok">🇹🇭 방콕 (Asia/Bangkok · ICT)</option>
+                  <option value="UTC">🌐 UTC (협정세계시)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Quick Hour Buttons -->
+            <div class="quick-hours-bar">
+              <span class="quick-hours-label" data-i18n="quickHoursLabel">⏰ 끼니별 시간 체험:</span>
+              <div class="quick-hours-btns">
+                <button type="button" class="btn-hour-pill" data-hour="8" title="아침 시간대 (08:00)">
+                  <span class="hour-emoji">🌅</span> <span data-i18n="hour_breakfast">08:00 아침</span>
+                </button>
+                <button type="button" class="btn-hour-pill" data-hour="11" title="점심 시간대 (11:00)">
+                  <span class="hour-emoji">☀️</span> <span data-i18n="hour_lunch">11:00 점심</span>
+                </button>
+                <button type="button" class="btn-hour-pill" data-hour="15" title="간식 시간대 (15:00)">
+                  <span class="hour-emoji">🍰</span> <span data-i18n="hour_snack">15:00 간식</span>
+                </button>
+                <button type="button" class="btn-hour-pill" data-hour="19" title="저녁 시간대 (19:00)">
+                  <span class="hour-emoji">🌙</span> <span data-i18n="hour_dinner">19:00 저녁</span>
+                </button>
+                <button type="button" class="btn-hour-pill" data-hour="23" title="야식 시간대 (23:00)">
+                  <span class="hour-emoji">🦉</span> <span data-i18n="hour_night">23:00 야식</span>
+                </button>
+                <button type="button" id="btn-reset-live-time" class="btn-hour-pill btn-live-reset active" title="현재 실제 시간으로 복귀">
+                  <span class="hour-emoji">🔄</span> <span data-i18n="resetLiveTime">실시간 복귀</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Hour Slider (0 ~ 23) -->
+            <div class="hour-slider-wrap">
+              <label for="hour-slider" class="slider-label">
+                <span id="slider-hour-heading">정밀 시간 조절: <strong id="slider-hour-value">12:00</strong></span>
+                <span id="slider-meal-hint" class="slider-meal-hint">점심 추천 시간</span>
+              </label>
+              <input
+                type="range"
+                id="hour-slider"
+                class="hour-slider"
+                min="0"
+                max="23"
+                step="1"
+                value="12"
+                aria-label="0시부터 23시까지 시간 조절 슬라이더"
+              />
+              <div class="slider-ticks" aria-hidden="true">
+                <span data-i18n="slider0h">0시</span>
+                <span data-i18n="slider6h">6시</span>
+                <span data-i18n="slider12h">12시</span>
+                <span data-i18n="slider18h">18시</span>
+                <span data-i18n="slider23h">23시</span>
+              </div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      </div><!-- /#daily-view -->
+
+      <!-- Gallery Tab View (Feature #14) -->
+      <section id="gallery-view" class="gallery-section" style="display: none;" aria-label="일러스트 음식 도감">
+        <div class="gallery-controls-header">
+          <!-- Live Search & Random Recommendation Button -->
+          <div class="gallery-search-row">
+            <div class="gallery-search-wrap">
+              <span class="gallery-search-icon" aria-hidden="true">🔍</span>
+              <input
+                type="text"
+                id="gallery-search-input"
+                class="gallery-search-input"
+                placeholder="음식 이름 검색 (예: 떡볶이, 파스타, 샐러드...)"
+                data-i18n-placeholder="gallerySearchPlaceholder"
+                autocomplete="off"
+                spellcheck="false"
+              />
+            </div>
+            <button type="button" id="gallery-random-btn" class="gallery-random-btn" title="선택 카테고리에서 무작위 추천" data-i18n-title="galleryRandomTitle">
+              <span aria-hidden="true">🎲</span> <span data-i18n="galleryRandomBtn">랜덤 추천</span>
+            </button>
+          </div>
+
+          <!-- Category Filter Chips (Meals, Origins, Delivery Categories) -->
+          <div class="gallery-chips-bar" id="gallery-chips-container" role="toolbar" aria-label="음식 카테고리 필터">
+            <!-- Dynamically populated by web/js/gallery.js -->
+          </div>
+
+          <!-- Result Count / Filter Status -->
+          <div class="gallery-status-bar">
+            <span><span data-i18n="gallerySelectedCount">선택된 메뉴:</span> <strong id="gallery-result-count" class="gallery-count-badge">401</strong><span data-i18n="galleryCountUnit">개</span></span>
+          </div>
+        </div>
+
+        <!-- Responsive Gallery Grid (2 columns on mobile, 4-5 on desktop) -->
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Dynamically populated by web/js/gallery.js -->
+        </div>
+      </section>
+
+      <!-- Food Ideal Type World Cup View (Feature #15: /worldcup) -->
+      <div id="worldcup-view" class="worldcup-view" style="display: none;">
+        <!-- Dynamically populated by web/js/worldcup.js -->
+      </div>
+
+    </main>
+
+    <!-- Sticky Bottom Floating Share Bar -->
+    <aside id="sticky-share-bar" class="sticky-share-bar" aria-label="공유 플로팅 액션 바">
+      <div class="sticky-inner container">
+        <div class="sticky-info-group">
+          <span class="sticky-status-icon" aria-hidden="true">🍱</span>
+          <div class="sticky-text-wrap">
+            <span id="sticky-selected-count" class="sticky-count-text">1개 끼니 선택됨</span>
+            <span id="sticky-selected-names" class="sticky-names-text">☀️ 점심</span>
+          </div>
+        </div>
+        <div class="sticky-btn-group">
+          <button type="button" id="sticky-share-selected-btn" class="btn btn-primary sticky-btn">
+            <span data-i18n="stickyShareSelected">📤 선택 메뉴 공유하기</span>
+          </button>
+          <button type="button" id="sticky-share-all-btn" class="btn btn-outline sticky-btn">
+            <span data-i18n="stickyShareAll">📋 5끼 전체 공유</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Share Modal / Drawer (Instagram Story 9:16 & KakaoTalk) -->
+    <div id="share-modal" class="share-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+      <div class="share-modal-dialog">
+        
+        <div class="share-modal-header">
+          <div class="modal-title-wrap">
+            <span class="modal-badge" data-i18n="modalBadge">STORY & KAKAO SHARE</span>
+            <h2 id="share-modal-title" class="share-modal-title" data-i18n="modalTitle">🍽️ 추천 식단 공유하기</h2>
+          </div>
+          <button type="button" id="modal-close-btn" class="modal-close-btn" aria-label="공유 모달 닫기" data-i18n-aria="modalClose">✕</button>
+        </div>
+
+        <div class="share-modal-body">
+          
+          <!-- Sharing Mode Selector Tabs -->
+          <div class="share-mode-tabs" role="tablist">
+            <button type="button" id="tab-mode-selective" class="share-mode-tab active" role="tab" aria-selected="true">
+              <span id="tab-selective-label">✅ 원하는 음식만 선택 (<span id="modal-selected-count">1</span>끼)</span>
+            </button>
+            <button type="button" id="tab-mode-daily-all" class="share-mode-tab" role="tab" aria-selected="false">
+              <span data-i18n="tabDailyAll">📋 오늘의 5끼 전체 공유</span>
+            </button>
+          </div>
+
+          <!-- Meal Checkboxes for Selective Mode -->
+          <div class="modal-meal-selector-wrap" id="modal-meal-selector-wrap">
+            <div class="modal-meal-chips">
+              <label class="modal-meal-chip" data-meal="breakfast">
+                <input type="checkbox" class="modal-meal-checkbox" value="breakfast" />
+                <span class="chip-content" data-i18n="chip_breakfast">🌅 아침</span>
+              </label>
+              <label class="modal-meal-chip" data-meal="lunch">
+                <input type="checkbox" class="modal-meal-checkbox" value="lunch" checked />
+                <span class="chip-content" data-i18n="chip_lunch">☀️ 점심</span>
+              </label>
+              <label class="modal-meal-chip" data-meal="snack">
+                <input type="checkbox" class="modal-meal-checkbox" value="snack" />
+                <span class="chip-content" data-i18n="chip_snack">🍰 간식</span>
+              </label>
+              <label class="modal-meal-chip" data-meal="dinner">
+                <input type="checkbox" class="modal-meal-checkbox" value="dinner" />
+                <span class="chip-content" data-i18n="chip_dinner">🌙 저녁</span>
+              </label>
+              <label class="modal-meal-chip" data-meal="night">
+                <input type="checkbox" class="modal-meal-checkbox" value="night" />
+                <span class="chip-content" data-i18n="chip_night">🦉 야식</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Canvas Story Theme Picker -->
+          <div class="story-theme-bar">
+            <span class="theme-label" data-i18n="themeLabel">🎨 스토리 테마:</span>
+            <div class="theme-chips">
+              <button type="button" class="theme-chip active" data-theme="amber" data-i18n="themeAmber">🍽️ 미식 앰버</button>
+              <button type="button" class="theme-chip" data-theme="dark" data-i18n="themeDark">✨ 럭셔리 다크</button>
+              <button type="button" class="theme-chip" data-theme="fresh" data-i18n="themeFresh">🌿 자연식 그린</button>
+            </div>
+          </div>
+
+          <!-- 9:16 Canvas Story Preview Area -->
+          <div class="canvas-preview-container">
+            <div class="canvas-aspect-box">
+              <canvas id="story-canvas" width="1080" height="1920" class="story-canvas"></canvas>
+            </div>
+            <div class="canvas-preview-hint">
+              <span class="hint-icon">📱</span> <span data-i18n="canvasHint">9:16 인스타그램 스토리 최적화 해상도 (1080 × 1920)</span>
+            </div>
+          </div>
+
+          <!-- Share Action Buttons (5 Explicit Actions) -->
+          <div class="modal-actions-list">
+            <button type="button" id="modal-share-story-btn" class="btn btn-share-instagram">
+              <span class="btn-icon">📸</span>
+              <span class="btn-label" data-i18n="shareInstagramBtn">인스타 스토리로 보내기</span>
+            </button>
+            <button type="button" id="modal-share-kakao-btn" class="btn btn-share-kakao">
+              <span class="btn-icon">💬</span>
+              <span class="btn-label" data-i18n="shareKakaoBtn">카카오톡 메시지 공유</span>
+            </button>
+            <button type="button" id="modal-share-whatsapp-btn" class="btn btn-share-whatsapp">
+              <span class="btn-icon">🟢</span>
+              <span class="btn-label" data-i18n="shareWhatsAppBtn">WhatsApp 공유</span>
+            </button>
+            <button type="button" id="modal-download-png-btn" class="btn btn-download-png">
+              <span class="btn-icon">⬇️</span>
+              <span class="btn-label" data-i18n="downloadPngBtn">이미지 저장 (PNG)</span>
+            </button>
+            <button type="button" id="modal-copy-link-btn" class="btn btn-share-link">
+              <span class="btn-icon">🔗</span>
+              <span class="btn-label" data-i18n="shareLinkBtn">식단 공유 링크 복사</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Enlarged Food Detail Modal (Feature #14: /food/{code}) -->
+    <div id="food-detail-modal" class="food-detail-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="detail-food-title">
+      <div class="food-detail-dialog">
+        
+        <div class="detail-modal-header">
+          <div class="detail-header-left">
+            <button type="button" id="detail-back-gallery-btn" class="detail-back-btn" data-i18n="detailBackBtn">
+              ← 도감으로 돌아가기
+            </button>
+            <span class="modal-badge">FOOD SHOWCASE</span>
+          </div>
+          <button type="button" id="detail-modal-close-btn" class="modal-close-btn" aria-label="상세보기 닫기">✕</button>
+        </div>
+
+        <div class="detail-modal-body">
+          <!-- Large Food Artwork (1:1 Ratio) -->
+          <div class="detail-art-container">
+            <img id="detail-food-img" class="detail-art-img" src="" alt="음식 일러스트" />
+          </div>
+
+          <!-- Badges Row -->
+          <div class="detail-badges-row">
+            <span id="detail-origin-badge" class="detail-badge"></span>
+            <span id="detail-delivery-badge" class="detail-badge" style="display: none;"></span>
+          </div>
+
+          <!-- Food Title & Subtitle -->
+          <div class="detail-text-group">
+            <h2 id="detail-food-title" class="detail-title"></h2>
+            <p id="detail-food-subtitle" class="detail-subtitle" style="display: none;"></p>
+          </div>
+
+          <!-- Tagline Box -->
+          <p id="detail-food-tagline" class="detail-tagline-box" style="display: none;"></p>
+
+          <!-- Calories & Price Pills -->
+          <div class="detail-specs-row">
+            <span id="detail-food-calories" class="detail-spec-pill cal"></span>
+            <span id="detail-food-price" class="detail-spec-pill price"></span>
+          </div>
+
+          <!-- Pairing Tip (ko only) -->
+          <p id="detail-food-pairing" class="detail-pairing-tip" style="display: none;"></p>
+
+          <!-- 5 Action Buttons in Enlarged View -->
+          <div class="detail-actions-list">
+            <button type="button" id="detail-share-story-btn" class="btn btn-share-instagram">
+              <span class="btn-icon">📸</span>
+              <span data-i18n="shareInstagramBtn">인스타 스토리로 보내기</span>
+            </button>
+            <button type="button" id="detail-share-kakao-btn" class="btn btn-share-kakao">
+              <span class="btn-icon">💬</span>
+              <span data-i18n="shareKakaoBtn">카카오톡 공유</span>
+            </button>
+            <button type="button" id="detail-share-whatsapp-btn" class="btn btn-share-whatsapp">
+              <span class="btn-icon">🟢</span>
+              <span data-i18n="shareWhatsAppBtn">WhatsApp 공유</span>
+            </button>
+            <button type="button" id="detail-download-png-btn" class="btn btn-download-png">
+              <span class="btn-icon">⬇️</span>
+              <span data-i18n="downloadPngBtn">이미지 저장 (PNG)</span>
+            </button>
+            <button type="button" id="detail-copy-link-btn" class="btn btn-share-link">
+              <span class="btn-icon">🔗</span>
+              <span data-i18n="shareFoodLinkBtn">음식 링크 복사</span>
+            </button>
+          </div>
+
+          <!-- Secondary Actions: Random from same category -->
+          <div class="detail-secondary-actions">
+            <button type="button" id="detail-random-same-cat-btn" class="btn-detail-secondary">
+              <span aria-hidden="true">🎲</span> <span data-i18n="randomSameCatBtn">같은 카테고리 다른 음식</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Site Footer -->
+    <footer class="app-footer">
+      <div class="footer-inner container">
+        <div class="footer-brand">
+          <strong>오늘 뭐 먹지? (Mukbang)</strong>
+          <p data-i18n="footerDesc">이름의 한글 자모·획수와 접속 타임존 날짜를 결합한 결정론적 미식 추천 서비스</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://tellmyname.app" data-i18n="footerHomeLink">✨ TellMyName 허브</a>
+          <span class="divider">·</span>
+          <a href="https://myhome.tellmyname.app" data-i18n="footerMyHomeLink">🏡 나에게 어울리는 집</a>
+          <span class="divider">·</span>
+          <a href="https://job.tellmyname.app">💼 나에게 어울리는 직업</a>
+          <span class="divider">·</span>
+          <a href="https://car.tellmyname.app">🚗 나에게 어울리는 자동차</a>
+          <span class="divider">·</span>
+          <a href="https://photodiary.tellmyname.app" data-i18n="footerPhotoDiaryLink">📷 포토 다이어리</a>
+          <span class="divider">·</span>
+          <a href="/about.html">소개 (About)</a>
+          <span class="divider">·</span>
+          <a href="/contact.html">문의 (Contact)</a>
+          <span class="divider">·</span>
+          <a href="/privacy.html">개인정보처리방침 (Privacy Policy)</a>
+          <span class="divider">·</span>
+          <a href="/terms.html">이용약관 (Terms of Service)</a>
+        </div>
+        <p class="footer-copyright" data-i18n="footerCopyright">
+          © 2026 Mukbang by TellMyName. All rights reserved. 매일 자정에 새 메뉴가 열립니다.
+        </p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Main ES Module Application Script -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+name = "mukbang"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+run_worker_first = true
+not_found_handling = "single-page-application"
+html_handling = "auto-trailing-slash"
+
+[[routes]]
+pattern = "food.tellmyname.app"
+custom_domain = true
+
+[[r2_buckets]]
+binding = "MUKBANG_R2"
+bucket_name = "myhome-houses-r2"

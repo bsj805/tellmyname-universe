@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-15T14:38:20.491Z",
+  "bucket": "myhome-houses-r2",
+  "cacheControl": "public, max-age=31536000, immutable",
+  "dryRun": true,
+  "startLevel": 0,
+  "endLevel": 2,
+  "totalObjects": 3,
+  "stagedFilesCount": 3,
+  "shards": {
+    "shard_0": 3
+  },
+  "sampleCommands": [
+    "wrangler r2 object put myhome-houses-r2/jobs/00000.png --file=\"images/0.png\" --content-type=\"image/png\"",
+    "wrangler r2 object put myhome-houses-r2/jobs/00001.png --file=\"images/00001.png\" --content-type=\"image/png\"",
+    "wrangler r2 object put myhome-houses-r2/jobs/00002.png --file=\"images/00002.png\" --content-type=\"image/png\""
+  ],
+  "status": "DRY_RUN_COMPLETED"
+}

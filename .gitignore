@@ -1,0 +1,25 @@
+# Node & Wrangler build artifacts
+**/node_modules/
+**/.wrangler/
+**/dist/
+
+# Local git backups & temporary test directories
+.git_backups/
+**/tmp_*/
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/.env
+**/.env.*
+**/.dev.vars
+
+# Raw unoptimized R2 staging & generated binary images (hosted on Cloudflare R2)
+**/images/*.png
+**/images/*.webp
+**/images/*.jpg
+**/images/web/*.webp
+**/images/web/*.jpg
+myhome/data/r2_staging/
+myhome/data/chunks_backup_500/

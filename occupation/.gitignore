@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.wrangler/
+__pycache__/
+*.log
+tmp_downloads/
+images/*.png
+images/*.webp

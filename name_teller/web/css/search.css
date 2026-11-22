@@ -1,0 +1,149 @@
+/* web/css/search.css — 상단 검색 헤더 모듈 전용 스타일 */
+
+.search-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 14px;
+  gap: 10px;
+}
+
+/* 로고 / 워드마크: 텍스트 형태, 작은 화면(<=440px)에서는 접힘 */
+.search-logo {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: -0.4px;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+.search-logo:hover {
+  opacity: 0.8;
+  color: var(--accent);
+}
+
+@media (max-width: 440px) {
+  .search-logo {
+    display: none;
+  }
+}
+
+/* 검색 폼 컨테이너 */
+.search-form {
+  flex: 1 1 auto;
+  min-width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 9999px;
+  padding: 0 4px 0 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-form:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* 검색 입력창 */
+.search-input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 4px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search-input::placeholder {
+  color: var(--muted);
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+/* 검색 아이콘 제출 버튼 */
+.search-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s ease, background-color 0.15s ease, transform 0.1s ease;
+}
+
+.search-submit-btn:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.search-submit-btn:active {
+  transform: scale(0.92);
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* 랜덤 🎲 버튼 */
+.search-random-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-random-btn:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.search-random-btn:active {
+  transform: scale(0.92);
+}
+
+.search-random-dice {
+  font-size: 19px;
+  line-height: 1;
+  display: inline-block;
+  user-select: none;
+}

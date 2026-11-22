@@ -1,0 +1,58 @@
+PROPRIETARY NON-COMMERCIAL LICENSE (상업적 이용 및 무단 복제·재배포 금지 라이선스)
+Copyright (c) 2026 bsj805. All Rights Reserved.
+
+================================================================================
+[한국어 라이선스 고지 — 대한민국 저작권법 및 부정경쟁방지법 적용]
+================================================================================
+
+본 저장소(name_teller / 이름을 설명해드립니다)에 포함된 모든 소스코드, UI/UX 디자인, HTML/CSS/JavaScript 파일,
+프롬프트 엔지니어링 로직, 그리고 정제·구축된 15,487개 한글 이름·한자·시어 데이터베이스(이하 "본 저작물")에
+대한 일체의 저작권 및 데이터베이스 제작자의 권리는 저작권자(bsj805)에게 있습니다.
+
+본 저장소가 GitHub에 공개(Public)된 목적은 오직 GitHub Pages를 통한 공식 웹 서비스 호스팅 및 포트폴리오
+열람을 위한 것이며, 오픈소스(자유 이용) 라이선스로 배포되는 것이 아닙니다.
+
+1. 상업적 이용 전면 금지 (No Commercial Use)
+   저작권자의 사전 서면 허가 없이 본 저작물의 전부 또는 일부(소스코드, UI, 이름 뜻풀이 데이터셋 등)를
+   사용하여 직·간접적인 금전적 이익(Google AdSense 등 광고 수익, 유료 서비스, 앱 출시, 기업 내부 활용,
+   외주 납품 등 일체의 영리 행위)을 취하는 것을 엄격히 금지합니다.
+
+2. 무단 복제·재배포 및 클론 사이트 운영 금지 (No Redistribution or Cloning)
+   본 저작물을 복제(Fork 후 자체 배포 포함)하여 별도의 도메인, 웹 호스팅(Vercel, Cloudflare, GitHub Pages 등),
+   모바일 앱, SNS 채널 등에 게시하거나 제3자에게 재배포하는 행위를 금지합니다.
+
+3. 데이터 무단 추출 및 2차적 저작물 작성 금지 (No Scraping or Derivative Works)
+   본 저장소의 data/ 디렉토리 및 HTML 내 내장된 이름·한자·시어 뜻풀이 데이터를 추출, 크롤링, 변형,
+   재가공하거나 AI 학습 데이터로 사용하는 행위를 금지합니다.
+
+위 조항을 위반하여 본 저작물을 상업적으로 이용하거나 무단 복제·배포할 경우, 대한민국 저작권법 제123조(침해의 정지 등 청구),
+제125조(손해배상의 청구), 제136조(벌칙) 및 부정경쟁방지법에 따라 민·형사상 법적 책임을 질 수 있습니다.
+
+================================================================================
+[English License Notice — All Rights Reserved / Non-Commercial Only]
+================================================================================
+
+Copyright (c) 2026 bsj805. All Rights Reserved.
+
+This software, including all source code, UI/UX designs, static HTML files, scripts, and the curated
+Korean name/Hanja/poetic dictionary datasets (collectively, the "Work"), is the proprietary property
+of the copyright holder (bsj805).
+
+This repository is made public solely for the purpose of hosting the official web service via GitHub Pages.
+It is NOT licensed under an open-source license.
+
+1. NO COMMERCIAL USE:
+   You may NOT use, copy, modify, host, or distribute any part of the Work for any commercial purpose,
+   including but not limited to monetization via advertisements (e.g., Google AdSense), paid services,
+   commercial websites, or mobile applications, without prior written permission from the copyright holder.
+
+2. NO REDISTRIBUTION OR PUBLIC RE-HOSTING:
+   You may NOT redistribute, mirror, or deploy copies or modified versions of this repository to any
+   public or private hosting platform.
+
+3. NO DERIVATIVE WORKS OR DATASET EXTRACTION:
+   You may NOT extract, scrape, repurpose, or create derivative works from the datasets (`data/`) or
+   embedded JSON/HTML structures contained in this repository.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. ANY UNAUTHORIZED COMMERCIAL USE OR
+REDISTRIBUTION WILL BE SUBJECT TO LEGAL ACTION UNDER APPLICABLE COPYRIGHT AND UNFAIR COMPETITION LAWS.
