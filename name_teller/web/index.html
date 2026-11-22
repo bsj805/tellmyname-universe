@@ -1002,6 +1002,28 @@
             a.href = u.toString();
           } catch (e) {}
         });
+        
+        const pills = document.querySelectorAll('.service-card .card-pill');
+        const highlights = document.querySelectorAll('.service-card .card-highlights');
+        const edBox = document.querySelector('.editorial-box');
+        if (currentLang !== 'ko') {
+          if (pills.length >= 4) {
+            pills[0].textContent = '1,000 Tiers · 50% Real & 50% Fiction';
+            pills[1].textContent = '401 Dishes · 5 Daily Meals';
+            pills[2].textContent = '1,001 Tiers · Extreme to Cosmic Jobs';
+            pills[3].textContent = '1,001 Tiers · Stone Carts to Warp Cruisers';
+          }
+          if (highlights.length >= 4) {
+            highlights[0].innerHTML = '<li>✔ Even levels: Real-world architecture · Odd levels: Sci-Fi & Fantasy</li><li>✔ Built year · Estimated value · Special feature · AI Verdict</li><li>✔ Cross-universe Level N comparison & 16–256 Round World Cup</li>';
+            highlights[1].innerHTML = '<li>✔ 7 Origin Categories (School Lunch, Convenience Store, Camping, Fine Dining)</li><li>✔ Personalized by mood, weather, and dietary exclusions</li><li>✔ Interactive 401 Food Encyclopedia & Food World Cup</li>';
+            highlights[2].innerHTML = '<li>✔ Lv.0–499 Extreme Survival Jobs & Lv.500–1000 Cosmic Executive Roles</li><li>✔ Era & Workplace · Estimated Salary · Special Duty · HR Verdict</li><li>✔ Worst-to-Best & Best-to-Worst Career World Cups</li>';
+            highlights[3].innerHTML = '<li>✔ Historical oddities, luxury hypercars, and sci-fi mobility</li><li>✔ Era · Estimated Price · Special Spec · Chief Mechanic Verdict</li><li>✔ Clunker World Cup & Dream Car World Cup</li>';
+          }
+          if (edBox) {
+            edBox.innerHTML = '<h3>1. Deterministic Stroke & Unicode FNV-1a Hash with Cross-Universe Level N Reference</h3><p>Every TellMyName service uses deterministic 32-bit FNV-1a stroke and Unicode hashing rather than random numbers. Entering the same name always yields the exact same level, while our Cross-Universe Level N system lets you compare what your assigned Level N looks like across Houses, Jobs, and Cars.</p><h3>2. Zero-Storage Privacy & 14-Language Global Support</h3><p>Names entered on TellMyName are computed on the fly and never stored in any database. Full support is built in for 14 languages: Korean, English, Japanese, Chinese, Spanish, French, German, Portuguese, Italian, Russian, Hindi, Vietnamese, Indonesian, and Malay.</p>';
+          }
+        }
+
         updateLinksAndButtons();
         if (typeof window.updatePhotoDiaryPromoLang === 'function') {
           window.updatePhotoDiaryPromoLang(currentLang);

@@ -989,8 +989,8 @@ function updateLocalizedStaticTexts() {
     } else if (state.lang !== 'ko') {
       const wcT = getWorldCupTranslation(state.lang);
       setElText('wp-art4-title', `🏆 4. ${wcT.tabWorst || 'World Cup'} vs ${wcT.tabBest || 'Tournament'}`);
-      setElText('wp-art4-p1', wcT.subWorst || '');
-      setElText('wp-art4-p2', wcT.subBest || '');
+      setElText('wp-art4-p1', wcT.subtitleWorst || wcT.descWorst || 'Play 16 to 256 round tournament matchups across all levels and compare every contender side by side.');
+      setElText('wp-art4-p2', wcT.subtitleBest || wcT.descBest || 'Share identical bracket seeds with friends or switch between Worst-to-Best and Best-to-Worst tournament modes anytime.');
     }
     if (typeof window !== 'undefined' && typeof window.updatePhotoDiaryPromoLang === 'function') {
       window.updatePhotoDiaryPromoLang(state.lang);
