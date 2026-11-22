@@ -2014,3 +2014,28 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
+/* Mobile 390px 3-tab bar even fit (no right-edge clipping on 'Food World Cup') */
+@media (max-width: 640px) {
+  .tabs-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 6px !important;
+    padding: 6px 10px !important;
+    overflow-x: hidden !important;
+  }
+  .main-tab-btn {
+    padding: 8px 4px !important;
+    font-size: 0.78rem !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    text-align: center !important;
+    line-height: 1.25 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 3px !important;
+  }
+}

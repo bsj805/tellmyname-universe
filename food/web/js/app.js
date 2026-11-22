@@ -772,6 +772,20 @@ export function applyUiStrings() {
 
   // Update hero meal chips active styling & text
   updateHeroMealChips();
+
+  // Translate footer brand & static links when lang !== 'ko'
+  const isKo = lang === 'ko';
+  const fBrandStrong = document.querySelector('.footer-brand strong');
+  if (fBrandStrong) fBrandStrong.textContent = isKo ? '오늘 뭐 먹지? (Mukbang)' : `${t(lang, 'brandTitle')} (Mukbang)`;
+  document.querySelectorAll('.footer-links a').forEach(a => {
+    const href = a.getAttribute('href') || '';
+    if (href.includes('job.tellmyname.app')) a.textContent = isKo ? '💼 나에게 어울리는 직업' : '💼 Find My Job';
+    else if (href.includes('car.tellmyname.app')) a.textContent = isKo ? '🚗 나에게 어울리는 자동차' : '🚗 Find My Car';
+    else if (href.endsWith('/about.html')) a.textContent = isKo ? '소개 (About)' : 'About';
+    else if (href.endsWith('/contact.html')) a.textContent = isKo ? '문의 (Contact)' : 'Contact';
+    else if (href.endsWith('/privacy.html')) a.textContent = isKo ? '개인정보처리방침 (Privacy Policy)' : 'Privacy Policy';
+    else if (href.endsWith('/terms.html')) a.textContent = isKo ? '이용약관 (Terms of Service)' : 'Terms of Service';
+  });
 }
 
 /**

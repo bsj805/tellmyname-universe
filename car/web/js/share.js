@@ -398,30 +398,33 @@ export async function copyShareUrl(carData, currentName = '', lang = 'ko') {
  */
 function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 4) {
   if (!text) return y;
-  const chars = Array.from(String(text));
+  const str = String(text).trim();
+  const useWordWrap = /[A-Za-z0-9]/.test(str) && str.includes(' ');
+  const tokens = useWordWrap ? str.split(/(\s+)/) : Array.from(str);
   let line = '';
   let lineCount = 0;
   let currentY = y;
 
-  for (let i = 0; i < chars.length; i++) {
-    const testLine = line + chars[i];
+  for (let i = 0; i < tokens.length; i++) {
+    const token = tokens[i];
+    const testLine = line + token;
     const metrics = ctx.measureText(testLine);
-    if (metrics.width > maxWidth && line.length > 0) {
+    if (metrics.width > maxWidth && line.trim().length > 0) {
       lineCount++;
       if (lineCount >= maxLines) {
-        ctx.fillText(line.slice(0, Math.max(0, line.length - 2)) + '...', x, currentY);
+        ctx.fillText(line.trimEnd().slice(0, Math.max(0, line.trimEnd().length - 2)) + '...', x, currentY);
         return currentY + lineHeight;
       }
-      ctx.fillText(line, x, currentY);
-      line = chars[i];
+      ctx.fillText(line.trimEnd(), x, currentY);
+      line = token.trimStart();
       currentY += lineHeight;
     } else {
       line = testLine;
     }
   }
 
-  if (line && lineCount < maxLines) {
-    ctx.fillText(line, x, currentY);
+  if (line.trim() && lineCount < maxLines) {
+    ctx.fillText(line.trimEnd(), x, currentY);
     currentY += lineHeight;
   }
   return currentY;

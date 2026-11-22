@@ -168,30 +168,33 @@ export async function copyShareUrl(jobData, currentName = '', lang = 'ko') {
  */
 function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 4) {
   if (!text) return y;
-  const chars = Array.from(String(text));
+  const str = String(text).trim();
+  const useWordWrap = /[A-Za-z0-9]/.test(str) && str.includes(' ');
+  const tokens = useWordWrap ? str.split(/(\s+)/) : Array.from(str);
   let line = '';
   let lineCount = 0;
   let currentY = y;
 
-  for (let i = 0; i < chars.length; i++) {
-    const testLine = line + chars[i];
+  for (let i = 0; i < tokens.length; i++) {
+    const token = tokens[i];
+    const testLine = line + token;
     const metrics = ctx.measureText(testLine);
-    if (metrics.width > maxWidth && line.length > 0) {
+    if (metrics.width > maxWidth && line.trim().length > 0) {
       lineCount++;
       if (lineCount >= maxLines) {
-        ctx.fillText(line.slice(0, Math.max(0, line.length - 2)) + '...', x, currentY);
+        ctx.fillText(line.trimEnd().slice(0, Math.max(0, line.trimEnd().length - 2)) + '...', x, currentY);
         return currentY + lineHeight;
       }
-      ctx.fillText(line, x, currentY);
-      line = chars[i];
+      ctx.fillText(line.trimEnd(), x, currentY);
+      line = token.trimStart();
       currentY += lineHeight;
     } else {
       line = testLine;
     }
   }
 
-  if (line && lineCount < maxLines) {
-    ctx.fillText(line, x, currentY);
+  if (line.trim() && lineCount < maxLines) {
+    ctx.fillText(line.trimEnd(), x, currentY);
     currentY += lineHeight;
   }
   return currentY;
@@ -504,16 +507,17 @@ export async function renderStoryCanvas(canvas, jobData, currentName = '', theme
     : (selectedLang === 'ko' ? '🦄 홀수 · 허구 직업' : `🦄 Odd · ${dict.reality?.FICTION || 'Fictional'}`);
   const realityBadgeColor = isReal ? '#38bdf8' : '#e879f9';
 
+  ctx.font = 'bold 21px "Pretendard", sans-serif';
+  const rBadgeW = Math.max(276, Math.min(540, Math.ceil(ctx.measureText(realityBadgeText).width) + 48));
+  const rBadgeX = artX + artW - 24 - rBadgeW;
   ctx.fillStyle = 'rgba(5, 7, 15, 0.88)';
-  drawRoundedRectPath(ctx, artX + artW - 300, artY + 24, 276, 52, 26);
+  drawRoundedRectPath(ctx, rBadgeX, artY + 24, rBadgeW, 52, 26);
   ctx.fill();
   ctx.strokeStyle = realityBadgeColor;
   ctx.lineWidth = 2;
   ctx.stroke();
-
   ctx.fillStyle = realityBadgeColor;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.fillText(realityBadgeText, artX + artW - 162, artY + 59);
+  ctx.fillText(realityBadgeText, rBadgeX + rBadgeW / 2, artY + 59);
 
   const zoneLabelLocalized = isGood
     ? (dict.zones?.GOOD || 'Jackpot Job')
