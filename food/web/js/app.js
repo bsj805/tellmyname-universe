@@ -827,9 +827,20 @@ export async function switchLanguage(newLang) {
   appState.foodDict = await loadFoodDict(norm);
 
   // 4. Update UI strings, samples, recommendation (hash codes remain invariant)
+  if (!appState.hasUserSearched) {
+    const langObj = SUPPORTED_LANGUAGES.find(l => l.code === norm);
+    if (langObj && Array.isArray(langObj.sampleNames) && langObj.sampleNames.length > 0) {
+      appState.currentName = langObj.sampleNames[0];
+      const nameInput = document.getElementById('name-input');
+      if (nameInput) nameInput.value = appState.currentName;
+    }
+  }
   applyUiStrings();
   renderSampleChips();
   updateRecommendation();
+  if (typeof window !== 'undefined' && typeof window.updatePhotoDiaryPromoLang === 'function') {
+    window.updatePhotoDiaryPromoLang(norm);
+  }
 
   // 5. Update gallery controller
   if (galleryController) {
@@ -1461,6 +1472,11 @@ export function initApp() {
 
   if (urlName && urlName.trim()) {
     appState.currentName = urlName.trim();
+  } else if (appState.currentLang !== 'ko') {
+    const langObj = SUPPORTED_LANGUAGES.find(l => l.code === appState.currentLang);
+    if (langObj && Array.isArray(langObj.sampleNames) && langObj.sampleNames.length > 0) {
+      appState.currentName = langObj.sampleNames[0];
+    }
   }
 
   if (urlTz && urlTz.trim()) {

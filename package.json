@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Unified Monorepo for tellmyname.app family services (name_teller, myhome, food, occupation, car)",
   "scripts": {
+    "qa": "python \"C:\\Users\\USER\\.gemini\\config\\skills\\web-qa-inspector\\scripts\\audit_web_qa.py\" .",
     "verify:ko": "python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" name_teller/web/index.html && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" myhome/data/chunks && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" food/data/foods_master.json && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" occupation/data/chunks && python \"C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py\" car/data/chunks",
     "build": "node deploy_all.mjs --build-only",
     "deploy": "node deploy_all.mjs --deploy",

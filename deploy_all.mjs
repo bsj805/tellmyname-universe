@@ -22,6 +22,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const VERIFY_SCRIPT = 'C:\\Users\\USER\\.gemini\\config\\skills\\korean-humanizer\\scripts\\verify_korean.py';
+const QA_AUDIT_SCRIPT = 'C:\\Users\\USER\\.gemini\\config\\skills\\web-qa-inspector\\scripts\\audit_web_qa.py';
 
 const APPS = [
   {
@@ -131,5 +132,12 @@ for (const app of selectedApps) {
 }
 
 console.log('\n==================================================================');
+if (!skipVerify && fs.existsSync(QA_AUDIT_SCRIPT)) {
+  console.log('Running Web QA Inspector (Static & Multilingual Dataset Audit)...');
+  execSync(`python "${QA_AUDIT_SCRIPT}" "${ROOT_DIR}"`, {
+    cwd: ROOT_DIR,
+    stdio: 'inherit'
+  });
+}
 console.log(`✔ Completed all tasks for ${selectedApps.length} app(s).`);
 console.log('==================================================================');
