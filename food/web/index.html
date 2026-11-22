@@ -593,6 +593,236 @@
     <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
 
     <!-- Site Footer -->
+    <!-- Always-Visible Bottom PhotoDiary Animated Showcase Card -->
+    <section class="photodiary-promo-section" id="photodiary-promo-section" aria-label="포토 다이어리 실시간 미리보기 및 홍보">
+      <style>
+        .photodiary-promo-section {
+          width: 100%;
+          max-width: 980px;
+          margin: 2.25rem auto 2rem auto;
+          padding: 0 16px;
+          box-sizing: border-box;
+        }
+        .pd-promo-container {
+          background: radial-gradient(120% 120% at 50% 0%, rgba(30, 41, 59, 0.88) 0%, rgba(15, 23, 42, 0.98) 100%);
+          border: 1px solid rgba(56, 189, 248, 0.25);
+          border-radius: 24px;
+          padding: 26px 22px;
+          box-shadow: 0 20px 48px rgba(0, 0, 0, 0.45);
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          color: #f8fafc;
+        }
+        .pd-promo-header {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+        }
+        .pd-promo-eyebrow {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(56, 189, 248, 0.14);
+          border: 1px solid rgba(56, 189, 248, 0.38);
+          color: #38bdf8;
+          font-size: 12px;
+          font-weight: 800;
+          padding: 4px 14px;
+          border-radius: 9999px;
+        }
+        .pd-promo-title {
+          margin: 0;
+          font-size: 22px;
+          font-weight: 800;
+          color: #ffffff;
+          line-height: 1.35;
+        }
+        .pd-promo-subtitle {
+          margin: 0;
+          font-size: 14px;
+          color: #cbd5e1;
+          max-width: 640px;
+          line-height: 1.55;
+        }
+        .pd-promo-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 18px;
+          width: 100%;
+        }
+        .pd-promo-card {
+          background: rgba(255, 255, 255, 0.04);
+          border: 1.5px solid rgba(255, 255, 255, 0.1);
+          border-radius: 18px;
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          text-decoration: none;
+          color: inherit;
+          transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+        }
+        .pd-promo-card:hover {
+          transform: translateY(-4px);
+          border-color: rgba(56, 189, 248, 0.5);
+          box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45);
+        }
+        .pd-promo-badge {
+          align-self: flex-start;
+          padding: 4px 10px;
+          border-radius: 8px;
+          font-size: 11.5px;
+          font-weight: 700;
+        }
+        .pd-badge-reels {
+          background: rgba(168, 85, 247, 0.18);
+          color: #d8b4fe;
+          border: 1px solid rgba(192, 132, 252, 0.35);
+        }
+        .pd-badge-map {
+          background: rgba(14, 165, 233, 0.18);
+          color: #7dd3fc;
+          border: 1px solid rgba(56, 189, 248, 0.35);
+        }
+        .pd-promo-frame {
+          position: relative;
+          width: 100%;
+          height: 320px;
+          border-radius: 14px;
+          overflow: hidden;
+          background: #090d16;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .pd-promo-img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          display: block;
+          transition: transform 0.3s ease;
+        }
+        .pd-promo-card:hover .pd-promo-img {
+          transform: scale(1.03);
+        }
+        .pd-promo-caption {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          text-align: left;
+        }
+        .pd-caption-title {
+          margin: 0;
+          font-size: 15px;
+          font-weight: 800;
+          color: #f8fafc;
+        }
+        .pd-caption-desc {
+          margin: 0;
+          font-size: 12.5px;
+          color: #94a3b8;
+          line-height: 1.45;
+        }
+        .pd-promo-actions {
+          display: flex;
+          justify-content: center;
+          padding-top: 4px;
+        }
+        .pd-promo-cta {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          padding: 14px 28px;
+          background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #7c3aed 100%);
+          color: #ffffff !important;
+          font-size: 15px;
+          font-weight: 800;
+          border: 1px solid rgba(255, 255, 255, 0.25);
+          border-radius: 9999px;
+          text-decoration: none;
+          box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .pd-promo-cta:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 12px 30px rgba(37, 99, 235, 0.5);
+        }
+        @media (max-width: 768px) {
+          .pd-promo-grid {
+            grid-template-columns: 1fr;
+          }
+          .pd-promo-frame {
+            height: 280px;
+          }
+          .pd-promo-title {
+            font-size: 18.5px;
+          }
+          .pd-promo-cta {
+            width: 100%;
+            font-size: 14px;
+            padding: 13px 18px;
+          }
+        }
+      </style>
+      <div class="pd-promo-container">
+        <div class="pd-promo-header">
+          <div class="pd-promo-eyebrow">
+            <span>✨</span>
+            <span>개발자가 만든 다른 사이트 · 포토 다이어리 실시간 미리보기</span>
+          </div>
+          <h2 class="pd-promo-title">📸 포토 다이어리 : 사진 위치로 만드는 여행 타임라인 지도 &amp; 1초 릴스</h2>
+          <p class="pd-promo-subtitle">사진을 올리면 GPS 위치 정보(EXIF)를 읽어 지도 동선 스냅샷과 1초 간격 릴스 영상을 브라우저에서 자동으로 만들어 줍니다</p>
+        </div>
+
+        <div class="pd-promo-grid">
+          <a href="https://photodiary.tellmyname.app/" class="pd-promo-card">
+            <span class="pd-promo-badge pd-badge-reels">🎬 1초 릴스 동영상 (움직이는 GIF)</span>
+            <div class="pd-promo-frame">
+              <img
+                src="https://photodiary.tellmyname.app/samples/italy/italy-reels-preview.gif"
+                alt="포토 다이어리 이탈리아 일주 1초 간격 릴스 투어 움직이는 미리보기"
+                class="pd-promo-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="pd-promo-caption">
+              <h3 class="pd-caption-title">1초 간격 릴스 투어 영상</h3>
+              <p class="pd-caption-desc">9:16 인스타그램 스토리·릴스 규격으로 1초마다 여행 거점을 따라 이동하는 루트 애니메이션</p>
+            </div>
+          </a>
+
+          <a href="https://photodiary.tellmyname.app/" class="pd-promo-card">
+            <span class="pd-promo-badge pd-badge-map">🖼️ 이미지 공유 스냅샷</span>
+            <div class="pd-promo-frame">
+              <img
+                src="https://photodiary.tellmyname.app/samples/italy/italy-timeline-sample.png"
+                alt="포토 다이어리 이탈리아 일주 타임라인 지도 스냅샷 미리보기"
+                class="pd-promo-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="pd-promo-caption">
+              <h3 class="pd-caption-title">타임라인 지도 스냅샷</h3>
+              <p class="pd-caption-desc">전체 여행 경로와 경유지 폴라로이드 사진 핀이 지도 위에 한 장의 카드로 완성됩니다</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="pd-promo-actions">
+          <a href="https://photodiary.tellmyname.app/" class="pd-promo-cta">
+            <span>🇮🇹</span>
+            <span>포토 다이어리에서 이탈리아 여행 샘플 바로 체험하기</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <footer class="app-footer">
       <div class="footer-inner container">
         <div class="footer-brand">
