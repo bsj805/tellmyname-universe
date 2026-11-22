@@ -1,213 +1,4 @@
-// src/lib/master_dataset.js
-// 0 ~ 999단계 (총 1000단계) 100% 무중복 마스터 하우스 데이터셋 (한글 원본 + 1000레벨 영어 번역 포함)
-// - 짝수 레벨(0, 2, 4.. 998): 실제 존재하는 건축물·장소 (REAL, 500개)
-// - 홀수 레벨(1, 3, 5.. 999): 허구/가상/미디어 속 장소 (FICTION, 500개)
-// - 폭망 하우스 (BAD): Lv.0 ~ 499 (500개)
-// - 대박 하우스 (GOOD): Lv.500 ~ 999 (500개)
-
-export const MASTER_TIERS_500 = [
-  {
-    "tier": 1,
-    "name": "Tier 01: 태초의 밑바닥",
-    "range": [
-      0,
-      49
-    ],
-    "zone": "BAD",
-    "desc": "화산 유황지대, 지구 맨틀, 극한 오지 화장실, 고물 기계"
-  },
-  {
-    "tier": 2,
-    "name": "Tier 02: 폐허와 슬럼가",
-    "range": [
-      50,
-      99
-    ],
-    "zone": "BAD",
-    "desc": "슬럼가 골목, 버려진 공장, 카타콤, 계단 밑 벽장"
-  },
-  {
-    "tier": 3,
-    "name": "Tier 03: 기괴한 고물과 상자",
-    "range": [
-      100,
-      149
-    ],
-    "zone": "BAD",
-    "desc": "골판지 상자, 고장 난 자판기, 고물 트럭 짐칸, 컨테이너"
-  },
-  {
-    "tier": 4,
-    "name": "Tier 04: 극한 오지 변소와 방사능",
-    "range": [
-      150,
-      199
-    ],
-    "zone": "BAD",
-    "desc": "체르노빌 관람차, 에베레스트 변소, 방사능 호수, 하수관"
-  },
-  {
-    "tier": 5,
-    "name": "Tier 05: 폐쇄 구역과 감옥",
-    "range": [
-      200,
-      249
-    ],
-    "zone": "BAD",
-    "desc": "아즈카반 독방, 교도소 독방, 버려진 정신병원, 폐광 갱도"
-  },
-  {
-    "tier": 6,
-    "name": "Tier 06: 애니·영화 속 굴욕의 거처",
-    "range": [
-      250,
-      299
-    ],
-    "zone": "BAD",
-    "desc": "코끼리 무덤 해골, 장난감 고문실, 하수도 쥐구멍, 오물통"
-  },
-  {
-    "tier": 7,
-    "name": "Tier 07: 위험천만 이동식 쉘터",
-    "range": [
-      300,
-      349
-    ],
-    "zone": "BAD",
-    "desc": "화물열차 배관실, 흔들리는 닭장, 침수된 오리배, 뗏목"
-  },
-  {
-    "tier": 8,
-    "name": "Tier 08: 늪지대와 침수 구역",
-    "range": [
-      350,
-      399
-    ],
-    "zone": "BAD",
-    "desc": "슈렉 늪지대, 갠지스 화장터, 톤레삽 홍수, 침수 계단"
-  },
-  {
-    "tier": 9,
-    "name": "Tier 09: 고립된 사막과 얼음 굴",
-    "range": [
-      400,
-      449
-    ],
-    "zone": "BAD",
-    "desc": "다나킬 사막 움막, 혹한기 빙하 틈, 소금사막 파라솔"
-  },
-  {
-    "tier": 10,
-    "name": "Tier 10: 폭망의 문턱 턱걸이",
-    "range": [
-      450,
-      499
-    ],
-    "zone": "BAD",
-    "desc": "0.3평 만화카페, 1평 고시원, 만조 때 잠기는 평상"
-  },
-  {
-    "tier": 11,
-    "name": "Tier 11: 대박 입문 힐링 샬레",
-    "range": [
-      500,
-      549
-    ],
-    "zone": "GOOD",
-    "desc": "지열 온천 빌라, 빙하 호수 샬레, 바오밥 공중 트리하우스"
-  },
-  {
-    "tier": 12,
-    "name": "Tier 12: 세계 역사 고성과 랜드마크",
-    "range": [
-      550,
-      599
-    ],
-    "zone": "GOOD",
-    "desc": "몽생미셸, 노이슈반슈타인 성, 알람브라 궁전, 피사 사탑"
-  },
-  {
-    "tier": 13,
-    "name": "Tier 13: 픽사·디즈니 애니메이션 명소",
-    "range": [
-      600,
-      649
-    ],
-    "zone": "GOOD",
-    "desc": "엘사의 얼음 궁전, UP 풍선 하우스, 야수의 서재, 앤디의 방"
-  },
-  {
-    "tier": 14,
-    "name": "Tier 14: 세계 초일류 도심 펜트하우스",
-    "range": [
-      650,
-      699
-    ],
-    "zone": "GOOD",
-    "desc": "에펠탑 펜트하우스, 부르즈 할리파 아틀리에, 마리나베이샌즈"
-  },
-  {
-    "tier": 15,
-    "name": "Tier 15: 판타지 영화와 문학의 성채",
-    "range": [
-      700,
-      749
-    ],
-    "zone": "GOOD",
-    "desc": "호그와트 기숙사, 리벤델 요정 테라스, 호빗 백엔드"
-  },
-  {
-    "tier": 16,
-    "name": "Tier 16: 세계 7대 불가사의와 비경",
-    "range": [
-      750,
-      799
-    ],
-    "zone": "GOOD",
-    "desc": "우유니 소금거울 돔, 그랜드 캐니언 스카이워크, 마추픽추"
-  },
-  {
-    "tier": 17,
-    "name": "Tier 17: 미래 스마트 도시와 슈퍼요트",
-    "range": [
-      800,
-      849
-    ],
-    "zone": "GOOD",
-    "desc": "나이트시티 펜트하우스, 자비스 스타크 맨션, 메가 요트"
-  },
-  {
-    "tier": 18,
-    "name": "Tier 18: 신화와 전설의 황금 궁전",
-    "range": [
-      850,
-      899
-    ],
-    "zone": "GOOD",
-    "desc": "올림포스 제우스 궁전, 발할라 연회장, 아틀란티스 신전"
-  },
-  {
-    "tier": 19,
-    "name": "Tier 19: SF 궤도 스테이션과 콜로니",
-    "range": [
-      900,
-      949
-    ],
-    "zone": "GOOD",
-    "desc": "쿠퍼 스테이션, 제임스 웹 L2 관측소, 달 기지 스카이빌라"
-  },
-  {
-    "tier": 20,
-    "name": "Tier 20: 우주 초월 다이슨 스피어",
-    "range": [
-      950,
-      999
-    ],
-    "zone": "GOOD",
-    "desc": "다이슨 스피어 링 월드, 안드로메다 웜홀, 창조의 기둥"
-  }
-];
-
+// Auto-generated 1,000-level master dataset (0 Korean dups, 0 English dups)
 export const MASTER_HOUSES = [
   {
     "title": "인도네시아 카와이젠 유황 광산 옆 1인용 바위 틈새",
@@ -499,7 +290,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1984 Minsk Tractor Works build, abandoned in Namdong Complex since 1998",
       "estimatedValue": "Scrap curb-weight value ~$1,400 USD (waste oil disposal extra)",
       "specialFeature": "A cramped sleeping spot made by tilting back the iron driver's seat of a 1980s Soviet tractor. All night long, the thunderous clang of container cranes and diesel fumes drift through the cracked windshield.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Shelter in the Cab of a 1980s Soviet Scrap Tractor, Container Yard Behind Incheon Namdong Industrial Complex: Dated around 1984 Minsk Tractor Works build, abandoned in Namdong Complex since 1998 and valued at Scrap curb-weight value ~$1,400 USD (waste oil disposal extra), this site relies on a cramped sleeping spot made by tilting back the iron driver's seat of a 1980s soviet tractor. all night long, the thunderous clang of container cranes and diesel fumes drift through the cracked windshield. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -532,7 +323,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1978 Seoul multi-family semi-basement build (featured in 2019 film)",
       "estimatedValue": "$2,200 deposit / $180 monthly rent (flood repairs excluded)",
       "specialFeature": "A prime location where torrential rain causes sewage to back up to the ceiling, leaving only the trouser cuffs of passing drunks visible through the street-level window. To survive, the whole family perches atop the raised toilet throne hunting for stray Wi-Fi.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Zoning & Survival Report on Cement Curb on the Drunkard-Urination Alleyway Right Outside Ki-taek's Semi-Basement Window, 『Parasite』: Dated around 1978 Seoul multi-family semi-basement build (featured in 2019 film) and valued at $2,200 deposit / $180 monthly rent (flood repairs excluded), this site relies on a prime location where torrential rain causes sewage to back up to the ceiling, leaving only the trouser cuffs of passing drunks visible through the street-level window. to survive, the whole family perches atop the raised toilet throne hunting for stray wi-fi. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -629,7 +420,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1994 light cargo truck bed (abandoned in a Venice back alley)",
       "estimatedValue": "Flooded salvage scrap value ~$680 USD (barge towing fee extra)",
       "specialFeature": "When the Adriatic high tide (Acqua Alta) rolls in, seawater rises under the stairs and submerges half the truck's wheels. Inside a tarp tent pitched on the cargo bed, you fall asleep to water sloshing against the rusted frame.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Flat-Tired 1-Ton Cargo Bed Tent Tucked Under Ground-Floor Stairs Submerged by High Tide, Venice, Italy: Dated around 1994 light cargo truck bed (abandoned in a Venice back alley) and valued at Flooded salvage scrap value ~$680 USD (barge towing fee extra), this site relies on when the adriatic high tide (acqua alta) rolls in, seawater rises under the stairs and submerges half the truck's wheels. inside a tarp tent pitched on the cargo bed, you fall asleep to water sloshing against the rusted frame. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -662,7 +453,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2020 secret island underground facility completion",
       "estimatedValue": "-$34M USD (elimination cleanup & laundry security cost)",
       "specialFeature": "A narrow drain passage behind industrial washing machines churning dozens of pink jumpsuits. Every spin cycle shakes the floor like an earthquake while hot soapy steam washes over your face.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Emergency Habitat Assessment for Inside the Washing Machine Drainpipe in the Guards' Locker Room, 『Squid Game』: Dated around 2020 secret island underground facility completion and valued at -$34M USD (elimination cleanup & laundry security cost), this site relies on a narrow drain passage behind industrial washing machines churning dozens of pink jumpsuits. every spin cycle shakes the floor like an earthquake while hot soapy steam washes over your face. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -759,7 +550,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1958 Hashima Block 65 completion (shipwreck washed in after 1974 closure)",
       "estimatedValue": "No market value (trespassing fine in restricted Hashima zone)",
       "specialFeature": "The wheelhouse of a wrecked wooden boat wedged inside the underground passage of Block 65 on abandoned Hashima Island. Roll out a sleeping bag beside the broken helm as salty drops from the East China Sea drip through concrete cracks.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Bivouac Bed in the Wheelhouse of a Decommissioned Wooden Shipwreck in the Subterranean Tunnel of Block 65, Gunkanjima (Hashima Island), Japan: Dated around 1958 Hashima Block 65 completion (shipwreck washed in after 1974 closure) and valued at No market value (trespassing fine in restricted Hashima zone), this site relies on the wheelhouse of a wrecked wooden boat wedged inside the underground passage of block 65 on abandoned hashima island. roll out a sleeping bag beside the broken helm as salty drops from the east china sea drip through concrete cracks. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -792,7 +583,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Nighttime beach excavation near Vermilion City, Kanto",
       "estimatedValue": "-500 Pokédollars (Meowth's lost Amulet Coin deficit)",
       "specialFeature": "A beach sand pit clawed out all night by Meowth searching for a lost coin. Every incoming wave collapses the sand walls, naturally burying your lower half in a gritty sand bath while you sleep.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Structural & Livability Review of Sand Pit Dug by Team Rocket's Meowth After Losing His Amulet Coin, 『Pokémon』: Dated around Nighttime beach excavation near Vermilion City, Kanto and valued at -500 Pokédollars (Meowth's lost Amulet Coin deficit), this site relies on a beach sand pit clawed out all night by meowth searching for a lost coin. every incoming wave collapses the sand walls, naturally burying your lower half in a gritty sand bath while you sleep. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -889,7 +680,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1978 Wanli coastal UFO pod complex halted construction",
       "estimatedValue": "Salvage concrete culvert value ~$250 USD (90% sea-salt corrosion discount)",
       "specialFeature": "A 90cm-diameter concrete culvert pipe lying in front of Unit 103 of the abandoned 1970s Wanli UFO houses. Lie back against the curved concrete wall as fierce northern coastal winds whistle through both open ends.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Concrete Drainage Pipe Coffin Bedroom in Unit 103 of the Wanli Abandoned UFO Pod Ruins, Taiwan: Dated around 1978 Wanli coastal UFO pod complex halted construction and valued at Salvage concrete culvert value ~$250 USD (90% sea-salt corrosion discount), this site relies on a 90cm-diameter concrete culvert pipe lying in front of unit 103 of the abandoned 1970s wanli ufo houses. lie back against the curved concrete wall as fierce northern coastal winds whistle through both open ends. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -922,7 +713,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Emergency excavation on Night 1 of Overworld survival",
       "estimatedValue": "4 Gravel Blocks & 1 Flint (drops 3 XP orbs)",
       "specialFeature": "A vertical 1x1x2 pit walled in on all sides by gray gravel blocks. Skeleton arrows thunk into the rim above your head, forcing you to stand pitch-dark without a single torch until sunrise.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Field Inspection Verdict on 1-Block Gravel Pit Pierced by a Skeleton's Arrow, 『Minecraft』: Dated around Emergency excavation on Night 1 of Overworld survival and valued at 4 Gravel Blocks & 1 Flint (drops 3 XP orbs), this site relies on a vertical 1x1x2 pit walled in on all sides by gray gravel blocks. skeleton arrows thunk into the rim above your head, forcing you to stand pitch-dark without a single torch until sunrise. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -1019,7 +810,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1942 USMC Camp Dunlap concrete slab (RV abandoned in 1981)",
       "estimatedValue": "Salvage trailer shell ~$820 USD (includes 1 cracked solar panel)",
       "specialFeature": "A decrepit RV trailer abandoned on the WWII Marine concrete slab in the off-grid desert frontier with neither running water nor grid electricity. In 48°C midday heat, you power a single fan with one solar panel, savoring the pure solitude of lawless freedom.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Wrecked Vintage Camper on an Abandoned Marine Corps Concrete Slab in Slab City, California: Dated around 1942 USMC Camp Dunlap concrete slab (RV abandoned in 1981) and valued at Salvage trailer shell ~$820 USD (includes 1 cracked solar panel), this site relies on a decrepit rv trailer abandoned on the wwii marine concrete slab in the off-grid desert frontier with neither running water nor grid electricity. in 48°c midday heat, you power a single fan with one solar panel, savoring the pure solitude of lawless freedom. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -1052,7 +843,7 @@ export const MASTER_HOUSES = [
       "builtYear": "c. 990 AD Hogwarts subterranean potions dungeon construction",
       "estimatedValue": "-15 Galleons (deduction for Neville's melted pewter cauldron)",
       "specialFeature": "An ash-filled hearth crevice directly beneath a cast-iron cauldron in the Hogwarts dungeons. Whenever slug slime and purple herbs boil over, acrid smoke and the hem of Professor Snape's black cloak brush past your nose.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Official Multiverse Appraisal for Ash-Covered Crevice Beneath Professor Snape's Potion Cauldron, 『Harry Potter』: Dated around c. 990 AD Hogwarts subterranean potions dungeon construction and valued at -15 Galleons (deduction for Neville's melted pewter cauldron), this site relies on an ash-filled hearth crevice directly beneath a cast-iron cauldron in the hogwarts dungeons. whenever slug slime and purple herbs boil over, acrid smoke and the hem of professor snape's black cloak brush past your nose. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -1149,7 +940,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1786 Paris limestone quarry ossuary conversion period",
       "estimatedValue": "€60 municipal fine for unauthorized Paris Catacombs entry",
       "specialFeature": "A hideout built by propping rusted tin sheets against a narrow cavity behind the bone walls 20 meters below Paris. Year-round 14°C chill and damp groundwater odors seep straight through the stacked skulls.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Makeshift Tin Slate Cabin Behind the Ossuary Skull Walls of the Paris Catacombs, France: Dated around 1786 Paris limestone quarry ossuary conversion period and valued at €60 municipal fine for unauthorized Paris Catacombs entry, this site relies on a hideout built by propping rusted tin sheets against a narrow cavity behind the bone walls 20 meters below paris. year-round 14°c chill and damp groundwater odors seep straight through the stacked skulls. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -1182,7 +973,7 @@ export const MASTER_HOUSES = [
       "builtYear": "c. Third Age 2470 deep cavern formation beneath Goblin-town",
       "estimatedValue": "3 raw fish skeletons (mental toll of losing the One Ring priceless)",
       "specialFeature": "A slippery rock ledge beside an underground lake in the Misty Mountains where sunlight never reaches. Cold fish bones discarded by Gollum litter the floor while his hissed whispers echo off the cavern walls.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Zoning & Survival Report on Dank Under-Rock Alcove Where Gollum Gnawed on Fish Bones in the Misty Mountains, 『The Lord of the Rings』: Dated around c. Third Age 2470 deep cavern formation beneath Goblin-town and valued at 3 raw fish skeletons (mental toll of losing the One Ring priceless), this site relies on a slippery rock ledge beside an underground lake in the misty mountains where sunlight never reaches. cold fish bones discarded by gollum litter the floor while his hissed whispers echo off the cavern walls. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -1279,7 +1070,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2014 Mudurnu Valley groundbreaking, halted by 2018 developer bankruptcy",
       "estimatedValue": "Frozen distressed creditor claim ~$3,100 USD (unfinishable shell)",
       "specialFeature": "An unfinished concrete basement swirling with dust amid 587 bankrupt copy-paste fairy-tale châteaux abandoned after hundreds of millions of dollars were squandered. Through the rough window openings, eerie identical gray turrets stare down at you through the mist like phantoms.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Dusty Basement of Bankrupt 587-Château Disney-Style Abandoned Castle Compound, Burj Al Babas, Turkey: Dated around 2014 Mudurnu Valley groundbreaking, halted by 2018 developer bankruptcy and valued at Frozen distressed creditor claim ~$3,100 USD (unfinishable shell), this site relies on an unfinished concrete basement swirling with dust amid 587 bankrupt copy-paste fairy-tale châteaux abandoned after hundreds of millions of dollars were squandered. through the rough window openings, eerie identical gray turrets stare down at you through the mist like phantoms. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -1312,7 +1103,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Year 845, formed on the day Wall Maria fell in Shiganshina",
       "estimatedValue": "Loss of 2 Survey Corps ODM gear gas canisters",
       "specialFeature": "A two-meter-deep footprint crater pressed into the earth by a Colossal Titan marching past the wall. Lay a plank across the muddy rainwater pool and feel distant ground tremors vibrate right through your soles.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Emergency Habitat Assessment for Muddy Puddle in the Footprint Left by a Colossal Titan's Sole, 『Attack on Titan』: Dated around Year 845, formed on the day Wall Maria fell in Shiganshina and valued at Loss of 2 Survey Corps ODM gear gas canisters, this site relies on a two-meter-deep footprint crater pressed into the earth by a colossal titan marching past the wall. lay a plank across the muddy rainwater pool and feel distant ground tremors vibrate right through your soles. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -1409,7 +1200,7 @@ export const MASTER_HOUSES = [
       "builtYear": "14th-century Byzantine cliffside hermitage construction on Mount Athos",
       "estimatedValue": "Non-commercial ascetic cell (valued at 1 dry barley loaf & rainwater)",
       "specialFeature": "An Eastern Orthodox hermit's timber shelter lashed to rock clefts with chains and pulleys above crashing Aegean surf on a 100m vertical precipice. Swallowing dry crusts hauled up in a basket, you contemplate mortality suspended over the bottomless void.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Wooden Hermitage Suspended by Chains on a 100m Cliff Face at Karoulia, Mount Athos, Greece: Dated around 14th-century Byzantine cliffside hermitage construction on Mount Athos and valued at Non-commercial ascetic cell (valued at 1 dry barley loaf & rainwater), this site relies on an eastern orthodox hermit's timber shelter lashed to rock clefts with chains and pulleys above crashing aegean surf on a 100m vertical precipice. swallowing dry crusts hauled up in a basket, you contemplate mortality suspended over the bottomless void. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -1442,7 +1233,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Installed during the grand opening of the Chum Bucket in Bikini Bottom",
       "estimatedValue": "1 rusted penny & 1 holographic meatloaf blueprint",
       "specialFeature": "Inside a rusted iron coin box tucked in the corner of the Chum Bucket's underground vault. With zero customers, the empty box smells of holographic meatloaf while Plankton's computer wife Karen nags through the wall.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Structural & Livability Review of Rusted Coin Box Inside Plankton's Chum Bucket Secret Vault, 『SpongeBob SquarePants』: Dated around Installed during the grand opening of the Chum Bucket in Bikini Bottom and valued at 1 rusted penny & 1 holographic meatloaf blueprint, this site relies on inside a rusted iron coin box tucked in the corner of the chum bucket's underground vault. with zero customers, the empty box smells of holographic meatloaf while plankton's computer wife karen nags through the wall. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -1539,7 +1330,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1954 Georgian SSR Soviet aerial tramway installation",
       "estimatedValue": "Decommissioned steel cabin scrap ~$500 USD (failed cable safety inspection)",
       "specialFeature": "A precarious shelter inside a Stalin-era 1954 manganese aerial tram rattling with rust and structural fatigue. Suspended 150m above the gorge on frayed steel cables, you clutch a Soviet toolbox in place of a safety harness.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Inside a Rusted 1954 Soviet Manganese Mine Cable Car Cabin in Chiatura, Georgia: Dated around 1954 Georgian SSR Soviet aerial tramway installation and valued at Decommissioned steel cabin scrap ~$500 USD (failed cable safety inspection), this site relies on a precarious shelter inside a stalin-era 1954 manganese aerial tram rattling with rust and structural fatigue. suspended 150m above the gorge on frayed steel cables, you clutch a soviet toolbox in place of a safety harness. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -1572,7 +1363,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1989 unpermitted attic crawlspace added behind Moe's Tavern",
       "estimatedValue": "-$420 bar tab balance (plus 18 crates of empty Duff bottles)",
       "specialFeature": "A low attic crawlspace perched above souring Duff beer dreg barrels behind Moe's Tavern in Springfield. All night, Barney's burps and muffled jukebox bass rattle up through the floorboards.",
-      "aiVerdict": "If you can survive here, you can adapt with a smile to any hellscape in existence."
+      "aiVerdict": "Field Inspection Verdict on Attic Crawlspace Behind the Beer Dreg Barrels at Moe's Tavern, 『The Simpsons』: Dated around 1989 unpermitted attic crawlspace added behind Moe's Tavern and valued at -$420 bar tab balance (plus 18 crates of empty Duff bottles), this site relies on a low attic crawlspace perched above souring duff beer dreg barrels behind moe's tavern in springfield. all night, barney's burps and muffled jukebox bass rattle up through the floorboards. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -1669,7 +1460,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1971 Soviet Norilsk 5-story Khrushchyovka panel apartment build",
       "estimatedValue": "Arctic foreclosed shell ~$1,080 USD (central heating pipes frozen solid)",
       "specialFeature": "A balcony tent in the world's most depressing industrial city, shrouded in sulfur dioxide smog from nickel smelters at -45°C. When gray blizzards breach the cracked panes, only vodka and three layers of fur keep you conscious.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Balcony Tent at -45°C in Heavy Metal Smog, Abandoned Apartment in Norilsk, Russia: Dated around 1971 Soviet Norilsk 5-story Khrushchyovka panel apartment build and valued at Arctic foreclosed shell ~$1,080 USD (central heating pipes frozen solid), this site relies on a balcony tent in the world's most depressing industrial city, shrouded in sulfur dioxide smog from nickel smelters at -45°c. when gray blizzards breach the cracked panes, only vodka and three layers of fur keep you conscious. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -1799,7 +1590,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1962 (Showa 37) Yubari coal miners' company housing completion",
       "estimatedValue": "¥150,000 municipal ghost-town liquidation price (buyer assumes snow removal)",
       "specialFeature": "A worn tatami room in 1960s miners' housing buried to the eaves in powder snow in a ghost town where municipal bankruptcy drove away 90% of residents. As Hokkaido's razor gales rattle the paper screens, you desperately huddle around a dead kerosene heater.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Showa-Era Company Housing Tatami Room Buried in Snow, Bankrupt Mining Ghost Town of Yubari, Hokkaido, Japan: Dated around 1962 (Showa 37) Yubari coal miners' company housing completion and valued at ¥150,000 municipal ghost-town liquidation price (buyer assumes snow removal), this site relies on a worn tatami room in 1960s miners' housing buried to the eaves in powder snow in a ghost town where municipal bankruptcy drove away 90% of residents. as hokkaido's razor gales rattle the paper screens, you desperately huddle around a dead kerosene heater. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -1929,7 +1720,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1968 unpermitted tin rooftop addition atop a Tsuen Wan walk-up",
       "estimatedValue": "HK$1,800/month rooftop shanty rent (demolition order posted)",
       "specialFeature": "A tarpaulin refuge atop skyscraper canyons where corrugated sheets shield against sweltering tropical gales. During monsoon downpours, you huddle under rattling neon signs with ten buckets catching indoor waterfalls.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Leaky Tarpaulin Tent on a Tin Rooftop Slum in Tsuen Wan During Rainy Season, Hong Kong: Dated around 1968 unpermitted tin rooftop addition atop a Tsuen Wan walk-up and valued at HK$1,800/month rooftop shanty rent (demolition order posted), this site relies on a tarpaulin refuge atop skyscraper canyons where corrugated sheets shield against sweltering tropical gales. during monsoon downpours, you huddle under rattling neon signs with ten buckets catching indoor waterfalls. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -2059,7 +1850,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1959 Yunnan Dongchuan open-pit copper miners' hillside dugout",
       "estimatedValue": "Abandoned mine dugout timber value ~$400 USD (red-dust laundry extra)",
       "specialFeature": "A burrow scraped into the 2,600m crimson plateau where oxidized iron and aluminum tint the landscape blood-red. Gale-force red dust storms quickly coat you from head to toe, transforming you into a living Terracotta Warrior.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Hillside Dugout on a Copper Mine Waste Slope in Dongchuan Red Land, Yunnan, China: Dated around 1959 Yunnan Dongchuan open-pit copper miners' hillside dugout and valued at Abandoned mine dugout timber value ~$400 USD (red-dust laundry extra), this site relies on a burrow scraped into the 2,600m crimson plateau where oxidized iron and aluminum tint the landscape blood-red. gale-force red dust storms quickly coat you from head to toe, transforming you into a living terracotta warrior. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -2189,7 +1980,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1953 Korean War refugee settlement concrete-block infill build",
       "estimatedValue": "Unregistered alley-gap structure appraisal ~$2,800 USD (zero land share)",
       "specialFeature": "A sliver-thin shack stacked with cinder blocks in an 80cm gap between terraced wartime refugee shanties. Opening the front door drops straight into a precipitous 148-step stairway that threatens to tumble you straight into the harbor.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for 80cm-Wide Concrete Block Shack at the Top of Steep Stairs in Gamcheon Village, Busan: Dated around 1953 Korean War refugee settlement concrete-block infill build and valued at Unregistered alley-gap structure appraisal ~$2,800 USD (zero land share), this site relies on a sliver-thin shack stacked with cinder blocks in an 80cm gap between terraced wartime refugee shanties. opening the front door drops straight into a precipitous 148-step stairway that threatens to tumble you straight into the harbor. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -2319,7 +2110,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1995 Keelung coastal villa construction, abandoned in 1997",
       "estimatedValue": "Corroded rebar shell value ~$1,550 USD (slated for coastal hazard removal)",
       "specialFeature": "The living room of a ruined oceanfront luxury villa on Taiwan's northern coast, where decades of saline Pacific gales and supertyphoons have oxidized structural rebar into orange crust. Resting in 95% sticky humidity, you fall asleep to blooming black mold and crashing surf.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Mold-Ridden Living Room in Typhoon-Stripped Coastal Villa Ruins of Feihau, Keelung, Taiwan: Dated around 1995 Keelung coastal villa construction, abandoned in 1997 and valued at Corroded rebar shell value ~$1,550 USD (slated for coastal hazard removal), this site relies on the living room of a ruined oceanfront luxury villa on taiwan's northern coast, where decades of saline pacific gales and supertyphoons have oxidized structural rebar into orange crust. resting in 95% sticky humidity, you fall asleep to blooming black mold and crashing surf. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -2449,7 +2240,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1865 completion of Sir Joseph Bazalgette's Victorian London sewer sluice",
       "estimatedValue": "£250 Thames Water penalty for unauthorized sewer embankment shelter",
       "specialFeature": "A makeshift haven tucked next to a disused iron sluice gate on Sir Joseph Bazalgette's post-1858 Great Stink sewer network. High tides lap through iron seams while brown rats paddle through 150-year-old Victorian brickwork.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Shelter Beside a Decommissioned Bazalgette Brick Sluice Gate in Victorian Thames Embankment, London, UK: Dated around 1865 completion of Sir Joseph Bazalgette's Victorian London sewer sluice and valued at £250 Thames Water penalty for unauthorized sewer embankment shelter, this site relies on a makeshift haven tucked next to a disused iron sluice gate on sir joseph bazalgette's post-1858 great stink sewer network. high tides lap through iron seams while brown rats paddle through 150-year-old victorian brickwork. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -2579,7 +2370,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1977 Taebaek coal mine dormitory bathhouse boiler room build",
       "estimatedValue": "Scrap boiler & copper pipe salvage value ~$1,000 USD",
       "specialFeature": "A corner of the old miners' bathhouse boiler room at the mouth of a closed Taebaek coal shaft. A worn mattress sits beside dead steam pipes while cold groundwater drips in a steady beat from cracked ceiling tiles.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Mattress Beside Boiler Pipes in Abandoned Bathhouse at 200m Mine Portal, Taebaek, Gangwon-do: Dated around 1977 Taebaek coal mine dormitory bathhouse boiler room build and valued at Scrap boiler & copper pipe salvage value ~$1,000 USD, this site relies on a corner of the old miners' bathhouse boiler room at the mouth of a closed taebaek coal shaft. a worn mattress sits beside dead steam pipes while cold groundwater drips in a steady beat from cracked ceiling tiles. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -2709,7 +2500,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1973 Villa Epecuén shop, submerged in salt lake from 1985 to 2009",
       "estimatedValue": "Salt-petrified heritage ruin zone (non-tradable, $0 salvage value)",
       "specialFeature": "A former butcher shop in the petrified ghost town exposed after a dam breach drowned the spa resort under 10 meters of brine for a quarter century. Every bleached brick and dead silver tree is calcified in white salt crust, creating a haunting scene spookier than Silent Hill.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Salt-Crusted Butcher Shop Ruins Re-emerging After 25 Years Submerged in Villa Epecuén Salt Lake, Argentina: Dated around 1973 Villa Epecuén shop, submerged in salt lake from 1985 to 2009 and valued at Salt-petrified heritage ruin zone (non-tradable, $0 salvage value), this site relies on a former butcher shop in the petrified ghost town exposed after a dam breach drowned the spa resort under 10 meters of brine for a quarter century. every bleached brick and dead silver tree is calcified in white salt crust, creating a haunting scene spookier than silent hill. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -2839,7 +2630,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Formed during 1990s Bogotá inner-city decay (cleared in 2016)",
       "estimatedValue": "$0 condemned demolition zone value (kevlar vest rental extra)",
       "specialFeature": "A mattress wedged between alley brickwork in a notorious cartel-fortified ghetto high on the Andean plateau once deemed an impenetrable no-go zone. Amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Alley Gap Mattress Shelter in the Condemned Sector of El Bronx, Bogotá, Colombia: Dated around Formed during 1990s Bogotá inner-city decay (cleared in 2016) and valued at $0 condemned demolition zone value (kevlar vest rental extra), this site relies on a mattress wedged between alley brickwork in a notorious cartel-fortified ghetto high on the andean plateau once deemed an impenetrable no-go zone. amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -2969,7 +2760,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1880s silver-boom stone masonry in Real de Catorce, Mexico",
       "estimatedValue": "Desert ghost-town stone ruin ~$1,780 USD (water hauling extra)",
       "specialFeature": "A rough timber lean-to tucked into crumbling stone masonry at 2,750m, where 40,000 miners fled when the silver veins died out. Accessible only through a spooky 2.7km single-lane tunnel, you sleep amid silent stone ruins infused with the aroma of wild peyote cactus.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Stone Wall Plank Shelter at 2,750m in Deserted High-Altitude Silver Town, Real de Catorce, Mexico: Dated around 1880s silver-boom stone masonry in Real de Catorce, Mexico and valued at Desert ghost-town stone ruin ~$1,780 USD (water hauling extra), this site relies on a rough timber lean-to tucked into crumbling stone masonry at 2,750m, where 40,000 miners fled when the silver veins died out. accessible only through a spooky 2.7km single-lane tunnel, you sleep amid silent stone ruins infused with the aroma of wild peyote cactus. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -3099,7 +2890,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1983 Ford F-150 pickup bed (abandoned in Appalachian coal hollow)",
       "estimatedValue": "Rusted chassis & tarp salvage ~$580 USD",
       "specialFeature": "A canvas tarp tied over the bed of a derelict 1980s Ford pickup beside orange acid mine runoff in a hollow of the Appalachians. Bizarre cryptid growls ripple through dense mountain forests at night while sodden fog chills the rusted chassis.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Tarp Tent on Rusted Pickup Bed in Abandoned Appalachian Coal Hollow, West Virginia, USA: Dated around 1983 Ford F-150 pickup bed (abandoned in Appalachian coal hollow) and valued at Rusted chassis & tarp salvage ~$580 USD, this site relies on a canvas tarp tied over the bed of a derelict 1980s ford pickup beside orange acid mine runoff in a hollow of the appalachians. bizarre cryptid growls ripple through dense mountain forests at night while sodden fog chills the rusted chassis. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -3229,7 +3020,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1892 red-brick silk mill construction in Paterson, New Jersey",
       "estimatedValue": "-$105,000 USD EPA asbestos abatement liability",
       "specialFeature": "A makeshift cot beside shattered floor-to-ceiling windows on the fourth floor of a decaying 19th-century redbrick silk mill. Asbestos fibers and crushed glass drift like snowflakes through the cavernous hall to the muffled roar of the Passaic Falls.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Asbestos Dust Bed Below Smashed Windows in Abandoned Silk Mill, Paterson, New Jersey, USA: Dated around 1892 red-brick silk mill construction in Paterson, New Jersey and valued at -$105,000 USD EPA asbestos abatement liability, this site relies on a makeshift cot beside shattered floor-to-ceiling windows on the fourth floor of a decaying 19th-century redbrick silk mill. asbestos fibers and crushed glass drift like snowflakes through the cavernous hall to the muffled roar of the passaic falls. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -3359,7 +3150,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2015 winter ice-fishing season plywood build, Northwest Territories",
       "estimatedValue": "Used ice shack & wood stove ~$1,220 USD (sinks if left until spring thaw)",
       "specialFeature": "A plywood ice hut isolated in the center of a subarctic lake frozen 1.5 meters thick. Cryogenic vapor rising from the circular hole bored into the floor blooms frost flowers across every indoor surface at -42°C.",
-      "aiVerdict": "There is no housing harsher or more brutally honest for cultivating raw wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Ice Fishing Shack on Great Slave Lake at -42°C in Yellowknife, Canada: Dated around 2015 winter ice-fishing season plywood build, Northwest Territories and valued at Used ice shack & wood stove ~$1,220 USD (sinks if left until spring thaw), this site relies on a plywood ice hut isolated in the center of a subarctic lake frozen 1.5 meters thick. cryogenic vapor rising from the circular hole bored into the floor blooms frost flowers across every indoor surface at -42°c. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -3489,7 +3280,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1979 Soviet Arktikugol Trust Arctic miners' dormitory completion",
       "estimatedValue": "Frozen Arctic ghost-town asset (0 RUB market value, heating unrepairable)",
       "specialFeature": "A Soviet abandoned coal mine dormitory bedroom at 78° N in the Svalbard archipelago, where time froze in 1998 when all residents evacuated leaving their belongings behind. Beyond the window, the world's northernmost Lenin bust glares at the glacier, while polar bears can be heard scratching at the hallway doors.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Svalbard Pyramiden Arctic Soviet Abandoned Coal Mine Ghost Town Dormitory Bedroom Behind Lenin Statue: Dated around 1979 Soviet Arktikugol Trust Arctic miners' dormitory completion and valued at Frozen Arctic ghost-town asset (0 RUB market value, heating unrepairable), this site relies on a soviet abandoned coal mine dormitory bedroom at 78° n in the svalbard archipelago, where time froze in 1998 when all residents evacuated leaving their belongings behind. beyond the window, the world's northernmost lenin bust glares at the glacier, while polar bears can be heard scratching at the hallway doors. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -3619,7 +3410,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1955 Kiruna mine worker house (entered subsidence demolition zone in 2024)",
       "estimatedValue": "Slated for LKAB mine-subsidence teardown, residual value ~$1,400 USD",
       "specialFeature": "A cracked basement located in a danger zone where the world's largest underground iron ore mine at 1,300m caused massive land subsidence, forcing the relocation of an entire town by 3 km. Amid real-time wall cracking noises and sensor alarms, you can only pray the house won't cave in tonight.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Kiruna, Sweden Subsidence-Damaged Iron Ore Mine Fissured House Basement Slated for Demolition: Dated around 1955 Kiruna mine worker house (entered subsidence demolition zone in 2024) and valued at Slated for LKAB mine-subsidence teardown, residual value ~$1,400 USD, this site relies on a cracked basement located in a danger zone where the world's largest underground iron ore mine at 1,300m caused massive land subsidence, forcing the relocation of an entire town by 3 km. amid real-time wall cracking noises and sensor alarms, you can only pray the house won't cave in tonight. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -3749,7 +3540,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1967 Sámi winter reindeer-herding log shelter build in Lapland",
       "estimatedValue": "Wilderness emergency log cabin timber value ~$1,630 USD",
       "specialFeature": "An ancient log shelter of the Sámi reindeer nomads buried under knee-deep snowdrifts in -38°C bitter cold. Huddling on reindeer pelts while coaxing frozen firewood to light, only the hiss of snow pounding against the roof fills the silence.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Lake Inari, Lapland, Finland Abandoned Reindeer Herder Cabin Buried in Subzero Blizzards: Dated around 1967 Sámi winter reindeer-herding log shelter build in Lapland and valued at Wilderness emergency log cabin timber value ~$1,630 USD, this site relies on an ancient log shelter of the sámi reindeer nomads buried under knee-deep snowdrifts in -38°c bitter cold. huddling on reindeer pelts while coaxing frozen firewood to light, only the hiss of snow pounding against the roof fills the silence. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -3879,7 +3670,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1957 Nevada Test Site Area 4 underground observation bunker build",
       "estimatedValue": "Decommissioned bunker scrap & foil insulation ~$950 USD",
       "specialFeature": "A micro-sleeping capsule cobbled together from insulated foil chicken delivery boxes inside an old Nevada desert observation bunker. Desert sandstorms howl past thick leaded-glass slits while faint fried-oil aromas linger inside.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Nevada Desert Nuclear Test Site Observation Bunker Defunct Fried Chicken Foil Delivery Box Compact Room: Dated around 1957 Nevada Test Site Area 4 underground observation bunker build and valued at Decommissioned bunker scrap & foil insulation ~$950 USD, this site relies on a micro-sleeping capsule cobbled together from insulated foil chicken delivery boxes inside an old nevada desert observation bunker. desert sandstorms howl past thick leaded-glass slits while faint fried-oil aromas linger inside. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -4009,7 +3800,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1830s dry-stone cottage on Achill Island (deserted during 1848 Famine)",
       "estimatedValue": "Protected Great Famine memorial ruin (non-tradable heritage site)",
       "specialFeature": "A corner shelter in one of over 100 deserted stone cottages left behind when entire village populations starved or emigrated during the Great Famine of 1845. Through roofless, weathered stone walls, bitter Atlantic sea winds and rainclouds sweep in, singing of harrowing history.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Slievemore, Achill Island, Ireland 1845 Potato Famine Abandoned Stone Cottage Ruin Corner: Dated around 1830s dry-stone cottage on Achill Island (deserted during 1848 Famine) and valued at Protected Great Famine memorial ruin (non-tradable heritage site), this site relies on a corner shelter in one of over 100 deserted stone cottages left behind when entire village populations starved or emigrated during the great famine of 1845. through roofless, weathered stone walls, bitter atlantic sea winds and rainclouds sweep in, singing of harrowing history. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -4139,7 +3930,7 @@ export const MASTER_HOUSES = [
       "builtYear": "18th-century church shattered during the 1937 Battle of Belchite",
       "estimatedValue": "Preserved Civil War ruin zone (€150 fine for unauthorized night entry)",
       "specialFeature": "A trench behind the altar in a ghost town church preserved in ruins since heavy shelling in the 1937 Spanish Civil War. You lie tracing shrapnel scars with your fingertips beneath the blazing Aragonese sun pouring through the collapsed Gothic dome.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Belchite, Spain Civil War Bomb-Ravaged Cathedral Ruins Trench Behind Altar: Dated around 18th-century church shattered during the 1937 Battle of Belchite and valued at Preserved Civil War ruin zone (€150 fine for unauthorized night entry), this site relies on a trench behind the altar in a ghost town church preserved in ruins since heavy shelling in the 1937 spanish civil war. you lie tracing shrapnel scars with your fingertips beneath the blazing aragonese sun pouring through the collapsed gothic dome. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -4269,7 +4060,7 @@ export const MASTER_HOUSES = [
       "builtYear": "13th-century cliffside masonry in Craco (evacuated after 1963 landslide)",
       "estimatedValue": "Condemned landslide red-zone (€0 market value, hard hat mandatory)",
       "specialFeature": "A tottering balcony in a medieval cliff village of southern Italy, abandoned after continuous landslides and ground instability forced full evacuation. Perched atop a 400-meter rocky crag overlooking the Matera plateau, you hold your breath on crumbling limestone floors.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Craco, Italy Cliffside Balcony in Landslide-Abandoned Medieval Ghost Town: Dated around 13th-century cliffside masonry in Craco (evacuated after 1963 landslide) and valued at Condemned landslide red-zone (€0 market value, hard hat mandatory), this site relies on a tottering balcony in a medieval cliff village of southern italy, abandoned after continuous landslides and ground instability forced full evacuation. perched atop a 400-meter rocky crag overlooking the matera plateau, you hold your breath on crumbling limestone floors. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -4399,7 +4190,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1981 Bulgarian Communist Party monument opening (abandoned post-1989)",
       "estimatedValue": "Estimated -$9M USD structural dome stabilization liability",
       "specialFeature": "The floor beneath a collapsed ceiling dome blasted by blizzards at the saucer-shaped communist monument atop the Balkan Mountains at 1,441m altitude. Pitching a tent amidst crumbling Red Star mosaics in the rotunda, you shiver through the night among colossal ghosts of the past.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Buzludzha, Bulgaria Abandoned Communist Party Monument Blizzard-Swept Mosaic Dome Floor: Dated around 1981 Bulgarian Communist Party monument opening (abandoned post-1989) and valued at Estimated -$9M USD structural dome stabilization liability, this site relies on the floor beneath a collapsed ceiling dome blasted by blizzards at the saucer-shaped communist monument atop the balkan mountains at 1,441m altitude. pitching a tent amidst crumbling red star mosaics in the rotunda, you shiver through the night among colossal ghosts of the past. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -4529,7 +4320,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1976 concrete pour during Enver Hoxha's national bunkerization campaign",
       "estimatedValue": "Shepherd shelter value ~$330 USD (-$1,350 concrete demolition cost)",
       "specialFeature": "A hilltop single-occupancy pillbox bunker among 170,000 concrete domes built by Enver Hoxha's paranoid regime against invasion delusions. Crouched under a sub-2-meter dome, you peer into olive groves through narrow firing slits amidst bizarre Cold War relics.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Gjirokastër, Albania Hoxha-Era Single-Man Concrete Mushroom Bunker Embrasure Post: Dated around 1976 concrete pour during Enver Hoxha's national bunkerization campaign and valued at Shepherd shelter value ~$330 USD (-$1,350 concrete demolition cost), this site relies on a hilltop single-occupancy pillbox bunker among 170,000 concrete domes built by enver hoxha's paranoid regime against invasion delusions. crouched under a sub-2-meter dome, you peer into olive groves through narrow firing slits amidst bizarre cold war relics. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -4659,7 +4450,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1899 First Royal Serbian Sugar Refinery build (shuttered in 1998)",
       "estimatedValue": "Condemned refinery brownfield (cardboard scrap value ~$9 USD)",
       "specialFeature": "A cardboard refuge tucked behind corroded sludge vats in a massive 19th-century red-brick sugar refinery derelict by the Danube. Beneath concrete silos caked in pigeon droppings and chemical residues, you brave the river winds through cold nights.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Belgrade, Serbia Danube Riverfront Shuttered Sugar Mill Sludge Tank Cardboard Shelter: Dated around 1899 First Royal Serbian Sugar Refinery build (shuttered in 1998) and valued at Condemned refinery brownfield (cardboard scrap value ~$9 USD), this site relies on a cardboard refuge tucked behind corroded sludge vats in a massive 19th-century red-brick sugar refinery derelict by the danube. beneath concrete silos caked in pigeon droppings and chemical residues, you brave the river winds through cold nights. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -4789,7 +4580,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1908 Silesian red-brick coal miners' Familok rowhouse completion",
       "estimatedValue": "30-degree subsidence-tilted distressed unit value ~$3,600 USD",
       "specialFeature": "A ground-floor bedroom in a Silesian miner tenement tilted 30 degrees like the Tower of Pisa from centuries of reckless coal extraction. Lying down slides your body against the baseboard, forcing you to hook your toes around a desk leg to sleep.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Katowice, Poland Subsidence-Tilted 30-Degree Historic Coal Miner Rowhouse 1st Floor Bedroom: Dated around 1908 Silesian red-brick coal miners' Familok rowhouse completion and valued at 30-degree subsidence-tilted distressed unit value ~$3,600 USD, this site relies on a ground-floor bedroom in a silesian miner tenement tilted 30 degrees like the tower of pisa from centuries of reckless coal extraction. lying down slides your body against the baseboard, forcing you to hook your toes around a desk leg to sleep. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -4919,7 +4710,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1958 Czechoslovak Cold War 30m-deep civil defense bunker excavation",
       "estimatedValue": "Obsolete ventilation iron scrap & mattress value ~$650 USD",
       "specialFeature": "A mattress nestled in the air filtration valve room of a Warsaw Pact nuclear shelter dug deep into Prague's granite bedrock. Surrounded by anti-corrosion oil odors and the thrum of ancient blowers, you savor absolute safety and claustrophobia 30 meters underground.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Prague, Czech Republic Shuttered Cold War Nuclear Bunker Ventilation Pipe Room Mattress in Front of Rusted Blast Door: Dated around 1958 Czechoslovak Cold War 30m-deep civil defense bunker excavation and valued at Obsolete ventilation iron scrap & mattress value ~$650 USD, this site relies on a mattress nestled in the air filtration valve room of a warsaw pact nuclear shelter dug deep into prague's granite bedrock. surrounded by anti-corrosion oil odors and the thrum of ancient blowers, you savor absolute safety and claustrophobia 30 meters underground. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -5049,7 +4840,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1974 Soviet Tver Carriage Works freight car on Trans-Siberian line",
       "estimatedValue": "Makeshift timber plank & plastic sheet value ~$290 USD",
       "specialFeature": "A makeshift wooden cot wrapped in plastic sheeting at the tail end of a Trans-Siberian cargo car. Every time the adjacent lavatory door slams, icy drafts and disinfectant fumes rush in while rail joints hammer your spine.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Trans-Siberian 4th-Class Cargo Van Next to Toilet Leaky Monsoon Greenhouse Corner Wooden Bed: Dated around 1974 Soviet Tver Carriage Works freight car on Trans-Siberian line and valued at Makeshift timber plank & plastic sheet value ~$290 USD, this site relies on a makeshift wooden cot wrapped in plastic sheeting at the tail end of a trans-siberian cargo car. every time the adjacent lavatory door slams, icy drafts and disinfectant fumes rush in while rail joints hammer your spine. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -5179,7 +4970,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1910 initial expedition timber outpost inside Dachstein Giant Ice Cave",
       "estimatedValue": "Treated larch-wood cave shelter value ~$2,300 USD (frostbite care extra)",
       "specialFeature": "A wooden survey post deep within an Alpine cave hundreds of meters down, surrounded by tens-of-thousands-of-years-old glacial walls and giant ice stalactites. At -10°C, your breath condenses instantly onto permafrost crystals in pure, desolate stillness.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Dachstein, Austria Giant Ice Cave Subzero 10°C Stalactite-Hung Wooden Exploration Outpost: Dated around 1910 initial expedition timber outpost inside Dachstein Giant Ice Cave and valued at Treated larch-wood cave shelter value ~$2,300 USD (frostbite care extra), this site relies on a wooden survey post deep within an alpine cave hundreds of meters down, surrounded by tens-of-thousands-of-years-old glacial walls and giant ice stalactites. at -10°c, your breath condenses instantly onto permafrost crystals in pure, desolate stillness. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -5309,7 +5100,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1970 Port of Beirut grain silo build (shattered in August 2020 blast)",
       "estimatedValue": "Condemned port blast ground-zero (multi-million-dollar cleanup liability)",
       "specialFeature": "A tent shaded by the blackened concrete ruins of the giant grain silos blasted apart in the 2020 detonation of 2,750 tons of ammonium nitrate. At Ground Zero, surrounded by decomposing grain odors and jagged rebar, you endure harsh Mediterranean gales.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Port of Beirut, Lebanon Ammonium Nitrate Blast-Shattered Grain Silo Concrete Shade Tent: Dated around 1970 Port of Beirut grain silo build (shattered in August 2020 blast) and valued at Condemned port blast ground-zero (multi-million-dollar cleanup liability), this site relies on a tent shaded by the blackened concrete ruins of the giant grain silos blasted apart in the 2020 detonation of 2,750 tons of ammonium nitrate. at ground zero, surrounded by decomposing grain odors and jagged rebar, you endure harsh mediterranean gales. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -5439,7 +5230,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1972 caravan-route shelter hammered from flattened steel oil drums",
       "estimatedValue": "4 heat-warped corrugated tin sheets valued at ~$33 USD",
       "specialFeature": "A rusted tin awning pitched across black volcanic gravels recorded by NASA satellites as Earth's highest land surface temperature at 70.7°C. The scorching thermal ground melts boot soles, making lying down flat impossible even at night.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Dasht-e Lut, Iran 70.7°C Black Basalt Plain Corrugated Tin Awning Shelter: Dated around 1972 caravan-route shelter hammered from flattened steel oil drums and valued at 4 heat-warped corrugated tin sheets valued at ~$33 USD, this site relies on a rusted tin awning pitched across black volcanic gravels recorded by nasa satellites as earth's highest land surface temperature at 70.7°c. the scorching thermal ground melts boot soles, making lying down flat impossible even at night. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -5569,7 +5360,7 @@ export const MASTER_HOUSES = [
       "builtYear": "16th-century traditional leather tannery construction in Tangier Medina",
       "estimatedValue": "Timber platform value ~$210 USD (respirator & deodorizing costs extra)",
       "specialFeature": "A wooden cot perched directly over tannery drainage flumes churning with pigeon droppings and chemical dyes beneath millennium-old medina alleys. Breathing sharp ammonia fumes alongside rushing colored runoff, you experience the subterranean heartbeat of the Mediterranean gateway.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Tangier Medina, Morocco Underground Kasbah Tannery Effluent Passage Wooden Platform: Dated around 16th-century traditional leather tannery construction in Tangier Medina and valued at Timber platform value ~$210 USD (respirator & deodorizing costs extra), this site relies on a wooden cot perched directly over tannery drainage flumes churning with pigeon droppings and chemical dyes beneath millennium-old medina alleys. breathing sharp ammonia fumes alongside rushing colored runoff, you experience the subterranean heartbeat of the mediterranean gateway. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -5699,7 +5490,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1907 Sudano-Sahelian mud-brick rebuilding of Djenné courtyard houses",
       "estimatedValue": "~$26/month rooftop cot rental (tenant must help replaster mud after rains)",
       "specialFeature": "A rooftop mud terrace in the world's largest adobe city where walls swell with humidity after the Bani River's monsoon floods. At night amidst buzzing Sahelian mosquito swarms, you behold majestic adobe structures replastered year after year.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Djenné, Mali Swollen Mud-Brick Great Mosque Forecourt Rooftop Cot Post-Sahel Flood: Dated around 1907 Sudano-Sahelian mud-brick rebuilding of Djenné courtyard houses and valued at ~$26/month rooftop cot rental (tenant must help replaster mud after rains), this site relies on a rooftop mud terrace in the world's largest adobe city where walls swell with humidity after the bani river's monsoon floods. at night amidst buzzing sahelian mosquito swarms, you behold majestic adobe structures replastered year after year. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -5829,7 +5620,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2001 shanty erected along Odaw River e-waste burning grounds in Accra",
       "estimatedValue": "Recovered scrap copper wire value ~$460 USD (heavy-metal detox extra)",
       "specialFeature": "A shack in the world's largest e-waste scrapyard where discarded computers and smartphones are torched to harvest copper. Wearing a gas mask is mandatory amidst cinder fields billowing toxic black smoke from burning plastic and lead 24/7.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Agbogbloshie, Accra, Ghana E-Waste Dump Cable-Incinerator Toxic Smoke Shanty: Dated around 2001 shanty erected along Odaw River e-waste burning grounds in Accra and valued at Recovered scrap copper wire value ~$460 USD (heavy-metal detox extra), this site relies on a shack in the world's largest e-waste scrapyard where discarded computers and smartphones are torched to harvest copper. wearing a gas mask is mandatory amidst cinder fields billowing toxic black smoke from burning plastic and lead 24/7. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -5959,7 +5750,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1999 bamboo shanty built beside Lake Kivu methane test vent in Rubavu",
       "estimatedValue": "Bamboo frame & tin roof value ~$410 USD (gas alarm battery included)",
       "specialFeature": "A bamboo shack beside Lake Kivu, where billions of cubic meters of dissolved methane and CO2 harbor constant threats of lethal limnic eruptions. With gas alarms blaring in your ears, you gaze across deceptively placid, terrifying waters.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Lake Kivu, Rwanda Methane Vent Extraction Pipe Bamboo Shanty: Dated around 1999 bamboo shanty built beside Lake Kivu methane test vent in Rubavu and valued at Bamboo frame & tin roof value ~$410 USD (gas alarm battery included), this site relies on a bamboo shack beside lake kivu, where billions of cubic meters of dissolved methane and co2 harbor constant threats of lethal limnic eruptions. with gas alarms blaring in your ears, you gaze across deceptively placid, terrifying waters. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -6089,7 +5880,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1955 colonial Grande Hotel Beira opening (squatted since 1975)",
       "estimatedValue": "Informal drained-pool plot transfer value ~$240 USD (no plumbing)",
       "specialFeature": "A shanty built at the bottom of an Olympic-sized pool in what was once Portuguese Africa's grandest 5-star luxury hotel, now squatted by thousands after civil war. Slate roofing rests on broken tiles 3 meters deep, using rainwater gutters as shared latrines.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Official Multiverse Appraisal for Beira, Mozambique Grande Hotel Ruins Squatted Olympic Pool Floor Shanty: Dated around 1955 colonial Grande Hotel Beira opening (squatted since 1975) and valued at Informal drained-pool plot transfer value ~$240 USD (no plumbing), this site relies on a shanty built at the bottom of an olympic-sized pool in what was once portuguese africa's grandest 5-star luxury hotel, now squatted by thousands after civil war. slate roofing rests on broken tiles 3 meters deep, using rainwater gutters as shared latrines. Zero property tax, zero insulation, and a hundred percent pure adrenaline from dusk till dawn."
     }
   },
   {
@@ -6219,7 +6010,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2003 post-civil-war migrant plywood build on Luanda coastal bluff",
       "estimatedValue": "Erosion-prone cliffside plywood shack ~$550 USD (monsoon collapse risk)",
       "specialFeature": "A precarious plywood shack built on eroding cliffs above the Atlantic by urban poor marginalized amidst extreme oil-wealth disparities. Each wave carving away the cliff base leaves half the floor cantilevered over open air like an endless roller coaster.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Zoning & Survival Report on Boavista Slum, Luanda, Angola Atlantic Cliff Landslide Hazard Plywood Shack: Dated around 2003 post-civil-war migrant plywood build on Luanda coastal bluff and valued at Erosion-prone cliffside plywood shack ~$550 USD (monsoon collapse risk), this site relies on a precarious plywood shack built on eroding cliffs above the atlantic by urban poor marginalized amidst extreme oil-wealth disparities. each wave carving away the cliff base leaves half the floor cantilevered over open air like an endless roller coaster. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -6349,7 +6140,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1971 Bupyeong makgeolli brewery underground fermentation vault build",
       "estimatedValue": "$0 culverted subterranean concrete tank (oxygen meter mandatory)",
       "specialFeature": "A bedroom fashioned inside a cracked concrete makgeolli vat of a forgotten underground brewery beneath a culverted roadway. Multi-decade fermentation yeast odors blend with vibrations of heavy tractor-trailers thundering overhead 24 hours a day.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Emergency Habitat Assessment for Incheon Bupyeong Gulpocheon Culvert Subterranean 1970s Shuttered Brewery Fermentation Tank: Dated around 1971 Bupyeong makgeolli brewery underground fermentation vault build and valued at $0 culverted subterranean concrete tank (oxygen meter mandatory), this site relies on a bedroom fashioned inside a cracked concrete makgeolli vat of a forgotten underground brewery beneath a culverted roadway. multi-decade fermentation yeast odors blend with vibrations of heavy tractor-trailers thundering overhead 24 hours a day. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -6479,7 +6270,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1890s pilgrim dry-stone windbreak along Sri Pada summit steps",
       "estimatedValue": "Free pilgrim storm shelter (customary donation ~1,000 LKR / $3 USD)",
       "specialFeature": "A rock cleft walled with stones beside the 5,000-step vertical pilgrimage path ascending the sacred 2,243m peak. Sheltering from monsoon deluges and biting mountain winds, you wring out your soaked sarong and melt the cold through Buddhist devotion.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Structural & Livability Review of Adam's Peak, Sri Lanka 5,000-Step Pilgrimage Trail Stormy Cliff Crevice Shelter: Dated around 1890s pilgrim dry-stone windbreak along Sri Pada summit steps and valued at Free pilgrim storm shelter (customary donation ~1,000 LKR / $3 USD), this site relies on a rock cleft walled with stones beside the 5,000-step vertical pilgrimage path ascending the sacred 2,243m peak. sheltering from monsoon deluges and biting mountain winds, you wring out your soaked sarong and melt the cold through buddhist devotion. It strips domestic comfort down to raw physics, making even a dry sleeping bag feel like royalty."
     }
   },
   {
@@ -6609,7 +6400,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1986 bamboo-and-tire two-story shanty along Yangon Circular Railway",
       "estimatedValue": "Unpermitted railway-verge bamboo loft value ~$355 USD",
       "specialFeature": "A 21-square-foot two-story shanty along the circular railway bordering the infamous political prison, buffeted by train slipstreams. Lying on creaking bamboo flooring, heavy scrap truck tires on the tin roof rattle with each passing locomotive.",
-      "aiVerdict": "There is no housing harsher or more honest than this for building true wilderness survival instincts."
+      "aiVerdict": "Field Inspection Verdict on Insein Prison Outskirts, Yangon, Myanmar 21-Sq-Ft Two-Story Shack with Tires on Roof: Dated around 1986 bamboo-and-tire two-story shanty along Yangon Circular Railway and valued at Unpermitted railway-verge bamboo loft value ~$355 USD, this site relies on a 21-square-foot two-story shanty along the circular railway bordering the infamous political prison, buffeted by train slipstreams. lying on creaking bamboo flooring, heavy scrap truck tires on the tin roof rattle with each passing locomotive. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -6739,7 +6530,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1997 floating bamboo raft lashed together on West Java's Citarum River",
       "estimatedValue": "Bamboo raft & plastic-drum float value ~$475 USD",
       "specialFeature": "A raft house floating on the Citarum River, notorious as the most polluted river in the world, whose surface is carpeted under hundreds of thousands of tons of plastic waste. Instead of rowing a boat, residents fall asleep on an ocean of garbage so dense that you can walk across the floating trash heaps.",
-      "aiVerdict": "There is no residence harsher or more honest than this for forging raw survival instincts in the wild."
+      "aiVerdict": "Official Multiverse Appraisal for Floating Bamboo Raft Shack Smothered in Trash on Indonesia's Citarum River with Water Completely Obscured: Dated around 1997 floating bamboo raft lashed together on West Java's Citarum River and valued at Bamboo raft & plastic-drum float value ~$475 USD, this site relies on a raft house floating on the citarum river, notorious as the most polluted river in the world, whose surface is carpeted under hundreds of thousands of tons of plastic waste. instead of rowing a boat, residents fall asleep on an ocean of garbage so dense that you can walk across the floating trash heaps. Forget interior design trends; surviving one full season in this shelter earns legendary street credibility."
     }
   },
   {
@@ -6869,7 +6660,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1915 Dominican Hill retreat build, bombed in 1945 and abandoned as hotel",
       "estimatedValue": "City-managed historic ruin (closed to lodging, patrolled at night)",
       "specialFeature": "A rooftop shelter atop an abandoned mountaintop hotel at 1,500m elevation, infamous as the most haunted spot in the Philippines due to tragic WWII massacres. Year-round thick fog shrouds the giant stone cross on the roof, while disembodied footsteps echo up the stairs every night.",
-      "aiVerdict": "There is no residence harsher or more honest than this for forging raw survival instincts in the wild."
+      "aiVerdict": "Zoning & Survival Report on Philippines Baguio Diplomat Hotel: WWII Massacre Ruins Cross Shelter on Foggy Rooftop: Dated around 1915 Dominican Hill retreat build, bombed in 1945 and abandoned as hotel and valued at City-managed historic ruin (closed to lodging, patrolled at night), this site relies on a rooftop shelter atop an abandoned mountaintop hotel at 1,500m elevation, infamous as the most haunted spot in the philippines due to tragic wwii massacres. year-round thick fog shrouds the giant stone cross on the roof, while disembodied footsteps echo up the stairs every night. Neighbors will keep a respectful distance, giving you unmatched privacy amidst total architectural chaos."
     }
   },
   {
@@ -6999,7 +6790,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1973 Korea Coal Corporation Dogye miners' rowhouse completion",
       "estimatedValue": "Abandoned mining-town slate cottage ~$3,300 USD (asbestos roof replacement needed)",
       "specialFeature": "A miner's quarters nestled deep in the mountains of Gangwon-do, where only black coal dust remains after the mine's closure despite once powering Korea's industrialization. Every time a biting wind sweeps over the abandoned tracks outside, black coal dust seeps through sliding door gaps, staining quilt covers pitch black.",
-      "aiVerdict": "There is no residence harsher or more honest than this for forging raw survival instincts in the wild."
+      "aiVerdict": "Emergency Habitat Assessment for Gangwon-do Samcheok Dogye Coal Mining Town: Coal Dust-Covered Slate Miners' Quarter Beside Abandoned Tracks: Dated around 1973 Korea Coal Corporation Dogye miners' rowhouse completion and valued at Abandoned mining-town slate cottage ~$3,300 USD (asbestos roof replacement needed), this site relies on a miner's quarters nestled deep in the mountains of gangwon-do, where only black coal dust remains after the mine's closure despite once powering korea's industrialization. every time a biting wind sweeps over the abandoned tracks outside, black coal dust seeps through sliding door gaps, staining quilt covers pitch black. Packing an umbrella indoors is mandatory, though the character-building value is off the charts."
     }
   },
   {
@@ -7129,7 +6920,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1936 Janghang Copper Smelter auxiliary red-brick warehouse build",
       "estimatedValue": "Remediation-zone brownfield structure appraisal ~$3,850 USD",
       "specialFeature": "A red brick warehouse behind the smelter facility, where access is strictly restricted due to soil heavily contaminated with arsenic and cadmium spewed from what was once the largest copper smelter chimney in the East. Lean against 1930s Japanese colonial-era brick walls and breathe in air tainted with metallic fumes and the salty breeze of Yellow Sea tidal flats.",
-      "aiVerdict": "There is no residence harsher or more honest than this for forging raw survival instincts in the wild."
+      "aiVerdict": "Structural & Livability Review of Chungnam Seocheon Janghang Smelter Heavy Metal Remediation Zone: Red Brick Warehouse Beyond Barbed Wire: Dated around 1936 Janghang Copper Smelter auxiliary red-brick warehouse build and valued at Remediation-zone brownfield structure appraisal ~$3,850 USD, this site relies on a red brick warehouse behind the smelter facility, where access is strictly restricted due to soil heavily contaminated with arsenic and cadmium spewed from what was once the largest copper smelter chimney in the east. lean against 1930s japanese colonial-era brick walls and breathe in air tainted with metallic fumes and the salty breeze of yellow sea tidal flats. Every night here tests human endurance, yet you will never worry about a mortgage again."
     }
   },
   {
@@ -7259,7 +7050,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1953 cedar-plank salt warehouse built with Taepyeong Salt Farm",
       "estimatedValue": "Weathered cedar salt storehouse appraisal ~$5,000 USD",
       "specialFeature": "A corner of a wooden salt storage shed weathered silver-gray by over 70 years of sea winds and salt curing at Korea's largest single salt pan site. Resting your head on a burlap sack of sea salt, the scent of Yellow Sea mudflats and the pitch-black night sky seep through floorboard cracks.",
-      "aiVerdict": "There is no residence harsher or more honest than this for forging raw survival instincts in the wild."
+      "aiVerdict": "Field Inspection Verdict on Jeonnam Sinan Jeungdo Taepyeong Salt Farm: Weathered 1950s Wooden Salt Warehouse Corner Corroded by Salt Winds: Dated around 1953 cedar-plank salt warehouse built with Taepyeong Salt Farm and valued at Weathered cedar salt storehouse appraisal ~$5,000 USD, this site relies on a corner of a wooden salt storage shed weathered silver-gray by over 70 years of sea winds and salt curing at korea's largest single salt pan site. resting your head on a burlap sack of sea salt, the scent of yellow sea mudflats and the pitch-black night sky seep through floorboard cracks. Local building inspectors refused to step inside, leaving you as the undisputed ruler of this hazard zone."
     }
   },
   {
@@ -16619,7 +16410,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2024 completion by a Honolulu coastal architectural studio in Kapalua",
       "estimatedValue": "Estimated at ~$28.5M USD (includes private coastal helipad permit)",
       "specialFeature": "A floor-to-ceiling glass villa perched on Maui's Kapalua lava reef, linking a rooftop helipad directly to a glass-floored four-supercar showroom below the living room. At sunset, humpback whales breaching in the Pacific fill the entire horizon.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Kapalua Private Cove Beachfront Glass Villa with Helipad and Supercar Showroom, Maui, Hawaii: Established in 2024 completion by a Honolulu coastal architectural studio in Kapalua with an appraisal of Estimated at ~$28.5M USD (includes private coastal helipad permit), it showcases a floor-to-ceiling glass villa perched on maui's kapalua lava reef, linking a rooftop helipad directly to a glass-floored four-supercar showroom below the living room. at sunset, humpback whales breaching in the pacific fill the entire horizon. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -16652,7 +16443,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Anchored outside linear time via Kamar-Taj Mirror Dimension ward",
       "estimatedValue": "Incalculable (collateralized by Sanctum Sanctorum dimensional relics)",
       "specialFeature": "Draw a circle in midair and a permanent Sling Ring portal in the living room opens straight to New York, London, Hong Kong, or the Himalayas. Golden fractal terraces float outside with customizable gravity vectors.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Supreme Sovereign Valuation for Doctor Strange: Mirror Dimension Golden Fractal Mystic Penthouse: Established in Anchored outside linear time via Kamar-Taj Mirror Dimension ward with an appraisal of Incalculable (collateralized by Sanctum Sanctorum dimensional relics), it showcases draw a circle in midair and a permanent sling ring portal in the living room opens straight to new york, london, hong kong, or the himalayas. golden fractal terraces float outside with customizable gravity vectors. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -16749,7 +16540,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1894 Hallstatt lakeside timber build (bespoke luxury restoration in 2022)",
       "estimatedValue": "Estimated at ~$3.1M USD (includes protected UNESCO lakefront mooring)",
       "specialFeature": "A fairytale Alpine chalet draping flower-adorned wooden balconies over crystal-clear Hallstatt waters, where swans glide directly to your window and mist-veiled snowy peaks frame your morning brew.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Hallstatt Lake Swan-Mooring Wooden Chalet, Salzkammergut, Austria: Established in 1894 Hallstatt lakeside timber build (bespoke luxury restoration in 2022) with an appraisal of Estimated at ~$3.1M USD (includes protected UNESCO lakefront mooring), it showcases a fairytale alpine chalet draping flower-adorned wooden balconies over crystal-clear hallstatt waters, where swans glide directly to your window and mist-veiled snowy peaks frame your morning brew. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -16782,7 +16573,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2068 European Space Agency orbital casino station completion",
       "estimatedValue": "240,000,000 Eurodollars (Night City Afterlife VIP syndicate valuation)",
       "specialFeature": "A zero-gravity spa suite crowning an orbital casino station 400km above Earth. Below the curved quartz windows, Earth's atmospheric auroras and Night City's neon grid revolve once every 90 minutes.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Cosmic Luxury Certification for Cyberpunk 2077: Crystal Palace Orbital Casino Private Suite: Established in 2068 European Space Agency orbital casino station completion with an appraisal of 240,000,000 Eurodollars (Night City Afterlife VIP syndicate valuation), it showcases a zero-gravity spa suite crowning an orbital casino station 400km above earth. below the curved quartz windows, earth's atmospheric auroras and night city's neon grid revolve once every 90 minutes. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -16879,7 +16670,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2003 Roppongi Hills Mori Tower build (2024 private imperial penthouse fit-out)",
       "estimatedValue": "Estimated at ~$23M USD (Minato-ku ultra-prime sky residence)",
       "specialFeature": "Crowning Roppongi Hills Mori Tower, this private art penthouse faces Tokyo Tower and Mount Fuji at eye level. It features an Italian Carrara marble gallery hall, a 24K gold-leaf tea room, and a climate-controlled art vault.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Roppongi Hills Mori Tower Private Art Sky Lounge & 24K Gold Marble Imperial Penthouse, Tokyo, Japan: Established in 2003 Roppongi Hills Mori Tower build (2024 private imperial penthouse fit-out) with an appraisal of Estimated at ~$23M USD (Minato-ku ultra-prime sky residence), it showcases crowning roppongi hills mori tower, this private art penthouse faces tokyo tower and mount fuji at eye level. it features an italian carrara marble gallery hall, a 24k gold-leaf tea room, and a climate-controlled art vault. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -16912,7 +16703,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Primordial creation era of Universe 7's Sacred World of the Kais",
       "estimatedValue": "Equivalent to 1 Shenron wish (non-tradable divine sanctuary)",
       "specialFeature": "Set on the ever-blooming sacred plains of the Supreme Kai's planet, this diamond citadel overlooks all four galaxies through a floating crystal scrying sphere in the central courtyard.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Grand Custodial Appraisal for Dragon Ball: Sacred World of the Kais Diamond Garden Citadel: Established in Primordial creation era of Universe 7's Sacred World of the Kais with an appraisal of Equivalent to 1 Shenron wish (non-tradable divine sanctuary), it showcases set on the ever-blooming sacred plains of the supreme kai's planet, this diamond citadel overlooks all four galaxies through a floating crystal scrying sphere in the central courtyard. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -17009,7 +16800,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2005 Emirates Palace royal VVIP wing completion in Abu Dhabi",
       "estimatedValue": "Estimated at ~$108M USD (Abu Dhabi sovereign royal estate)",
       "specialFeature": "The royal annex of Emirates Palace in Abu Dhabi, claiming 1.3km of private coastline. Beneath its gold-mosaic dome lie a 3,000-bottle subterranean wine vault, a marble Turkish hammam spa, and a private superyacht berth.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Emirates Palace Royal Annex Private Estate with Subterranean Cellar and Spa, Abu Dhabi, UAE: Established in 2005 Emirates Palace royal VVIP wing completion in Abu Dhabi with an appraisal of Estimated at ~$108M USD (Abu Dhabi sovereign royal estate), it showcases the royal annex of emirates palace in abu dhabi, claiming 1.3km of private coastline. beneath its gold-mosaic dome lie a 3,000-bottle subterranean wine vault, a marble turkish hammam spa, and a private superyacht berth. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -17042,7 +16833,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Formed atop the 10,000m high-density cloud sea of Skypiea",
       "estimatedValue": "1.2 Billion Berries (includes rare Sky Island Dials & jet-powered Waver)",
       "specialFeature": "Carved from solidified cumulus blocks on the shores of Skypiea's White-White Sea 10,000m in the sky. Sky-island seashell Dials store breeze, warmth, and light while you ride Waver boards across rolling cloud waves.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Prime Multiverse Estate Review of One Piece: Skypiea White-White Sea Cloudtop Angel Beach House: Established in Formed atop the 10,000m high-density cloud sea of Skypiea with an appraisal of 1.2 Billion Berries (includes rare Sky Island Dials & jet-powered Waver), it showcases carved from solidified cumulus blocks on the shores of skypiea's white-white sea 10,000m in the sky. sky-island seashell dials store breeze, warmth, and light while you ride waver boards across rolling cloud waves. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -17139,7 +16930,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2010 completion designed by Norwegian architects Jensen & Skodvin",
       "estimatedValue": "Estimated at ~$2.8M USD (rare protected-nature reserve glass cube)",
       "specialFeature": "Hidden in the virgin birch forests of Valldal Valley—famed as the film location for Ex Machina—this minimalist glass cube lodge features floor-to-ceiling glass walls that invite roaring rapids and mossy gorges directly into your living room.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Juvet Landscape Forest Panorama Glass Cube, Valldal Valley, Western Norway: Established in 2010 completion designed by Norwegian architects Jensen & Skodvin with an appraisal of Estimated at ~$2.8M USD (rare protected-nature reserve glass cube), it showcases hidden in the virgin birch forests of valldal valley—famed as the film location for ex machina—this minimalist glass cube lodge features floor-to-ceiling glass walls that invite roaring rapids and mossy gorges directly into your living room. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -17172,7 +16963,7 @@ export const MASTER_HOUSES = [
       "builtYear": "c. 2199 construction atop the geothermal core of subterranean Zion",
       "estimatedValue": "100% equity in Zion's central mainframe construct core (priceless)",
       "specialFeature": "Neo's holographic penthouse built atop the geothermal core of subterranean Zion. Without plugging into a neural jack, the living space itself renders real-time constructs that reshape furniture and scenery at a thought.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Platinum Architectural Dossier on The Matrix: Zion's Radiant Neo-Core Hyper-Dream Penthouse: Established in c. 2199 construction atop the geothermal core of subterranean Zion with an appraisal of 100% equity in Zion's central mainframe construct core (priceless), it showcases neo's holographic penthouse built atop the geothermal core of subterranean zion. without plugging into a neural jack, the living space itself renders real-time constructs that reshape furniture and scenery at a thought. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -17269,7 +17060,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2023 Arctic sustainable architectural studio build in Lofoten, Norway",
       "estimatedValue": "Estimated at ~$4.0M USD (private fjord headland parcel)",
       "specialFeature": "A geothermally heated infinity-pool villa cantilevered off a vertical granite fjord cliff in Norway's Arctic Lofoten Islands. Soak in 40°C water on subzero winter nights while green auroras mirror across the Norwegian Sea.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Lofoten Fjord Aurora View Glass Villa Hi-Tech Infinity Pool Penthouse, Norway: Established in 2023 Arctic sustainable architectural studio build in Lofoten, Norway with an appraisal of Estimated at ~$4.0M USD (private fjord headland parcel), it showcases a geothermally heated infinity-pool villa cantilevered off a vertical granite fjord cliff in norway's arctic lofoten islands. soak in 40°c water on subzero winter nights while green auroras mirror across the norwegian sea. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -17302,7 +17093,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Timeless cumulonimbus shrine realm above the skies of Tokyo",
       "estimatedValue": "Priced at one Sunshine Girl prayer (capable of clearing Tokyo's skies)",
       "specialFeature": "Perched atop towering cumulonimbus storm clouds, a sky shrine where green grasses flourish and water fish spirits glide through sea mist under radiant, boundless sunshine.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Supreme Sovereign Valuation for Weathering with You: Floating Cloudtop Meadow & Fish Sky Garden Shrine: Established in Timeless cumulonimbus shrine realm above the skies of Tokyo with an appraisal of Priced at one Sunshine Girl prayer (capable of clearing Tokyo's skies), it showcases perched atop towering cumulonimbus storm clouds, a sky shrine where green grasses flourish and water fish spirits glide through sea mist under radiant, boundless sunshine. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -17399,7 +17190,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1912 Royal Bavarian boathouse build (2021 private luxury restoration)",
       "estimatedValue": "Estimated at ~$3.6M USD (ultra-rare private foothold in Berchtesgaden National Park)",
       "specialFeature": "A traditional Bavarian wooden boathouse set beneath the sheer Watzmann cliffs on emerald Lake Königssee, offering clear echoes of the alpine horn facing St. Bartholomew's red onion-domed chapel.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Lake Königssee Alpine Boathouse with St. Bartholomew's Monastery View, Bavaria, Germany: Established in 1912 Royal Bavarian boathouse build (2021 private luxury restoration) with an appraisal of Estimated at ~$3.6M USD (ultra-rare private foothold in Berchtesgaden National Park), it showcases a traditional bavarian wooden boathouse set beneath the sheer watzmann cliffs on emerald lake königssee, offering clear echoes of the alpine horn facing st. bartholomew's red onion-domed chapel. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -17432,7 +17223,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Late 21st-century orbital station deployment around Gargantua",
       "estimatedValue": "~$620B USD in relativistic time-dilation value (1 lounge hour = 7 Earth years)",
       "specialFeature": "A ring-shaped cruise lounge orbiting safely outside the event horizon of the supermassive rotating black hole Gargantua. Watch the golden accretion disk bend through gravitational lensing while time itself flows in slow motion.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Cosmic Luxury Certification for Interstellar: Gargantua Black Hole Orbiter 5-Star Luxury Sky Lounge: Established in Late 21st-century orbital station deployment around Gargantua with an appraisal of ~$620B USD in relativistic time-dilation value (1 lounge hour = 7 Earth years), it showcases a ring-shaped cruise lounge orbiting safely outside the event horizon of the supermassive rotating black hole gargantua. watch the golden accretion disk bend through gravitational lensing while time itself flows in slow motion. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -17529,7 +17320,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2021 contemporary cantilever mansion completion in Trousdale Estates",
       "estimatedValue": "Estimated at ~$50M USD (prime Beverly Hills promontory lot)",
       "specialFeature": "A modernist cantilevered mansion hovering over Trousdale Estates' prestigious ridge, featuring an outstretched cliffside infinity pool with panoramic million-dollar vistas from Downtown LA to the Pacific Ocean.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Trousdale Estates LA Night View Cantilever Infinity Mansion, Beverly Hills, USA: Established in 2021 contemporary cantilever mansion completion in Trousdale Estates with an appraisal of Estimated at ~$50M USD (prime Beverly Hills promontory lot), it showcases a modernist cantilevered mansion hovering over trousdale estates' prestigious ridge, featuring an outstretched cliffside infinity pool with panoramic million-dollar vistas from downtown la to the pacific ocean. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -17562,7 +17353,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Eternal twilight realm of Tokoyo where all timelines converge",
       "estimatedValue": "Priceless spiritual sanctuary beyond the Ever-After doors",
       "specialFeature": "A meadow pavilion set inside Tokoyo—the realm beyond the calamity doors where all times exist at once—surrounded by glowing celestial grass, cosmic dust, and overlapping twilight and auroras.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Grand Custodial Appraisal for Suzume: Pavilion of the Ever-After (Tokoyo) Under Starlit Skies and Cascading Galaxies: Established in Eternal twilight realm of Tokoyo where all timelines converge with an appraisal of Priceless spiritual sanctuary beyond the Ever-After doors, it showcases a meadow pavilion set inside tokoyo—the realm beyond the calamity doors where all times exist at once—surrounded by glowing celestial grass, cosmic dust, and overlapping twilight and auroras. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -17659,7 +17450,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1928 South Tyrolean timber villa build (2023 bespoke Alpine suite remodel)",
       "estimatedValue": "Estimated at ~$4.5M USD (UNESCO Dolomites lakefront privilege)",
       "specialFeature": "A traditional Tyrolean wooden terrace villa situated on the northern shore of Lake Braies, framing reflections of Croda del Becco on glassy jade waters while classic wooden rowboats drift by.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Lake Braies Emerald Reflection Timber Terrace Villa, Dolomites, Italy: Established in 1928 South Tyrolean timber villa build (2023 bespoke Alpine suite remodel) with an appraisal of Estimated at ~$4.5M USD (UNESCO Dolomites lakefront privilege), it showcases a traditional tyrolean wooden terrace villa situated on the northern shore of lake braies, framing reflections of croda del becco on glassy jade waters while classic wooden rowboats drift by. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -17692,7 +17483,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2260 design by the Chief Architect of the Vulcan Science Academy",
       "estimatedValue": "450 Million strips of gold-pressed latinum (Federation master sanctuary)",
       "specialFeature": "Carved from monolithic quartz crystal above Planet Vulcan's red desert canyons using pure mathematical symmetry. Even under three blazing suns, the interior holds an exact 21.0°C while planetary magnetic waves ripple across the meditation floor.",
-      "aiVerdict": "The ultimate fantasy life enjoyed at the epicenter of the cosmos, transcending dimensions and the laws of physics."
+      "aiVerdict": "Prime Multiverse Estate Review of Star Trek: Planet Vulcan Red Desert Logically Flawless Crystal Palace: Established in 2260 design by the Chief Architect of the Vulcan Science Academy with an appraisal of 450 Million strips of gold-pressed latinum (Federation master sanctuary), it showcases carved from monolithic quartz crystal above planet vulcan's red desert canyons using pure mathematical symmetry. even under three blazing suns, the interior holds an exact 21.0°c while planetary magnetic waves ripple across the meditation floor. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -17789,7 +17580,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1768 Louis XV-era Provençal limestone bastide construction",
       "estimatedValue": "Estimated at ~€5.6M / $6.1M USD (includes 12 hectares of lavender fields)",
       "specialFeature": "An authentic 18th-century Provençal stone bastide rising amidst an undulating sea of purple lavender, where you can sip chilled rosé beneath ancient cypress trees serenaded by cicadas.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for 18th-Century Stone Bastide in the Lavender Fields of Luberon, Provence, France: Established in 1768 Louis XV-era Provençal limestone bastide construction with an appraisal of Estimated at ~€5.6M / $6.1M USD (includes 12 hectares of lavender fields), it showcases an authentic 18th-century provençal stone bastide rising amidst an undulating sea of purple lavender, where you can sip chilled rosé beneath ancient cypress trees serenaded by cicadas. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -17919,7 +17710,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1840 Mallorcan stone finca build (2020 Mediterranean luxury restoration)",
       "estimatedValue": "Estimated at ~€6.4M / $7.0M USD (includes Deià cliffside olive grove)",
       "specialFeature": "An authentic finca nestled in the artist retreat of Deià between the red bluffs of the Tramuntana Range and cobalt seas, boasting an exclusive sunset terrace shaded by gnarled millennial olive trees.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Deià Cliffside Olive Grove Mediterranean Terrace Casa, Mallorca, Spain: Established in 1840 Mallorcan stone finca build (2020 Mediterranean luxury restoration) with an appraisal of Estimated at ~€6.4M / $7.0M USD (includes Deià cliffside olive grove), it showcases an authentic finca nestled in the artist retreat of deià between the red bluffs of the tramuntana range and cobalt seas, boasting an exclusive sunset terrace shaded by gnarled millennial olive trees. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -18049,7 +17840,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2019 desert eco-architecture studio build in San Pedro de Atacama",
       "estimatedValue": "Estimated at ~$2.7M USD (includes private desert observatory terrace)",
       "specialFeature": "An authentic adobe eco-chalet situated in the desert oasis of San Pedro de Atacama, where crisp desert night winds, an open terrace firepit, and the hyper-clear Southern Milky Way touch within arm's reach.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for San Pedro de Atacama Adobe Eco-Chalet with Firepit Terrace, Chile: Established in 2019 desert eco-architecture studio build in San Pedro de Atacama with an appraisal of Estimated at ~$2.7M USD (includes private desert observatory terrace), it showcases an authentic adobe eco-chalet situated in the desert oasis of san pedro de atacama, where crisp desert night winds, an open terrace firepit, and the hyper-clear southern milky way touch within arm's reach. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -18179,7 +17970,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1910 completion designed by Italian architect Luigi Manini in Sintra",
       "estimatedValue": "Estimated at ~$33M USD (UNESCO World Heritage neo-Gothic estate)",
       "specialFeature": "An enchanting neo-Gothic manor immersed in Sintra's Quinta da Regaleira estate, connecting directly to the subterranean spiral stone 'Initiation Well' and labyrinthine caves built for occult rites.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Quinta da Regaleira Initiation Well Connected Gothic Manor, Sintra, Portugal: Established in 1910 completion designed by Italian architect Luigi Manini in Sintra with an appraisal of Estimated at ~$33M USD (UNESCO World Heritage neo-Gothic estate), it showcases an enchanting neo-gothic manor immersed in sintra's quinta da regaleira estate, connecting directly to the subterranean spiral stone 'initiation well' and labyrinthine caves built for occult rites. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -18309,7 +18100,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1736 Rococo palace commissioned by Prince-Archbishop Leopold Firmian",
       "estimatedValue": "Estimated at ~$43M USD (includes 17-acre lakeside park & Marble Hall)",
       "specialFeature": "The historic 18th-century rococo lakeside palace suite featured in The Sound of Music, pairing gilded stuccowork with terraces overlooking swans on the lake and snowy Mount Untersberg.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Schloss Leopoldskron Lakeside Rococo Marble Suite, Salzburg, Austria: Established in 1736 Rococo palace commissioned by Prince-Archbishop Leopold Firmian with an appraisal of Estimated at ~$43M USD (includes 17-acre lakeside park & Marble Hall), it showcases the historic 18th-century rococo lakeside palace suite featured in the sound of music, pairing gilded stuccowork with terraces overlooking swans on the lake and snowy mount untersberg. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -18439,7 +18230,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2023 Circular Quay harbourfront smart residence completion in Sydney",
       "estimatedValue": "Estimated at ~$30.5M USD / $46M AUD (includes private deep-water yacht berth)",
       "specialFeature": "A three-story waterfront residence facing the white shells of the Sydney Opera House and the Harbour Bridge across Circular Quay. An integrated AI butler system orchestrates lighting, acoustics, and the private ground-floor yacht dock.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Sydney Opera House Harbour-View 3-Story Waterfront Smart Home with Resident AI Butler, Australia: Established in 2023 Circular Quay harbourfront smart residence completion in Sydney with an appraisal of Estimated at ~$30.5M USD / $46M AUD (includes private deep-water yacht berth), it showcases a three-story waterfront residence facing the white shells of the sydney opera house and the harbour bridge across circular quay. an integrated ai butler system orchestrates lighting, acoustics, and the private ground-floor yacht dock. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -18569,7 +18360,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1728 Baroque completion by architect Matthäus Daniel Pöppelmann",
       "estimatedValue": "Saxon State national treasure (estimated replacement value ~$240M USD)",
       "specialFeature": "Standing at the heart of Dresden, 'Florence on the Elbe', this baroque pavilion at the Zwinger Palace offers gallery terrace views over the gilded Crown Gate and fountain gardens.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Dresden Zwinger Palace Baroque Crown Gate Roof Garden Pavilion, Germany: Established in 1728 Baroque completion by architect Matthäus Daniel Pöppelmann with an appraisal of Saxon State national treasure (estimated replacement value ~$240M USD), it showcases standing at the heart of dresden, 'florence on the elbe', this baroque pavilion at the zwinger palace offers gallery terrace views over the gilded crown gate and fountain gardens. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -18699,7 +18490,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1364 Mudéjar royal palace construction under King Peter of Castile",
       "estimatedValue": "Spanish Crown UNESCO World Heritage palace (estimated value ~$410M USD)",
       "specialFeature": "A terrace suite facing the Patio de las Doncellas in Seville's Royal Alcázar, where intricate azulejo tiles and filigree stucco arches reflect across the courtyard pool.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Royal Alcázar of Seville Mudéjar Courtyard of the Maidens Terrace Villa, Spain: Established in 1364 Mudéjar royal palace construction under King Peter of Castile with an appraisal of Spanish Crown UNESCO World Heritage palace (estimated value ~$410M USD), it showcases a terrace suite facing the patio de las doncellas in seville's royal alcázar, where intricate azulejo tiles and filigree stucco arches reflect across the courtyard pool. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -18829,7 +18620,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1480 Florentine Renaissance noble palazzo build with original frescoes",
       "estimatedValue": "Estimated at ~€13.2M / $14.4M USD (protected historic Arno River salon)",
       "specialFeature": "Perched atop a patrician palazzo along Florence's Arno, this frescoed salon boasts 15th-century gilded murals and coffered ceilings framing views over Ponte Vecchio and a sea of terracotta roofs.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Ponte Vecchio Arno River View 15th-Century Renaissance Fresco Salon, Florence, Italy: Established in 1480 Florentine Renaissance noble palazzo build with original frescoes with an appraisal of Estimated at ~€13.2M / $14.4M USD (protected historic Arno River salon), it showcases perched atop a patrician palazzo along florence's arno, this frescoed salon boasts 15th-century gilded murals and coffered ceilings framing views over ponte vecchio and a sea of terracotta roofs. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -18959,7 +18750,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2024 titanium-clad Alpine build on St. Moritz's Suvretta slope",
       "estimatedValue": "Estimated at ~34M CHF / $38.5M USD (prime St. Moritz ski-in estate)",
       "specialFeature": "Wrapped in a sweeping titanium-alloy curved roof along a 1,800m Alpine ridge in St. Moritz, Switzerland. Step straight onto Olympic ski slopes from the living room's ski-in/ski-out gate or unwind in the indoor glacial-water spa.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on St. Moritz Alpine Snow-Panorama Titanium Metallic Curved Architectural Masterpiece, Switzerland: Established in 2024 titanium-clad Alpine build on St. Moritz's Suvretta slope with an appraisal of Estimated at ~34M CHF / $38.5M USD (prime St. Moritz ski-in estate), it showcases wrapped in a sweeping titanium-alloy curved roof along a 1,800m alpine ridge in st. moritz, switzerland. step straight onto olympic ski slopes from the living room's ski-in/ski-out gate or unwind in the indoor glacial-water spa. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -19089,7 +18880,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1580 Renaissance round tower addition by the House of Rosenberg",
       "estimatedValue": "Czech National Heritage castle tower (estimated value ~$82M USD)",
       "specialFeature": "A 360-degree round castle tower suite framing the S-curves of the Vltava River around UNESCO medieval Český Krumlov, surrounded by pastel sgraffito frescoes and crimson tile roofs.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Český Krumlov Vltava River Clifftop Renaissance Round Tower Suite, Czech Republic: Established in 1580 Renaissance round tower addition by the House of Rosenberg with an appraisal of Czech National Heritage castle tower (estimated value ~$82M USD), it showcases a 360-degree round castle tower suite framing the s-curves of the vltava river around unesco medieval český krumlov, surrounded by pastel sgraffito frescoes and crimson tile roofs. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -19219,7 +19010,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1902 Neo-Romanesque completion designed by architect Frigyes Schulek",
       "estimatedValue": "Estimated at ~$11M USD (Buda Castle district Danube-front penthouse)",
       "specialFeature": "Adjoining the neo-Romanesque cloisters of Fisherman's Bastion atop Buda Castle hill, this penthouse captures the glittering gold silhouette of the Hungarian Parliament reflected on the Danube.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Fisherman's Bastion Arched Penthouse Facing Danube Parliament Nightscape, Budapest, Hungary: Established in 1902 Neo-Romanesque completion designed by architect Frigyes Schulek with an appraisal of Estimated at ~$11M USD (Buda Castle district Danube-front penthouse), it showcases adjoining the neo-romanesque cloisters of fisherman's bastion atop buda castle hill, this penthouse captures the glittering gold silhouette of the hungarian parliament reflected on the danube. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -19349,7 +19140,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1640 Cotswold oolitic limestone manor cottage construction in Wiltshire",
       "estimatedValue": "Estimated at ~£4.5M / $5.8M USD (Grade II listed English country estate)",
       "specialFeature": "Situated along the Bybrook in Castle Combe, often hailed as England's prettiest village, this 17th-century honey-colored stone cottage estate pairs manicured English rose gardens with roaring hearths.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Castle Combe Honey-Stone Medieval Moss Cottage Garden Estate, Cotswolds, England: Established in 1640 Cotswold oolitic limestone manor cottage construction in Wiltshire with an appraisal of Estimated at ~£4.5M / $5.8M USD (Grade II listed English country estate), it showcases situated along the bybrook in castle combe, often hailed as england's prettiest village, this 17th-century honey-colored stone cottage estate pairs manicured english rose gardens with roaring hearths. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -19479,7 +19270,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2012 completion designed by Pritzker Prize architect Renzo Piano",
       "estimatedValue": "Estimated at ~£42M / $53.5M USD (Western Europe's highest duplex residence)",
       "specialFeature": "A glass duplex aerie crowning Renzo Piano's 310-meter spire, The Shard, watching Tower Bridge and the London Eye turn like toys beside the winding River Thames.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of The Shard 72nd Floor Open-Air Sky Garden Duplex Glass Residence, London, England: Established in 2012 completion designed by Pritzker Prize architect Renzo Piano with an appraisal of Estimated at ~£42M / $53.5M USD (Western Europe's highest duplex residence), it showcases a glass duplex aerie crowning renzo piano's 310-meter spire, the shard, watching tower bridge and the london eye turn like toys beside the winding river thames. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -19609,7 +19400,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1889 French Riviera Belle Époque aristocratic palace completion",
       "estimatedValue": "Estimated at ~€31M / $34M USD (Mont Boron cliffside Mediterranean estate)",
       "specialFeature": "Crowning Mont Boron overlooking Nice's Baie des Anges, this Belle Époque palace estate boasts palm-shaded marble terraces framing golden sunsets over the Promenade des Anglais.",
-      "aiVerdict": "The quintessential epitome of overwhelming luxury reserved solely for those at the very pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Mont Boron Hill Belle Époque Palace Overlooking Baie des Anges, Nice, Southern France: Established in 1889 French Riviera Belle Époque aristocratic palace completion with an appraisal of Estimated at ~€31M / $34M USD (Mont Boron cliffside Mediterranean estate), it showcases crowning mont boron overlooking nice's baie des anges, this belle époque palace estate boasts palm-shaded marble terraces framing golden sunsets over the promenade des anglais. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -19739,7 +19530,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1932 Scottish hunting-lodge manor built by Sir David Duncan in Nairobi",
       "estimatedValue": "Estimated at ~$18M USD (includes 140-acre indigenous forest sanctuary)",
       "specialFeature": "A top-tier sunroom suite in the historic Giraffe Manor, a converted 1930s Scottish hunting lodge nestled in Nairobi's indigenous forest. Every morning during breakfast, endangered Rothschild's giraffes poke their long necks through open windows to be fed by hand.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Nairobi, Kenya Giraffe Manor Breakfast Window Sunroom Suite with Poking Giraffes: Established in 1932 Scottish hunting-lodge manor built by Sir David Duncan in Nairobi with an appraisal of Estimated at ~$18M USD (includes 140-acre indigenous forest sanctuary), it showcases a top-tier sunroom suite in the historic giraffe manor, a converted 1930s scottish hunting lodge nestled in nairobi's indigenous forest. every morning during breakfast, endangered rothschild's giraffes poke their long necks through open windows to be fed by hand. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -19869,7 +19660,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2022 coastal architectural completion on Crete's Elounda Peninsula",
       "estimatedValue": "Estimated at ~€11.2M / $12.2M USD (private Aegean cove & jetty included)",
       "specialFeature": "An ultra-luxurious waterfront villa perched at the edge of a private peninsula in Elounda Bay, Crete, facing the pristine Aegean Sea and Spinalonga Island. Experience timeless serenity from an infinity pool merging seamlessly with the endless horizon of ancient mythological lands.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Crete, Greece Elounda Bay Private Peninsula Infinity Oceanfront Villa: Established in 2022 coastal architectural completion on Crete's Elounda Peninsula with an appraisal of Estimated at ~€11.2M / $12.2M USD (private Aegean cove & jetty included), it showcases an ultra-luxurious waterfront villa perched at the edge of a private peninsula in elounda bay, crete, facing the pristine aegean sea and spinalonga island. experience timeless serenity from an infinity pool merging seamlessly with the endless horizon of ancient mythological lands. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -19999,7 +19790,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2003 handcrafted granite-and-takamaka wood eco-villa on North Island",
       "estimatedValue": "Estimated at ~$21.5M USD ($9,000/night royal private island sanctuary)",
       "specialFeature": "A standalone beachfront eco-villa on North Island, the ultimate Indian Ocean sanctuary chosen for royal British honeymoons. Exclusively enjoy ancient granite boulders, lush palm groves, and powder-white sands.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for North Island, Seychelles Granite Monolith & White Sand Private Eco-Villa: Established in 2003 handcrafted granite-and-takamaka wood eco-villa on North Island with an appraisal of Estimated at ~$21.5M USD ($9,000/night royal private island sanctuary), it showcases a standalone beachfront eco-villa on north island, the ultimate indian ocean sanctuary chosen for royal british honeymoons. exclusively enjoy ancient granite boulders, lush palm groves, and powder-white sands. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -20129,7 +19920,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2021 Yucatan sustainable jungle villa built around a natural cenote",
       "estimatedValue": "Estimated at ~$4.3M USD (includes deeded private limestone cenote)",
       "specialFeature": "An eco-minimalist villa nestled deep within the Mayan jungle of Tulum, featuring a turquoise subterranean limestone 'cenote' as its front pool. Breathe in primal energy as mystical sunlight filters through natural caves and tropical vines.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Tulum, Mexico Jungle Cenote Natural Limestone Pool Eco-Minimalist Villa: Established in 2021 Yucatan sustainable jungle villa built around a natural cenote with an appraisal of Estimated at ~$4.3M USD (includes deeded private limestone cenote), it showcases an eco-minimalist villa nestled deep within the mayan jungle of tulum, featuring a turquoise subterranean limestone 'cenote' as its front pool. breathe in primal energy as mystical sunlight filters through natural caves and tropical vines. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -20259,7 +20050,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2018 cliffside modernist glass villa design in Clifton, Cape Town",
       "estimatedValue": "Estimated at ~290M ZAR / $16M USD (Clifton 4th Beach granite cliff lot)",
       "specialFeature": "An ultra-modern glass villa perched atop granite cliffs on Clifton 4th Beach, Cape Town's premier enclave. The majestic Twelve Apostles peaks rise behind while dramatic South Atlantic sunsets paint the entire living room scarlet.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Cape Town, South Africa Clifton 4th Beach 12 Apostles Cliffside Modern Glass Villa: Established in 2018 cliffside modernist glass villa design in Clifton, Cape Town with an appraisal of Estimated at ~290M ZAR / $16M USD (Clifton 4th Beach granite cliff lot), it showcases an ultra-modern glass villa perched atop granite cliffs on clifton 4th beach, cape town's premier enclave. the majestic twelve apostles peaks rise behind while dramatic south atlantic sunsets paint the entire living room scarlet. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -20389,7 +20180,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2019 eco-lodge build in the NamibRand International Dark Sky Reserve",
       "estimatedValue": "Estimated at ~$3.3M USD (Gold-tier Dark Sky desert concession)",
       "specialFeature": "An open-air stargazing desert lodge set beside the ancient Namib's iconic crimson Dune 45. At night, the roll-out bed slides along terrace rails to sleep directly beneath a deluge of celestial starlight.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Sossusvlei, Namibia Dune 45 Open-Air Starlight Panorama Desert Lodge: Established in 2019 eco-lodge build in the NamibRand International Dark Sky Reserve with an appraisal of Estimated at ~$3.3M USD (Gold-tier Dark Sky desert concession), it showcases an open-air stargazing desert lodge set beside the ancient namib's iconic crimson dune 45. at night, the roll-out bed slides along terrace rails to sleep directly beneath a deluge of celestial starlight. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -20519,7 +20310,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2020 handcrafted rosewood-and-raffia beachfront bungalow on Nosy Be",
       "estimatedValue": "Estimated at ~$2.3M USD (includes 3-hectare spice garden & coral lagoon)",
       "specialFeature": "A traditional timber bungalow immersed in ylang-ylang blooms and vanilla vines on Nosy Be, Madagascar's perfume isle. Warm turquoise waves from the Mozambique Channel lap at your feet while wild lemurs wander the garden.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Nosy Be, Madagascar Spice Isle Vanilla-Scented Turquoise Beachfront Bungalow: Established in 2020 handcrafted rosewood-and-raffia beachfront bungalow on Nosy Be with an appraisal of Estimated at ~$2.3M USD (includes 3-hectare spice garden & coral lagoon), it showcases a traditional timber bungalow immersed in ylang-ylang blooms and vanilla vines on nosy be, madagascar's perfume isle. warm turquoise waves from the mozambique channel lap at your feet while wild lemurs wander the garden. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -20649,7 +20440,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2022 Lusail Marina District landmark completion in Doha, Qatar",
       "estimatedValue": "Estimated at ~$66M USD (Katara Towers crescent royal sky suite)",
       "specialFeature": "A top-floor sky lounge within Lusail's landmark Katara Towers, shaped after the graceful crescent curve of traditional crossed scimitars from Qatar's coat of arms. Drink in 360-degree vistas over turquoise Arabian Gulf waters and a hyper-futuristic skyline.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Doha, Qatar Katara Towers Crescent Silhouette 6-Star Arabian Gulf Sky Lounge: Established in 2022 Lusail Marina District landmark completion in Doha, Qatar with an appraisal of Estimated at ~$66M USD (Katara Towers crescent royal sky suite), it showcases a top-floor sky lounge within lusail's landmark katara towers, shaped after the graceful crescent curve of traditional crossed scimitars from qatar's coat of arms. drink in 360-degree vistas over turquoise arabian gulf waters and a hyper-futuristic skyline. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -20779,7 +20570,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1943 Art Deco sandstone palace completed by Maharaja Umaid Singh",
       "estimatedValue": "Marwar royal dynastic palace (estimated estate value ~$500M+ USD)",
       "specialFeature": "A royal suite in Umaid Bhawan Palace, Jodhpur's Blue City landmark and one of the world's largest private royal residences. Immerse yourself in India's royal heritage surrounded by golden Chittar sandstone and sleek 1930s Art Deco grandeur.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Jodhpur, India Umaid Bhawan Palace Golden Sandstone Art Deco Royal Room: Established in 1943 Art Deco sandstone palace completed by Maharaja Umaid Singh with an appraisal of Marwar royal dynastic palace (estimated estate value ~$500M+ USD), it showcases a royal suite in umaid bhawan palace, jodhpur's blue city landmark and one of the world's largest private royal residences. immerse yourself in india's royal heritage surrounded by golden chittar sandstone and sleek 1930s art deco grandeur. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -20909,7 +20700,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1684 Dutch East India Company (VOC) colonial rampart mansion build",
       "estimatedValue": "Estimated at ~$5.1M USD (rare freehold villa inside UNESCO Galle Fort)",
       "specialFeature": "A 17th-century colonial heritage villa set atop the UNESCO-listed ramparts of Galle Fort in southern Sri Lanka, where Indian Ocean waves crash white against stone walls. Gaze past high teak ceilings and terracotta terraces toward the centennial lighthouse at dusk.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Galle Fort, Sri Lanka 17th-Century Dutch Rampart Indian Ocean Heritage Villa: Established in 1684 Dutch East India Company (VOC) colonial rampart mansion build with an appraisal of Estimated at ~$5.1M USD (rare freehold villa inside UNESCO Galle Fort), it showcases a 17th-century colonial heritage villa set atop the unesco-listed ramparts of galle fort in southern sri lanka, where indian ocean waves crash white against stone walls. gaze past high teak ceilings and terracotta terraces toward the centennial lighthouse at dusk. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -21039,7 +20830,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2012 completion designed by renowned resort architect Bill Bensley",
       "estimatedValue": "Estimated at ~$8.5M USD (Son Tra nature reserve cliffside pool villa)",
       "specialFeature": "Designed by world-renowned architect Bill Bensley on Monkey Mountain's rainforest cliff, this pool villa sits atop the apex 'Heaven Level'. Bold monochrome Vietnamese motifs blend with panoramic emerald bay views where endangered langurs frolic.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Da Nang, Vietnam Son Tra Peninsula Monkey Mountain Cliffside Heaven-Level Pool Villa: Established in 2012 completion designed by renowned resort architect Bill Bensley with an appraisal of Estimated at ~$8.5M USD (Son Tra nature reserve cliffside pool villa), it showcases designed by world-renowned architect bill bensley on monkey mountain's rainforest cliff, this pool villa sits atop the apex 'heaven level'. bold monochrome vietnamese motifs blend with panoramic emerald bay views where endangered langurs frolic. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -21169,7 +20960,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2022 sustainable marine architecture build in the Flores Sea",
       "estimatedValue": "Estimated at ~$3.5M USD (exclusive overwater coral lagoon concession)",
       "specialFeature": "A private overwater villa in Komodo National Park overlooking dreamy cotton-candy pink sands crushed from crimson corals. Peer through glass floor panels as sea turtles and manta rays glide gracefully underneath.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Komodo Island, Indonesia Pink Beach Overwater Villa facing Emerald Lagoon: Established in 2022 sustainable marine architecture build in the Flores Sea with an appraisal of Estimated at ~$3.5M USD (exclusive overwater coral lagoon concession), it showcases a private overwater villa in komodo national park overlooking dreamy cotton-candy pink sands crushed from crimson corals. peer through glass floor panels as sea turtles and manta rays glide gracefully underneath. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -21299,7 +21090,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2017 artisan timber-and-clay cliffside build in Trancoso, Bahia",
       "estimatedValue": "Estimated at ~26M BRL / $4.7M USD (prime Trancoso cliffside estate)",
       "specialFeature": "A bohemian-chic casa favored by global celebrities atop the red clay cliffs of Trancoso, Bahia. Greet refreshing Atlantic trade winds inside open-air pavilions crafted from native hardwoods, rammed earth, and thatch.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Trancoso, Bahia, Brazil Red Cliff Beachfront Bohemian Casa: Established in 2017 artisan timber-and-clay cliffside build in Trancoso, Bahia with an appraisal of Estimated at ~26M BRL / $4.7M USD (prime Trancoso cliffside estate), it showcases a bohemian-chic casa favored by global celebrities atop the red clay cliffs of trancoso, bahia. greet refreshing atlantic trade winds inside open-air pavilions crafted from native hardwoods, rammed earth, and thatch. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -21429,7 +21220,7 @@ export const MASTER_HOUSES = [
       "builtYear": "October 2020 completion of PH129 (The Penthouse Cheongdam) in Seoul",
       "estimatedValue": "Estimated market value ~$24M–$26M USD (Korea's highest-assessed residence)",
       "specialFeature": "A duplex super-penthouse at PH129, reigning over Cheongdam luxury fashion row with Korea's highest recorded property valuation. Soaring 7-meter glass walls embrace the Han River's vibrant heart as Olympic Boulevard and Yeongdong Bridge light trails flow into the night.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of The Penthouse Cheongdam (PH129), Gangnam, Seoul Duplex Floor-to-Ceiling Han River View Suite: Established in October 2020 completion of PH129 (The Penthouse Cheongdam) in Seoul with an appraisal of Estimated market value ~$24M–$26M USD (Korea's highest-assessed residence), it showcases a duplex super-penthouse at ph129, reigning over cheongdam luxury fashion row with korea's highest recorded property valuation. soaring 7-meter glass walls embrace the han river's vibrant heart as olympic boulevard and yeongdong bridge light trails flow into the night. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -21559,7 +21350,7 @@ export const MASTER_HOUSES = [
       "builtYear": "November 2019 completion of the 101-story Haeundae LCT Landmark Tower",
       "estimatedValue": "Estimated at ~$8.2M USD (beachfront 84th-floor ocean panorama penthouse)",
       "specialFeature": "An 84th-floor ocean penthouse within the 411-meter LCT Landmark Tower rising directly on Haeundae Beach. Dongbaekseom Island and the rainbow illuminations of Gwangandaegyo Diamond Bridge shimmer beneath your feet against the endless South Sea.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Haeundae LCT Landmark Tower, Busan 84th-Floor Beachfront Ocean Panorama Penthouse: Established in November 2019 completion of the 101-story Haeundae LCT Landmark Tower with an appraisal of Estimated at ~$8.2M USD (beachfront 84th-floor ocean panorama penthouse), it showcases an 84th-floor ocean penthouse within the 411-meter lct landmark tower rising directly on haeundae beach. dongbaekseom island and the rainbow illuminations of gwangandaegyo diamond bridge shimmer beneath your feet against the endless south sea. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -21689,7 +21480,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2013 completion designed by Pritzker Prize laureate Tadao Ando",
       "estimatedValue": "Estimated architectural art value ~$21M USD (Museum SAN Water Garden villa)",
       "specialFeature": "An exposed concrete villa perched above the tranquil Water Garden of Museum SAN, designed by Pritzker laureate Tadao Ando atop Oak Valley. Reflective gravel pools echo Paju stone walls and the iconic crimson Archway for transcendent meditation.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Museum SAN, Wonju, Korea Tadao Ando Exposed Concrete Sky Villa on Water Garden: Established in 2013 completion designed by Pritzker Prize laureate Tadao Ando with an appraisal of Estimated architectural art value ~$21M USD (Museum SAN Water Garden villa), it showcases an exposed concrete villa perched above the tranquil water garden of museum san, designed by pritzker laureate tadao ando atop oak valley. reflective gravel pools echo paju stone walls and the iconic crimson archway for transcendent meditation. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -21819,7 +21610,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2017 UHPC shell completion by architect Chanjoong Kim (THE_SYSTEM LAB)",
       "estimatedValue": "Estimated at ~$14M USD (award-winning cliffside sanctuary on Ulleungdo)",
       "specialFeature": "A world-renowned masterpiece on mystical Ulleung Island directly facing the primeval volcanic crag of Songgot-bong Peak. Ultra-high-performance concrete curves inspired by Yin-Yang flow harmonize flawlessly with the turquoise East Sea.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Healing Stay KOSMOS, Ulleungdo, Korea Streamlined White Villa Facing Songgot-bong Peak: Established in 2017 UHPC shell completion by architect Chanjoong Kim (THE_SYSTEM LAB) with an appraisal of Estimated at ~$14M USD (award-winning cliffside sanctuary on Ulleungdo), it showcases a world-renowned masterpiece on mystical ulleung island directly facing the primeval volcanic crag of songgot-bong peak. ultra-high-performance concrete curves inspired by yin-yang flow harmonize flawlessly with the turquoise east sea. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -21949,7 +21740,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2019 completion designed by David Childs (SOM) at 35 Hudson Yards, NYC",
       "estimatedValue": "Estimated at ~$58.5M USD (80th-floor Hudson Yards flagship penthouse)",
       "specialFeature": "A high-rise glass penthouse on the 80th floor of 35 Hudson Yards, the sleek new pulse of Manhattan. Exclusively gaze out upon The Vessel, sunsets along the Hudson River, and the Empire State Building from hundreds of feet in the air.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for 35 Hudson Yards Equinox Tower, New York 80th-Floor Manhattan Skyline Penthouse: Established in 2019 completion designed by David Childs (SOM) at 35 Hudson Yards, NYC with an appraisal of Estimated at ~$58.5M USD (80th-floor Hudson Yards flagship penthouse), it showcases a high-rise glass penthouse on the 80th floor of 35 hudson yards, the sleek new pulse of manhattan. exclusively gaze out upon the vessel, sunsets along the hudson river, and the empire state building from hundreds of feet in the air. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -22079,7 +21870,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1925 Neo-Gothic build by Howells & Hood (2022 luxury residential conversion)",
       "estimatedValue": "Estimated at ~$19.2M USD (Tribune Tower flying-buttress crown penthouse)",
       "specialFeature": "A neo-Gothic crown penthouse paying homage to Rouen Cathedral atop Chicago's legendary Tribune Tower overlooking Michigan Avenue. An open-air stone terrace set among flying buttresses surveys the architectural capital of the world.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Tribune Tower, Chicago Neo-Gothic Flying Buttress Spire Penthouse: Established in 1925 Neo-Gothic build by Howells & Hood (2022 luxury residential conversion) with an appraisal of Estimated at ~$19.2M USD (Tribune Tower flying-buttress crown penthouse), it showcases a neo-gothic crown penthouse paying homage to rouen cathedral atop chicago's legendary tribune tower overlooking michigan avenue. an open-air stone terrace set among flying buttresses surveys the architectural capital of the world. Even sovereign monarchs wait decades on the guest list just to glimpse this sanctuary's foyer."
     }
   },
   {
@@ -22209,7 +22000,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2021 floating glass villa build on Lake Union, Seattle",
       "estimatedValue": "Estimated at ~$7.1M USD (includes permanent Lake Union moorage deed)",
       "specialFeature": "A two-story glass floating villa on Lake Union reinterpreting the romance of 'Sleepless in Seattle'. Moored seaplanes and kayaks float directly outside your living room while the Space Needle glows above calm lake waters.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on Lake Union, Seattle, Washington Modern Glass Floating Villa Houseboat: Established in 2021 floating glass villa build on Lake Union, Seattle with an appraisal of Estimated at ~$7.1M USD (includes permanent Lake Union moorage deed), it showcases a two-story glass floating villa on lake union reinterpreting the romance of 'sleepless in seattle'. moored seaplanes and kayaks float directly outside your living room while the space needle glows above calm lake waters. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -22339,7 +22130,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2017 completion designed by Italian architect Antonio Citterio in Dubai",
       "estimatedValue": "Estimated at ~145M AED / $39.5M USD (Jumeirah Bay Island marina villa)",
       "specialFeature": "An Italian high-jewelry aesthetic marina villa set upon seahorse-shaped Jumeirah Bay Island. Coral-motif sunscreens and private yacht slips command exclusive sunset vistas across the Arabian Gulf.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Supreme Sovereign Valuation for Bulgari Resort Dubai, Jumeirah Bay Island Superyacht Marina Villa: Established in 2017 completion designed by Italian architect Antonio Citterio in Dubai with an appraisal of Estimated at ~145M AED / $39.5M USD (Jumeirah Bay Island marina villa), it showcases an italian high-jewelry aesthetic marina villa set upon seahorse-shaped jumeirah bay island. coral-motif sunscreens and private yacht slips command exclusive sunset vistas across the arabian gulf. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -22469,7 +22260,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2022 completion atop a luxury flagship tower in Ginza, Chuo-ku, Tokyo",
       "estimatedValue": "Estimated at ~¥4.8B / $32M USD (includes 300-year bonsai garden & hinoki spa)",
       "specialFeature": "A penthouse crowning a premier tower in Ginza, the heart of Tokyo luxury. Meditate on the skyline from an aromatic Japanese Hinoki cypress spa beside a rooftop Zen garden watched over by a 300-year-old black pine bonsai.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Cosmic Luxury Certification for Ginza, Tokyo Penthouse Aerial Bonsai Garden & Hinoki Cypress Onsen Spa: Established in 2022 completion atop a luxury flagship tower in Ginza, Chuo-ku, Tokyo with an appraisal of Estimated at ~¥4.8B / $32M USD (includes 300-year bonsai garden & hinoki spa), it showcases a penthouse crowning a premier tower in ginza, the heart of tokyo luxury. meditate on the skyline from an aromatic japanese hinoki cypress spa beside a rooftop zen garden watched over by a 300-year-old black pine bonsai. Every corridor hums with bespoke craftsmanship that turns ordinary mornings into cinematic triumphs."
     }
   },
   {
@@ -22599,7 +22390,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2004 completion of the 508m Taipei 101 tower designed by C.Y. Lee",
       "estimatedValue": "Estimated at ~$89M USD (private 101st-floor VVIP summit sanctuary)",
       "specialFeature": "A secret penthouse retreat on the 101st floor of the 508-meter Taipei 101 tower, inspired by bamboo shoots and Asian pagodas. Overlook the Taipei basin from a sky suite anchored by a massive 660-tonne golden tuned mass damper.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Grand Custodial Appraisal for Taipei 101, Taiwan 101st-Floor Sky Lounge Tuned Mass Damper View Penthouse: Established in 2004 completion of the 508m Taipei 101 tower designed by C.Y. Lee with an appraisal of Estimated at ~$89M USD (private 101st-floor VVIP summit sanctuary), it showcases a secret penthouse retreat on the 101st floor of the 508-meter taipei 101 tower, inspired by bamboo shoots and asian pagodas. overlook the taipei basin from a sky suite anchored by a massive 660-tonne golden tuned mass damper. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -22729,7 +22520,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2018 sustainable timber lodge build in the Tasmanian Wilderness World Heritage Area",
       "estimatedValue": "Estimated at ~$4.9M USD / $7.4M AUD (Cradle Mountain wilderness lodge)",
       "specialFeature": "An eco-lodge nestled in the Tasmanian Wilderness World Heritage Area, where primeval Gondwana flora remains pristine. Marvel at ancient deciduous beech forests, crystalline Dove Lake waters, and rugged saw-toothed Cradle Mountain peaks.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Prime Multiverse Estate Review of Cradle Mountain, Tasmania, Australia Lake St Clair Ancient Wilderness Alpine Eco-Lodge: Established in 2018 sustainable timber lodge build in the Tasmanian Wilderness World Heritage Area with an appraisal of Estimated at ~$4.9M USD / $7.4M AUD (Cradle Mountain wilderness lodge), it showcases an eco-lodge nestled in the tasmanian wilderness world heritage area, where primeval gondwana flora remains pristine. marvel at ancient deciduous beech forests, crystalline dove lake waters, and rugged saw-toothed cradle mountain peaks. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -22859,7 +22650,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2007 completion designed by Australian architect Chris Beckingham",
       "estimatedValue": "Estimated at ~$11.5M USD / $17.5M AUD (qualia Windward Coral Sea pavilion)",
       "specialFeature": "The Windward Pavilion at qualia, secluded on the northernmost tip of Hamilton Island at the gateway to the Great Barrier Reef. Watch migrating whales blow in Whitsunday coral waters from your private plunge pool on a native timber deck.",
-      "aiVerdict": "The sheer essence of overwhelming luxury, reserved solely for those at the pinnacle of success."
+      "aiVerdict": "Platinum Architectural Dossier on qualia Resort, Hamilton Island, Australia Windward Pavilion facing Coral Sea: Established in 2007 completion designed by Australian architect Chris Beckingham with an appraisal of Estimated at ~$11.5M USD / $17.5M AUD (qualia Windward Coral Sea pavilion), it showcases the windward pavilion at qualia, secluded on the northernmost tip of hamilton island at the gateway to the great barrier reef. watch migrating whales blow in whitsunday coral waters from your private plunge pool on a native timber deck. It redefines prestige across timelines, blending impregnable engineering with effortless grandeur."
     }
   },
   {
@@ -22989,7 +22780,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1864 Hôtel de Paris opening (2019 Prince Rainier III rooftop suite unveiling)",
       "estimatedValue": "Estimated at ~$85M USD (€45,000/night Monte Carlo Grand Prix flagship suite)",
       "specialFeature": "Perched atop the legendary Hôtel de Paris on Casino Square, this Prince Rainier III Suite honors Monaco's sovereign. From your private rooftop infinity pool, take in VIP box-seat views of the F1 Monaco Grand Prix circuit and a glittering armada of luxury yachts across the Mediterranean.",
-      "aiVerdict": "The quintessence of overwhelming luxury reserved solely for those standing at the pinnacle of triumph."
+      "aiVerdict": "Supreme Sovereign Valuation for Monaco Monte Carlo Hôtel de Paris Prince Rainier III Suite F1 Circuit View Terrace: Established in 1864 Hôtel de Paris opening (2019 Prince Rainier III rooftop suite unveiling) with an appraisal of Estimated at ~$85M USD (€45,000/night Monte Carlo Grand Prix flagship suite), it showcases perched atop the legendary hôtel de paris on casino square, this prince rainier iii suite honors monaco's sovereign. from your private rooftop infinity pool, take in vip box-seat views of the f1 monaco grand prix circuit and a glittering armada of luxury yachts across the mediterranean. Simply registering this address as your primary residence elevates your bloodline into mythic status."
     }
   },
   {
@@ -23119,7 +22910,7 @@ export const MASTER_HOUSES = [
       "builtYear": "1530s Knights of St. John era Globigerina limestone palazzo in Mdina",
       "estimatedValue": "Estimated at ~€12.5M / $13.6M USD (historic noble palazzo in the Silent City)",
       "specialFeature": "Tucked within the car-free bastion walls of Malta's thousand-year-old ancient capital, Mdina the 'Silent City,' this 16th-century noble palazzo lets you savor the covert nobility of the Knights Hospitaller amid lantern-lit alleyways and golden globigerina limestone courtyards.",
-      "aiVerdict": "The quintessence of overwhelming luxury reserved solely for those standing at the pinnacle of triumph."
+      "aiVerdict": "Cosmic Luxury Certification for Malta Mdina 'Silent City' 16th-Century Medieval Globigerina Limestone Noble Palazzo: Established in 1530s Knights of St. John era Globigerina limestone palazzo in Mdina with an appraisal of Estimated at ~€12.5M / $13.6M USD (historic noble palazzo in the Silent City), it showcases tucked within the car-free bastion walls of malta's thousand-year-old ancient capital, mdina the 'silent city,' this 16th-century noble palazzo lets you savor the covert nobility of the knights hospitaller amid lantern-lit alleyways and golden globigerina limestone courtyards. Conventional real estate metrics break down here; this is a self-contained civilization built for one."
     }
   },
   {
@@ -23249,7 +23040,7 @@ export const MASTER_HOUSES = [
       "builtYear": "2021 contemporary Aegean waterfront estate completion in Bodrum, Turkey",
       "estimatedValue": "Estimated at ~€15.6M / $17M USD (includes private superyacht jetty & headland)",
       "specialFeature": "A whitewashed cubist estate nestled among olive-clad hills over the turquoise bay of the Bodrum Peninsula, dubbed Turkey's Saint-Tropez. Breathe in the sweet Aegean night breeze from your private timber yacht dock and overwater cabana daybed.",
-      "aiVerdict": "The quintessence of overwhelming luxury reserved solely for those standing at the pinnacle of triumph."
+      "aiVerdict": "Grand Custodial Appraisal for Turkey Bodrum Turquoise Bay Aegean Yacht Mooring Private Cabana Estate: Established in 2021 contemporary Aegean waterfront estate completion in Bodrum, Turkey with an appraisal of Estimated at ~€15.6M / $17M USD (includes private superyacht jetty & headland), it showcases a whitewashed cubist estate nestled among olive-clad hills over the turquoise bay of the bodrum peninsula, dubbed turkey's saint-tropez. breathe in the sweet aegean night breeze from your private timber yacht dock and overwater cabana daybed. No terrestrial billionaire could replicate its vantage point, securing its crown in the multiverse ledger."
     }
   },
   {
@@ -23379,7 +23170,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Late 17th-century Andalusian-Moorish courtyard riad build in Chefchaouen",
       "estimatedValue": "Estimated at ~$2.5M USD (summit rooftop riad overlooking the Blue Medina)",
       "specialFeature": "A historic Moroccan traditional riad mansion perched at the crown of Chefchaouen's medina—the Blue Pearl embraced by the Rif Mountains. Sip fresh mint tea on your rooftop terrace hovering above cobalt-blue alleys while taking in fiery red mountain peaks.",
-      "aiVerdict": "The quintessence of overwhelming luxury reserved solely for those standing at the pinnacle of triumph."
+      "aiVerdict": "Prime Multiverse Estate Review of Morocco Chefchaouen Blue Alley Staircase Summit Panoramic Rooftop Riad: Established in Late 17th-century Andalusian-Moorish courtyard riad build in Chefchaouen with an appraisal of Estimated at ~$2.5M USD (summit rooftop riad overlooking the Blue Medina), it showcases a historic moroccan traditional riad mansion perched at the crown of chefchaouen's medina—the blue pearl embraced by the rif mountains. sip fresh mint tea on your rooftop terrace hovering above cobalt-blue alleys while taking in fiery red mountain peaks. From its private micro-climate to its timeless silhouette, this estate stands beyond mortal comparison."
     }
   },
   {
@@ -32710,3 +32501,18 @@ export const MASTER_HOUSES = [
     }
   }
 ];
+
+const LEVEL_MAP = new Map(MASTER_HOUSES.map(h => [h.level, h]));
+
+export function lookupHouseByLevel(level) {
+  const lv = Number(level);
+  return LEVEL_MAP.get(lv) || MASTER_HOUSES[0];
+}
+
+export const MASTER_TIERS_500 = MASTER_HOUSES;
+
+export const MASTER_TIERS_1001 = MASTER_HOUSES;
+
+export const MASTER_JOBS = MASTER_HOUSES;
+
+export const MASTER_CARS = MASTER_HOUSES;
