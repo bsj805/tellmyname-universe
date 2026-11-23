@@ -752,12 +752,10 @@ export default {
         const r2Bucket = env?.OCCUPATION_R2 || env?.MYHOME_R2;
         if (r2Bucket && typeof r2Bucket.get === 'function') {
           try {
-            const keysToCheck = [
-              'jobs/' + padded + '.webp',
-              'jobs/' + padded + '.png',
-              'houses/' + padded + '.webp',
-              'houses/' + padded + '.png'
-            ];
+            const isHouseRoute = pathname.startsWith('/r2/houses/');
+            const keysToCheck = isHouseRoute
+              ? ['houses/' + padded + '.webp', 'houses/' + padded + '.png']
+              : ['jobs/' + padded + '.webp', 'jobs/' + padded + '.png'];
             for (const key of keysToCheck) {
               const object = await r2Bucket.get(key);
               if (object) {
