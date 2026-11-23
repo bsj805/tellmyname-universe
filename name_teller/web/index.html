@@ -452,7 +452,7 @@
       <div class="section-header">
         <span class="section-tag">TELLMYNAME FAMILY SERVICES</span>
         <h2 class="section-title" id="hub-sec1-title">🌟 이름으로 알아보는 4대 세계관 & 이상형 월드컵</h2>
-        <p class="section-desc">모든 서비스는 회원가입이나 개인정보 저장 없이 이름만으로 즉시 결과를 계산하며, 같은 레벨(Lv.N)의 집·직업·자동차를 상호 비교할 수 있습니다.</p>
+        <p class="section-desc" id="hub-sec1-desc">모든 서비스는 회원가입이나 개인정보 저장 없이 이름만으로 즉시 결과를 계산하며, 같은 레벨(Lv.N)의 집·직업·자동차를 상호 비교할 수 있습니다.</p>
       </div>
 
       <div class="cards-grid">
@@ -1027,6 +1027,23 @@
           }
           if (edBox) {
             edBox.innerHTML = '<h3>1. Deterministic Stroke & Unicode FNV-1a Hash with Cross-Universe Level N Reference</h3><p>Every TellMyName service uses deterministic 32-bit FNV-1a stroke and Unicode hashing rather than random numbers. Entering the same name always yields the exact same level, while our Cross-Universe Level N system lets you compare what your assigned Level N looks like across Houses, Jobs, and Cars.</p><h3>2. Zero-Storage Privacy & 14-Language Global Support</h3><p>Names entered on TellMyName are computed on the fly and never stored in any database. Full support is built in for 14 languages: Korean, English, Japanese, Chinese, Spanish, French, German, Portuguese, Italian, Russian, Hindi, Vietnamese, Indonesian, and Malay.</p>';
+          }
+          const ft = document.querySelector('.site-footer');
+          if (ft) {
+            const strong = ft.querySelector('strong');
+            if (strong) strong.textContent = 'TellMyName Official Hub (tellmyname.app)';
+            ft.querySelectorAll('.footer-links a').forEach(function(a) {
+              const h = a.getAttribute('href') || '';
+              if (h.includes('myhome.tellmyname.app')) a.textContent = 'Find My Home';
+              else if (h.includes('food.tellmyname.app')) a.textContent = 'What to Eat?';
+              else if (h.includes('job.tellmyname.app')) a.textContent = 'Find My Job';
+              else if (h.includes('car.tellmyname.app')) a.textContent = 'Find My Car';
+              else if (h.includes('photodiary.tellmyname.app')) a.textContent = 'Photo Diary';
+              else if (h.endsWith('/about.html')) a.textContent = 'About';
+              else if (h.endsWith('/contact.html')) a.textContent = 'Contact';
+              else if (h.endsWith('/privacy.html')) a.textContent = 'Privacy Policy';
+              else if (h.endsWith('/terms.html')) a.textContent = 'Terms of Service';
+            });
           }
         }
 

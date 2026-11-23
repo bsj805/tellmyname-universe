@@ -1029,6 +1029,8 @@ function updateLocalizedStaticTexts() {
     setElText('footer-brand-text', dict.footer.brand);
     const isKo = state.lang === 'ko';
     setElText('footer-link-hub', isKo ? '✨ TellMyName 허브' : '✨ TellMyName Hub');
+    const hubLabelEl = document.querySelector('#family-link-hub .family-nav-label');
+    if (hubLabelEl) hubLabelEl.textContent = isKo ? 'TellMyName 허브' : 'TellMyName Hub';
     setElText('footer-link-food', isKo ? '🍱 오늘 뭐 먹지?' : '🍱 What to Eat?');
     setElText('footer-link-job', isKo ? '💼 내 직업 찾기' : '💼 Find My Job');
     setElText('footer-link-car', isKo ? '🚗 내 자동차 찾기' : '🚗 Find My Car');
