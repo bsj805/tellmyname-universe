@@ -109,13 +109,12 @@ for (const app of selectedApps) {
       stdio: 'inherit'
     });
   } else {
-    // Sync name_teller/web/index.html -> name_teller/dist/index.html
-    const srcHtml = path.join(app.dir, 'web', 'index.html');
+    // Sync all files from name_teller/web/* -> name_teller/dist/* (including samples/italy/*)
+    const srcDir = path.join(app.dir, 'web');
     const distDir = path.join(app.dir, 'dist');
-    if (!fs.existsSync(distDir)) fs.mkdirSync(distDir, { recursive: true });
-    if (fs.existsSync(srcHtml)) {
-      fs.copyFileSync(srcHtml, path.join(distDir, 'index.html'));
-      console.log(`  ✔ Synced ${app.id}/web/index.html -> ${app.id}/dist/index.html`);
+    if (fs.existsSync(srcDir)) {
+      fs.cpSync(srcDir, distDir, { recursive: true, force: true });
+      console.log(`  ✔ Synced ${app.id}/web/* -> ${app.id}/dist/*`);
     }
   }
 
