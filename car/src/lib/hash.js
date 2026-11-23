@@ -35,7 +35,8 @@ export {
  * @returns {number} 0 .. 1000 inclusive
  */
 export function mapNameToCarLevelFull(name) {
-  return computeJsaHashLevel(name, TOTAL_LEVELS);
+  const salted = String(name || '').trim() ? `${String(name).trim()}#tellmyname:car` : '';
+  return computeJsaHashLevel(salted, TOTAL_LEVELS);
 }
 
 /**

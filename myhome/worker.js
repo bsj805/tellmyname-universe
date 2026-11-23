@@ -139,7 +139,7 @@ function localizeStaticShellHtml(html, selectedLang, dict) {
 
   // Localize sample chips in SSR HTML
   const langInfo = LANGUAGE_MAP[selectedLang] || LANGUAGE_MAP['en'];
-  const sampleNames = langInfo?.sampleNames || ['Steve', 'Emma', 'Olivia', 'Liam', 'Noah'];
+  const sampleNames = langInfo?.sampleNames || ['Chloe', 'Emma', 'Olivia', 'Liam', 'Noah'];
   const sampleChipsHtml = sampleNames.map(n => {
     const lv = analyzeNameToHouse(n).level;
     return `<button type="button" class="sample-chip" data-name="${escapeHtml(n)}">${escapeHtml(n)} (Lv.${lv})</button>`;
@@ -719,6 +719,61 @@ export default {
     }
 
     // ----------------------------------------------------
+    // Route 0: Unified tellmyname.app Internal Path Router
+    // ----------------------------------------------------
+    if (pathname === '/myhome' || pathname.startsWith('/myhome/')) {
+      const targetPath = pathname.slice('/myhome'.length) || '/';
+      return Response.redirect(`${url.origin}${targetPath}${url.search}`, 301);
+    }
+
+    if (pathname.startsWith('/r2/jobs/') && env && env.JOB_SVC) {
+      return env.JOB_SVC.fetch(request);
+    }
+    if (pathname.startsWith('/r2/cars/') && env && env.CAR_SVC) {
+      return env.CAR_SVC.fetch(request);
+    }
+    if ((pathname.startsWith('/r2/foods/') || pathname.startsWith('/images/') || pathname.startsWith('/i18n/foods/') || pathname.startsWith('/src/lib/')) && env && env.FOOD_SVC) {
+      return env.FOOD_SVC.fetch(request);
+    }
+
+    const subAppMounts = [
+      { prefix: '/food', svc: env?.FOOD_SVC },
+      { prefix: '/job', svc: env?.JOB_SVC },
+      { prefix: '/car', svc: env?.CAR_SVC }
+    ];
+    for (const mount of subAppMounts) {
+      if (mount.svc && (pathname === mount.prefix || pathname.startsWith(mount.prefix + '/'))) {
+        const subPath = pathname.slice(mount.prefix.length) || '/';
+        const subUrl = new URL(subPath + url.search, url.origin);
+        const subReq = new Request(subUrl.toString(), {
+          method: request.method,
+          headers: request.headers
+        });
+        const upstreamRes = await mount.svc.fetch(subReq);
+        const ct = upstreamRes.headers.get('content-type') || '';
+        if (ct.includes('text/html')) {
+          let html = await upstreamRes.text();
+          const p = mount.prefix;
+          html = html
+            .replace(/(href|src)=["']\/(css|js|src|samples)\//g, `$1="${p}/$2/`)
+            .replace(/href=["']\/favicon([^"']*)["']/g, `href="${p}/favicon$1"`)
+            .replace(/(<a[^>]*class=["'][^"']*brand[^"']*["'][^>]*href=["'])\/(["'])/g, `$1${p}/$2`)
+            .replace(/href=["']\/(level|name|worldcup|gallery)(\/[^"']*)?["']/g, `href="${p}/$1$2"`);
+          if (p === '/food') {
+            html = html.replace(/href=["']\/food\/(\d+)/g, `href="/food/food/$1`);
+          }
+          const prefixShim = `<script>(function(){var P="${p}";window.__TMN_PREFIX__=P;["pushState","replaceState"].forEach(function(m){var orig=history[m];if(!orig)return;history[m]=function(s,t,u){if(typeof u==="string"&&u.charAt(0)==="/"&&u.indexOf(P+"/")!==0&&u!==P&&u.indexOf("/job/")!==0&&u.indexOf("/car/")!==0&&u.indexOf("/food/")!==0){u=P+(u==="/"?"/":u);}return orig.call(this,s,t,u);};});})();</script>`;
+          html = html.replace('<head>', `<head>\n  ${prefixShim}`);
+          const headers = new Headers(upstreamRes.headers);
+          headers.delete('content-length');
+          headers.set('Cache-Control', 'public, max-age=60, s-maxage=60');
+          return new Response(html, { status: upstreamRes.status, headers });
+        }
+        return upstreamRes;
+      }
+    }
+
+    // ----------------------------------------------------
     // Route 1: GET /r2/houses/:filename (동일 도메인 R2 CDN 라우터)
     // ----------------------------------------------------
     if (pathname.startsWith('/r2/houses/')) {
@@ -913,7 +968,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -931,7 +986,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=604800',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -948,7 +1003,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -969,7 +1024,7 @@ export default {
     // Route 4: GET / (메인 루트 페이지 SSR 적용 - 브랜드 고유 Title/Canonical 보존 + 본문 초기 샘플 카드 SSR)
     // ----------------------------------------------------
     if (pathname === '/' || pathname === '') {
-      const defaultName = lang === 'ko' ? '김서윤' : (LANGUAGE_MAP[lang]?.sampleNames?.[0] || 'Steve');
+      const defaultName = lang === 'ko' ? '김서윤' : (LANGUAGE_MAP[lang]?.sampleNames?.[0] || 'Chloe');
       const strokeData = analyzeNameToHouse(defaultName);
       const defaultLv = strokeData.level;
       const concept = getHouseConceptByLevel(defaultLv);

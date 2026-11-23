@@ -486,8 +486,9 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
     titleText = `${name}님의 ${localizedMealLabel} 추천: ${foodName} | ${SITE_NAME}`;
     descText = `${name}님을 위한 ${date} ${localizedMealLabel} 추천 메뉴는 [${foodName}]입니다! (${activeRec?.originBadge || ''}) 하루 5끼(아침·점심·간식·저녁·야식) 맞춤 식단표와 자정 리셋 카운트다운을 확인해보세요.`;
   } else {
-    titleText = `${foodName} · ${activeRec?.englishName || ''} (${activeRec?.rawName || activeRec?.name || ''}) | ${SITE_NAME}`;
-    descText = `${name} - ${date} ${localizedMealLabel} recommendation: ${foodName} (${activeRec?.englishName || ''} / ${activeRec?.rawName || activeRec?.name || ''}). ${activeRec?.tagline || ''}. Explore 5 customized daily meals on Mukbang.`;
+    const localizedBrand = normLang === 'ko' ? '오늘 뭐 먹지?' : 'TellMyName Food';
+    titleText = `${name}'s ${localizedMealLabel}: ${foodName} | ${localizedBrand}`;
+    descText = `${name}'s ${date} ${localizedMealLabel} recommendation: ${foodName}. ${activeRec?.tagline || ''} Explore 5 customized daily meals on ${localizedBrand}.`;
   }
 
   const keywordsText = `${name}, 오늘뭐먹지, 음식추천, ${localizedMealLabel}, ${foodName}, ${activeRec?.englishName || ''}, Mukbang`;
@@ -1272,7 +1273,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'application/xml; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1283,7 +1284,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'application/xml; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1294,7 +1295,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'application/xml; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1305,7 +1306,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'application/xml; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1316,7 +1317,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'application/xml; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1327,7 +1328,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/plain; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1338,7 +1339,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/plain; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=86400'
+          'Cache-Control': 'public, max-age=86400, s-maxage=60'
         }
       });
     }
@@ -1357,7 +1358,16 @@ export default {
     // Route 1: GET /images/:filename 및 GET /r2/foods/:filename
     // ----------------------------------------------------
     if (pathname.startsWith('/images/') || pathname.startsWith('/r2/foods/')) {
-      const match = pathname.match(/^\/(?:images|r2\/foods)\/(\d{1,5})\.(png|webp|svg|jpg)$/i);
+      if (pathname.startsWith('/images/web/') && env && env.ASSETS && typeof env.ASSETS.fetch === 'function') {
+        const assetRes = await env.ASSETS.fetch(request);
+        if (assetRes && assetRes.ok) {
+          const headers = new Headers(assetRes.headers);
+          headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+          headers.set('Access-Control-Allow-Origin', '*');
+          return new Response(assetRes.body, { status: 200, headers });
+        }
+      }
+      const match = pathname.match(/^\/(?:images(?:\/web)?|r2\/foods)\/(\d{1,5})\.(png|webp|svg|jpg)$/i);
       if (match) {
         const rawNum = parseInt(match[1], 10);
         const ext = match[2].toLowerCase();
@@ -1428,7 +1438,7 @@ export default {
           status: 200,
           headers: {
             'Content-Type': 'image/svg+xml; charset=utf-8',
-            'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+            'Cache-Control': 'public, max-age=3600, s-maxage=60',
             'Access-Control-Allow-Origin': '*'
           }
         });
@@ -1580,7 +1590,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=1800, s-maxage=86400',
+          'Cache-Control': 'public, max-age=60, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1598,7 +1608,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=1800, s-maxage=3600',
+          'Cache-Control': 'public, max-age=60, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1617,7 +1627,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=1800, s-maxage=3600',
+          'Cache-Control': 'public, max-age=60, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1721,7 +1731,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=1800, s-maxage=3600',
+          'Cache-Control': 'public, max-age=60, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });

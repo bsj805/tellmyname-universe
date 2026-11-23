@@ -6,8 +6,16 @@ compatibility_date = "2026-10-01"
 directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "single-page-application"
-html_handling = "auto-trailing-slash"
+html_handling = "none"
 run_worker_first = true
+
+[[routes]]
+pattern = "tellmyname.app"
+custom_domain = true
+
+[[routes]]
+pattern = "www.tellmyname.app"
+custom_domain = true
 
 [[routes]]
 pattern = "myhome.tellmyname.app"
@@ -16,3 +24,15 @@ custom_domain = true
 [[r2_buckets]]
 binding = "MYHOME_R2"
 bucket_name = "myhome-houses-r2"
+
+[[services]]
+binding = "FOOD_SVC"
+service = "mukbang"
+
+[[services]]
+binding = "JOB_SVC"
+service = "occupation"
+
+[[services]]
+binding = "CAR_SVC"
+service = "car"

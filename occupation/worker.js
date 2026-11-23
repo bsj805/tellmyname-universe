@@ -277,8 +277,8 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
             ? `${effectiveName}님에게 어울리는 직업은 Lv.${levelNum} [${job.title}]입니다. (언제 하던 직업인지: ${job.era || job.builtYear} / 추산되는 연봉: ${job.estimatedSalary || job.estimatedValue} / 특별한 역할·할일: ${job.specialDuty || job.specialFeature}) | ${effectiveName}에게 어울리는 직업, 나에게 어울리는 직업, 나의 직업 고르기 이상형 월드컵`
             : `Lv.${levelNum} [${job.title}]. (언제 하던 직업인지: ${job.era || job.builtYear} / 추산되는 연봉: ${job.estimatedSalary || job.estimatedValue} / 특별한 역할·할일: ${job.specialDuty || job.specialFeature}) | 직업 추천, 직업 이미지, 나에게 어울리는 직업, MyJob`)
         : (effectiveName
-            ? `${displayJob.title} (${displayJob.zoneLabel}, ${displayJob.realityLabel}). ${dict.specs?.builtYearLabel || 'Era'}: ${displayJob.era || displayJob.builtYear} / ${dict.specs?.estimatedValueLabel || 'Estimated Salary'}: ${displayJob.estimatedSalary || displayJob.estimatedValue} / ${dict.specs?.specialFeatureLabel || 'Special Role'}: ${displayJob.specialDuty || displayJob.specialFeature} | ${effectiveName} job recommendation, career image`
-            : `Lv.${levelNum} [${displayJob.title}] (${displayJob.zoneLabel}, ${displayJob.realityLabel}). ${displayJob.era || displayJob.builtYear} / ${displayJob.estimatedSalary || displayJob.estimatedValue} / ${displayJob.specialDuty || displayJob.specialFeature} | job recommendation, career image`));
+            ? `${displayJob.title} (${displayJob.zoneLabel}, ${displayJob.realityLabel}). ${dict.specs?.builtYearLabel || 'Era'}: ${displayJob.era || displayJob.builtYear} / ${dict.specs?.estimatedValueLabel || 'Estimated Salary'}: ${displayJob.estimatedSalary || displayJob.estimatedValue} / ${dict.specs?.specialFeatureLabel || 'Special Role'}: ${displayJob.specialDuty || displayJob.specialFeature}`
+            : `Lv.${levelNum} [${displayJob.title}] (${displayJob.zoneLabel}, ${displayJob.realityLabel}). ${displayJob.era || displayJob.builtYear} / ${displayJob.estimatedSalary || displayJob.estimatedValue} / ${displayJob.specialDuty || displayJob.specialFeature}`));
 
   // Keywords:
   const keywordsText = isRoot
@@ -287,11 +287,11 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
         : 'The Job That Suits You, MyJob, name job test, fun career quiz, career recommendation, job tournament, best job world cup')
     : (isKorean
         ? (effectiveName
-            ? `${effectiveName} job recommendation, ${effectiveName} career image, job for ${effectiveName}, ${effectiveName}에게 어울리는 직업, ${job.title}, MyJob`
-            : `job recommendation, career image, ${job.title}, MyJob`)
+            ? `${effectiveName}에게 어울리는 직업, ${job.title}, MyJob`
+            : `${job.title}, MyJob`)
         : (effectiveName
-            ? `${effectiveName} job recommendation, ${effectiveName} career image, job for ${effectiveName}, ${displayJob.title}, MyJob`
-            : `job recommendation, career image, ${displayJob.title}, MyJob`));
+            ? `${displayJob.title}, MyJob`
+            : `${displayJob.title}, MyJob`));
 
   // 14개 언어 hreflang 태그 + x-default
   const hreflangTags = SUPPORTED_LANGUAGES.map(l =>
@@ -910,7 +910,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -928,7 +928,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=604800',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -949,7 +949,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });

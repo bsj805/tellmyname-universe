@@ -1017,6 +1017,15 @@ export function renderHeroMeal() {
     </article>
   `;
 
+  // Update document.title dynamically for active language & meal
+  if (typeof document !== 'undefined' && appState.activeTab !== 'gallery' && appState.activeTab !== 'worldcup') {
+    const brand = (appState.currentLang === 'ko' ? '오늘 뭐 먹지?' : 'TellMyName Food');
+    const mealName = t(appState.currentLang, 'meal_' + entry.mealKey) || entry.mealKey;
+    document.title = appState.currentLang === 'ko'
+      ? `${appState.currentName}님의 ${mealName} 추천: ${food.name} | ${brand}`
+      : `${appState.currentName}'s ${mealName}: ${food.name} | ${brand}`;
+  }
+
   // Attach button events
   const kakaoBtn = document.getElementById('hero-share-kakao-btn');
   const waBtn = document.getElementById('hero-share-whatsapp-btn');
@@ -1237,7 +1246,7 @@ export function updateStickyBar() {
   if (!stickyBar) return;
 
   const count = appState.selectedMealKeys.size;
-  if (count === 0) {
+  if (count < 2) {
     stickyBar.classList.remove('visible');
     return;
   }
@@ -1726,6 +1735,10 @@ export function switchTab(tabName, { pushState = true } = {}) {
     if (galleryView) galleryView.style.display = 'flex';
     if (worldcupView) worldcupView.style.display = 'none';
     if (stickyBar) stickyBar.style.display = 'none';
+    galleryController?.ensureGridRendered();
+    if (typeof document !== 'undefined') {
+      document.title = `${t(appState.currentLang, 'galleryTab')} | ${(appState.currentLang === 'ko' ? '오늘 뭐 먹지?' : 'TellMyName Food')}`;
+    }
 
     if (pushState && typeof window !== 'undefined' && window.history?.pushState) {
       const url = buildGalleryUrl(galleryController?.currentCategory, appState.currentLang);
@@ -1821,14 +1834,14 @@ export function initGalleryRouting() {
   // Handle browser popstate (back/forward history)
   if (typeof window !== 'undefined') {
     window.addEventListener('popstate', () => {
-      const wcRoute = parseWorldCupPath(window.location.pathname);
+      const wcRoute = parseWorldCupPath(window.location.pathname.replace(/^\/food(?=\/|$)/, '') || '/');
       if (wcRoute.isWorldCup) {
         worldCupController?.applyPresetFromUrl();
         worldCupController?.render();
         switchTab('worldcup', { pushState: false });
         return;
       }
-      const route = parseRoute(window.location.pathname);
+      const route = parseRoute(window.location.pathname.replace(/^\/food(?=\/|$)/, '') || '/');
       if (route.view === 'gallery') {
         switchTab('gallery', { pushState: false });
         galleryController?.closeDetail({ pushState: false });
@@ -1844,12 +1857,12 @@ export function initGalleryRouting() {
     });
 
     // Handle initial route on first page load
-    const initialWcRoute = parseWorldCupPath(window.location.pathname);
+    const initialWcRoute = parseWorldCupPath(window.location.pathname.replace(/^\/food(?=\/|$)/, '') || '/');
     if (initialWcRoute.isWorldCup) {
       switchTab('worldcup', { pushState: false });
       return;
     }
-    const initialRoute = parseRoute(window.location.pathname);
+    const initialRoute = parseRoute(window.location.pathname.replace(/^\/food(?=\/|$)/, '') || '/');
     if (initialRoute.view === 'gallery') {
       switchTab('gallery', { pushState: false });
       const urlParams = new URLSearchParams(window.location.search);

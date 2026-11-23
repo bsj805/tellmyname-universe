@@ -47,9 +47,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/style.css?v=20261123" />
   <link rel="stylesheet" href="/css/share.css" />
   <script src="/js/consent.js" defer></script>
+<style>
+  /* Mobile 390px zero-overflow enforcement for PhotoDiary 1-card [GIF | Snapshot] */
+  #photodiary-promo-section,
+  #photodiary-promo-section .pd-promo-card,
+  #photodiary-promo-section .pd-promo-grid {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+  #photodiary-promo-section .pd-promo-grid > * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  #photodiary-promo-section img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  @media (max-width: 520px) {
+    #photodiary-promo-section {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+    #photodiary-promo-section .pd-promo-card {
+      padding: 14px 10px !important;
+    }
+    #photodiary-promo-section .pd-promo-grid {
+      gap: 8px !important;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    }
+  }
+</style>
 </head>
 <body>
   <!-- App Container -->
@@ -59,23 +91,6 @@
     <header class="app-header">
       <!-- Top Utilities Bar (Family Services, Photodiary & Language Selector) -->
       <div class="top-util-bar">
-        <div style="display:flex;gap:0.45rem;align-items:center;flex-wrap:wrap;">
-          <a href="https://tellmyname.app/" class="photodiary-link" id="hub-link" title="TellMyName 통합 허브">
-            <span>✨</span> <span id="hub-text">TellMyName</span>
-          </a>
-          <a href="https://food.tellmyname.app/" class="photodiary-link" id="food-nav-link" title="오늘 뭐 먹지? 바로가기">
-            <span>🍱</span> <span id="food-nav-text">오늘 뭐 먹지?</span>
-          </a>
-          <a href="https://job.tellmyname.app/" class="photodiary-link" id="job-nav-link" title="나에게 어울리는 직업 바로가기">
-            <span>💼</span> <span id="job-nav-text">내 직업</span>
-          </a>
-          <a href="https://car.tellmyname.app/" class="photodiary-link" id="car-nav-link" title="나에게 어울리는 자동차 바로가기">
-            <span>🚗</span> <span id="car-nav-text">내 자동차</span>
-          </a>
-          <a href="https://photodiary.tellmyname.app/" class="photodiary-link" id="photodiary-link" title="포토 다이어리 바로가기">
-            <span>📸</span> <span id="photodiary-text">포토 다이어리</span>
-          </a>
-        </div>
         <div class="lang-compact-wrapper" id="lang-wrapper" title="Change Language">
           <span class="lang-icon" aria-hidden="true">🌐</span>
           <select id="lang-select" class="lang-select-compact" aria-label="언어 변경">
@@ -103,7 +118,7 @@
         </a>
 
         <!-- Global Mode Navigation Tabs -->
-        <nav class="mode-tabs" id="mode-tabs" aria-label="서비스 모드 전환 탭">
+        <nav class="mode-tabs" id="mode-tabs" aria-label="Service mode tabs">
           <button type="button" class="mode-tab-btn active" data-mode="search" id="tab-btn-search">
             <span>🏠</span> <span>내 집 찾기</span>
           </button>
@@ -123,7 +138,7 @@
                 type="text"
                 id="name-input"
                 class="name-input"
-                placeholder="이름을 입력하세요 (예: 김서윤, Steve, 陽翔...)"
+                placeholder="이름을 입력하세요 (예: 김서윤, Chloe, 陽翔...)"
                 maxlength="40"
                 autocomplete="off"
                 aria-label="감정받을 이름 입력"
@@ -285,7 +300,7 @@
 
     <!-- Footer -->
     <!-- Always-Visible Bottom PhotoDiary Animated Showcase Card (14-Language Adaptive) -->
-    <section class="photodiary-promo-section" id="photodiary-promo-section" aria-label="포토 다이어리 실시간 미리보기 및 홍보">
+    <section class="photodiary-promo-section" id="photodiary-promo-section" aria-label="PhotoDiary live preview">
       <style>
         .photodiary-promo-section {
           width: 100%;
@@ -494,8 +509,8 @@
             <span class="pd-promo-badge pd-badge-reels" id="pd-i18n-badge-reels">🎬 1초 릴스 동영상 (움직이는 GIF)</span>
             <div class="pd-promo-frame">
               <img
-                src="/samples/italy/italy-reels-preview.gif" onerror="this.onerror=null;this.src='https://photodiary.tellmyname.app/samples/italy/italy-reels-preview.gif';"
-                alt="포토 다이어리 이탈리아 일주 1초 간격 릴스 투어 움직이는 미리보기"
+                loading="eager" src="/samples/italy/italy-reels-preview.gif" onerror="this.onerror=null;this.src='https://photodiary.tellmyname.app/samples/italy/italy-reels-preview.gif';"
+                alt="PhotoDiary travel preview"
                 class="pd-promo-img"
                 loading="lazy"
               />
@@ -510,8 +525,8 @@
             <span class="pd-promo-badge pd-badge-map" id="pd-i18n-badge-map">🖼️ 이미지 공유 스냅샷</span>
             <div class="pd-promo-frame">
               <img
-                src="/samples/italy/italy-timeline-sample.png" onerror="this.onerror=null;this.src='https://photodiary.tellmyname.app/samples/italy/italy-timeline-sample.png';"
-                alt="포토 다이어리 이탈리아 일주 타임라인 지도 스냅샷 미리보기"
+                loading="eager" src="/samples/italy/italy-timeline-sample.png" onerror="this.onerror=null;this.src='https://photodiary.tellmyname.app/samples/italy/italy-timeline-sample.png';"
+                alt="PhotoDiary travel preview"
                 class="pd-promo-img"
                 loading="lazy"
               />
@@ -610,10 +625,10 @@
       <div class="footer-inner">
         <p class="footer-brand"><strong id="footer-brand-text">나에게 어울리는 집 (MyHome)</strong></p>
         <p class="footer-links">
-          <a href="https://tellmyname.app/" id="footer-link-hub">✨ TellMyName 허브</a> · 
-          <a href="https://food.tellmyname.app/" id="footer-link-food">🍱 오늘 뭐 먹지?</a> · 
-          <a href="https://job.tellmyname.app/" id="footer-link-job">💼 내 직업 찾기</a> · 
-          <a href="https://car.tellmyname.app/" id="footer-link-car">🚗 내 자동차 찾기</a> · 
+          <a href="/" id="footer-link-hub">✨ TellMyName 허브</a> · 
+          <a href="/food" id="footer-link-food">🍱 오늘 뭐 먹지?</a> · 
+          <a href="/job" id="footer-link-job">💼 내 직업 찾기</a> · 
+          <a href="/car" id="footer-link-car">🚗 내 자동차 찾기</a> · 
           <a href="https://photodiary.tellmyname.app/" id="footer-link-photodiary">📸 포토 다이어리</a> · 
           <a href="/about.html" id="footer-link-about">소개 (About)</a> · 
           <a href="/contact.html" id="footer-link-contact">문의 (Contact)</a> · 
@@ -646,6 +661,6 @@
   <div id="share-modal-root"></div>
 
   <!-- Main Application Script -->
-  <script type="module" src="/js/app.js"></script>
+  <script type="module" src="/js/app.js?v=20261123"></script>
 </body>
 </html>

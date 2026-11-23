@@ -26,7 +26,7 @@ export const SUPPORTED_LANGUAGES = [
     "flag": "🇺🇸",
     "locale": "en-US",
     "sampleNames": [
-      "Steve",
+      "Chloe",
       "Emma",
       "Liam",
       "Olivia",

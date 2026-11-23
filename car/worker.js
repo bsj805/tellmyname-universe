@@ -415,8 +415,8 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
             ? `${effectiveName}님에게 어울리는 자동차는 Lv.${levelNum} [${displayCar.title}]입니다. (언제 타던 탈것인지: ${displayCar.era} / 추산 가격·유지비: ${displayCar.estimatedPrice} / 특별한 기능·주행성능: ${displayCar.specialFeature}) | ${effectiveName}에게 어울리는 자동차, 나에게 어울리는 자동차, 나의 자동차 고르기 이상형 월드컵`
             : `Lv.${levelNum} [${displayCar.title}]. (언제 타던 탈것인지: ${displayCar.era} / 추산 가격·유지비: ${displayCar.estimatedPrice} / 특별한 기능·주행성능: ${displayCar.specialFeature}) | 자동차 추천, 탈것 이미지, 나에게 어울리는 자동차, MyCar`)
         : (effectiveName
-            ? `${displayCar.title} (${displayCar.zoneLabel || displayCar.zone}, ${displayCar.realityLabel || displayCar.realityType}). ${dict.specs?.eraLabel || dict.specs?.builtYearLabel || 'Era'}: ${displayCar.era} / ${dict.specs?.estimatedPriceLabel || dict.specs?.estimatedValueLabel || 'Estimated Price'}: ${displayCar.estimatedPrice} / ${dict.specs?.specialFeatureLabel || 'Special Feature'}: ${displayCar.specialFeature} | ${effectiveName} car recommendation, vehicle image`
-            : `Lv.${levelNum} [${displayCar.title}] (${displayCar.zoneLabel || displayCar.zone}, ${displayCar.realityLabel || displayCar.realityType}). ${displayCar.era} / ${displayCar.estimatedPrice} / ${displayCar.specialFeature} | car recommendation, vehicle image`));
+            ? `${displayCar.title} (${displayCar.zoneLabel || displayCar.zone}, ${displayCar.realityLabel || displayCar.realityType}). ${dict.specs?.eraLabel || dict.specs?.builtYearLabel || 'Era'}: ${displayCar.era} / ${dict.specs?.estimatedPriceLabel || dict.specs?.estimatedValueLabel || 'Estimated Price'}: ${displayCar.estimatedPrice} / ${dict.specs?.specialFeatureLabel || 'Special Feature'}: ${displayCar.specialFeature}`
+            : `Lv.${levelNum} [${displayCar.title}] (${displayCar.zoneLabel || displayCar.zone}, ${displayCar.realityLabel || displayCar.realityType}). ${displayCar.era} / ${displayCar.estimatedPrice} / ${displayCar.specialFeature}`));
 
   // Keywords (including Worldcup SEO keywords)
   const keywordsText = isRoot
@@ -428,8 +428,8 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
             ? `${effectiveName}에게 어울리는 자동차, 나에게 어울리는 자동차, 나의 자동차 고르기 이상형 월드컵, 자동차 이상형 월드컵, 탈것 이상형 월드컵, ${displayCar.title}, ${effectiveName} car recommendation, MyCar`
             : `나에게 어울리는 자동차, 나의 자동차 고르기 이상형 월드컵, 자동차 이상형 월드컵, 탈것 이상형 월드컵, ${displayCar.title}, MyCar`)
         : (effectiveName
-            ? `${effectiveName} car recommendation, ${effectiveName} vehicle image, car for ${effectiveName}, ${displayCar.title}, MyCar`
-            : `car recommendation, vehicle image, ${displayCar.title}, MyCar`));
+            ? `${displayCar.title}, MyCar`
+            : `${displayCar.title}, MyCar`));
 
   // Bidirectional 14-language hreflang tags + x-default
   const hreflangTags = supportedLangs.map(l =>
@@ -447,7 +447,7 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
     'url': ogImageUrl,
     'width': 1024,
     'height': 1024,
-    'name': effectiveName ? `${effectiveName} vehicle image — ${displayCar.title}` : `${displayCar.title} vehicle image`,
+    'name': effectiveName ? `${displayCar.title} (${effectiveName})` : `${displayCar.title}`,
     'caption': isKorean
       ? (effectiveName ? `${effectiveName}님에게 어울리는 자동차: Lv.${levelNum} ${displayCar.title}` : `Lv.${levelNum} ${displayCar.title}`)
       : (effectiveName ? `${effectiveName}: Lv.${levelNum} ${displayCar.title}` : `Lv.${levelNum} ${displayCar.title}`),
@@ -1123,7 +1123,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1141,7 +1141,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=86400, s-maxage=604800',
+          'Cache-Control': 'public, max-age=86400, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });
@@ -1167,7 +1167,7 @@ export default {
         status: 200,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
-          'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+          'Cache-Control': 'public, max-age=3600, s-maxage=60',
           'Access-Control-Allow-Origin': '*'
         }
       });

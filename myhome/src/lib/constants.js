@@ -1,6 +1,6 @@
 // src/lib/constants.js — Shared constants, Phase-Aware Active Slot Mapping & R2 same-domain contract for MyHome
 
-export const SITE_ORIGIN = 'https://myhome.tellmyname.app';
+export const SITE_ORIGIN = 'https://tellmyname.app';
 export const MIN_LEVEL = 0;
 export const MAX_LEVEL = 999;
 export const TOTAL_LEVELS = 1000; // 0 .. 999 inclusive
@@ -24,7 +24,11 @@ export const HOUSE_CATEGORIES = [
   { id: 'IMAGINARY_CITY', label: '상상 속의 도시·미니어처 왕국', emoji: '🏙️' },
   { id: 'EXTREME_NATURE', label: '극한 오지·화산·심해·빙하 지형', emoji: '🪨' },
   { id: 'WEIRD_ARCH', label: '세계의 기이한 실제 건축물·랜드마크', emoji: '🏰' },
-  { id: 'MULTIVERSE', label: '초차원·블랙홀·다중우주 창조주 신전', emoji: '🌌' }
+  { id: 'MULTIVERSE', label: '초차원·블랙홀·다중우주 창조주 신전', emoji: '🌌' },
+  { id: 'EXTREME_SURVIVAL', label: '생존 오지·폐허·특수 쉘터', emoji: '⛺' },
+  { id: 'LUXURY_PENTHOUSE', label: '초호화 펜트하우스·프라이빗 빌라', emoji: '🏰' },
+  { id: 'HISTORICAL_PALACE', label: '역사적 궁전·고성·문화유산', emoji: '🏛️' },
+  { id: 'UNIQUE_ARCHITECTURE', label: '이색 건축·실험적 주거 공간', emoji: '🏗️' }
 ];
 
 /**

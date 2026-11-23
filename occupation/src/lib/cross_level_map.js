@@ -2,7 +2,7 @@
 export const CROSS_APPS_META = {
   myhome: {
     id: 'myhome',
-    origin: 'https://myhome.tellmyname.app',
+    origin: '',
     r2Prefix: 'https://myhome.tellmyname.app/r2/houses',
     localR2Prefix: '/r2/houses',
     maxLevel: 999,
@@ -10,7 +10,7 @@ export const CROSS_APPS_META = {
   },
   occupation: {
     id: 'occupation',
-    origin: 'https://job.tellmyname.app',
+    origin: '/job',
     r2Prefix: 'https://job.tellmyname.app/r2/jobs',
     localR2Prefix: '/r2/jobs',
     maxLevel: 1000,
@@ -18,7 +18,7 @@ export const CROSS_APPS_META = {
   },
   car: {
     id: 'car',
-    origin: 'https://car.tellmyname.app',
+    origin: '/car',
     r2Prefix: 'https://car.tellmyname.app/r2/cars',
     localR2Prefix: '/r2/cars',
     maxLevel: 1000,
@@ -446,6 +446,7 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
   const randLabel = dict.randBtn;
   const nextLabel = dict.nextBtn.replace('{next}', nextLv);
 
+  const selfPrefix = (currentApp === 'occupation' || currentApp === 'job') ? '/job' : (currentApp === 'car' ? '/car' : '');
   const siblingIds = Object.keys(CROSS_LEVEL_DATA).filter(k => k !== currentApp);
   const cardsHtml = siblingIds.map(appId => {
     const meta = CROSS_APPS_META[appId];
@@ -507,14 +508,14 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
   const foodBadge = useEnData ? slot.en : slot.ko;
   const foodLocalImg = `/images/web/${food.c}.webp`;
   const foodProdImg = `https://food.tellmyname.app/images/web/${food.c}.webp`;
-  const foodDetailHref = `https://food.tellmyname.app/food/${food.c}${langQuery}`;
+  const foodDetailHref = `/food/food/${food.c}${langQuery}`;
   const foodNameHref = cleanName
-    ? `https://food.tellmyname.app/name/${encodedName}${langQuery}`
-    : `https://food.tellmyname.app/${langQuery}`;
+    ? `/food/name/${encodedName}${langQuery}`
+    : `/food${langQuery}`;
   const foodNameBtnLabel = cleanName
     ? dict.searchFood.replace('{name}', cleanName)
     : dict.exploreFood;
-  const foodPrice = useEnData ? (food.p || '').replace(/\([^)]*[가-힣][^)]*\)/g, '').replace(/([0-9,]+)원/g, '₩$1').replace(/[가-힣]+/g, '').trim() : food.p;
+  const foodPrice = useEnData ? (food.p || '').replace(/\([^)]*[가-힣][^)]*\)/g, '').replace(/([0-9,]+)원/g, (_, n) => '$' + Math.max(1, Math.round(parseInt(n.replace(/,/g, ''), 10) / 1350)) + ' USD').replace(/[가-힣]+/g, '').trim() : food.p;
 
   const foodCardHtml = `
       <article class="cross-level-card" data-cross-app="food">
@@ -558,8 +559,8 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
           <p class="cross-card-verdict">${escapeHtml(wcDesc)}</p>
         </div>
         <div class="cross-wc-btn-row">
-          <a href="/worldcup/worst-to-best${langQuery}" class="cross-wc-btn cross-wc-worst">${escapeHtml(wcBtnWorst)}</a>
-          <a href="/worldcup/best-to-worst${langQuery}" class="cross-wc-btn cross-wc-best">${escapeHtml(wcBtnBest)}</a>
+          <a href="${selfPrefix}/worldcup/worst-to-best${langQuery}" class="cross-wc-btn cross-wc-worst">${escapeHtml(wcBtnWorst)}</a>
+          <a href="${selfPrefix}/worldcup/best-to-worst${langQuery}" class="cross-wc-btn cross-wc-best">${escapeHtml(wcBtnBest)}</a>
         </div>
       </article>
   `;
@@ -568,9 +569,9 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
     <div id="cross-level-reference-root" class="cross-level-wrapper">
       ${SCOPED_CSS}
       <nav class="inline-step-nav-bar" aria-label="Level step navigation">
-        <a href="/level/${prevLv}${langQuery}" class="step-nav-btn step-prev-btn" data-target-level="${prevLv}" data-step-level="${prevLv}">${escapeHtml(prevLabel)}</a>
-        <a href="/level/${randLv}${langQuery}" class="step-nav-btn step-rand-btn" data-target-level="${randLv}" data-step-level="${randLv}">${escapeHtml(randLabel)}</a>
-        <a href="/level/${nextLv}${langQuery}" class="step-nav-btn step-next-btn" data-target-level="${nextLv}" data-step-level="${nextLv}">${escapeHtml(nextLabel)}</a>
+        <a href="${selfPrefix}/level/${prevLv}${langQuery}" class="step-nav-btn step-prev-btn" data-target-level="${prevLv}" data-step-level="${prevLv}">${escapeHtml(prevLabel)}</a>
+        <a href="${selfPrefix}/level/${randLv}${langQuery}" class="step-nav-btn step-rand-btn" data-target-level="${randLv}" data-step-level="${randLv}">${escapeHtml(randLabel)}</a>
+        <a href="${selfPrefix}/level/${nextLv}${langQuery}" class="step-nav-btn step-next-btn" data-target-level="${nextLv}" data-step-level="${nextLv}">${escapeHtml(nextLabel)}</a>
       </nav>
       <section class="cross-level-section" aria-label="Multiverse Level ${lv} Cross-Reference">
         <div class="cross-level-header">

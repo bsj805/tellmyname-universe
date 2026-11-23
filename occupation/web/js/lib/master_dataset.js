@@ -5227,13 +5227,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00153.webp",
     "en": {
       "title": "Zombie Apocalypse Movie First-Minute Victim Extra #3",
-      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #153)",
+      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #153)",
       "estimatedSalary": "$32,554/yr (gear wear deducted · Grade #153)",
       "specialDuty": "Struggles daily with unpredictable supernatural side effects as a Zombie Apocalypse Movie First-Minute Victim Extra #3. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #153)",
+      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #153)",
       "estimatedValue": "$32,554/yr (gear wear deducted · Grade #153)",
       "specialFeature": "Struggles daily with unpredictable supernatural side effects as a Zombie Apocalypse Movie First-Minute Victim Extra #3. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "aiVerdict": "HR Dossier #153 (Zombie Apocalypse Movie First-Minute Victim Extra #3): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #153), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #153 (Zombie Apocalypse Movie First-Minute Victim Extra #3): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #153), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -5567,13 +5567,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00163.webp",
     "en": {
       "title": "Gamma Ray Exposure Pant-Tearing Only Orderly",
-      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #163)",
+      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #163)",
       "estimatedSalary": "$33,734/yr (gear wear deducted · Grade #163)",
       "specialDuty": "Struggles daily with unpredictable supernatural side effects as a Gamma Ray Exposure Pant-Tearing Only Orderly. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #163)",
+      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #163)",
       "estimatedValue": "$33,734/yr (gear wear deducted · Grade #163)",
       "specialFeature": "Struggles daily with unpredictable supernatural side effects as a Gamma Ray Exposure Pant-Tearing Only Orderly. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "aiVerdict": "HR Dossier #163 (Gamma Ray Exposure Pant-Tearing Only Orderly): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #163), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #163 (Gamma Ray Exposure Pant-Tearing Only Orderly): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #163), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -5907,13 +5907,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00173.webp",
     "en": {
       "title": "Cauldron Herb Vapor Purple Scale Mutation Subject",
-      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #173)",
+      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #173)",
       "estimatedSalary": "$34,914/yr (gear wear deducted · Grade #173)",
       "specialDuty": "Struggles daily with unpredictable supernatural side effects as a Cauldron Herb Vapor Purple Scale Mutation Subject. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #173)",
+      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #173)",
       "estimatedValue": "$34,914/yr (gear wear deducted · Grade #173)",
       "specialFeature": "Struggles daily with unpredictable supernatural side effects as a Cauldron Herb Vapor Purple Scale Mutation Subject. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "aiVerdict": "HR Dossier #173 (Cauldron Herb Vapor Purple Scale Mutation Subject): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #173), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #173 (Cauldron Herb Vapor Purple Scale Mutation Subject): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #173), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -6247,13 +6247,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00183.webp",
     "en": {
       "title": "Neuralyzer Backfire Total Amnesia Lab Assistant",
-      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #183)",
+      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #183)",
       "estimatedSalary": "$36,094/yr (gear wear deducted · Grade #183)",
       "specialDuty": "Struggles daily with unpredictable supernatural side effects as a Neuralyzer Backfire Total Amnesia Lab Assistant. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #183)",
+      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #183)",
       "estimatedValue": "$36,094/yr (gear wear deducted · Grade #183)",
       "specialFeature": "Struggles daily with unpredictable supernatural side effects as a Neuralyzer Backfire Total Amnesia Lab Assistant. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "aiVerdict": "HR Dossier #183 (Neuralyzer Backfire Total Amnesia Lab Assistant): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #183), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #183 (Neuralyzer Backfire Total Amnesia Lab Assistant): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #183), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -6587,13 +6587,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00193.webp",
     "en": {
       "title": "Magic Fire Shield Blast Singed Eyebrow Apprentice",
-      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #193)",
+      "era": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #193)",
       "estimatedSalary": "$37,274/yr (gear wear deducted · Grade #193)",
       "specialDuty": "Struggles daily with unpredictable supernatural side effects as a Magic Fire Shield Blast Singed Eyebrow Apprentice. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #193)",
+      "builtYear": "Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #193)",
       "estimatedValue": "$37,274/yr (gear wear deducted · Grade #193)",
       "specialFeature": "Struggles daily with unpredictable supernatural side effects as a Magic Fire Shield Blast Singed Eyebrow Apprentice. Whenever alarms blare, limbs mutate or teleport to other dimensions while scientists laugh madly.",
-      "aiVerdict": "HR Dossier #193 (Magic Fire Shield Blast Singed Eyebrow Apprentice): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard ZoneB #193), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #193 (Magic Fire Shield Blast Singed Eyebrow Apprentice): Operating under Sub-Level Containment Lab, Sci-Fi (Hazard Zone B #193), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -6927,13 +6927,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00203.webp",
     "en": {
       "title": "Chum Bucket Plankton Kitchen Waste Taste Tester",
-      "era": "Frontline Citadel of Evil Empire, (Hazard ZoneB #203)",
+      "era": "Frontline Citadel of Evil Empire, (Hazard Zone B #203)",
       "estimatedSalary": "$38,454/yr (gear wear deducted · Grade #203)",
       "specialDuty": "Performs thankless minion duties as a Chum Bucket Plankton Kitchen Waste Taste Tester, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "builtYear": "Frontline Citadel of Evil Empire, (Hazard ZoneB #203)",
+      "builtYear": "Frontline Citadel of Evil Empire, (Hazard Zone B #203)",
       "estimatedValue": "$38,454/yr (gear wear deducted · Grade #203)",
       "specialFeature": "Performs thankless minion duties as a Chum Bucket Plankton Kitchen Waste Taste Tester, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "aiVerdict": "HR Dossier #203 (Chum Bucket Plankton Kitchen Waste Taste Tester): Operating under Frontline Citadel of Evil Empire, (Hazard ZoneB #203), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #203 (Chum Bucket Plankton Kitchen Waste Taste Tester): Operating under Frontline Citadel of Evil Empire, (Hazard Zone B #203), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -7267,13 +7267,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00213.webp",
     "en": {
       "title": "Marine Swab Deck Cannonball Dodging Seaman",
-      "era": "Frontline Citadel of Evil Empire, (Hazard ZoneB #213)",
+      "era": "Frontline Citadel of Evil Empire, (Hazard Zone B #213)",
       "estimatedSalary": "$39,634/yr (gear wear deducted · Grade #213)",
       "specialDuty": "Performs thankless minion duties as a Marine Swab Deck Cannonball Dodging Seaman, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "builtYear": "Frontline Citadel of Evil Empire, (Hazard ZoneB #213)",
+      "builtYear": "Frontline Citadel of Evil Empire, (Hazard Zone B #213)",
       "estimatedValue": "$39,634/yr (gear wear deducted · Grade #213)",
       "specialFeature": "Performs thankless minion duties as a Marine Swab Deck Cannonball Dodging Seaman, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "aiVerdict": "HR Dossier #213 (Marine Swab Deck Cannonball Dodging Seaman): Operating under Frontline Citadel of Evil Empire, (Hazard ZoneB #213), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #213 (Marine Swab Deck Cannonball Dodging Seaman): Operating under Frontline Citadel of Evil Empire, (Hazard Zone B #213), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -7607,13 +7607,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00223.webp",
     "en": {
       "title": "Marvel NYC Battle Debris Cleanup Worker Almost Stepped on by Hulk",
-      "era": "Frontline Citadel of Evil Empire, (Hazard ZoneB #223)",
+      "era": "Frontline Citadel of Evil Empire, (Hazard Zone B #223)",
       "estimatedSalary": "$40,814/yr (gear wear deducted · Grade #223)",
       "specialDuty": "Performs thankless minion duties as a Marvel NYC Battle Debris Cleanup Worker Almost Stepped on by Hulk, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "builtYear": "Frontline Citadel of Evil Empire, (Hazard ZoneB #223)",
+      "builtYear": "Frontline Citadel of Evil Empire, (Hazard Zone B #223)",
       "estimatedValue": "$40,814/yr (gear wear deducted · Grade #223)",
       "specialFeature": "Performs thankless minion duties as a Marvel NYC Battle Debris Cleanup Worker Almost Stepped on by Hulk, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "aiVerdict": "HR Dossier #223 (Marvel NYC Battle Debris Cleanup Worker Almost Stepped on by Hulk): Operating under Frontline Citadel of Evil Empire, (Hazard ZoneB #223), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #223 (Marvel NYC Battle Debris Cleanup Worker Almost Stepped on by Hulk): Operating under Frontline Citadel of Evil Empire, (Hazard Zone B #223), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -7947,13 +7947,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00233.webp",
     "en": {
       "title": "Shadow Duel Graveyard Discard Pile Sweeping Fiend",
-      "era": "Frontline Citadel of Evil Empire, (Hazard ZoneB #233)",
+      "era": "Frontline Citadel of Evil Empire, (Hazard Zone B #233)",
       "estimatedSalary": "$41,994/yr (gear wear deducted · Grade #233)",
       "specialDuty": "Performs thankless minion duties as a Shadow Duel Graveyard Discard Pile Sweeping Fiend, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "builtYear": "Frontline Citadel of Evil Empire, (Hazard ZoneB #233)",
+      "builtYear": "Frontline Citadel of Evil Empire, (Hazard Zone B #233)",
       "estimatedValue": "$41,994/yr (gear wear deducted · Grade #233)",
       "specialFeature": "Performs thankless minion duties as a Shadow Duel Graveyard Discard Pile Sweeping Fiend, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "aiVerdict": "HR Dossier #233 (Shadow Duel Graveyard Discard Pile Sweeping Fiend): Operating under Frontline Citadel of Evil Empire, (Hazard ZoneB #233), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #233 (Shadow Duel Graveyard Discard Pile Sweeping Fiend): Operating under Frontline Citadel of Evil Empire, (Hazard Zone B #233), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -8287,13 +8287,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00243.webp",
     "en": {
       "title": "Berk Viking Scorched Shield Soot Scrubber Lad",
-      "era": "Frontline Citadel of Evil Empire, (Hazard ZoneB #243)",
+      "era": "Frontline Citadel of Evil Empire, (Hazard Zone B #243)",
       "estimatedSalary": "$43,174/yr (gear wear deducted · Grade #243)",
       "specialDuty": "Performs thankless minion duties as a Berk Viking Scorched Shield Soot Scrubber Lad, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "builtYear": "Frontline Citadel of Evil Empire, (Hazard ZoneB #243)",
+      "builtYear": "Frontline Citadel of Evil Empire, (Hazard Zone B #243)",
       "estimatedValue": "$43,174/yr (gear wear deducted · Grade #243)",
       "specialFeature": "Performs thankless minion duties as a Berk Viking Scorched Shield Soot Scrubber Lad, knocked out in one blow when heroes attack. Bosses treat minions as disposable fodder while heroes' holy swords strike terror every encounter.",
-      "aiVerdict": "HR Dossier #243 (Berk Viking Scorched Shield Soot Scrubber Lad): Operating under Frontline Citadel of Evil Empire, (Hazard ZoneB #243), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #243 (Berk Viking Scorched Shield Soot Scrubber Lad): Operating under Frontline Citadel of Evil Empire, (Hazard Zone B #243), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -8627,13 +8627,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00253.webp",
     "en": {
       "title": "Active Volcano Lava Edge Barbecue Adventurer Interviewer",
-      "era": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #253)",
+      "era": "Disaster Movie & Fantasy Calamity (Hazard Zone B #253)",
       "estimatedSalary": "$44,354/yr (gear wear deducted · Grade #253)",
       "specialDuty": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Active Volcano Lava Edge Barbecue Adventurer Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #253)",
+      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard Zone B #253)",
       "estimatedValue": "$44,354/yr (gear wear deducted · Grade #253)",
       "specialFeature": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Active Volcano Lava Edge Barbecue Adventurer Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "aiVerdict": "HR Dossier #253 (Active Volcano Lava Edge Barbecue Adventurer Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard ZoneB #253), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #253 (Active Volcano Lava Edge Barbecue Adventurer Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard Zone B #253), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -8967,13 +8967,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00263.webp",
     "en": {
       "title": "Zombie Apocalypse Barricade Pirate Radio Survival Guide DJ",
-      "era": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #263)",
+      "era": "Disaster Movie & Fantasy Calamity (Hazard Zone B #263)",
       "estimatedSalary": "$45,534/yr (gear wear deducted · Grade #263)",
       "specialDuty": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Zombie Apocalypse Barricade Pirate Radio Survival Guide DJ. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #263)",
+      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard Zone B #263)",
       "estimatedValue": "$45,534/yr (gear wear deducted · Grade #263)",
       "specialFeature": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Zombie Apocalypse Barricade Pirate Radio Survival Guide DJ. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "aiVerdict": "HR Dossier #263 (Zombie Apocalypse Barricade Pirate Radio Survival Guide DJ): Operating under Disaster Movie & Fantasy Calamity (Hazard ZoneB #263), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #263 (Zombie Apocalypse Barricade Pirate Radio Survival Guide DJ): Operating under Disaster Movie & Fantasy Calamity (Hazard Zone B #263), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -9307,13 +9307,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00273.webp",
     "en": {
       "title": "Hellfire Lava Eruption Festival Goblin Barbecue Interviewer",
-      "era": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #273)",
+      "era": "Disaster Movie & Fantasy Calamity (Hazard Zone B #273)",
       "estimatedSalary": "$46,714/yr (gear wear deducted · Grade #273)",
       "specialDuty": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Hellfire Lava Eruption Festival Goblin Barbecue Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #273)",
+      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard Zone B #273)",
       "estimatedValue": "$46,714/yr (gear wear deducted · Grade #273)",
       "specialFeature": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Hellfire Lava Eruption Festival Goblin Barbecue Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "aiVerdict": "HR Dossier #273 (Hellfire Lava Eruption Festival Goblin Barbecue Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard ZoneB #273), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #273 (Hellfire Lava Eruption Festival Goblin Barbecue Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard Zone B #273), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -9647,13 +9647,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00283.webp",
     "en": {
       "title": "Demon Lord Grand Assault Fleeing Adventurer Interviewer",
-      "era": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #283)",
+      "era": "Disaster Movie & Fantasy Calamity (Hazard Zone B #283)",
       "estimatedSalary": "$47,894/yr (gear wear deducted · Grade #283)",
       "specialDuty": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Demon Lord Grand Assault Fleeing Adventurer Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #283)",
+      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard Zone B #283)",
       "estimatedValue": "$47,894/yr (gear wear deducted · Grade #283)",
       "specialFeature": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Demon Lord Grand Assault Fleeing Adventurer Interviewer. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "aiVerdict": "HR Dossier #283 (Demon Lord Grand Assault Fleeing Adventurer Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard ZoneB #283), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #283 (Demon Lord Grand Assault Fleeing Adventurer Interviewer): Operating under Disaster Movie & Fantasy Calamity (Hazard Zone B #283), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -9987,13 +9987,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00293.webp",
     "en": {
       "title": "Gotham Joker Gas Balloon Square Gasmask Live Breaking TV Anchor",
-      "era": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #293)",
+      "era": "Disaster Movie & Fantasy Calamity (Hazard Zone B #293)",
       "estimatedSalary": "$49,074/yr (gear wear deducted · Grade #293)",
       "specialDuty": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Gotham Joker Gas Balloon Square Gasmask Live Breaking TV Anchor. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard ZoneB #293)",
+      "builtYear": "Disaster Movie & Fantasy Calamity (Hazard Zone B #293)",
       "estimatedValue": "$49,074/yr (gear wear deducted · Grade #293)",
       "specialFeature": "Broadcasts fantasy eruptions, kaiju rampages, and monster calamities live as a Gotham Joker Gas Balloon Square Gasmask Live Breaking TV Anchor. Holds camera angles steady amid debris and torrential gales for top ratings until signals fade.",
-      "aiVerdict": "HR Dossier #293 (Gotham Joker Gas Balloon Square Gasmask Live Breaking TV Anchor): Operating under Disaster Movie & Fantasy Calamity (Hazard ZoneB #293), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #293 (Gotham Joker Gas Balloon Square Gasmask Live Breaking TV Anchor): Operating under Disaster Movie & Fantasy Calamity (Hazard Zone B #293), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -10327,13 +10327,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00303.webp",
     "en": {
       "title": "Underwater Atlantis Alleys Clear Raincoat Street Vendor",
-      "era": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #303)",
+      "era": "Multiverse Fantasy Black Market Alley (Hazard Zone B #303)",
       "estimatedSalary": "$50,254/yr (gear wear deducted · Grade #303)",
       "specialDuty": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Underwater Atlantis Alleys Clear Raincoat Street Vendor. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #303)",
+      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard Zone B #303)",
       "estimatedValue": "$50,254/yr (gear wear deducted · Grade #303)",
       "specialFeature": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Underwater Atlantis Alleys Clear Raincoat Street Vendor. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "aiVerdict": "HR Dossier #303 (Underwater Atlantis Alleys Clear Raincoat Street Vendor): Operating under Multiverse Fantasy Black Market Alley (Hazard ZoneB #303), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #303 (Underwater Atlantis Alleys Clear Raincoat Street Vendor): Operating under Multiverse Fantasy Black Market Alley (Hazard Zone B #303), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -10667,13 +10667,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00313.webp",
     "en": {
       "title": "Hogwarts Invisibility Cloak Used Gear P2P Deal Broker",
-      "era": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #313)",
+      "era": "Multiverse Fantasy Black Market Alley (Hazard Zone B #313)",
       "estimatedSalary": "$51,434/yr (gear wear deducted · Grade #313)",
       "specialDuty": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Hogwarts Invisibility Cloak Used Gear P2P Deal Broker. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #313)",
+      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard Zone B #313)",
       "estimatedValue": "$51,434/yr (gear wear deducted · Grade #313)",
       "specialFeature": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Hogwarts Invisibility Cloak Used Gear P2P Deal Broker. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "aiVerdict": "HR Dossier #313 (Hogwarts Invisibility Cloak Used Gear P2P Deal Broker): Operating under Multiverse Fantasy Black Market Alley (Hazard ZoneB #313), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #313 (Hogwarts Invisibility Cloak Used Gear P2P Deal Broker): Operating under Multiverse Fantasy Black Market Alley (Hazard Zone B #313), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -11007,13 +11007,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00323.webp",
     "en": {
       "title": "Brobdingnag Giant Realm Micro-Human Magnifier Hawker",
-      "era": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #323)",
+      "era": "Multiverse Fantasy Black Market Alley (Hazard Zone B #323)",
       "estimatedSalary": "$52,614/yr (gear wear deducted · Grade #323)",
       "specialDuty": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Brobdingnag Giant Realm Micro-Human Magnifier Hawker. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #323)",
+      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard Zone B #323)",
       "estimatedValue": "$52,614/yr (gear wear deducted · Grade #323)",
       "specialFeature": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Brobdingnag Giant Realm Micro-Human Magnifier Hawker. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "aiVerdict": "HR Dossier #323 (Brobdingnag Giant Realm Micro-Human Magnifier Hawker): Operating under Multiverse Fantasy Black Market Alley (Hazard ZoneB #323), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #323 (Brobdingnag Giant Realm Micro-Human Magnifier Hawker): Operating under Multiverse Fantasy Black Market Alley (Hazard Zone B #323), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -11268,10 +11268,10 @@ export const MASTER_JOBS = [
     "tierName": "황당한 길거리 장사·무모한 상인",
     "era": "판타지 다차원 암시장 노점가 · 유령의 집 귀마개 제331구역",
     "estimatedSalary": "연봉 가상 골드 30닢 (환전 불가) (Lv.331 유령의 판매상 위험·소모품 공제 -927만 원)",
-    "specialDuty": "유령의 집 귀마개 및 심장마비 방지 부적 판매상로서 상식 파괴의 기상천외한 마법 물품과 아이템을 노점에서 판매합니다. 드라큘라나 좀비, 괴짜 손님들이 찾아와 진상 흥정을 벌일 때마다 주머니 속 호신용 주문서를 만지작거립니다. 단속반이 뜨면 짐보따리를 싸 들고 차원 포털로 도망칩니다.",
+    "specialDuty": "유령의 집 귀마개 및 심장마비 방지 부적 판매상으로서 상식 파괴의 기상천외한 마법 물품과 아이템을 노점에서 판매합니다. 드라큘라나 좀비, 괴짜 손님들이 찾아와 진상 흥정을 벌일 때마다 주머니 속 호신용 주문서를 만지작거립니다. 단속반이 뜨면 짐보따리를 싸 들고 차원 포털로 도망칩니다.",
     "builtYear": "판타지 다차원 암시장 노점가 · 유령의 집 귀마개 제331구역",
     "estimatedValue": "연봉 가상 골드 30닢 (환전 불가) (Lv.331 유령의 판매상 위험·소모품 공제 -927만 원)",
-    "specialFeature": "유령의 집 귀마개 및 심장마비 방지 부적 판매상로서 상식 파괴의 기상천외한 마법 물품과 아이템을 노점에서 판매합니다. 드라큘라나 좀비, 괴짜 손님들이 찾아와 진상 흥정을 벌일 때마다 주머니 속 호신용 주문서를 만지작거립니다. 단속반이 뜨면 짐보따리를 싸 들고 차원 포털로 도망칩니다.",
+    "specialFeature": "유령의 집 귀마개 및 심장마비 방지 부적 판매상으로서 상식 파괴의 기상천외한 마법 물품과 아이템을 노점에서 판매합니다. 드라큘라나 좀비, 괴짜 손님들이 찾아와 진상 흥정을 벌일 때마다 주머니 속 호신용 주문서를 만지작거립니다. 단속반이 뜨면 짐보따리를 싸 들고 차원 포털로 도망칩니다.",
     "aiVerdict": "[Lv.331 유령의 집 귀마개 및 심장마비 방지 부적 판매상] 판타지 다차원 암시장 노점가 현장에서 활약하는 전문 보직입니다. 체력과 정신력을 동시에 시험하는 고난도 현장이지만 그만큼 대체 불가능한 생존 내공을 단련할 수 있습니다.",
     "imagePrompt": "일러스트풍으로 유령의 집 귀마개 및 심장마비 방지 부적 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 유령의 집 귀마개 및 심장마비 방지 부적 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -11347,13 +11347,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00333.webp",
     "en": {
       "title": "T-Express Rollercoaster Peak Vertigo Barf Bag 10-Pack Vendor",
-      "era": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #333)",
+      "era": "Multiverse Fantasy Black Market Alley (Hazard Zone B #333)",
       "estimatedSalary": "$53,794/yr (gear wear deducted · Grade #333)",
       "specialDuty": "Sells reality-bending magical oddities in cross-dimensional alleyways as a T-Express Rollercoaster Peak Vertigo Barf Bag 10-Pack Vendor. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #333)",
+      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard Zone B #333)",
       "estimatedValue": "$53,794/yr (gear wear deducted · Grade #333)",
       "specialFeature": "Sells reality-bending magical oddities in cross-dimensional alleyways as a T-Express Rollercoaster Peak Vertigo Barf Bag 10-Pack Vendor. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "aiVerdict": "HR Dossier #333 (T-Express Rollercoaster Peak Vertigo Barf Bag 10-Pack Vendor): Operating under Multiverse Fantasy Black Market Alley (Hazard ZoneB #333), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #333 (T-Express Rollercoaster Peak Vertigo Barf Bag 10-Pack Vendor): Operating under Multiverse Fantasy Black Market Alley (Hazard Zone B #333), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -11687,13 +11687,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00343.webp",
     "en": {
       "title": "Medusa Stone Garden Heavy Mirror Sunglasses Renter",
-      "era": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #343)",
+      "era": "Multiverse Fantasy Black Market Alley (Hazard Zone B #343)",
       "estimatedSalary": "$54,974/yr (gear wear deducted · Grade #343)",
       "specialDuty": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Medusa Stone Garden Heavy Mirror Sunglasses Renter. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard ZoneB #343)",
+      "builtYear": "Multiverse Fantasy Black Market Alley (Hazard Zone B #343)",
       "estimatedValue": "$54,974/yr (gear wear deducted · Grade #343)",
       "specialFeature": "Sells reality-bending magical oddities in cross-dimensional alleyways as a Medusa Stone Garden Heavy Mirror Sunglasses Renter. Haggles with vampires, zombies, and quirky monsters while preparing escape portals if market guards raid.",
-      "aiVerdict": "HR Dossier #343 (Medusa Stone Garden Heavy Mirror Sunglasses Renter): Operating under Multiverse Fantasy Black Market Alley (Hazard ZoneB #343), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #343 (Medusa Stone Garden Heavy Mirror Sunglasses Renter): Operating under Multiverse Fantasy Black Market Alley (Hazard Zone B #343), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -12027,13 +12027,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00353.webp",
     "en": {
       "title": "Hyperbolic Time Chamber 1-Year Infinite Loop Bug Fixer",
-      "era": "Administrative Bureau of Hades and (Hazard ZoneB #353)",
+      "era": "Administrative Bureau of Hades and (Hazard Zone B #353)",
       "estimatedSalary": "$56,154/yr (gear wear deducted · Grade #353)",
       "specialDuty": "Processes infinite paranormal bureaucracy for eternity as a Hyperbolic Time Chamber 1-Year Infinite Loop Bug Fixer. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "builtYear": "Administrative Bureau of Hades and (Hazard ZoneB #353)",
+      "builtYear": "Administrative Bureau of Hades and (Hazard Zone B #353)",
       "estimatedValue": "$56,154/yr (gear wear deducted · Grade #353)",
       "specialFeature": "Processes infinite paranormal bureaucracy for eternity as a Hyperbolic Time Chamber 1-Year Infinite Loop Bug Fixer. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "aiVerdict": "HR Dossier #353 (Hyperbolic Time Chamber 1-Year Infinite Loop Bug Fixer): Operating under Administrative Bureau of Hades and (Hazard ZoneB #353), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #353 (Hyperbolic Time Chamber 1-Year Infinite Loop Bug Fixer): Operating under Administrative Bureau of Hades and (Hazard Zone B #353), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -12367,13 +12367,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00363.webp",
     "en": {
       "title": "Dragon Bank Gold Vault Compound Interest Abacus Goblin",
-      "era": "Administrative Bureau of Hades and (Hazard ZoneB #363)",
+      "era": "Administrative Bureau of Hades and (Hazard Zone B #363)",
       "estimatedSalary": "$57,334/yr (gear wear deducted · Grade #363)",
       "specialDuty": "Processes infinite paranormal bureaucracy for eternity as a Dragon Bank Gold Vault Compound Interest Abacus Goblin. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "builtYear": "Administrative Bureau of Hades and (Hazard ZoneB #363)",
+      "builtYear": "Administrative Bureau of Hades and (Hazard Zone B #363)",
       "estimatedValue": "$57,334/yr (gear wear deducted · Grade #363)",
       "specialFeature": "Processes infinite paranormal bureaucracy for eternity as a Dragon Bank Gold Vault Compound Interest Abacus Goblin. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "aiVerdict": "HR Dossier #363 (Dragon Bank Gold Vault Compound Interest Abacus Goblin): Operating under Administrative Bureau of Hades and (Hazard ZoneB #363), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #363 (Dragon Bank Gold Vault Compound Interest Abacus Goblin): Operating under Administrative Bureau of Hades and (Hazard Zone B #363), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -12707,13 +12707,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00373.webp",
     "en": {
       "title": "Fantasy Fortress Swab Inspection Failure Reprimand Writer",
-      "era": "Administrative Bureau of Hades and (Hazard ZoneB #373)",
+      "era": "Administrative Bureau of Hades and (Hazard Zone B #373)",
       "estimatedSalary": "$58,514/yr (gear wear deducted · Grade #373)",
       "specialDuty": "Processes infinite paranormal bureaucracy for eternity as a Fantasy Fortress Swab Inspection Failure Reprimand Writer. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "builtYear": "Administrative Bureau of Hades and (Hazard ZoneB #373)",
+      "builtYear": "Administrative Bureau of Hades and (Hazard Zone B #373)",
       "estimatedValue": "$58,514/yr (gear wear deducted · Grade #373)",
       "specialFeature": "Processes infinite paranormal bureaucracy for eternity as a Fantasy Fortress Swab Inspection Failure Reprimand Writer. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "aiVerdict": "HR Dossier #373 (Fantasy Fortress Swab Inspection Failure Reprimand Writer): Operating under Administrative Bureau of Hades and (Hazard ZoneB #373), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #373 (Fantasy Fortress Swab Inspection Failure Reprimand Writer): Operating under Administrative Bureau of Hades and (Hazard Zone B #373), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -13047,13 +13047,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00383.webp",
     "en": {
       "title": "Heaven Pearly Gates Saint Peter Lost Key Lockpicker",
-      "era": "Administrative Bureau of Hades and (Hazard ZoneB #383)",
+      "era": "Administrative Bureau of Hades and (Hazard Zone B #383)",
       "estimatedSalary": "$59,694/yr (gear wear deducted · Grade #383)",
       "specialDuty": "Processes infinite paranormal bureaucracy for eternity as a Heaven Pearly Gates Saint Peter Lost Key Lockpicker. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "builtYear": "Administrative Bureau of Hades and (Hazard ZoneB #383)",
+      "builtYear": "Administrative Bureau of Hades and (Hazard Zone B #383)",
       "estimatedValue": "$59,694/yr (gear wear deducted · Grade #383)",
       "specialFeature": "Processes infinite paranormal bureaucracy for eternity as a Heaven Pearly Gates Saint Peter Lost Key Lockpicker. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "aiVerdict": "HR Dossier #383 (Heaven Pearly Gates Saint Peter Lost Key Lockpicker): Operating under Administrative Bureau of Hades and (Hazard ZoneB #383), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #383 (Heaven Pearly Gates Saint Peter Lost Key Lockpicker): Operating under Administrative Bureau of Hades and (Hazard Zone B #383), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -13387,13 +13387,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00393.webp",
     "en": {
       "title": "Pandora's Box Accidental Opening Apology Scribe",
-      "era": "Administrative Bureau of Hades and (Hazard ZoneB #393)",
+      "era": "Administrative Bureau of Hades and (Hazard Zone B #393)",
       "estimatedSalary": "$60,874/yr (gear wear deducted · Grade #393)",
       "specialDuty": "Processes infinite paranormal bureaucracy for eternity as a Pandora's Box Accidental Opening Apology Scribe. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "builtYear": "Administrative Bureau of Hades and (Hazard ZoneB #393)",
+      "builtYear": "Administrative Bureau of Hades and (Hazard Zone B #393)",
       "estimatedValue": "$60,874/yr (gear wear deducted · Grade #393)",
       "specialFeature": "Processes infinite paranormal bureaucracy for eternity as a Pandora's Box Accidental Opening Apology Scribe. Rewriting millions of Book of Life entries manually whenever demon lords change document templates overnight.",
-      "aiVerdict": "HR Dossier #393 (Pandora's Box Accidental Opening Apology Scribe): Operating under Administrative Bureau of Hades and (Hazard ZoneB #393), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #393 (Pandora's Box Accidental Opening Apology Scribe): Operating under Administrative Bureau of Hades and (Hazard Zone B #393), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -13727,13 +13727,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00403.webp",
     "en": {
       "title": "Cyberpunk 500th Floor Neon Sign Barehanded Electrician",
-      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #403)",
+      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #403)",
       "estimatedSalary": "$62,054/yr (gear wear deducted · Grade #403)",
       "specialDuty": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Cyberpunk 500th Floor Neon Sign Barehanded Electrician. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #403)",
+      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #403)",
       "estimatedValue": "$62,054/yr (gear wear deducted · Grade #403)",
       "specialFeature": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Cyberpunk 500th Floor Neon Sign Barehanded Electrician. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "aiVerdict": "HR Dossier #403 (Cyberpunk 500th Floor Neon Sign Barehanded Electrician): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #403), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #403 (Cyberpunk 500th Floor Neon Sign Barehanded Electrician): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #403), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -14067,13 +14067,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00413.webp",
     "en": {
       "title": "Evangelion Unit-01 Restraint Bolt Torquing Tech",
-      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #413)",
+      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #413)",
       "estimatedSalary": "$63,234/yr (gear wear deducted · Grade #413)",
       "specialDuty": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Evangelion Unit-01 Restraint Bolt Torquing Tech. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #413)",
+      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #413)",
       "estimatedValue": "$63,234/yr (gear wear deducted · Grade #413)",
       "specialFeature": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Evangelion Unit-01 Restraint Bolt Torquing Tech. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "aiVerdict": "HR Dossier #413 (Evangelion Unit-01 Restraint Bolt Torquing Tech): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #413), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #413 (Evangelion Unit-01 Restraint Bolt Torquing Tech): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #413), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -14407,13 +14407,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00423.webp",
     "en": {
       "title": "S.H.I.E.L.D. Helicarrier Turbine Bird Feather Plucker",
-      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #423)",
+      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #423)",
       "estimatedSalary": "$64,414/yr (gear wear deducted · Grade #423)",
       "specialDuty": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a S.H.I.E.L.D. Helicarrier Turbine Bird Feather Plucker. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #423)",
+      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #423)",
       "estimatedValue": "$64,414/yr (gear wear deducted · Grade #423)",
       "specialFeature": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a S.H.I.E.L.D. Helicarrier Turbine Bird Feather Plucker. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "aiVerdict": "HR Dossier #423 (S.H.I.E.L.D. Helicarrier Turbine Bird Feather Plucker): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #423), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #423 (S.H.I.E.L.D. Helicarrier Turbine Bird Feather Plucker): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #423), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -14747,13 +14747,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00433.webp",
     "en": {
       "title": "Starcraft Siege Tank Hydraulic Cylinder Greasing SCV",
-      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #433)",
+      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #433)",
       "estimatedSalary": "$65,594/yr (gear wear deducted · Grade #433)",
       "specialDuty": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Starcraft Siege Tank Hydraulic Cylinder Greasing SCV. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #433)",
+      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #433)",
       "estimatedValue": "$65,594/yr (gear wear deducted · Grade #433)",
       "specialFeature": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Starcraft Siege Tank Hydraulic Cylinder Greasing SCV. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "aiVerdict": "HR Dossier #433 (Starcraft Siege Tank Hydraulic Cylinder Greasing SCV): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #433), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #433 (Starcraft Siege Tank Hydraulic Cylinder Greasing SCV): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #433), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -15087,13 +15087,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00443.webp",
     "en": {
       "title": "Rapture Underwater Glass Crack Waterproof Patching Diver",
-      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #443)",
+      "era": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #443)",
       "estimatedSalary": "$66,774/yr (gear wear deducted · Grade #443)",
       "specialDuty": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Rapture Underwater Glass Crack Waterproof Patching Diver. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #443)",
+      "builtYear": "Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #443)",
       "estimatedValue": "$66,774/yr (gear wear deducted · Grade #443)",
       "specialFeature": "Repairs perilous outer hulls of flying sky fortresses and moving castles as a Rapture Underwater Glass Crack Waterproof Patching Diver. Clings with toes against magic flak cannons and vortexes, turning bolts above endless abyss falls.",
-      "aiVerdict": "HR Dossier #443 (Rapture Underwater Glass Crack Waterproof Patching Diver): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard ZoneB #443), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #443 (Rapture Underwater Glass Crack Waterproof Patching Diver): Operating under Fantasy & Sci-Fi Colossal Mecha (Hazard Zone B #443), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -15427,13 +15427,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00453.webp",
     "en": {
       "title": "Post-Chitauri Battle Hulk Smashed Asphalt Patching Foreman",
-      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #453)",
+      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #453)",
       "estimatedSalary": "$67,954/yr (gear wear deducted · Grade #453)",
       "specialDuty": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Post-Chitauri Battle Hulk Smashed Asphalt Patching Foreman. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #453)",
+      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #453)",
       "estimatedValue": "$67,954/yr (gear wear deducted · Grade #453)",
       "specialFeature": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Post-Chitauri Battle Hulk Smashed Asphalt Patching Foreman. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "aiVerdict": "HR Dossier #453 (Post-Chitauri Battle Hulk Smashed Asphalt Patching Foreman): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #453), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #453 (Post-Chitauri Battle Hulk Smashed Asphalt Patching Foreman): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #453), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -15767,13 +15767,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00463.webp",
     "en": {
       "title": "Magical Girl Battle Smashed Pedestrian Overpass Welder",
-      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #463)",
+      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #463)",
       "estimatedSalary": "$69,134/yr (gear wear deducted · Grade #463)",
       "specialDuty": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Magical Girl Battle Smashed Pedestrian Overpass Welder. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #463)",
+      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #463)",
       "estimatedValue": "$69,134/yr (gear wear deducted · Grade #463)",
       "specialFeature": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Magical Girl Battle Smashed Pedestrian Overpass Welder. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "aiVerdict": "HR Dossier #463 (Magical Girl Battle Smashed Pedestrian Overpass Welder): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #463), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #463 (Magical Girl Battle Smashed Pedestrian Overpass Welder): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #463), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -16107,13 +16107,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00473.webp",
     "en": {
       "title": "Gym Battle Shocked Lightning Floor Rewiring Electrician",
-      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #473)",
+      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #473)",
       "estimatedSalary": "$70,314/yr (gear wear deducted · Grade #473)",
       "specialDuty": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Gym Battle Shocked Lightning Floor Rewiring Electrician. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #473)",
+      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #473)",
       "estimatedValue": "$70,314/yr (gear wear deducted · Grade #473)",
       "specialFeature": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Gym Battle Shocked Lightning Floor Rewiring Electrician. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "aiVerdict": "HR Dossier #473 (Gym Battle Shocked Lightning Floor Rewiring Electrician): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #473), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #473 (Gym Battle Shocked Lightning Floor Rewiring Electrician): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #473), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -16447,13 +16447,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00483.webp",
     "en": {
       "title": "Autobot City Battle Dropped Giant Bolt Magnetic Sweeper",
-      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #483)",
+      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #483)",
       "estimatedSalary": "$71,494/yr (gear wear deducted · Grade #483)",
       "specialDuty": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Autobot City Battle Dropped Giant Bolt Magnetic Sweeper. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #483)",
+      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #483)",
       "estimatedValue": "$71,494/yr (gear wear deducted · Grade #483)",
       "specialFeature": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Autobot City Battle Dropped Giant Bolt Magnetic Sweeper. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "aiVerdict": "HR Dossier #483 (Autobot City Battle Dropped Giant Bolt Magnetic Sweeper): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #483), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #483 (Autobot City Battle Dropped Giant Bolt Magnetic Sweeper): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #483), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -16787,13 +16787,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00493.webp",
     "en": {
       "title": "Fantasy Underground Ore Cart Derailment Switch Lever Signalman",
-      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #493)",
+      "era": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #493)",
       "estimatedSalary": "$72,674/yr (gear wear deducted · Grade #493)",
       "specialDuty": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Fantasy Underground Ore Cart Derailment Switch Lever Signalman. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #493)",
+      "builtYear": "Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #493)",
       "estimatedValue": "$72,674/yr (gear wear deducted · Grade #493)",
       "specialFeature": "Cleans up catastrophic collateral damage left behind by glorious heroes as a Fantasy Underground Ore Cart Derailment Switch Lever Signalman. Patches smashed masonry and calms wailing specters for meager copper coins behind epic spotlights.",
-      "aiVerdict": "HR Dossier #493 (Fantasy Underground Ore Cart Derailment Switch Lever Signalman): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard ZoneB #493), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
+      "aiVerdict": "HR Dossier #493 (Fantasy Underground Ore Cart Derailment Switch Lever Signalman): Operating under Fantasy Urban Underbelly Fixer Agency (Hazard Zone B #493), this role pushes mortal stamina to the limit. Your job title will stun everyone at family dinners, yet nobody can ever question your work ethic."
     }
   },
   {
@@ -17014,10 +17014,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 몰디브 5성급 리조트 제500구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.500 몰디브 감별사 특별 성과급 +15,210만 원)",
-    "specialDuty": "몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 몰디브 5성급 리조트 제500구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.500 몰디브 감별사 특별 성과급 +15,210만 원)",
-    "specialFeature": "몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.500 몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 취미와 특기가 곧 천문학적인 연봉으로 직결되며 누구나 한 번쯤 꿈꿔보는 정점의 자리입니다.",
     "imagePrompt": "일러스트풍으로 몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 몰디브 5성급 리조트 해변 선베드 낮잠 쿠션감 감별사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17027,10 +17027,10 @@ export const MASTER_JOBS = [
       "title": "Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic",
       "era": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #500)",
       "estimatedSalary": "$190,000/yr + private jet charter (Tier #500)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #500)",
       "estimatedValue": "$190,000/yr + private jet charter (Tier #500)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #500 (Maldives 5-Star Resort Beach Sunbed Nap Cushion Critic): Commanding operations from 2024, Global Ultra-Luxury Healing (Geneva Executive Suite #500), this post holds supreme authority. Headhunters across three galaxies have retired because no other candidate can rival your executive authority."
     }
   },
@@ -17082,10 +17082,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 중국 쓰촨성 판다 제502구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.502 중국 보모 특별 성과급 +15,640만 원)",
-    "specialDuty": "중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 중국 쓰촨성 판다 제502구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.502 중국 보모 특별 성과급 +15,640만 원)",
-    "specialFeature": "중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.502 중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 차원 전체를 통틀어 극소수에게만 허락된 특권적 직위로 압도적인 성취감과 부가 뒤따릅니다.",
     "imagePrompt": "일러스트풍으로 중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 중국 쓰촨성 판다 기지 아기 판다 종일 안아주기 보모 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17093,13 +17093,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00502.webp",
     "en": {
       "title": "Sichuan Giant Baby Panda All-Day Cuddle Nanny",
-      "era": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #502)",
+      "era": "2024, Global Ultra-Luxury Healing (Global Private Sanctuary)",
       "estimatedSalary": "$219,600/yr + diplomatic equity (Tier #502)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Sichuan Giant Baby Panda All-Day Cuddle Nanny. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "builtYear": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #502)",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Sichuan Giant Baby Panda All-Day Cuddle Nanny. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "builtYear": "2024, Global Ultra-Luxury Healing (Global Private Sanctuary)",
       "estimatedValue": "$219,600/yr + diplomatic equity (Tier #502)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Sichuan Giant Baby Panda All-Day Cuddle Nanny. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "aiVerdict": "Executive Briefing #502 (Sichuan Giant Baby Panda All-Day Cuddle Nanny): Commanding operations from 2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #502), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Sichuan Giant Baby Panda All-Day Cuddle Nanny. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "aiVerdict": "Executive Briefing #502 (Sichuan Giant Baby Panda All-Day Cuddle Nanny): Commanding operations from 2024, Global Ultra-Luxury Healing (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -17150,10 +17150,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 두바이 7성급 호텔 제504구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.504 두바이 테스터 특별 성과급 +16,070만 원)",
-    "specialDuty": "두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 두바이 7성급 호텔 제504구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.504 두바이 테스터 특별 성과급 +16,070만 원)",
-    "specialFeature": "두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.504 두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 두바이 7성급 호텔 워터파크 슬라이드 속도감 측정 테스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17163,10 +17163,10 @@ export const MASTER_JOBS = [
       "title": "Dubai 7-Star Hotel Waterpark Slide Velocity Tester",
       "era": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #504)",
       "estimatedSalary": "$249,200/yr + penthouse retainer (Tier #504)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Dubai 7-Star Hotel Waterpark Slide Velocity Tester. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Dubai 7-Star Hotel Waterpark Slide Velocity Tester. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #504)",
       "estimatedValue": "$249,200/yr + penthouse retainer (Tier #504)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Dubai 7-Star Hotel Waterpark Slide Velocity Tester. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Dubai 7-Star Hotel Waterpark Slide Velocity Tester. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #504 (Dubai 7-Star Hotel Waterpark Slide Velocity Tester): Commanding operations from 2024, Global Ultra-Luxury Healing (Apex Council Rotunda #504), this post holds supreme authority. Even retirement is optional when your daily directives steer the trajectory of civilization itself."
     }
   },
@@ -17218,10 +17218,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 스위스 알프스 럭셔리 제506구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.506 스위스 전문가 특별 성과급 +16,500만 원)",
-    "specialDuty": "스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 스위스 알프스 럭셔리 제506구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.506 스위스 전문가 특별 성과급 +16,500만 원)",
-    "specialFeature": "스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.506 스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 일과 휴식의 경계가 허물어진 이상적인 근무 환경 속에서 최고의 대우를 누리는 꿈의 커리어입니다.",
     "imagePrompt": "일러스트풍으로 스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 스위스 알프스 럭셔리 샬레 깃털 이불 보온성 연구 수면 전문가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17231,10 +17231,10 @@ export const MASTER_JOBS = [
       "title": "Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur",
       "era": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #506)",
       "estimatedSalary": "$278,800/yr + sovereign tax immunity (Tier #506)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #506)",
       "estimatedValue": "$278,800/yr + sovereign tax immunity (Tier #506)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #506 (Swiss Alps Luxury Chalet Feather Duvet Sleep Connoisseur): Commanding operations from 2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #506), this post holds supreme authority. A single signature from your desk reshapes global and interdimensional markets before breakfast."
     }
   },
@@ -17286,10 +17286,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 전 세계 넷플릭스 제508구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.508 전 평론가 특별 성과급 +16,930만 원)",
-    "specialDuty": "전 세계 넷플릭스 오리지널 드라마 정주행 평론가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "전 세계 넷플릭스 오리지널 드라마 정주행 평론가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 전 세계 넷플릭스 제508구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.508 전 평론가 특별 성과급 +16,930만 원)",
-    "specialFeature": "전 세계 넷플릭스 오리지널 드라마 정주행 평론가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "전 세계 넷플릭스 오리지널 드라마 정주행 평론가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.508 전 세계 넷플릭스 오리지널 드라마 정주행 평론가] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 스트레스 없는 특급 대우와 막강한 재량권이 보장되어 커리어의 황금기를 만끽할 수 있는 보직입니다.",
     "imagePrompt": "일러스트풍으로 전 세계 넷플릭스 오리지널 드라마 정주행 평론가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 전 세계 넷플릭스 오리지널 드라마 정주행 평론가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17299,10 +17299,10 @@ export const MASTER_JOBS = [
       "title": "Global Netflix Original Binge-Watch Critic",
       "era": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #508)",
       "estimatedSalary": "$308,400/yr + unlimited sabbatical (Tier #508)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Global Netflix Original Binge-Watch Critic. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Global Netflix Original Binge-Watch Critic. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #508)",
       "estimatedValue": "$308,400/yr + unlimited sabbatical (Tier #508)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Global Netflix Original Binge-Watch Critic. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Global Netflix Original Binge-Watch Critic. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #508 (Global Netflix Original Binge-Watch Critic): Commanding operations from 2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #508), this post holds supreme authority. You have transcended traditional career ladders, turning sovereign decision-making into a fine art."
     }
   },
@@ -17354,10 +17354,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 프랑스 프로방스 라벤더 제510구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.510 프랑스 마스터 특별 성과급 +16,850만 원)",
-    "specialDuty": "프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 프랑스 프로방스 라벤더 제510구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.510 프랑스 마스터 특별 성과급 +16,850만 원)",
-    "specialFeature": "프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.510 프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 출근길이 곧 설레는 여정이 되는 독보적 위치로 삶의 질과 사회적 영향력을 모두 충족합니다.",
     "imagePrompt": "일러스트풍으로 프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 프랑스 프로방스 라벤더 농장 천연 아로마 향기 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17367,10 +17367,10 @@ export const MASTER_JOBS = [
       "title": "Provence Lavender Farm Natural Aroma Fragrance Master",
       "era": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #510)",
       "estimatedSalary": "$338,000/yr + private jet charter (Tier #510)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Provence Lavender Farm Natural Aroma Fragrance Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Provence Lavender Farm Natural Aroma Fragrance Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #510)",
       "estimatedValue": "$338,000/yr + private jet charter (Tier #510)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Provence Lavender Farm Natural Aroma Fragrance Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Provence Lavender Farm Natural Aroma Fragrance Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #510 (Provence Lavender Farm Natural Aroma Fragrance Master): Commanding operations from 2024, Global Ultra-Luxury Healing (Geneva Executive Suite #510), this post holds supreme authority. Headhunters across three galaxies have retired because no other candidate can rival your executive authority."
     }
   },
@@ -17422,10 +17422,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 호주 그레이트 배리어 제512구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.512 호주 관리인 특별 성과급 +17,280만 원)",
-    "specialDuty": "호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인으로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 호주 그레이트 배리어 제512구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.512 호주 관리인 특별 성과급 +17,280만 원)",
-    "specialFeature": "호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인으로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.512 호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 단 한 번의 결재와 판단으로 시장의 판도를 뒤바꾸는 핵심 요직이며 대체 불가능한 권위를 자랑합니다.",
     "imagePrompt": "일러스트풍으로 호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 호주 그레이트 배리어 리프 산호초 프라이빗 섬 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17433,13 +17433,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00512.webp",
     "en": {
       "title": "Great Barrier Reef Private Coral Island Caretaker",
-      "era": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #512)",
+      "era": "2024, Global Ultra-Luxury Healing (Oslo Private Circuit)",
       "estimatedSalary": "$367,600/yr + diplomatic equity (Tier #512)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Great Barrier Reef Private Coral Island Caretaker. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "builtYear": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #512)",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Great Barrier Reef Private Coral Island Caretaker. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "builtYear": "2024, Global Ultra-Luxury Healing (Oslo Private Circuit)",
       "estimatedValue": "$367,600/yr + diplomatic equity (Tier #512)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Great Barrier Reef Private Coral Island Caretaker. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "aiVerdict": "Executive Briefing #512 (Great Barrier Reef Private Coral Island Caretaker): Commanding operations from 2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #512), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Great Barrier Reef Private Coral Island Caretaker. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "aiVerdict": "Executive Briefing #512 (Great Barrier Reef Private Coral Island Caretaker): Commanding operations from 2024, Global Ultra-Luxury Healing (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -17490,10 +17490,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 영국 왕실 웰시코기 제514구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.514 영국 셰프 특별 성과급 +17,710만 원)",
-    "specialDuty": "영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 영국 왕실 웰시코기 제514구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.514 영국 셰프 특별 성과급 +17,710만 원)",
-    "specialFeature": "영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.514 영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 취미와 특기가 곧 천문학적인 연봉으로 직결되며 누구나 한 번쯤 꿈꿔보는 정점의 자리입니다.",
     "imagePrompt": "일러스트풍으로 영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 영국 왕실 웰시코기 전담 산책 및 유기농 간식 수석 셰프 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17503,10 +17503,10 @@ export const MASTER_JOBS = [
       "title": "British Royal Welsh Corgi Head Walker & Gourmet Chef",
       "era": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #514)",
       "estimatedSalary": "$397,200/yr + penthouse retainer (Tier #514)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a British Royal Welsh Corgi Head Walker & Gourmet Chef. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a British Royal Welsh Corgi Head Walker & Gourmet Chef. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #514)",
       "estimatedValue": "$397,200/yr + penthouse retainer (Tier #514)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a British Royal Welsh Corgi Head Walker & Gourmet Chef. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a British Royal Welsh Corgi Head Walker & Gourmet Chef. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #514 (British Royal Welsh Corgi Head Walker & Gourmet Chef): Commanding operations from 2024, Global Ultra-Luxury Healing (Apex Council Rotunda #514), this post holds supreme authority. Even retirement is optional when your daily directives steer the trajectory of civilization itself."
     }
   },
@@ -17558,10 +17558,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 벨기에 최고급 수제 제516구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.516 벨기에 평가관 특별 성과급 +18,140만 원)",
-    "specialDuty": "벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 벨기에 최고급 수제 제516구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.516 벨기에 평가관 특별 성과급 +18,140만 원)",
-    "specialFeature": "벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.516 벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 차원 전체를 통틀어 극소수에게만 허락된 특권적 직위로 압도적인 성취감과 부가 뒤따릅니다.",
     "imagePrompt": "일러스트풍으로 벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 벨기에 최고급 수제 초콜릿 쇼콜라티에 관능 평가관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17571,10 +17571,10 @@ export const MASTER_JOBS = [
       "title": "Belgian Grand Cru Chocolate Sensory Evaluation Master",
       "era": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #516)",
       "estimatedSalary": "$426,800/yr + sovereign tax immunity (Tier #516)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Belgian Grand Cru Chocolate Sensory Evaluation Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Belgian Grand Cru Chocolate Sensory Evaluation Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #516)",
       "estimatedValue": "$426,800/yr + sovereign tax immunity (Tier #516)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Belgian Grand Cru Chocolate Sensory Evaluation Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Belgian Grand Cru Chocolate Sensory Evaluation Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #516 (Belgian Grand Cru Chocolate Sensory Evaluation Master): Commanding operations from 2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #516), this post holds supreme authority. A single signature from your desk reshapes global and interdimensional markets before breakfast."
     }
   },
@@ -17626,10 +17626,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 미국 디즈니랜드 놀이기구 제518구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.518 미국 디렉터 특별 성과급 +18,570만 원)",
-    "specialDuty": "미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 미국 디즈니랜드 놀이기구 제518구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.518 미국 디렉터 특별 성과급 +18,570만 원)",
-    "specialFeature": "미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.518 미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 미국 디즈니랜드 놀이기구 탑승 안전 및 스릴감 검증 디렉터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17639,10 +17639,10 @@ export const MASTER_JOBS = [
       "title": "Disneyland Ride Thrill & Safety Evaluation Director",
       "era": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #518)",
       "estimatedSalary": "$456,400/yr + unlimited sabbatical (Tier #518)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Disneyland Ride Thrill & Safety Evaluation Director. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Disneyland Ride Thrill & Safety Evaluation Director. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #518)",
       "estimatedValue": "$456,400/yr + unlimited sabbatical (Tier #518)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Disneyland Ride Thrill & Safety Evaluation Director. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Disneyland Ride Thrill & Safety Evaluation Director. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #518 (Disneyland Ride Thrill & Safety Evaluation Director): Commanding operations from 2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #518), this post holds supreme authority. You have transcended traditional career ladders, turning sovereign decision-making into a fine art."
     }
   },
@@ -17694,10 +17694,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 아이슬란드 블루라군 천연 제520구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.520 아이슬란드 연구원 특별 성과급 +19,000만 원)",
-    "specialDuty": "아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 아이슬란드 블루라군 천연 제520구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.520 아이슬란드 연구원 특별 성과급 +19,000만 원)",
-    "specialFeature": "아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.520 아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 일과 휴식의 경계가 허물어진 이상적인 근무 환경 속에서 최고의 대우를 누리는 꿈의 커리어입니다.",
     "imagePrompt": "일러스트풍으로 아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 아이슬란드 블루라군 천연 온천수 온도 및 머드팩 감별 연구원 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17707,10 +17707,10 @@ export const MASTER_JOBS = [
       "title": "Iceland Blue Lagoon Geothermal Mudpack Inspector",
       "era": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #520)",
       "estimatedSalary": "$486,000/yr + private jet charter (Tier #520)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Iceland Blue Lagoon Geothermal Mudpack Inspector. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Iceland Blue Lagoon Geothermal Mudpack Inspector. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #520)",
       "estimatedValue": "$486,000/yr + private jet charter (Tier #520)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Iceland Blue Lagoon Geothermal Mudpack Inspector. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Iceland Blue Lagoon Geothermal Mudpack Inspector. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #520 (Iceland Blue Lagoon Geothermal Mudpack Inspector): Commanding operations from 2024, Global Ultra-Luxury Healing (Geneva Executive Suite #520), this post holds supreme authority. Headhunters across three galaxies have retired because no other candidate can rival your executive authority."
     }
   },
@@ -17762,10 +17762,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 핀란드 산타마을 공식 제522구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.522 핀란드 마스터 특별 성과급 +19,430만 원)",
-    "specialDuty": "핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 핀란드 산타마을 공식 제522구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.522 핀란드 마스터 특별 성과급 +19,430만 원)",
-    "specialFeature": "핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.522 핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 스트레스 없는 특급 대우와 막강한 재량권이 보장되어 커리어의 황금기를 만끽할 수 있는 보직입니다.",
     "imagePrompt": "일러스트풍으로 핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 핀란드 산타마을 공식 루돌프 썰매 순록 털 빗질 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17773,13 +17773,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00522.webp",
     "en": {
       "title": "Lapland Santa Village Reindeer Fur Grooming Specialist",
-      "era": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #522)",
+      "era": "2024, Global Ultra-Luxury Healing (Big Sur Private Circuit)",
       "estimatedSalary": "$515,600/yr + diplomatic equity (Tier #522)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Lapland Santa Village Reindeer Fur Grooming Specialist. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "builtYear": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #522)",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Lapland Santa Village Reindeer Fur Grooming Specialist. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "builtYear": "2024, Global Ultra-Luxury Healing (Big Sur Private Circuit)",
       "estimatedValue": "$515,600/yr + diplomatic equity (Tier #522)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Lapland Santa Village Reindeer Fur Grooming Specialist. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "aiVerdict": "Executive Briefing #522 (Lapland Santa Village Reindeer Fur Grooming Specialist): Commanding operations from 2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #522), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Lapland Santa Village Reindeer Fur Grooming Specialist. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "aiVerdict": "Executive Briefing #522 (Lapland Santa Village Reindeer Fur Grooming Specialist): Commanding operations from 2024, Global Ultra-Luxury Healing (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -17830,10 +17830,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 하와이 와이키키 해변 제524구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.524 하와이 코치 특별 성과급 +19,860만 원)",
-    "specialDuty": "하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 하와이 와이키키 해변 제524구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.524 하와이 코치 특별 성과급 +19,860만 원)",
-    "specialFeature": "하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.524 하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 출근길이 곧 설레는 여정이 되는 독보적 위치로 삶의 질과 사회적 영향력을 모두 충족합니다.",
     "imagePrompt": "일러스트풍으로 하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 하와이 와이키키 해변 튜브 바람 넣기 및 일광욕 코치 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17843,10 +17843,10 @@ export const MASTER_JOBS = [
       "title": "Waikiki Beach Floating Tube & Sunbathing Relax Coach",
       "era": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #524)",
       "estimatedSalary": "$545,200/yr + penthouse retainer (Tier #524)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Waikiki Beach Floating Tube & Sunbathing Relax Coach. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Waikiki Beach Floating Tube & Sunbathing Relax Coach. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #524)",
       "estimatedValue": "$545,200/yr + penthouse retainer (Tier #524)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Waikiki Beach Floating Tube & Sunbathing Relax Coach. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Waikiki Beach Floating Tube & Sunbathing Relax Coach. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #524 (Waikiki Beach Floating Tube & Sunbathing Relax Coach): Commanding operations from 2024, Global Ultra-Luxury Healing (Apex Council Rotunda #524), this post holds supreme authority. Even retirement is optional when your daily directives steer the trajectory of civilization itself."
     }
   },
@@ -17898,10 +17898,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 이탈리아 피렌체 젤라또 제526구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.526 이탈리아 감정사 특별 성과급 +20,290만 원)",
-    "specialDuty": "이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 이탈리아 피렌체 젤라또 제526구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.526 이탈리아 감정사 특별 성과급 +20,290만 원)",
-    "specialFeature": "이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.526 이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 단 한 번의 결재와 판단으로 시장의 판도를 뒤바꾸는 핵심 요직이며 대체 불가능한 권위를 자랑합니다.",
     "imagePrompt": "일러스트풍으로 이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 이탈리아 피렌체 젤라또 신메뉴 당도 및 텍스처 감정사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17911,10 +17911,10 @@ export const MASTER_JOBS = [
       "title": "Florence Artisan Gelato Texture & Sweetness Appraiser",
       "era": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #526)",
       "estimatedSalary": "$574,800/yr + sovereign tax immunity (Tier #526)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Florence Artisan Gelato Texture & Sweetness Appraiser. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Florence Artisan Gelato Texture & Sweetness Appraiser. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #526)",
       "estimatedValue": "$574,800/yr + sovereign tax immunity (Tier #526)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Florence Artisan Gelato Texture & Sweetness Appraiser. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Florence Artisan Gelato Texture & Sweetness Appraiser. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #526 (Florence Artisan Gelato Texture & Sweetness Appraiser): Commanding operations from 2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #526), this post holds supreme authority. A single signature from your desk reshapes global and interdimensional markets before breakfast."
     }
   },
@@ -17966,10 +17966,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 노르웨이 피오르드 크루즈 제528구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.528 노르웨이 요원 특별 성과급 +20,210만 원)",
-    "specialDuty": "노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 노르웨이 피오르드 크루즈 제528구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.528 노르웨이 요원 특별 성과급 +20,210만 원)",
-    "specialFeature": "노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.528 노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 취미와 특기가 곧 천문학적인 연봉으로 직결되며 누구나 한 번쯤 꿈꿔보는 정점의 자리입니다.",
     "imagePrompt": "일러스트풍으로 노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 노르웨이 피오르드 크루즈 갑판 오로라 관측 의자 세팅 요원 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -17979,10 +17979,10 @@ export const MASTER_JOBS = [
       "title": "Norwegian Fjord Cruise Aurora Viewing Deck Concierge",
       "era": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #528)",
       "estimatedSalary": "$604,400/yr + unlimited sabbatical (Tier #528)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Norwegian Fjord Cruise Aurora Viewing Deck Concierge. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Norwegian Fjord Cruise Aurora Viewing Deck Concierge. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #528)",
       "estimatedValue": "$604,400/yr + unlimited sabbatical (Tier #528)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Norwegian Fjord Cruise Aurora Viewing Deck Concierge. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Norwegian Fjord Cruise Aurora Viewing Deck Concierge. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #528 (Norwegian Fjord Cruise Aurora Viewing Deck Concierge): Commanding operations from 2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #528), this post holds supreme authority. You have transcended traditional career ladders, turning sovereign decision-making into a fine art."
     }
   },
@@ -18034,10 +18034,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 캐나다 단풍나무 숲 제530구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.530 캐나다 장인 특별 성과급 +20,640만 원)",
-    "specialDuty": "캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 캐나다 단풍나무 숲 제530구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.530 캐나다 장인 특별 성과급 +20,640만 원)",
-    "specialFeature": "캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.530 캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 차원 전체를 통틀어 극소수에게만 허락된 특권적 직위로 압도적인 성취감과 부가 뒤따릅니다.",
     "imagePrompt": "일러스트풍으로 캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 캐나다 단풍나무 숲 프리미엄 메이플 시럽 첫물 채취 장인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18047,10 +18047,10 @@ export const MASTER_JOBS = [
       "title": "Canadian Forest Premium First-Sap Maple Syrup Master",
       "era": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #530)",
       "estimatedSalary": "$634,000/yr + private jet charter (Tier #530)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Canadian Forest Premium First-Sap Maple Syrup Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Canadian Forest Premium First-Sap Maple Syrup Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #530)",
       "estimatedValue": "$634,000/yr + private jet charter (Tier #530)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Canadian Forest Premium First-Sap Maple Syrup Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Canadian Forest Premium First-Sap Maple Syrup Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #530 (Canadian Forest Premium First-Sap Maple Syrup Master): Commanding operations from 2024, Global Ultra-Luxury Healing (Geneva Executive Suite #530), this post holds supreme authority. Headhunters across three galaxies have retired because no other candidate can rival your executive authority."
     }
   },
@@ -18102,10 +18102,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 일본 홋카이도 온천 제532구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.532 일본 조절사 특별 성과급 +21,070만 원)",
-    "specialDuty": "일본 홋카이도 온천 원숭이 전용 탕 온도 조절사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "일본 홋카이도 온천 원숭이 전용 탕 온도 조절사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 일본 홋카이도 온천 제532구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.532 일본 조절사 특별 성과급 +21,070만 원)",
-    "specialFeature": "일본 홋카이도 온천 원숭이 전용 탕 온도 조절사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "일본 홋카이도 온천 원숭이 전용 탕 온도 조절사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.532 일본 홋카이도 온천 원숭이 전용 탕 온도 조절사] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 일본 홋카이도 온천 원숭이 전용 탕 온도 조절사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 일본 홋카이도 온천 원숭이 전용 탕 온도 조절사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18113,13 +18113,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00532.webp",
     "en": {
       "title": "Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant",
-      "era": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #532)",
+      "era": "2024, Global Ultra-Luxury Healing (Mallorca Private Circuit)",
       "estimatedSalary": "$663,600/yr + diplomatic equity (Tier #532)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "builtYear": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #532)",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "builtYear": "2024, Global Ultra-Luxury Healing (Mallorca Private Circuit)",
       "estimatedValue": "$663,600/yr + diplomatic equity (Tier #532)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "aiVerdict": "Executive Briefing #532 (Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant): Commanding operations from 2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #532), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "aiVerdict": "Executive Briefing #532 (Hokkaido Hot Spring Snow Monkey Bath Thermostat Attendant): Commanding operations from 2024, Global Ultra-Luxury Healing (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -18170,10 +18170,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 독일 옥토버페스트 VIP 제534구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.534 독일 감별사 특별 성과급 +21,500만 원)",
-    "specialDuty": "독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 독일 옥토버페스트 VIP 제534구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.534 독일 감별사 특별 성과급 +21,500만 원)",
-    "specialFeature": "독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.534 독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 일과 휴식의 경계가 허물어진 이상적인 근무 환경 속에서 최고의 대우를 누리는 꿈의 커리어입니다.",
     "imagePrompt": "일러스트풍으로 독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 독일 옥토버페스트 VIP 텐트 맥주 거품 황금비율 감별사 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18183,10 +18183,10 @@ export const MASTER_JOBS = [
       "title": "Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur",
       "era": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #534)",
       "estimatedSalary": "$693,200/yr + penthouse retainer (Tier #534)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #534)",
       "estimatedValue": "$693,200/yr + penthouse retainer (Tier #534)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #534 (Oktoberfest VIP Tent Beer Foam Golden Ratio Connoisseur): Commanding operations from 2024, Global Ultra-Luxury Healing (Apex Council Rotunda #534), this post holds supreme authority. Even retirement is optional when your daily directives steer the trajectory of civilization itself."
     }
   },
@@ -18238,10 +18238,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 스페인 이비자 섬 제536구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.536 스페인 매니저 특별 성과급 +21,930만 원)",
-    "specialDuty": "스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 스페인 이비자 섬 제536구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.536 스페인 매니저 특별 성과급 +21,930만 원)",
-    "specialFeature": "스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.536 스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 스트레스 없는 특급 대우와 막강한 재량권이 보장되어 커리어의 황금기를 만끽할 수 있는 보직입니다.",
     "imagePrompt": "일러스트풍으로 스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 스페인 이비자 섬 클럽 해변 VIP 파라솔 명당 지정 매니저 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18251,10 +18251,10 @@ export const MASTER_JOBS = [
       "title": "Ibiza Sunset Beach VIP Cabana Sunshade Manager",
       "era": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #536)",
       "estimatedSalary": "$722,800/yr + sovereign tax immunity (Tier #536)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Ibiza Sunset Beach VIP Cabana Sunshade Manager. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Ibiza Sunset Beach VIP Cabana Sunshade Manager. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #536)",
       "estimatedValue": "$722,800/yr + sovereign tax immunity (Tier #536)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Ibiza Sunset Beach VIP Cabana Sunshade Manager. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Ibiza Sunset Beach VIP Cabana Sunshade Manager. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #536 (Ibiza Sunset Beach VIP Cabana Sunshade Manager): Commanding operations from 2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #536), this post holds supreme authority. A single signature from your desk reshapes global and interdimensional markets before breakfast."
     }
   },
@@ -18306,10 +18306,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 미국 캘리포니아 나파밸리 제538구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.538 미국 연구가 특별 성과급 +22,360만 원)",
-    "specialDuty": "미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 미국 캘리포니아 나파밸리 제538구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.538 미국 연구가 특별 성과급 +22,360만 원)",
-    "specialFeature": "미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.538 미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 출근길이 곧 설레는 여정이 되는 독보적 위치로 삶의 질과 사회적 영향력을 모두 충족합니다.",
     "imagePrompt": "일러스트풍으로 미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 미국 캘리포니아 나파밸리 포도나무 그늘 낮잠 품질 연구가 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18319,10 +18319,10 @@ export const MASTER_JOBS = [
       "title": "Napa Valley Vineyard Shade Afternoon Nap Quality Researcher",
       "era": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #538)",
       "estimatedSalary": "$752,400/yr + unlimited sabbatical (Tier #538)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Napa Valley Vineyard Shade Afternoon Nap Quality Researcher. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Napa Valley Vineyard Shade Afternoon Nap Quality Researcher. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #538)",
       "estimatedValue": "$752,400/yr + unlimited sabbatical (Tier #538)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Napa Valley Vineyard Shade Afternoon Nap Quality Researcher. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Napa Valley Vineyard Shade Afternoon Nap Quality Researcher. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #538 (Napa Valley Vineyard Shade Afternoon Nap Quality Researcher): Commanding operations from 2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #538), this post holds supreme authority. You have transcended traditional career ladders, turning sovereign decision-making into a fine art."
     }
   },
@@ -18374,10 +18374,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 뉴질랜드 퀸스타운 번지점프대 제540구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.540 뉴질랜드 시범관 특별 성과급 +22,790만 원)",
-    "specialDuty": "뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 뉴질랜드 퀸스타운 번지점프대 제540구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.540 뉴질랜드 시범관 특별 성과급 +22,790만 원)",
-    "specialFeature": "뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.540 뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 단 한 번의 결재와 판단으로 시장의 판도를 뒤바꾸는 핵심 요직이며 대체 불가능한 권위를 자랑합니다.",
     "imagePrompt": "일러스트풍으로 뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 뉴질랜드 퀸스타운 번지점프대 1번 타자 안전 시범관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18387,10 +18387,10 @@ export const MASTER_JOBS = [
       "title": "Queenstown Bungee Jump Daily First Safety Demonstrator",
       "era": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #540)",
       "estimatedSalary": "$782,000/yr + private jet charter (Tier #540)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Queenstown Bungee Jump Daily First Safety Demonstrator. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Queenstown Bungee Jump Daily First Safety Demonstrator. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Geneva Executive Suite #540)",
       "estimatedValue": "$782,000/yr + private jet charter (Tier #540)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Queenstown Bungee Jump Daily First Safety Demonstrator. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Queenstown Bungee Jump Daily First Safety Demonstrator. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #540 (Queenstown Bungee Jump Daily First Safety Demonstrator): Commanding operations from 2024, Global Ultra-Luxury Healing (Geneva Executive Suite #540), this post holds supreme authority. Headhunters across three galaxies have retired because no other candidate can rival your executive authority."
     }
   },
@@ -18442,10 +18442,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 모나코 그랑프리 VIP 제542구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.542 모나코 매니저 특별 성과급 +23,220만 원)",
-    "specialDuty": "모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 모나코 그랑프리 VIP 제542구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.542 모나코 매니저 특별 성과급 +23,220만 원)",
-    "specialFeature": "모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.542 모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 취미와 특기가 곧 천문학적인 연봉으로 직결되며 누구나 한 번쯤 꿈꿔보는 정점의 자리입니다.",
     "imagePrompt": "일러스트풍으로 모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 모나코 그랑프리 VIP 테라스 샴페인 잔 온도 유지 매니저 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18453,13 +18453,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00542.webp",
     "en": {
       "title": "Monaco Grand Prix VIP Balcony Champagne Chilling Steward",
-      "era": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #542)",
+      "era": "2024, Global Ultra-Luxury Healing (Sedona Private Circuit)",
       "estimatedSalary": "$811,600/yr + diplomatic equity (Tier #542)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Monaco Grand Prix VIP Balcony Champagne Chilling Steward. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "builtYear": "2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #542)",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Monaco Grand Prix VIP Balcony Champagne Chilling Steward. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "builtYear": "2024, Global Ultra-Luxury Healing (Sedona Private Circuit)",
       "estimatedValue": "$811,600/yr + diplomatic equity (Tier #542)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Monaco Grand Prix VIP Balcony Champagne Chilling Steward. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
-      "aiVerdict": "Executive Briefing #542 (Monaco Grand Prix VIP Balcony Champagne Chilling Steward): Commanding operations from 2024, Global Ultra-Luxury Healing (Zurich Sovereign Vault #542), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Monaco Grand Prix VIP Balcony Champagne Chilling Steward. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
+      "aiVerdict": "Executive Briefing #542 (Monaco Grand Prix VIP Balcony Champagne Chilling Steward): Commanding operations from 2024, Global Ultra-Luxury Healing (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -18510,10 +18510,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 멕시코 칸쿤 해저 제544구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.544 멕시코 포토그래퍼 특별 성과급 +23,140만 원)",
-    "specialDuty": "멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 멕시코 칸쿤 해저 제544구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.544 멕시코 포토그래퍼 특별 성과급 +23,140만 원)",
-    "specialFeature": "멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.544 멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 차원 전체를 통틀어 극소수에게만 허락된 특권적 직위로 압도적인 성취감과 부가 뒤따릅니다.",
     "imagePrompt": "일러스트풍으로 멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 멕시코 칸쿤 해저 조각공원 스쿠버다이빙 가이드 겸 포토그래퍼 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18523,10 +18523,10 @@ export const MASTER_JOBS = [
       "title": "Cancun Underwater Museum Scuba Diving Photo Guide",
       "era": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #544)",
       "estimatedSalary": "$841,200/yr + penthouse retainer (Tier #544)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Cancun Underwater Museum Scuba Diving Photo Guide. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Cancun Underwater Museum Scuba Diving Photo Guide. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Apex Council Rotunda #544)",
       "estimatedValue": "$841,200/yr + penthouse retainer (Tier #544)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Cancun Underwater Museum Scuba Diving Photo Guide. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Cancun Underwater Museum Scuba Diving Photo Guide. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #544 (Cancun Underwater Museum Scuba Diving Photo Guide): Commanding operations from 2024, Global Ultra-Luxury Healing (Apex Council Rotunda #544), this post holds supreme authority. Even retirement is optional when your daily directives steer the trajectory of civilization itself."
     }
   },
@@ -18578,10 +18578,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 프랑스 보르도 와이너리 제546구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.546 프랑스 감정관 특별 성과급 +23,570만 원)",
-    "specialDuty": "프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 프랑스 보르도 와이너리 제546구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.546 프랑스 감정관 특별 성과급 +23,570만 원)",
-    "specialFeature": "프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.546 프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 프랑스 보르도 와이너리 오크통 숙성 공기 냄새 감정관 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18591,10 +18591,10 @@ export const MASTER_JOBS = [
       "title": "Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier",
       "era": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #546)",
       "estimatedSalary": "$870,800/yr + sovereign tax immunity (Tier #546)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #546)",
       "estimatedValue": "$870,800/yr + sovereign tax immunity (Tier #546)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #546 (Bordeaux Winery Oak Barrel Cellar Air Scent Sommelier): Commanding operations from 2024, Global Ultra-Luxury Healing (Quantum Treasury Desk #546), this post holds supreme authority. A single signature from your desk reshapes global and interdimensional markets before breakfast."
     }
   },
@@ -18646,10 +18646,10 @@ export const MASTER_JOBS = [
     "tierName": "세상에 이런 꿀직업이·이색 억대 호사",
     "era": "글로벌 초호화 힐링 휴양지 · 덴마크 레고랜드 신제품 제548구역",
     "estimatedSalary": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.548 덴마크 마스터 특별 성과급 +24,000만 원)",
-    "specialDuty": "덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialDuty": "덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "builtYear": "글로벌 초호화 힐링 휴양지 · 덴마크 레고랜드 신제품 제548구역",
     "estimatedValue": "연봉 8,500만 원 ~ 1.5억 원 (전 세계 특급 리조트 숙박 & 항공권 전액 지원) (Lv.548 덴마크 마스터 특별 성과급 +24,000만 원)",
-    "specialFeature": "덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 최고급 휴양지와 판다 유치원, 럭셔리 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
+    "specialFeature": "덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터로서 일과 휴식의 경계를 허무는 꿈의 꿀직업을 만끽합니다. 프라이빗 휴양지와 글로벌 특화 현장의 워터파크를 누비며 행복한 감별 업무를 수행합니다. 출근길 스트레스 없이 온종일 미소 지으며 인생을 여행하듯 살아갑니다.",
     "aiVerdict": "[Lv.548 덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터] 글로벌 초호화 힐링 휴양지 현장에서 활약하는 전문 보직입니다. 일과 휴식의 경계가 허물어진 이상적인 근무 환경 속에서 최고의 대우를 누리는 꿈의 커리어입니다.",
     "imagePrompt": "일러스트풍으로 덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 덴마크 레고랜드 신제품 레고 브릭 조립감 손맛 감별 마스터 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -18659,10 +18659,10 @@ export const MASTER_JOBS = [
       "title": "Legoland Denmark New Brick Click-Feel Sensory Master",
       "era": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #548)",
       "estimatedSalary": "$900,400/yr + unlimited sabbatical (Tier #548)",
-      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Legoland Denmark New Brick Click-Feel Sensory Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialDuty": "Lives the absolute dream blurring work and luxury leisure as a Legoland Denmark New Brick Click-Feel Sensory Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "builtYear": "2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #548)",
       "estimatedValue": "$900,400/yr + unlimited sabbatical (Tier #548)",
-      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Legoland Denmark New Brick Click-Feel Sensory Master. Enjoys world-class resorts, cuddly panda kindergartens, and VIP waterslides on unlimited corporate expense accounts.",
+      "specialFeature": "Lives the absolute dream blurring work and luxury leisure as a Legoland Denmark New Brick Click-Feel Sensory Master. Enjoys world-class resorts, cuddly bespoke sanctuaries, and VIP waterslides on unlimited corporate expense accounts.",
       "aiVerdict": "Executive Briefing #548 (Legoland Denmark New Brick Click-Feel Sensory Master): Commanding operations from 2024, Global Ultra-Luxury Healing (Imperial Astral Citadel #548), this post holds supreme authority. You have transcended traditional career ladders, turning sovereign decision-making into a fine art."
     }
   },
@@ -18793,13 +18793,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00552.webp",
     "en": {
       "title": "Gangnam Station $40K/Day Street Pastry Building Owner",
-      "era": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #552)",
+      "era": "2024, World 3-Star Michelin & (Global Private Sanctuary)",
       "estimatedSalary": "$959,600/yr + diplomatic equity (Tier #552)",
       "specialDuty": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Gangnam Station $40K/Day Street Pastry Building Owner. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "builtYear": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #552)",
+      "builtYear": "2024, World 3-Star Michelin & (Global Private Sanctuary)",
       "estimatedValue": "$959,600/yr + diplomatic equity (Tier #552)",
       "specialFeature": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Gangnam Station $40K/Day Street Pastry Building Owner. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "aiVerdict": "Executive Briefing #552 (Gangnam Station $40K/Day Street Pastry Building Owner): Commanding operations from 2024, World 3-Star Michelin & (Zurich Sovereign Vault #552), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #552 (Gangnam Station $40K/Day Street Pastry Building Owner): Commanding operations from 2024, World 3-Star Michelin & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -19133,13 +19133,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00562.webp",
     "en": {
       "title": "Ginza $400 Ruby Roman Luxury Grape Auction Broker",
-      "era": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #562)",
+      "era": "2024, World 3-Star Michelin & (Oslo Private Circuit)",
       "estimatedSalary": "$1,107,600/yr + diplomatic equity (Tier #562)",
       "specialDuty": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Ginza $400 Ruby Roman Luxury Grape Auction Broker. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "builtYear": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #562)",
+      "builtYear": "2024, World 3-Star Michelin & (Oslo Private Circuit)",
       "estimatedValue": "$1,107,600/yr + diplomatic equity (Tier #562)",
       "specialFeature": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Ginza $400 Ruby Roman Luxury Grape Auction Broker. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "aiVerdict": "Executive Briefing #562 (Ginza $400 Ruby Roman Luxury Grape Auction Broker): Commanding operations from 2024, World 3-Star Michelin & (Zurich Sovereign Vault #562), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #562 (Ginza $400 Ruby Roman Luxury Grape Auction Broker): Commanding operations from 2024, World 3-Star Michelin & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -19473,13 +19473,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00572.webp",
     "en": {
       "title": "Place Vendôme Paris High-Jewelry Private Salon Docent",
-      "era": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #572)",
+      "era": "2024, World 3-Star Michelin & (Big Sur Private Circuit)",
       "estimatedSalary": "$1,255,600/yr + diplomatic equity (Tier #572)",
       "specialDuty": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Place Vendôme Paris High-Jewelry Private Salon Docent. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "builtYear": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #572)",
+      "builtYear": "2024, World 3-Star Michelin & (Big Sur Private Circuit)",
       "estimatedValue": "$1,255,600/yr + diplomatic equity (Tier #572)",
       "specialFeature": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Place Vendôme Paris High-Jewelry Private Salon Docent. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "aiVerdict": "Executive Briefing #572 (Place Vendôme Paris High-Jewelry Private Salon Docent): Commanding operations from 2024, World 3-Star Michelin & (Zurich Sovereign Vault #572), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #572 (Place Vendôme Paris High-Jewelry Private Salon Docent): Commanding operations from 2024, World 3-Star Michelin & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -19802,10 +19802,10 @@ export const MASTER_JOBS = [
     "tierName": "대박 장사꾼·미식·럭셔리 투어리스트",
     "era": "전 세계 미슐랭 3스타 및 대박 상권 · 미국 나파밸리 억만장자 제582구역",
     "estimatedSalary": "연봉 2억 원 ~ 5억 원 (무제한 블랙 법인카드 지원) (Lv.582 미국 관리인 특별 성과급 +30,290만 원)",
-    "specialDuty": "미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인로서 파리와 도쿄, 뉴욕, 강남의 최고급 식당과 특급 명소를 누비며 최고의 가치를 창출합니다. 수천만 원 상당의 빈티지 와인과 캐비아를 맛보거나 하루 수천만 원 매출을 올리는 대박 장사의 정점을 찍습니다. 전 세계 미식가와 여행자들의 찬사를 매일 받습니다.",
+    "specialDuty": "미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인으로서 파리와 도쿄, 뉴욕, 강남의 최고급 식당과 특급 명소를 누비며 최고의 가치를 창출합니다. 수천만 원 상당의 빈티지 와인과 캐비아를 맛보거나 하루 수천만 원 매출을 올리는 대박 장사의 정점을 찍습니다. 전 세계 미식가와 여행자들의 찬사를 매일 받습니다.",
     "builtYear": "전 세계 미슐랭 3스타 및 대박 상권 · 미국 나파밸리 억만장자 제582구역",
     "estimatedValue": "연봉 2억 원 ~ 5억 원 (무제한 블랙 법인카드 지원) (Lv.582 미국 관리인 특별 성과급 +30,290만 원)",
-    "specialFeature": "미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인로서 파리와 도쿄, 뉴욕, 강남의 최고급 식당과 특급 명소를 누비며 최고의 가치를 창출합니다. 수천만 원 상당의 빈티지 와인과 캐비아를 맛보거나 하루 수천만 원 매출을 올리는 대박 장사의 정점을 찍습니다. 전 세계 미식가와 여행자들의 찬사를 매일 받습니다.",
+    "specialFeature": "미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인으로서 파리와 도쿄, 뉴욕, 강남의 최고급 식당과 특급 명소를 누비며 최고의 가치를 창출합니다. 수천만 원 상당의 빈티지 와인과 캐비아를 맛보거나 하루 수천만 원 매출을 올리는 대박 장사의 정점을 찍습니다. 전 세계 미식가와 여행자들의 찬사를 매일 받습니다.",
     "aiVerdict": "[Lv.582 미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인] 전 세계 미슐랭 3스타 및 대박 상권 현장에서 활약하는 전문 보직입니다. 단 한 번의 결재와 판단으로 시장의 판도를 뒤바꾸는 핵심 요직이며 대체 불가능한 권위를 자랑합니다.",
     "imagePrompt": "일러스트풍으로 미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 미국 나파밸리 억만장자 프라이빗 와인 컬렉션 자산 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -19813,13 +19813,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00582.webp",
     "en": {
       "title": "Napa Valley Billionaire Private Wine Cellar Asset Manager",
-      "era": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #582)",
+      "era": "2024, World 3-Star Michelin & (Mallorca Private Circuit)",
       "estimatedSalary": "$1,403,600/yr + diplomatic equity (Tier #582)",
       "specialDuty": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Napa Valley Billionaire Private Wine Cellar Asset Manager. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "builtYear": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #582)",
+      "builtYear": "2024, World 3-Star Michelin & (Mallorca Private Circuit)",
       "estimatedValue": "$1,403,600/yr + diplomatic equity (Tier #582)",
       "specialFeature": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Napa Valley Billionaire Private Wine Cellar Asset Manager. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "aiVerdict": "Executive Briefing #582 (Napa Valley Billionaire Private Wine Cellar Asset Manager): Commanding operations from 2024, World 3-Star Michelin & (Zurich Sovereign Vault #582), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #582 (Napa Valley Billionaire Private Wine Cellar Asset Manager): Commanding operations from 2024, World 3-Star Michelin & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -20153,13 +20153,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00592.webp",
     "en": {
       "title": "Highland Agave Extra Añejo Tequila Master Distiller",
-      "era": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #592)",
+      "era": "2024, World 3-Star Michelin & (Sedona Private Circuit)",
       "estimatedSalary": "$1,551,600/yr + diplomatic equity (Tier #592)",
       "specialDuty": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Highland Agave Extra Añejo Tequila Master Distiller. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "builtYear": "2024, World 3-Star Michelin & (Zurich Sovereign Vault #592)",
+      "builtYear": "2024, World 3-Star Michelin & (Sedona Private Circuit)",
       "estimatedValue": "$1,551,600/yr + diplomatic equity (Tier #592)",
       "specialFeature": "Operates at the pinnacle of elite gastronomy and wildly profitable commercial empires as a Highland Agave Extra Añejo Tequila Master Distiller. Samples grand cru vintages, inspects transcontinental luxury trains, and generates massive fortunes.",
-      "aiVerdict": "Executive Briefing #592 (Highland Agave Extra Añejo Tequila Master Distiller): Commanding operations from 2024, World 3-Star Michelin & (Zurich Sovereign Vault #592), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #592 (Highland Agave Extra Añejo Tequila Master Distiller): Commanding operations from 2024, World 3-Star Michelin & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -20244,10 +20244,10 @@ export const MASTER_JOBS = [
     "tierName": "대박 장사꾼·미식·럭셔리 투어리스트",
     "era": "판타지 명작 요리 및 초호화 만찬장 · 블리치 우라하라 상점 제595구역",
     "estimatedSalary": "연봉 마법 레시피 황금 두루마리 + 드래곤 와인 1병 (Lv.595 블리치 판매상 특별 성과급 +32,575만 원)",
-    "specialDuty": "블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상로서 전설적인 애니메이션과 영화 속 황홀경을 만들어 주는 궁극의 미식을 연출합니다. 황금 티켓의 초콜릿 공장과 마법 온천장의 사금 정산대에서 VIP 고객들을 영접합니다. 음식을 먹는 순간 옷이 찢어지거나 눈물을 흘리는 최고의 맛을 완성합니다.",
+    "specialDuty": "블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상으로서 전설적인 애니메이션과 영화 속 황홀경을 만들어 주는 궁극의 미식을 연출합니다. 황금 티켓의 초콜릿 공장과 마법 온천장의 사금 정산대에서 VIP 고객들을 영접합니다. 음식을 먹는 순간 옷이 찢어지거나 눈물을 흘리는 최고의 맛을 완성합니다.",
     "builtYear": "판타지 명작 요리 및 초호화 만찬장 · 블리치 우라하라 상점 제595구역",
     "estimatedValue": "연봉 마법 레시피 황금 두루마리 + 드래곤 와인 1병 (Lv.595 블리치 판매상 특별 성과급 +32,575만 원)",
-    "specialFeature": "블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상로서 전설적인 애니메이션과 영화 속 황홀경을 만들어 주는 궁극의 미식을 연출합니다. 황금 티켓의 초콜릿 공장과 마법 온천장의 사금 정산대에서 VIP 고객들을 영접합니다. 음식을 먹는 순간 옷이 찢어지거나 눈물을 흘리는 최고의 맛을 완성합니다.",
+    "specialFeature": "블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상으로서 전설적인 애니메이션과 영화 속 황홀경을 만들어 주는 궁극의 미식을 연출합니다. 황금 티켓의 초콜릿 공장과 마법 온천장의 사금 정산대에서 VIP 고객들을 영접합니다. 음식을 먹는 순간 옷이 찢어지거나 눈물을 흘리는 최고의 맛을 완성합니다.",
     "aiVerdict": "[Lv.595 블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상] 판타지 명작 요리 및 초호화 만찬장 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 블리치 우라하라 상점 기적의 영력 회복 사탕 독점 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -20493,13 +20493,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00602.webp",
     "en": {
       "title": "Ethereum Smart Contract Bug Bounty White-Hat $40M Earner",
-      "era": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #602)",
+      "era": "2024, Silicon Valley Crypto & Tech (Global Private Sanctuary)",
       "estimatedSalary": "$1,699,600/yr + diplomatic equity (Tier #602)",
       "specialDuty": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Ethereum Smart Contract Bug Bounty White-Hat $40M Earner. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "builtYear": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #602)",
+      "builtYear": "2024, Silicon Valley Crypto & Tech (Global Private Sanctuary)",
       "estimatedValue": "$1,699,600/yr + diplomatic equity (Tier #602)",
       "specialFeature": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Ethereum Smart Contract Bug Bounty White-Hat $40M Earner. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "aiVerdict": "Executive Briefing #602 (Ethereum Smart Contract Bug Bounty White-Hat $40M Earner): Commanding operations from 2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #602), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #602 (Ethereum Smart Contract Bug Bounty White-Hat $40M Earner): Commanding operations from 2024, Silicon Valley Crypto & Tech (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -20833,13 +20833,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00612.webp",
     "en": {
       "title": "Darknet Blockchain Investigator Recovering $250M Lost Crypto",
-      "era": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #612)",
+      "era": "2024, Silicon Valley Crypto & Tech (Oslo Private Circuit)",
       "estimatedSalary": "$1,847,600/yr + diplomatic equity (Tier #612)",
       "specialDuty": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Darknet Blockchain Investigator Recovering $250M Lost Crypto. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "builtYear": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #612)",
+      "builtYear": "2024, Silicon Valley Crypto & Tech (Oslo Private Circuit)",
       "estimatedValue": "$1,847,600/yr + diplomatic equity (Tier #612)",
       "specialFeature": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Darknet Blockchain Investigator Recovering $250M Lost Crypto. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "aiVerdict": "Executive Briefing #612 (Darknet Blockchain Investigator Recovering $250M Lost Crypto): Commanding operations from 2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #612), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #612 (Darknet Blockchain Investigator Recovering $250M Lost Crypto): Commanding operations from 2024, Silicon Valley Crypto & Tech (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -21173,13 +21173,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00622.webp",
     "en": {
       "title": "Domain Sniper Snatching and Flipping ai.com for $15M",
-      "era": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #622)",
+      "era": "2024, Silicon Valley Crypto & Tech (Big Sur Private Circuit)",
       "estimatedSalary": "$1,995,600/yr + diplomatic equity (Tier #622)",
       "specialDuty": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Domain Sniper Snatching and Flipping ai.com for $15M. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "builtYear": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #622)",
+      "builtYear": "2024, Silicon Valley Crypto & Tech (Big Sur Private Circuit)",
       "estimatedValue": "$1,995,600/yr + diplomatic equity (Tier #622)",
       "specialFeature": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Domain Sniper Snatching and Flipping ai.com for $15M. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "aiVerdict": "Executive Briefing #622 (Domain Sniper Snatching and Flipping ai.com for $15M): Commanding operations from 2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #622), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #622 (Domain Sniper Snatching and Flipping ai.com for $15M): Commanding operations from 2024, Silicon Valley Crypto & Tech (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -21513,13 +21513,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00632.webp",
     "en": {
       "title": "ChatGPT Jailbreak Prompt Artisan Earning $8,000/Hour Consulting Fees",
-      "era": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #632)",
+      "era": "2024, Silicon Valley Crypto & Tech (Mallorca Private Circuit)",
       "estimatedSalary": "$2,143,600/yr + diplomatic equity (Tier #632)",
       "specialDuty": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a ChatGPT Jailbreak Prompt Artisan Earning $8,000/Hour Consulting Fees. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "builtYear": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #632)",
+      "builtYear": "2024, Silicon Valley Crypto & Tech (Mallorca Private Circuit)",
       "estimatedValue": "$2,143,600/yr + diplomatic equity (Tier #632)",
       "specialFeature": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a ChatGPT Jailbreak Prompt Artisan Earning $8,000/Hour Consulting Fees. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "aiVerdict": "Executive Briefing #632 (ChatGPT Jailbreak Prompt Artisan Earning $8,000/Hour Consulting Fees): Commanding operations from 2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #632), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #632 (ChatGPT Jailbreak Prompt Artisan Earning $8,000/Hour Consulting Fees): Commanding operations from 2024, Silicon Valley Crypto & Tech (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -21853,13 +21853,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00642.webp",
     "en": {
       "title": "Post-Quantum Cryptography Defense Patent Holder Prodigy",
-      "era": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #642)",
+      "era": "2024, Silicon Valley Crypto & Tech (Sedona Private Circuit)",
       "estimatedSalary": "$2,291,600/yr + diplomatic equity (Tier #642)",
       "specialDuty": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Post-Quantum Cryptography Defense Patent Holder Prodigy. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "builtYear": "2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #642)",
+      "builtYear": "2024, Silicon Valley Crypto & Tech (Sedona Private Circuit)",
       "estimatedValue": "$2,291,600/yr + diplomatic equity (Tier #642)",
       "specialFeature": "Commands immense fortunes at the absolute cutting edge of capitalism and computer science as a Post-Quantum Cryptography Defense Patent Holder Prodigy. Writes three lines of code for unicorns, captures billions in crypto, and retires to private island beaches.",
-      "aiVerdict": "Executive Briefing #642 (Post-Quantum Cryptography Defense Patent Holder Prodigy): Commanding operations from 2024, Silicon Valley Crypto & Tech (Zurich Sovereign Vault #642), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #642 (Post-Quantum Cryptography Defense Patent Holder Prodigy): Commanding operations from 2024, Silicon Valley Crypto & Tech (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -22193,13 +22193,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00652.webp",
     "en": {
       "title": "Premier League $800K/Week Backup Goalie Perfecting Bottle Flips on Bench",
-      "era": "2024, World-Class Entertainment & (Zurich Sovereign Vault #652)",
+      "era": "2024, World-Class Entertainment & (Global Private Sanctuary)",
       "estimatedSalary": "$2,439,600/yr + diplomatic equity (Tier #652)",
       "specialDuty": "Basks in the adulation of millions while earning colossal wealth as a Premier League $800K/Week Backup Goalie Perfecting Bottle Flips on Bench. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "builtYear": "2024, World-Class Entertainment & (Zurich Sovereign Vault #652)",
+      "builtYear": "2024, World-Class Entertainment & (Global Private Sanctuary)",
       "estimatedValue": "$2,439,600/yr + diplomatic equity (Tier #652)",
       "specialFeature": "Basks in the adulation of millions while earning colossal wealth as a Premier League $800K/Week Backup Goalie Perfecting Bottle Flips on Bench. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "aiVerdict": "Executive Briefing #652 (Premier League $800K/Week Backup Goalie Perfecting Bottle Flips on Bench): Commanding operations from 2024, World-Class Entertainment & (Zurich Sovereign Vault #652), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #652 (Premier League $800K/Week Backup Goalie Perfecting Bottle Flips on Bench): Commanding operations from 2024, World-Class Entertainment & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -22533,13 +22533,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00662.webp",
     "en": {
       "title": "Cannes Palme d'Or 24K Solid Gold Sculptor & Armored Escort Chief",
-      "era": "2024, World-Class Entertainment & (Zurich Sovereign Vault #662)",
+      "era": "2024, World-Class Entertainment & (Oslo Private Circuit)",
       "estimatedSalary": "$2,587,600/yr + diplomatic equity (Tier #662)",
       "specialDuty": "Basks in the adulation of millions while earning colossal wealth as a Cannes Palme d'Or 24K Solid Gold Sculptor & Armored Escort Chief. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "builtYear": "2024, World-Class Entertainment & (Zurich Sovereign Vault #662)",
+      "builtYear": "2024, World-Class Entertainment & (Oslo Private Circuit)",
       "estimatedValue": "$2,587,600/yr + diplomatic equity (Tier #662)",
       "specialFeature": "Basks in the adulation of millions while earning colossal wealth as a Cannes Palme d'Or 24K Solid Gold Sculptor & Armored Escort Chief. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "aiVerdict": "Executive Briefing #662 (Cannes Palme d'Or 24K Solid Gold Sculptor & Armored Escort Chief): Commanding operations from 2024, World-Class Entertainment & (Zurich Sovereign Vault #662), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #662 (Cannes Palme d'Or 24K Solid Gold Sculptor & Armored Escort Chief): Commanding operations from 2024, World-Class Entertainment & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -22873,13 +22873,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00672.webp",
     "en": {
       "title": "Contemporary Living Art Master Selling Canvas at Sotheby's for $15M",
-      "era": "2024, World-Class Entertainment & (Zurich Sovereign Vault #672)",
+      "era": "2024, World-Class Entertainment & (Big Sur Private Circuit)",
       "estimatedSalary": "$2,735,600/yr + diplomatic equity (Tier #672)",
       "specialDuty": "Basks in the adulation of millions while earning colossal wealth as a Contemporary Living Art Master Selling Canvas at Sotheby's for $15M. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "builtYear": "2024, World-Class Entertainment & (Zurich Sovereign Vault #672)",
+      "builtYear": "2024, World-Class Entertainment & (Big Sur Private Circuit)",
       "estimatedValue": "$2,735,600/yr + diplomatic equity (Tier #672)",
       "specialFeature": "Basks in the adulation of millions while earning colossal wealth as a Contemporary Living Art Master Selling Canvas at Sotheby's for $15M. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "aiVerdict": "Executive Briefing #672 (Contemporary Living Art Master Selling Canvas at Sotheby's for $15M): Commanding operations from 2024, World-Class Entertainment & (Zurich Sovereign Vault #672), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #672 (Contemporary Living Art Master Selling Canvas at Sotheby's for $15M): Commanding operations from 2024, World-Class Entertainment & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -23213,13 +23213,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00682.webp",
     "en": {
       "title": "Hollywood Superhero Blockbuster Grand Orchestral Score Composer",
-      "era": "2024, World-Class Entertainment & (Zurich Sovereign Vault #682)",
+      "era": "2024, World-Class Entertainment & (Mallorca Private Circuit)",
       "estimatedSalary": "$2,883,600/yr + diplomatic equity (Tier #682)",
       "specialDuty": "Basks in the adulation of millions while earning colossal wealth as a Hollywood Superhero Blockbuster Grand Orchestral Score Composer. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "builtYear": "2024, World-Class Entertainment & (Zurich Sovereign Vault #682)",
+      "builtYear": "2024, World-Class Entertainment & (Mallorca Private Circuit)",
       "estimatedValue": "$2,883,600/yr + diplomatic equity (Tier #682)",
       "specialFeature": "Basks in the adulation of millions while earning colossal wealth as a Hollywood Superhero Blockbuster Grand Orchestral Score Composer. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "aiVerdict": "Executive Briefing #682 (Hollywood Superhero Blockbuster Grand Orchestral Score Composer): Commanding operations from 2024, World-Class Entertainment & (Zurich Sovereign Vault #682), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #682 (Hollywood Superhero Blockbuster Grand Orchestral Score Composer): Commanding operations from 2024, World-Class Entertainment & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -23553,13 +23553,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00692.webp",
     "en": {
       "title": "Rolling Stone Top 10 Rock Band Lead Guitar Rig Technician",
-      "era": "2024, World-Class Entertainment & (Zurich Sovereign Vault #692)",
+      "era": "2024, World-Class Entertainment & (Sedona Private Circuit)",
       "estimatedSalary": "$3,031,600/yr + diplomatic equity (Tier #692)",
       "specialDuty": "Basks in the adulation of millions while earning colossal wealth as a Rolling Stone Top 10 Rock Band Lead Guitar Rig Technician. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "builtYear": "2024, World-Class Entertainment & (Zurich Sovereign Vault #692)",
+      "builtYear": "2024, World-Class Entertainment & (Sedona Private Circuit)",
       "estimatedValue": "$3,031,600/yr + diplomatic equity (Tier #692)",
       "specialFeature": "Basks in the adulation of millions while earning colossal wealth as a Rolling Stone Top 10 Rock Band Lead Guitar Rig Technician. Collects perpetual holiday royalties, orchestrates Super Bowl halftime shows, and directs global culture.",
-      "aiVerdict": "Executive Briefing #692 (Rolling Stone Top 10 Rock Band Lead Guitar Rig Technician): Commanding operations from 2024, World-Class Entertainment & (Zurich Sovereign Vault #692), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #692 (Rolling Stone Top 10 Rock Band Lead Guitar Rig Technician): Commanding operations from 2024, World-Class Entertainment & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -23893,13 +23893,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00702.webp",
     "en": {
       "title": "Dubai Royal Family Solid Gold Boeing 747 Head Flight Captain",
-      "era": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #702)",
+      "era": "2024, Monaco, Dubai & Swiss (Global Private Sanctuary)",
       "estimatedSalary": "$3,179,600/yr + diplomatic equity (Tier #702)",
       "specialDuty": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Dubai Royal Family Solid Gold Boeing 747 Head Flight Captain. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "builtYear": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #702)",
+      "builtYear": "2024, Monaco, Dubai & Swiss (Global Private Sanctuary)",
       "estimatedValue": "$3,179,600/yr + diplomatic equity (Tier #702)",
       "specialFeature": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Dubai Royal Family Solid Gold Boeing 747 Head Flight Captain. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "aiVerdict": "Executive Briefing #702 (Dubai Royal Family Solid Gold Boeing 747 Head Flight Captain): Commanding operations from 2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #702), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #702 (Dubai Royal Family Solid Gold Boeing 747 Head Flight Captain): Commanding operations from 2024, Monaco, Dubai & Swiss (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -24188,10 +24188,10 @@ export const MASTER_JOBS = [
     "tierName": "초호화 슈퍼리치·억만장자 VIP 전담 디렉터",
     "era": "비밀 조직 및 판타지 왕실 최고 금고 · 나니아 연대기 마법 제711구역",
     "estimatedSalary": "연봉 고블린 순금 금화 10,000닢 + 비밀 결계석 (Lv.711 나니아 관리인 특별 성과급 +54,455만 원)",
-    "specialDuty": "나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
+    "specialDuty": "나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인으로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
     "builtYear": "비밀 조직 및 판타지 왕실 최고 금고 · 나니아 연대기 마법 제711구역",
     "estimatedValue": "연봉 고블린 순금 금화 10,000닢 + 비밀 결계석 (Lv.711 나니아 관리인 특별 성과급 +54,455만 원)",
-    "specialFeature": "나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
+    "specialFeature": "나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인으로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
     "aiVerdict": "[Lv.711 나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인] 비밀 조직 및 판타지 왕실 최고 금고 현장에서 활약하는 전문 보직입니다. 스트레스 없는 특급 대우와 막강한 재량권이 보장되어 커리어의 황금기를 만끽할 수 있는 보직입니다.",
     "imagePrompt": "일러스트풍으로 나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 나니아 연대기 마법 옷장 너머 눈의 여왕 썰매 벨벳 시트 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -24233,13 +24233,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00712.webp",
     "en": {
       "title": "Buckingham Palace Royal Warrant Holder Vetting Committee Head",
-      "era": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #712)",
+      "era": "2024, Monaco, Dubai & Swiss (Oslo Private Circuit)",
       "estimatedSalary": "$3,327,600/yr + diplomatic equity (Tier #712)",
       "specialDuty": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Buckingham Palace Royal Warrant Holder Vetting Committee Head. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "builtYear": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #712)",
+      "builtYear": "2024, Monaco, Dubai & Swiss (Oslo Private Circuit)",
       "estimatedValue": "$3,327,600/yr + diplomatic equity (Tier #712)",
       "specialFeature": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Buckingham Palace Royal Warrant Holder Vetting Committee Head. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "aiVerdict": "Executive Briefing #712 (Buckingham Palace Royal Warrant Holder Vetting Committee Head): Commanding operations from 2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #712), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #712 (Buckingham Palace Royal Warrant Holder Vetting Committee Head): Commanding operations from 2024, Monaco, Dubai & Swiss (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -24460,10 +24460,10 @@ export const MASTER_JOBS = [
     "tierName": "초호화 슈퍼리치·억만장자 VIP 전담 디렉터",
     "era": "비밀 조직 및 판타지 왕실 최고 금고 · 닥터 스트레인지 생텀 제719구역",
     "estimatedSalary": "연봉 고블린 순금 금화 10,000닢 + 비밀 결계석 (Lv.719 닥터 관리인 특별 성과급 +55,665만 원)",
-    "specialDuty": "닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
+    "specialDuty": "닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인으로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
     "builtYear": "비밀 조직 및 판타지 왕실 최고 금고 · 닥터 스트레인지 생텀 제719구역",
     "estimatedValue": "연봉 고블린 순금 금화 10,000닢 + 비밀 결계석 (Lv.719 닥터 관리인 특별 성과급 +55,665만 원)",
-    "specialFeature": "닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
+    "specialFeature": "닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인으로서 그린고트 마법사 은행의 용 금고부터 콘티넨탈 호텔의 금화 창고까지, 판타지 암흑가와 왕실의 최상위 비밀 자산을 총괄합니다. 킹스맨의 방탄 수트와 개츠비의 대저택 파티를 총괄하며 지하 세계의 평화와 균형을 수호합니다.",
     "aiVerdict": "[Lv.719 닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인] 비밀 조직 및 판타지 왕실 최고 금고 현장에서 활약하는 전문 보직입니다. 차원 전체를 통틀어 극소수에게만 허락된 특권적 직위로 압도적인 성취감과 부가 뒤따릅니다.",
     "imagePrompt": "일러스트풍으로 닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 닥터 스트레인지 생텀 생토럼 마법 유물 먼지 털기 및 결계 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -24573,13 +24573,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00722.webp",
     "en": {
       "title": "St. Moritz Snow Polo World Cup VVIP Chateaux Host",
-      "era": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #722)",
+      "era": "2024, Monaco, Dubai & Swiss (Big Sur Private Circuit)",
       "estimatedSalary": "$3,475,600/yr + diplomatic equity (Tier #722)",
       "specialDuty": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a St. Moritz Snow Polo World Cup VVIP Chateaux Host. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "builtYear": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #722)",
+      "builtYear": "2024, Monaco, Dubai & Swiss (Big Sur Private Circuit)",
       "estimatedValue": "$3,475,600/yr + diplomatic equity (Tier #722)",
       "specialFeature": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a St. Moritz Snow Polo World Cup VVIP Chateaux Host. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "aiVerdict": "Executive Briefing #722 (St. Moritz Snow Polo World Cup VVIP Chateaux Host): Commanding operations from 2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #722), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #722 (St. Moritz Snow Polo World Cup VVIP Chateaux Host): Commanding operations from 2024, Monaco, Dubai & Swiss (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -24913,13 +24913,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00732.webp",
     "en": {
       "title": "Central Park 4-Floor Quadplex Penthouse Master Architect",
-      "era": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #732)",
+      "era": "2024, Monaco, Dubai & Swiss (Mallorca Private Circuit)",
       "estimatedSalary": "$3,623,600/yr + diplomatic equity (Tier #732)",
       "specialDuty": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Central Park 4-Floor Quadplex Penthouse Master Architect. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "builtYear": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #732)",
+      "builtYear": "2024, Monaco, Dubai & Swiss (Mallorca Private Circuit)",
       "estimatedValue": "$3,623,600/yr + diplomatic equity (Tier #732)",
       "specialFeature": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Central Park 4-Floor Quadplex Penthouse Master Architect. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "aiVerdict": "Executive Briefing #732 (Central Park 4-Floor Quadplex Penthouse Master Architect): Commanding operations from 2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #732), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #732 (Central Park 4-Floor Quadplex Penthouse Master Architect): Commanding operations from 2024, Monaco, Dubai & Swiss (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -25253,13 +25253,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00742.webp",
     "en": {
       "title": "Aspen Luxury Ski Resort Private Peak Slope Rights Broker",
-      "era": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #742)",
+      "era": "2024, Monaco, Dubai & Swiss (Sedona Private Circuit)",
       "estimatedSalary": "$3,771,600/yr + diplomatic equity (Tier #742)",
       "specialDuty": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Aspen Luxury Ski Resort Private Peak Slope Rights Broker. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "builtYear": "2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #742)",
+      "builtYear": "2024, Monaco, Dubai & Swiss (Sedona Private Circuit)",
       "estimatedValue": "$3,771,600/yr + diplomatic equity (Tier #742)",
       "specialFeature": "Orchestrates ultra-luxury empires for the top 0.001% royals and titans as a Aspen Luxury Ski Resort Private Peak Slope Rights Broker. Commands $400M mega-yachts, custom gold jumbo jets, private islands, and subterranean vaults.",
-      "aiVerdict": "Executive Briefing #742 (Aspen Luxury Ski Resort Private Peak Slope Rights Broker): Commanding operations from 2024, Monaco, Dubai & Swiss (Zurich Sovereign Vault #742), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #742 (Aspen Luxury Ski Resort Private Peak Slope Rights Broker): Commanding operations from 2024, Monaco, Dubai & Swiss (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -25593,13 +25593,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00752.webp",
     "en": {
       "title": "Wall Street $80B Hedge Fund HFT Quant Algorithm Sole Architect",
-      "era": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #752)",
+      "era": "2024, Wall Street, Silicon Valley & (Global Private Sanctuary)",
       "estimatedSalary": "$3,919,600/yr + diplomatic equity (Tier #752)",
       "specialDuty": "Commands global high finance, tech titans, and luxury conglomerates as a Wall Street $80B Hedge Fund HFT Quant Algorithm Sole Architect. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "builtYear": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #752)",
+      "builtYear": "2024, Wall Street, Silicon Valley & (Global Private Sanctuary)",
       "estimatedValue": "$3,919,600/yr + diplomatic equity (Tier #752)",
       "specialFeature": "Commands global high finance, tech titans, and luxury conglomerates as a Wall Street $80B Hedge Fund HFT Quant Algorithm Sole Architect. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "aiVerdict": "Executive Briefing #752 (Wall Street $80B Hedge Fund HFT Quant Algorithm Sole Architect): Commanding operations from 2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #752), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #752 (Wall Street $80B Hedge Fund HFT Quant Algorithm Sole Architect): Commanding operations from 2024, Wall Street, Silicon Valley & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -25933,13 +25933,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00762.webp",
     "en": {
       "title": "OpenAI & Google 1M-GPU Supercluster Gigawatt Power Director",
-      "era": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #762)",
+      "era": "2024, Wall Street, Silicon Valley & (Oslo Private Circuit)",
       "estimatedSalary": "$4,067,600/yr + diplomatic equity (Tier #762)",
       "specialDuty": "Commands global high finance, tech titans, and luxury conglomerates as a OpenAI & Google 1M-GPU Supercluster Gigawatt Power Director. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "builtYear": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #762)",
+      "builtYear": "2024, Wall Street, Silicon Valley & (Oslo Private Circuit)",
       "estimatedValue": "$4,067,600/yr + diplomatic equity (Tier #762)",
       "specialFeature": "Commands global high finance, tech titans, and luxury conglomerates as a OpenAI & Google 1M-GPU Supercluster Gigawatt Power Director. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "aiVerdict": "Executive Briefing #762 (OpenAI & Google 1M-GPU Supercluster Gigawatt Power Director): Commanding operations from 2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #762), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #762 (OpenAI & Google 1M-GPU Supercluster Gigawatt Power Director): Commanding operations from 2024, Wall Street, Silicon Valley & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -26273,13 +26273,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00772.webp",
     "en": {
       "title": "Blackstone Global $300B Real Estate Portfolio Managing Director",
-      "era": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #772)",
+      "era": "2024, Wall Street, Silicon Valley & (Big Sur Private Circuit)",
       "estimatedSalary": "$4,215,600/yr + diplomatic equity (Tier #772)",
       "specialDuty": "Commands global high finance, tech titans, and luxury conglomerates as a Blackstone Global $300B Real Estate Portfolio Managing Director. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "builtYear": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #772)",
+      "builtYear": "2024, Wall Street, Silicon Valley & (Big Sur Private Circuit)",
       "estimatedValue": "$4,215,600/yr + diplomatic equity (Tier #772)",
       "specialFeature": "Commands global high finance, tech titans, and luxury conglomerates as a Blackstone Global $300B Real Estate Portfolio Managing Director. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "aiVerdict": "Executive Briefing #772 (Blackstone Global $300B Real Estate Portfolio Managing Director): Commanding operations from 2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #772), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #772 (Blackstone Global $300B Real Estate Portfolio Managing Director): Commanding operations from 2024, Wall Street, Silicon Valley & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -26296,10 +26296,10 @@ export const MASTER_JOBS = [
     "tierName": "월스트리트·빅테크·명품 제국 최고 권력자",
     "era": "가상 제국 최고 군사 기술 및 판타지 왕실 정부 · 데스노트 키라(야가미 라이토) 제773구역",
     "estimatedSalary": "연봉 비브라늄 잉곳 100개 + 왕실 면책 특권 (Lv.773 데스노트 관리인 특별 성과급 +65,745만 원)",
-    "specialDuty": "데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인로서 와칸다와 원피스 세계정부, 마법 제국의 국가급 전략 자산과 무기고를 총괄 지휘합니다. 비브라늄 광맥을 관리하고 수백조 원의 군자금과 보물창고를 통제합니다. 세계 질서를 배후에서 좌지우지하는 가상 세계 최정상 권력자로 군림합니다.",
+    "specialDuty": "데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인으로서 와칸다와 원피스 세계정부, 마법 제국의 국가급 전략 자산과 무기고를 총괄 지휘합니다. 비브라늄 광맥을 관리하고 수백조 원의 군자금과 보물창고를 통제합니다. 세계 질서를 배후에서 좌지우지하는 가상 세계 최정상 권력자로 군림합니다.",
     "builtYear": "가상 제국 최고 군사 기술 및 판타지 왕실 정부 · 데스노트 키라(야가미 라이토) 제773구역",
     "estimatedValue": "연봉 비브라늄 잉곳 100개 + 왕실 면책 특권 (Lv.773 데스노트 관리인 특별 성과급 +65,745만 원)",
-    "specialFeature": "데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인로서 와칸다와 원피스 세계정부, 마법 제국의 국가급 전략 자산과 무기고를 총괄 지휘합니다. 비브라늄 광맥을 관리하고 수백조 원의 군자금과 보물창고를 통제합니다. 세계 질서를 배후에서 좌지우지하는 가상 세계 최정상 권력자로 군림합니다.",
+    "specialFeature": "데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인으로서 와칸다와 원피스 세계정부, 마법 제국의 국가급 전략 자산과 무기고를 총괄 지휘합니다. 비브라늄 광맥을 관리하고 수백조 원의 군자금과 보물창고를 통제합니다. 세계 질서를 배후에서 좌지우지하는 가상 세계 최정상 권력자로 군림합니다.",
     "aiVerdict": "[Lv.773 데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인] 가상 제국 최고 군사 기술 및 판타지 왕실 정부 현장에서 활약하는 전문 보직입니다. 취미와 특기가 곧 천문학적인 연봉으로 직결되며 누구나 한 번쯤 꿈꿔보는 정점의 자리입니다.",
     "imagePrompt": "일러스트풍으로 데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 데스노트 키라(야가미 라이토) 전 세계 추종자 비밀 헌금 10조 원 자산 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -26613,13 +26613,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00782.webp",
     "en": {
       "title": "Global Payment Network 100K-TPS Settlement Lead Architect",
-      "era": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #782)",
+      "era": "2024, Wall Street, Silicon Valley & (Mallorca Private Circuit)",
       "estimatedSalary": "$4,363,600/yr + diplomatic equity (Tier #782)",
       "specialDuty": "Commands global high finance, tech titans, and luxury conglomerates as a Global Payment Network 100K-TPS Settlement Lead Architect. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "builtYear": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #782)",
+      "builtYear": "2024, Wall Street, Silicon Valley & (Mallorca Private Circuit)",
       "estimatedValue": "$4,363,600/yr + diplomatic equity (Tier #782)",
       "specialFeature": "Commands global high finance, tech titans, and luxury conglomerates as a Global Payment Network 100K-TPS Settlement Lead Architect. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "aiVerdict": "Executive Briefing #782 (Global Payment Network 100K-TPS Settlement Lead Architect): Commanding operations from 2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #782), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #782 (Global Payment Network 100K-TPS Settlement Lead Architect): Commanding operations from 2024, Wall Street, Silicon Valley & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -26953,13 +26953,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00792.webp",
     "en": {
       "title": "World Bank $40B Infrastructure Sovereign Loan Comptroller",
-      "era": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #792)",
+      "era": "2024, Wall Street, Silicon Valley & (Sedona Private Circuit)",
       "estimatedSalary": "$4,511,600/yr + diplomatic equity (Tier #792)",
       "specialDuty": "Commands global high finance, tech titans, and luxury conglomerates as a World Bank $40B Infrastructure Sovereign Loan Comptroller. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "builtYear": "2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #792)",
+      "builtYear": "2024, Wall Street, Silicon Valley & (Sedona Private Circuit)",
       "estimatedValue": "$4,511,600/yr + diplomatic equity (Tier #792)",
       "specialFeature": "Commands global high finance, tech titans, and luxury conglomerates as a World Bank $40B Infrastructure Sovereign Loan Comptroller. Dictates worldwide AI semiconductor allocations, quant fund liquidity, and mega-mergers at sovereign levels.",
-      "aiVerdict": "Executive Briefing #792 (World Bank $40B Infrastructure Sovereign Loan Comptroller): Commanding operations from 2024, Wall Street, Silicon Valley & (Zurich Sovereign Vault #792), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #792 (World Bank $40B Infrastructure Sovereign Loan Comptroller): Commanding operations from 2024, Wall Street, Silicon Valley & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -27293,13 +27293,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00802.webp",
     "en": {
       "title": "Geneva Vault 100-Carat Vivid Pink Diamond Head Auctioneer",
-      "era": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #802)",
+      "era": "2024, Persian Gulf, Geneva & South (Global Private Sanctuary)",
       "estimatedSalary": "$4,659,600/yr + diplomatic equity (Tier #802)",
       "specialDuty": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Geneva Vault 100-Carat Vivid Pink Diamond Head Auctioneer. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "builtYear": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #802)",
+      "builtYear": "2024, Persian Gulf, Geneva & South (Global Private Sanctuary)",
       "estimatedValue": "$4,659,600/yr + diplomatic equity (Tier #802)",
       "specialFeature": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Geneva Vault 100-Carat Vivid Pink Diamond Head Auctioneer. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "aiVerdict": "Executive Briefing #802 (Geneva Vault 100-Carat Vivid Pink Diamond Head Auctioneer): Commanding operations from 2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #802), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #802 (Geneva Vault 100-Carat Vivid Pink Diamond Head Auctioneer): Commanding operations from 2024, Persian Gulf, Geneva & South (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -27520,10 +27520,10 @@ export const MASTER_JOBS = [
     "tierName": "글로벌 카르텔·다이아몬드·석유·카지노 대부",
     "era": "판타지 전설의 황금향 및 암흑 마피아 본부 · 하울의 움직이는 성 제809구역",
     "estimatedSalary": "연봉 난쟁이 왕국 미스릴 주화 100,000닢 + 에레보르 보물 지분 (Lv.809 하울의 관리인 특별 성과급 +72,465만 원)",
-    "specialDuty": "하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인로서 에레보르의 외로운 산 황금 창고와 지니의 램프 소원 계약, 카리브해 저주받은 보물섬을 통치합니다. 거대한 보물과 해적, 암흑 연금술사들의 거대한 자산을 독점하고 관리합니다. 전설적인 보물과 신화적 재화를 독식하는 가상 세계 최대의 거물입니다.",
+    "specialDuty": "하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인으로서 에레보르의 외로운 산 황금 창고와 지니의 램프 소원 계약, 카리브해 저주받은 보물섬을 통치합니다. 거대한 보물과 해적, 암흑 연금술사들의 거대한 자산을 독점하고 관리합니다. 전설적인 보물과 신화적 재화를 독식하는 가상 세계 최대의 거물입니다.",
     "builtYear": "판타지 전설의 황금향 및 암흑 마피아 본부 · 하울의 움직이는 성 제809구역",
     "estimatedValue": "연봉 난쟁이 왕국 미스릴 주화 100,000닢 + 에레보르 보물 지분 (Lv.809 하울의 관리인 특별 성과급 +72,465만 원)",
-    "specialFeature": "하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인로서 에레보르의 외로운 산 황금 창고와 지니의 램프 소원 계약, 카리브해 저주받은 보물섬을 통치합니다. 거대한 보물과 해적, 암흑 연금술사들의 거대한 자산을 독점하고 관리합니다. 전설적인 보물과 신화적 재화를 독식하는 가상 세계 최대의 거물입니다.",
+    "specialFeature": "하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인으로서 에레보르의 외로운 산 황금 창고와 지니의 램프 소원 계약, 카리브해 저주받은 보물섬을 통치합니다. 거대한 보물과 해적, 암흑 연금술사들의 거대한 자산을 독점하고 관리합니다. 전설적인 보물과 신화적 재화를 독식하는 가상 세계 최대의 거물입니다.",
     "aiVerdict": "[Lv.809 하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인] 판타지 전설의 황금향 및 암흑 마피아 본부 현장에서 활약하는 전문 보직입니다. 스트레스 없는 특급 대우와 막강한 재량권이 보장되어 커리어의 황금기를 만끽할 수 있는 보직입니다.",
     "imagePrompt": "일러스트풍으로 하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 하울의 움직이는 성 황야의 마녀 저택 마법 벨벳 카펫 및 금괴 수석 관리인 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -27633,13 +27633,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00812.webp",
     "en": {
       "title": "Permian Basin Texas 1,000-Well Shale Pipeline Conglomerate Chairman",
-      "era": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #812)",
+      "era": "2024, Persian Gulf, Geneva & South (Oslo Private Circuit)",
       "estimatedSalary": "$4,807,600/yr + diplomatic equity (Tier #812)",
       "specialDuty": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Permian Basin Texas 1,000-Well Shale Pipeline Conglomerate Chairman. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "builtYear": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #812)",
+      "builtYear": "2024, Persian Gulf, Geneva & South (Oslo Private Circuit)",
       "estimatedValue": "$4,807,600/yr + diplomatic equity (Tier #812)",
       "specialFeature": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Permian Basin Texas 1,000-Well Shale Pipeline Conglomerate Chairman. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "aiVerdict": "Executive Briefing #812 (Permian Basin Texas 1,000-Well Shale Pipeline Conglomerate Chairman): Commanding operations from 2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #812), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #812 (Permian Basin Texas 1,000-Well Shale Pipeline Conglomerate Chairman): Commanding operations from 2024, Persian Gulf, Geneva & South (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -27973,13 +27973,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00822.webp",
     "en": {
       "title": "Pilbara Australia Giant Iron Ore Autonomous 100-Car Train Logistics Chief",
-      "era": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #822)",
+      "era": "2024, Persian Gulf, Geneva & South (Big Sur Private Circuit)",
       "estimatedSalary": "$4,955,600/yr + diplomatic equity (Tier #822)",
       "specialDuty": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Pilbara Australia Giant Iron Ore Autonomous 100-Car Train Logistics Chief. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "builtYear": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #822)",
+      "builtYear": "2024, Persian Gulf, Geneva & South (Big Sur Private Circuit)",
       "estimatedValue": "$4,955,600/yr + diplomatic equity (Tier #822)",
       "specialFeature": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Pilbara Australia Giant Iron Ore Autonomous 100-Car Train Logistics Chief. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "aiVerdict": "Executive Briefing #822 (Pilbara Australia Giant Iron Ore Autonomous 100-Car Train Logistics Chief): Commanding operations from 2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #822), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #822 (Pilbara Australia Giant Iron Ore Autonomous 100-Car Train Logistics Chief): Commanding operations from 2024, Persian Gulf, Geneva & South (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -28313,13 +28313,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00832.webp",
     "en": {
       "title": "Surat India 90% Global Diamond Polishing Conglomerate Mogul",
-      "era": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #832)",
+      "era": "2024, Persian Gulf, Geneva & South (Mallorca Private Circuit)",
       "estimatedSalary": "$5,103,600/yr + diplomatic equity (Tier #832)",
       "specialDuty": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Surat India 90% Global Diamond Polishing Conglomerate Mogul. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "builtYear": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #832)",
+      "builtYear": "2024, Persian Gulf, Geneva & South (Mallorca Private Circuit)",
       "estimatedValue": "$5,103,600/yr + diplomatic equity (Tier #832)",
       "specialFeature": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Surat India 90% Global Diamond Polishing Conglomerate Mogul. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "aiVerdict": "Executive Briefing #832 (Surat India 90% Global Diamond Polishing Conglomerate Mogul): Commanding operations from 2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #832), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #832 (Surat India 90% Global Diamond Polishing Conglomerate Mogul): Commanding operations from 2024, Persian Gulf, Geneva & South (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -28653,13 +28653,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00842.webp",
     "en": {
       "title": "Amazon Basin Certified Rare Timber & Bioactive Raw Materials Export Czar",
-      "era": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #842)",
+      "era": "2024, Persian Gulf, Geneva & South (Sedona Private Circuit)",
       "estimatedSalary": "$5,251,600/yr + diplomatic equity (Tier #842)",
       "specialDuty": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Amazon Basin Certified Rare Timber & Bioactive Raw Materials Export Czar. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "builtYear": "2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #842)",
+      "builtYear": "2024, Persian Gulf, Geneva & South (Sedona Private Circuit)",
       "estimatedValue": "$5,251,600/yr + diplomatic equity (Tier #842)",
       "specialFeature": "Rules prime physical assets of human civilization including petroleum, diamonds, and canals as a Amazon Basin Certified Rare Timber & Bioactive Raw Materials Export Czar. Authorizes Aramco reserves, allocates Suez transit rights, and commands commodity syndicates.",
-      "aiVerdict": "Executive Briefing #842 (Amazon Basin Certified Rare Timber & Bioactive Raw Materials Export Czar): Commanding operations from 2024, Persian Gulf, Geneva & South (Zurich Sovereign Vault #842), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #842 (Amazon Basin Certified Rare Timber & Bioactive Raw Materials Export Czar): Commanding operations from 2024, Persian Gulf, Geneva & South (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -28993,13 +28993,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00852.webp",
     "en": {
       "title": "Saudi NEOM 'The Line' 170km Mirrored Megacity Master Lead Architect",
-      "era": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #852)",
+      "era": "2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary)",
       "estimatedSalary": "$24.6T Credits/yr + quantum dividend (#852)",
       "specialDuty": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Saudi NEOM 'The Line' 170km Mirrored Megacity Master Lead Architect. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "builtYear": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #852)",
+      "builtYear": "2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary)",
       "estimatedValue": "$24.6T Credits/yr + quantum dividend (#852)",
       "specialFeature": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Saudi NEOM 'The Line' 170km Mirrored Megacity Master Lead Architect. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "aiVerdict": "Executive Briefing #852 (Saudi NEOM 'The Line' 170km Mirrored Megacity Master Lead Architect): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #852), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #852 (Saudi NEOM 'The Line' 170km Mirrored Megacity Master Lead Architect): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -29333,13 +29333,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00862.webp",
     "en": {
       "title": "Empire State & Rockefeller Center Combined Asset Sovereign Chairman",
-      "era": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #862)",
+      "era": "2024, Central Banks, NEOM & Sovereign (Oslo Private Circuit)",
       "estimatedSalary": "$41.6T Credits/yr + quantum dividend (#862)",
       "specialDuty": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Empire State & Rockefeller Center Combined Asset Sovereign Chairman. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "builtYear": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #862)",
+      "builtYear": "2024, Central Banks, NEOM & Sovereign (Oslo Private Circuit)",
       "estimatedValue": "$41.6T Credits/yr + quantum dividend (#862)",
       "specialFeature": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Empire State & Rockefeller Center Combined Asset Sovereign Chairman. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "aiVerdict": "Executive Briefing #862 (Empire State & Rockefeller Center Combined Asset Sovereign Chairman): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #862), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #862 (Empire State & Rockefeller Center Combined Asset Sovereign Chairman): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -29673,13 +29673,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00872.webp",
     "en": {
       "title": "United States Bullion Depository Fort Knox 4,500-Ton Gold Commander",
-      "era": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #872)",
+      "era": "2024, Central Banks, NEOM & Sovereign (Big Sur Private Circuit)",
       "estimatedSalary": "$58.6T Credits/yr + quantum dividend (#872)",
       "specialDuty": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a United States Bullion Depository Fort Knox 4,500-Ton Gold Commander. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "builtYear": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #872)",
+      "builtYear": "2024, Central Banks, NEOM & Sovereign (Big Sur Private Circuit)",
       "estimatedValue": "$58.6T Credits/yr + quantum dividend (#872)",
       "specialFeature": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a United States Bullion Depository Fort Knox 4,500-Ton Gold Commander. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "aiVerdict": "Executive Briefing #872 (United States Bullion Depository Fort Knox 4,500-Ton Gold Commander): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #872), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #872 (United States Bullion Depository Fort Knox 4,500-Ton Gold Commander): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -30013,13 +30013,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00882.webp",
     "en": {
       "title": "International Criminal Court Dictator $80B Slush Fund Freezing Marshall",
-      "era": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #882)",
+      "era": "2024, Central Banks, NEOM & Sovereign (Mallorca Private Circuit)",
       "estimatedSalary": "$75.6T Credits/yr + quantum dividend (#882)",
       "specialDuty": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a International Criminal Court Dictator $80B Slush Fund Freezing Marshall. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "builtYear": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #882)",
+      "builtYear": "2024, Central Banks, NEOM & Sovereign (Mallorca Private Circuit)",
       "estimatedValue": "$75.6T Credits/yr + quantum dividend (#882)",
       "specialFeature": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a International Criminal Court Dictator $80B Slush Fund Freezing Marshall. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "aiVerdict": "Executive Briefing #882 (International Criminal Court Dictator $80B Slush Fund Freezing Marshall): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #882), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #882 (International Criminal Court Dictator $80B Slush Fund Freezing Marshall): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -30353,13 +30353,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00892.webp",
     "en": {
       "title": "Sydney Opera House White Sail Shell Ceramic Tile Master Conservator",
-      "era": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #892)",
+      "era": "2024, Central Banks, NEOM & Sovereign (Sedona Private Circuit)",
       "estimatedSalary": "$92.6T Credits/yr + quantum dividend (#892)",
       "specialDuty": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Sydney Opera House White Sail Shell Ceramic Tile Master Conservator. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "builtYear": "2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #892)",
+      "builtYear": "2024, Central Banks, NEOM & Sovereign (Sedona Private Circuit)",
       "estimatedValue": "$92.6T Credits/yr + quantum dividend (#892)",
       "specialFeature": "Presides over monumental civilizational landmarks and the heart of global monetary policy as a Sydney Opera House White Sail Shell Ceramic Tile Master Conservator. Delivers Fed rate announcements, leads NEOM's The Line, and steers CERN.",
-      "aiVerdict": "Executive Briefing #892 (Sydney Opera House White Sail Shell Ceramic Tile Master Conservator): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Zurich Sovereign Vault #892), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #892 (Sydney Opera House White Sail Shell Ceramic Tile Master Conservator): Commanding operations from 2024, Central Banks, NEOM & Sovereign (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -30693,13 +30693,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00902.webp",
     "en": {
       "title": "Tax-Free Pacific High Seas Ultra-Luxury Floating Island Sovereign President",
-      "era": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #902)",
+      "era": "2024, Sovereign Tech Monopolies & (Global Private Sanctuary)",
       "estimatedSalary": "$109.6T Credits/yr + quantum dividend (#902)",
       "specialDuty": "Wields absolute monopoly over the evolutionary leap of human civilization as a Tax-Free Pacific High Seas Ultra-Luxury Floating Island Sovereign President. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "builtYear": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #902)",
+      "builtYear": "2024, Sovereign Tech Monopolies & (Global Private Sanctuary)",
       "estimatedValue": "$109.6T Credits/yr + quantum dividend (#902)",
       "specialFeature": "Wields absolute monopoly over the evolutionary leap of human civilization as a Tax-Free Pacific High Seas Ultra-Luxury Floating Island Sovereign President. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "aiVerdict": "Executive Briefing #902 (Tax-Free Pacific High Seas Ultra-Luxury Floating Island Sovereign President): Commanding operations from 2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #902), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #902 (Tax-Free Pacific High Seas Ultra-Luxury Floating Island Sovereign President): Commanding operations from 2024, Sovereign Tech Monopolies & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -31033,13 +31033,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00912.webp",
     "en": {
       "title": "Artificial General Intelligence AGI Singularity Global Emergency Kill-Switch Keeper",
-      "era": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #912)",
+      "era": "2024, Sovereign Tech Monopolies & (Oslo Private Circuit)",
       "estimatedSalary": "$126.6T Credits/yr + quantum dividend (#912)",
       "specialDuty": "Wields absolute monopoly over the evolutionary leap of human civilization as a Artificial General Intelligence AGI Singularity Global Emergency Kill-Switch Keeper. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "builtYear": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #912)",
+      "builtYear": "2024, Sovereign Tech Monopolies & (Oslo Private Circuit)",
       "estimatedValue": "$126.6T Credits/yr + quantum dividend (#912)",
       "specialFeature": "Wields absolute monopoly over the evolutionary leap of human civilization as a Artificial General Intelligence AGI Singularity Global Emergency Kill-Switch Keeper. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "aiVerdict": "Executive Briefing #912 (Artificial General Intelligence AGI Singularity Global Emergency Kill-Switch Keeper): Commanding operations from 2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #912), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #912 (Artificial General Intelligence AGI Singularity Global Emergency Kill-Switch Keeper): Commanding operations from 2024, Sovereign Tech Monopolies & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -31373,13 +31373,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00922.webp",
     "en": {
       "title": "Planetary Core Geothermal Infinite Energy Mega-Grid Lead Engineer",
-      "era": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #922)",
+      "era": "2024, Sovereign Tech Monopolies & (Big Sur Private Circuit)",
       "estimatedSalary": "$143.6T Credits/yr + quantum dividend (#922)",
       "specialDuty": "Wields absolute monopoly over the evolutionary leap of human civilization as a Planetary Core Geothermal Infinite Energy Mega-Grid Lead Engineer. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "builtYear": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #922)",
+      "builtYear": "2024, Sovereign Tech Monopolies & (Big Sur Private Circuit)",
       "estimatedValue": "$143.6T Credits/yr + quantum dividend (#922)",
       "specialFeature": "Wields absolute monopoly over the evolutionary leap of human civilization as a Planetary Core Geothermal Infinite Energy Mega-Grid Lead Engineer. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "aiVerdict": "Executive Briefing #922 (Planetary Core Geothermal Infinite Energy Mega-Grid Lead Engineer): Commanding operations from 2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #922), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #922 (Planetary Core Geothermal Infinite Energy Mega-Grid Lead Engineer): Commanding operations from 2024, Sovereign Tech Monopolies & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -31713,13 +31713,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00932.webp",
     "en": {
       "title": "Cancer Cure & Genetic Nanobot Medical Swarm Global Monopoly Provider",
-      "era": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #932)",
+      "era": "2024, Sovereign Tech Monopolies & (Mallorca Private Circuit)",
       "estimatedSalary": "$160.6T Credits/yr + quantum dividend (#932)",
       "specialDuty": "Wields absolute monopoly over the evolutionary leap of human civilization as a Cancer Cure & Genetic Nanobot Medical Swarm Global Monopoly Provider. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "builtYear": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #932)",
+      "builtYear": "2024, Sovereign Tech Monopolies & (Mallorca Private Circuit)",
       "estimatedValue": "$160.6T Credits/yr + quantum dividend (#932)",
       "specialFeature": "Wields absolute monopoly over the evolutionary leap of human civilization as a Cancer Cure & Genetic Nanobot Medical Swarm Global Monopoly Provider. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "aiVerdict": "Executive Briefing #932 (Cancer Cure & Genetic Nanobot Medical Swarm Global Monopoly Provider): Commanding operations from 2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #932), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #932 (Cancer Cure & Genetic Nanobot Medical Swarm Global Monopoly Provider): Commanding operations from 2024, Sovereign Tech Monopolies & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -32053,13 +32053,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00942.webp",
     "en": {
       "title": "Ocean Plastic Complete Biodegradation Microbe Patent Monopoly Baron",
-      "era": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #942)",
+      "era": "2024, Sovereign Tech Monopolies & (Sedona Private Circuit)",
       "estimatedSalary": "$177.6T Credits/yr + quantum dividend (#942)",
       "specialDuty": "Wields absolute monopoly over the evolutionary leap of human civilization as a Ocean Plastic Complete Biodegradation Microbe Patent Monopoly Baron. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "builtYear": "2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #942)",
+      "builtYear": "2024, Sovereign Tech Monopolies & (Sedona Private Circuit)",
       "estimatedValue": "$177.6T Credits/yr + quantum dividend (#942)",
       "specialFeature": "Wields absolute monopoly over the evolutionary leap of human civilization as a Ocean Plastic Complete Biodegradation Microbe Patent Monopoly Baron. Holds single patents on 150-year biological rejuvenation, nuclear fusion, and quantum root encryption.",
-      "aiVerdict": "Executive Briefing #942 (Ocean Plastic Complete Biodegradation Microbe Patent Monopoly Baron): Commanding operations from 2024, Sovereign Tech Monopolies & (Zurich Sovereign Vault #942), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #942 (Ocean Plastic Complete Biodegradation Microbe Patent Monopoly Baron): Commanding operations from 2024, Sovereign Tech Monopolies & (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -32144,10 +32144,10 @@ export const MASTER_JOBS = [
     "tierName": "지구 최정상 부호·인류 미래 기술 독점 제왕",
     "era": "신화적 신전 및 다차원 신들의 황금 회의 · 메이플스토리 초월자 검은 제945구역",
     "estimatedSalary": "연봉 올림포스 암브로시아 100병 + 신들의 황금 사과 (Lv.945 메이플스토리 판매상 특별 성과급 +97,625만 원)",
-    "specialDuty": "메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상로서 아스가르드의 무지개다리 바이프로스트부터 올림포스 제우스의 번개 발전소, 북유럽 세계수 위그드라실을 관장합니다. 신화와 영웅, 초월적 존재들의 의전에 관여하며 신화와 차원의 근원적인 에너지를 다룹니다. 신들의 세계에서 인정받는 절대적인 권능의 대행자로 군림합니다.",
+    "specialDuty": "메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상으로서 아스가르드의 무지개다리 바이프로스트부터 올림포스 제우스의 번개 발전소, 북유럽 세계수 위그드라실을 관장합니다. 신화와 영웅, 초월적 존재들의 의전에 관여하며 신화와 차원의 근원적인 에너지를 다룹니다. 신들의 세계에서 인정받는 절대적인 권능의 대행자로 군림합니다.",
     "builtYear": "신화적 신전 및 다차원 신들의 황금 회의 · 메이플스토리 초월자 검은 제945구역",
     "estimatedValue": "연봉 올림포스 암브로시아 100병 + 신들의 황금 사과 (Lv.945 메이플스토리 판매상 특별 성과급 +97,625만 원)",
-    "specialFeature": "메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상로서 아스가르드의 무지개다리 바이프로스트부터 올림포스 제우스의 번개 발전소, 북유럽 세계수 위그드라실을 관장합니다. 신화와 영웅, 초월적 존재들의 의전에 관여하며 신화와 차원의 근원적인 에너지를 다룹니다. 신들의 세계에서 인정받는 절대적인 권능의 대행자로 군림합니다.",
+    "specialFeature": "메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상으로서 아스가르드의 무지개다리 바이프로스트부터 올림포스 제우스의 번개 발전소, 북유럽 세계수 위그드라실을 관장합니다. 신화와 영웅, 초월적 존재들의 의전에 관여하며 신화와 차원의 근원적인 에너지를 다룹니다. 신들의 세계에서 인정받는 절대적인 권능의 대행자로 군림합니다.",
     "aiVerdict": "[Lv.945 메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상] 신화적 신전 및 다차원 신들의 황금 회의 현장에서 활약하는 전문 보직입니다. 전 세계 헤드헌터들이 앞다투어 모시려 줄을 서는 선망의 보직으로 명예와 막대한 보상을 동시에 거머쥡니다.",
     "imagePrompt": "일러스트풍으로 메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 메이플스토리 초월자 검은 마법사 제네시스 무기 해방 퀘스트 면제권 판매상 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -32393,13 +32393,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00952.webp",
     "en": {
       "title": "Mars Olympus Mons Terraforming Atmosphere Plant Grand Director",
-      "era": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #952)",
+      "era": "3000-50,000 AD, Intergalactic (Global Private Sanctuary)",
       "estimatedSalary": "$194.6T Credits/yr + quantum dividend (#952)",
       "specialDuty": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Mars Olympus Mons Terraforming Atmosphere Plant Grand Director. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "builtYear": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #952)",
+      "builtYear": "3000-50,000 AD, Intergalactic (Global Private Sanctuary)",
       "estimatedValue": "$194.6T Credits/yr + quantum dividend (#952)",
       "specialFeature": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Mars Olympus Mons Terraforming Atmosphere Plant Grand Director. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "aiVerdict": "Executive Briefing #952 (Mars Olympus Mons Terraforming Atmosphere Plant Grand Director): Commanding operations from 3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #952), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #952 (Mars Olympus Mons Terraforming Atmosphere Plant Grand Director): Commanding operations from 3000-50,000 AD, Intergalactic (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -32733,13 +32733,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00962.webp",
     "en": {
       "title": "Earth-Moon L1 Lagrange Point 36,000km Space Elevator Cable Director",
-      "era": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #962)",
+      "era": "3000-50,000 AD, Intergalactic (Oslo Private Circuit)",
       "estimatedSalary": "$211.6T Credits/yr + quantum dividend (#962)",
       "specialDuty": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Earth-Moon L1 Lagrange Point 36,000km Space Elevator Cable Director. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "builtYear": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #962)",
+      "builtYear": "3000-50,000 AD, Intergalactic (Oslo Private Circuit)",
       "estimatedValue": "$211.6T Credits/yr + quantum dividend (#962)",
       "specialFeature": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Earth-Moon L1 Lagrange Point 36,000km Space Elevator Cable Director. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "aiVerdict": "Executive Briefing #962 (Earth-Moon L1 Lagrange Point 36,000km Space Elevator Cable Director): Commanding operations from 3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #962), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #962 (Earth-Moon L1 Lagrange Point 36,000km Space Elevator Cable Director): Commanding operations from 3000-50,000 AD, Intergalactic (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -33073,13 +33073,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00972.webp",
     "en": {
       "title": "Oort Cloud Interstellar Comet Deflection Planetary Defense Supreme Commander",
-      "era": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #972)",
+      "era": "3000-50,000 AD, Intergalactic (Big Sur Private Circuit)",
       "estimatedSalary": "$228.6T Credits/yr + quantum dividend (#972)",
       "specialDuty": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Oort Cloud Interstellar Comet Deflection Planetary Defense Supreme Commander. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "builtYear": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #972)",
+      "builtYear": "3000-50,000 AD, Intergalactic (Big Sur Private Circuit)",
       "estimatedValue": "$228.6T Credits/yr + quantum dividend (#972)",
       "specialFeature": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Oort Cloud Interstellar Comet Deflection Planetary Defense Supreme Commander. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "aiVerdict": "Executive Briefing #972 (Oort Cloud Interstellar Comet Deflection Planetary Defense Supreme Commander): Commanding operations from 3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #972), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #972 (Oort Cloud Interstellar Comet Deflection Planetary Defense Supreme Commander): Commanding operations from 3000-50,000 AD, Intergalactic (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -33413,13 +33413,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00982.webp",
     "en": {
       "title": "Supermassive Black Hole Penrose Process Ergosphere Energy Plant GM",
-      "era": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #982)",
+      "era": "3000-50,000 AD, Intergalactic (Mallorca Private Circuit)",
       "estimatedSalary": "$245.6T Credits/yr + quantum dividend (#982)",
       "specialDuty": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Supermassive Black Hole Penrose Process Ergosphere Energy Plant GM. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "builtYear": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #982)",
+      "builtYear": "3000-50,000 AD, Intergalactic (Mallorca Private Circuit)",
       "estimatedValue": "$245.6T Credits/yr + quantum dividend (#982)",
       "specialFeature": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Supermassive Black Hole Penrose Process Ergosphere Energy Plant GM. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "aiVerdict": "Executive Briefing #982 (Supermassive Black Hole Penrose Process Ergosphere Energy Plant GM): Commanding operations from 3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #982), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #982 (Supermassive Black Hole Penrose Process Ergosphere Energy Plant GM): Commanding operations from 3000-50,000 AD, Intergalactic (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {
@@ -33753,13 +33753,13 @@ export const MASTER_JOBS = [
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00992.webp",
     "en": {
       "title": "Milky Way 100-Billion-Star 3D Cartography Fleet Grand Admiral",
-      "era": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #992)",
+      "era": "3000-50,000 AD, Intergalactic (Sedona Private Circuit)",
       "estimatedSalary": "$262.6T Credits/yr + quantum dividend (#992)",
       "specialDuty": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Milky Way 100-Billion-Star 3D Cartography Fleet Grand Admiral. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "builtYear": "3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #992)",
+      "builtYear": "3000-50,000 AD, Intergalactic (Sedona Private Circuit)",
       "estimatedValue": "$262.6T Credits/yr + quantum dividend (#992)",
       "specialFeature": "Presides at the absolute pinnacle of cosmic evolution, intergalactic energy, and dimensional creation as a Milky Way 100-Billion-Star 3D Cartography Fleet Grand Admiral. Commands Dyson swarms, terraforms entire worlds, and authors Big Bangs at the Omega Point.",
-      "aiVerdict": "Executive Briefing #992 (Milky Way 100-Billion-Star 3D Cartography Fleet Grand Admiral): Commanding operations from 3000-50,000 AD, Intergalactic (Zurich Sovereign Vault #992), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
+      "aiVerdict": "Executive Briefing #992 (Milky Way 100-Billion-Star 3D Cartography Fleet Grand Admiral): Commanding operations from 3000-50,000 AD, Intergalactic (Global Private Sanctuary), this post holds supreme authority. World leaders book appointments years in advance just to request five minutes of your strategic counsel."
     }
   },
   {

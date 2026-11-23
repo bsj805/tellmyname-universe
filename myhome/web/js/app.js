@@ -285,7 +285,7 @@ export function renderCard(house, name = null, strokeInfo = null) {
     guideSection.style.display = showGuide ? '' : 'none';
   }
 
-  const displayOwnerName = name || (state.lang === 'ko' ? '김서윤' : (LANGUAGE_MAP[state.lang]?.sampleNames?.[0] || 'Steve'));
+  const displayOwnerName = name || (state.lang === 'ko' ? '김서윤' : (LANGUAGE_MAP[state.lang]?.sampleNames?.[0] || 'Chloe'));
   const activeInlineTheme = state.inlineStoryTheme || 'sunset';
   const inlineStoryTitle = state.lang === 'ko'
     ? `📸 인스타그램 공유 이미지 미리보기 (${escapeHtml(displayOwnerName)}님 예시)`
@@ -1056,7 +1056,7 @@ export function getRandomName() {
       return pool[Math.floor(Math.random() * pool.length)];
     }
     const randomLv = Math.floor(Math.random() * 1000);
-    return getSitemapNameForLevel(randomLv, state.lang) || pool[0] || 'Steve';
+    return getSitemapNameForLevel(randomLv, state.lang) || pool[0] || 'Chloe';
   }
 
   if (Math.random() < 0.5) {
@@ -1074,7 +1074,7 @@ export function refreshRandomSampleChips() {
 
   if (state.lang !== 'ko') {
     const langMeta = LANGUAGE_MAP[state.lang] || LANGUAGE_MAP['en'];
-    const baseSamples = langMeta.sampleNames || ['Steve', 'Emma', 'Liam', 'Olivia', 'Noah'];
+    const baseSamples = langMeta.sampleNames || ['Chloe', 'Emma', 'Liam', 'Olivia', 'Noah'];
     const pickedSet = new Set();
     let attempts = 0;
     while (pickedSet.size < 5 && attempts < 50) {

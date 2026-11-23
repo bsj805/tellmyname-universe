@@ -3105,3 +3105,60 @@ input {
   font-size: 1rem !important;
   line-height: 1.35 !important;
 }
+
+
+/* === TellMyName Unified Clean Header & Mobile Zero-Overflow Polish === */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.top-util-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.3rem 0.75rem 0;
+  min-height: 32px;
+}
+.mode-tabs {
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding-bottom: 2px;
+}
+.mode-tabs::-webkit-scrollbar { display: none; }
+.mode-tab-btn {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  border-radius: 999px !important;
+}
+@media (min-width: 640px) {
+  .mode-tabs { justify-content: center; }
+}
+.sample-chips {
+  -webkit-mask-image: linear-gradient(to right, #000 88%, transparent 100%);
+  mask-image: linear-gradient(to right, #000 88%, transparent 100%);
+  padding-right: 20px;
+}
+
+
+/* Prevent button orphan character wrap & tighten mobile mode tabs */
+.btn-share-primary,
+.share-btn-primary,
+#btn-open-share-modal,
+.card-action-btn {
+  white-space: nowrap !important;
+}
+@media (max-width: 480px) {
+  .mode-tabs {
+    gap: 0.3rem !important;
+    padding: 0.25rem 0.25rem !important;
+  }
+  .mode-tab-btn {
+    font-size: 0.70rem !important;
+    padding: 0.35rem 0.45rem !important;
+    gap: 0.25rem !important;
+  }
+}

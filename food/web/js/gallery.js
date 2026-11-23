@@ -22,6 +22,7 @@ import {
 } from '../../src/lib/food_dataset.js';
 
 import {
+  SUPPORTED_LANG_CODES,
   t,
   normalizeLang,
   localizeFood
@@ -220,10 +221,10 @@ export function parseRoute(pathname = '/') {
   if (clean === '' || clean === '/') {
     return { view: 'home', ...res };
   }
-  if (clean === '/gallery') {
+  if (clean === '/gallery' || clean === '/food/gallery') {
     return { view: 'gallery', ...res };
   }
-  const foodMatch = clean.match(/^\/food\/([0-9a-zA-Z_-]+)$/);
+  const foodMatch = clean.match(/^\/(?:food\/)?food\/([0-9a-zA-Z_-]+)$/);
   if (foodMatch) {
     return { view: 'food', code: formatFoodCode(foodMatch[1]), ...res };
   }
@@ -276,7 +277,9 @@ export class GalleryController {
     this.lang = normalizeLang(lang);
     this.dict = dict;
     this.renderCategoryChips();
-    this.renderGrid();
+    if (this.gridRendered) {
+      this.renderGrid();
+    }
     if (this.currentFood) {
       const refreshed = getFoodByCode(this.currentFood.code || this.currentFood.index, this.foods);
       if (refreshed) {
@@ -373,14 +376,22 @@ export class GalleryController {
       }
     }
 
-    // Render chips and grid
+    // Render chips (lazy-render 401-card grid only when gallery tab is opened)
+    this.gridRendered = false;
     this.renderCategoryChips();
-    this.renderGrid();
+  }
+
+  ensureGridRendered() {
+    if (!this.gridRendered) {
+      this.gridRendered = true;
+      this.renderGrid();
+    }
   }
 
   setCategory(categoryKey) {
     this.currentCategory = categoryKey || 'all';
     this.renderCategoryChips();
+    this.gridRendered = true;
     this.renderGrid();
   }
 
@@ -403,7 +414,10 @@ export class GalleryController {
         displayLabel = cat.enLabel;
       }
 
-      chip.innerHTML = `<span class="chip-emoji">${cat.emoji}</span> <span class="chip-text">${displayLabel}</span>`;
+      // Strip leading emoji/symbol from translated label so cat.emoji is never duplicated
+      const cleanLabel = String(displayLabel || '').replace(/^[\p{Extended_Pictographic}\u2600-\u27BF\uFE0F\s]+/u, '').trim() || displayLabel;
+
+      chip.innerHTML = `<span class="chip-emoji">${cat.emoji}</span> <span class="chip-text">${cleanLabel}</span>`;
       chip.addEventListener('click', () => {
         this.setCategory(cat.key);
       });
@@ -612,6 +626,11 @@ export class GalleryController {
 
     this.detailModal.classList.add('open');
     this.detailModal.setAttribute('aria-hidden', 'false');
+
+    if (typeof document !== 'undefined') {
+      const brand = (this.lang === 'ko' ? '오늘 뭐 먹지?' : 'TellMyName Food');
+      document.title = `${this.currentFood.name} | ${brand}`;
+    }
 
     if (pushState && typeof window !== 'undefined' && window.history?.pushState) {
       const url = buildFoodUrl(code, this.lang);

@@ -228,8 +228,8 @@ export const UI_STRINGS = {
     enterHouseBtn: '이 탈것 들어가서 사진 보기 👉',
     linkedNameBadge: '👤 대표 오너: {name}',
     seoTitleWithName: '{name}님에게 어울리는 자동차는? {title} | MyCar AI 시승 감정소',
-    seoDescWithName: '{name}님의 이름으로 찾은 인생 탈것: {title} ({zoneLabel}, {realityLabel}). {name} car recommendation, {name} vehicle image.',
-    seoImageKeywords: '{name} 자동차 추천, {name} 탈것 이미지, {name} car recommendation, {name} vehicle image, car for {name}',
+    seoDescWithName: '{name}님의 이름으로 찾은 인생 탈것: {title} ({zoneLabel}, {realityLabel}).',
+    seoImageKeywords: '{name} 자동차 추천, {name} 탈것 이미지, MyCar',
     seoImgAltWithName: '{name}님에게 어울리는 자동차: {title} ({categoryLabel}) - {name} car image',
     openShareModalBtn: '인스타 스토리 / 카톡 공유 카드 만들기',
     shareModal: {
@@ -419,8 +419,8 @@ export const UI_STRINGS = {
     enterHouseBtn: 'View Vehicle & Photo 👉',
     linkedNameBadge: '👤 Featured Driver: {name}',
     seoTitleWithName: 'The Car That Suits {name}? {title} | MyCar AI Garage',
-    seoDescWithName: 'Lifelong vehicle for {name}: {title} ({zoneLabel}, {realityLabel}). {name} car recommendation, vehicle image.',
-    seoImageKeywords: '{name} car recommendation, {name} vehicle image, car for {name}',
+    seoDescWithName: 'Lifelong vehicle for {name}: {title} ({zoneLabel}, {realityLabel}).',
+    seoImageKeywords: '{title}, MyCar, TellMyName',
     seoImgAltWithName: 'The car that suits {name}: {title} ({categoryLabel}) - {name} car image',
     openShareModalBtn: 'Create Instagram Story / Share Card',
     shareModal: {

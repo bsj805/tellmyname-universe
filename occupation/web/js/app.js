@@ -266,11 +266,8 @@ export function renderCard(job, name = null, strokeInfo = null) {
   }
 
   // SEO Image Alt & Title
-  const seoImagePhrase = name
-    ? `${name} job recommendation, ${name} occupation image, job for ${name}`
-    : 'MyJob AI occupation recommendation, AI job image';
-  const imgAltText = `${escapeHtml(localized.title)} (${escapeHtml(localized.categoryLabel || '')}) - ${seoImagePhrase}`;
-  const imgTitleText = `${escapeHtml(localized.title)} - ${seoImagePhrase}`;
+  const imgAltText = `${escapeHtml(localized.title)} (${escapeHtml(localized.categoryLabel || '')})`;
+  const imgTitleText = `${escapeHtml(localized.title)}`;
 
   const ownerHeadline = name
     ? (dict.ownerTitle ? dict.ownerTitle.replace('{name}', escapeHtml(name)) : `${escapeHtml(name)}`)
@@ -1203,7 +1200,7 @@ export async function handleInitialRoute() {
   let initialLang = 'ko';
 
   try {
-    const path = window.location.pathname || '';
+    const path = (window.location.pathname || '').replace(/^\/job(?=\/|$)/, '') || '/';
     const searchParams = new URLSearchParams(window.location.search || '');
 
     if (searchParams.has('lang')) {

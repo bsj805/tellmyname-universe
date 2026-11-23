@@ -199,8 +199,8 @@ export const UI_DICTIONARY = {
     enterHouseBtn: '이 직업 들어가서 사진 보기 👉',
     linkedNameBadge: '👤 대표 취업자: {name}',
     seoTitleWithName: '{name}님에게 어울리는 직업은? {title} | MyJob AI 인사발령',
-    seoDescWithName: '{name}님의 이름으로 찾은 평생 직업: {title} ({zoneLabel}, {realityLabel}). {name} job recommendation, {name} career image.',
-    seoImageKeywords: '{name} 직업 추천, {name} 직업 이미지, {name} job recommendation, {name} career image, job for {name}',
+    seoDescWithName: '{name}님의 이름으로 찾은 평생 직업: {title} ({zoneLabel}, {realityLabel}).',
+    seoImageKeywords: '{name} 직업 추천, {title}, MyJob',
     seoImgAltWithName: '{name}님에게 어울리는 직업: {title} ({categoryLabel}) - {name} job image',
     openShareModalBtn: '인스타 스토리 / 카톡 공유 카드 만들기',
     shareModal: {
@@ -376,8 +376,8 @@ export const UI_DICTIONARY = {
     enterHouseBtn: 'View Job & Photo 👉',
     linkedNameBadge: '👤 Featured Match: {name}',
     seoTitleWithName: 'The Job That Suits {name}? {title} | MyJob AI HR Appraisal',
-    seoDescWithName: 'Lifelong career for {name}: {title} ({zoneLabel}, {realityLabel}). {name} job recommendation, career image.',
-    seoImageKeywords: '{name} job recommendation, {name} career image, job for {name}',
+    seoDescWithName: 'Lifelong career for {name}: {title} ({zoneLabel}, {realityLabel}).',
+    seoImageKeywords: '{title}, MyJob, TellMyName',
     seoImgAltWithName: 'The job that suits {name}: {title} ({categoryLabel}) - {name} job image',
     openShareModalBtn: 'Create Instagram Story / Share Card',
     shareModal: {

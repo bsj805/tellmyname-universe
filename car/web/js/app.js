@@ -527,11 +527,8 @@ export function renderCard(car, name = null, strokeInfo = null) {
     }
   }
 
-  const seoImagePhrase = name
-    ? `${name} car recommendation, ${name} vehicle image, ride for ${name}`
-    : 'MyCar AI vehicle recommendation, vehicle illustration';
-  const imgAltText = `${escapeHtml(localized.title)} (${escapeHtml(localized.categoryLabel || '')}) - ${seoImagePhrase}`;
-  const imgTitleText = `${escapeHtml(localized.title)} - ${seoImagePhrase}`;
+  const imgAltText = `${escapeHtml(localized.title)} (${escapeHtml(localized.categoryLabel || '')})`;
+  const imgTitleText = `${escapeHtml(localized.title)}`;
 
   const ownerHeadline = name
     ? (dict.ownerTitle ? dict.ownerTitle.replace('{name}', escapeHtml(name)) : `${escapeHtml(name)}님에게 어울리는 자동차`)
@@ -1247,7 +1244,7 @@ export async function handleInitialRoute() {
   const langMap = getLanguageMap();
 
   try {
-    const path = window.location.pathname || '';
+    const path = (window.location.pathname || '').replace(/^\/car(?=\/|$)/, '') || '/';
     const searchParams = new URLSearchParams(window.location.search || '');
 
     if (searchParams.has('lang')) {
