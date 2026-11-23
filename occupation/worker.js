@@ -199,6 +199,60 @@ function localizeStaticShellHtml(html, selectedLang, dict) {
   html = html.replace(/<option value="ko" selected>/i, '<option value="ko">');
   html = html.replace(new RegExp(`<option value="${selectedLang}">`, 'i'), `<option value="${selectedLang}" selected>`);
 
+
+  // Complete SSR non-Korean localization (0 Korean leaks for Googlebot / ?lang=en)
+  html = html.replace(/<section[^>]*id=["']photodiary-promo-section["'][\s\S]*?<\/section>/i, '<section id="photodiary-promo-section" class="pd-promo-section" aria-label="PhotoDiary Travel Reels Preview" style="margin:2rem auto;max-width:780px;padding:0 12px;">\n  <div class="pd-promo-card" style="background:rgba(15,23,42,0.85);border:1px solid rgba(56,189,248,0.28);border-radius:18px;padding:18px 16px;text-align:center;">\n    <div style="font-size:0.78rem;font-weight:700;color:#38bdf8;letter-spacing:0.06em;margin-bottom:6px;">TRAVEL TIMELINE &amp; REELS STUDIO</div>\n    <h3 style="font-size:1.15rem;font-weight:800;color:#f8fafc;margin:0 0 6px;">Turn Your Travel Photos Into a Map Timeline &amp; Reels</h3>\n    <p style="font-size:0.88rem;color:#cbd5e1;margin:0 0 14px;">Organize GPS-tagged photos automatically by date and route on PhotoDiary.</p>\n    <div class="pd-promo-grid" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-bottom:14px;">\n      <img loading="eager" src="/samples/italy/italy-reels-preview.gif" alt="PhotoDiary travel reels preview" style="width:100%;border-radius:10px;border:1px solid rgba(148,163,184,0.25);" />\n      <img loading="eager" src="/samples/italy/italy-timeline-sample.png" alt="PhotoDiary travel timeline snapshot" style="width:100%;border-radius:10px;border:1px solid rgba(148,163,184,0.25);" />\n    </div>\n    <a href="https://photodiary.tellmyname.app/" target="_blank" rel="noopener" style="display:inline-block;padding:10px 20px;border-radius:999px;background:linear-gradient(135deg,#38bdf8,#6366f1);color:#fff;font-weight:700;font-size:0.88rem;text-decoration:none;">Explore PhotoDiary &rarr;</a>\n  </div>\n</section>');
+  const _enReplacements = [
+    ['내 집 찾기', 'Find My Home'],
+    ['내 직업 찾기', 'Find My Job'],
+    ['내 자동차 찾기', 'Find My Car'],
+    ['최악 중 최선 월드컵', 'Best of the Worst'],
+    ['최선 중 최악 월드컵', 'Worst of the Best'],
+    ['내 원래 집으로 돌아가기', 'Return to My House'],
+    ['내 원래 직업으로 돌아가기', 'Return to My Job'],
+    ['내 원래 자동차로 돌아가기', 'Return to My Car'],
+    ['TellMyName 허브', 'TellMyName Home'],
+    ['오늘 뭐 먹지?', 'Daily Food'],
+    ['포토 다이어리', 'PhotoDiary'],
+    ['서비스 소개', 'About'],
+    ['개인정보처리방침', 'Privacy Policy'],
+    ['이용약관', 'Terms'],
+    ['문의하기', 'Contact'],
+    ['추천 이름:', 'Trending:'],
+    ['인기 이름:', 'Trending:'],
+    ['랜덤 집 보기', 'Random House'],
+    ['랜덤 직업 보기', 'Random Job'],
+    ['랜덤 자동차 보기', 'Random Car'],
+    ['이전 단계 집 보기', 'Previous Level'],
+    ['다음 단계 집 보기', 'Next Level'],
+    ['이전 단계 직업 보기', 'Previous Level'],
+    ['다음 단계 직업 보기', 'Next Level'],
+    ['이전 단계 자동차 보기', 'Previous Level'],
+    ['다음 단계 자동차 보기', 'Next Level'],
+    ['결과 링크 복사', 'Copy Link'],
+    ['인스타 스토리 / 카톡 공유 카드 만들기', 'Create Share Card'],
+    ['이름을 입력하세요 (예: 김서윤, Chloe, 陽翔...)', 'Enter a name (e.g., Chloe, Emma, Liam...)'],
+    ['이름을 입력하세요 (예: 김서윤, 박대기, 홍길동, Steve...)', 'Enter a name (e.g., Chloe, Emma, Liam...)'],
+    ['이름을 입력하세요 (예: 김서윤, 해리포터, 홍길동, Steve...)', 'Enter a name (e.g., Chloe, Emma, Liam...)'],
+    ['키보드 좌우 방향키(← / →)로 단계 이동, 스페이스바(Space)로 랜덤 탐색할 수 있습니다.', 'Use arrow keys (← / →) to browse levels or Space for random.']
+  ];
+  for (const [koStr, enStr] of _enReplacements) {
+    if (html.includes(koStr)) html = html.split(koStr).join(enStr);
+  }
+
+  html = html.replace(
+    /<article[^>]*>[\s\S]*?4\.\s*나의 직업 고르기 이상형 월드컵[\s\S]*?<\/article>/i,
+    '<article class="seo-article"><h3>4. Find Your Ideal Career World Cup</h3><p>Test your priorities across 1,001 unique careers in two tournament brackets: <strong>Best of the Worst</strong> (choose the least painful extreme job from Lv.0–499) and <strong>Worst of the Best</strong> (eliminate the most overwhelming dream role from Lv.500–1000).</p></article>'
+  );
+  // Translate whitepaper article 4 if Korean remains in SSR
+  html = html.replace(
+    /<article[^>]*>[\s\S]*?4\.\s*내가 좋아하는 집은\?[\s\S]*?<\/article>/i,
+    '<article class="seo-article"><h3>4. Which House Would You Pick? Ideal Type World Cup</h3><p>Compare 1,000 houses head-to-head in two tournament modes: <strong>Best of the Worst</strong> (pick the most livable spot among Lv.0–499 extreme shelters) and <strong>Worst of the Best</strong> (eliminate the most overwhelming option among Lv.500–999 dream landmarks).</p></article>'
+  );
+  // Translate any remaining Korean aria-labels or titles in static shell
+  html = html.replace(/aria-label="[^"]*[가-힣][^"]*"/g, 'aria-label="Navigation"');
+  html = html.replace(/title="[^"]*[가-힣][^"]*"/g, '');
+
   return html;
 }
 
@@ -299,7 +353,7 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
   ).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${baseCanonicalUrl}" />`;
 
   // Google AdSense
-  const adsenseTag = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
+  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(html) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
   // Schema.org JSON-LD
   const imageObjectNode = {
@@ -441,7 +495,7 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
           <span class="badge-item badge-category">${escapeHtml(catBadgeText)}</span>
         </div>
 
-        <h2 class="job-title-main" id="cert-title">${escapeHtml(displayJob.title)}</h2>
+        <h1 class="job-title-main" id="cert-title">${escapeHtml(displayJob.title)}</h1>
 
         <div class="artwork-container">
           <img src="${ogImageUrl}"
@@ -629,7 +683,7 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
     ]
   };
 
-  const adsenseTag = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
+  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(html) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
   const headMetadata = [
     `<title>${escapeHtml(localizedTitle)}</title>`,

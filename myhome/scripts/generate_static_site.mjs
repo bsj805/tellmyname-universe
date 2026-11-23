@@ -226,6 +226,30 @@ export async function buildStaticSite() {
     '    <priority>0.5</priority>',
     '  </url>',
     '  <url>',
+    `    <loc>${SITE_ORIGIN}/food/</loc>`,
+    `    <lastmod>${today}</lastmod>`,
+    '    <changefreq>daily</changefreq>',
+    '    <priority>0.9</priority>',
+    '  </url>',
+    '  <url>',
+    `    <loc>${SITE_ORIGIN}/food/gallery</loc>`,
+    `    <lastmod>${today}</lastmod>`,
+    '    <changefreq>weekly</changefreq>',
+    '    <priority>0.9</priority>',
+    '  </url>',
+    '  <url>',
+    `    <loc>${SITE_ORIGIN}/job/</loc>`,
+    `    <lastmod>${today}</lastmod>`,
+    '    <changefreq>daily</changefreq>',
+    '    <priority>0.9</priority>',
+    '  </url>',
+    '  <url>',
+    `    <loc>${SITE_ORIGIN}/car/</loc>`,
+    `    <lastmod>${today}</lastmod>`,
+    '    <changefreq>daily</changefreq>',
+    '    <priority>0.9</priority>',
+    '  </url>',
+    '  <url>',
     `    <loc>${SITE_ORIGIN}/contact.html</loc>`,
     `    <lastmod>${today}</lastmod>`,
     '    <changefreq>monthly</changefreq>',
@@ -275,7 +299,7 @@ export async function buildStaticSite() {
   fs.writeFileSync(path.join(DIST_DIR, 'sitemap-images.xml'), xmlImages.join('\n'), 'utf8');
   console.log('✔ Generated dist/sitemap-images.xml (1,000 house image URLs)');
 
-  // 5-e. dist/sitemap.xml (Sitemap Index — Level-based + World Cup + Family Sitemaps)
+  // 5-e. dist/sitemap.xml (Clean Unified Sitemap Index — Zero self-reference, zero external subdomain split)
   const xmlIndex = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -287,26 +311,6 @@ export async function buildStaticSite() {
     `    <loc>${SITE_ORIGIN}/sitemap-images.xml</loc>`,
     `    <lastmod>${today}</lastmod>`,
     '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>https://tellmyname.app/sitemap.xml</loc>`,
-    `    <lastmod>${today}</lastmod>`,
-    '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>https://food.tellmyname.app/sitemap.xml</loc>`,
-    `    <lastmod>${today}</lastmod>`,
-    '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>https://job.tellmyname.app/sitemap.xml</loc>`,
-    `    <lastmod>${today}</lastmod>`,
-    '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>https://car.tellmyname.app/sitemap.xml</loc>`,
-    `    <lastmod>${today}</lastmod>`,
-    '  </sitemap>',
-    '  <sitemap>',
-    `    <loc>https://photodiary.tellmyname.app/sitemap.xml</loc>`,
-    `    <lastmod>${today}</lastmod>`,
-    '  </sitemap>',
     '</sitemapindex>'
   ];
   fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), xmlIndex.join('\n'), 'utf8');
@@ -315,7 +319,7 @@ export async function buildStaticSite() {
   // 6. dist/robots.txt 생성 (Yeti, Googlebot, kakaotalk, facebookexternalhit 명시 허용)
   console.log('\n[6/8] Generating robots.txt with search crawler & scraper permissions...');
   const robotsTxt = [
-    '# Robots.txt for https://myhome.tellmyname.app',
+    '# Robots.txt for https://tellmyname.app',
     '# Designed for Naver Yeti, Googlebot, Yandex, Bingbot, Baiduspider, Daum, Kakao, and Facebook crawlers',
     '',
     'User-agent: *',
@@ -383,7 +387,6 @@ export async function buildStaticSite() {
     `Sitemap: ${SITE_ORIGIN}/sitemap-main.xml`,
     `Sitemap: ${SITE_ORIGIN}/sitemap-images.xml`,
     `Sitemap: ${SITE_ORIGIN}/rss.xml`,
-    'Sitemap: https://food.tellmyname.app/sitemap.xml',
     ''
   ].join('\n');
   fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsTxt, 'utf8');

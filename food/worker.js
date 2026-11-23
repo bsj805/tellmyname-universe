@@ -369,7 +369,7 @@ export function generateRobotsTxt(origin = SITE_ORIGIN) {
 }
 
 export const LOCALIZED_SAMPLE_NAMES = {
-  en: ['Steve', 'Emma', 'Olivia', 'Liam', 'Noah'],
+  en: ['Chloe', 'Emma', 'Olivia', 'Liam', 'Noah'],
   ja: ['佐藤', '鈴木', '高橋', '田中', '伊藤'],
   zh: ['张伟', '王伟', '王芳', '李伟', '李娜'],
   hi: ['Aarav', 'Vihaan', 'Aditi', 'Diya', 'Rohan'],
@@ -432,6 +432,60 @@ export function localizeStaticShellHtml(html, lang = 'ko') {
     const chipsHtml = samples.map(n => `<button type="button" class="sample-name-chip" data-name="${escapeHtml(n)}">${escapeHtml(n)}</button>`).join('\n            ');
     html = html.replace(/<div class="sample-names-wrap" id="sample-chips-container">[\s\S]*?<\/div>/i, `<div class="sample-names-wrap" id="sample-chips-container">\n            ${chipsHtml}\n          </div>`);
   }
+
+
+  // Complete SSR non-Korean localization for food (0 Korean leaks for Googlebot / ?lang=en)
+  html = html.replace(/<section[^>]*id=["']photodiary-promo-section["'][\s\S]*?<\/section>/i, '<section id="photodiary-promo-section" class="pd-promo-section" aria-label="PhotoDiary Travel Reels Preview" style="margin:2rem auto;max-width:780px;padding:0 12px;">\n  <div class="pd-promo-card" style="background:rgba(15,23,42,0.85);border:1px solid rgba(56,189,248,0.28);border-radius:18px;padding:18px 16px;text-align:center;">\n    <div style="font-size:0.78rem;font-weight:700;color:#38bdf8;letter-spacing:0.06em;margin-bottom:6px;">TRAVEL TIMELINE &amp; REELS STUDIO</div>\n    <h3 style="font-size:1.15rem;font-weight:800;color:#f8fafc;margin:0 0 6px;">Turn Your Travel Photos Into a Map Timeline &amp; Reels</h3>\n    <p style="font-size:0.88rem;color:#cbd5e1;margin:0 0 14px;">Organize GPS-tagged photos automatically by date and route on PhotoDiary.</p>\n    <div class="pd-promo-grid" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-bottom:14px;">\n      <img loading="eager" src="/samples/italy/italy-reels-preview.gif" alt="PhotoDiary travel reels preview" style="width:100%;border-radius:10px;border:1px solid rgba(148,163,184,0.25);" />\n      <img loading="eager" src="/samples/italy/italy-timeline-sample.png" alt="PhotoDiary travel timeline snapshot" style="width:100%;border-radius:10px;border:1px solid rgba(148,163,184,0.25);" />\n    </div>\n    <a href="https://photodiary.tellmyname.app/" target="_blank" rel="noopener" style="display:inline-block;padding:10px 20px;border-radius:999px;background:linear-gradient(135deg,#38bdf8,#6366f1);color:#fff;font-weight:700;font-size:0.88rem;text-decoration:none;">Explore PhotoDiary &rarr;</a>\n  </div>\n</section>');
+  // Replace Korean sample chips with international names
+  html = html.replace(
+    /<div class="sample-chips-list" id="sample-chips-container">[\s\S]*?<\/div>/i,
+    '<div class="sample-chips-list" id="sample-chips-container">' +
+    ['Chloe', 'Emma', 'Liam', 'Olivia', 'Noah', 'Sophia', 'Lucas', 'Maya']
+      .map(n => `<button type="button" class="sample-chip" data-name="${n}">${n}</button>`).join('') +
+    '</div>'
+  );
+  // Translate Korean timeline header & static strings
+  html = html.replace(/([A-Za-z0-9가-힣_\s-]+)님의 하루 5끼 전체 식단표/g, "$1's 5 Daily Meal Recommendations");
+  html = html.replace(/김서윤\s*님의 하루 5끼 전체 식단표/g, "Chloe's 5 Daily Meal Recommendations");
+  html = html.replace(/하루 5끼 전체 식단표/g, '5 Daily Meal Recommendations');
+  html = html.replace(/(\d{1,3}(?:,\d{3})*)원(?:\s*\([^)]*[가-힣][^)]*\))?/g, (_, p) => '$' + Math.max(1, Math.round(parseInt(p.replace(/,/g, ''), 10) / 1350)) + ' USD');
+  const _foodEnPairs = [
+    ['🇰🇷 서울 (KST, UTC+9)', '🇰🇷 Seoul (KST, UTC+9)'],
+    ['🇯🇵 도쿄 (JST, UTC+9)', '🇯🇵 Tokyo (JST, UTC+9)'],
+    ['🇺🇸 뉴욕 (EST/EDT)', '🇺🇸 New York (EST/EDT)'],
+    ['🇺🇸 LA (PST/PDT)', '🇺🇸 Los Angeles (PST/PDT)'],
+    ['🇬🇧 런던 (GMT/BST)', '🇬🇧 London (GMT/BST)'],
+    ['🇫🇷 파리 (CET/CEST)', '🇫🇷 Paris (CET/CEST)'],
+    ['🇩🇪 베를린 (CET/CEST)', '🇩🇪 Berlin (CET/CEST)'],
+    ['🇦🇺 시드니 (AEST/AEDT)', '🇦🇺 Sydney (AEST/AEDT)'],
+    ['🇸🇬 싱가포르 (SGT)', '🇸🇬 Singapore (SGT)'],
+    ['🇹🇭 방콕 (ICT)', '🇹🇭 Bangkok (ICT)'],
+    ['🇻🇳 하노이 (ICT)', '🇻🇳 Hanoi (ICT)'],
+    ['🇮🇩 자카르타 (WIB)', '🇮🇩 Jakarta (WIB)'],
+    ['🇷🇺 모스크바 (MSK)', '🇷🇺 Moscow (MSK)'],
+    ['🇨🇳 상하이 (CST)', '🇨🇳 Shanghai (CST)'],
+    ['🇮🇳 뭄바이 (IST)', '🇮🇳 Mumbai (IST)'],
+    ['🇧🇷 상파울루 (BRT)', '🇧🇷 São Paulo (BRT)'],
+    ['🇲🇽 멕시코시티 (CST)', '🇲🇽 Mexico City (CST)'],
+    ['서울', 'Seoul'], ['도쿄', 'Tokyo'], ['뉴욕', 'New York'], ['런던', 'London'],
+    ['파리', 'Paris'], ['시드니', 'Sydney'], ['방콕', 'Bangkok'], ['싱가포르', 'Singapore'],
+    ['오늘 (2026.11.08)', 'Today'],
+    ['음식 일러스트', 'Food illustration'],
+    ['서비스 소개', 'About'],
+    ['개인정보처리방침', 'Privacy Policy'],
+    ['이용약관', 'Terms'],
+    ['문의하기', 'Contact'],
+    ['나에게 어울리는 집', 'MyHome'],
+    ['나에게 어울리는 직업', 'MyJob'],
+    ['나에게 어울리는 자동차', 'MyCar'],
+    ['포토 다이어리', 'PhotoDiary'],
+    ['오늘 뭐 먹지?', 'TellMyName Food']
+  ];
+  for (const [k, v] of _foodEnPairs) {
+    if (html.includes(k)) html = html.split(k).join(v);
+  }
+  html = html.replace(/aria-label="[^"]*[가-힣][^"]*"/g, 'aria-label="Food navigation"');
+  html = html.replace(/title="[^"]*[가-힣][^"]*"/g, '');
 
   return html;
 }
@@ -496,8 +550,8 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
   // 15 hreflang tags
   const hreflangTags = SUPPORTED_LANG_CODES.map(l => {
     const altHref = isHome
-      ? `${origin}/?lang=${l}`
-      : `${origin}/name/${encodeURIComponent(name)}?lang=${l}`;
+      ? (l === 'ko' ? `${origin}/` : `${origin}/?lang=${l}`)
+      : (l === 'ko' ? `${origin}/name/${encodeURIComponent(name)}` : `${origin}/name/${encodeURIComponent(name)}?lang=${l}`);
     return `<link rel="alternate" hreflang="${l}" href="${altHref}" />`;
   });
   const defaultHref = isHome
@@ -729,6 +783,30 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
     html = html.replace(/<\/body>/i, `  ${initialDataScript}\n</body>`);
   } else {
     html += `\n${initialDataScript}`;
+  }
+
+
+  if (normLang !== 'ko') {
+    html = html
+      .replace(/<section[^>]*id=["']photodiary-promo-section["'][\s\S]*?<\/section>/i, '')
+      .replace(/([A-Za-z0-9가-힣_\s-]+)님의\s*5 Daily Meal Recommendations/g, "$1's 5 Daily Meal Recommendations")
+      .replace(/김서윤<\/span>님의/g, "Chloe</span>'s")
+      .replace(/<\/span>님의/g, "</span>'s")
+      .replace(/김서윤님의/g, "Chloe's")
+      .replace(/소개 \(About\)/g, 'About')
+      .replace(/문의 \(Contact\)/g, 'Contact')
+      .replace(/([A-Za-z]+)님의/g, "$1's")
+      .replace(/(\d{1,3}(?:,\d{3})*)원(?:\s*\([^)]*[가-힣][^)]*\))?/g, (_, p) => '$' + Math.max(1, Math.round(parseInt(p.replace(/,/g, ''), 10) / 1350)) + ' USD')
+      .replace(/정밀 시간 조절:/g, 'Fine-tune hour:')
+      .replace(/아침 추천 시간/g, 'Breakfast time')
+      .replace(/점심 추천 시간/g, 'Lunch time')
+      .replace(/간식 추천 시간/g, 'Snack time')
+      .replace(/저녁 추천 시간/g, 'Dinner time')
+      .replace(/야식 추천 시간/g, 'Late-night time')
+      .replace(/✅ 원하는 음식만 선택 \(/g, '✅ Selected meals (')
+      .replace(/끼\)/g, ')')
+      .replace(/언어 선택 \(Language\)/g, 'Language')
+      .replace(/추천 끼니/g, 'Recommended meal');
   }
 
   return html;
@@ -1095,7 +1173,7 @@ export function renderGallerySeoHtml(baseHtml, lang = 'ko', origin = SITE_ORIGIN
   }
 
   const keywordsText = `일러스트도감, 음식도감, 401선, 푸드아트, 랜덤음식추천, Mukbang, Gallery`;
-  const canonicalUrl = `${origin}/gallery?lang=${normLang}`;
+  const canonicalUrl = normLang === 'ko' ? `${origin}/gallery` : `${origin}/gallery?lang=${normLang}`;
   const ogImageUrl = `${origin}/images/web/00001.jpg`;
 
   // 15 hreflang tags
@@ -1199,6 +1277,46 @@ export function renderGallerySeoHtml(baseHtml, lang = 'ko', origin = SITE_ORIGIN
     html = html.replace(/<\/body>/i, `  ${initialDataScript}\n</body>`);
   } else {
     html += `\n${initialDataScript}`;
+  }
+
+
+  // Inject 24 real SSR food cards into #gallery-grid and show #gallery-view (hide #daily-view) for Googlebot
+  if (typeof ALL_FOODS !== 'undefined' && Array.isArray(ALL_FOODS) && ALL_FOODS.length > 0) {
+    const sampleCards = ALL_FOODS.slice(0, 24).map(f => {
+      const code = f.code || formatFoodCode(f.index || 1);
+      const displayName = normLang === 'ko' ? f.name : (f.englishName || f.name);
+      const cal = f.calories ? `🔥 ${escapeHtml(f.calories)}` : '';
+      return `<article class="gallery-food-card"><a href="/food/${code}${normLang !== 'ko' ? '?lang=' + normLang : ''}" style="text-decoration:none;color:inherit;display:block;"><div class="gallery-card-thumb-wrap"><img src="/images/web/${code}.webp" alt="${escapeHtml(displayName)}" class="gallery-card-thumb" loading="lazy" width="320" height="240" /><span class="gallery-code-badge">#${code}</span></div><div class="gallery-card-info"><h3 class="gallery-card-title">${escapeHtml(displayName)}</h3><div class="gallery-card-meta"><span>${cal}</span></div></div></a></article>`;
+    }).join('\n');
+    html = html
+      .replace(/<div id="daily-view" class="daily-view">/i, '<div id="daily-view" class="daily-view" style="display:none;">')
+      .replace(/<section id="gallery-view" class="gallery-view" style="display:\s*none;">/i, '<section id="gallery-view" class="gallery-view" style="display:flex;">')
+      .replace(/<div class="gallery-grid" id="gallery-grid">\s*<!--[\s\S]*?-->\s*<\/div>/i, `<div class="gallery-grid" id="gallery-grid">\n${sampleCards}\n</div>`)
+      .replace(/<div id="gallery-grid" class="gallery-grid">\s*<\/div>/i, `<div id="gallery-grid" class="gallery-grid">\n${sampleCards}\n</div>`);
+  }
+
+
+  if (normLang !== 'ko') {
+    html = html
+      .replace(/<section[^>]*id=["']photodiary-promo-section["'][\s\S]*?<\/section>/i, '')
+      .replace(/([A-Za-z0-9가-힣_\s-]+)님의\s*5 Daily Meal Recommendations/g, "$1's 5 Daily Meal Recommendations")
+      .replace(/김서윤<\/span>님의/g, "Chloe</span>'s")
+      .replace(/<\/span>님의/g, "</span>'s")
+      .replace(/김서윤님의/g, "Chloe's")
+      .replace(/소개 \(About\)/g, 'About')
+      .replace(/문의 \(Contact\)/g, 'Contact')
+      .replace(/([A-Za-z]+)님의/g, "$1's")
+      .replace(/(\d{1,3}(?:,\d{3})*)원(?:\s*\([^)]*[가-힣][^)]*\))?/g, (_, p) => '$' + Math.max(1, Math.round(parseInt(p.replace(/,/g, ''), 10) / 1350)) + ' USD')
+      .replace(/정밀 시간 조절:/g, 'Fine-tune hour:')
+      .replace(/아침 추천 시간/g, 'Breakfast time')
+      .replace(/점심 추천 시간/g, 'Lunch time')
+      .replace(/간식 추천 시간/g, 'Snack time')
+      .replace(/저녁 추천 시간/g, 'Dinner time')
+      .replace(/야식 추천 시간/g, 'Late-night time')
+      .replace(/✅ 원하는 음식만 선택 \(/g, '✅ Selected meals (')
+      .replace(/끼\)/g, ')')
+      .replace(/언어 선택 \(Language\)/g, 'Language')
+      .replace(/추천 끼니/g, 'Recommended meal');
   }
 
   return html;
