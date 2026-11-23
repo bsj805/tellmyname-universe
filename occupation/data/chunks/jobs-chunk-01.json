@@ -94,10 +94,10 @@
       "title": "Joseon Dynasty Police Agency Flogging Substitute (Maepumpali)",
       "era": "1750 AD, Joseon Hanseong Police Courtyard",
       "estimatedSalary": "5 Ryang of Copper Coins (Salts for bruises extra)/year",
-      "specialDuty": "Tied to flogging benches taking 100 heavy wooden paddle strikes in place of wealthy aristocrats. Must scream realistically so magistrates don't catch the bribery, leaving hips completely bloodied.",
+      "specialDuty": "Tied to flogging benches taking 100 heavy wooden paddle strikes in place of wealthy aristocrats. Must scream realistically so magistrates don't catch the bribery, leaving hips completely battered.",
       "builtYear": "1750 AD, Joseon Hanseong Police Courtyard",
       "estimatedValue": "5 Ryang of Copper Coins (Salts for bruises extra)/year",
-      "specialFeature": "Tied to flogging benches taking 100 heavy wooden paddle strikes in place of wealthy aristocrats. Must scream realistically so magistrates don't catch the bribery, leaving hips completely bloodied.",
+      "specialFeature": "Tied to flogging benches taking 100 heavy wooden paddle strikes in place of wealthy aristocrats. Must scream realistically so magistrates don't catch the bribery, leaving hips completely battered.",
       "aiVerdict": "Taking 100 brutal flogging strikes with your own buttocks for wealthy sinners—tearful survival!"
     }
   },
@@ -332,11 +332,11 @@
       "title": "Wizard Tower Failed Chimera Byproduct Dump Boy",
       "era": "Forbidden Alchemy Lab Waste Chute Underbelly",
       "estimatedSalary": "1 Plucked Featherless Chimera Wing Bone/year",
-      "specialDuty": "Shovels mutated chimeric carcasses—lion heads fused with goat tails—into incinerator dumpsters. Severed snake tails still twitch inside waste bins, lunging at the dump boy's ankles.",
+      "specialDuty": "Shovels mutated chimeric carcasses—lion heads fused with goat tails—into incinerator dumpsters. Detached snake tails still twitch inside waste bins, lunging at the dump boy's ankles.",
       "builtYear": "Forbidden Alchemy Lab Waste Chute Underbelly",
       "estimatedValue": "1 Plucked Featherless Chimera Wing Bone/year",
-      "specialFeature": "Shovels mutated chimeric carcasses—lion heads fused with goat tails—into incinerator dumpsters. Severed snake tails still twitch inside waste bins, lunging at the dump boy's ankles.",
-      "aiVerdict": "Emptying barrels of fused mutant chimera parts where severed snake tails bite your ankles!"
+      "specialFeature": "Shovels mutated chimeric carcasses—lion heads fused with goat tails—into incinerator dumpsters. Detached snake tails still twitch inside waste bins, lunging at the dump boy's ankles.",
+      "aiVerdict": "Emptying barrels of fused mutant chimera parts where detached snake tails bite your ankles!"
     }
   },
   {
@@ -398,10 +398,10 @@
     "ogImageUrl": "https://job.tellmyname.app/r2/jobs/00061.webp",
     "en": {
       "title": "Orc Tribe Festival Boar Flatulence Sniffing Goblin",
-      "era": "Bloody Orc Fortress Central Festival Pit",
+      "era": "Crimson Orc Fortress Central Festival Pit",
       "estimatedSalary": "1 Charred Boar Hoof + Orc Belch Shower/year",
       "specialDuty": "Sniffs behind giant war boars to judge intestinal fermentation toxicity for chieftain feasts. If the odor is too mild, orc chiefs box your ears; if too potent, toxic gas knocks you cold.",
-      "builtYear": "Bloody Orc Fortress Central Festival Pit",
+      "builtYear": "Crimson Orc Fortress Central Festival Pit",
       "estimatedValue": "1 Charred Boar Hoof + Orc Belch Shower/year",
       "specialFeature": "Sniffs behind giant war boars to judge intestinal fermentation toxicity for chieftain feasts. If the odor is too mild, orc chiefs box your ears; if too potent, toxic gas knocks you cold.",
       "aiVerdict": "Sniffing behind giant war boars to grade festival flatulence until knocked unconscious!"
@@ -749,7 +749,7 @@
   },
   {
     "level": 72,
-    "title": "18세기 영국 부활파 시체 도굴꾼 망보기 조수",
+    "title": "18세기 영국 부활파 고대 유해 도굴꾼 망보기 조수",
     "category": "HISTORICAL_EXTREME",
     "categoryLabel": "고대·중세·근대 극한 역사 직업",
     "categoryEmoji": "🪣",
@@ -761,11 +761,11 @@
     "tierName": "고대·중세 오물·극한 잡역",
     "era": "서기 1795년 런던 외곽 공동묘지 새벽 2시 비바람",
     "estimatedSalary": "연봉 묘지 흙 묻은 1파운드 (발각 시 교수형)",
-    "specialDuty": "의대 해부학 실습용 신선한 시체를 파내기 위해 한밤중에 무덤을 파헤치는 도굴꾼들의 망을 보며 호각을 쥡니다. 무덤 파수꾼의 엽총 소리가 울리면 관 뚜껑을 내팽개치고 묘비 사이로 도망칩니다.",
+    "specialDuty": "의대 해부학 실습용 신선한 고대 유해를 파내기 위해 한밤중에 무덤을 파헤치는 도굴꾼들의 망을 보며 호각을 쥡니다. 무덤 파수꾼의 엽총 소리가 울리면 관 뚜껑을 내팽개치고 묘비 사이로 도망칩니다.",
     "builtYear": "서기 1795년 런던 외곽 공동묘지 새벽 2시 비바람",
     "estimatedValue": "연봉 묘지 흙 묻은 1파운드 (발각 시 교수형)",
-    "specialFeature": "의대 해부학 실습용 신선한 시체를 파내기 위해 한밤중에 무덤을 파헤치는 도굴꾼들의 망을 보며 호각을 쥡니다. 무덤 파수꾼의 엽총 소리가 울리면 관 뚜껑을 내팽개치고 묘비 사이로 도망칩니다.",
-    "aiVerdict": "[Lv.72 18세기 영국 부활파 시체 도굴꾼 망보기 조수] 서기 1795년 런던 외곽 공동묘지 새벽 2시 비바람 현장에서 활약하는 전문 보직입니다. 체력과 정신력을 동시에 시험하는 고난도 현장이지만 그만큼 대체 불가능한 생존 내공을 단련할 수 있습니다.",
+    "specialFeature": "의대 해부학 실습용 신선한 고대 유해를 파내기 위해 한밤중에 무덤을 파헤치는 도굴꾼들의 망을 보며 호각을 쥡니다. 무덤 파수꾼의 엽총 소리가 울리면 관 뚜껑을 내팽개치고 묘비 사이로 도망칩니다.",
+    "aiVerdict": "[Lv.72 18세기 영국 부활파 고대 유해 도굴꾼 망보기 조수] 서기 1795년 런던 외곽 공동묘지 새벽 2시 비바람 현장에서 활약하는 전문 보직입니다. 체력과 정신력을 동시에 시험하는 고난도 현장이지만 그만큼 대체 불가능한 생존 내공을 단련할 수 있습니다.",
     "imagePrompt": "일러스트풍으로 18세기 영국 부활파 시체 도굴꾼 망보기 조수 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 18세기 영국 부활파 시체 도굴꾼 망보기 조수 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "imageUrl": "/r2/jobs/00072.webp",
@@ -774,11 +774,11 @@
       "title": "18th Century British Resurrectionist Body-Snatcher Lookout",
       "era": "1795 AD, Country Churchyard Outside London, 2 AM",
       "estimatedSalary": "1 Soil-Stained Pound (Hanging if caught)/year",
-      "specialDuty": "Guards graveyard gates at 2 AM clutching whistles while Resurrectionists dig up fresh corpses for anatomists. Flees through tombstone shadows when cemetery guards fire shotguns into the dark.",
+      "specialDuty": "Guards graveyard gates at 2 AM clutching whistles while Resurrectionists dig up fresh relics for anatomists. Flees through tombstone shadows when cemetery guards fire shotguns into the dark.",
       "builtYear": "1795 AD, Country Churchyard Outside London, 2 AM",
       "estimatedValue": "1 Soil-Stained Pound (Hanging if caught)/year",
-      "specialFeature": "Guards graveyard gates at 2 AM clutching whistles while Resurrectionists dig up fresh corpses for anatomists. Flees through tombstone shadows when cemetery guards fire shotguns into the dark.",
-      "aiVerdict": "Watching for shotgun-toting cemetery guards at 2 AM while digging up fresh corpses!"
+      "specialFeature": "Guards graveyard gates at 2 AM clutching whistles while Resurrectionists dig up fresh relics for anatomists. Flees through tombstone shadows when cemetery guards fire shotguns into the dark.",
+      "aiVerdict": "Watching for shotgun-toting cemetery guards at 2 AM while digging up fresh relics!"
     }
   },
   {
@@ -999,10 +999,10 @@
     "tierName": "고대·중세 오물·극한 잡역",
     "era": "루마니아 카르파티아 산맥 백작 고성 지하 배수실",
     "estimatedSalary": "연봉 응고된 선지 한 덩어리",
-    "specialDuty": "백작이 마시고 남긴 희생자들의 피가 굳어 배수구를 막지 않도록 매일 밤 락스와 쇠솔로 배수관을 뚫습니다. 배수구 안에서 박쥐 떼가 튀어나와 머리채를 쥐어뜯으며 피비린내에 헛구역질을 합니다.",
+    "specialDuty": "백작이 마시고 남긴 희생자들의 피가 굳어 배수구를 막지 않도록 매일 밤 락스와 쇠솔로 배수관을 뚫습니다. 배수구 안에서 박쥐 떼가 튀어나와 머리채를 쥐어뜯으며 음산한 기운에 헛구역질을 합니다.",
     "builtYear": "루마니아 카르파티아 산맥 백작 고성 지하 배수실",
     "estimatedValue": "연봉 응고된 선지 한 덩어리",
-    "specialFeature": "백작이 마시고 남긴 희생자들의 피가 굳어 배수구를 막지 않도록 매일 밤 락스와 쇠솔로 배수관을 뚫습니다. 배수구 안에서 박쥐 떼가 튀어나와 머리채를 쥐어뜯으며 피비린내에 헛구역질을 합니다.",
+    "specialFeature": "백작이 마시고 남긴 희생자들의 피가 굳어 배수구를 막지 않도록 매일 밤 락스와 쇠솔로 배수관을 뚫습니다. 배수구 안에서 박쥐 떼가 튀어나와 머리채를 쥐어뜯으며 음산한 기운에 헛구역질을 합니다.",
     "aiVerdict": "[Lv.79 드라큘라 성 지하 와인 저장고 핏물 배수구 청소부] 루마니아 카르파티아 산맥 백작 고성 지하 배수실 현장에서 활약하는 전문 보직입니다. 체력과 정신력을 동시에 시험하는 고난도 현장이지만 그만큼 대체 불가능한 생존 내공을 단련할 수 있습니다.",
     "imagePrompt": "일러스트풍으로 드라큘라 성 지하 와인 저장고 핏물 배수구 청소부 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 드라큘라 성 지하 와인 저장고 핏물 배수구 청소부 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -1012,10 +1012,10 @@
       "title": "Dracula Castle Blood Drain Trench Trench Scrubber",
       "era": "Carpathian Castle Sub-Basement Blood Sluice",
       "estimatedSalary": "1 Clot of Congealed Blood Pudding/year",
-      "specialDuty": "Scours coagulated blood residue from stone floor sluices beneath Dracula's banquet dungeon. Flocks of roosting vampire bats flap out of clogged drains tangling into hair amid sickening gore.",
+      "specialDuty": "Scours coagulated blood residue from stone floor sluices beneath Dracula's banquet dungeon. Flocks of roosting vampire bats flap out of clogged drains tangling into hair amid sickening dark-fantasy chaos.",
       "builtYear": "Carpathian Castle Sub-Basement Blood Sluice",
       "estimatedValue": "1 Clot of Congealed Blood Pudding/year",
-      "specialFeature": "Scours coagulated blood residue from stone floor sluices beneath Dracula's banquet dungeon. Flocks of roosting vampire bats flap out of clogged drains tangling into hair amid sickening gore.",
+      "specialFeature": "Scours coagulated blood residue from stone floor sluices beneath Dracula's banquet dungeon. Flocks of roosting vampire bats flap out of clogged drains tangling into hair amid sickening dark-fantasy chaos.",
       "aiVerdict": "Scrubbing coagulated blood from castle drains while swarms of bats attack your hair!"
     }
   },
@@ -1352,11 +1352,11 @@
       "title": "Necromancer Crypt Mold Spore Scraper Apprentice",
       "era": "Black Mist Graveyard Subterranean Crypt Ceiling",
       "estimatedSalary": "1 Scrap of Coffin Wood + Green Mold Bread/year",
-      "specialDuty": "Scrapes green graveyard mold from stone crypt ceilings to serve as catalyst for dark summoning runes. Rancid corpse runoff drips through cracks directly onto face, inducing choking cough fits.",
+      "specialDuty": "Scrapes green graveyard mold from stone crypt ceilings to serve as catalyst for dark summoning runes. Rancid relic runoff drips through cracks directly onto face, inducing choking cough fits.",
       "builtYear": "Black Mist Graveyard Subterranean Crypt Ceiling",
       "estimatedValue": "1 Scrap of Coffin Wood + Green Mold Bread/year",
-      "specialFeature": "Scrapes green graveyard mold from stone crypt ceilings to serve as catalyst for dark summoning runes. Rancid corpse runoff drips through cracks directly onto face, inducing choking cough fits.",
-      "aiVerdict": "Scraping tomb mold off crypt ceilings while foul corpse juices drip directly into your mouth!"
+      "specialFeature": "Scrapes green graveyard mold from stone crypt ceilings to serve as catalyst for dark summoning runes. Rancid relic runoff drips through cracks directly onto face, inducing choking cough fits.",
+      "aiVerdict": "Scraping tomb mold off crypt ceilings while foul relic juices drip directly into your mouth!"
     }
   },
   {
@@ -1522,11 +1522,11 @@
       "title": "Ancient Egypt Natron Salt Embalming Assistant",
       "era": "1300 BC, Per Nefer Embalming Workshop, Thebes",
       "estimatedSalary": "2 Onions + Salted Fish Tail/year",
-      "specialDuty": "Packs 200kg of caustic natron salts inside and around eviscerated corpses to desiccate them for 40 days. Caustic salt dust chaps lips, cracks palms, and leaves embalmers constantly parched.",
+      "specialDuty": "Packs 200kg of caustic natron salts inside and around eviscerated relics to desiccate them for 40 days. Caustic salt dust chaps lips, cracks palms, and leaves embalmers constantly parched.",
       "builtYear": "1300 BC, Per Nefer Embalming Workshop, Thebes",
       "estimatedValue": "2 Onions + Salted Fish Tail/year",
-      "specialFeature": "Packs 200kg of caustic natron salts inside and around eviscerated corpses to desiccate them for 40 days. Caustic salt dust chaps lips, cracks palms, and leaves embalmers constantly parched.",
-      "aiVerdict": "Packing 200kg of caustic natron salts around embalmed corpses with raw, cracked hands!"
+      "specialFeature": "Packs 200kg of caustic natron salts inside and around eviscerated relics to desiccate them for 40 days. Caustic salt dust chaps lips, cracks palms, and leaves embalmers constantly parched.",
+      "aiVerdict": "Packing 200kg of caustic natron salts around embalmed relics with raw, cracked hands!"
     }
   },
   {

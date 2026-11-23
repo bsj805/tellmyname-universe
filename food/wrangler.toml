@@ -5,9 +5,9 @@ compatibility_date = "2026-10-01"
 [assets]
 directory = "./dist"
 binding = "ASSETS"
-run_worker_first = true
-not_found_handling = "single-page-application"
-html_handling = "auto-trailing-slash"
+not_found_handling = "none"
+html_handling = "none"
+run_worker_first = ["/", "/name/*", "/food/*", "/gallery*", "/worldcup*", "/r2/*", "/api/*", "/robots.txt", "/ads.txt"]
 
 [[routes]]
 pattern = "food.tellmyname.app"

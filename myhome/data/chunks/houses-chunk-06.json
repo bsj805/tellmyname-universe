@@ -46,7 +46,7 @@
     "builtYear": "우주선 미션 출항일",
     "estimatedValue": "긴급회의 버튼 1회 사용권",
     "specialFeature": "전선 연결 미션을 하는 도중 등 뒤의 환풍구가 열리며 임포스터의 칼날이 번쩍입니다.",
-    "aiVerdict": "시체 발견 시 즉시 리포트를 누르지 않으면 범인으로 몰려 우주 밖으로 사출됩니다.",
+    "aiVerdict": "고대 유해 발견 시 즉시 리포트를 누르지 않으면 범인으로 몰려 우주 밖으로 사출됩니다.",
     "geminiImagePrompt": "Stylized 3D rendering of a sci-fi spaceship electrical room, severed colorful cables sparking, a shadowy vent grate in the metallic floor glowing with sinister red light. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 301,
     "newLevel": 301,
@@ -1098,7 +1098,7 @@
     "previousLevel": 167,
     "imagePrompt": "Cinematic whimsical concept art inside the cracked hollow head of a baby doll toy with mechanical spider legs in Sid bedroom from Toy Story, moody eerie flashlight illumination, scattered screws and workbench. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "\"Toy Story\" 0.1-Pyeong Chamber Inside Decapitated Baby Doll Head in Sid's Torture Room",
+      "title": "\"Toy Story\" 0.1-Pyeong Chamber Inside Broken Baby Doll Head in Sid's Spooky Workshop",
       "builtYear": "1995 Sid's Cruel Toy Modification Era",
       "estimatedValue": "$2.60 USD (Scrap value of Erector set legs and fractured plastic)",
       "specialFeature": "A nightmarish one-eyed baby doll head welded to mechanical erector spider legs that creaks across the floorboards in dead of night.",

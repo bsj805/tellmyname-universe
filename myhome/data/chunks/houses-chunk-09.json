@@ -984,7 +984,7 @@
     "zoneLabel": "폭망 하우스",
     "tier": 10,
     "tierName": "Tier 10: 폭망의 문턱 턱걸이",
-    "builtYear": "1943년 나치 대서양 방벽",
+    "builtYear": "1943년 2차대전 대서양 방벽",
     "estimatedValue": "3억 5,000만 원 (2차 대전 전적지 보존)",
     "specialFeature": "영화 라이언 일병 구하기의 그 해변이 바로 내려다보이는 1.5m 두께의 콘크리트 총구 틈새로 대서양 파도 거품이 들이칩니다.",
     "aiVerdict": "역사상 가장 치열했던 상륙작전의 전장 한가운데서 파도 소리를 포성 삼아 잠드는 철통 방어 요새입니다.",
@@ -1000,7 +1000,7 @@
     "imagePrompt": "Somber cinematic photography looking out through the narrow slit of a heavy concrete pillbox bunker at Omaha Beach Normandy, grey Atlantic waves crashing on wide wet sand, overcast historic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
       "title": "Embrasure of German Atlantic Wall Concrete Bunker Overlooking Omaha Beach, Normandy, France",
-      "builtYear": "1943 Nazi Atlantic Wall Fortress",
+      "builtYear": "1943 WWII Bunker Atlantic Wall Fortress",
       "estimatedValue": "$260,000 USD (WWII Historic Battlefield Conservation Site)",
       "specialFeature": "Atlantic sea spray batters through a 1.5-meter-thick concrete loophole directly overlooking the blood-drenched beach depicted in Saving Private Ryan.",
       "aiVerdict": "An ironclad fortress right in the heart of the fiercest amphibious landing in history, where crashing ocean breakers substitute for roaring artillery."
@@ -1033,7 +1033,7 @@
     "imagePrompt": "Epic gritty post-apocalyptic concept art at the towering cliff base of the Citadel from Mad Max Fury Road, muddy crowds reaching up for a massive water valve release, rusted pipes and desert dust. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
       "title": "Mad Max: Rusty Pipe Crevice in Mud Puddle Under Immortan Joe's Water Valve, The Citadel",
-      "builtYear": "Post-Nuclear Holocaust Wasteland",
+      "builtYear": "Post-Nuclear Wasteland Wasteland",
       "estimatedValue": "1 Gulp of Aqua-Cola (Relief from Burning Thirst)",
       "specialFeature": "Cling to iron piping among the desperate roars of War Boys and wretches scrambling for muddy runoff when Immortan Joe opens the floodgates once a year.",
       "aiVerdict": "A wasteland shelter lulled to sleep by roaring, supercharged V8 engines while pondering Immortan's warning: 'Do not become addicted to water, it will take hold of you.'"
@@ -1246,7 +1246,7 @@
     "tierName": "Tier 10: 폭망의 문턱 턱걸이",
     "builtYear": "2010년 도심 슬럼 형성기",
     "estimatedValue": "20만 원 (재활용 타이어 8개 가치)",
-    "specialFeature": "경찰과 마약상의 충돌이 일상인 도심 한복판에서 폐타이어 더미 속에 숨어 매캐한 연기를 피해 잠을 청합니다.",
+    "specialFeature": "경찰과 암시장상의 충돌이 일상인 도심 한복판에서 폐타이어 더미 속에 숨어 매캐한 연기를 피해 잠을 청합니다.",
     "aiVerdict": "남미 최대 대도시의 가장 어둡고 처절한 골목 한구석에서 생존 본능 하나로 버텨내는 한계 상황의 쉘터입니다.",
     "geminiImagePrompt": "Raw documentary photography of a makeshift tarp shelter fortified with stacked worn truck tires in an urban alley in Sao Paulo Brazil, graffiti on decaying brick walls, harsh midday shadows. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 488,
@@ -1262,7 +1262,7 @@
       "title": "0.4-Square-Meter Tarp Shack Barricaded with Discarded Tires in Cracolândia, São Paulo, Brazil",
       "builtYear": "2010 Urban Slum Formation Era",
       "estimatedValue": "$150 USD (Value of 8 Recycled Tires)",
-      "specialFeature": "Crouch among tire barricades to escape tear gas and acrid smoke as police and cartels clash regularly in the heart of the metropolis.",
+      "specialFeature": "Crouch among tire barricades to escape tear gas and acrid smoke as police and syndicates clash regularly in the heart of the metropolis.",
       "aiVerdict": "A marginal survival shelter in the darkest and rawest corner of South America's largest metropolis, enduring on pure primal instinct."
     }
   },
@@ -1397,7 +1397,7 @@
     }
   },
   {
-    "title": "『체인소 맨』 공안 대마 특이 4과 사무실 청소도구함 파워의 피 묻은 캐비닛",
+    "title": "『체인소 맨』 공안 대마 특이 4과 사무실 청소도구함 파워의 얼룩진 캐비닛",
     "category": "MICRO_DWELLING",
     "categoryLabel": "초소형·골판지·자판기·캡슐 원룸",
     "categoryEmoji": "📦",
@@ -1410,7 +1410,7 @@
     "builtYear": "1997년 가상 도쿄 악마 토벌기",
     "estimatedValue": "피의 악마 뿔 손질용 줄 1개",
     "specialFeature": "파워가 목욕도 안 하고 마늘 껍질을 버려둔 캐비닛 안에서 덴지와 냐코(고양이)의 밥그릇을 지키며 농성합니다.",
-    "aiVerdict": "악마와 인간이 뒤섞인 혼돈의 공안 사무실에서 전기톱 소리를 피해 몸을 숨기는 0.2평 피비린내 캐비닛입니다.",
+    "aiVerdict": "악마와 인간이 뒤섞인 혼돈의 공안 사무실에서 전기톱 소리를 피해 몸을 숨기는 0.2평 음산한 기운 캐비닛입니다.",
     "geminiImagePrompt": "Gritty anime concept art inside an old metal locker cabinet with chains and blood splatters, chainsaw cord visible through slit, dimly lit 90s Tokyo government office interior. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 493,
     "newLevel": 493,

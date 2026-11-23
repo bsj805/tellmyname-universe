@@ -207,7 +207,7 @@
     "tier": 1,
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "1933년 혹한 관측 기록기",
-    "estimatedValue": "-1억 2,000만 원 (동상 절단 수술비 미포함)",
+    "estimatedValue": "-1억 2,000만 원 (동상 분리 수술비 미포함)",
     "specialFeature": "북위 77도 극북의 오지에서 세 달 동안 태양이 단 1초도 뜨지 않는 칠흑 같은 극야를 견뎌내는 이누이트 전통 잔디 오두막입니다. 고래 기름 등불 하나에 의지해 얼어붙은 바다표범 고기를 씹으며 오로라의 차가운 춤을 감상할 수 있습니다.",
     "aiVerdict": "석 달 동안 태양이 단 1초도 뜨지 않는 북위 77도의 극야 속에서 고래 기름 등불 하나에 의지해 오로라를 감상하는 그린란드 사냥꾼의 잔디 움막입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Qaanaaq High Arctic Polar Night Turf Hut (그린란드 카낙 북위 77도 극야의 3개월간 해 안 뜨는 물개 가죽 사냥꾼 움막). Visual scene details: Harsh high-arctic winter landscape, a low, rounded turf-and-stone dwelling banked by snowdrifts, seal-skin curtains over the tiny wooden portal, warm golden glow spilling from an ancient whale-oil soapstone lamp inside, breathtaking emerald and violet auroral curtains rippling across the dark polar night sky over frozen pack ice. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -338,7 +338,7 @@
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "태고의 미개척 밀림",
     "estimatedValue": "-5,000만 원 (구조 헬기 출동 불가 구역)",
-    "specialFeature": "도로가 완전히 끊긴 세계 최악의 밀림에서 독사, 마약 카르텔, 진흙 늪지대를 피해 두 그루의 맹그로브 나무 사이에 걸어둔 해먹입니다.",
+    "specialFeature": "도로가 완전히 끊긴 세계 최악의 밀림에서 독사, 지하 암시장 조직, 진흙 늪지대를 피해 두 그루의 맹그로브 나무 사이에 걸어둔 해먹입니다.",
     "aiVerdict": "문명과의 모든 연결이 차단된 무법지대 밀림 한가운데서 밤마다 재규어의 울음소리를 ASMR 삼아 잠드는 서바이벌 하우스입니다.",
     "geminiImagePrompt": "Atmospheric photography of a muddy weathered survival hammock strung between dense jungle trees in Darien Gap Panama, thick tropical rain mist, muddy swamp waters below, dramatic perilous wilderness, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 10,
@@ -353,8 +353,8 @@
       "title": "Mud-Drenched Hammock in the Primeval Jungle Swamps of the Darién Gap, Panama",
       "builtYear": "Immemorial Uncharted Jungle",
       "estimatedValue": "-$38,000 USD (Rescue Helicopter No-Fly Zone)",
-      "specialFeature": "A hammock strung between two mangrove trees to escape pit vipers, drug cartels, and bottomless mud swamps in the world's most treacherous, roadless jungle.",
-      "aiVerdict": "A lawless survival haven severed from all civilization, where nightly jaguar howls serve as your soothing ASMR lullaby."
+      "specialFeature": "A hammock strung between two mangrove trees to escape pit vipers, drug syndicates, and bottomless mud swamps in the world's most treacherous, roadless jungle.",
+      "aiVerdict": "A lawless survival haven detached from all civilization, where nightly jaguar howls serve as your soothing ASMR lullaby."
     }
   },
   {
@@ -618,7 +618,7 @@
     }
   },
   {
-    "title": "『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막",
+    "title": "『곡성』 외지인의 숲속 썩은 흑염소 음산한 기운이 감도는 제단 옆 오두막",
     "category": "FICTION_MEDIA",
     "categoryLabel": "영화·애니·게임·문학 속 공간",
     "categoryEmoji": "🎬",
@@ -631,7 +631,7 @@
     "builtYear": "물과 기름이 고갈된 포스트 아포칼립스",
     "estimatedValue": "-800구아스 (임모탄 조의 은총 0개)",
     "specialFeature": "깊은 산속 안개와 음산한 비바람 속에 덩그러니 놓인 기괴한 제단과 썩어가는 동물의 흔적이 가득한 은신처입니다. 밤마다 까마귀가 울부짖고 문풍지 틈으로 붉은 눈의 불청객이 안을 들여다봅니다.",
-    "aiVerdict": "안개 자욱한 곡성 숲속 피비린내 진동하는 흑염소 제단 옆에서 밤마다 까마귀 울음소리에 현혹되어 절대 숙면을 취할 수 없는 외지인의 오두막입니다.",
+    "aiVerdict": "안개 자욱한 곡성 숲속 음산한 기운 진동하는 흑염소 제단 옆에서 밤마다 까마귀 울음소리에 현혹되어 절대 숙면을 취할 수 없는 외지인의 오두막입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: The Wailing Forest Shrine Shack (『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막). Visual scene details: Chilling atmospheric exterior and interior view of a dilapidated wooden hut deep in a drenched, misty Korean mountain forest, creepy handmade straw effigies hanging from eaves, weathered wooden walls pinned with hundreds of faded photographs, candlelit occult altar with goat skull, deep ominous shadows. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 19,
     "newLevel": 19,
@@ -642,7 +642,7 @@
     "isNewExpansion": true,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: The Wailing Forest Shrine Shack (『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막). Visual scene details: Chilling atmospheric exterior and interior view of a dilapidated wooden hut deep in a drenched, misty Korean mountain forest, creepy handmade straw effigies hanging from eaves, weathered wooden walls pinned with hundreds of faded photographs, candlelit occult altar with goat skull, deep ominous shadows. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Woodland Cabin Beside the Bloody Altar of Rotten Black Goats Belonging to the Mysterious Stranger, 『The Wailing』",
+      "title": "Woodland Cabin Beside the Crimson Altar of Rotten Black Goats Belonging to the Mysterious Stranger, 『The Wailing』",
       "builtYear": "Post-Apocalyptic Era Stripped of Water and Oil",
       "estimatedValue": "-800 Guzzoline (Zero Immortan Joe Blessings Granted)",
       "specialFeature": "A remote shelter nestled in dense mountain fog and howling squalls, filled with gruesome altars and rotting animal carcasses. Nightly crow caws echo outside while red-eyed uninvited visitors peer through slits in the paper door.",
@@ -878,7 +878,7 @@
     }
   },
   {
-    "title": "『원피스』 임펠다운 레벨 4 초열지옥 펄펄 끓는 피 연못 바로 위 철망 당번실",
+    "title": "『원피스』 임펠다운 레벨 4 초열지옥 펄펄 끓는 붉은 용암 연못 바로 위 철망 당번실",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -890,7 +890,7 @@
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "대해적시대 세계정부 최고 감옥",
     "estimatedValue": "-2억 베리 (마젤란 서장의 독가스 위험 수당)",
-    "specialFeature": "펄펄 끓는 피 연못과 거대한 가마솥 열기가 치솟는 철망 바닥 위에서 죄수들을 감시하며 땀범벅이 된 채 뻗어 잡니다.",
+    "specialFeature": "펄펄 끓는 붉은 용암 연못과 거대한 가마솥 열기가 치솟는 철망 바닥 위에서 죄수들을 감시하며 땀범벅이 된 채 뻗어 잡니다.",
     "aiVerdict": "지하 4층의 살벌한 화염 열기 덕분에 사시사철 불지옥 찜질방 무료 이용권을 누리는 해군 당번석입니다.",
     "geminiImagePrompt": "Epic anime concept art inside Impel Down Level 4 Blazing Hell, suspended grated steel watch platform over bubbling cauldrons of boiling red blood lake, towering black iron pillars, volcanic glow, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 27,
@@ -1280,7 +1280,7 @@
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "태초의 공포가 지배하는 영겁",
     "estimatedValue": "-6억 엔 (악마와의 계약으로 수명 전부 헌납)",
-    "specialFeature": "반으로 갈라져 두 손을 모아 기도하는 우주비행사 시체들이 도열한 지옥의 초원 한가운데 어둠의 악마 그림자 밑에 눕습니다.",
+    "specialFeature": "반으로 갈라져 두 손을 모아 기도하는 우주비행사 고대 유해들이 도열한 지옥의 초원 한가운데 어둠의 악마 그림자 밑에 눕습니다.",
     "aiVerdict": "소리를 내는 순간 팔다리가 분해되는 근원의 공포 속에서 지옥의 문고리를 쳐다보는 궁극의 공포 스위트입니다.",
     "geminiImagePrompt": "Surreal haunting anime concept art of Chainsaw Man Hell, row of bisected astronaut corpses with praying hands lining a grassy plain under black sky with floating wooden doors, absolute dread, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 39,
@@ -1410,8 +1410,8 @@
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "파쇄전쟁 말레니아의 붉은 에오니아 개화기",
     "estimatedValue": "-9억 룬 (보존하는 이끼약 품절)",
-    "specialFeature": "생존자들의 집단 이기주의로 잠겨버린 자동문 바로 앞, 피 묻은 캐리어와 외투로 만든 처절한 임시 바닥 잠자리입니다. 유리문 너머로는 차가운 눈총이, 등 뒤 칸에서는 감염자들의 광기 어린 포효가 울려 퍼집니다.",
-    "aiVerdict": "유리문 너머 산 사람들의 차가운 시선과 등 뒤 칸에서 몰려오는 감염자들의 포효 사이에 끼어 피 묻은 외투를 깔고 버티는 KTX 연결 통로 바닥입니다.",
+    "specialFeature": "생존자들의 집단 이기주의로 잠겨버린 자동문 바로 앞, 얼룩진 캐리어와 외투로 만든 처절한 임시 바닥 잠자리입니다. 유리문 너머로는 차가운 눈총이, 등 뒤 칸에서는 감염자들의 광기 어린 포효가 울려 퍼집니다.",
+    "aiVerdict": "유리문 너머 산 사람들의 차가운 시선과 등 뒤 칸에서 몰려오는 감염자들의 포효 사이에 끼어 얼룩진 외투를 깔고 버티는 KTX 연결 통로 바닥입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Train to Busan KTX Vestibule Blockade (『부산행』 KTX 15호칸 생존자 이기주의자들이 문 걸어 잠근 좁은 연결 통로 바닥). Visual scene details: Tense, narrow vestibule between two speeding train carriages, reinforced sliding glass door hastily tied shut with neckties and scarves, bloody handprints smudged on frosted glass, floor piled with crushed hard-shell suitcases and rumpled blankets, harsh fluorescent emergency lights flickering. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 43,
     "newLevel": 43,
@@ -1425,7 +1425,7 @@
       "title": "Narrow Gangway Floor Locked Out by Selfish Survivors in Car 15 of KTX, 『Train to Busan』",
       "builtYear": "Shattering Era, Malenia's Scarlet Aeonia Bloom",
       "estimatedValue": "-900M Runes (Preserving Boluses Sold Out)",
-      "specialFeature": "A desperate bedding pallet cobbled from bloodied luggage and winter coats outside the vestibule door bolted by hysterical survivors. Cold glares pierce through the glass ahead, while frenzied infected howls roar right behind your back.",
+      "specialFeature": "A desperate bedding pallet cobbled from battered luggage and winter coats outside the vestibule door bolted by hysterical survivors. Cold glares pierce through the glass ahead, while frenzied infected howls roar right behind your back.",
       "aiVerdict": "A Tarnished dung-bearer hovel bleeding HP every second right in the toxic heart of Caelid where Malenia's Scarlet Rot blossoms."
     }
   },

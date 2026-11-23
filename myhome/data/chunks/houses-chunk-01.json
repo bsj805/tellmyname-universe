@@ -162,7 +162,7 @@
     }
   },
   {
-    "title": "『워해머 40,000』 하이브 시티 최하층 시체 재활용 공장 슬러지 파이프 틈",
+    "title": "『워해머 40,000』 하이브 시티 최하층 폐기물 재활용 공장 슬러지 파이프 틈",
     "category": "INDUSTRIAL_HAZARD",
     "categoryLabel": "산업 재해·방사능·중오염 구역",
     "categoryEmoji": "☣️",
@@ -173,9 +173,9 @@
     "tier": 2,
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "제41천년기 인류제국 암흑기",
-    "estimatedValue": "-10억 크레디트 (시체 녹말 1회 배급권 교환)",
-    "specialFeature": "수십억 명이 버린 폐기물과 시체를 끓여 전 인류의 식량인 '시체 녹말(Corpse-Starch)'로 만드는 배관 바로 밑의 침상입니다.",
-    "aiVerdict": "황제 폐하에 대한 충성심 하나로 시체 썩는 단백질 슬러지 냄새를 견뎌내는 하이브 월드 최하층 언더하이브 룸입니다.",
+    "estimatedValue": "-10억 크레디트 (고대 유해 녹말 1회 배급권 교환)",
+    "specialFeature": "수십억 명이 버린 폐기물과 고대 유해를 끓여 전 인류의 식량인 '고대 유해 녹말(Scrap-Starch)'로 만드는 배관 바로 밑의 침상입니다.",
+    "aiVerdict": "황제 폐하에 대한 충성심 하나로 고대 유해 썩는 단백질 슬러지 냄새를 견뎌내는 하이브 월드 최하층 언더하이브 룸입니다.",
     "geminiImagePrompt": "Grimdark gothic industrial concept art inside the colossal depths of a Warhammer 40k Hive City Underhive, massive rusted corpse-starch processing pipes dripping grey slime, skulls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 55,
     "newLevel": 55,
@@ -186,10 +186,10 @@
     "isNewExpansion": true,
     "imagePrompt": "Grimdark gothic industrial concept art inside the colossal depths of a Warhammer 40k Hive City Underhive, massive rusted corpse-starch processing pipes dripping grey slime, skulls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Sludge Pipe Alcove in a Corpse-Recycling Plant, Bottom of Hive City, 『Warhammer 40,000』",
+      "title": "Sludge Pipe Alcove in a Scrap-Recycling Plant, Bottom of Hive City, 『Warhammer 40,000』",
       "builtYear": "The Dark 41st Millennium of the Imperium of Man",
-      "estimatedValue": "-1B Credits (Redeemable for 1 Corpse-Starch Ration Token)",
-      "specialFeature": "A bunk situated directly under vat conduits boiling trillions of deceased hive dwellers into imperial Corpse-Starch rations.",
+      "estimatedValue": "-1B Credits (Redeemable for 1 Scrap-Starch Ration Token)",
+      "specialFeature": "A bunk situated directly under vat conduits boiling trillions of deceased hive dwellers into imperial Scrap-Starch rations.",
       "aiVerdict": "An Underhive billet where pure, unyielding devotion to the God-Emperor alone steels your nostrils against rank vats of liquefied protein slurry."
     }
   },
@@ -552,7 +552,7 @@
     }
   },
   {
-    "title": "『스위트홈』 그린홈 1411호 연근괴물이 문 부수고 들어온 피 칠갑 거실",
+    "title": "『스위트홈』 그린홈 1411호 연근괴물이 문 부수고 들어온 붉은 페인트 자국 거실",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -579,7 +579,7 @@
       "title": "Blood-Drenched Living Room in Green Home Apt 1411 After Lotus-Root Monster Smashed the Door, 『Sweet Home』",
       "builtYear": "November 2019 Dystopian Los Angeles",
       "estimatedValue": "-$3,000 USD (Failed Voight-Kampff Test Penalty)",
-      "specialFeature": "A battered 1980s apartment living room where a decapitated monster with ears twitching roams blind, forcing you to lie frozen behind shredded upholstery while trembling at the thunderous stomps of the Protein Monster.",
+      "specialFeature": "A battered 1980s apartment living room where a broken monster with ears twitching roams blind, forcing you to lie frozen behind shredded upholstery while trembling at the thunderous stomps of the Protein Monster.",
       "aiVerdict": "A cyberpunk rooftop perch where you ponder Roy Batty's immortal words—'All those moments will be lost in time, like tears in rain'—soaked to the bone."
     }
   },
@@ -694,7 +694,7 @@
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "2015년 사도 습격 이후 폐허",
     "estimatedValue": "-8,000만 엔 (LCL 용액 오염 구역)",
-    "specialFeature": "사도의 십자가 폭발로 천장이 뚫려 붉은 피바다가 된 지오프론트 피라미드 잔해 철골 사이에 돗자리를 깔고 신지의 비명을 듣습니다.",
+    "specialFeature": "사도의 십자가 폭발로 천장이 뚫려 붉은 붉은 안개가 된 지오프론트 피라미드 잔해 철골 사이에 돗자리를 깔고 신지의 비명을 듣습니다.",
     "aiVerdict": "인류보완계획이 시작되기 전 LCL 바다 냄새를 맡으며 내면의 고독과 대화하는 네르프 지하 셋방입니다.",
     "geminiImagePrompt": "Evangelion anime aesthetic concept art inside ruined GeoFront cavern beneath Tokyo-3, shattered inverted pyramid headquarters surrounded by sea of red liquid, massive steel I-beams, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 71,
@@ -942,7 +942,7 @@
     }
   },
   {
-    "title": "『베르세르크』 일식의 제물 강마의 의식 마물들 뼈 무덤 사이 피 웅덩이",
+    "title": "『베르세르크』 일식의 제물 강마의 의식 마물들 뼈 무덤 사이 붉은 웅덩이",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -954,7 +954,7 @@
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "매의 단 일식의 의식의 날",
     "estimatedValue": "-999조 원 (제물의 낙인 찍힌 영혼)",
-    "specialFeature": "목덜미에서 제물의 낙인 피가 솟구치고 수만 마리의 사도들이 동료들을 씹어 삼키는 거대한 얼굴 언덕 피바다 한가운데 눕습니다.",
+    "specialFeature": "목덜미에서 제물의 낙인 피가 솟구치고 수만 마리의 사도들이 동료들을 씹어 삼키는 거대한 얼굴 언덕 붉은 안개 한가운데 눕습니다.",
     "aiVerdict": "가츠의 드래곤 슬레이어가 휘둘러지기 전까지 단 1초도 살아남을 수 없는 절대 절망의 다크 판타지 밑바닥입니다.",
     "geminiImagePrompt": "Epic dark fantasy digital painting of Berserk Eclipse altar, towering mountain of grotesque demonic faces, blood red sky with black eclipsed sun, horrifying apostle silhouettes in fog, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 79,
@@ -969,7 +969,7 @@
       "title": "Pool of Blood Amidst Demon Bone Heaps During the Eclipse Sacrificial Descent, 『Berserk』",
       "builtYear": "Day of the Eclipse, Band of the Falcon Sacrifice",
       "estimatedValue": "-$750B USD (Soul Branded with the Brand of Sacrifice)",
-      "specialFeature": "Blood gushes continuously from the Brand of Sacrifice on your neck while thousands of Apostle fiends devour comrades across a lake of gore upon the colossal mound of faces.",
+      "specialFeature": "Blood gushes continuously from the Brand of Sacrifice on your neck while thousands of Apostle fiends devour comrades across a lake of dark-fantasy chaos upon the colossal mound of faces.",
       "aiVerdict": "Absolute rock bottom in grimdark fantasy, where survival past sixty seconds is impossible until Guts cleaves the gloom with the Dragon Slayer."
     }
   },
@@ -986,7 +986,7 @@
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "1990년대 콜롬비아 보고타 도심 슬럼화 시기 형성 (2016년 폐쇄)",
     "estimatedValue": "철거 수용 구역 잔해 가치 0원 (방탄조끼 대여비 별도)",
-    "specialFeature": "과거 마약 카르텔과 범죄 조직이 요새화하여 경찰조차 진입하지 못했던 안데스 고원 빈민가의 폐쇄된 골목 틈새 매트리스입니다. 철거를 앞둔 붉은 벽돌 건물 붕괴 잔해와 깨진 유리 조각 사이에서 차가운 산악 안개를 맞으며 누워야 합니다.",
+    "specialFeature": "과거 지하 암시장 조직과 범죄 조직이 요새화하여 경찰조차 진입하지 못했던 안데스 고원 빈민가의 폐쇄된 골목 틈새 매트리스입니다. 철거를 앞둔 붉은 벽돌 건물 붕괴 잔해와 깨진 유리 조각 사이에서 차가운 산악 안개를 맞으며 누워야 합니다.",
     "aiVerdict": "경찰조차 발을 들이지 못했던 무법지대 폐쇄 골목의 깨진 유리 조각과 붉은 벽돌 잔해 사이에서 차가운 안데스 밤안개를 맞으며 자는 위험천만 매트리스입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Bogota El Bronx Alley Mattress Shelter (콜롬비아 보고타 엘 브롱크스 폐쇄 구역 골목 틈새 매트리스 쉘터). Visual scene details: Gritty South American urban ruins, narrow alleyway between condemned red-brick brick walk-ups covered in vibrant spray-painted murals and concertina wire, an improvised shelter built of damp foam mattresses and cardboard under a plastic tarp, chilling Andean highland fog swirling beneath an amber streetlamp. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 80,
@@ -1002,7 +1002,7 @@
       "title": "Alley Gap Mattress Shelter in the Condemned Sector of El Bronx, Bogotá, Colombia",
       "builtYear": "Formed during 1990s Bogotá inner-city decay (cleared in 2016)",
       "estimatedValue": "$0 condemned demolition zone value (kevlar vest rental extra)",
-      "specialFeature": "A mattress wedged between alley brickwork in a notorious cartel-fortified ghetto high on the Andean plateau once deemed an impenetrable no-go zone. Amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog.",
+      "specialFeature": "A mattress wedged between alley brickwork in a notorious syndicate-fortified ghetto high on the Andean plateau once deemed an impenetrable no-go zone. Amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog.",
       "aiVerdict": "Multiverse Hazard Dossier #080: Municipal inspectors refused to step within fifty yards of 'Alley Gap Mattress Shelter in the Condemned Sector of El Bronx, Bogotá, Colombia', leaving you as the undisputed sovereign of this wild outpost."
     }
   },
@@ -1442,7 +1442,7 @@
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "1963년 바사크 강변 공공주택",
     "estimatedValue": "-1,700만 원 (철거 명령 강제 이주 구역)",
-    "specialFeature": "한때 근대 건축의 걸작이었으나 마약상과 슬럼으로 전락해 건물 전체에 뱀 같은 균열이 가고 벽에서 콘크리트 가루가 비처럼 내립니다.",
+    "specialFeature": "한때 근대 건축의 걸작이었으나 암시장상과 슬럼으로 전락해 건물 전체에 뱀 같은 균열이 가고 벽에서 콘크리트 가루가 비처럼 내립니다.",
     "aiVerdict": "건물이 언제 주저앉을지 카운트다운을 세며 삐걱거리는 콘크리트 신음 소리를 감상하는 역사 유적 셋방입니다.",
     "geminiImagePrompt": "Eerie atmospheric photo of a crumbling hallway in Phnom Penh White Building, severe structural cracks in peeling concrete walls, tropical moss, flickering fluorescent light, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 94,
@@ -1605,7 +1605,7 @@
     "builtYear": "2149년 아전트 에너지 포털 붕괴",
     "estimatedValue": "-6,666만 달러 (둠가이의 분노 게이지 Max)",
     "specialFeature": "벽면에서 피가 흘러내리고 악마들의 살점이 엉켜있는 플라즈마 냉각관 틈새에서 샷건 장전 소리를 들으며 공포에 떱니다.",
-    "aiVerdict": "헤비메탈 기타 리프가 울려 퍼질 때마다 악마들이 찢겨 나가는 둠 슬레이어의 학살 구역 청소부 대기실입니다.",
+    "aiVerdict": "헤비메탈 기타 리프가 울려 퍼질 때마다 악마들이 찢겨 나가는 둠 슬레이어의 대격전 구역 청소부 대기실입니다.",
     "geminiImagePrompt": "Doom eternal inspired sci-fi hell concept art inside corrupted Martian UAC facility, glowing pentagrams carved into high-tech titanium consoles, demonic flesh infesting plasma conduits, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 99,
     "newLevel": 99,

@@ -268,7 +268,7 @@
       "builtYear": "Year 500 Post-Empire, Catacomb Dungeon Level 4",
       "estimatedValue": "1 Spoon of Bone Meal + 1 Rusted Copper Button/year",
       "specialFeature": "Flickers cobwebs and dust from ribs and vertebrae of skeleton sentinels waiting centuries in crypts. If bone joints are oiled incorrectly, skeletons swing rusty broadswords at your neck.",
-      "aiVerdict": "Dusting vertebrae of dormant skeleton warriors in constant dread of an accidental decapitation!"
+      "aiVerdict": "Dusting vertebrae of dormant skeleton warriors in constant dread of an accidental dramatic showdown!"
     }
   },
   {
@@ -931,10 +931,10 @@
     "tierName": "태초의 밑바닥·지옥 노역",
     "era": "조선시대 깊은 산골 천년 묵은 동굴",
     "estimatedSalary": "연봉 산딸기 3알 (간 한 조각 절대 금지)",
-    "specialDuty": "천 년을 채워 인간이 되려는 구미호가 가져온 간을 손질하는 피 묻은 도마를 우물물로 싹싹 씻어냅니다. 꼬리 아홉 개가 살랑거릴 때마다 여우의 눈빛이 매서워지며 '다음엔 네 간이다'라는 무언의 압박을 받습니다.",
+    "specialDuty": "천 년을 채워 인간이 되려는 구미호가 가져온 간을 손질하는 얼룩진 도마를 우물물로 싹싹 씻어냅니다. 꼬리 아홉 개가 살랑거릴 때마다 여우의 눈빛이 매서워지며 '다음엔 네 간이다'라는 무언의 압박을 받습니다.",
     "builtYear": "조선시대 깊은 산골 천년 묵은 동굴",
     "estimatedValue": "연봉 산딸기 3알 (간 한 조각 절대 금지)",
-    "specialFeature": "천 년을 채워 인간이 되려는 구미호가 가져온 간을 손질하는 피 묻은 도마를 우물물로 싹싹 씻어냅니다. 꼬리 아홉 개가 살랑거릴 때마다 여우의 눈빛이 매서워지며 '다음엔 네 간이다'라는 무언의 압박을 받습니다.",
+    "specialFeature": "천 년을 채워 인간이 되려는 구미호가 가져온 간을 손질하는 얼룩진 도마를 우물물로 싹싹 씻어냅니다. 꼬리 아홉 개가 살랑거릴 때마다 여우의 눈빛이 매서워지며 '다음엔 네 간이다'라는 무언의 압박을 받습니다.",
     "aiVerdict": "[Lv.27 구미호 동굴 간 손질용 도마 씻기 요괴 보조] 조선시대 깊은 산골 천년 묵은 동굴 현장에서 활약하는 전문 보직입니다. 작업복에 배어나는 고단함 속에서도 묵묵히 현장을 지키는 불굴의 프로 정신이 빛나는 자리입니다.",
     "imagePrompt": "일러스트풍으로 구미호 동굴 간 손질용 도마 씻기 요괴 보조 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "geminiImagePrompt": "일러스트풍으로 구미호 동굴 간 손질용 도마 씻기 요괴 보조 직업을 가진 사람의 모습을 재미있고 생동감 넘치게 그려줘. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -948,7 +948,7 @@
       "builtYear": "Joseon Dynasty Deep Mountain Gumiho Cavern",
       "estimatedValue": "3 Wild Raspberries (Touching liver strictly forbidden)/year",
       "specialFeature": "Washes blood-soaked pine cutting boards where the Nine-Tailed Fox prepares human livers. Fox tails swish menacingly as golden eyes whisper silent threats of being the next course.",
-      "aiVerdict": "Scrubbing bloody boards for the Nine-Tailed Fox while keeping eyes firmly glued to the floor!"
+      "aiVerdict": "Scrubbing crimson boards for the Nine-Tailed Fox while keeping eyes firmly glued to the floor!"
     }
   },
   {

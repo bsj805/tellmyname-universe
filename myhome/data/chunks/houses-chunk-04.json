@@ -130,7 +130,7 @@
     }
   },
   {
-    "title": "필리핀 바기오 디플로맷 호텔 2차대전 학살 폐허 안개 낀 옥상 십자가 밑 쉘터",
+    "title": "필리핀 바기오 디플로맷 호텔 2차대전 대격전 폐허 안개 낀 옥상 십자가 밑 쉘터",
     "category": "IMAGINARY_CITY",
     "categoryLabel": "상상 속의 도시·미니어처 왕국",
     "categoryEmoji": "🏙️",
@@ -142,7 +142,7 @@
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1915년 필리핀 바기오 도미니코회 수도원 준공 (1945년 폭격 후 폐호텔화)",
     "estimatedValue": "바기오시 보존 심령 폐허 (상업 숙박 불가, 야간 경비 순찰 구역)",
-    "specialFeature": "제2차 세계대전 당시 비극적인 학살이 자행되어 필리핀 최악의 심령 스팟으로 불리는 해발 1,500m 산 정상 폐호텔의 옥상 쉘터입니다. 사시사철 짙은 안개가 옥상 거대한 석조 십자가를 휘감고 밤마다 계단에서 발소리가 들려옵니다.",
+    "specialFeature": "제2차 세계대전 당시 비극적인 대격전이 자행되어 필리핀 최악의 심령 스팟으로 불리는 해발 1,500m 산 정상 폐호텔의 옥상 쉘터입니다. 사시사철 짙은 안개가 옥상 거대한 석조 십자가를 휘감고 밤마다 계단에서 발소리가 들려옵니다.",
     "aiVerdict": "해발 1,500m 폐호텔 옥상의 거대한 석조 십자가를 짙은 안개가 휘감은 가운데 밤마다 계단에서 들려오는 정체불명의 발소리를 견디는 심령 쉘터입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Diplomat Hotel Foggy Haunted Rooftop Shelter (필리핀 바기오 디플로맷 호텔 2차대전 학살 폐허 안개 낀 옥상 십자가 밑 쉘터). Visual scene details: Chilling gothic colonial ruins, exterior rooftop of an abandoned 1910s stone monastery-hotel atop Dominican Hill, a monumental concrete cross towering into dense swirling mountain fog, an expedition bivy sack pitched against the weathered balustrade overlooking misty Benguet pine forests, eerie ambient twilight filtering through archways. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 204,
@@ -708,7 +708,7 @@
     "previousLevel": 111,
     "imagePrompt": "Dark surreal anime digital art of a massive mountain of animal and human skulls under a crimson blood sky, standing torii gate in reflective blood lake, ominous dark fantasy. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Jujutsu Kaisen: Sukuna's Innate Domain Blood Pool Skull Mountain Top Severed Throne",
+      "title": "Jujutsu Kaisen: Sukuna's Innate Domain Blood Pool Skull Mountain Top Detached Throne",
       "builtYear": "Peak of Heian Era Curses 1,000 Years Ago",
       "estimatedValue": "1 Special Grade Cursed Object Finger",
       "specialFeature": "Simply sitting here slices your soul into 4 quarters, but cursed energy reception is blazing fast even without Wi-Fi.",
@@ -987,7 +987,7 @@
     "tier": 5,
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1940년 프랑스 식민 당국 건설",
-    "estimatedValue": "-5,500만 원 (생석회 투하 고문실)",
+    "estimatedValue": "-5,500만 원 (생석회 투하 취조실)",
     "specialFeature": "천장이 쇠창살로 뚫려있어 위에서 간수들이 수감자들에게 생석회 가루와 오물을 뿌리던 지하 감옥 바닥에 누워 하늘을 봅니다.",
     "aiVerdict": "식민지 시대의 잔혹함이 벽마다 스며있는 역사상 최악의 지옥 감옥 호랑이 우리(Tiger Cages) 셋방입니다.",
     "geminiImagePrompt": "Chilling documentary photograph looking up from inside a concrete pit 'tiger cage' cell on Con Dao Island Vietnam, heavy iron bars on ceiling where sunlight cuts through dust, weathered stone walls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -1002,7 +1002,7 @@
     "en": {
       "title": "Vietnam Con Dao Island: Beneath Iron Grates of French Colonial Infamous 'Tiger Cages'",
       "builtYear": "1940 French Colonial Administration Construction",
-      "estimatedValue": "-$42,000 USD (Quicklime Drop Torture Chamber)",
+      "estimatedValue": "-$42,000 USD (Quicklime Drop Interrogation Room)",
       "specialFeature": "Staring up at the sky from the floor of a dungeon with iron-grated ceilings, where guards poured burning quicklime powder and filth onto prisoners from above.",
       "aiVerdict": "A rented room in history's most notorious hellhole—the Tiger Cages—where the sheer brutality of the colonial era still clings to every stone."
     }
@@ -1106,7 +1106,7 @@
     }
   },
   {
-    "title": "터키 이스탄불 예디쿨레 요새 지하 피의 감옥 참수대 앞 짚단 바닥",
+    "title": "터키 이스탄불 예디쿨레 요새 지하 피의 감옥 봉인대 앞 짚단 바닥",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -1117,8 +1117,8 @@
     "tier": 5,
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1458년 오스만 제국 정복 요새",
-    "estimatedValue": "-4,500만 원 (참수된 술탄의 원혼)",
-    "specialFeature": "오스만 제국의 폐위된 술탄과 외국 대사들이 처형당하던 돌기둥 참수대 바로 옆 썩은 짚단 위에 매트리스를 깔았습니다.",
+    "estimatedValue": "-4,500만 원 (봉인된 술탄의 원혼)",
+    "specialFeature": "오스만 제국의 폐위된 술탄과 외국 대사들이 처형당하던 돌기둥 봉인대 바로 옆 썩은 짚단 위에 매트리스를 깔았습니다.",
     "aiVerdict": "벽에 새겨진 죄수들의 마지막 낙서를 읽으며 등골이 오싹해지는 오스만 제국 천년 감옥의 처형장 뷰입니다.",
     "geminiImagePrompt": "Atmospheric low-angle photo of dark vaulted dungeon chamber in Yedikule Fortress Istanbul, ancient stone execution block, inscriptions carved by prisoners into dark damp stone walls, torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 234,
@@ -1203,7 +1203,7 @@
     }
   },
   {
-    "title": "『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥",
+    "title": "『메이드 인 어비스』 심계 5층 고대 유해의 바다 나2차대전의 축복과 저주 깃든 은신처 흙바닥",
     "category": "CLOSET",
     "categoryLabel": "옷장·가구·코인사물함",
     "categoryEmoji": "🚪",
@@ -1216,7 +1216,7 @@
     "builtYear": "1995년 악동 시드 필립스 방 개조",
     "estimatedValue": "부러진 바비인형 다리 2개",
     "specialFeature": "상승 부하를 받으면 인간의 형태를 잃어버리는 거대한 구덩이 5층, 말로의 영혼이 깃든 솜털 가득한 은신처 구석입니다. 신비로운 약초 향기 뒤편으로 미티의 신음과 심연의 음산한 바람 소리가 끝없이 귓전을 맴돕니다.",
-    "aiVerdict": "상승 부하의 저주가 도사리는 심계 5층 절벽 아래에서 향긋한 약초 냄새와 미티의 신음이 뒤섞인 나나치의 솜털 깃든 심연 은신처입니다.",
+    "aiVerdict": "상승 부하의 저주가 도사리는 심계 5층 절벽 아래에서 향긋한 약초 냄새와 미티의 신음이 뒤섞인 나2차대전의 솜털 깃든 심연 은신처입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Made in Abyss Nanachi's Hideout 5th Layer (『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥). Visual scene details: Fantastical tragic abyss subterranean fantasy concept art, cozy yet deeply unsettling hollow earthen dwelling adorned with hanging dried glowing herbs, hand-carved bone cooking utensils, soft woven moss bed, open cavern arch revealing the dizzying vertical drop of a bottomless sea of clouds and towering stalactites. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 237,
     "newLevel": 237,
@@ -1228,7 +1228,7 @@
     "previousLevel": 119,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Made in Abyss Nanachi's Hideout 5th Layer (『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥). Visual scene details: Fantastical tragic abyss subterranean fantasy concept art, cozy yet deeply unsettling hollow earthen dwelling adorned with hanging dried glowing herbs, hand-carved bone cooking utensils, soft woven moss bed, open cavern arch revealing the dizzying vertical drop of a bottomless sea of clouds and towering stalactites. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Made in Abyss: Nanachi's Blessed & Cursed Dirt Hideout on 5th Layer Sea of Corpses",
+      "title": "Made in Abyss: Nanachi's Blessed & Cursed Dirt Hideout on 5th Layer Sea of Scraps",
       "builtYear": "1995 Kid Menace Sid Phillips' Room Modification",
       "estimatedValue": "2 Broken Barbie Doll Legs",
       "specialFeature": "A fluffy nook in the hideout housing the souls of the Hollows on the giant pit's 5th layer, where ascending strips away your humanity. Behind the mystical herbal scent, Mitty's groans and the abyss's eerie wind howl ceaselessly in your ears.",

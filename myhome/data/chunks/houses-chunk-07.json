@@ -64,7 +64,7 @@
     }
   },
   {
-    "title": "방글라데시 치타공 선박 해체장 30만 톤급 녹슨 유조선 절단된 기관실 구석",
+    "title": "방글라데시 치타공 선박 해체장 30만 톤급 녹슨 유조선 분리된 기관실 구석",
     "category": "INDUSTRIAL_HAZARD",
     "categoryLabel": "산업 재해·방사능·중오염 구역",
     "categoryEmoji": "☣️",
@@ -76,7 +76,7 @@
     "tierName": "Tier 08: 늪지대와 침수 구역",
     "builtYear": "1979년 그리스 건조 유조선",
     "estimatedValue": "1,500만 원 (고철 무게 고철상 매입가)",
-    "specialFeature": "산소절단기 불꽃이 튀는 굉음과 타버린 석유 냄새 속에서 45도 기울어진 강철 격벽에 기대어 쪽잠을 청할 수 있습니다.",
+    "specialFeature": "산소분리기 불꽃이 튀는 굉음과 타버린 석유 냄새 속에서 45도 기울어진 강철 격벽에 기대어 쪽잠을 청할 수 있습니다.",
     "aiVerdict": "거대 해양 문명의 거대한 잔해 속에서 기름때 묻은 인더스트리얼 거친 감성을 독차지하는 방입니다.",
     "geminiImagePrompt": "Gritty editorial documentary photography of a makeshift living corner inside the cut-open rusty engine room of a massive supertanker at Chittagong ship breaking yard, sparks flying, oily black mud, industrial post-apocalyptic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 352,
@@ -89,7 +89,7 @@
     "previousLevel": 176,
     "imagePrompt": "Gritty editorial documentary photography of a makeshift living corner inside the cut-open rusty engine room of a massive supertanker at Chittagong ship breaking yard, sparks flying, oily black mud, industrial post-apocalyptic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Severed Engine Room Nook of 300,000-Ton Rusted Tanker, Chittagong Shipbreaking Yard, Bangladesh",
+      "title": "Detached Engine Room Nook of 300,000-Ton Rusted Tanker, Chittagong Shipbreaking Yard, Bangladesh",
       "builtYear": "1979 Greek-built supertanker",
       "estimatedValue": "$11,000 USD (Scrap metal merchant buyout price)",
       "specialFeature": "Nap propped against a 45-degree steel bulkhead amidst roaring blowtorch sparks and scorched bunker fuel stench.",
@@ -162,7 +162,7 @@
     }
   },
   {
-    "title": "『엘든 링』 케일리드 붉은 까마귀들이 시체 뜯어먹는 가시나무 둥지",
+    "title": "『엘든 링』 케일리드 붉은 까마귀들이 고대 유해 뜯어먹는 가시나무 둥지",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -174,7 +174,7 @@
     "tierName": "Tier 08: 늪지대와 침수 구역",
     "builtYear": "파쇄전쟁 이후 황폐화된 케일리드",
     "estimatedValue": "-7,000만 룬 (거대 까마귀 부리 쪼기 치명타)",
-    "specialFeature": "피처럼 붉은 하늘 아래 사람 머리통만 한 눈알을 굴리는 기형 거대 까마귀들이 시체를 쌓아둔 가시나무 둥지 틈새입니다.",
+    "specialFeature": "피처럼 붉은 하늘 아래 사람 머리통만 한 눈알을 굴리는 기형 거대 까마귀들이 고대 유해를 쌓아둔 가시나무 둥지 틈새입니다.",
     "aiVerdict": "말을 타고 전속력으로 도망치지 않으면 부리 한 방에 룬을 전부 잃어버리는 케일리드 최악의 까마귀 둥지입니다.",
     "geminiImagePrompt": "Elden Ring dark fantasy digital art in desolate Caelid red wastes, grotesque monstrous giant crows perched in twisted thorn tree nest filled with bones under blood-red sky, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 355,
@@ -186,7 +186,7 @@
     "isNewExpansion": true,
     "imagePrompt": "Elden Ring dark fantasy digital art in desolate Caelid red wastes, grotesque monstrous giant crows perched in twisted thorn tree nest filled with bones under blood-red sky, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "\"Elden Ring\" Giant Monstrous Crow Corpse Nest in Thorny Branches of Caelid",
+      "title": "\"Elden Ring\" Giant Monstrous Crow Scrap Nest in Thorny Branches of Caelid",
       "builtYear": "Post-Shattering Scarlet Rot Caelid Desolation",
       "estimatedValue": "-70,000,000 Runes (Instant critical peck from giant crow beak)",
       "specialFeature": "A hollow in thorn brambles beneath blood-red skies where mutated crows with skull-sized eyeballs pile up rotting carcasses.",
@@ -682,7 +682,7 @@
     }
   },
   {
-    "title": "『몬스터 헌터』 독기의 골짜기 시체 썩는 노란 독기 안개 속 골총 틈새",
+    "title": "『몬스터 헌터』 독기의 골짜기 고대 유해 썩는 노란 독기 안개 속 골총 틈새",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -709,7 +709,7 @@
       "title": "\"Monster Hunter: World\" Bone Pile Crevice in Yellow Effluvium Haze of Rotten Vale",
       "builtYear": "New World Elder Dragon Research Commission Era",
       "estimatedValue": "-8,000 Zenny (Penalty for lacking Effluvial Resistance charm)",
-      "specialFeature": "A hollow within towering wyvern ribcages where colossal decaying monster corpses exhale dense, yellow effluvial miasma.",
+      "specialFeature": "A hollow within towering wyvern ribcages where colossal decaying monster relics exhale dense, yellow effluvial miasma.",
       "aiVerdict": "A lethal hunting survival chamber where your maximum HP gets halved every minute while dodging Vaal Hazak's decaying tail sweeps."
     }
   },
@@ -812,7 +812,7 @@
     }
   },
   {
-    "title": "『니어: 오토마타』 폐허 도시 녹슨 철골에 매달린 작동 정지된 2B 시체 옆",
+    "title": "『니어: 오토마타』 폐허 도시 녹슨 철골에 매달린 작동 정지된 2B 고대 유해 옆",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -1229,7 +1229,7 @@
       "title": "\"Silent Hill\" Fog-Shrouded Hospital Basement with Rolling Rusted Wheelchair",
       "builtYear": "Shift to the Otherworld",
       "estimatedValue": "-$1M USD (Permanent psychiatric asylum confinement bill)",
-      "specialFeature": "As sirens wail and Brookhaven Hospital walls peel into rusted chain-link and bloody flesh, you clutch a static-crackling pocket radio.",
+      "specialFeature": "As sirens wail and Brookhaven Hospital walls peel into rusted chain-link and crimson flesh, you clutch a static-crackling pocket radio.",
       "aiVerdict": "The ultimate psychological purgatory where Pyramid Head's Great Knife scrapes the concrete corridor right outside your door."
     }
   },
@@ -1523,7 +1523,7 @@
       "builtYear": "Founded in 1950 by Don Julian Santana",
       "estimatedValue": "$24,000 USD (World's top haunted tourist site valuation)",
       "specialFeature": "Thousands of decomposing baby dolls hung from trees and peeling walls to placate a drowned girl's ghost, rolling empty eye sockets at midnight.",
-      "aiVerdict": "A nerve-shredding trial ground subjecting you to the unblinking 24/7 gaze of cursed decapitated dolls."
+      "aiVerdict": "A nerve-shredding trial ground subjecting you to the unblinking 24/7 gaze of cursed broken dolls."
     }
   },
   {
@@ -1592,7 +1592,7 @@
     }
   },
   {
-    "title": "『데드 바이 데이라이트』 엔티티의 영역 갈고리 바로 밑 피 묻은 풀숲",
+    "title": "『데드 바이 데이라이트』 엔티티의 영역 갈고리 바로 밑 얼룩진 풀숲",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",

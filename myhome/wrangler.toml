@@ -5,9 +5,9 @@ compatibility_date = "2026-10-01"
 [assets]
 directory = "./dist"
 binding = "ASSETS"
-not_found_handling = "single-page-application"
+not_found_handling = "none"
 html_handling = "none"
-run_worker_first = true
+run_worker_first = ["/", "/level/*", "/name/*", "/worldcup*", "/myhome*", "/food*", "/job*", "/car*", "/r2/*", "/images/*", "/i18n/*", "/src/lib/*", "/api/*", "/robots.txt", "/ads.txt"]
 
 [[routes]]
 pattern = "tellmyname.app"

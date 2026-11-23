@@ -208,7 +208,7 @@ export const MASTER_HOUSES = [
     "tier": 1,
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "1933년 혹한 관측 기록기",
-    "estimatedValue": "-1억 2,000만 원 (동상 절단 수술비 미포함)",
+    "estimatedValue": "-1억 2,000만 원 (동상 분리 수술비 미포함)",
     "specialFeature": "북위 77도 극북의 오지에서 세 달 동안 태양이 단 1초도 뜨지 않는 칠흑 같은 극야를 견뎌내는 이누이트 전통 잔디 오두막입니다. 고래 기름 등불 하나에 의지해 얼어붙은 바다표범 고기를 씹으며 오로라의 차가운 춤을 감상할 수 있습니다.",
     "aiVerdict": "석 달 동안 태양이 단 1초도 뜨지 않는 북위 77도의 극야 속에서 고래 기름 등불 하나에 의지해 오로라를 감상하는 그린란드 사냥꾼의 잔디 움막입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Qaanaaq High Arctic Polar Night Turf Hut (그린란드 카낙 북위 77도 극야의 3개월간 해 안 뜨는 물개 가죽 사냥꾼 움막). Visual scene details: Harsh high-arctic winter landscape, a low, rounded turf-and-stone dwelling banked by snowdrifts, seal-skin curtains over the tiny wooden portal, warm golden glow spilling from an ancient whale-oil soapstone lamp inside, breathtaking emerald and violet auroral curtains rippling across the dark polar night sky over frozen pack ice. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -339,7 +339,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "태고의 미개척 밀림",
     "estimatedValue": "-5,000만 원 (구조 헬기 출동 불가 구역)",
-    "specialFeature": "도로가 완전히 끊긴 세계 최악의 밀림에서 독사, 마약 카르텔, 진흙 늪지대를 피해 두 그루의 맹그로브 나무 사이에 걸어둔 해먹입니다.",
+    "specialFeature": "도로가 완전히 끊긴 세계 최악의 밀림에서 독사, 지하 암시장 조직, 진흙 늪지대를 피해 두 그루의 맹그로브 나무 사이에 걸어둔 해먹입니다.",
     "aiVerdict": "문명과의 모든 연결이 차단된 무법지대 밀림 한가운데서 밤마다 재규어의 울음소리를 ASMR 삼아 잠드는 서바이벌 하우스입니다.",
     "geminiImagePrompt": "Atmospheric photography of a muddy weathered survival hammock strung between dense jungle trees in Darien Gap Panama, thick tropical rain mist, muddy swamp waters below, dramatic perilous wilderness, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 10,
@@ -354,8 +354,8 @@ export const MASTER_HOUSES = [
       "title": "Mud-Drenched Hammock in the Primeval Jungle Swamps of the Darién Gap, Panama",
       "builtYear": "Immemorial Uncharted Jungle",
       "estimatedValue": "-$38,000 USD (Rescue Helicopter No-Fly Zone)",
-      "specialFeature": "A hammock strung between two mangrove trees to escape pit vipers, drug cartels, and bottomless mud swamps in the world's most treacherous, roadless jungle.",
-      "aiVerdict": "A lawless survival haven severed from all civilization, where nightly jaguar howls serve as your soothing ASMR lullaby."
+      "specialFeature": "A hammock strung between two mangrove trees to escape pit vipers, drug syndicates, and bottomless mud swamps in the world's most treacherous, roadless jungle.",
+      "aiVerdict": "A lawless survival haven detached from all civilization, where nightly jaguar howls serve as your soothing ASMR lullaby."
     }
   },
   {
@@ -619,7 +619,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막",
+    "title": "『곡성』 외지인의 숲속 썩은 흑염소 음산한 기운이 감도는 제단 옆 오두막",
     "category": "FICTION_MEDIA",
     "categoryLabel": "영화·애니·게임·문학 속 공간",
     "categoryEmoji": "🎬",
@@ -632,7 +632,7 @@ export const MASTER_HOUSES = [
     "builtYear": "물과 기름이 고갈된 포스트 아포칼립스",
     "estimatedValue": "-800구아스 (임모탄 조의 은총 0개)",
     "specialFeature": "깊은 산속 안개와 음산한 비바람 속에 덩그러니 놓인 기괴한 제단과 썩어가는 동물의 흔적이 가득한 은신처입니다. 밤마다 까마귀가 울부짖고 문풍지 틈으로 붉은 눈의 불청객이 안을 들여다봅니다.",
-    "aiVerdict": "안개 자욱한 곡성 숲속 피비린내 진동하는 흑염소 제단 옆에서 밤마다 까마귀 울음소리에 현혹되어 절대 숙면을 취할 수 없는 외지인의 오두막입니다.",
+    "aiVerdict": "안개 자욱한 곡성 숲속 음산한 기운 진동하는 흑염소 제단 옆에서 밤마다 까마귀 울음소리에 현혹되어 절대 숙면을 취할 수 없는 외지인의 오두막입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: The Wailing Forest Shrine Shack (『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막). Visual scene details: Chilling atmospheric exterior and interior view of a dilapidated wooden hut deep in a drenched, misty Korean mountain forest, creepy handmade straw effigies hanging from eaves, weathered wooden walls pinned with hundreds of faded photographs, candlelit occult altar with goat skull, deep ominous shadows. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 19,
     "newLevel": 19,
@@ -643,7 +643,7 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: The Wailing Forest Shrine Shack (『곡성』 외지인의 숲속 썩은 흑염소 피비린내 나는 제단 옆 오두막). Visual scene details: Chilling atmospheric exterior and interior view of a dilapidated wooden hut deep in a drenched, misty Korean mountain forest, creepy handmade straw effigies hanging from eaves, weathered wooden walls pinned with hundreds of faded photographs, candlelit occult altar with goat skull, deep ominous shadows. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Woodland Cabin Beside the Bloody Altar of Rotten Black Goats Belonging to the Mysterious Stranger, 『The Wailing』",
+      "title": "Woodland Cabin Beside the Crimson Altar of Rotten Black Goats Belonging to the Mysterious Stranger, 『The Wailing』",
       "builtYear": "Post-Apocalyptic Era Stripped of Water and Oil",
       "estimatedValue": "-800 Guzzoline (Zero Immortan Joe Blessings Granted)",
       "specialFeature": "A remote shelter nestled in dense mountain fog and howling squalls, filled with gruesome altars and rotting animal carcasses. Nightly crow caws echo outside while red-eyed uninvited visitors peer through slits in the paper door.",
@@ -879,7 +879,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『원피스』 임펠다운 레벨 4 초열지옥 펄펄 끓는 피 연못 바로 위 철망 당번실",
+    "title": "『원피스』 임펠다운 레벨 4 초열지옥 펄펄 끓는 붉은 용암 연못 바로 위 철망 당번실",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -891,7 +891,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "대해적시대 세계정부 최고 감옥",
     "estimatedValue": "-2억 베리 (마젤란 서장의 독가스 위험 수당)",
-    "specialFeature": "펄펄 끓는 피 연못과 거대한 가마솥 열기가 치솟는 철망 바닥 위에서 죄수들을 감시하며 땀범벅이 된 채 뻗어 잡니다.",
+    "specialFeature": "펄펄 끓는 붉은 용암 연못과 거대한 가마솥 열기가 치솟는 철망 바닥 위에서 죄수들을 감시하며 땀범벅이 된 채 뻗어 잡니다.",
     "aiVerdict": "지하 4층의 살벌한 화염 열기 덕분에 사시사철 불지옥 찜질방 무료 이용권을 누리는 해군 당번석입니다.",
     "geminiImagePrompt": "Epic anime concept art inside Impel Down Level 4 Blazing Hell, suspended grated steel watch platform over bubbling cauldrons of boiling red blood lake, towering black iron pillars, volcanic glow, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 27,
@@ -1281,7 +1281,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "태초의 공포가 지배하는 영겁",
     "estimatedValue": "-6억 엔 (악마와의 계약으로 수명 전부 헌납)",
-    "specialFeature": "반으로 갈라져 두 손을 모아 기도하는 우주비행사 시체들이 도열한 지옥의 초원 한가운데 어둠의 악마 그림자 밑에 눕습니다.",
+    "specialFeature": "반으로 갈라져 두 손을 모아 기도하는 우주비행사 고대 유해들이 도열한 지옥의 초원 한가운데 어둠의 악마 그림자 밑에 눕습니다.",
     "aiVerdict": "소리를 내는 순간 팔다리가 분해되는 근원의 공포 속에서 지옥의 문고리를 쳐다보는 궁극의 공포 스위트입니다.",
     "geminiImagePrompt": "Surreal haunting anime concept art of Chainsaw Man Hell, row of bisected astronaut corpses with praying hands lining a grassy plain under black sky with floating wooden doors, absolute dread, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 39,
@@ -1411,8 +1411,8 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 01: 태초의 밑바닥",
     "builtYear": "파쇄전쟁 말레니아의 붉은 에오니아 개화기",
     "estimatedValue": "-9억 룬 (보존하는 이끼약 품절)",
-    "specialFeature": "생존자들의 집단 이기주의로 잠겨버린 자동문 바로 앞, 피 묻은 캐리어와 외투로 만든 처절한 임시 바닥 잠자리입니다. 유리문 너머로는 차가운 눈총이, 등 뒤 칸에서는 감염자들의 광기 어린 포효가 울려 퍼집니다.",
-    "aiVerdict": "유리문 너머 산 사람들의 차가운 시선과 등 뒤 칸에서 몰려오는 감염자들의 포효 사이에 끼어 피 묻은 외투를 깔고 버티는 KTX 연결 통로 바닥입니다.",
+    "specialFeature": "생존자들의 집단 이기주의로 잠겨버린 자동문 바로 앞, 얼룩진 캐리어와 외투로 만든 처절한 임시 바닥 잠자리입니다. 유리문 너머로는 차가운 눈총이, 등 뒤 칸에서는 감염자들의 광기 어린 포효가 울려 퍼집니다.",
+    "aiVerdict": "유리문 너머 산 사람들의 차가운 시선과 등 뒤 칸에서 몰려오는 감염자들의 포효 사이에 끼어 얼룩진 외투를 깔고 버티는 KTX 연결 통로 바닥입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Train to Busan KTX Vestibule Blockade (『부산행』 KTX 15호칸 생존자 이기주의자들이 문 걸어 잠근 좁은 연결 통로 바닥). Visual scene details: Tense, narrow vestibule between two speeding train carriages, reinforced sliding glass door hastily tied shut with neckties and scarves, bloody handprints smudged on frosted glass, floor piled with crushed hard-shell suitcases and rumpled blankets, harsh fluorescent emergency lights flickering. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 43,
     "newLevel": 43,
@@ -1426,7 +1426,7 @@ export const MASTER_HOUSES = [
       "title": "Narrow Gangway Floor Locked Out by Selfish Survivors in Car 15 of KTX, 『Train to Busan』",
       "builtYear": "Shattering Era, Malenia's Scarlet Aeonia Bloom",
       "estimatedValue": "-900M Runes (Preserving Boluses Sold Out)",
-      "specialFeature": "A desperate bedding pallet cobbled from bloodied luggage and winter coats outside the vestibule door bolted by hysterical survivors. Cold glares pierce through the glass ahead, while frenzied infected howls roar right behind your back.",
+      "specialFeature": "A desperate bedding pallet cobbled from battered luggage and winter coats outside the vestibule door bolted by hysterical survivors. Cold glares pierce through the glass ahead, while frenzied infected howls roar right behind your back.",
       "aiVerdict": "A Tarnished dung-bearer hovel bleeding HP every second right in the toxic heart of Caelid where Malenia's Scarlet Rot blossoms."
     }
   },
@@ -1789,7 +1789,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『워해머 40,000』 하이브 시티 최하층 시체 재활용 공장 슬러지 파이프 틈",
+    "title": "『워해머 40,000』 하이브 시티 최하층 폐기물 재활용 공장 슬러지 파이프 틈",
     "category": "INDUSTRIAL_HAZARD",
     "categoryLabel": "산업 재해·방사능·중오염 구역",
     "categoryEmoji": "☣️",
@@ -1800,9 +1800,9 @@ export const MASTER_HOUSES = [
     "tier": 2,
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "제41천년기 인류제국 암흑기",
-    "estimatedValue": "-10억 크레디트 (시체 녹말 1회 배급권 교환)",
-    "specialFeature": "수십억 명이 버린 폐기물과 시체를 끓여 전 인류의 식량인 '시체 녹말(Corpse-Starch)'로 만드는 배관 바로 밑의 침상입니다.",
-    "aiVerdict": "황제 폐하에 대한 충성심 하나로 시체 썩는 단백질 슬러지 냄새를 견뎌내는 하이브 월드 최하층 언더하이브 룸입니다.",
+    "estimatedValue": "-10억 크레디트 (고대 유해 녹말 1회 배급권 교환)",
+    "specialFeature": "수십억 명이 버린 폐기물과 고대 유해를 끓여 전 인류의 식량인 '고대 유해 녹말(Scrap-Starch)'로 만드는 배관 바로 밑의 침상입니다.",
+    "aiVerdict": "황제 폐하에 대한 충성심 하나로 고대 유해 썩는 단백질 슬러지 냄새를 견뎌내는 하이브 월드 최하층 언더하이브 룸입니다.",
     "geminiImagePrompt": "Grimdark gothic industrial concept art inside the colossal depths of a Warhammer 40k Hive City Underhive, massive rusted corpse-starch processing pipes dripping grey slime, skulls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 55,
     "newLevel": 55,
@@ -1813,10 +1813,10 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "Grimdark gothic industrial concept art inside the colossal depths of a Warhammer 40k Hive City Underhive, massive rusted corpse-starch processing pipes dripping grey slime, skulls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Sludge Pipe Alcove in a Corpse-Recycling Plant, Bottom of Hive City, 『Warhammer 40,000』",
+      "title": "Sludge Pipe Alcove in a Scrap-Recycling Plant, Bottom of Hive City, 『Warhammer 40,000』",
       "builtYear": "The Dark 41st Millennium of the Imperium of Man",
-      "estimatedValue": "-1B Credits (Redeemable for 1 Corpse-Starch Ration Token)",
-      "specialFeature": "A bunk situated directly under vat conduits boiling trillions of deceased hive dwellers into imperial Corpse-Starch rations.",
+      "estimatedValue": "-1B Credits (Redeemable for 1 Scrap-Starch Ration Token)",
+      "specialFeature": "A bunk situated directly under vat conduits boiling trillions of deceased hive dwellers into imperial Scrap-Starch rations.",
       "aiVerdict": "An Underhive billet where pure, unyielding devotion to the God-Emperor alone steels your nostrils against rank vats of liquefied protein slurry."
     }
   },
@@ -2179,7 +2179,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『스위트홈』 그린홈 1411호 연근괴물이 문 부수고 들어온 피 칠갑 거실",
+    "title": "『스위트홈』 그린홈 1411호 연근괴물이 문 부수고 들어온 붉은 페인트 자국 거실",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -2206,7 +2206,7 @@ export const MASTER_HOUSES = [
       "title": "Blood-Drenched Living Room in Green Home Apt 1411 After Lotus-Root Monster Smashed the Door, 『Sweet Home』",
       "builtYear": "November 2019 Dystopian Los Angeles",
       "estimatedValue": "-$3,000 USD (Failed Voight-Kampff Test Penalty)",
-      "specialFeature": "A battered 1980s apartment living room where a decapitated monster with ears twitching roams blind, forcing you to lie frozen behind shredded upholstery while trembling at the thunderous stomps of the Protein Monster.",
+      "specialFeature": "A battered 1980s apartment living room where a broken monster with ears twitching roams blind, forcing you to lie frozen behind shredded upholstery while trembling at the thunderous stomps of the Protein Monster.",
       "aiVerdict": "A cyberpunk rooftop perch where you ponder Roy Batty's immortal words—'All those moments will be lost in time, like tears in rain'—soaked to the bone."
     }
   },
@@ -2321,7 +2321,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "2015년 사도 습격 이후 폐허",
     "estimatedValue": "-8,000만 엔 (LCL 용액 오염 구역)",
-    "specialFeature": "사도의 십자가 폭발로 천장이 뚫려 붉은 피바다가 된 지오프론트 피라미드 잔해 철골 사이에 돗자리를 깔고 신지의 비명을 듣습니다.",
+    "specialFeature": "사도의 십자가 폭발로 천장이 뚫려 붉은 붉은 안개가 된 지오프론트 피라미드 잔해 철골 사이에 돗자리를 깔고 신지의 비명을 듣습니다.",
     "aiVerdict": "인류보완계획이 시작되기 전 LCL 바다 냄새를 맡으며 내면의 고독과 대화하는 네르프 지하 셋방입니다.",
     "geminiImagePrompt": "Evangelion anime aesthetic concept art inside ruined GeoFront cavern beneath Tokyo-3, shattered inverted pyramid headquarters surrounded by sea of red liquid, massive steel I-beams, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 71,
@@ -2569,7 +2569,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『베르세르크』 일식의 제물 강마의 의식 마물들 뼈 무덤 사이 피 웅덩이",
+    "title": "『베르세르크』 일식의 제물 강마의 의식 마물들 뼈 무덤 사이 붉은 웅덩이",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -2581,7 +2581,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "매의 단 일식의 의식의 날",
     "estimatedValue": "-999조 원 (제물의 낙인 찍힌 영혼)",
-    "specialFeature": "목덜미에서 제물의 낙인 피가 솟구치고 수만 마리의 사도들이 동료들을 씹어 삼키는 거대한 얼굴 언덕 피바다 한가운데 눕습니다.",
+    "specialFeature": "목덜미에서 제물의 낙인 피가 솟구치고 수만 마리의 사도들이 동료들을 씹어 삼키는 거대한 얼굴 언덕 붉은 안개 한가운데 눕습니다.",
     "aiVerdict": "가츠의 드래곤 슬레이어가 휘둘러지기 전까지 단 1초도 살아남을 수 없는 절대 절망의 다크 판타지 밑바닥입니다.",
     "geminiImagePrompt": "Epic dark fantasy digital painting of Berserk Eclipse altar, towering mountain of grotesque demonic faces, blood red sky with black eclipsed sun, horrifying apostle silhouettes in fog, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 79,
@@ -2596,7 +2596,7 @@ export const MASTER_HOUSES = [
       "title": "Pool of Blood Amidst Demon Bone Heaps During the Eclipse Sacrificial Descent, 『Berserk』",
       "builtYear": "Day of the Eclipse, Band of the Falcon Sacrifice",
       "estimatedValue": "-$750B USD (Soul Branded with the Brand of Sacrifice)",
-      "specialFeature": "Blood gushes continuously from the Brand of Sacrifice on your neck while thousands of Apostle fiends devour comrades across a lake of gore upon the colossal mound of faces.",
+      "specialFeature": "Blood gushes continuously from the Brand of Sacrifice on your neck while thousands of Apostle fiends devour comrades across a lake of dark-fantasy chaos upon the colossal mound of faces.",
       "aiVerdict": "Absolute rock bottom in grimdark fantasy, where survival past sixty seconds is impossible until Guts cleaves the gloom with the Dragon Slayer."
     }
   },
@@ -2613,7 +2613,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "1990년대 콜롬비아 보고타 도심 슬럼화 시기 형성 (2016년 폐쇄)",
     "estimatedValue": "철거 수용 구역 잔해 가치 0원 (방탄조끼 대여비 별도)",
-    "specialFeature": "과거 마약 카르텔과 범죄 조직이 요새화하여 경찰조차 진입하지 못했던 안데스 고원 빈민가의 폐쇄된 골목 틈새 매트리스입니다. 철거를 앞둔 붉은 벽돌 건물 붕괴 잔해와 깨진 유리 조각 사이에서 차가운 산악 안개를 맞으며 누워야 합니다.",
+    "specialFeature": "과거 지하 암시장 조직과 범죄 조직이 요새화하여 경찰조차 진입하지 못했던 안데스 고원 빈민가의 폐쇄된 골목 틈새 매트리스입니다. 철거를 앞둔 붉은 벽돌 건물 붕괴 잔해와 깨진 유리 조각 사이에서 차가운 산악 안개를 맞으며 누워야 합니다.",
     "aiVerdict": "경찰조차 발을 들이지 못했던 무법지대 폐쇄 골목의 깨진 유리 조각과 붉은 벽돌 잔해 사이에서 차가운 안데스 밤안개를 맞으며 자는 위험천만 매트리스입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Bogota El Bronx Alley Mattress Shelter (콜롬비아 보고타 엘 브롱크스 폐쇄 구역 골목 틈새 매트리스 쉘터). Visual scene details: Gritty South American urban ruins, narrow alleyway between condemned red-brick brick walk-ups covered in vibrant spray-painted murals and concertina wire, an improvised shelter built of damp foam mattresses and cardboard under a plastic tarp, chilling Andean highland fog swirling beneath an amber streetlamp. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 80,
@@ -2629,7 +2629,7 @@ export const MASTER_HOUSES = [
       "title": "Alley Gap Mattress Shelter in the Condemned Sector of El Bronx, Bogotá, Colombia",
       "builtYear": "Formed during 1990s Bogotá inner-city decay (cleared in 2016)",
       "estimatedValue": "$0 condemned demolition zone value (kevlar vest rental extra)",
-      "specialFeature": "A mattress wedged between alley brickwork in a notorious cartel-fortified ghetto high on the Andean plateau once deemed an impenetrable no-go zone. Amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog.",
+      "specialFeature": "A mattress wedged between alley brickwork in a notorious syndicate-fortified ghetto high on the Andean plateau once deemed an impenetrable no-go zone. Amid shattered glass and crumbling mortar awaiting bulldozers, you shiver under damp highland fog.",
       "aiVerdict": "Multiverse Hazard Dossier #080: Municipal inspectors refused to step within fifty yards of 'Alley Gap Mattress Shelter in the Condemned Sector of El Bronx, Bogotá, Colombia', leaving you as the undisputed sovereign of this wild outpost."
     }
   },
@@ -3069,7 +3069,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 02: 폐허와 슬럼가",
     "builtYear": "1963년 바사크 강변 공공주택",
     "estimatedValue": "-1,700만 원 (철거 명령 강제 이주 구역)",
-    "specialFeature": "한때 근대 건축의 걸작이었으나 마약상과 슬럼으로 전락해 건물 전체에 뱀 같은 균열이 가고 벽에서 콘크리트 가루가 비처럼 내립니다.",
+    "specialFeature": "한때 근대 건축의 걸작이었으나 암시장상과 슬럼으로 전락해 건물 전체에 뱀 같은 균열이 가고 벽에서 콘크리트 가루가 비처럼 내립니다.",
     "aiVerdict": "건물이 언제 주저앉을지 카운트다운을 세며 삐걱거리는 콘크리트 신음 소리를 감상하는 역사 유적 셋방입니다.",
     "geminiImagePrompt": "Eerie atmospheric photo of a crumbling hallway in Phnom Penh White Building, severe structural cracks in peeling concrete walls, tropical moss, flickering fluorescent light, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 94,
@@ -3232,7 +3232,7 @@ export const MASTER_HOUSES = [
     "builtYear": "2149년 아전트 에너지 포털 붕괴",
     "estimatedValue": "-6,666만 달러 (둠가이의 분노 게이지 Max)",
     "specialFeature": "벽면에서 피가 흘러내리고 악마들의 살점이 엉켜있는 플라즈마 냉각관 틈새에서 샷건 장전 소리를 들으며 공포에 떱니다.",
-    "aiVerdict": "헤비메탈 기타 리프가 울려 퍼질 때마다 악마들이 찢겨 나가는 둠 슬레이어의 학살 구역 청소부 대기실입니다.",
+    "aiVerdict": "헤비메탈 기타 리프가 울려 퍼질 때마다 악마들이 찢겨 나가는 둠 슬레이어의 대격전 구역 청소부 대기실입니다.",
     "geminiImagePrompt": "Doom eternal inspired sci-fi hell concept art inside corrupted Martian UAC facility, glowing pentagrams carved into high-tech titanium consoles, demonic flesh infesting plasma conduits, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 99,
     "newLevel": 99,
@@ -3349,7 +3349,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『타인은 지옥이다』 에덴고시원 4층 시체 썩는 냄새 진동하는 203호 쪽방",
+    "title": "『타인은 지옥이다』 에덴고시원 4층 쾨쾨한 곰팡이 냄새 진동하는 203호 쪽방",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -3373,7 +3373,7 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Strangers from Hell Eden Studio Room 203 (『타인은 지옥이다』 에덴고시원 4층 시체 썩는 냄새 진동하는 203호 쪽방). Visual scene details: Claustrophobic, grimy interior of an ultra-cramped micro-dormitory cubicle, discolored yellow wallpaper mottled with mold, sagging thin mattress on stained linoleum floor, narrow wooden desk holding a buzzing mini-fan, sinister sickly green hallway light shining under the thin plywood door. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "'Strangers from Hell' Eden Gosiwon 4th Floor Room 203 Micro-cubicle Reeking of Rotting Corpses",
+      "title": "'Strangers from Hell' Eden Gosiwon 4th Floor Room 203 Micro-cubicle Reeking of Rotting Scraps",
       "builtYear": "Brood War Great Invasion of Planet Char",
       "estimatedValue": "-150 Minerals (Stimpack Side Effect Treatment Costs)",
       "specialFeature": "A windowless 35-square-foot gosiwon room with 0% acoustic isolation and rattling doorknobs, where neighbors' grotesque giggles echo 24/7. From the ceiling vent, an unidentified stench of rotting meat billows out to unravel your sanity.",
@@ -3479,7 +3479,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『쏘우』 직쏘의 지하 화장실 발목 쇠사슬 족쇄 배관 옆 피 묻은 타일 바닥",
+    "title": "『쏘우』 직쏘의 지하 화장실 발목 쇠사슬 족쇄 배관 옆 얼룩진 타일 바닥",
     "category": "FICTION_MEDIA",
     "categoryLabel": "영화·소설·애니메이션 속 공간",
     "categoryEmoji": "🎬",
@@ -3503,7 +3503,7 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Saw Dilapidated Industrial Bathroom Trap (『쏘우』 직쏘의 지하 화장실 발목 쇠사슬 족쇄 배관 옆 피 묻은 타일 바닥). Visual scene details: Grimy, decrepit industrial subterranean bathroom with cracked white subway tiles stained with brown sludge and blood, heavy cast-iron plumbing pipes bolted into concrete, a thick rusted chain and shackle trailing across wet tiles, a discarded vintage tape recorder and blunt hand saw under a single hanging lightbulb. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "'Saw' Jigsaw's Underground Bathroom Bloody Tiled Floor Next to Shackled Ankle Pipe",
+      "title": "'Saw' Jigsaw's Underground Bathroom Crimson Tiled Floor Next to Shackled Ankle Pipe",
       "builtYear": "Worst Dining Establishment in Bikini Bottom",
       "estimatedValue": "-$0.05 USD (Fine for Failing to Steal the Krabby Patty Secret Formula)",
       "specialFeature": "A desolate tiled room where you sit chained to cold plumbing by a heavy rusted shackle, listening to a ticking tape countdown. With a rusty hacksaw before you, you must decide whether to saw off your foot or remain trapped forever.",
@@ -3881,7 +3881,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 03: 기괴한 고물과 상자",
     "builtYear": "1995년 픽사 첫 장편 시절",
     "estimatedValue": "-8달러 (장난감 수술 실패 보상금)",
-    "specialFeature": "완벽한 백색 조명이 24시간 꺼지지 않아 밤낮을 알 수 없는 오세아니아 사상경찰의 고문실 한가운데 놓인 의자입니다. 머리에 씌워질 굶주린 시궁쥐 케이지를 마주하며 2 더하기 2가 5임을 눈물로 맹세하게 됩니다.",
+    "specialFeature": "완벽한 백색 조명이 24시간 꺼지지 않아 밤낮을 알 수 없는 오세아니아 사상경찰의 취조실 한가운데 놓인 의자입니다. 머리에 씌워질 굶주린 시궁쥐 케이지를 마주하며 2 더하기 2가 5임을 눈물로 맹세하게 됩니다.",
     "aiVerdict": "24시간 꺼지지 않는 백색 조명 아래 굶주린 시궁쥐 케이지를 눈앞에 두고 2 더하기 2가 5라고 눈물로 자백해야 하는 빅 브라더의 101호실입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: 1984 Ministry of Love Room 101 (『1984』 빅 브라더 애정성 101호 쥐 케이지 앞 심문용 철제 의자). Visual scene details: Brutalist totalitarian interrogation chamber bathed in merciless stark white clinical illumination, seamless porcelain walls with no windows, a heavy steel chair bolted to the bare floor equipped with leather restraints, a menacing dual-compartment wire cage device poised nearby, an unblinking surveillance lens watching from the corner. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 119,
@@ -3896,7 +3896,7 @@ export const MASTER_HOUSES = [
       "title": "'1984' Big Brother Ministry of Love Room 101 Interrogation Chair Before Rat Cage",
       "builtYear": "1995 Era of Pixar's First Feature Film",
       "estimatedValue": "-$8 USD (Failed Toy Surgery Compensation)",
-      "specialFeature": "A torture chair centered under blinding white lights burning 24/7 in Oceania's Thought Police chamber. Staring into a cage of ravenous sewer rats fitted for your face, you tearfully swear that two plus two equals five.",
+      "specialFeature": "A creaky interrogation chair centered under blinding white lights burning 24/7 in Oceania's Thought Police chamber. Staring into a cage of ravenous sewer rats fitted for your face, you tearfully swear that two plus two equals five.",
       "aiVerdict": "A toys' escape-from-hell chamber where you must break out before Sid lights the fuse on 'The Big One' rocket."
     }
   },
@@ -4023,10 +4023,10 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "Cinematic retro-futuristic concept art inside the severed hollow mechanical claw of an Omnidroid robot in volcanic jungle scrap heap on Nomanisan Island, tropical steam, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "'The Incredibles' Syndrome's Omnidroid Scrapyard Severed Claw Interior",
+      "title": "'The Incredibles' Syndrome's Omnidroid Scrapyard Detached Claw Interior",
       "builtYear": "2004 Nomanisan Island Secret Base",
       "estimatedValue": "-$20,000,000 USD (Superhero Elimination Project Scrap Debris)",
-      "specialFeature": "Wiping grease inside the massive steel joint socket of an Omnidroid combat claw severed during battle against Mr. Incredible to catch some sleep.",
+      "specialFeature": "Wiping grease inside the massive steel joint socket of an Omnidroid combat claw detached during battle against Mr. Incredible to catch some sleep.",
       "aiVerdict": "A supervillain R&D graveyard hidden behind volcanic waterfalls, where robotic scrap metal serves as your bed blanket."
     }
   },
@@ -5169,7 +5169,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『강철의 연금술사』 글러트니의 뱃속 무한한 가짜 진리의 문 피바다 위 잔해",
+    "title": "『강철의 연금술사』 글러트니의 뱃속 무한한 가짜 진리의 문 붉은 안개 위 잔해",
     "category": "MULTIVERSE",
     "categoryLabel": "초차원·블랙홀·다중우주 창조주 신전",
     "categoryEmoji": "🌌",
@@ -5523,7 +5523,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Taisho Era Invocation Date of Muzan's Blood Demon Art",
       "estimatedValue": "-$37,500 USD ($0 Life Deposit)",
       "specialFeature": "A haven lodged between primordial monoliths twisted at angles defying human geometry. Awakening to damp briny stenches and abyssal subterranean writhings steadily dissolves your cognitive reason.",
-      "aiVerdict": "A peak-tension dwelling where an irritated landlord serves decapitation instead of an eviction notice."
+      "aiVerdict": "A peak-tension dwelling where an irritated landlord serves dramatic showdown instead of an eviction notice."
     }
   },
   {
@@ -5949,7 +5949,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『도쿄 구울』 안테이크 지하 11구 아오기리 나무 고문실 야모리의 펜치 옆 의자",
+    "title": "『도쿄 구울』 안테이크 지하 11구 아오기리 나무 취조실 야모리의 펜치 옆 의자",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -5960,7 +5960,7 @@ export const MASTER_HOUSES = [
     "tier": 4,
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "구울 대책국(CCG) 격돌기",
-    "estimatedValue": "-1,000에서 7을 빼면 얼마지? (영구 고문실)",
+    "estimatedValue": "-1,000에서 7을 빼면 얼마지? (영구 취조실)",
     "specialFeature": "흑백 체크무늬 타일 바닥과 낡은 나무 의자 하나만 덩그러니 놓인 애니메이션 속 어두운 콘크리트 은신처입니다.",
     "aiVerdict": "강렬한 다크 판타지 분위기가 물씬 풍기는 공간입니다. 따뜻한 조명과 포근한 러그를 먼저 들여놓으세요.",
     "geminiImagePrompt": "Tokyo Ghoul dark anime concept art inside Yamori's tiled torture chamber, bloodstained dental chair with heavy iron leather straps, rusty pliers on steel tray, red Chinese centipede on floor, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -5975,7 +5975,7 @@ export const MASTER_HOUSES = [
     "en": {
       "title": "'Tokyo Ghoul' Ward 11 Aogiri Tree Checkered Concrete Hideout Chair",
       "builtYear": "Era of Commission of Counter Ghoul (CCG) Clash",
-      "estimatedValue": "What is 1,000 minus 7? (Perpetual Torture Chamber)",
+      "estimatedValue": "What is 1,000 minus 7? (Perpetual Interrogation Room)",
       "specialFeature": "A stark black-and-white checkered concrete studio with a single weathered wooden chair and dramatic anime noir lighting.",
       "aiVerdict": "A moody, minimalist concrete room straight out of a dark urban fantasy anime—definitely needs warmer curtains and a cozy rug."
     }
@@ -6079,7 +6079,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『헌터x헌터』 키르아 조르딕 가문 고문실 전기 채찍 매달린 지하 감옥",
+    "title": "『헌터x헌터』 키르아 조르딕 가문 취조실 전기 채찍 매달린 지하 감옥",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -6090,9 +6090,9 @@ export const MASTER_HOUSES = [
     "tier": 4,
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "암살자 일족 조르딕 가문 본가",
-    "estimatedValue": "-50억 제니 (암살 가문 내림 고문)",
+    "estimatedValue": "-50억 제니 (암살 가문 내림 극한 압박)",
     "specialFeature": "100만 볼트 전기가 흐르는 채찍을 맞으면서도 \"간지럽다\"고 하품을 해야 하는 조르딕 가문의 혹독한 신부 수업(?) 감옥입니다.",
-    "aiVerdict": "웬만한 사람은 3초 만에 숯덩이가 되는 전기 고문을 일상 트레이닝으로 즐기는 킬러 패밀리 스위트입니다.",
+    "aiVerdict": "웬만한 사람은 3초 만에 숯덩이가 되는 전기 극한 압박을 일상 트레이닝으로 즐기는 킬러 패밀리 스위트입니다.",
     "geminiImagePrompt": "Hunter x Hunter anime concept art inside Zoldyck family dungeon torture chamber, massive iron chains suspended from stone ceiling, electrical sparks arcing across metal shackles, dim torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 187,
     "newLevel": 187,
@@ -6103,9 +6103,9 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "Hunter x Hunter anime concept art inside Zoldyck family dungeon torture chamber, massive iron chains suspended from stone ceiling, electrical sparks arcing across metal shackles, dim torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "'Hunter x Hunter' Killua's Zoldyck Family Torture Chamber Electric Whip Dungeon",
+      "title": "'Hunter x Hunter' Killua's Zoldyck Family Interrogation Room Electric Whip Dungeon",
       "builtYear": "Zoldyck Assassin Family Estate",
-      "estimatedValue": "-5,000,000,000 Jenny (Assassin Clan Heritage Torture Fee)",
+      "estimatedValue": "-5,000,000,000 Jenny (Assassin Clan Heritage Ordeal Fee)",
       "specialFeature": "The brutal Zoldyck family training dungeon where taking one million volts from an electric whip is expected to be brushed off with a bored yawn.",
       "aiVerdict": "A killer family suite treating electrocution that would turn ordinary mortals into charcoal within three seconds as a casual morning workout."
     }
@@ -6177,7 +6177,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 절단면 기름때 텐트",
+    "title": "파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 단면 기름때 텐트",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -6189,8 +6189,8 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "1986년 개장 이틀 전 버려진 놀이공원",
     "estimatedValue": "-3,800만 원 (방사능 핫스팟 지점)",
-    "specialFeature": "아라비아해 갯벌에 전속력으로 좌초시킨 수만 톤급 초대형 화물선을 산소절단기로 해체하는 가다니 해변의 선체 절단면 텐트입니다. 중유 찌꺼기와 석면이 뒹구는 45도 기울어진 강철 갑판 위에서 조수간만의 차에 맞춰 파도 소리를 들으며 몸을 웅크립니다.",
-    "aiVerdict": "아라비아해 갯벌에 좌초돼 산소절단기로 찢겨나가는 초대형 화물선의 기름때와 석면 가득한 45도 기울어진 갑판 위 절단면 텐트입니다.",
+    "specialFeature": "아라비아해 갯벌에 전속력으로 좌초시킨 수만 톤급 초대형 화물선을 산소분리기로 해체하는 가다니 해변의 선체 단면 텐트입니다. 중유 찌꺼기와 석면이 뒹구는 45도 기울어진 강철 갑판 위에서 조수간만의 차에 맞춰 파도 소리를 들으며 몸을 웅크립니다.",
+    "aiVerdict": "아라비아해 갯벌에 좌초돼 산소분리기로 찢겨나가는 초대형 화물선의 기름때와 석면 가득한 45도 기울어진 갑판 위 단면 텐트입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Gadani Shipbreaking Beach Sloped Hull Tent (파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 절단면 기름때 텐트). Visual scene details: Colossal industrial shipbreaking yard, perspective from inside the severed cavernous steel hull of a massive beached oil tanker, tilted rust-stained bulkhead walls towering dozens of meters, a rugged canvas bivouac lashed to iron eyelets on the oil-slick deck, sparks raining down from blowtorches in the distance under a blazing Arabian Sea sunset. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 190,
     "newLevel": 190,
@@ -6204,7 +6204,7 @@ export const MASTER_HOUSES = [
       "title": "Gadani, Pakistan Shipbreaking Yard Low-Tide Grounded Freighter Cut Section Grease Tent",
       "builtYear": "Amusement Park Abandoned Two Days Prior to 1986 Opening",
       "estimatedValue": "-$28,500 USD (Radiation Hotspot Surcharge)",
-      "specialFeature": "A tent pitched on the severed hull section of a tens-of-thousands-ton freighter intentionally beached on Arabian Sea tidal flats. Crouching on a 45-degree steel deck littered with bunker fuel sludge and asbestos, you sleep to surging tides.",
+      "specialFeature": "A tent pitched on the detached hull section of a tens-of-thousands-ton freighter intentionally beached on Arabian Sea tidal flats. Crouching on a 45-degree steel deck littered with bunker fuel sludge and asbestos, you sleep to surging tides.",
       "aiVerdict": "A radioactive hotspot Ferris wheel VIP lounge where the screech of rusting metal grates on your intestines with every breeze."
     }
   },
@@ -6366,7 +6366,7 @@ export const MASTER_HOUSES = [
       "title": "'JoJo's Bizarre Adventure' DIO's Coffin 100 Years Submerged in Atlantic Ocean Abyss",
       "builtYear": "100 Years Following 1889 Death of Jonathan Joestar",
       "estimatedValue": "-100 Years of Solitude (Charging Stand 'The World')",
-      "specialFeature": "Trapped in the Atlantic depths for 100 years without sunlight inside a heavy iron casket, grafted onto Jonathan's severed body.",
+      "specialFeature": "Trapped in the Atlantic depths for 100 years without sunlight inside a heavy iron casket, grafted onto Jonathan's detached body.",
       "aiVerdict": "The ultimate deep-sea vampire casket, where you pass a century practicing time-stop powers until a salvage ship hoists you up."
     }
   },
@@ -6496,7 +6496,7 @@ export const MASTER_HOUSES = [
       "title": "'My Hero Academia' League of Villains Underground Hideout Moldy Bar Counter Nook",
       "builtYear": "All For One Secret Hideout Base",
       "estimatedValue": "-30,000,000 JPY (Kurogiri Warp Gate Waiting Room Fee)",
-      "specialFeature": "Eavesdropping on the All Might assassination plot beneath a creaking tavern bar while Tomura Shigaraki scratches his neck with severed hands clasped to his face.",
+      "specialFeature": "Eavesdropping on the All Might assassination plot beneath a creaking tavern bar while Tomura Shigaraki scratches his neck with detached hands clasped to his face.",
       "aiVerdict": "The League of Villains' murky dive bar room where Pro Heroes could breach through the wall with a Smash at any second."
     }
   },
@@ -6631,7 +6631,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "필리핀 바기오 디플로맷 호텔 2차대전 학살 폐허 안개 낀 옥상 십자가 밑 쉘터",
+    "title": "필리핀 바기오 디플로맷 호텔 2차대전 대격전 폐허 안개 낀 옥상 십자가 밑 쉘터",
     "category": "IMAGINARY_CITY",
     "categoryLabel": "상상 속의 도시·미니어처 왕국",
     "categoryEmoji": "🏙️",
@@ -6643,7 +6643,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1915년 필리핀 바기오 도미니코회 수도원 준공 (1945년 폭격 후 폐호텔화)",
     "estimatedValue": "바기오시 보존 심령 폐허 (상업 숙박 불가, 야간 경비 순찰 구역)",
-    "specialFeature": "제2차 세계대전 당시 비극적인 학살이 자행되어 필리핀 최악의 심령 스팟으로 불리는 해발 1,500m 산 정상 폐호텔의 옥상 쉘터입니다. 사시사철 짙은 안개가 옥상 거대한 석조 십자가를 휘감고 밤마다 계단에서 발소리가 들려옵니다.",
+    "specialFeature": "제2차 세계대전 당시 비극적인 대격전이 자행되어 필리핀 최악의 심령 스팟으로 불리는 해발 1,500m 산 정상 폐호텔의 옥상 쉘터입니다. 사시사철 짙은 안개가 옥상 거대한 석조 십자가를 휘감고 밤마다 계단에서 발소리가 들려옵니다.",
     "aiVerdict": "해발 1,500m 폐호텔 옥상의 거대한 석조 십자가를 짙은 안개가 휘감은 가운데 밤마다 계단에서 들려오는 정체불명의 발소리를 견디는 심령 쉘터입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Diplomat Hotel Foggy Haunted Rooftop Shelter (필리핀 바기오 디플로맷 호텔 2차대전 학살 폐허 안개 낀 옥상 십자가 밑 쉘터). Visual scene details: Chilling gothic colonial ruins, exterior rooftop of an abandoned 1910s stone monastery-hotel atop Dominican Hill, a monumental concrete cross towering into dense swirling mountain fog, an expedition bivy sack pitched against the weathered balustrade overlooking misty Benguet pine forests, eerie ambient twilight filtering through archways. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 204,
@@ -7209,7 +7209,7 @@ export const MASTER_HOUSES = [
     "previousLevel": 111,
     "imagePrompt": "Dark surreal anime digital art of a massive mountain of animal and human skulls under a crimson blood sky, standing torii gate in reflective blood lake, ominous dark fantasy. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Jujutsu Kaisen: Sukuna's Innate Domain Blood Pool Skull Mountain Top Severed Throne",
+      "title": "Jujutsu Kaisen: Sukuna's Innate Domain Blood Pool Skull Mountain Top Detached Throne",
       "builtYear": "Peak of Heian Era Curses 1,000 Years Ago",
       "estimatedValue": "1 Special Grade Cursed Object Finger",
       "specialFeature": "Simply sitting here slices your soul into 4 quarters, but cursed energy reception is blazing fast even without Wi-Fi.",
@@ -7488,7 +7488,7 @@ export const MASTER_HOUSES = [
     "tier": 5,
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1940년 프랑스 식민 당국 건설",
-    "estimatedValue": "-5,500만 원 (생석회 투하 고문실)",
+    "estimatedValue": "-5,500만 원 (생석회 투하 취조실)",
     "specialFeature": "천장이 쇠창살로 뚫려있어 위에서 간수들이 수감자들에게 생석회 가루와 오물을 뿌리던 지하 감옥 바닥에 누워 하늘을 봅니다.",
     "aiVerdict": "식민지 시대의 잔혹함이 벽마다 스며있는 역사상 최악의 지옥 감옥 호랑이 우리(Tiger Cages) 셋방입니다.",
     "geminiImagePrompt": "Chilling documentary photograph looking up from inside a concrete pit 'tiger cage' cell on Con Dao Island Vietnam, heavy iron bars on ceiling where sunlight cuts through dust, weathered stone walls, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -7503,7 +7503,7 @@ export const MASTER_HOUSES = [
     "en": {
       "title": "Vietnam Con Dao Island: Beneath Iron Grates of French Colonial Infamous 'Tiger Cages'",
       "builtYear": "1940 French Colonial Administration Construction",
-      "estimatedValue": "-$42,000 USD (Quicklime Drop Torture Chamber)",
+      "estimatedValue": "-$42,000 USD (Quicklime Drop Interrogation Room)",
       "specialFeature": "Staring up at the sky from the floor of a dungeon with iron-grated ceilings, where guards poured burning quicklime powder and filth onto prisoners from above.",
       "aiVerdict": "A rented room in history's most notorious hellhole—the Tiger Cages—where the sheer brutality of the colonial era still clings to every stone."
     }
@@ -7607,7 +7607,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "터키 이스탄불 예디쿨레 요새 지하 피의 감옥 참수대 앞 짚단 바닥",
+    "title": "터키 이스탄불 예디쿨레 요새 지하 피의 감옥 봉인대 앞 짚단 바닥",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -7618,8 +7618,8 @@ export const MASTER_HOUSES = [
     "tier": 5,
     "tierName": "Tier 05: 폐쇄 구역과 감옥",
     "builtYear": "1458년 오스만 제국 정복 요새",
-    "estimatedValue": "-4,500만 원 (참수된 술탄의 원혼)",
-    "specialFeature": "오스만 제국의 폐위된 술탄과 외국 대사들이 처형당하던 돌기둥 참수대 바로 옆 썩은 짚단 위에 매트리스를 깔았습니다.",
+    "estimatedValue": "-4,500만 원 (봉인된 술탄의 원혼)",
+    "specialFeature": "오스만 제국의 폐위된 술탄과 외국 대사들이 처형당하던 돌기둥 봉인대 바로 옆 썩은 짚단 위에 매트리스를 깔았습니다.",
     "aiVerdict": "벽에 새겨진 죄수들의 마지막 낙서를 읽으며 등골이 오싹해지는 오스만 제국 천년 감옥의 처형장 뷰입니다.",
     "geminiImagePrompt": "Atmospheric low-angle photo of dark vaulted dungeon chamber in Yedikule Fortress Istanbul, ancient stone execution block, inscriptions carved by prisoners into dark damp stone walls, torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 234,
@@ -7704,7 +7704,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥",
+    "title": "『메이드 인 어비스』 심계 5층 고대 유해의 바다 나2차대전의 축복과 저주 깃든 은신처 흙바닥",
     "category": "CLOSET",
     "categoryLabel": "옷장·가구·코인사물함",
     "categoryEmoji": "🚪",
@@ -7717,7 +7717,7 @@ export const MASTER_HOUSES = [
     "builtYear": "1995년 악동 시드 필립스 방 개조",
     "estimatedValue": "부러진 바비인형 다리 2개",
     "specialFeature": "상승 부하를 받으면 인간의 형태를 잃어버리는 거대한 구덩이 5층, 말로의 영혼이 깃든 솜털 가득한 은신처 구석입니다. 신비로운 약초 향기 뒤편으로 미티의 신음과 심연의 음산한 바람 소리가 끝없이 귓전을 맴돕니다.",
-    "aiVerdict": "상승 부하의 저주가 도사리는 심계 5층 절벽 아래에서 향긋한 약초 냄새와 미티의 신음이 뒤섞인 나나치의 솜털 깃든 심연 은신처입니다.",
+    "aiVerdict": "상승 부하의 저주가 도사리는 심계 5층 절벽 아래에서 향긋한 약초 냄새와 미티의 신음이 뒤섞인 나2차대전의 솜털 깃든 심연 은신처입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Made in Abyss Nanachi's Hideout 5th Layer (『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥). Visual scene details: Fantastical tragic abyss subterranean fantasy concept art, cozy yet deeply unsettling hollow earthen dwelling adorned with hanging dried glowing herbs, hand-carved bone cooking utensils, soft woven moss bed, open cavern arch revealing the dizzying vertical drop of a bottomless sea of clouds and towering stalactites. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 237,
     "newLevel": 237,
@@ -7729,7 +7729,7 @@ export const MASTER_HOUSES = [
     "previousLevel": 119,
     "imagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Made in Abyss Nanachi's Hideout 5th Layer (『메이드 인 어비스』 심계 5층 시체의 바다 나나치의 축복과 저주 깃든 은신처 흙바닥). Visual scene details: Fantastical tragic abyss subterranean fantasy concept art, cozy yet deeply unsettling hollow earthen dwelling adorned with hanging dried glowing herbs, hand-carved bone cooking utensils, soft woven moss bed, open cavern arch revealing the dizzying vertical drop of a bottomless sea of clouds and towering stalactites. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Made in Abyss: Nanachi's Blessed & Cursed Dirt Hideout on 5th Layer Sea of Corpses",
+      "title": "Made in Abyss: Nanachi's Blessed & Cursed Dirt Hideout on 5th Layer Sea of Scraps",
       "builtYear": "1995 Kid Menace Sid Phillips' Room Modification",
       "estimatedValue": "2 Broken Barbie Doll Legs",
       "specialFeature": "A fluffy nook in the hideout housing the souls of the Hollows on the giant pit's 5th layer, where ascending strips away your humanity. Behind the mystical herbal scent, Mitty's groans and the abyss's eerie wind howl ceaselessly in your ears.",
@@ -8224,7 +8224,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『디아블로』 트리스트럼 대성당 지하 4층 도살자의 피바다 도살장 쇠갈고리 밑",
+    "title": "『디아블로』 트리스트럼 대성당 지하 4층 도살자의 붉은 안개 도살장 쇠갈고리 밑",
     "category": "BOX",
     "categoryLabel": "종이상자·택배박스·용기",
     "categoryEmoji": "📦",
@@ -8236,7 +8236,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 06: 애니·영화 속 굴욕의 거처",
     "builtYear": "서기 2105년 Buy N Large 폐기물 처리기",
     "estimatedValue": "페트병 뚜껑 400개 (환산 120원)",
-    "specialFeature": "문풍지를 열자마자 신선한 고기 타령을 하는 도살자의 식칼 소리가 진동하는 피비린내 나는 지하 석실입니다. 천장에 주렁주렁 매달린 갈고리와 토막 난 시체들 틈바구니에 엎드려 포탈 스크롤을 찢을 기회만 엿봅니다.",
+    "specialFeature": "문풍지를 열자마자 신선한 고기 타령을 하는 도살자의 식칼 소리가 진동하는 음산한 기운이 감도는 지하 석실입니다. 천장에 주렁주렁 매달린 갈고리와 토막 난 고대 유해들 틈바구니에 엎드려 포탈 스크롤을 찢을 기회만 엿봅니다.",
     "aiVerdict": "문을 여는 순간 \"신선한 고기!\"를 외치며 식칼을 휘두르는 도살자의 쇠갈고리 아래서 포탈 스크롤만 매만지는 트리스트럼 대성당 지하 도살장입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Diablo Tristram Cathedral Butcher Meat Hook (『디아블로』 트리스트럼 대성당 지하 4층 도살자의 피바다 도살장 쇠갈고리 밑). Visual scene details: Dark gothic fantasy dungeon interior, ancient rough-hewn stone walls and flagstone floor slick with glistening dark red blood, heavy iron meat hooks dangling on rusted chains from vaulted ceilings, bone piles heaped in corners beside guttering tallow candles, ominous giant cleaver resting against a wooden chopping block. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 253,
@@ -8252,7 +8252,7 @@ export const MASTER_HOUSES = [
       "title": "Diablo: Under Meat Hook in The Butcher's Blood-Soaked Slaughterhouse on Cathedral Sub-Level 4",
       "builtYear": "Year 2105 Buy N Large Waste Compactor",
       "estimatedValue": "400 Plastic Bottle Caps (Converted: $0.09 USD)",
-      "specialFeature": "A bloody subterranean stone chamber vibrating with the cleaver chops of The Butcher screaming 'Fresh meat!' the moment the door opens. Ducking between hanging meat hooks and severed carcasses, your only hope is finding an opening to rip open a Town Portal scroll.",
+      "specialFeature": "A crimson subterranean stone chamber vibrating with the cleaver chops of The Butcher screaming 'Fresh meat!' the moment the door opens. Ducking between hanging meat hooks and detached carcasses, your only hope is finding an opening to rip open a Town Portal scroll.",
       "aiVerdict": "An ultra-power-saving scrap metal home that requires 3 hours of direct solar panel charging just to open its robotic eyes."
     }
   },
@@ -9081,7 +9081,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 06: 애니·영화 속 굴욕의 거처",
     "builtYear": "사이어인 지구 침공의 날",
     "estimatedValue": "-0제니 (전투력 1,480 측정)",
-    "specialFeature": "창문 너머로 폭탄 테러와 밀입국자가 난무하는 공산국가 국경 검문소의 1.5평짜리 난방 꺼진 콘크리트 부스 바닥입니다. 매일 규정이 바뀌는 도장 찍기 노역 끝에 난방비가 없어 온 가족이 추위에 떨며 잠듭니다.",
+    "specialFeature": "창문 너머로 폭탄 기습 소동와 밀입국자가 난무하는 공산국가 국경 검문소의 1.5평짜리 난방 꺼진 콘크리트 부스 바닥입니다. 매일 규정이 바뀌는 도장 찍기 노역 끝에 난방비가 없어 온 가족이 추위에 떨며 잠듭니다.",
     "aiVerdict": "하루 종일 여권 도장을 찍고도 난방비가 없어 가족과 함께 오들오들 떨어야 하는 공산 국가 아스토츠카 국경 검문소의 차가운 1.5평 초소입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Papers Please Grestin Border Guard Booth (『페이퍼 플리즈(Papers, Please)』 아스토츠카 그레스틴 국경 검문소 1.5평 차가운 콘크리트 초소 바닥). Visual scene details: Dystopian Cold War bureaucratic concept art, tiny concrete checkpoint guard shack, worn wooden counter fitted with red and green approval stamps, fingerprint scanners and stacked passport dossiers, scratchy bulletproof glass viewing slit showing barbed wire barriers and searchlights in falling snow, a small folded wool blanket on the floor under a sputtering radiator. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 279,
@@ -9747,7 +9747,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Matou Manor on Eve of 5th Holy Grail War",
       "estimatedValue": "$0 USD (Magic Circuit Modification & Stripping of Humanity)",
       "specialFeature": "Suppressing screams in a subterranean stone pit as tens of thousands of Zouken's grotesque insect familiars crawl up your ankles.",
-      "aiVerdict": "The foulest and cruelest mage den in TYPE-MOON history, steeped in Sakura's 11 years of agonizing torture."
+      "aiVerdict": "The foulest and cruelest mage den in TYPE-MOON history, steeped in Sakura's 11 years of agonizing ordeal."
     }
   },
   {
@@ -9797,7 +9797,7 @@ export const MASTER_HOUSES = [
     "builtYear": "우주선 미션 출항일",
     "estimatedValue": "긴급회의 버튼 1회 사용권",
     "specialFeature": "전선 연결 미션을 하는 도중 등 뒤의 환풍구가 열리며 임포스터의 칼날이 번쩍입니다.",
-    "aiVerdict": "시체 발견 시 즉시 리포트를 누르지 않으면 범인으로 몰려 우주 밖으로 사출됩니다.",
+    "aiVerdict": "고대 유해 발견 시 즉시 리포트를 누르지 않으면 범인으로 몰려 우주 밖으로 사출됩니다.",
     "geminiImagePrompt": "Stylized 3D rendering of a sci-fi spaceship electrical room, severed colorful cables sparking, a shadowy vent grate in the metallic floor glowing with sinister red light. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 301,
     "newLevel": 301,
@@ -10849,7 +10849,7 @@ export const MASTER_HOUSES = [
     "previousLevel": 167,
     "imagePrompt": "Cinematic whimsical concept art inside the cracked hollow head of a baby doll toy with mechanical spider legs in Sid bedroom from Toy Story, moody eerie flashlight illumination, scattered screws and workbench. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "\"Toy Story\" 0.1-Pyeong Chamber Inside Decapitated Baby Doll Head in Sid's Torture Room",
+      "title": "\"Toy Story\" 0.1-Pyeong Chamber Inside Broken Baby Doll Head in Sid's Spooky Workshop",
       "builtYear": "1995 Sid's Cruel Toy Modification Era",
       "estimatedValue": "$2.60 USD (Scrap value of Erector set legs and fractured plastic)",
       "specialFeature": "A nightmarish one-eyed baby doll head welded to mechanical erector spider legs that creaks across the floorboards in dead of night.",
@@ -11441,7 +11441,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "방글라데시 치타공 선박 해체장 30만 톤급 녹슨 유조선 절단된 기관실 구석",
+    "title": "방글라데시 치타공 선박 해체장 30만 톤급 녹슨 유조선 분리된 기관실 구석",
     "category": "INDUSTRIAL_HAZARD",
     "categoryLabel": "산업 재해·방사능·중오염 구역",
     "categoryEmoji": "☣️",
@@ -11453,7 +11453,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 08: 늪지대와 침수 구역",
     "builtYear": "1979년 그리스 건조 유조선",
     "estimatedValue": "1,500만 원 (고철 무게 고철상 매입가)",
-    "specialFeature": "산소절단기 불꽃이 튀는 굉음과 타버린 석유 냄새 속에서 45도 기울어진 강철 격벽에 기대어 쪽잠을 청할 수 있습니다.",
+    "specialFeature": "산소분리기 불꽃이 튀는 굉음과 타버린 석유 냄새 속에서 45도 기울어진 강철 격벽에 기대어 쪽잠을 청할 수 있습니다.",
     "aiVerdict": "거대 해양 문명의 거대한 잔해 속에서 기름때 묻은 인더스트리얼 거친 감성을 독차지하는 방입니다.",
     "geminiImagePrompt": "Gritty editorial documentary photography of a makeshift living corner inside the cut-open rusty engine room of a massive supertanker at Chittagong ship breaking yard, sparks flying, oily black mud, industrial post-apocalyptic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 352,
@@ -11466,7 +11466,7 @@ export const MASTER_HOUSES = [
     "previousLevel": 176,
     "imagePrompt": "Gritty editorial documentary photography of a makeshift living corner inside the cut-open rusty engine room of a massive supertanker at Chittagong ship breaking yard, sparks flying, oily black mud, industrial post-apocalyptic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Severed Engine Room Nook of 300,000-Ton Rusted Tanker, Chittagong Shipbreaking Yard, Bangladesh",
+      "title": "Detached Engine Room Nook of 300,000-Ton Rusted Tanker, Chittagong Shipbreaking Yard, Bangladesh",
       "builtYear": "1979 Greek-built supertanker",
       "estimatedValue": "$11,000 USD (Scrap metal merchant buyout price)",
       "specialFeature": "Nap propped against a 45-degree steel bulkhead amidst roaring blowtorch sparks and scorched bunker fuel stench.",
@@ -11539,7 +11539,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『엘든 링』 케일리드 붉은 까마귀들이 시체 뜯어먹는 가시나무 둥지",
+    "title": "『엘든 링』 케일리드 붉은 까마귀들이 고대 유해 뜯어먹는 가시나무 둥지",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -11551,7 +11551,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 08: 늪지대와 침수 구역",
     "builtYear": "파쇄전쟁 이후 황폐화된 케일리드",
     "estimatedValue": "-7,000만 룬 (거대 까마귀 부리 쪼기 치명타)",
-    "specialFeature": "피처럼 붉은 하늘 아래 사람 머리통만 한 눈알을 굴리는 기형 거대 까마귀들이 시체를 쌓아둔 가시나무 둥지 틈새입니다.",
+    "specialFeature": "피처럼 붉은 하늘 아래 사람 머리통만 한 눈알을 굴리는 기형 거대 까마귀들이 고대 유해를 쌓아둔 가시나무 둥지 틈새입니다.",
     "aiVerdict": "말을 타고 전속력으로 도망치지 않으면 부리 한 방에 룬을 전부 잃어버리는 케일리드 최악의 까마귀 둥지입니다.",
     "geminiImagePrompt": "Elden Ring dark fantasy digital art in desolate Caelid red wastes, grotesque monstrous giant crows perched in twisted thorn tree nest filled with bones under blood-red sky, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 355,
@@ -11563,7 +11563,7 @@ export const MASTER_HOUSES = [
     "isNewExpansion": true,
     "imagePrompt": "Elden Ring dark fantasy digital art in desolate Caelid red wastes, grotesque monstrous giant crows perched in twisted thorn tree nest filled with bones under blood-red sky, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "\"Elden Ring\" Giant Monstrous Crow Corpse Nest in Thorny Branches of Caelid",
+      "title": "\"Elden Ring\" Giant Monstrous Crow Scrap Nest in Thorny Branches of Caelid",
       "builtYear": "Post-Shattering Scarlet Rot Caelid Desolation",
       "estimatedValue": "-70,000,000 Runes (Instant critical peck from giant crow beak)",
       "specialFeature": "A hollow in thorn brambles beneath blood-red skies where mutated crows with skull-sized eyeballs pile up rotting carcasses.",
@@ -12059,7 +12059,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『몬스터 헌터』 독기의 골짜기 시체 썩는 노란 독기 안개 속 골총 틈새",
+    "title": "『몬스터 헌터』 독기의 골짜기 고대 유해 썩는 노란 독기 안개 속 골총 틈새",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -12086,7 +12086,7 @@ export const MASTER_HOUSES = [
       "title": "\"Monster Hunter: World\" Bone Pile Crevice in Yellow Effluvium Haze of Rotten Vale",
       "builtYear": "New World Elder Dragon Research Commission Era",
       "estimatedValue": "-8,000 Zenny (Penalty for lacking Effluvial Resistance charm)",
-      "specialFeature": "A hollow within towering wyvern ribcages where colossal decaying monster corpses exhale dense, yellow effluvial miasma.",
+      "specialFeature": "A hollow within towering wyvern ribcages where colossal decaying monster relics exhale dense, yellow effluvial miasma.",
       "aiVerdict": "A lethal hunting survival chamber where your maximum HP gets halved every minute while dodging Vaal Hazak's decaying tail sweeps."
     }
   },
@@ -12189,7 +12189,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『니어: 오토마타』 폐허 도시 녹슨 철골에 매달린 작동 정지된 2B 시체 옆",
+    "title": "『니어: 오토마타』 폐허 도시 녹슨 철골에 매달린 작동 정지된 2B 고대 유해 옆",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -12606,7 +12606,7 @@ export const MASTER_HOUSES = [
       "title": "\"Silent Hill\" Fog-Shrouded Hospital Basement with Rolling Rusted Wheelchair",
       "builtYear": "Shift to the Otherworld",
       "estimatedValue": "-$1M USD (Permanent psychiatric asylum confinement bill)",
-      "specialFeature": "As sirens wail and Brookhaven Hospital walls peel into rusted chain-link and bloody flesh, you clutch a static-crackling pocket radio.",
+      "specialFeature": "As sirens wail and Brookhaven Hospital walls peel into rusted chain-link and crimson flesh, you clutch a static-crackling pocket radio.",
       "aiVerdict": "The ultimate psychological purgatory where Pyramid Head's Great Knife scrapes the concrete corridor right outside your door."
     }
   },
@@ -12900,7 +12900,7 @@ export const MASTER_HOUSES = [
       "builtYear": "Founded in 1950 by Don Julian Santana",
       "estimatedValue": "$24,000 USD (World's top haunted tourist site valuation)",
       "specialFeature": "Thousands of decomposing baby dolls hung from trees and peeling walls to placate a drowned girl's ghost, rolling empty eye sockets at midnight.",
-      "aiVerdict": "A nerve-shredding trial ground subjecting you to the unblinking 24/7 gaze of cursed decapitated dolls."
+      "aiVerdict": "A nerve-shredding trial ground subjecting you to the unblinking 24/7 gaze of cursed broken dolls."
     }
   },
   {
@@ -12969,7 +12969,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『데드 바이 데이라이트』 엔티티의 영역 갈고리 바로 밑 피 묻은 풀숲",
+    "title": "『데드 바이 데이라이트』 엔티티의 영역 갈고리 바로 밑 얼룩진 풀숲",
     "category": "EXTREME_NATURE",
     "categoryLabel": "극한 오지·화산·심해·빙하 지형",
     "categoryEmoji": "🪨",
@@ -14074,7 +14074,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『쥐라기 공원』 벨로시랩터 케이지 철창 구석 피 묻은 소 반마리 뼈다귀 옆",
+    "title": "『쥐라기 공원』 벨로시랩터 케이지 철창 구석 얼룩진 소 반마리 뼈다귀 옆",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -14099,7 +14099,7 @@ export const MASTER_HOUSES = [
     "previousLevel": 217,
     "imagePrompt": "Tense cinematic concept art inside a high-security velociraptor pen in Jurassic Park, dense tropical foliage outside heavy electrified steel bars, half-eaten cow bone, glowing raptor eyes in shadow. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "Jurassic Park: Corner of Velociraptor Cage Beside Bloody Half-Cow Bone Carcass",
+      "title": "Jurassic Park: Corner of Velociraptor Cage Beside Crimson Half-Cow Bone Carcass",
       "builtYear": "1993 Isla Nublar Park",
       "estimatedValue": "-$50,000,000 USD (InGen Corporate Liability Settlement)",
       "specialFeature": "Three hyper-intelligent raptors that know how to turn door handles tilt their heads, rattling the bars as they deliberate whether you are a snack or fresh prey.",
@@ -15611,7 +15611,7 @@ export const MASTER_HOUSES = [
     "zoneLabel": "폭망 하우스",
     "tier": 10,
     "tierName": "Tier 10: 폭망의 문턱 턱걸이",
-    "builtYear": "1943년 나치 대서양 방벽",
+    "builtYear": "1943년 2차대전 대서양 방벽",
     "estimatedValue": "3억 5,000만 원 (2차 대전 전적지 보존)",
     "specialFeature": "영화 라이언 일병 구하기의 그 해변이 바로 내려다보이는 1.5m 두께의 콘크리트 총구 틈새로 대서양 파도 거품이 들이칩니다.",
     "aiVerdict": "역사상 가장 치열했던 상륙작전의 전장 한가운데서 파도 소리를 포성 삼아 잠드는 철통 방어 요새입니다.",
@@ -15627,7 +15627,7 @@ export const MASTER_HOUSES = [
     "imagePrompt": "Somber cinematic photography looking out through the narrow slit of a heavy concrete pillbox bunker at Omaha Beach Normandy, grey Atlantic waves crashing on wide wet sand, overcast historic mood. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
       "title": "Embrasure of German Atlantic Wall Concrete Bunker Overlooking Omaha Beach, Normandy, France",
-      "builtYear": "1943 Nazi Atlantic Wall Fortress",
+      "builtYear": "1943 WWII Bunker Atlantic Wall Fortress",
       "estimatedValue": "$260,000 USD (WWII Historic Battlefield Conservation Site)",
       "specialFeature": "Atlantic sea spray batters through a 1.5-meter-thick concrete loophole directly overlooking the blood-drenched beach depicted in Saving Private Ryan.",
       "aiVerdict": "An ironclad fortress right in the heart of the fiercest amphibious landing in history, where crashing ocean breakers substitute for roaring artillery."
@@ -15660,7 +15660,7 @@ export const MASTER_HOUSES = [
     "imagePrompt": "Epic gritty post-apocalyptic concept art at the towering cliff base of the Citadel from Mad Max Fury Road, muddy crowds reaching up for a massive water valve release, rusted pipes and desert dust. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
       "title": "Mad Max: Rusty Pipe Crevice in Mud Puddle Under Immortan Joe's Water Valve, The Citadel",
-      "builtYear": "Post-Nuclear Holocaust Wasteland",
+      "builtYear": "Post-Nuclear Wasteland Wasteland",
       "estimatedValue": "1 Gulp of Aqua-Cola (Relief from Burning Thirst)",
       "specialFeature": "Cling to iron piping among the desperate roars of War Boys and wretches scrambling for muddy runoff when Immortan Joe opens the floodgates once a year.",
       "aiVerdict": "A wasteland shelter lulled to sleep by roaring, supercharged V8 engines while pondering Immortan's warning: 'Do not become addicted to water, it will take hold of you.'"
@@ -15873,7 +15873,7 @@ export const MASTER_HOUSES = [
     "tierName": "Tier 10: 폭망의 문턱 턱걸이",
     "builtYear": "2010년 도심 슬럼 형성기",
     "estimatedValue": "20만 원 (재활용 타이어 8개 가치)",
-    "specialFeature": "경찰과 마약상의 충돌이 일상인 도심 한복판에서 폐타이어 더미 속에 숨어 매캐한 연기를 피해 잠을 청합니다.",
+    "specialFeature": "경찰과 암시장상의 충돌이 일상인 도심 한복판에서 폐타이어 더미 속에 숨어 매캐한 연기를 피해 잠을 청합니다.",
     "aiVerdict": "남미 최대 대도시의 가장 어둡고 처절한 골목 한구석에서 생존 본능 하나로 버텨내는 한계 상황의 쉘터입니다.",
     "geminiImagePrompt": "Raw documentary photography of a makeshift tarp shelter fortified with stacked worn truck tires in an urban alley in Sao Paulo Brazil, graffiti on decaying brick walls, harsh midday shadows. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 488,
@@ -15889,7 +15889,7 @@ export const MASTER_HOUSES = [
       "title": "0.4-Square-Meter Tarp Shack Barricaded with Discarded Tires in Cracolândia, São Paulo, Brazil",
       "builtYear": "2010 Urban Slum Formation Era",
       "estimatedValue": "$150 USD (Value of 8 Recycled Tires)",
-      "specialFeature": "Crouch among tire barricades to escape tear gas and acrid smoke as police and cartels clash regularly in the heart of the metropolis.",
+      "specialFeature": "Crouch among tire barricades to escape tear gas and acrid smoke as police and syndicates clash regularly in the heart of the metropolis.",
       "aiVerdict": "A marginal survival shelter in the darkest and rawest corner of South America's largest metropolis, enduring on pure primal instinct."
     }
   },
@@ -16024,7 +16024,7 @@ export const MASTER_HOUSES = [
     }
   },
   {
-    "title": "『체인소 맨』 공안 대마 특이 4과 사무실 청소도구함 파워의 피 묻은 캐비닛",
+    "title": "『체인소 맨』 공안 대마 특이 4과 사무실 청소도구함 파워의 얼룩진 캐비닛",
     "category": "MICRO_DWELLING",
     "categoryLabel": "초소형·골판지·자판기·캡슐 원룸",
     "categoryEmoji": "📦",
@@ -16037,7 +16037,7 @@ export const MASTER_HOUSES = [
     "builtYear": "1997년 가상 도쿄 악마 토벌기",
     "estimatedValue": "피의 악마 뿔 손질용 줄 1개",
     "specialFeature": "파워가 목욕도 안 하고 마늘 껍질을 버려둔 캐비닛 안에서 덴지와 냐코(고양이)의 밥그릇을 지키며 농성합니다.",
-    "aiVerdict": "악마와 인간이 뒤섞인 혼돈의 공안 사무실에서 전기톱 소리를 피해 몸을 숨기는 0.2평 피비린내 캐비닛입니다.",
+    "aiVerdict": "악마와 인간이 뒤섞인 혼돈의 공안 사무실에서 전기톱 소리를 피해 몸을 숨기는 0.2평 음산한 기운 캐비닛입니다.",
     "geminiImagePrompt": "Gritty anime concept art inside an old metal locker cabinet with chains and blood splatters, chainsaw cord visible through slit, dimly lit 90s Tokyo government office interior. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 493,
     "newLevel": 493,
@@ -22144,7 +22144,7 @@ export const MASTER_HOUSES = [
     "zoneLabel": "대박 하우스",
     "tier": 14,
     "tierName": "Tier 14: 세계 초일류 도심 펜트하우스",
-    "builtYear": "태초 셀레스티얼 참수 직후",
+    "builtYear": "태초 셀레스티얼 봉인 직후",
     "estimatedValue": "우주 희귀 유기물 채취권 500억 유닛",
     "specialFeature": "셀레스티얼의 신경 조직에서 추출한 불로불사 칵테일을 테라스 바에서 무제한 마실 수 있습니다.",
     "aiVerdict": "우주 해적들과 록 음악을 들으며 매일 밤 은하계 최강의 클럽 파티를 개최합니다.",
@@ -24422,7 +24422,7 @@ export const MASTER_HOUSES = [
     "builtYear": "천계 황실 지벤 에드릭스",
     "estimatedValue": "천계 황실 국고 1조 골드",
     "specialFeature": "스팀펑크 비행선들이 오가는 겐트 하늘 위 황실 황궁의 정원에서 에르제 황녀와 함께 연꽃 향기 가득한 차를 마십니다.",
-    "aiVerdict": "카르텔의 침략을 이겨내고 황금빛 영광을 되찾은 천계 황실의 품격과 최첨단 스팀펑크 문명이 어우러진 궁전입니다.",
+    "aiVerdict": "독점 연합의 침략을 이겨내고 황금빛 영광을 되찾은 천계 황실의 품격과 최첨단 스팀펑크 문명이 어우러진 궁전입니다.",
     "geminiImagePrompt": "Dungeon Fighter Online aesthetic celestial empire concept art of Ghent Imperial Palace, blend of Korean Joseon architecture and retro steampunk airship docks, golden lotus ponds on marble terrace, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 751,
     "newLevel": 751,
@@ -28921,7 +28921,7 @@ export const MASTER_HOUSES = [
     "en": {
       "title": "Coco: Land of the Dead Radiant Neon Marigold Petal Bridge Sky Penthouse",
       "builtYear": "Eternal Afterlife Sustained by Loving Memories",
-      "estimatedValue": "Warm Memories of Family (Boundless Love Unsevered by Death)",
+      "estimatedValue": "Warm Memories of Family (Boundless Love Undetached by Death)",
       "specialFeature": "Traverse grand suspension bridges woven from millions of glowing cempasúchil marigold petals, accompanied by exuberant skeletal Mariachi serenades.",
       "aiVerdict": "The finest estate in the afterlife, where death transforms into a riotous, joyful fiesta of reunions and vibrant color."
     }

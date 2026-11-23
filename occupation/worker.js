@@ -16,6 +16,64 @@ import {
 import { getSitemapNameForLevel } from './src/lib/level_name_map.js';
 import { renderCrossLevelSectionHtml } from './src/lib/cross_level_map.js';
 
+
+function createClean404Response(pathname = '') {
+  const safePath = String(pathname || '').replace(/[<>&"']/g, '');
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Page Not Found | TellMyName</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,sans-serif; background:#0f172a; color:#f8fafc; display:flex; align-items:center; justify-content:center; min-height:100vh; padding:24px; text-align:center; }
+    .box { max-width:480px; background:#1e293b; border:1px solid #334155; border-radius:20px; padding:32px 24px; }
+    h1 { font-size:2rem; margin:0 0 8px; color:#38bdf8; }
+    p { color:#94a3b8; line-height:1.6; margin:0 0 20px; }
+    a { display:inline-block; padding:10px 20px; border-radius:999px; background:#38bdf8; color:#0f172a; font-weight:700; text-decoration:none; margin:4px; }
+  </style>
+</head>
+<body>
+  <main class="box">
+    <h1>404 Not Found</h1>
+    <p>The requested page (<code>${safePath}</code>) could not be found on TellMyName.</p>
+    <div>
+      <a href="/">🏠 MyHome</a>
+      <a href="/food/">🍽️ Food</a>
+      <a href="/job/">💼 MyJob</a>
+      <a href="/car/">🚗 MyCar</a>
+    </div>
+  </main>
+</body>
+</html>`;
+  return new Response(html, {
+    status: 404,
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Cache-Control': 'no-store',
+      'X-Robots-Tag': 'noindex, nofollow',
+      'X-Content-Type-Options': 'nosniff',
+      'X-Frame-Options': 'DENY',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
+      'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
+      'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+    }
+  });
+}
+
+
+function withSecurityHeaders(res) {
+  const headers = new Headers(res.headers);
+  headers.set('X-Content-Type-Options', 'nosniff');
+  headers.set('X-Frame-Options', 'DENY');
+  headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
+  headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+  headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  return new Response(res.body, { status: res.status, statusText: res.statusText, headers });
+}
+
+
 /**
  * HTML 특수 문자 이스케이프 유틸리티
  */
@@ -201,7 +259,7 @@ function localizeStaticShellHtml(html, selectedLang, dict) {
 
 
   // Complete SSR non-Korean localization (0 Korean leaks for Googlebot / ?lang=en)
-  html = html.replace(/<section[^>]*id=["']photodiary-promo-section["'][\s\S]*?<\/section>/i, "<section class=\"pd-promo-section\" id=\"photodiary-promo-section\" aria-label=\"PhotoDiary Travel Reels Preview\" style=\"margin:1.5rem auto 1rem;max-width:680px;padding:0 12px;box-sizing:border-box;\"><div class=\"pd-promo-card\" style=\"background:rgba(15,23,42,0.78);border:1px solid rgba(56,189,248,0.24);border-radius:16px;padding:14px 14px;text-align:center;box-sizing:border-box;overflow:hidden;\"><div style=\"font-size:0.72rem;font-weight:700;color:#38bdf8;letter-spacing:0.05em;margin-bottom:4px;\">\ud83d\udcf8 PHOTODIARY \u00b7 TRAVEL MAP REELS</div><h3 style=\"font-size:1rem;font-weight:800;color:#f8fafc;margin:0 0 4px;line-height:1.35;\">Turn Travel Photos Into a Map Timeline &amp; Reels</h3><p style=\"font-size:0.82rem;color:#94a3b8;margin:0 0 10px;line-height:1.45;\">Organize GPS-tagged trip photos by route and date in seconds.</p><div class=\"pd-promo-grid\" style=\"display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-bottom:10px;max-width:100%;\"><img loading=\"eager\" src=\"/samples/italy/italy-reels-preview.gif\" alt=\"PhotoDiary travel reels preview\" style=\"width:100%;height:148px;object-fit:cover;border-radius:10px;border:1px solid rgba(148,163,184,0.22);display:block;\" /><img loading=\"eager\" src=\"/samples/italy/italy-timeline-sample.png\" alt=\"PhotoDiary travel timeline snapshot\" style=\"width:100%;height:148px;object-fit:cover;border-radius:10px;border:1px solid rgba(148,163,184,0.22);display:block;\" /></div><a href=\"https://photodiary.tellmyname.app/\" target=\"_blank\" rel=\"noopener\" style=\"display:inline-block;padding:8px 18px;border-radius:999px;background:linear-gradient(135deg,#38bdf8,#6366f1);color:#fff;font-weight:700;font-size:0.82rem;text-decoration:none;white-space:nowrap;\">Explore PhotoDiary &rarr;</a></div></section>");
+  html = html.replace(/<section[^>]*id=[\"']photodiary-promo-section[\"'][\s\S]*?<\/section>/i, '');
   const _enReplacements = [
     ['내 집 찾기', 'Find My Home'],
     ['내 직업 찾기', 'Find My Job'],
@@ -353,7 +411,7 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
   ).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${baseCanonicalUrl}" />`;
 
   // Google AdSense
-  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(html) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
+  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(baseHtml) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
   // Schema.org JSON-LD
   const imageObjectNode = {
@@ -615,9 +673,7 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
   if (!isKorean) {
     html = localizeStaticShellHtml(html, selectedLang, dict);
   }
-  if (!isRoot) {
-    html = html.replace(/<section\s+class=["'][^"']*service-guide-section[^"']*["'][^>]*>[\s\S]*?<\/section>/i, '');
-  }
+  html = html.replace(/<section\s+class=["'][^"']*service-guide-section[^"']*["'][^>]*>[\s\S]*?<\/section>/i, '');
 
   let localizedTitle = isKorean
     ? cfg.title
@@ -683,7 +739,7 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
     ]
   };
 
-  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(html) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
+  const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(baseHtml) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
   const headMetadata = [
     `<title>${escapeHtml(localizedTitle)}</title>`,
@@ -971,7 +1027,10 @@ export default {
     }
 
     if (pathname.startsWith('/level/')) {
-      const rawLv = pathname.slice('/level/'.length);
+      const rawLv = pathname.slice('/level/'.length).replace(/\/$/, '');
+      if (!/^\d+$/.test(rawLv)) return createClean404Response(pathname);
+      const parsedLv = parseInt(rawLv, 10);
+      if (parsedLv < MIN_LEVEL || parsedLv > MAX_LEVEL) return createClean404Response(pathname);
       const level = Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, parseInt(rawLv, 10) || 0));
       const concept = getJobConceptByLevel(level);
       const job = { ...concept };
@@ -1200,6 +1259,11 @@ export default {
     // ----------------------------------------------------
     // Route 6: 정적 자산(Static Assets) 서빙 폴백
     // ----------------------------------------------------
+        // Return true HTTP 404 (no AdSense code, noindex) for unknown non-file paths instead of SPA Soft-404
+    const hasFileExt = /\.[a-z0-9]{1,8}$/i.test(pathname);
+    if (!hasFileExt) {
+      return createClean404Response(pathname);
+    }
     if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') {
       return await env.ASSETS.fetch(request);
     }

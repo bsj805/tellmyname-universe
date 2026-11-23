@@ -292,7 +292,7 @@
     }
   },
   {
-    "title": "『강철의 연금술사』 글러트니의 뱃속 무한한 가짜 진리의 문 피바다 위 잔해",
+    "title": "『강철의 연금술사』 글러트니의 뱃속 무한한 가짜 진리의 문 붉은 안개 위 잔해",
     "category": "MULTIVERSE",
     "categoryLabel": "초차원·블랙홀·다중우주 창조주 신전",
     "categoryEmoji": "🌌",
@@ -646,7 +646,7 @@
       "builtYear": "Taisho Era Invocation Date of Muzan's Blood Demon Art",
       "estimatedValue": "-$37,500 USD ($0 Life Deposit)",
       "specialFeature": "A haven lodged between primordial monoliths twisted at angles defying human geometry. Awakening to damp briny stenches and abyssal subterranean writhings steadily dissolves your cognitive reason.",
-      "aiVerdict": "A peak-tension dwelling where an irritated landlord serves decapitation instead of an eviction notice."
+      "aiVerdict": "A peak-tension dwelling where an irritated landlord serves dramatic showdown instead of an eviction notice."
     }
   },
   {
@@ -1072,7 +1072,7 @@
     }
   },
   {
-    "title": "『도쿄 구울』 안테이크 지하 11구 아오기리 나무 고문실 야모리의 펜치 옆 의자",
+    "title": "『도쿄 구울』 안테이크 지하 11구 아오기리 나무 취조실 야모리의 펜치 옆 의자",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -1083,7 +1083,7 @@
     "tier": 4,
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "구울 대책국(CCG) 격돌기",
-    "estimatedValue": "-1,000에서 7을 빼면 얼마지? (영구 고문실)",
+    "estimatedValue": "-1,000에서 7을 빼면 얼마지? (영구 취조실)",
     "specialFeature": "흑백 체크무늬 타일 바닥과 낡은 나무 의자 하나만 덩그러니 놓인 애니메이션 속 어두운 콘크리트 은신처입니다.",
     "aiVerdict": "강렬한 다크 판타지 분위기가 물씬 풍기는 공간입니다. 따뜻한 조명과 포근한 러그를 먼저 들여놓으세요.",
     "geminiImagePrompt": "Tokyo Ghoul dark anime concept art inside Yamori's tiled torture chamber, bloodstained dental chair with heavy iron leather straps, rusty pliers on steel tray, red Chinese centipede on floor, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
@@ -1098,7 +1098,7 @@
     "en": {
       "title": "'Tokyo Ghoul' Ward 11 Aogiri Tree Checkered Concrete Hideout Chair",
       "builtYear": "Era of Commission of Counter Ghoul (CCG) Clash",
-      "estimatedValue": "What is 1,000 minus 7? (Perpetual Torture Chamber)",
+      "estimatedValue": "What is 1,000 minus 7? (Perpetual Interrogation Room)",
       "specialFeature": "A stark black-and-white checkered concrete studio with a single weathered wooden chair and dramatic anime noir lighting.",
       "aiVerdict": "A moody, minimalist concrete room straight out of a dark urban fantasy anime—definitely needs warmer curtains and a cozy rug."
     }
@@ -1202,7 +1202,7 @@
     }
   },
   {
-    "title": "『헌터x헌터』 키르아 조르딕 가문 고문실 전기 채찍 매달린 지하 감옥",
+    "title": "『헌터x헌터』 키르아 조르딕 가문 취조실 전기 채찍 매달린 지하 감옥",
     "category": "PRISON_FACILITY",
     "categoryLabel": "감옥·독방·수용소",
     "categoryEmoji": "⛓️",
@@ -1213,9 +1213,9 @@
     "tier": 4,
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "암살자 일족 조르딕 가문 본가",
-    "estimatedValue": "-50억 제니 (암살 가문 내림 고문)",
+    "estimatedValue": "-50억 제니 (암살 가문 내림 극한 압박)",
     "specialFeature": "100만 볼트 전기가 흐르는 채찍을 맞으면서도 \"간지럽다\"고 하품을 해야 하는 조르딕 가문의 혹독한 신부 수업(?) 감옥입니다.",
-    "aiVerdict": "웬만한 사람은 3초 만에 숯덩이가 되는 전기 고문을 일상 트레이닝으로 즐기는 킬러 패밀리 스위트입니다.",
+    "aiVerdict": "웬만한 사람은 3초 만에 숯덩이가 되는 전기 극한 압박을 일상 트레이닝으로 즐기는 킬러 패밀리 스위트입니다.",
     "geminiImagePrompt": "Hunter x Hunter anime concept art inside Zoldyck family dungeon torture chamber, massive iron chains suspended from stone ceiling, electrical sparks arcing across metal shackles, dim torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 187,
     "newLevel": 187,
@@ -1226,9 +1226,9 @@
     "isNewExpansion": true,
     "imagePrompt": "Hunter x Hunter anime concept art inside Zoldyck family dungeon torture chamber, massive iron chains suspended from stone ceiling, electrical sparks arcing across metal shackles, dim torchlight, 8k. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "en": {
-      "title": "'Hunter x Hunter' Killua's Zoldyck Family Torture Chamber Electric Whip Dungeon",
+      "title": "'Hunter x Hunter' Killua's Zoldyck Family Interrogation Room Electric Whip Dungeon",
       "builtYear": "Zoldyck Assassin Family Estate",
-      "estimatedValue": "-5,000,000,000 Jenny (Assassin Clan Heritage Torture Fee)",
+      "estimatedValue": "-5,000,000,000 Jenny (Assassin Clan Heritage Ordeal Fee)",
       "specialFeature": "The brutal Zoldyck family training dungeon where taking one million volts from an electric whip is expected to be brushed off with a bored yawn.",
       "aiVerdict": "A killer family suite treating electrocution that would turn ordinary mortals into charcoal within three seconds as a casual morning workout."
     }
@@ -1300,7 +1300,7 @@
     }
   },
   {
-    "title": "파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 절단면 기름때 텐트",
+    "title": "파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 단면 기름때 텐트",
     "category": "RUINS_ABANDONED",
     "categoryLabel": "폐허·방치 건물·슬럼가",
     "categoryEmoji": "🏚️",
@@ -1312,8 +1312,8 @@
     "tierName": "Tier 04: 극한 오지 변소와 방사능",
     "builtYear": "1986년 개장 이틀 전 버려진 놀이공원",
     "estimatedValue": "-3,800만 원 (방사능 핫스팟 지점)",
-    "specialFeature": "아라비아해 갯벌에 전속력으로 좌초시킨 수만 톤급 초대형 화물선을 산소절단기로 해체하는 가다니 해변의 선체 절단면 텐트입니다. 중유 찌꺼기와 석면이 뒹구는 45도 기울어진 강철 갑판 위에서 조수간만의 차에 맞춰 파도 소리를 들으며 몸을 웅크립니다.",
-    "aiVerdict": "아라비아해 갯벌에 좌초돼 산소절단기로 찢겨나가는 초대형 화물선의 기름때와 석면 가득한 45도 기울어진 갑판 위 절단면 텐트입니다.",
+    "specialFeature": "아라비아해 갯벌에 전속력으로 좌초시킨 수만 톤급 초대형 화물선을 산소분리기로 해체하는 가다니 해변의 선체 단면 텐트입니다. 중유 찌꺼기와 석면이 뒹구는 45도 기울어진 강철 갑판 위에서 조수간만의 차에 맞춰 파도 소리를 들으며 몸을 웅크립니다.",
+    "aiVerdict": "아라비아해 갯벌에 좌초돼 산소분리기로 찢겨나가는 초대형 화물선의 기름때와 석면 가득한 45도 기울어진 갑판 위 단면 텐트입니다.",
     "geminiImagePrompt": "A high-impact 1:1 square architectural and environmental concept art illustration of: Gadani Shipbreaking Beach Sloped Hull Tent (파키스탄 가다니 선박 해체장 썰물 때 좌초된 화물선 절단면 기름때 텐트). Visual scene details: Colossal industrial shipbreaking yard, perspective from inside the severed cavernous steel hull of a massive beached oil tanker, tilted rust-stained bulkhead walls towering dozens of meters, a rugged canvas bivouac lashed to iron eyelets on the oil-slick deck, sparks raining down from blowtorches in the distance under a blazing Arabian Sea sunset. Composition: Wide-angle cinematic framing, clear central subject (the dwelling/shelter itself), dramatic lighting, rich atmospheric depth, ultra-detailed textures, no text, no watermarks, no UI overlays, 8k concept art quality. I am not asking for an exact replica. Please first define the key elements to avoid copyright infringement, and then implement those elements.",
     "level": 190,
     "newLevel": 190,
@@ -1327,7 +1327,7 @@
       "title": "Gadani, Pakistan Shipbreaking Yard Low-Tide Grounded Freighter Cut Section Grease Tent",
       "builtYear": "Amusement Park Abandoned Two Days Prior to 1986 Opening",
       "estimatedValue": "-$28,500 USD (Radiation Hotspot Surcharge)",
-      "specialFeature": "A tent pitched on the severed hull section of a tens-of-thousands-ton freighter intentionally beached on Arabian Sea tidal flats. Crouching on a 45-degree steel deck littered with bunker fuel sludge and asbestos, you sleep to surging tides.",
+      "specialFeature": "A tent pitched on the detached hull section of a tens-of-thousands-ton freighter intentionally beached on Arabian Sea tidal flats. Crouching on a 45-degree steel deck littered with bunker fuel sludge and asbestos, you sleep to surging tides.",
       "aiVerdict": "A radioactive hotspot Ferris wheel VIP lounge where the screech of rusting metal grates on your intestines with every breeze."
     }
   },
@@ -1489,7 +1489,7 @@
       "title": "'JoJo's Bizarre Adventure' DIO's Coffin 100 Years Submerged in Atlantic Ocean Abyss",
       "builtYear": "100 Years Following 1889 Death of Jonathan Joestar",
       "estimatedValue": "-100 Years of Solitude (Charging Stand 'The World')",
-      "specialFeature": "Trapped in the Atlantic depths for 100 years without sunlight inside a heavy iron casket, grafted onto Jonathan's severed body.",
+      "specialFeature": "Trapped in the Atlantic depths for 100 years without sunlight inside a heavy iron casket, grafted onto Jonathan's detached body.",
       "aiVerdict": "The ultimate deep-sea vampire casket, where you pass a century practicing time-stop powers until a salvage ship hoists you up."
     }
   },
@@ -1619,7 +1619,7 @@
       "title": "'My Hero Academia' League of Villains Underground Hideout Moldy Bar Counter Nook",
       "builtYear": "All For One Secret Hideout Base",
       "estimatedValue": "-30,000,000 JPY (Kurogiri Warp Gate Waiting Room Fee)",
-      "specialFeature": "Eavesdropping on the All Might assassination plot beneath a creaking tavern bar while Tomura Shigaraki scratches his neck with severed hands clasped to his face.",
+      "specialFeature": "Eavesdropping on the All Might assassination plot beneath a creaking tavern bar while Tomura Shigaraki scratches his neck with detached hands clasped to his face.",
       "aiVerdict": "The League of Villains' murky dive bar room where Pro Heroes could breach through the wall with a Smash at any second."
     }
   }
