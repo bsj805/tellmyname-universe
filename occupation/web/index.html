@@ -355,23 +355,26 @@
         }
         .pd-promo-grid {
           display: grid;
-          grid-template-columns: 1fr;
-          gap: 20px;
+          grid-template-columns: 1fr 1fr;
+          gap: 14px;
           width: 100%;
-          max-width: 600px;
-          margin: 0 auto;
+          background: rgba(255, 255, 255, 0.04);
+          border: 1.5px solid rgba(255, 255, 255, 0.12);
+          border-radius: 18px;
+          padding: 14px;
+          box-sizing: border-box;
         }
         .pd-promo-card {
-          background: rgba(255, 255, 255, 0.04);
-          border: 1.5px solid rgba(255, 255, 255, 0.1);
-          border-radius: 18px;
-          padding: 15px;
+          background: transparent;
+          border: none;
+          border-radius: 12px;
+          padding: 4px;
           display: flex;
           flex-direction: column;
-          gap: 12px;
+          gap: 8px;
           text-decoration: none;
           color: inherit;
-          transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+          transition: transform 0.2s ease;
         }
         .pd-promo-card:hover {
           transform: translateY(-4px);
@@ -399,11 +402,11 @@
           position: relative;
           width: 100%;
           aspect-ratio: 4 / 5;
-          max-height: 360px;
-          border-radius: 14px;
+          max-height: 290px;
+          border-radius: 12px;
           overflow: hidden;
           background: #090d16;
-          border: 1px solid rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.1);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -467,7 +470,15 @@
         }
         @media (max-width: 768px) {
           .pd-promo-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+          }
+          .pd-promo-frame {
+            max-height: 210px;
+          }
+          .pd-caption-desc {
+            display: none;
           }
           .pd-promo-frame {
             height: 280px;

@@ -327,7 +327,7 @@ export function renderCard(house, name = null, strokeInfo = null) {
   ` : '';
 
   const html = `
-    ${inlineInstaShowcaseHtml}
+    
     <article class="appraisal-card ${zoneClass}" id="appraisal-certificate" data-level="${lv}">
       
       <!-- Friendly Owner Headline Header -->

@@ -446,7 +446,8 @@
           autocomplete="off"
         />
       </div>
-      <p id="hub-name-status" class="quick-name-status">💡 이름을 입력하고 아래 서비스 카드를 눌러보세요!</p>
+      <p id="hub-name-status" class="quick-name-status">💡 이름을 입력하면 바로 아래에 나에게 어울리는 집 결과가 나타납니다!</p>
+      <div id="hub-instant-myhome-result" style="max-width:720px; margin:1.5rem auto 0; display:none; text-align:left;"></div>
     </section>
 
     <!-- Section 1: TellMyName Core Services -->
@@ -641,23 +642,26 @@
         }
         .pd-promo-grid {
           display: grid;
-          grid-template-columns: 1fr;
-          gap: 20px;
+          grid-template-columns: 1fr 1fr;
+          gap: 14px;
           width: 100%;
-          max-width: 600px;
-          margin: 0 auto;
+          background: rgba(255, 255, 255, 0.04);
+          border: 1.5px solid rgba(255, 255, 255, 0.12);
+          border-radius: 18px;
+          padding: 14px;
+          box-sizing: border-box;
         }
         .pd-promo-card {
-          background: rgba(255, 255, 255, 0.04);
-          border: 1.5px solid rgba(255, 255, 255, 0.1);
-          border-radius: 18px;
-          padding: 15px;
+          background: transparent;
+          border: none;
+          border-radius: 12px;
+          padding: 4px;
           display: flex;
           flex-direction: column;
-          gap: 12px;
+          gap: 8px;
           text-decoration: none;
           color: inherit;
-          transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+          transition: transform 0.2s ease;
         }
         .pd-promo-card:hover {
           transform: translateY(-4px);
@@ -685,11 +689,11 @@
           position: relative;
           width: 100%;
           aspect-ratio: 4 / 5;
-          max-height: 360px;
-          border-radius: 14px;
+          max-height: 290px;
+          border-radius: 12px;
           overflow: hidden;
           background: #090d16;
-          border: 1px solid rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.1);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -753,7 +757,15 @@
         }
         @media (max-width: 768px) {
           .pd-promo-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+          }
+          .pd-promo-frame {
+            max-height: 210px;
+          }
+          .pd-caption-desc {
+            display: none;
           }
           .pd-promo-frame {
             height: 280px;
@@ -1071,5 +1083,83 @@
       applyHubLang(currentLang);
     })();
   </script>
+
+  <script type="module">
+    import { analyzeNameToHouse } from '/js/lib/hash.js';
+    import { MYHOME_COMPACT } from '/js/lib/myhome_compact.js';
+
+    const inputEl = document.getElementById('hub-name-input');
+    const resultBox = document.getElementById('hub-instant-myhome-result');
+    const langSel = document.getElementById('lang-select');
+
+    function esc(s) {
+      return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function renderInstantMyHome() {
+      if (!inputEl || !resultBox) return;
+      const name = inputEl.value.trim();
+      if (!name) {
+        resultBox.style.display = 'none';
+        resultBox.innerHTML = '';
+        return;
+      }
+      const lang = (langSel && langSel.value) ? langSel.value : 'ko';
+      const isEn = lang !== 'ko';
+      const langQ = isEn ? ('?lang=' + encodeURIComponent(lang)) : '';
+      const info = analyzeNameToHouse(name);
+      const lv = Math.max(0, Math.min(999, info.level));
+      const item = MYHOME_COMPACT[lv] || MYHOME_COMPACT[0];
+      const padded = String(lv).padStart(5, '0');
+      const imgUrl = `https://myhome.tellmyname.app/r2/houses/${padded}.webp`;
+      const isGood = lv >= 500;
+      const title = isEn ? (item.et || item.t) : item.t;
+      const built = isEn ? (item.ey || item.y) : item.y;
+      const val = isEn ? (item.ev || item.v) : item.v;
+      const feat = isEn ? (item.ef || item.f) : item.f;
+      const verdict = isEn ? (item.ea || item.a) : item.a;
+      const encodedName = encodeURIComponent(name);
+
+      const zoneBadge = isGood
+        ? (isEn ? '🌟 Jackpot House' : '🌟 대박 하우스')
+        : (isEn ? '💀 Doom House' : '💀 폭망 하우스');
+      const headline = isEn
+        ? `🏠 ${name}'s Matching Home (Lv.${lv} / 999)`
+        : `🏠 '${name}'님에게 어울리는 집 (Lv.${lv} / 999)`;
+
+      resultBox.style.display = 'block';
+      resultBox.innerHTML = `
+        <article style="background:rgba(19,28,49,0.96); border:1.5px solid rgba(56,189,248,0.45); border-radius:22px; padding:20px; box-shadow:0 18px 40px rgba(0,0,0,0.45);">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:12px;">
+            <span style="font-size:0.82rem; font-weight:800; color:#38bdf8; background:rgba(56,189,248,0.14); border:1px solid rgba(56,189,248,0.35); padding:4px 12px; border-radius:999px;">${esc(headline)}</span>
+            <span style="font-size:0.78rem; font-weight:800; color:${isGood ? '#34d399' : '#f87171'}; background:rgba(255,255,255,0.06); padding:4px 10px; border-radius:999px;">${esc(zoneBadge)}</span>
+          </div>
+          <div style="width:100%; max-height:360px; aspect-ratio:16/10; border-radius:16px; overflow:hidden; background:#090d16; margin-bottom:14px; border:1px solid rgba(255,255,255,0.1);">
+            <img src="${imgUrl}" alt="Lv.${lv} ${esc(title)}" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </div>
+          <h3 style="margin:0 0 10px 0; font-size:1.25rem; font-weight:900; color:#ffffff; line-height:1.35;">${esc(title)}</h3>
+          <div style="display:grid; grid-template-columns:1fr; gap:8px; background:rgba(11,17,32,0.7); border:1px solid rgba(148,163,184,0.2); border-radius:14px; padding:12px 14px; margin-bottom:12px; font-size:0.88rem; color:#e2e8f0;">
+            <div><strong style="color:#94a3b8;">${isEn ? 'Year Built' : '건축 연도'}:</strong> ${esc(built)}</div>
+            <div><strong style="color:#94a3b8;">${isEn ? 'Est. Value' : '추산 가치'}:</strong> <span style="color:#fbbf24; font-weight:800;">${esc(val)}</span></div>
+            <div><strong style="color:#94a3b8;">${isEn ? 'Special Feature' : '특별한 기능'}:</strong> ${esc(feat)}</div>
+          </div>
+          <p style="margin:0 0 14px 0; padding:10px 14px; background:rgba(56,189,248,0.08); border-left:3px solid #38bdf8; border-radius:8px; font-size:0.88rem; color:#cbd5e1;">“${esc(verdict)}”</p>
+          <div style="display:grid; grid-template-columns:1fr; gap:8px;">
+            <a href="https://myhome.tellmyname.app/name/${encodedName}${langQ}" style="display:block; text-align:center; padding:12px; border-radius:12px; background:linear-gradient(135deg,#0284c7,#2563eb); color:#fff; font-weight:800; text-decoration:none; font-size:0.94rem;">
+              ${isEn ? `🏠 Open '${esc(name)}'s Full Result & Sibling Universes on MyHome →` : `🏠 MyHome에서 '${esc(name)}'님 상세 결과 · 직업 · 차 · 음식까지 이어서 보기 →`}
+            </a>
+          </div>
+        </article>
+      `;
+    }
+
+    if (inputEl) {
+      inputEl.addEventListener('input', renderInstantMyHome);
+      if (langSel) langSel.addEventListener('change', renderInstantMyHome);
+      // Show default instant card for sample name on initial load if input has value
+      if (inputEl.value.trim()) renderInstantMyHome();
+    }
+  </script>
+
 </body>
 </html>

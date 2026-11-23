@@ -2411,3 +2411,12 @@ input {
 
 /* Hide fixed bottom dock in favor of inline-step-nav-bar */
 .explorer-dock { display: none !important; }
+
+
+/* Fix Korean heading wrapping in 3-column guide cards */
+.guide-card-header h3 {
+  word-break: keep-all !important;
+  overflow-wrap: break-word !important;
+  font-size: 1rem !important;
+  line-height: 1.35 !important;
+}

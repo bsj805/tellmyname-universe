@@ -109,13 +109,21 @@ for (const app of selectedApps) {
       stdio: 'inherit'
     });
   } else {
-    // Sync all files from name_teller/web/* -> name_teller/dist/* (including samples/italy/*)
+    // Clean name_teller/dist/ completely (remove legacy doorway files) and copy web/* + public/*
     const srcDir = path.join(app.dir, 'web');
+    const pubDir = path.join(app.dir, 'public');
     const distDir = path.join(app.dir, 'dist');
+    if (fs.existsSync(distDir)) fs.rmSync(distDir, { recursive: true, force: true });
+    fs.mkdirSync(distDir, { recursive: true });
     if (fs.existsSync(srcDir)) {
       fs.cpSync(srcDir, distDir, { recursive: true, force: true });
-      console.log(`  ✔ Synced ${app.id}/web/* -> ${app.id}/dist/*`);
     }
+    if (fs.existsSync(pubDir)) {
+      fs.cpSync(pubDir, distDir, { recursive: true, force: true });
+    }
+    const legacyMatch = path.join(distDir, 'match.html');
+    if (fs.existsSync(legacyMatch)) fs.rmSync(legacyMatch, { force: true });
+    console.log(`  ✔ Cleanly synced ${app.id}/web/* + public/* -> ${app.id}/dist/*`);
   }
 
   // 3. Deploy via Wrangler if requested

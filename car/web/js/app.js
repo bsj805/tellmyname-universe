@@ -708,7 +708,7 @@ export function renderCard(car, name = null, strokeInfo = null) {
       </div>
 
     </article>
-    ${inlineInstaShowcaseHtml}
+    
   `;
 
   const guideSectionEl = document.querySelector('.service-guide-section');

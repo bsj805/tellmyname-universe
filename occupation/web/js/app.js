@@ -329,7 +329,7 @@ export function renderCard(job, name = null, strokeInfo = null) {
   const dutyVal = localized.specialDuty || localized.specialFeature || '';
 
   const html = `
-    ${inlineInstaShowcaseHtml}
+    
     <article class="appraisal-card ${zoneClass}" id="appraisal-certificate" data-level="${lv}">
       
       <!-- Friendly Owner Headline Header -->
