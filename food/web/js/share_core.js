@@ -55,11 +55,15 @@ export function formatPriceForLang(priceRange, lang = 'ko') {
   const norm = normalizeLang(lang);
   const str = String(priceRange).trim();
   if (norm === 'ko') return str;
-  if (/원/.test(str)) {
-    const cleaned = str.replace(/원/g, '').trim();
-    return cleaned.startsWith('₩') ? cleaned : `₩${cleaned}`;
-  }
-  return str;
+  const noKoreanNotes = str
+    .replace(/\([^)]*[가-힣][^)]*\)/g, '')
+    .replace(/([0-9,]+)\s*원/g, '₩$1')
+    .replace(/원/g, '')
+    .replace(/[가-힣]+/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  if (!noKoreanNotes) return 'Est. Price';
+  return noKoreanNotes;
 }
 
 /**
