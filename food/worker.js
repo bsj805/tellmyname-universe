@@ -1344,7 +1344,7 @@ export function renderGallerySeoHtml(baseHtml, lang = 'ko', origin = SITE_ORIGIN
       const code = f.code || formatFoodCode(f.index || 1);
       const displayName = normLang === 'ko' ? f.name : (f.englishName || f.name);
       const cal = f.calories ? `🔥 ${escapeHtml(f.calories)}` : '';
-      return `<article class="gallery-food-card"><a href="/food/${code}${normLang !== 'ko' ? '?lang=' + normLang : ''}" style="text-decoration:none;color:inherit;display:block;"><div class="gallery-card-thumb-wrap"><img src="/images/web/${code}.webp" alt="${escapeHtml(displayName)}" class="gallery-card-thumb" loading="lazy" width="320" height="240" /><span class="gallery-code-badge">#${code}</span></div><div class="gallery-card-info"><h3 class="gallery-card-title">${escapeHtml(displayName)}</h3><div class="gallery-card-meta"><span>${cal}</span></div></div></a></article>`;
+      return `<article class="gallery-food-card"><a href="/food/${code}${normLang !== 'ko' ? '?lang=' + normLang : ''}" style="text-decoration:none;color:inherit;display:block;"><div class="gallery-card-thumb-wrap"><img src="https://food.tellmyname.app/images/web/${code}.webp" alt="${escapeHtml(displayName)}" class="gallery-card-thumb" loading="lazy" width="320" height="240" /><span class="gallery-code-badge">#${code}</span></div><div class="gallery-card-info"><h3 class="gallery-card-title">${escapeHtml(displayName)}</h3><div class="gallery-card-meta"><span>${cal}</span></div></div></a></article>`;
     }).join('\n');
     html = html
       .replace(/<div id="daily-view" class="daily-view">/i, '<div id="daily-view" class="daily-view" style="display:none;">')

@@ -872,9 +872,9 @@ export default {
             .replace(/href=["']\/favicon([^"']*)["']/g, `href="${p}/favicon$1"`)
             .replace(/(<a[^>]*class=["'][^"']*brand[^"']*["'][^>]*href=["'])\/(["'])/g, `$1${p}/$2`)
             .replace(/href=["']\/(level|name|worldcup|gallery)(\/[^"']*)?["']/g, `href="${p}/$1$2"`)
-            // Unify subdomain canonical, hreflang, og:url, og:image, and JSON-LD URLs to tellmyname.app
-            .replace(/https:\/\/food\.tellmyname\.app\/(images|r2\/foods)\//g, 'https://tellmyname.app/$1/')
-            .replace(/https:\/\/food\.tellmyname\.app\//g, 'https://tellmyname.app/food/')
+            // Keep food Static Assets images on food.tellmyname.app/images/ (0 Worker hits), unify page/canonical URLs to tellmyname.app
+            .replace(/https:\/\/food\.tellmyname\.app\/r2\/foods\//g, 'https://tellmyname.app/r2/foods/')
+            .replace(/https:\/\/food\.tellmyname\.app\/(?!images\/)/g, 'https://tellmyname.app/food/')
             .replace(/https:\/\/food\.tellmyname\.app(?=["'<,\s?])/g, 'https://tellmyname.app/food')
             .replace(/https:\/\/job\.tellmyname\.app\/r2\/jobs\//g, 'https://tellmyname.app/r2/jobs/')
             .replace(/https:\/\/job\.tellmyname\.app\//g, 'https://tellmyname.app/job/')

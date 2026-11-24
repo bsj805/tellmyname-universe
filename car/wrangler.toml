@@ -7,7 +7,7 @@ directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "none"
 html_handling = "none"
-run_worker_first = ["/", "/level/*", "/name/*", "/worldcup*", "/r2/*", "/api/*", "/robots.txt", "/ads.txt"]
+run_worker_first = ["/", "/level/*", "/name/*", "/worldcup*", "/r2/*", "/api/*"]
 
 [[routes]]
 pattern = "car.tellmyname.app"

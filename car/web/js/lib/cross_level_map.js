@@ -3,24 +3,24 @@ export const CROSS_APPS_META = {
   myhome: {
     id: 'myhome',
     origin: '',
-    r2Prefix: 'https://tellmyname.app/r2/houses',
-    localR2Prefix: '/r2/houses',
+    r2Prefix: '/r2/houses',
+    localR2Prefix: 'https://img.tellmyname.app/houses',
     maxLevel: 999,
     icon: '🏠'
   },
   occupation: {
     id: 'occupation',
     origin: '/job',
-    r2Prefix: 'https://tellmyname.app/r2/jobs',
-    localR2Prefix: '/r2/jobs',
+    r2Prefix: '/r2/jobs',
+    localR2Prefix: 'https://img.tellmyname.app/jobs',
     maxLevel: 1000,
     icon: '💼'
   },
   car: {
     id: 'car',
     origin: '/car',
-    r2Prefix: 'https://tellmyname.app/r2/cars',
-    localR2Prefix: '/r2/cars',
+    r2Prefix: '/r2/cars',
+    localR2Prefix: 'https://img.tellmyname.app/cars',
     maxLevel: 1000,
     icon: '🚗'
   }
@@ -454,7 +454,7 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
     const item = getCrossItem(appId, targetLv);
     if (!item) return '';
     const padded = String(targetLv).padStart(5, '0');
-    const localImgUrl = `${meta.localR2Prefix}/${padded}.webp`;
+    const localImgUrl = appId === 'occupation' ? `${meta.localR2Prefix}/${padded}.png` : `${meta.localR2Prefix}/${padded}.webp`;
     const prodImgUrl = `${meta.r2Prefix}/${padded}.webp`;
     const levelUrl = `${meta.origin}/level/${targetLv}${langQuery}`;
     const title = useEnData ? (item.et || item.t) : item.t;
@@ -506,7 +506,7 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
   const foodTitle = useEnData ? (food.en || food.n) : food.n;
   const foodTagline = useEnData ? (food.et || food.t) : food.t;
   const foodBadge = useEnData ? slot.en : slot.ko;
-  const foodLocalImg = `/images/web/${food.c}.webp`;
+  const foodLocalImg = `https://food.tellmyname.app/images/web/${food.c}.webp`;
   const foodProdImg = `https://tellmyname.app/images/web/${food.c}.webp`;
   const foodDetailHref = `/food/food/${food.c}${langQuery}`;
   const foodNameHref = cleanName

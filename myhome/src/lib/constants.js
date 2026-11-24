@@ -67,7 +67,7 @@ export function getRandomActiveLevel() {
 export function getHouseImageUrl(level, withOrigin = false) {
   const clamped = Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, Math.floor(Number(level) || 0)));
   const padded = String(clamped).padStart(5, '0');
-  const relPath = `/r2/houses/${padded}.webp`;
+  const relPath = `https://img.tellmyname.app/houses/${padded}.webp`;
   return withOrigin ? `${SITE_ORIGIN}${relPath}` : relPath;
 }
 

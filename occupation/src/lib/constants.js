@@ -66,7 +66,7 @@ export function getRandomActiveLevel() {
 export function getJobImageUrl(level, withOrigin = false) {
   const clamped = Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, Math.floor(Number(level) || 0)));
   const padded = String(clamped).padStart(5, '0');
-  const relPath = `/r2/jobs/${padded}.webp`;
+  const relPath = `https://img.tellmyname.app/jobs/${padded}.png`;
   return withOrigin ? `${SITE_ORIGIN}${relPath}` : relPath;
 }
 
