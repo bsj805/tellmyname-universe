@@ -353,7 +353,7 @@ export function renderFoodIllustrationSvg(food = {}, options = {}) {
     </g>
 
     <!-- 워터마크 푸터 -->
-    <text x="360" y="180" text-anchor="middle" fill="#888899" font-family="'Pretendard', sans-serif" font-size="13" font-weight="500">food.tellmyname.app • AI 감성 푸드 일러스트 컬렉션</text>
+    <text x="360" y="180" text-anchor="middle" fill="#888899" font-family="'Pretendard', sans-serif" font-size="13" font-weight="500">tellmyname.app/food • AI 감성 푸드 일러스트 컬렉션</text>
   </g>
 </svg>`;
 }

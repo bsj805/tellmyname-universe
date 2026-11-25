@@ -1,4 +1,4 @@
-// src/lib/constants.js — Shared contract for food.tellmyname.app
+// src/lib/constants.js — Shared contract for tellmyname.app/food
 // Defines domain, 5 meal categories (ordered Morning -> Late-night), 8 food origin groups, and per-category cap settings.
 
 export const SITE_ORIGIN = 'https://tellmyname.app/food';

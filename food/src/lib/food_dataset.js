@@ -32,7 +32,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 수요일 특식 토마토 미트소스 스파게티그려줘",
     "imageUrl": "/images/00001.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00001.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00001.png"
   },
   {
     "index": 2,
@@ -65,7 +65,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
     "imageUrl": "/images/00002.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
   },
   {
     "index": 3,
@@ -97,7 +97,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
     "imageUrl": "/images/00003.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
   },
   {
     "index": 4,
@@ -128,7 +128,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 경양식 수제 왕돈까스그려줘",
     "imageUrl": "/images/00004.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00004.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00004.png"
   },
   {
     "index": 5,
@@ -160,7 +160,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
     "imageUrl": "/images/00005.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
   },
   {
     "index": 6,
@@ -191,7 +191,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 물엿 코팅 바삭 고구마맛탕그려줘",
     "imageUrl": "/images/00006.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00006.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00006.png"
   },
   {
     "index": 7,
@@ -222,7 +222,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 코다리강정그려줘",
     "imageUrl": "/images/00007.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00007.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00007.png"
   },
   {
     "index": 8,
@@ -254,7 +254,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
     "imageUrl": "/images/00008.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
   },
   {
     "index": 9,
@@ -286,7 +286,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
     "imageUrl": "/images/00009.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
   },
   {
     "index": 10,
@@ -318,7 +318,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
     "imageUrl": "/images/00010.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
   },
   {
     "index": 11,
@@ -350,7 +350,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
     "imageUrl": "/images/00011.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
   },
   {
     "index": 12,
@@ -382,7 +382,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
     "imageUrl": "/images/00012.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
   },
   {
     "index": 13,
@@ -413,7 +413,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 그릴 마크 수제 떡갈비그려줘",
     "imageUrl": "/images/00013.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00013.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00013.png"
   },
   {
     "index": 14,
@@ -445,7 +445,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
     "imageUrl": "/images/00014.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
   },
   {
     "index": 15,
@@ -477,7 +477,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
     "imageUrl": "/images/00015.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
   },
   {
     "index": 16,
@@ -509,7 +509,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
     "imageUrl": "/images/00016.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
   },
   {
     "index": 17,
@@ -541,7 +541,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
     "imageUrl": "/images/00017.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
   },
   {
     "index": 18,
@@ -572,7 +572,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 미니 짜장밥과 반달 단무지 & 군만두그려줘",
     "imageUrl": "/images/00018.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00018.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00018.png"
   },
   {
     "index": 19,
@@ -604,7 +604,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
     "imageUrl": "/images/00019.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
   },
   {
     "index": 20,
@@ -635,7 +635,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 생크림 과일 사라다 모닝빵 샌드위치그려줘",
     "imageUrl": "/images/00020.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00020.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00020.png"
   },
   {
     "index": 21,
@@ -667,7 +667,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
     "imageUrl": "/images/00021.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
   },
   {
     "index": 22,
@@ -698,7 +698,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 흑트러플 완도 전복 게우소스 리조또그려줘",
     "imageUrl": "/images/00022.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00022.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00022.png"
   },
   {
     "index": 23,
@@ -730,7 +730,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
     "imageUrl": "/images/00023.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
   },
   {
     "index": 24,
@@ -762,7 +762,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
     "imageUrl": "/images/00024.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
   },
   {
     "index": 25,
@@ -793,7 +793,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 안심 비프 웰링턴과 페리고 트러플 주(Jus)그려줘",
     "imageUrl": "/images/00025.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00025.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00025.png"
   },
   {
     "index": 26,
@@ -825,7 +825,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
     "imageUrl": "/images/00026.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
   },
   {
     "index": 27,
@@ -856,7 +856,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 프랑스산 브레스 영계 로스트와 모렐 버섯 크림그려줘",
     "imageUrl": "/images/00027.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00027.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00027.png"
   },
   {
     "index": 28,
@@ -888,7 +888,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
     "imageUrl": "/images/00028.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
   },
   {
     "index": 29,
@@ -919,7 +919,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 블루 랍스터 포치드와 사프란 비스크 에멀전그려줘",
     "imageUrl": "/images/00029.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00029.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00029.png"
   },
   {
     "index": 30,
@@ -951,7 +951,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
     "imageUrl": "/images/00030.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
   },
   {
     "index": 31,
@@ -983,7 +983,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
     "imageUrl": "/images/00031.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
   },
   {
     "index": 32,
@@ -1014,7 +1014,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 한우 1++ 채끝등심 볏짚 훈연 구이와 발효 흑마늘그려줘",
     "imageUrl": "/images/00032.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00032.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00032.png"
   },
   {
     "index": 33,
@@ -1046,7 +1046,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
     "imageUrl": "/images/00033.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
   },
   {
     "index": 34,
@@ -1078,7 +1078,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
     "imageUrl": "/images/00034.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
   },
   {
     "index": 35,
@@ -1110,7 +1110,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
     "imageUrl": "/images/00035.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
   },
   {
     "index": 36,
@@ -1142,7 +1142,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
     "imageUrl": "/images/00036.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
   },
   {
     "index": 37,
@@ -1173,7 +1173,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 쑥 아이스크림과 갓 튀긴 개성 주악 디저트 소반그려줘",
     "imageUrl": "/images/00037.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00037.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00037.png"
   },
   {
     "index": 38,
@@ -1205,7 +1205,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
     "imageUrl": "/images/00038.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
   },
   {
     "index": 39,
@@ -1236,7 +1236,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 크리스피 오리 콩피(Duck Confit)와 오렌지 가스트릭그려줘",
     "imageUrl": "/images/00039.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00039.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00039.png"
   },
   {
     "index": 40,
@@ -1269,7 +1269,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
     "imageUrl": "/images/00040.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
   },
   {
     "index": 41,
@@ -1301,7 +1301,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
     "imageUrl": "/images/00041.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
   },
   {
     "index": 42,
@@ -1332,7 +1332,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 숯불 한우 트러플 떡갈비와 구운 대파 정찬그려줘",
     "imageUrl": "/images/00042.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00042.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00042.png"
   },
   {
     "index": 43,
@@ -1364,7 +1364,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
     "imageUrl": "/images/00043.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
   },
   {
     "index": 44,
@@ -1395,7 +1395,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 피스타치오 파리브레스트와 에스프레소 슈그려줘",
     "imageUrl": "/images/00044.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00044.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00044.png"
   },
   {
     "index": 45,
@@ -1427,7 +1427,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
     "imageUrl": "/images/00045.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
   },
   {
     "index": 46,
@@ -1460,7 +1460,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
     "imageUrl": "/images/00046.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
   },
   {
     "index": 47,
@@ -1491,7 +1491,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 명동 스타일 자가제면 칼국수와 왕만두그려줘",
     "imageUrl": "/images/00047.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00047.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00047.png"
   },
   {
     "index": 48,
@@ -1523,7 +1523,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
     "imageUrl": "/images/00048.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
   },
   {
     "index": 49,
@@ -1556,7 +1556,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
     "imageUrl": "/images/00049.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
   },
   {
     "index": 50,
@@ -1587,7 +1587,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 알이 꽉 찬 서해안 암꽃게 간장게장 정식그려줘",
     "imageUrl": "/images/00050.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00050.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00050.png"
   },
   {
     "index": 51,
@@ -1619,7 +1619,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
     "imageUrl": "/images/00051.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
   },
   {
     "index": 52,
@@ -1650,7 +1650,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 고소한 거피 들기름 막국수와 한방 보쌈 수육그려줘",
     "imageUrl": "/images/00052.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00052.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00052.png"
   },
   {
     "index": 53,
@@ -1682,7 +1682,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
     "imageUrl": "/images/00053.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
   },
   {
     "index": 54,
@@ -1713,7 +1713,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 제주 흑돼지 족발과 새콤달콤 쟁반막국수그려줘",
     "imageUrl": "/images/00054.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00054.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00054.png"
   },
   {
     "index": 55,
@@ -1745,7 +1745,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
     "imageUrl": "/images/00055.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
   },
   {
     "index": 56,
@@ -1777,7 +1777,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
     "imageUrl": "/images/00056.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
   },
   {
     "index": 57,
@@ -1810,7 +1810,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
     "imageUrl": "/images/00057.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
   },
   {
     "index": 58,
@@ -1842,7 +1842,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
     "imageUrl": "/images/00058.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
   },
   {
     "index": 59,
@@ -1874,7 +1874,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
     "imageUrl": "/images/00059.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
   },
   {
     "index": 60,
@@ -1905,7 +1905,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 껍질째 아삭 베어 무는 청송 꿀사과 1개그려줘",
     "imageUrl": "/images/00060.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00060.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00060.png"
   },
   {
     "index": 61,
@@ -1938,7 +1938,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
     "imageUrl": "/images/00061.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
   },
   {
     "index": 62,
@@ -1970,7 +1970,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
     "imageUrl": "/images/00062.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
   },
   {
     "index": 63,
@@ -2002,7 +2002,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
     "imageUrl": "/images/00063.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
   },
   {
     "index": 64,
@@ -2034,7 +2034,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
     "imageUrl": "/images/00064.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
   },
   {
     "index": 65,
@@ -2065,7 +2065,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 유럽 프리미엄 납작복숭아 & 천도복숭아 플레이트그려줘",
     "imageUrl": "/images/00065.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00065.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00065.png"
   },
   {
     "index": 66,
@@ -2097,7 +2097,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
     "imageUrl": "/images/00066.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
   },
   {
     "index": 67,
@@ -2130,7 +2130,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
     "imageUrl": "/images/00067.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
   },
   {
     "index": 68,
@@ -2162,7 +2162,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
     "imageUrl": "/images/00068.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
   },
   {
     "index": 69,
@@ -2193,7 +2193,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두바이 초콜릿 피스타치오 카다이프 붕어빵그려줘",
     "imageUrl": "/images/00069.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00069.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00069.png"
   },
   {
     "index": 70,
@@ -2224,7 +2224,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 대왕 통오징어 튀김이 통째로 올라간 오징어먹물 짜장면그려줘",
     "imageUrl": "/images/00070.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00070.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00070.png"
   },
   {
     "index": 71,
@@ -2257,7 +2257,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
     "imageUrl": "/images/00071.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
   },
   {
     "index": 72,
@@ -2288,7 +2288,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 망치로 깨 먹는 대왕 공룡알 화석 초코 빙수그려줘",
     "imageUrl": "/images/00072.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00072.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00072.png"
   },
   {
     "index": 73,
@@ -2320,7 +2320,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
     "imageUrl": "/images/00073.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
   },
   {
     "index": 74,
@@ -2352,7 +2352,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
     "imageUrl": "/images/00074.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
   },
   {
     "index": 75,
@@ -2383,7 +2383,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 생와사비 소프트 아이스크림과 감자칩그려줘",
     "imageUrl": "/images/00075.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00075.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00075.png"
   },
   {
     "index": 76,
@@ -2415,7 +2415,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00076.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
   },
   {
     "index": 77,
@@ -2446,7 +2446,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 통메론 한 통을 파서 만든 메론 빙수와 연유 폭포그려줘",
     "imageUrl": "/images/00077.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00077.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00077.png"
   },
   {
     "index": 78,
@@ -2479,7 +2479,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
     "imageUrl": "/images/00078.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
   },
   {
     "index": 79,
@@ -2512,7 +2512,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
     "imageUrl": "/images/00079.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
   },
   {
     "index": 80,
@@ -2544,7 +2544,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
     "imageUrl": "/images/00080.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
   },
   {
     "index": 81,
@@ -2576,7 +2576,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
     "imageUrl": "/images/00081.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
   },
   {
     "index": 82,
@@ -2607,7 +2607,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 불향 가득 기사식당 직화 제육볶음과 상추쌈밥그려줘",
     "imageUrl": "/images/00082.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00082.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00082.png"
   },
   {
     "index": 83,
@@ -2638,7 +2638,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 솥뚜껑 숙성 삼겹살과 청도 미나리 & 볶음밥그려줘",
     "imageUrl": "/images/00083.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00083.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00083.png"
   },
   {
     "index": 84,
@@ -2671,7 +2671,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
     "imageUrl": "/images/00084.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
   },
   {
     "index": 85,
@@ -2703,7 +2703,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
     "imageUrl": "/images/00085.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
   },
   {
     "index": 86,
@@ -2734,7 +2734,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 겉바속촉 황금올리브 후라이드 + 매콤달콤 양념 반반치킨그려줘",
     "imageUrl": "/images/00086.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00086.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00086.png"
   },
   {
     "index": 87,
@@ -2765,7 +2765,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 곱이 꽉 찬 한우 소곱창·대창 모둠 구이와 부추무침그려줘",
     "imageUrl": "/images/00087.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00087.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00087.png"
   },
   {
     "index": 88,
@@ -2797,7 +2797,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
     "imageUrl": "/images/00088.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
   },
   {
     "index": 89,
@@ -2828,7 +2828,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 연돈 스타일 폭포수 통모짜렐라 치즈 돈까스그려줘",
     "imageUrl": "/images/00089.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00089.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00089.png"
   },
   {
     "index": 90,
@@ -2860,7 +2860,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00090.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
   },
   {
     "index": 91,
@@ -2891,7 +2891,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구워 버터 동굴이 뚫린 바삭 소금빵(시오빵) 2개와 아이스 라떼그려줘",
     "imageUrl": "/images/00091.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00091.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00091.png"
   },
   {
     "index": 92,
@@ -2922,7 +2922,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 겨울철 팥붕·슈붕(붕어빵) 반반 6마리그려줘",
     "imageUrl": "/images/00092.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00092.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00092.png"
   },
   {
     "index": 93,
@@ -2954,7 +2954,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
     "imageUrl": "/images/00093.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
   },
   {
     "index": 94,
@@ -2986,7 +2986,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
     "imageUrl": "/images/00094.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
   },
   {
     "index": 95,
@@ -3017,7 +3017,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 인절미 떡과 국내산 통단팥이 올라간 우유 눈꽃 팥빙수그려줘",
     "imageUrl": "/images/00095.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00095.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00095.png"
   },
   {
     "index": 96,
@@ -3050,7 +3050,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
     "imageUrl": "/images/00096.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
   },
   {
     "index": 97,
@@ -3082,7 +3082,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
     "imageUrl": "/images/00097.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
   },
   {
     "index": 98,
@@ -3114,7 +3114,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
     "imageUrl": "/images/00098.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
   },
   {
     "index": 99,
@@ -3146,7 +3146,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
     "imageUrl": "/images/00099.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
   },
   {
     "index": 100,
@@ -3177,7 +3177,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 도깨비에서 공유가 비 내리는 날 김고은에게 사주던 캐나다 소고기 스테이크그려줘",
     "imageUrl": "/images/00100.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00100.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00100.png"
   },
   {
     "index": 101,
@@ -3209,7 +3209,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
     "imageUrl": "/images/00101.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
   },
   {
     "index": 102,
@@ -3240,7 +3240,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 범죄도시 장첸이 비닐장갑 끼고 껍질째 뜯던 마라롱샤 (매운 가재)그려줘",
     "imageUrl": "/images/00102.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00102.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00102.png"
   },
   {
     "index": 103,
@@ -3271,7 +3271,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 응답하라 1988 덕선이네 삼선당 옛날 양념통닭과 사라다그려줘",
     "imageUrl": "/images/00103.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00103.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00103.png"
   },
   {
     "index": 104,
@@ -3302,7 +3302,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 센과 치히로의 행방불명에서 아빠가 삼키던 거대 육즙 고기 주머니그려줘",
     "imageUrl": "/images/00104.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00104.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00104.png"
   },
   {
     "index": 105,
@@ -3335,7 +3335,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
     "imageUrl": "/images/00105.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
   },
   {
     "index": 106,
@@ -3367,7 +3367,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
     "imageUrl": "/images/00106.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
   },
   {
     "index": 107,
@@ -3399,7 +3399,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
     "imageUrl": "/images/00107.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
   },
   {
     "index": 108,
@@ -3430,7 +3430,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 별에서 온 그대 천송이가 첫눈 오는 날 찾던 치맥 (치킨과 캔맥주)그려줘",
     "imageUrl": "/images/00108.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00108.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00108.png"
   },
   {
     "index": 109,
@@ -3461,7 +3461,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 대부(Godfather) 클레멘자가 마피아 패밀리에게 끓여주던 미트볼 토마토 파스타그려줘",
     "imageUrl": "/images/00109.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00109.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00109.png"
   },
   {
     "index": 110,
@@ -3493,7 +3493,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
     "imageUrl": "/images/00110.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
   },
   {
     "index": 111,
@@ -3526,7 +3526,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
     "imageUrl": "/images/00111.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
   },
   {
     "index": 112,
@@ -3558,7 +3558,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
     "imageUrl": "/images/00112.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
   },
   {
     "index": 113,
@@ -3590,7 +3590,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
     "imageUrl": "/images/00113.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
   },
   {
     "index": 114,
@@ -3621,7 +3621,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 아가씨 김태리가 껍질을 까서 김민희 입에 넣어주던 달콤한 백옥 백도 복숭아그려줘",
     "imageUrl": "/images/00114.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00114.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00114.png"
   },
   {
     "index": 115,
@@ -3653,7 +3653,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
     "imageUrl": "/images/00115.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
   },
   {
     "index": 116,
@@ -3684,7 +3684,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤알싸한 마늘소스 듬뿍 올린 마늘보쌈과 무김치그려줘",
     "imageUrl": "/images/00116.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00116.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00116.png"
   },
   {
     "index": 117,
@@ -3715,7 +3715,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 부산 부평동식 해파리 냉채족발그려줘",
     "imageUrl": "/images/00117.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00117.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00117.png"
   },
   {
     "index": 118,
@@ -3746,7 +3746,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭 속은 쫀득한 독일 슈바인학센식 튀김족발그려줘",
     "imageUrl": "/images/00118.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00118.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00118.png"
   },
   {
     "index": 119,
@@ -3778,7 +3778,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
     "imageUrl": "/images/00119.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
   },
   {
     "index": 120,
@@ -3810,7 +3810,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
     "imageUrl": "/images/00120.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
   },
   {
     "index": 121,
@@ -3841,7 +3841,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤 콩나물 산더미 마산 아구찜과 볶음밥그려줘",
     "imageUrl": "/images/00121.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00121.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00121.png"
   },
   {
     "index": 122,
@@ -3872,7 +3872,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스팸·소시지·라면사리 듬뿍 들어간 의정부 원조 부대찌개그려줘",
     "imageUrl": "/images/00122.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00122.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00122.png"
   },
   {
     "index": 123,
@@ -3905,7 +3905,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
     "imageUrl": "/images/00123.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
   },
   {
     "index": 124,
@@ -3936,7 +3936,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에 구워 기름기 쏙 뺀 매콤 바삭 고추바사삭 치킨과 마블링 소스그려줘",
     "imageUrl": "/images/00124.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00124.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00124.png"
   },
   {
     "index": 125,
@@ -3967,7 +3967,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 원조 교촌 스타일 짭조름한 간장 윙봉 콤보그려줘",
     "imageUrl": "/images/00125.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00125.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00125.png"
   },
   {
     "index": 126,
@@ -3998,7 +3998,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 향 진하게 밴 양념 숯불바베큐 치킨과 우동사리 추가그려줘",
     "imageUrl": "/images/00126.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00126.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00126.png"
   },
   {
     "index": 127,
@@ -4030,7 +4030,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
     "imageUrl": "/images/00127.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
   },
   {
     "index": 128,
@@ -4062,7 +4062,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
     "imageUrl": "/images/00128.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
   },
   {
     "index": 129,
@@ -4094,7 +4094,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
     "imageUrl": "/images/00129.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
   },
   {
     "index": 130,
@@ -4125,7 +4125,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 12시간 훈연해 결대로 찢은 텍사스 풀드포크 바베큐 버거그려줘",
     "imageUrl": "/images/00130.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00130.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00130.png"
   },
   {
     "index": 131,
@@ -4156,7 +4156,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 불맛 확 살아있는 양파 듬뿍 삼선 간짜장과 반숙 계란후라이그려줘",
     "imageUrl": "/images/00131.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00131.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00131.png"
   },
   {
     "index": 132,
@@ -4188,7 +4188,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
     "imageUrl": "/images/00132.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
   },
   {
     "index": 133,
@@ -4221,7 +4221,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
     "imageUrl": "/images/00133.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
   },
   {
     "index": 134,
@@ -4253,7 +4253,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
     "imageUrl": "/images/00134.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
   },
   {
     "index": 135,
@@ -4284,7 +4284,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 갓 튀긴 왕새우·장어·단호박이 탑처럼 쌓인 에도식 스페셜 텐동그려줘",
     "imageUrl": "/images/00135.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00135.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00135.png"
   },
   {
     "index": 136,
@@ -4315,7 +4315,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 참치·연어·광어·연어알이 가득한 바다 한 그릇 카이센동그려줘",
     "imageUrl": "/images/00136.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00136.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00136.png"
   },
   {
     "index": 137,
@@ -4347,7 +4347,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
     "imageUrl": "/images/00137.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
   },
   {
     "index": 138,
@@ -4378,7 +4378,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 돼지고기와 새콤달콤 느억맘 소스에 적셔 먹는 하노이식 분짜그려줘",
     "imageUrl": "/images/00138.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00138.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00138.png"
   },
   {
     "index": 139,
@@ -4409,7 +4409,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새우와 레몬그라스 향이 폭발하는 세계 3대 수프 똠얌꿍과 쌀국수면그려줘",
     "imageUrl": "/images/00139.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00139.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00139.png"
   },
   {
     "index": 140,
@@ -4440,7 +4440,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 부드러운 옐로우 커리 푸팟퐁커리그려줘",
     "imageUrl": "/images/00140.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00140.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00140.png"
   },
   {
     "index": 141,
@@ -4473,7 +4473,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
     "imageUrl": "/images/00141.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
   },
   {
     "index": 142,
@@ -4505,7 +4505,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
     "imageUrl": "/images/00142.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
   },
   {
     "index": 143,
@@ -4537,7 +4537,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
     "imageUrl": "/images/00143.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
   },
   {
     "index": 144,
@@ -4570,7 +4570,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
     "imageUrl": "/images/00144.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
   },
   {
     "index": 145,
@@ -4603,7 +4603,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
     "imageUrl": "/images/00145.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
   },
   {
     "index": 146,
@@ -4635,7 +4635,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
     "imageUrl": "/images/00146.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
   },
   {
     "index": 147,
@@ -4666,7 +4666,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭하고 속은 쫀득하게 카라멜화된 꾸덕 황치즈 버터바그려줘",
     "imageUrl": "/images/00147.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00147.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00147.png"
   },
   {
     "index": 148,
@@ -4698,7 +4698,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
     "imageUrl": "/images/00148.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
   },
   {
     "index": 149,
@@ -4730,7 +4730,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
     "imageUrl": "/images/00149.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
   },
   {
     "index": 150,
@@ -4762,7 +4762,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
     "imageUrl": "/images/00150.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
   },
   {
     "index": 151,
@@ -4793,7 +4793,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤 버팔로 윙 10조각과 블루치즈 딥 & 샐러리 스틱그려줘",
     "imageUrl": "/images/00151.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00151.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00151.png"
   },
   {
     "index": 152,
@@ -4824,7 +4824,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 치폴레(Chipotle) 스타일 과카몰리 비프 스테이크 부리또 볼그려줘",
     "imageUrl": "/images/00152.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00152.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00152.png"
   },
   {
     "index": 153,
@@ -4857,7 +4857,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
     "imageUrl": "/images/00153.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
   },
   {
     "index": 154,
@@ -4889,7 +4889,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
     "imageUrl": "/images/00154.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
   },
   {
     "index": 155,
@@ -4920,7 +4920,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 가평 휴게소 필수 오픈런 가평 맛남샌드 (잣 & 솔티드 카라멜)그려줘",
     "imageUrl": "/images/00155.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00155.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00155.png"
   },
   {
     "index": 156,
@@ -4952,7 +4952,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
     "imageUrl": "/images/00156.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
   },
   {
     "index": 157,
@@ -4984,7 +4984,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
     "imageUrl": "/images/00157.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
   },
   {
     "index": 158,
@@ -5016,7 +5016,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
     "imageUrl": "/images/00158.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
   },
   {
     "index": 159,
@@ -5048,7 +5048,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
     "imageUrl": "/images/00159.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
   },
   {
     "index": 160,
@@ -5079,7 +5079,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 굴려 껍질은 짭짤하고 속은 포슬한 휴게소 알감자 버터구이그려줘",
     "imageUrl": "/images/00160.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00160.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00160.png"
   },
   {
     "index": 161,
@@ -5110,7 +5110,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 1미터 늘어나는 경주 첨성대 십원빵그려줘",
     "imageUrl": "/images/00161.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00161.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00161.png"
   },
   {
     "index": 162,
@@ -5143,7 +5143,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
     "imageUrl": "/images/00162.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
   },
   {
     "index": 163,
@@ -5175,7 +5175,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
     "imageUrl": "/images/00163.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
   },
   {
     "index": 164,
@@ -5207,7 +5207,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
     "imageUrl": "/images/00164.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
   },
   {
     "index": 165,
@@ -5238,7 +5238,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 등산 후 계곡 평상에서 먹는 한방 능이버섯 토종닭 백숙과 찰밥죽그려줘",
     "imageUrl": "/images/00165.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00165.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00165.png"
   },
   {
     "index": 166,
@@ -5270,7 +5270,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
     "imageUrl": "/images/00166.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
   },
   {
     "index": 167,
@@ -5302,7 +5302,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
     "imageUrl": "/images/00167.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
   },
   {
     "index": 168,
@@ -5334,7 +5334,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
     "imageUrl": "/images/00168.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
   },
   {
     "index": 169,
@@ -5366,7 +5366,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
     "imageUrl": "/images/00169.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
   },
   {
     "index": 170,
@@ -5398,7 +5398,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
     "imageUrl": "/images/00170.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
   },
   {
     "index": 171,
@@ -5429,7 +5429,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 정통 로마식 관찰레와 페코리노 치즈로 만든 노란빛 까르보나라그려줘",
     "imageUrl": "/images/00171.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00171.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00171.png"
   },
   {
     "index": 172,
@@ -5461,7 +5461,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
     "imageUrl": "/images/00172.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
   },
   {
     "index": 173,
@@ -5492,7 +5492,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 세이지 버터에 바삭하게 구워낸 홈메이드 단호박 뇨끼그려줘",
     "imageUrl": "/images/00173.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00173.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00173.png"
   },
   {
     "index": 174,
@@ -5523,7 +5523,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바다 향 가득한 지중해식 오징어 먹물 해산물 리조또그려줘",
     "imageUrl": "/images/00174.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00174.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00174.png"
   },
   {
     "index": 175,
@@ -5554,7 +5554,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 포르치니 버섯 향이 진동하는 파르미지아노 크림 리조또그려줘",
     "imageUrl": "/images/00175.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00175.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00175.png"
   },
   {
     "index": 176,
@@ -5585,7 +5585,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 모시조개와 마늘 화이트와인으로 맛을 낸 봉골레 링귀니그려줘",
     "imageUrl": "/images/00176.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00176.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00176.png"
   },
   {
     "index": 177,
@@ -5616,7 +5616,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 진한 소고기 라구 소스와 베샤멜을 겹겹이 쌓아 구운 볼로냐식 라자냐그려줘",
     "imageUrl": "/images/00177.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00177.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00177.png"
   },
   {
     "index": 178,
@@ -5647,7 +5647,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 제노바식 바질 페스토와 잣, 그라나파다노 치즈의 트로피에 파스타그려줘",
     "imageUrl": "/images/00178.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00178.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00178.png"
   },
   {
     "index": 179,
@@ -5679,7 +5679,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
     "imageUrl": "/images/00179.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
   },
   {
     "index": 180,
@@ -5710,7 +5710,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 블랙 트러플 슬라이스와 양송이 크림소스를 올린 수제 감자 뇨끼그려줘",
     "imageUrl": "/images/00180.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00180.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00180.png"
   },
   {
     "index": 181,
@@ -5741,7 +5741,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯에 직화로 구워 특제 타레 소스를 입힌 홋카이도 오비히로식 부타동그려줘",
     "imageUrl": "/images/00181.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00181.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00181.png"
   },
   {
     "index": 182,
@@ -5773,7 +5773,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
     "imageUrl": "/images/00182.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
   },
   {
     "index": 183,
@@ -5805,7 +5805,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
     "imageUrl": "/images/00183.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
   },
   {
     "index": 184,
@@ -5836,7 +5836,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 쯔유 국물에 적셔 먹는 일본 관동식 특상 소고기 스키야키 나베그려줘",
     "imageUrl": "/images/00184.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00184.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00184.png"
   },
   {
     "index": 185,
@@ -5868,7 +5868,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
     "imageUrl": "/images/00185.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
   },
   {
     "index": 186,
@@ -5899,7 +5899,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 걸쭉하고 진한 가쓰오 돈코츠 육수에 차가운 극태면을 찍어 먹는 츠케멘그려줘",
     "imageUrl": "/images/00186.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00186.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00186.png"
   },
   {
     "index": 187,
@@ -5930,7 +5930,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 향 가득 머금은 정통 일본식 수제 야키토리(닭꼬치) 7종 모둠 플래터그려줘",
     "imageUrl": "/images/00187.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00187.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00187.png"
   },
   {
     "index": 188,
@@ -5961,7 +5961,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 3단계로 즐기는 나고야식 장어덮밥 특선 히츠마부시 (장어 한 마리 반)그려줘",
     "imageUrl": "/images/00188.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00188.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00188.png"
   },
   {
     "index": 189,
@@ -5993,7 +5993,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
     "imageUrl": "/images/00189.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
   },
   {
     "index": 190,
@@ -6024,7 +6024,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
     "imageUrl": "/images/00190.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00190.png"
   },
   {
     "index": 191,
@@ -6057,7 +6057,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
     "imageUrl": "/images/00191.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
   },
   {
     "index": 192,
@@ -6088,7 +6088,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 토마토, 크림으로 끓여낸 달콤고소한 치킨 마크니 (버터 치킨)그려줘",
     "imageUrl": "/images/00192.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00192.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00192.png"
   },
   {
     "index": 193,
@@ -6119,7 +6119,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 향신료와 바스마티 쌀, 닭고기를 겹겹이 쪄낸 인도 궁중 요리 치킨 비리야니그려줘",
     "imageUrl": "/images/00193.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00193.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00193.png"
   },
   {
     "index": 194,
@@ -6151,7 +6151,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
     "imageUrl": "/images/00194.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
   },
   {
     "index": 195,
@@ -6183,7 +6183,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
     "imageUrl": "/images/00195.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
   },
   {
     "index": 196,
@@ -6216,7 +6216,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
     "imageUrl": "/images/00196.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
   },
   {
     "index": 197,
@@ -6247,7 +6247,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 오리 껍질과 밀전병, 야채 야장 소스의 베이징덕그려줘",
     "imageUrl": "/images/00197.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00197.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00197.png"
   },
   {
     "index": 198,
@@ -6279,7 +6279,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
     "imageUrl": "/images/00198.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
   },
   {
     "index": 199,
@@ -6310,7 +6310,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 마라 고추기름과 고소한 땅콩 참깨장 소스의 사천 탄탄면그려줘",
     "imageUrl": "/images/00199.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00199.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00199.png"
   },
   {
     "index": 200,
@@ -6341,7 +6341,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오향 향신료에 삶아 숟가락으로 부서질 만큼 연한 항저우식 정통 동파육그려줘",
     "imageUrl": "/images/00200.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00200.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00200.png"
   },
   {
     "index": 201,
@@ -6373,7 +6373,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
     "imageUrl": "/images/00201.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
   },
   {
     "index": 202,
@@ -6404,7 +6404,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 와인에 장시간 푹 고아 부드럽게 찢어지는 비프 부르기뇽 (소고기 스튜)그려줘",
     "imageUrl": "/images/00202.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00202.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00202.png"
   },
   {
     "index": 203,
@@ -6436,7 +6436,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
     "imageUrl": "/images/00203.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
   },
   {
     "index": 204,
@@ -6468,7 +6468,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
     "imageUrl": "/images/00204.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
   },
   {
     "index": 205,
@@ -6499,7 +6499,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 닭고기를 진한 레드 와인과 베이컨, 버섯에 졸여낸 프랑스 전통 코코뱅 (Coq au Vin)그려줘",
     "imageUrl": "/images/00205.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00205.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00205.png"
   },
   {
     "index": 206,
@@ -6531,7 +6531,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
     "imageUrl": "/images/00206.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
   },
   {
     "index": 207,
@@ -6562,7 +6562,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 메이플 시럽을 3단으로 쌓아 올린 아메리칸 버터밀크 팬케이크 타워그려줘",
     "imageUrl": "/images/00207.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00207.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00207.png"
   },
   {
     "index": 208,
@@ -6594,7 +6594,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00208.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
   },
   {
     "index": 209,
@@ -6625,7 +6625,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 마늘 버터를 채운 뉴올리언스 포보이(Po-Boy) 샌드위치그려줘",
     "imageUrl": "/images/00209.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00209.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00209.png"
   },
   {
     "index": 210,
@@ -6657,7 +6657,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
     "imageUrl": "/images/00210.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
   },
   {
     "index": 211,
@@ -6689,7 +6689,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
     "imageUrl": "/images/00211.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
   },
   {
     "index": 212,
@@ -6720,7 +6720,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 안두이 소시지와 닭고기, 통새우를 케이준 향신료 밥에 볶은 루이지애나 잠발라야그려줘",
     "imageUrl": "/images/00212.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00212.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00212.png"
   },
   {
     "index": 213,
@@ -6751,7 +6751,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얼음 동동 띄워 달콤고소하게 탄 옛날 방앗간 꿀 미숫가루 대접그려줘",
     "imageUrl": "/images/00213.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00213.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00213.png"
   },
   {
     "index": 214,
@@ -6782,7 +6782,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 귀리와 치아씨드를 우유에 밤새 불린 블루베리 오버나이트 오트밀그려줘",
     "imageUrl": "/images/00214.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00214.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00214.png"
   },
   {
     "index": 215,
@@ -6814,7 +6814,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
     "imageUrl": "/images/00215.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
   },
   {
     "index": 216,
@@ -6846,7 +6846,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
     "imageUrl": "/images/00216.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
   },
   {
     "index": 217,
@@ -6877,7 +6877,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 케일·사과·샐러리를 레몬즙과 함께 착즙한 모닝 그린 클렌즈 해독주스그려줘",
     "imageUrl": "/images/00217.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00217.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00217.png"
   },
   {
     "index": 218,
@@ -6908,7 +6908,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 단백질 30g 충전 초코 프로틴 쉐이크와 잘 익은 바나나 1개그려줘",
     "imageUrl": "/images/00218.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00218.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00218.png"
   },
   {
     "index": 219,
@@ -6939,7 +6939,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 통곡물 호밀 식빵에 100% 무첨가 땅콩버터와 바나나 슬라이스를 얹은 토스트그려줘",
     "imageUrl": "/images/00219.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00219.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00219.png"
   },
   {
     "index": 220,
@@ -6971,7 +6971,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
     "imageUrl": "/images/00220.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
   },
   {
     "index": 221,
@@ -7003,7 +7003,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
     "imageUrl": "/images/00221.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
   },
   {
     "index": 222,
@@ -7034,7 +7034,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 검은깨와 찹쌀, 우유를 부드럽게 쑨 궁중 흑임자 타락죽그려줘",
     "imageUrl": "/images/00222.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00222.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00222.png"
   },
   {
     "index": 223,
@@ -7065,7 +7065,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 삶은 달걀을 으깨어 마요네즈에 버무린 통밀 모닝빵 에그 샌드위치 2개그려줘",
     "imageUrl": "/images/00223.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00223.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00223.png"
   },
   {
     "index": 224,
@@ -7096,7 +7096,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 공복을 깨우는 아삭 세척 사과 1알과 구운 통아몬드 15알그려줘",
     "imageUrl": "/images/00224.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00224.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00224.png"
   },
   {
     "index": 225,
@@ -7127,7 +7127,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 국산 무가당 백태 두유 한 잔과 촉촉한 삶은 반숙 계란 2알그려줘",
     "imageUrl": "/images/00225.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00225.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00225.png"
   },
   {
     "index": 226,
@@ -7159,7 +7159,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
     "imageUrl": "/images/00226.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
   },
   {
     "index": 227,
@@ -7190,7 +7190,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 호텔 조식 스타일 몽글몽글 부드러운 버터 스크램블 에그와 구운 방울토마토그려줘",
     "imageUrl": "/images/00227.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00227.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00227.png"
   },
   {
     "index": 228,
@@ -7222,7 +7222,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
     "imageUrl": "/images/00228.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
   },
   {
     "index": 229,
@@ -7253,7 +7253,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 노릇하게 구워 메이플 시럽과 계핏가루를 솔솔 뿌린 클래식 프렌치 토스트그려줘",
     "imageUrl": "/images/00229.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00229.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00229.png"
   },
   {
     "index": 230,
@@ -7284,7 +7284,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 속을 편안하게 풀어주는 맑고 시원한 뚝배기 콩나물 황태 해장국그려줘",
     "imageUrl": "/images/00230.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00230.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00230.png"
   },
   {
     "index": 231,
@@ -7316,7 +7316,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
     "imageUrl": "/images/00231.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
   },
   {
     "index": 232,
@@ -7347,7 +7347,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 율무·현미·검은콩을 갈아 만든 든든한 통곡물 선식 곡물 라떼그려줘",
     "imageUrl": "/images/00232.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00232.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00232.png"
   },
   {
     "index": 233,
@@ -7378,7 +7378,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 슈퍼푸드 아사이베리 퓨레에 바나나, 그래놀라, 치아씨드를 얹은 아사이 볼그려줘",
     "imageUrl": "/images/00233.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00233.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00233.png"
   },
   {
     "index": 234,
@@ -7410,7 +7410,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
     "imageUrl": "/images/00234.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
   },
   {
     "index": 235,
@@ -7441,7 +7441,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 사과(A)·비트(B)·당근(C) 황금 비율로 짜낸 모닝 ABC 착즙 클렌즈 주스그려줘",
     "imageUrl": "/images/00235.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00235.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00235.png"
   },
   {
     "index": 236,
@@ -7472,7 +7472,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 잉글리시 머핀 사이에 짭조름한 캐나디안 베이컨과 치즈, 계란후라이 맥모닝 샌드위치그려줘",
     "imageUrl": "/images/00236.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00236.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00236.png"
   },
   {
     "index": 237,
@@ -7503,7 +7503,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 자몽 반쪽을 숟가락으로 떠먹고 곁들이는 꾸덕한 그릭 요거트 볼그려줘",
     "imageUrl": "/images/00237.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00237.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00237.png"
   },
   {
     "index": 238,
@@ -7534,7 +7534,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 가평 잣을 곱게 갈아 찹쌀과 함께 은근히 쑨 고소한 가평 잣죽그려줘",
     "imageUrl": "/images/00238.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00238.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00238.png"
   },
   {
     "index": 239,
@@ -7565,7 +7565,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 쪄낸 해남 햇감자 2알과 천일염 살짝, 차가운 흰 우유 한 잔그려줘",
     "imageUrl": "/images/00239.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00239.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00239.png"
   },
   {
     "index": 240,
@@ -7597,7 +7597,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
     "imageUrl": "/images/00240.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
   },
   {
     "index": 241,
@@ -7629,7 +7629,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
     "imageUrl": "/images/00241.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
   },
   {
     "index": 242,
@@ -7660,7 +7660,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀과 호두 분태를 듬뿍 뿌린 따뜻한 시나몬 오트밀 밀크볼그려줘",
     "imageUrl": "/images/00242.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00242.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00242.png"
   },
   {
     "index": 243,
@@ -7693,7 +7693,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00243.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
   },
   {
     "index": 244,
@@ -7726,7 +7726,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
     "imageUrl": "/images/00244.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
   },
   {
     "index": 245,
@@ -7758,7 +7758,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
     "imageUrl": "/images/00245.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
   },
   {
     "index": 246,
@@ -7791,7 +7791,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
     "imageUrl": "/images/00246.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
   },
   {
     "index": 247,
@@ -7823,7 +7823,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
     "imageUrl": "/images/00247.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
   },
   {
     "index": 248,
@@ -7856,7 +7856,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
     "imageUrl": "/images/00248.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
   },
   {
     "index": 249,
@@ -7889,7 +7889,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
     "imageUrl": "/images/00249.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
   },
   {
     "index": 250,
@@ -7922,7 +7922,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
     "imageUrl": "/images/00250.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
   },
   {
     "index": 251,
@@ -7955,7 +7955,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
     "imageUrl": "/images/00251.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
   },
   {
     "index": 252,
@@ -7988,7 +7988,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
     "imageUrl": "/images/00252.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
   },
   {
     "index": 253,
@@ -8021,7 +8021,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
     "imageUrl": "/images/00253.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
   },
   {
     "index": 254,
@@ -8053,7 +8053,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
     "imageUrl": "/images/00254.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
   },
   {
     "index": 255,
@@ -8086,7 +8086,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
     "imageUrl": "/images/00255.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
   },
   {
     "index": 256,
@@ -8118,7 +8118,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00256.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
   },
   {
     "index": 257,
@@ -8151,7 +8151,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
     "imageUrl": "/images/00257.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
   },
   {
     "index": 258,
@@ -8184,7 +8184,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
     "imageUrl": "/images/00258.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
   },
   {
     "index": 259,
@@ -8216,7 +8216,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
     "imageUrl": "/images/00259.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
   },
   {
     "index": 260,
@@ -8249,7 +8249,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
     "imageUrl": "/images/00260.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
   },
   {
     "index": 261,
@@ -8281,7 +8281,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
     "imageUrl": "/images/00261.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
   },
   {
     "index": 262,
@@ -8313,7 +8313,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00262.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
   },
   {
     "index": 263,
@@ -8345,7 +8345,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
     "imageUrl": "/images/00263.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
   },
   {
     "index": 264,
@@ -8378,7 +8378,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
     "imageUrl": "/images/00264.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
   },
   {
     "index": 265,
@@ -8411,7 +8411,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
     "imageUrl": "/images/00265.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
   },
   {
     "index": 266,
@@ -8442,7 +8442,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 국내산 마늘의 알싸한 풍미가 가득한 뽀득뽀득 의성마늘 프랑크 핫바그려줘",
     "imageUrl": "/images/00266.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00266.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00266.png"
   },
   {
     "index": 267,
@@ -8473,7 +8473,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 고추장 불향 제육과 7첩 반찬이 푸짐한 GS25 혜자로운 집밥 제육 도시락그려줘",
     "imageUrl": "/images/00267.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00267.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00267.png"
   },
   {
     "index": 268,
@@ -8504,7 +8504,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 너비아니와 불고기, 계란말이가 들어간 알찬 CU 백종원 한판 도시락그려줘",
     "imageUrl": "/images/00268.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00268.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00268.png"
   },
   {
     "index": 269,
@@ -8536,7 +8536,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
     "imageUrl": "/images/00269.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
   },
   {
     "index": 270,
@@ -8568,7 +8568,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
     "imageUrl": "/images/00270.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
   },
   {
     "index": 271,
@@ -8599,7 +8599,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참나무 훈제 향이 솔솔 나는 큼직하고 쫄깃한 편의점 스모크 훈제 닭다리그려줘",
     "imageUrl": "/images/00271.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00271.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00271.png"
   },
   {
     "index": 272,
@@ -8630,7 +8630,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스위트콘과 마요네즈, 모짜렐라 치즈를 듬뿍 올려 오븐에 구운 편의점 콘치즈 그라탕그려줘",
     "imageUrl": "/images/00272.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00272.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00272.png"
   },
   {
     "index": 273,
@@ -8662,7 +8662,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
     "imageUrl": "/images/00273.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
   },
   {
     "index": 274,
@@ -8694,7 +8694,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
     "imageUrl": "/images/00274.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
   },
   {
     "index": 275,
@@ -8726,7 +8726,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
     "imageUrl": "/images/00275.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
   },
   {
     "index": 276,
@@ -8758,7 +8758,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
     "imageUrl": "/images/00276.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
   },
   {
     "index": 277,
@@ -8789,7 +8789,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 방콕 야시장 땅콩가루와 숙주, 왕새우를 센 불에 볶아낸 팟타이 꿍그려줘",
     "imageUrl": "/images/00277.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00277.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00277.png"
   },
   {
     "index": 278,
@@ -8821,7 +8821,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
     "imageUrl": "/images/00278.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
   },
   {
     "index": 279,
@@ -8853,7 +8853,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
     "imageUrl": "/images/00279.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
   },
   {
     "index": 280,
@@ -8885,7 +8885,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
     "imageUrl": "/images/00280.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
   },
   {
     "index": 281,
@@ -8917,7 +8917,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
     "imageUrl": "/images/00281.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
   },
   {
     "index": 282,
@@ -8948,7 +8948,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 그리스 전통 화덕 피타 브레드에 구운 양고기와 차지키 요거트 소스를 감싼 기로스 랩그려줘",
     "imageUrl": "/images/00282.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00282.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00282.png"
   },
   {
     "index": 283,
@@ -8979,7 +8979,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 터키 이스탄불 갈라타 다리 명물 바게트 속에 구운 통고등어와 양파를 넣은 고등어 케밥그려줘",
     "imageUrl": "/images/00283.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00283.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00283.png"
   },
   {
     "index": 284,
@@ -9010,7 +9010,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 천상의 맛 우유 지방을 굳힌 카이막(Kaymak)과 꿀, 갓 구운 피데 빵 세트그려줘",
     "imageUrl": "/images/00284.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00284.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00284.png"
   },
   {
     "index": 285,
@@ -9041,7 +9041,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 대만 야시장 얼굴만 한 크기의 바삭하고 매콤한 오향 대왕 닭가슴살 튀김 지파이그려줘",
     "imageUrl": "/images/00285.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00285.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00285.png"
   },
   {
     "index": 286,
@@ -9072,7 +9072,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 홍콩식 얇고 바삭한 페이스트리 도우에 달걀 커스터드가 촉촉하게 채워진 에그타르트 3개그려줘",
     "imageUrl": "/images/00286.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00286.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00286.png"
   },
   {
     "index": 287,
@@ -9103,7 +9103,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 인도네시아 전통 달콤 짭조름한 케찹 마니스 소스에 새우를 볶은 나시고랭과 계란후라이그려줘",
     "imageUrl": "/images/00287.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00287.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00287.png"
   },
   {
     "index": 288,
@@ -9135,7 +9135,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
     "imageUrl": "/images/00288.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
   },
   {
     "index": 289,
@@ -9166,7 +9166,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 토스트한 식빵에 달콤한 판단 카야잼과 차가운 버터를 넣은 싱가포르 카야 토스트그려줘",
     "imageUrl": "/images/00289.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00289.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00289.png"
   },
   {
     "index": 290,
@@ -9197,7 +9197,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 칠리 토마토 계란 소스에 버무린 싱가포르 점보 칠리크랩과 튀긴 꽃빵 만토우그려줘",
     "imageUrl": "/images/00290.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00290.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00290.png"
   },
   {
     "index": 291,
@@ -9229,7 +9229,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
     "imageUrl": "/images/00291.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
   },
   {
     "index": 292,
@@ -9261,7 +9261,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
     "imageUrl": "/images/00292.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
   },
   {
     "index": 293,
@@ -9293,7 +9293,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
     "imageUrl": "/images/00293.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
   },
   {
     "index": 294,
@@ -9325,7 +9325,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
     "imageUrl": "/images/00294.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
   },
   {
     "index": 295,
@@ -9356,7 +9356,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 투구 모양 무쇠 불판에 숙주와 대파를 두르고 구운 삿포로식 생양고기 징기스칸그려줘",
     "imageUrl": "/images/00295.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00295.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00295.png"
   },
   {
     "index": 296,
@@ -9388,7 +9388,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
     "imageUrl": "/images/00296.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
   },
   {
     "index": 297,
@@ -9420,7 +9420,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
     "imageUrl": "/images/00297.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
   },
   {
     "index": 298,
@@ -9452,7 +9452,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
     "imageUrl": "/images/00298.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
   },
   {
     "index": 299,
@@ -9484,7 +9484,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
     "imageUrl": "/images/00299.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
   },
   {
     "index": 300,
@@ -9515,7 +9515,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 시나몬과 사과를 듬뿍 채워 바삭한 격자 파이로 구운 정통 아메리칸 애플파이그려줘",
     "imageUrl": "/images/00300.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00300.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00300.png"
   },
   {
     "index": 301,
@@ -9546,7 +9546,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 포르투갈 리스본 벨렘식 겉을 바짝 태워 카라멜라이징한 수제 에그타르트 2개그려줘",
     "imageUrl": "/images/00301.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00301.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00301.png"
   },
   {
     "index": 302,
@@ -9578,7 +9578,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
     "imageUrl": "/images/00302.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
   },
   {
     "index": 303,
@@ -9609,7 +9609,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 백탄에 구워 마블링 육즙이 뚝뚝 떨어지는 한우 1++ 꽃등심 구이그려줘",
     "imageUrl": "/images/00303.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00303.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00303.png"
   },
   {
     "index": 304,
@@ -9641,7 +9641,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
     "imageUrl": "/images/00304.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
   },
   {
     "index": 305,
@@ -9672,7 +9672,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 소 곱창, 대창, 막창, 염통을 부추와 함께 지글지글 굽는 소 모둠 곱창구이그려줘",
     "imageUrl": "/images/00305.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00305.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00305.png"
   },
   {
     "index": 306,
@@ -9703,7 +9703,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 돼지고기 앞다리살 숭덩숭덩 썰어 넣고 자글자글 끓인 얼큰 뚝배기 돼지 김치찌개그려줘",
     "imageUrl": "/images/00306.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00306.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00306.png"
   },
   {
     "index": 307,
@@ -9735,7 +9735,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
     "imageUrl": "/images/00307.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
   },
   {
     "index": 308,
@@ -9767,7 +9767,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
     "imageUrl": "/images/00308.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
   },
   {
     "index": 309,
@@ -9799,7 +9799,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
     "imageUrl": "/images/00309.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
   },
   {
     "index": 310,
@@ -9831,7 +9831,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
     "imageUrl": "/images/00310.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
   },
   {
     "index": 311,
@@ -9862,7 +9862,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 산지 직송 싱싱한 통오징어를 내장째 쪄낸 녹진한 오징어 통찜그려줘",
     "imageUrl": "/images/00311.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00311.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00311.png"
   },
   {
     "index": 312,
@@ -9894,7 +9894,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
     "imageUrl": "/images/00312.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
   },
   {
     "index": 313,
@@ -9925,7 +9925,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 백합, 가리비, 키조개, 홍합을 산더미처럼 쌓아 맑고 시원하게 끓인 조개전골그려줘",
     "imageUrl": "/images/00313.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00313.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00313.png"
   },
   {
     "index": 314,
@@ -9957,7 +9957,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
     "imageUrl": "/images/00314.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
   },
   {
     "index": 315,
@@ -9988,7 +9988,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 직화로 구워 불향 가득 매콤하게 뼈를 발라낸 무뼈 닭발과 뚝배기 계란찜그려줘",
     "imageUrl": "/images/00315.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00315.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00315.png"
   },
   {
     "index": 316,
@@ -10019,7 +10019,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 선홍빛 소고기 양지 슬라이스와 신선한 채소를 맑은 육수에 살랑살랑 흔들어 먹는 소고기 샤브샤브그려줘",
     "imageUrl": "/images/00316.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00316.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00316.png"
   },
   {
     "index": 317,
@@ -10050,7 +10050,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 진한 육개장 사골 국물에 칼국수 생면을 말아낸 육개장 칼국수 (육칼)그려줘",
     "imageUrl": "/images/00317.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00317.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00317.png"
   },
   {
     "index": 318,
@@ -10083,7 +10083,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
     "imageUrl": "/images/00318.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
   },
   {
     "index": 319,
@@ -10115,7 +10115,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
     "imageUrl": "/images/00319.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
   },
   {
     "index": 320,
@@ -10146,7 +10146,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새콤달콤 매콤한 초고추장 양념에 쫄깃한 골뱅이와 오이, 파채를 버무린 자연산 골뱅이 소면그려줘",
     "imageUrl": "/images/00320.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00320.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00320.png"
   },
   {
     "index": 321,
@@ -10177,7 +10177,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 고소한 버터 향을 입혀 통째로 구워낸 완도산 활전복 버터구이 5미그려줘",
     "imageUrl": "/images/00321.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00321.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00321.png"
   },
   {
     "index": 322,
@@ -10210,7 +10210,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
     "imageUrl": "/images/00322.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
   },
   {
     "index": 323,
@@ -10241,7 +10241,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판 위에서 꿈틀꿈틀 구워 매콤한 고추장 양념을 덧바른 자갈치 숯불 꼼장어 구이그려줘",
     "imageUrl": "/images/00323.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00323.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00323.png"
   },
   {
     "index": 324,
@@ -10272,7 +10272,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참기름과 통깨, 풋고추를 넣고 칼로 탕탕 쳐낸 싱싱한 목포 산낙지 탕탕이그려줘",
     "imageUrl": "/images/00324.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00324.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00324.png"
   },
   {
     "index": 325,
@@ -10304,7 +10304,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
     "imageUrl": "/images/00325.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
   },
   {
     "index": 326,
@@ -10335,7 +10335,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 당일 도축한 찰진 한우 생고기를 깍둑 썰어 마늘 고추장 양념에 찍어 먹는 대구 뭉티기그려줘",
     "imageUrl": "/images/00326.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00326.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00326.png"
   },
   {
     "index": 327,
@@ -10366,7 +10366,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 살얼음 육수를 동동 띄운 쫄깃한 칡냉면과 숯불 불고기 한 접시그려줘",
     "imageUrl": "/images/00327.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00327.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00327.png"
   },
   {
     "index": 328,
@@ -10398,7 +10398,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
     "imageUrl": "/images/00328.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
   },
   {
     "index": 329,
@@ -10430,7 +10430,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
     "imageUrl": "/images/00329.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
   },
   {
     "index": 330,
@@ -10461,7 +10461,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 바지락이 그릇 가득 산더미처럼 들어간 시원하고 맑은 대부도 바지락 칼국수그려줘",
     "imageUrl": "/images/00330.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00330.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00330.png"
   },
   {
     "index": 331,
@@ -10492,7 +10492,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 껍질 벗긴 고소한 거피 들깨가루를 듬뿍 넣어 걸쭉한 뚝배기 버섯 들깨 수제비그려줘",
     "imageUrl": "/images/00331.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00331.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00331.png"
   },
   {
     "index": 332,
@@ -10523,7 +10523,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 멸치 육수에 고추장과 된장을 풀어 칼칼하고 걸쭉하게 끓인 강릉식 장칼국수그려줘",
     "imageUrl": "/images/00332.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00332.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00332.png"
   },
   {
     "index": 333,
@@ -10555,7 +10555,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
     "imageUrl": "/images/00333.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
   },
   {
     "index": 334,
@@ -10587,7 +10587,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
     "imageUrl": "/images/00334.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
   },
   {
     "index": 335,
@@ -10620,7 +10620,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
     "imageUrl": "/images/00335.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
   },
   {
     "index": 336,
@@ -10652,7 +10652,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
     "imageUrl": "/images/00336.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
   },
   {
     "index": 337,
@@ -10684,7 +10684,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
     "imageUrl": "/images/00337.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
   },
   {
     "index": 338,
@@ -10716,7 +10716,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
     "imageUrl": "/images/00338.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
   },
   {
     "index": 339,
@@ -10747,7 +10747,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 국산 서리태 검은콩을 껍질째 맷돌에 곱게 갈아 살얼음을 띄운 진국 서리태 콩국수그려줘",
     "imageUrl": "/images/00339.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00339.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00339.png"
   },
   {
     "index": 340,
@@ -10780,7 +10780,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
     "imageUrl": "/images/00340.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
   },
   {
     "index": 341,
@@ -10811,7 +10811,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 닭 반 마리가 통째로 푹 고아져 올라간 파향 가득한 진한 일산 닭칼국수그려줘",
     "imageUrl": "/images/00341.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00341.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00341.png"
   },
   {
     "index": 342,
@@ -10842,7 +10842,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 전주 전통 놋그릇에 담아낸 선홍빛 한우 육회 비빔밥과 맑은 콩나물국그려줘",
     "imageUrl": "/images/00342.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00342.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00342.png"
   },
   {
     "index": 343,
@@ -10873,7 +10873,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 달궈진 돌솥 바닥에 눌어붙은 날치알과 볶음김치의 돌솥 알밥그려줘",
     "imageUrl": "/images/00343.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00343.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00343.png"
   },
   {
     "index": 344,
@@ -10904,7 +10904,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 뚝배기 국물에 당면과 얇은 소불고기가 푸짐한 뚝배기 불고기 (뚝불)그려줘",
     "imageUrl": "/images/00344.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00344.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00344.png"
   },
   {
     "index": 345,
@@ -10935,7 +10935,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 안목해변 스타일 매콤새콤 미나리와 쫄깃한 꼬막을 밥에 쓱쓱 비빈 꼬막 비빔밥그려줘",
     "imageUrl": "/images/00345.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00345.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00345.png"
   },
   {
     "index": 346,
@@ -10966,7 +10966,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 솥에 활전복과 완도 톳을 넣고 갓 지어낸 전복 톳 영양 솥밥과 달래 양념장그려줘",
     "imageUrl": "/images/00346.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00346.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00346.png"
   },
   {
     "index": 347,
@@ -10997,7 +10997,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 강원도 정선 곤드레 나물을 듬뿍 넣어 지은 구수한 곤드레 나물밥과 토속 강된장그려줘",
     "imageUrl": "/images/00347.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00347.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00347.png"
   },
   {
     "index": 348,
@@ -11029,7 +11029,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
     "imageUrl": "/images/00348.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
   },
   {
     "index": 349,
@@ -11061,7 +11061,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
     "imageUrl": "/images/00349.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
   },
   {
     "index": 350,
@@ -11092,7 +11092,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 전주 남부시장 스타일 개운하게 토렴한 콩나물국밥과 참기름 수란 2알그려줘",
     "imageUrl": "/images/00350.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00350.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00350.png"
   },
   {
     "index": 351,
@@ -11125,7 +11125,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
     "imageUrl": "/images/00351.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
   },
   {
     "index": 352,
@@ -11156,7 +11156,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 제주 은갈치와 달큰한 무를 매콤달콤한 비법 양념에 자작하게 졸여낸 갈치조림그려줘",
     "imageUrl": "/images/00352.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00352.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00352.png"
   },
   {
     "index": 353,
@@ -11187,7 +11187,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 천일염을 뿌려 기름기 쏙 빠지게 노릇노릇 구워낸 겉바속촉 고등어 자반구이 백반그려줘",
     "imageUrl": "/images/00353.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00353.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00353.png"
   },
   {
     "index": 354,
@@ -11218,7 +11218,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 철판 한가운데 모짜렐라 치즈 길을 낸 춘천 원조 매콤 닭갈비와 볶음밥 코스그려줘",
     "imageUrl": "/images/00354.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00354.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00354.png"
   },
   {
     "index": 355,
@@ -11249,7 +11249,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 불향 나게 매콤하게 볶아낸 통오징어와 삼겹살의 환상 궁합 철판 오삼불고기그려줘",
     "imageUrl": "/images/00355.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00355.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00355.png"
   },
   {
     "index": 356,
@@ -11281,7 +11281,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
     "imageUrl": "/images/00356.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
   },
   {
     "index": 357,
@@ -11312,7 +11312,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 시원하고 새콤달콤한 살얼음 동치미 육수에 도토리묵과 밥을 말아먹는 도토리묵밥그려줘",
     "imageUrl": "/images/00357.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00357.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00357.png"
   },
   {
     "index": 358,
@@ -11345,7 +11345,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
     "imageUrl": "/images/00358.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
   },
   {
     "index": 359,
@@ -11376,7 +11376,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 새콤하게 푹 삭힌 흑산도 홍어와 야들야들 삶은 돼지 수육, 3년 묵은지의 남도 홍어삼합그려줘",
     "imageUrl": "/images/00359.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00359.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00359.png"
   },
   {
     "index": 360,
@@ -11408,7 +11408,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
     "imageUrl": "/images/00360.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
   },
   {
     "index": 361,
@@ -11440,7 +11440,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
     "imageUrl": "/images/00361.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
   },
   {
     "index": 362,
@@ -11471,7 +11471,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 천일염의 짭조름함과 겉은 바삭 속은 버터 동굴이 뚫린 갓 구운 소금빵그려줘",
     "imageUrl": "/images/00362.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00362.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00362.png"
   },
   {
     "index": 363,
@@ -11502,7 +11502,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 브르타뉴 전통 버터와 설탕을 겹겹이 캐러멜라이징해 구운 바삭 퀸아망그려줘",
     "imageUrl": "/images/00363.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00363.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00363.png"
   },
   {
     "index": 364,
@@ -11533,7 +11533,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 가르면 따뜻한 다크 초콜릿 용암이 주르륵 흘러내리는 퐁당 오 쇼콜라그려줘",
     "imageUrl": "/images/00364.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00364.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00364.png"
   },
   {
     "index": 365,
@@ -11564,7 +11564,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 보르도 전통 밀랍을 발라 구워 겉은 빠작하고 속은 커스터드처럼 촉촉한 까눌레 2개그려줘",
     "imageUrl": "/images/00365.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00365.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00365.png"
   },
   {
     "index": 366,
@@ -11596,7 +11596,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
     "imageUrl": "/images/00366.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
   },
   {
     "index": 367,
@@ -11628,7 +11628,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
     "imageUrl": "/images/00367.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
   },
   {
     "index": 368,
@@ -11660,7 +11660,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
     "imageUrl": "/images/00368.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
   },
   {
     "index": 369,
@@ -11691,7 +11691,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 타피오카 펄을 흑당 시럽에 졸여 신선한 생우유에 호랑이 무늬를 낸 대만 흑당 버블 밀크티그려줘",
     "imageUrl": "/images/00369.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00369.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00369.png"
   },
   {
     "index": 370,
@@ -11723,7 +11723,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
     "imageUrl": "/images/00370.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
   },
   {
     "index": 371,
@@ -11754,7 +11754,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 통마늘과 닭근위를 참기름 소금에 볶아 알싸하고 쫄깃한 포장마차 통마늘 닭똥집 볶음그려줘",
     "imageUrl": "/images/00371.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00371.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00371.png"
   },
   {
     "index": 372,
@@ -11785,7 +11785,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 홍합을 한 냄비 가득 넣고 청양고추와 대파를 송송 썰어 뽀얗게 끓인 얼큰 뚝배기 홍합탕그려줘",
     "imageUrl": "/images/00372.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00372.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00372.png"
   },
   {
     "index": 373,
@@ -11816,7 +11816,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판에 노릇하게 구워 벌집 칼집 사이로 기름이 쏙 빠진 쫀득 돼지껍데기와 콩가루그려줘",
     "imageUrl": "/images/00373.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00373.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00373.png"
   },
   {
     "index": 374,
@@ -11847,7 +11847,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 화끈한 불맛 고추장 양념에 뼈째 오독오독 씹히는 매콤 오돌뼈 볶음과 김가루 날치알 주먹밥그려줘",
     "imageUrl": "/images/00374.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00374.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00374.png"
   },
   {
     "index": 375,
@@ -11878,7 +11878,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바지락 조개에 버터와 마늘, 화이트와인(또는 청주)을 붓고 자작하게 끓인 바지락 술찜그려줘",
     "imageUrl": "/images/00375.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00375.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00375.png"
   },
   {
     "index": 376,
@@ -11910,7 +11910,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
     "imageUrl": "/images/00376.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
   },
   {
     "index": 377,
@@ -11941,7 +11941,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 브라질 전통 긴 쇠꼬챙이에 꿰어 숯불에 구운 슈하스코 삐까냐 (우둔살) 스테이크그려줘",
     "imageUrl": "/images/00377.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00377.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00377.png"
   },
   {
     "index": 378,
@@ -11972,7 +11972,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 아르헨티나 팜파스 스타일 소갈비를 장작불에 4시간 은근히 구운 아사도와 치미추리 소스그려줘",
     "imageUrl": "/images/00378.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00378.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00378.png"
   },
   {
     "index": 379,
@@ -12004,7 +12004,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
     "imageUrl": "/images/00379.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
   },
   {
     "index": 380,
@@ -12035,7 +12035,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 일본 후쿠오카 하카타 명물 부추와 마늘을 산더미로 얹어 끓인 한우 대창 모츠나베그려줘",
     "imageUrl": "/images/00380.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00380.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00380.png"
   },
   {
     "index": 381,
@@ -12067,7 +12067,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
     "imageUrl": "/images/00381.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
   },
   {
     "index": 382,
@@ -12098,7 +12098,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 텍사스 오스틴 스타일 16시간 참나무 연기에 천천히 훈연한 부드러운 소 차돌양지 브리스킷그려줘",
     "imageUrl": "/images/00382.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00382.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00382.png"
   },
   {
     "index": 383,
@@ -12129,7 +12129,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 피렌체식 두께 5cm 토스카나 키아니나 암소 T자 뼈 티본 스테이크 1kg그려줘",
     "imageUrl": "/images/00383.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00383.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00383.png"
   },
   {
     "index": 384,
@@ -12160,7 +12160,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 태국 치앙마이식 코코넛 밀크 옐로우 커리 육수에 튀긴 에그 누들을 얹은 카오소이그려줘",
     "imageUrl": "/images/00384.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00384.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00384.png"
   },
   {
     "index": 385,
@@ -12192,7 +12192,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
     "imageUrl": "/images/00385.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
   },
   {
     "index": 386,
@@ -12223,7 +12223,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 흰살 생선과 새우를 라임즙의 산(Acid)으로 익혀 적양파와 고수를 버무린 페루비안 세비체그려줘",
     "imageUrl": "/images/00386.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00386.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00386.png"
   },
   {
     "index": 387,
@@ -12255,7 +12255,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
     "imageUrl": "/images/00387.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
   },
   {
     "index": 388,
@@ -12286,7 +12286,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 스웨덴 스톡홀름 전통 부드러운 쇠고기 미트볼에 갈색 크림 그레이비와 붉은 링곤베리 잼그려줘",
     "imageUrl": "/images/00388.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00388.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00388.png"
   },
   {
     "index": 389,
@@ -12318,7 +12318,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
     "imageUrl": "/images/00389.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
   },
   {
     "index": 390,
@@ -12349,7 +12349,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 일본 교토식 겉만 60초간 바삭하게 튀겨내 미니 개인 화로에 취향껏 구워 먹는 규카츠 정식그려줘",
     "imageUrl": "/images/00390.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00390.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00390.png"
   },
   {
     "index": 391,
@@ -12381,7 +12381,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
     "imageUrl": "/images/00391.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
   },
   {
     "index": 392,
@@ -12412,7 +12412,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 구운 가지와 감자, 소고기 라구에 크리미한 베샤멜 소스를 얹어 오븐에 구운 그리스 정통 무사카그려줘",
     "imageUrl": "/images/00392.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00392.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00392.png"
   },
   {
     "index": 393,
@@ -12444,7 +12444,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
     "imageUrl": "/images/00393.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
   },
   {
     "index": 394,
@@ -12475,7 +12475,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 다진 양고기에 큐민과 가람마살라를 섞어 탄두르 쇠꼬챙이에 구운 인도식 시크 케밥 2개그려줘",
     "imageUrl": "/images/00394.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00394.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00394.png"
   },
   {
     "index": 395,
@@ -12507,7 +12507,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
     "imageUrl": "/images/00395.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
   },
   {
     "index": 396,
@@ -12538,7 +12538,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바질과 다진 돼지고기를 매콤한 피시소스에 센 불로 볶은 태국식 팟카파오무쌉과 계란후라이그려줘",
     "imageUrl": "/images/00396.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00396.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00396.png"
   },
   {
     "index": 397,
@@ -12569,7 +12569,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 사프란을 우려내어 황금빛으로 반짝이는 정통 이탈리아 밀라노식 황금 사프란 리조또그려줘",
     "imageUrl": "/images/00397.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00397.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00397.png"
   },
   {
     "index": 398,
@@ -12601,7 +12601,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
     "imageUrl": "/images/00398.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
   },
   {
     "index": 399,
@@ -12633,7 +12633,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
     "imageUrl": "/images/00399.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
   },
   {
     "index": 400,
@@ -12665,7 +12665,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
     "imageUrl": "/images/00400.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
   },
   {
     "index": 401,
@@ -12697,7 +12697,7 @@ export const ALL_FOODS = [
     ],
     "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
     "imageUrl": "/images/00401.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
   }
 ];
 
@@ -12731,7 +12731,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 수요일 특식 토마토 미트소스 스파게티그려줘",
     "imageUrl": "/images/00001.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00001.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00001.png"
   },
   "food_00002": {
     "index": 2,
@@ -12764,7 +12764,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
     "imageUrl": "/images/00002.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
   },
   "food_00003": {
     "index": 3,
@@ -12796,7 +12796,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
     "imageUrl": "/images/00003.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
   },
   "food_00004": {
     "index": 4,
@@ -12827,7 +12827,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 경양식 수제 왕돈까스그려줘",
     "imageUrl": "/images/00004.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00004.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00004.png"
   },
   "food_00005": {
     "index": 5,
@@ -12859,7 +12859,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
     "imageUrl": "/images/00005.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
   },
   "food_00006": {
     "index": 6,
@@ -12890,7 +12890,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 물엿 코팅 바삭 고구마맛탕그려줘",
     "imageUrl": "/images/00006.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00006.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00006.png"
   },
   "food_00007": {
     "index": 7,
@@ -12921,7 +12921,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 코다리강정그려줘",
     "imageUrl": "/images/00007.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00007.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00007.png"
   },
   "food_00008": {
     "index": 8,
@@ -12953,7 +12953,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
     "imageUrl": "/images/00008.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
   },
   "food_00009": {
     "index": 9,
@@ -12985,7 +12985,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
     "imageUrl": "/images/00009.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
   },
   "food_00010": {
     "index": 10,
@@ -13017,7 +13017,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
     "imageUrl": "/images/00010.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
   },
   "food_00011": {
     "index": 11,
@@ -13049,7 +13049,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
     "imageUrl": "/images/00011.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
   },
   "food_00012": {
     "index": 12,
@@ -13081,7 +13081,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
     "imageUrl": "/images/00012.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
   },
   "food_00013": {
     "index": 13,
@@ -13112,7 +13112,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 그릴 마크 수제 떡갈비그려줘",
     "imageUrl": "/images/00013.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00013.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00013.png"
   },
   "food_00014": {
     "index": 14,
@@ -13144,7 +13144,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
     "imageUrl": "/images/00014.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
   },
   "food_00015": {
     "index": 15,
@@ -13176,7 +13176,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
     "imageUrl": "/images/00015.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
   },
   "food_00016": {
     "index": 16,
@@ -13208,7 +13208,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
     "imageUrl": "/images/00016.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
   },
   "food_00017": {
     "index": 17,
@@ -13240,7 +13240,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
     "imageUrl": "/images/00017.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
   },
   "food_00018": {
     "index": 18,
@@ -13271,7 +13271,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 미니 짜장밥과 반달 단무지 & 군만두그려줘",
     "imageUrl": "/images/00018.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00018.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00018.png"
   },
   "food_00019": {
     "index": 19,
@@ -13303,7 +13303,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
     "imageUrl": "/images/00019.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
   },
   "food_00020": {
     "index": 20,
@@ -13334,7 +13334,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 생크림 과일 사라다 모닝빵 샌드위치그려줘",
     "imageUrl": "/images/00020.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00020.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00020.png"
   },
   "food_00021": {
     "index": 21,
@@ -13366,7 +13366,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
     "imageUrl": "/images/00021.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
   },
   "food_00022": {
     "index": 22,
@@ -13397,7 +13397,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 흑트러플 완도 전복 게우소스 리조또그려줘",
     "imageUrl": "/images/00022.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00022.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00022.png"
   },
   "food_00023": {
     "index": 23,
@@ -13429,7 +13429,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
     "imageUrl": "/images/00023.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
   },
   "food_00024": {
     "index": 24,
@@ -13461,7 +13461,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
     "imageUrl": "/images/00024.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
   },
   "food_00025": {
     "index": 25,
@@ -13492,7 +13492,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 안심 비프 웰링턴과 페리고 트러플 주(Jus)그려줘",
     "imageUrl": "/images/00025.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00025.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00025.png"
   },
   "food_00026": {
     "index": 26,
@@ -13524,7 +13524,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
     "imageUrl": "/images/00026.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
   },
   "food_00027": {
     "index": 27,
@@ -13555,7 +13555,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 프랑스산 브레스 영계 로스트와 모렐 버섯 크림그려줘",
     "imageUrl": "/images/00027.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00027.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00027.png"
   },
   "food_00028": {
     "index": 28,
@@ -13587,7 +13587,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
     "imageUrl": "/images/00028.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
   },
   "food_00029": {
     "index": 29,
@@ -13618,7 +13618,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 블루 랍스터 포치드와 사프란 비스크 에멀전그려줘",
     "imageUrl": "/images/00029.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00029.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00029.png"
   },
   "food_00030": {
     "index": 30,
@@ -13650,7 +13650,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
     "imageUrl": "/images/00030.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
   },
   "food_00031": {
     "index": 31,
@@ -13682,7 +13682,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
     "imageUrl": "/images/00031.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
   },
   "food_00032": {
     "index": 32,
@@ -13713,7 +13713,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 한우 1++ 채끝등심 볏짚 훈연 구이와 발효 흑마늘그려줘",
     "imageUrl": "/images/00032.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00032.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00032.png"
   },
   "food_00033": {
     "index": 33,
@@ -13745,7 +13745,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
     "imageUrl": "/images/00033.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
   },
   "food_00034": {
     "index": 34,
@@ -13777,7 +13777,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
     "imageUrl": "/images/00034.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
   },
   "food_00035": {
     "index": 35,
@@ -13809,7 +13809,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
     "imageUrl": "/images/00035.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
   },
   "food_00036": {
     "index": 36,
@@ -13841,7 +13841,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
     "imageUrl": "/images/00036.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
   },
   "food_00037": {
     "index": 37,
@@ -13872,7 +13872,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 쑥 아이스크림과 갓 튀긴 개성 주악 디저트 소반그려줘",
     "imageUrl": "/images/00037.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00037.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00037.png"
   },
   "food_00038": {
     "index": 38,
@@ -13904,7 +13904,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
     "imageUrl": "/images/00038.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
   },
   "food_00039": {
     "index": 39,
@@ -13935,7 +13935,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 크리스피 오리 콩피(Duck Confit)와 오렌지 가스트릭그려줘",
     "imageUrl": "/images/00039.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00039.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00039.png"
   },
   "food_00040": {
     "index": 40,
@@ -13968,7 +13968,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
     "imageUrl": "/images/00040.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
   },
   "food_00041": {
     "index": 41,
@@ -14000,7 +14000,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
     "imageUrl": "/images/00041.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
   },
   "food_00042": {
     "index": 42,
@@ -14031,7 +14031,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 숯불 한우 트러플 떡갈비와 구운 대파 정찬그려줘",
     "imageUrl": "/images/00042.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00042.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00042.png"
   },
   "food_00043": {
     "index": 43,
@@ -14063,7 +14063,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
     "imageUrl": "/images/00043.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
   },
   "food_00044": {
     "index": 44,
@@ -14094,7 +14094,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 피스타치오 파리브레스트와 에스프레소 슈그려줘",
     "imageUrl": "/images/00044.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00044.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00044.png"
   },
   "food_00045": {
     "index": 45,
@@ -14126,7 +14126,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
     "imageUrl": "/images/00045.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
   },
   "food_00046": {
     "index": 46,
@@ -14159,7 +14159,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
     "imageUrl": "/images/00046.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
   },
   "food_00047": {
     "index": 47,
@@ -14190,7 +14190,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 명동 스타일 자가제면 칼국수와 왕만두그려줘",
     "imageUrl": "/images/00047.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00047.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00047.png"
   },
   "food_00048": {
     "index": 48,
@@ -14222,7 +14222,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
     "imageUrl": "/images/00048.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
   },
   "food_00049": {
     "index": 49,
@@ -14255,7 +14255,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
     "imageUrl": "/images/00049.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
   },
   "food_00050": {
     "index": 50,
@@ -14286,7 +14286,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 알이 꽉 찬 서해안 암꽃게 간장게장 정식그려줘",
     "imageUrl": "/images/00050.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00050.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00050.png"
   },
   "food_00051": {
     "index": 51,
@@ -14318,7 +14318,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
     "imageUrl": "/images/00051.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
   },
   "food_00052": {
     "index": 52,
@@ -14349,7 +14349,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 고소한 거피 들기름 막국수와 한방 보쌈 수육그려줘",
     "imageUrl": "/images/00052.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00052.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00052.png"
   },
   "food_00053": {
     "index": 53,
@@ -14381,7 +14381,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
     "imageUrl": "/images/00053.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
   },
   "food_00054": {
     "index": 54,
@@ -14412,7 +14412,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 제주 흑돼지 족발과 새콤달콤 쟁반막국수그려줘",
     "imageUrl": "/images/00054.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00054.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00054.png"
   },
   "food_00055": {
     "index": 55,
@@ -14444,7 +14444,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
     "imageUrl": "/images/00055.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
   },
   "food_00056": {
     "index": 56,
@@ -14476,7 +14476,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
     "imageUrl": "/images/00056.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
   },
   "food_00057": {
     "index": 57,
@@ -14509,7 +14509,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
     "imageUrl": "/images/00057.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
   },
   "food_00058": {
     "index": 58,
@@ -14541,7 +14541,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
     "imageUrl": "/images/00058.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
   },
   "food_00059": {
     "index": 59,
@@ -14573,7 +14573,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
     "imageUrl": "/images/00059.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
   },
   "food_00060": {
     "index": 60,
@@ -14604,7 +14604,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 껍질째 아삭 베어 무는 청송 꿀사과 1개그려줘",
     "imageUrl": "/images/00060.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00060.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00060.png"
   },
   "food_00061": {
     "index": 61,
@@ -14637,7 +14637,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
     "imageUrl": "/images/00061.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
   },
   "food_00062": {
     "index": 62,
@@ -14669,7 +14669,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
     "imageUrl": "/images/00062.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
   },
   "food_00063": {
     "index": 63,
@@ -14701,7 +14701,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
     "imageUrl": "/images/00063.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
   },
   "food_00064": {
     "index": 64,
@@ -14733,7 +14733,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
     "imageUrl": "/images/00064.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
   },
   "food_00065": {
     "index": 65,
@@ -14764,7 +14764,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 유럽 프리미엄 납작복숭아 & 천도복숭아 플레이트그려줘",
     "imageUrl": "/images/00065.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00065.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00065.png"
   },
   "food_00066": {
     "index": 66,
@@ -14796,7 +14796,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
     "imageUrl": "/images/00066.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
   },
   "food_00067": {
     "index": 67,
@@ -14829,7 +14829,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
     "imageUrl": "/images/00067.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
   },
   "food_00068": {
     "index": 68,
@@ -14861,7 +14861,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
     "imageUrl": "/images/00068.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
   },
   "food_00069": {
     "index": 69,
@@ -14892,7 +14892,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두바이 초콜릿 피스타치오 카다이프 붕어빵그려줘",
     "imageUrl": "/images/00069.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00069.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00069.png"
   },
   "food_00070": {
     "index": 70,
@@ -14923,7 +14923,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 대왕 통오징어 튀김이 통째로 올라간 오징어먹물 짜장면그려줘",
     "imageUrl": "/images/00070.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00070.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00070.png"
   },
   "food_00071": {
     "index": 71,
@@ -14956,7 +14956,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
     "imageUrl": "/images/00071.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
   },
   "food_00072": {
     "index": 72,
@@ -14987,7 +14987,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 망치로 깨 먹는 대왕 공룡알 화석 초코 빙수그려줘",
     "imageUrl": "/images/00072.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00072.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00072.png"
   },
   "food_00073": {
     "index": 73,
@@ -15019,7 +15019,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
     "imageUrl": "/images/00073.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
   },
   "food_00074": {
     "index": 74,
@@ -15051,7 +15051,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
     "imageUrl": "/images/00074.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
   },
   "food_00075": {
     "index": 75,
@@ -15082,7 +15082,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 생와사비 소프트 아이스크림과 감자칩그려줘",
     "imageUrl": "/images/00075.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00075.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00075.png"
   },
   "food_00076": {
     "index": 76,
@@ -15114,7 +15114,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00076.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
   },
   "food_00077": {
     "index": 77,
@@ -15145,7 +15145,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 통메론 한 통을 파서 만든 메론 빙수와 연유 폭포그려줘",
     "imageUrl": "/images/00077.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00077.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00077.png"
   },
   "food_00078": {
     "index": 78,
@@ -15178,7 +15178,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
     "imageUrl": "/images/00078.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
   },
   "food_00079": {
     "index": 79,
@@ -15211,7 +15211,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
     "imageUrl": "/images/00079.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
   },
   "food_00080": {
     "index": 80,
@@ -15243,7 +15243,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
     "imageUrl": "/images/00080.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
   },
   "food_00081": {
     "index": 81,
@@ -15275,7 +15275,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
     "imageUrl": "/images/00081.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
   },
   "food_00082": {
     "index": 82,
@@ -15306,7 +15306,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 불향 가득 기사식당 직화 제육볶음과 상추쌈밥그려줘",
     "imageUrl": "/images/00082.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00082.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00082.png"
   },
   "food_00083": {
     "index": 83,
@@ -15337,7 +15337,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 솥뚜껑 숙성 삼겹살과 청도 미나리 & 볶음밥그려줘",
     "imageUrl": "/images/00083.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00083.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00083.png"
   },
   "food_00084": {
     "index": 84,
@@ -15370,7 +15370,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
     "imageUrl": "/images/00084.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
   },
   "food_00085": {
     "index": 85,
@@ -15402,7 +15402,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
     "imageUrl": "/images/00085.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
   },
   "food_00086": {
     "index": 86,
@@ -15433,7 +15433,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉바속촉 황금올리브 후라이드 + 매콤달콤 양념 반반치킨그려줘",
     "imageUrl": "/images/00086.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00086.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00086.png"
   },
   "food_00087": {
     "index": 87,
@@ -15464,7 +15464,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 곱이 꽉 찬 한우 소곱창·대창 모둠 구이와 부추무침그려줘",
     "imageUrl": "/images/00087.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00087.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00087.png"
   },
   "food_00088": {
     "index": 88,
@@ -15496,7 +15496,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
     "imageUrl": "/images/00088.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
   },
   "food_00089": {
     "index": 89,
@@ -15527,7 +15527,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 연돈 스타일 폭포수 통모짜렐라 치즈 돈까스그려줘",
     "imageUrl": "/images/00089.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00089.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00089.png"
   },
   "food_00090": {
     "index": 90,
@@ -15559,7 +15559,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00090.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
   },
   "food_00091": {
     "index": 91,
@@ -15590,7 +15590,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구워 버터 동굴이 뚫린 바삭 소금빵(시오빵) 2개와 아이스 라떼그려줘",
     "imageUrl": "/images/00091.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00091.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00091.png"
   },
   "food_00092": {
     "index": 92,
@@ -15621,7 +15621,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 겨울철 팥붕·슈붕(붕어빵) 반반 6마리그려줘",
     "imageUrl": "/images/00092.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00092.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00092.png"
   },
   "food_00093": {
     "index": 93,
@@ -15653,7 +15653,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
     "imageUrl": "/images/00093.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
   },
   "food_00094": {
     "index": 94,
@@ -15685,7 +15685,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
     "imageUrl": "/images/00094.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
   },
   "food_00095": {
     "index": 95,
@@ -15716,7 +15716,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 인절미 떡과 국내산 통단팥이 올라간 우유 눈꽃 팥빙수그려줘",
     "imageUrl": "/images/00095.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00095.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00095.png"
   },
   "food_00096": {
     "index": 96,
@@ -15749,7 +15749,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
     "imageUrl": "/images/00096.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
   },
   "food_00097": {
     "index": 97,
@@ -15781,7 +15781,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
     "imageUrl": "/images/00097.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
   },
   "food_00098": {
     "index": 98,
@@ -15813,7 +15813,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
     "imageUrl": "/images/00098.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
   },
   "food_00099": {
     "index": 99,
@@ -15845,7 +15845,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
     "imageUrl": "/images/00099.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
   },
   "food_00100": {
     "index": 100,
@@ -15876,7 +15876,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 도깨비에서 공유가 비 내리는 날 김고은에게 사주던 캐나다 소고기 스테이크그려줘",
     "imageUrl": "/images/00100.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00100.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00100.png"
   },
   "food_00101": {
     "index": 101,
@@ -15908,7 +15908,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
     "imageUrl": "/images/00101.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
   },
   "food_00102": {
     "index": 102,
@@ -15939,7 +15939,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 범죄도시 장첸이 비닐장갑 끼고 껍질째 뜯던 마라롱샤 (매운 가재)그려줘",
     "imageUrl": "/images/00102.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00102.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00102.png"
   },
   "food_00103": {
     "index": 103,
@@ -15970,7 +15970,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 응답하라 1988 덕선이네 삼선당 옛날 양념통닭과 사라다그려줘",
     "imageUrl": "/images/00103.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00103.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00103.png"
   },
   "food_00104": {
     "index": 104,
@@ -16001,7 +16001,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 센과 치히로의 행방불명에서 아빠가 삼키던 거대 육즙 고기 주머니그려줘",
     "imageUrl": "/images/00104.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00104.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00104.png"
   },
   "food_00105": {
     "index": 105,
@@ -16034,7 +16034,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
     "imageUrl": "/images/00105.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
   },
   "food_00106": {
     "index": 106,
@@ -16066,7 +16066,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
     "imageUrl": "/images/00106.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
   },
   "food_00107": {
     "index": 107,
@@ -16098,7 +16098,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
     "imageUrl": "/images/00107.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
   },
   "food_00108": {
     "index": 108,
@@ -16129,7 +16129,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 별에서 온 그대 천송이가 첫눈 오는 날 찾던 치맥 (치킨과 캔맥주)그려줘",
     "imageUrl": "/images/00108.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00108.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00108.png"
   },
   "food_00109": {
     "index": 109,
@@ -16160,7 +16160,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 대부(Godfather) 클레멘자가 마피아 패밀리에게 끓여주던 미트볼 토마토 파스타그려줘",
     "imageUrl": "/images/00109.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00109.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00109.png"
   },
   "food_00110": {
     "index": 110,
@@ -16192,7 +16192,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
     "imageUrl": "/images/00110.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
   },
   "food_00111": {
     "index": 111,
@@ -16225,7 +16225,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
     "imageUrl": "/images/00111.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
   },
   "food_00112": {
     "index": 112,
@@ -16257,7 +16257,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
     "imageUrl": "/images/00112.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
   },
   "food_00113": {
     "index": 113,
@@ -16289,7 +16289,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
     "imageUrl": "/images/00113.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
   },
   "food_00114": {
     "index": 114,
@@ -16320,7 +16320,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 아가씨 김태리가 껍질을 까서 김민희 입에 넣어주던 달콤한 백옥 백도 복숭아그려줘",
     "imageUrl": "/images/00114.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00114.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00114.png"
   },
   "food_00115": {
     "index": 115,
@@ -16352,7 +16352,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
     "imageUrl": "/images/00115.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
   },
   "food_00116": {
     "index": 116,
@@ -16383,7 +16383,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤알싸한 마늘소스 듬뿍 올린 마늘보쌈과 무김치그려줘",
     "imageUrl": "/images/00116.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00116.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00116.png"
   },
   "food_00117": {
     "index": 117,
@@ -16414,7 +16414,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 부산 부평동식 해파리 냉채족발그려줘",
     "imageUrl": "/images/00117.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00117.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00117.png"
   },
   "food_00118": {
     "index": 118,
@@ -16445,7 +16445,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭 속은 쫀득한 독일 슈바인학센식 튀김족발그려줘",
     "imageUrl": "/images/00118.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00118.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00118.png"
   },
   "food_00119": {
     "index": 119,
@@ -16477,7 +16477,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
     "imageUrl": "/images/00119.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
   },
   "food_00120": {
     "index": 120,
@@ -16509,7 +16509,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
     "imageUrl": "/images/00120.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
   },
   "food_00121": {
     "index": 121,
@@ -16540,7 +16540,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤 콩나물 산더미 마산 아구찜과 볶음밥그려줘",
     "imageUrl": "/images/00121.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00121.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00121.png"
   },
   "food_00122": {
     "index": 122,
@@ -16571,7 +16571,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스팸·소시지·라면사리 듬뿍 들어간 의정부 원조 부대찌개그려줘",
     "imageUrl": "/images/00122.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00122.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00122.png"
   },
   "food_00123": {
     "index": 123,
@@ -16604,7 +16604,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
     "imageUrl": "/images/00123.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
   },
   "food_00124": {
     "index": 124,
@@ -16635,7 +16635,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에 구워 기름기 쏙 뺀 매콤 바삭 고추바사삭 치킨과 마블링 소스그려줘",
     "imageUrl": "/images/00124.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00124.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00124.png"
   },
   "food_00125": {
     "index": 125,
@@ -16666,7 +16666,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 원조 교촌 스타일 짭조름한 간장 윙봉 콤보그려줘",
     "imageUrl": "/images/00125.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00125.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00125.png"
   },
   "food_00126": {
     "index": 126,
@@ -16697,7 +16697,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 향 진하게 밴 양념 숯불바베큐 치킨과 우동사리 추가그려줘",
     "imageUrl": "/images/00126.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00126.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00126.png"
   },
   "food_00127": {
     "index": 127,
@@ -16729,7 +16729,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
     "imageUrl": "/images/00127.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
   },
   "food_00128": {
     "index": 128,
@@ -16761,7 +16761,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
     "imageUrl": "/images/00128.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
   },
   "food_00129": {
     "index": 129,
@@ -16793,7 +16793,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
     "imageUrl": "/images/00129.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
   },
   "food_00130": {
     "index": 130,
@@ -16824,7 +16824,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 12시간 훈연해 결대로 찢은 텍사스 풀드포크 바베큐 버거그려줘",
     "imageUrl": "/images/00130.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00130.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00130.png"
   },
   "food_00131": {
     "index": 131,
@@ -16855,7 +16855,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 불맛 확 살아있는 양파 듬뿍 삼선 간짜장과 반숙 계란후라이그려줘",
     "imageUrl": "/images/00131.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00131.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00131.png"
   },
   "food_00132": {
     "index": 132,
@@ -16887,7 +16887,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
     "imageUrl": "/images/00132.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
   },
   "food_00133": {
     "index": 133,
@@ -16920,7 +16920,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
     "imageUrl": "/images/00133.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
   },
   "food_00134": {
     "index": 134,
@@ -16952,7 +16952,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
     "imageUrl": "/images/00134.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
   },
   "food_00135": {
     "index": 135,
@@ -16983,7 +16983,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 튀긴 왕새우·장어·단호박이 탑처럼 쌓인 에도식 스페셜 텐동그려줘",
     "imageUrl": "/images/00135.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00135.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00135.png"
   },
   "food_00136": {
     "index": 136,
@@ -17014,7 +17014,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 참치·연어·광어·연어알이 가득한 바다 한 그릇 카이센동그려줘",
     "imageUrl": "/images/00136.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00136.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00136.png"
   },
   "food_00137": {
     "index": 137,
@@ -17046,7 +17046,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
     "imageUrl": "/images/00137.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
   },
   "food_00138": {
     "index": 138,
@@ -17077,7 +17077,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 돼지고기와 새콤달콤 느억맘 소스에 적셔 먹는 하노이식 분짜그려줘",
     "imageUrl": "/images/00138.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00138.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00138.png"
   },
   "food_00139": {
     "index": 139,
@@ -17108,7 +17108,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새우와 레몬그라스 향이 폭발하는 세계 3대 수프 똠얌꿍과 쌀국수면그려줘",
     "imageUrl": "/images/00139.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00139.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00139.png"
   },
   "food_00140": {
     "index": 140,
@@ -17139,7 +17139,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 부드러운 옐로우 커리 푸팟퐁커리그려줘",
     "imageUrl": "/images/00140.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00140.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00140.png"
   },
   "food_00141": {
     "index": 141,
@@ -17172,7 +17172,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
     "imageUrl": "/images/00141.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
   },
   "food_00142": {
     "index": 142,
@@ -17204,7 +17204,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
     "imageUrl": "/images/00142.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
   },
   "food_00143": {
     "index": 143,
@@ -17236,7 +17236,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
     "imageUrl": "/images/00143.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
   },
   "food_00144": {
     "index": 144,
@@ -17269,7 +17269,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
     "imageUrl": "/images/00144.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
   },
   "food_00145": {
     "index": 145,
@@ -17302,7 +17302,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
     "imageUrl": "/images/00145.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
   },
   "food_00146": {
     "index": 146,
@@ -17334,7 +17334,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
     "imageUrl": "/images/00146.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
   },
   "food_00147": {
     "index": 147,
@@ -17365,7 +17365,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭하고 속은 쫀득하게 카라멜화된 꾸덕 황치즈 버터바그려줘",
     "imageUrl": "/images/00147.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00147.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00147.png"
   },
   "food_00148": {
     "index": 148,
@@ -17397,7 +17397,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
     "imageUrl": "/images/00148.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
   },
   "food_00149": {
     "index": 149,
@@ -17429,7 +17429,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
     "imageUrl": "/images/00149.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
   },
   "food_00150": {
     "index": 150,
@@ -17461,7 +17461,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
     "imageUrl": "/images/00150.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
   },
   "food_00151": {
     "index": 151,
@@ -17492,7 +17492,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤 버팔로 윙 10조각과 블루치즈 딥 & 샐러리 스틱그려줘",
     "imageUrl": "/images/00151.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00151.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00151.png"
   },
   "food_00152": {
     "index": 152,
@@ -17523,7 +17523,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 치폴레(Chipotle) 스타일 과카몰리 비프 스테이크 부리또 볼그려줘",
     "imageUrl": "/images/00152.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00152.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00152.png"
   },
   "food_00153": {
     "index": 153,
@@ -17556,7 +17556,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
     "imageUrl": "/images/00153.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
   },
   "food_00154": {
     "index": 154,
@@ -17588,7 +17588,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
     "imageUrl": "/images/00154.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
   },
   "food_00155": {
     "index": 155,
@@ -17619,7 +17619,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 가평 휴게소 필수 오픈런 가평 맛남샌드 (잣 & 솔티드 카라멜)그려줘",
     "imageUrl": "/images/00155.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00155.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00155.png"
   },
   "food_00156": {
     "index": 156,
@@ -17651,7 +17651,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
     "imageUrl": "/images/00156.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
   },
   "food_00157": {
     "index": 157,
@@ -17683,7 +17683,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
     "imageUrl": "/images/00157.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
   },
   "food_00158": {
     "index": 158,
@@ -17715,7 +17715,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
     "imageUrl": "/images/00158.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
   },
   "food_00159": {
     "index": 159,
@@ -17747,7 +17747,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
     "imageUrl": "/images/00159.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
   },
   "food_00160": {
     "index": 160,
@@ -17778,7 +17778,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 굴려 껍질은 짭짤하고 속은 포슬한 휴게소 알감자 버터구이그려줘",
     "imageUrl": "/images/00160.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00160.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00160.png"
   },
   "food_00161": {
     "index": 161,
@@ -17809,7 +17809,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 1미터 늘어나는 경주 첨성대 십원빵그려줘",
     "imageUrl": "/images/00161.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00161.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00161.png"
   },
   "food_00162": {
     "index": 162,
@@ -17842,7 +17842,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
     "imageUrl": "/images/00162.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
   },
   "food_00163": {
     "index": 163,
@@ -17874,7 +17874,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
     "imageUrl": "/images/00163.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
   },
   "food_00164": {
     "index": 164,
@@ -17906,7 +17906,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
     "imageUrl": "/images/00164.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
   },
   "food_00165": {
     "index": 165,
@@ -17937,7 +17937,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 등산 후 계곡 평상에서 먹는 한방 능이버섯 토종닭 백숙과 찰밥죽그려줘",
     "imageUrl": "/images/00165.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00165.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00165.png"
   },
   "food_00166": {
     "index": 166,
@@ -17969,7 +17969,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
     "imageUrl": "/images/00166.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
   },
   "food_00167": {
     "index": 167,
@@ -18001,7 +18001,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
     "imageUrl": "/images/00167.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
   },
   "food_00168": {
     "index": 168,
@@ -18033,7 +18033,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
     "imageUrl": "/images/00168.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
   },
   "food_00169": {
     "index": 169,
@@ -18065,7 +18065,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
     "imageUrl": "/images/00169.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
   },
   "food_00170": {
     "index": 170,
@@ -18097,7 +18097,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
     "imageUrl": "/images/00170.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
   },
   "food_00171": {
     "index": 171,
@@ -18128,7 +18128,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 정통 로마식 관찰레와 페코리노 치즈로 만든 노란빛 까르보나라그려줘",
     "imageUrl": "/images/00171.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00171.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00171.png"
   },
   "food_00172": {
     "index": 172,
@@ -18160,7 +18160,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
     "imageUrl": "/images/00172.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
   },
   "food_00173": {
     "index": 173,
@@ -18191,7 +18191,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 세이지 버터에 바삭하게 구워낸 홈메이드 단호박 뇨끼그려줘",
     "imageUrl": "/images/00173.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00173.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00173.png"
   },
   "food_00174": {
     "index": 174,
@@ -18222,7 +18222,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바다 향 가득한 지중해식 오징어 먹물 해산물 리조또그려줘",
     "imageUrl": "/images/00174.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00174.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00174.png"
   },
   "food_00175": {
     "index": 175,
@@ -18253,7 +18253,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 포르치니 버섯 향이 진동하는 파르미지아노 크림 리조또그려줘",
     "imageUrl": "/images/00175.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00175.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00175.png"
   },
   "food_00176": {
     "index": 176,
@@ -18284,7 +18284,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 모시조개와 마늘 화이트와인으로 맛을 낸 봉골레 링귀니그려줘",
     "imageUrl": "/images/00176.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00176.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00176.png"
   },
   "food_00177": {
     "index": 177,
@@ -18315,7 +18315,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 소고기 라구 소스와 베샤멜을 겹겹이 쌓아 구운 볼로냐식 라자냐그려줘",
     "imageUrl": "/images/00177.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00177.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00177.png"
   },
   "food_00178": {
     "index": 178,
@@ -18346,7 +18346,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 제노바식 바질 페스토와 잣, 그라나파다노 치즈의 트로피에 파스타그려줘",
     "imageUrl": "/images/00178.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00178.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00178.png"
   },
   "food_00179": {
     "index": 179,
@@ -18378,7 +18378,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
     "imageUrl": "/images/00179.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
   },
   "food_00180": {
     "index": 180,
@@ -18409,7 +18409,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 블랙 트러플 슬라이스와 양송이 크림소스를 올린 수제 감자 뇨끼그려줘",
     "imageUrl": "/images/00180.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00180.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00180.png"
   },
   "food_00181": {
     "index": 181,
@@ -18440,7 +18440,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯에 직화로 구워 특제 타레 소스를 입힌 홋카이도 오비히로식 부타동그려줘",
     "imageUrl": "/images/00181.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00181.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00181.png"
   },
   "food_00182": {
     "index": 182,
@@ -18472,7 +18472,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
     "imageUrl": "/images/00182.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
   },
   "food_00183": {
     "index": 183,
@@ -18504,7 +18504,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
     "imageUrl": "/images/00183.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
   },
   "food_00184": {
     "index": 184,
@@ -18535,7 +18535,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 쯔유 국물에 적셔 먹는 일본 관동식 특상 소고기 스키야키 나베그려줘",
     "imageUrl": "/images/00184.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00184.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00184.png"
   },
   "food_00185": {
     "index": 185,
@@ -18567,7 +18567,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
     "imageUrl": "/images/00185.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
   },
   "food_00186": {
     "index": 186,
@@ -18598,7 +18598,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 걸쭉하고 진한 가쓰오 돈코츠 육수에 차가운 극태면을 찍어 먹는 츠케멘그려줘",
     "imageUrl": "/images/00186.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00186.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00186.png"
   },
   "food_00187": {
     "index": 187,
@@ -18629,7 +18629,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 향 가득 머금은 정통 일본식 수제 야키토리(닭꼬치) 7종 모둠 플래터그려줘",
     "imageUrl": "/images/00187.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00187.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00187.png"
   },
   "food_00188": {
     "index": 188,
@@ -18660,7 +18660,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 3단계로 즐기는 나고야식 장어덮밥 특선 히츠마부시 (장어 한 마리 반)그려줘",
     "imageUrl": "/images/00188.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00188.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00188.png"
   },
   "food_00189": {
     "index": 189,
@@ -18692,7 +18692,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
     "imageUrl": "/images/00189.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
   },
   "food_00190": {
     "index": 190,
@@ -18723,7 +18723,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
     "imageUrl": "/images/00190.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00190.png"
   },
   "food_00191": {
     "index": 191,
@@ -18756,7 +18756,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
     "imageUrl": "/images/00191.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
   },
   "food_00192": {
     "index": 192,
@@ -18787,7 +18787,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 토마토, 크림으로 끓여낸 달콤고소한 치킨 마크니 (버터 치킨)그려줘",
     "imageUrl": "/images/00192.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00192.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00192.png"
   },
   "food_00193": {
     "index": 193,
@@ -18818,7 +18818,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 향신료와 바스마티 쌀, 닭고기를 겹겹이 쪄낸 인도 궁중 요리 치킨 비리야니그려줘",
     "imageUrl": "/images/00193.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00193.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00193.png"
   },
   "food_00194": {
     "index": 194,
@@ -18850,7 +18850,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
     "imageUrl": "/images/00194.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
   },
   "food_00195": {
     "index": 195,
@@ -18882,7 +18882,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
     "imageUrl": "/images/00195.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
   },
   "food_00196": {
     "index": 196,
@@ -18915,7 +18915,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
     "imageUrl": "/images/00196.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
   },
   "food_00197": {
     "index": 197,
@@ -18946,7 +18946,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 오리 껍질과 밀전병, 야채 야장 소스의 베이징덕그려줘",
     "imageUrl": "/images/00197.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00197.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00197.png"
   },
   "food_00198": {
     "index": 198,
@@ -18978,7 +18978,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
     "imageUrl": "/images/00198.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
   },
   "food_00199": {
     "index": 199,
@@ -19009,7 +19009,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 마라 고추기름과 고소한 땅콩 참깨장 소스의 사천 탄탄면그려줘",
     "imageUrl": "/images/00199.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00199.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00199.png"
   },
   "food_00200": {
     "index": 200,
@@ -19040,7 +19040,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오향 향신료에 삶아 숟가락으로 부서질 만큼 연한 항저우식 정통 동파육그려줘",
     "imageUrl": "/images/00200.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00200.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00200.png"
   },
   "food_00201": {
     "index": 201,
@@ -19072,7 +19072,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
     "imageUrl": "/images/00201.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
   },
   "food_00202": {
     "index": 202,
@@ -19103,7 +19103,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 와인에 장시간 푹 고아 부드럽게 찢어지는 비프 부르기뇽 (소고기 스튜)그려줘",
     "imageUrl": "/images/00202.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00202.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00202.png"
   },
   "food_00203": {
     "index": 203,
@@ -19135,7 +19135,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
     "imageUrl": "/images/00203.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
   },
   "food_00204": {
     "index": 204,
@@ -19167,7 +19167,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
     "imageUrl": "/images/00204.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
   },
   "food_00205": {
     "index": 205,
@@ -19198,7 +19198,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭고기를 진한 레드 와인과 베이컨, 버섯에 졸여낸 프랑스 전통 코코뱅 (Coq au Vin)그려줘",
     "imageUrl": "/images/00205.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00205.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00205.png"
   },
   "food_00206": {
     "index": 206,
@@ -19230,7 +19230,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
     "imageUrl": "/images/00206.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
   },
   "food_00207": {
     "index": 207,
@@ -19261,7 +19261,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 메이플 시럽을 3단으로 쌓아 올린 아메리칸 버터밀크 팬케이크 타워그려줘",
     "imageUrl": "/images/00207.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00207.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00207.png"
   },
   "food_00208": {
     "index": 208,
@@ -19293,7 +19293,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00208.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
   },
   "food_00209": {
     "index": 209,
@@ -19324,7 +19324,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 마늘 버터를 채운 뉴올리언스 포보이(Po-Boy) 샌드위치그려줘",
     "imageUrl": "/images/00209.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00209.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00209.png"
   },
   "food_00210": {
     "index": 210,
@@ -19356,7 +19356,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
     "imageUrl": "/images/00210.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
   },
   "food_00211": {
     "index": 211,
@@ -19388,7 +19388,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
     "imageUrl": "/images/00211.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
   },
   "food_00212": {
     "index": 212,
@@ -19419,7 +19419,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 안두이 소시지와 닭고기, 통새우를 케이준 향신료 밥에 볶은 루이지애나 잠발라야그려줘",
     "imageUrl": "/images/00212.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00212.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00212.png"
   },
   "food_00213": {
     "index": 213,
@@ -19450,7 +19450,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼음 동동 띄워 달콤고소하게 탄 옛날 방앗간 꿀 미숫가루 대접그려줘",
     "imageUrl": "/images/00213.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00213.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00213.png"
   },
   "food_00214": {
     "index": 214,
@@ -19481,7 +19481,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 귀리와 치아씨드를 우유에 밤새 불린 블루베리 오버나이트 오트밀그려줘",
     "imageUrl": "/images/00214.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00214.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00214.png"
   },
   "food_00215": {
     "index": 215,
@@ -19513,7 +19513,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
     "imageUrl": "/images/00215.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
   },
   "food_00216": {
     "index": 216,
@@ -19545,7 +19545,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
     "imageUrl": "/images/00216.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
   },
   "food_00217": {
     "index": 217,
@@ -19576,7 +19576,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 케일·사과·샐러리를 레몬즙과 함께 착즙한 모닝 그린 클렌즈 해독주스그려줘",
     "imageUrl": "/images/00217.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00217.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00217.png"
   },
   "food_00218": {
     "index": 218,
@@ -19607,7 +19607,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 단백질 30g 충전 초코 프로틴 쉐이크와 잘 익은 바나나 1개그려줘",
     "imageUrl": "/images/00218.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00218.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00218.png"
   },
   "food_00219": {
     "index": 219,
@@ -19638,7 +19638,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 통곡물 호밀 식빵에 100% 무첨가 땅콩버터와 바나나 슬라이스를 얹은 토스트그려줘",
     "imageUrl": "/images/00219.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00219.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00219.png"
   },
   "food_00220": {
     "index": 220,
@@ -19670,7 +19670,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
     "imageUrl": "/images/00220.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
   },
   "food_00221": {
     "index": 221,
@@ -19702,7 +19702,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
     "imageUrl": "/images/00221.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
   },
   "food_00222": {
     "index": 222,
@@ -19733,7 +19733,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 검은깨와 찹쌀, 우유를 부드럽게 쑨 궁중 흑임자 타락죽그려줘",
     "imageUrl": "/images/00222.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00222.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00222.png"
   },
   "food_00223": {
     "index": 223,
@@ -19764,7 +19764,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 삶은 달걀을 으깨어 마요네즈에 버무린 통밀 모닝빵 에그 샌드위치 2개그려줘",
     "imageUrl": "/images/00223.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00223.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00223.png"
   },
   "food_00224": {
     "index": 224,
@@ -19795,7 +19795,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 공복을 깨우는 아삭 세척 사과 1알과 구운 통아몬드 15알그려줘",
     "imageUrl": "/images/00224.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00224.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00224.png"
   },
   "food_00225": {
     "index": 225,
@@ -19826,7 +19826,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 국산 무가당 백태 두유 한 잔과 촉촉한 삶은 반숙 계란 2알그려줘",
     "imageUrl": "/images/00225.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00225.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00225.png"
   },
   "food_00226": {
     "index": 226,
@@ -19858,7 +19858,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
     "imageUrl": "/images/00226.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
   },
   "food_00227": {
     "index": 227,
@@ -19889,7 +19889,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 호텔 조식 스타일 몽글몽글 부드러운 버터 스크램블 에그와 구운 방울토마토그려줘",
     "imageUrl": "/images/00227.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00227.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00227.png"
   },
   "food_00228": {
     "index": 228,
@@ -19921,7 +19921,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
     "imageUrl": "/images/00228.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
   },
   "food_00229": {
     "index": 229,
@@ -19952,7 +19952,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 노릇하게 구워 메이플 시럽과 계핏가루를 솔솔 뿌린 클래식 프렌치 토스트그려줘",
     "imageUrl": "/images/00229.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00229.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00229.png"
   },
   "food_00230": {
     "index": 230,
@@ -19983,7 +19983,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 속을 편안하게 풀어주는 맑고 시원한 뚝배기 콩나물 황태 해장국그려줘",
     "imageUrl": "/images/00230.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00230.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00230.png"
   },
   "food_00231": {
     "index": 231,
@@ -20015,7 +20015,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
     "imageUrl": "/images/00231.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
   },
   "food_00232": {
     "index": 232,
@@ -20046,7 +20046,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 율무·현미·검은콩을 갈아 만든 든든한 통곡물 선식 곡물 라떼그려줘",
     "imageUrl": "/images/00232.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00232.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00232.png"
   },
   "food_00233": {
     "index": 233,
@@ -20077,7 +20077,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 슈퍼푸드 아사이베리 퓨레에 바나나, 그래놀라, 치아씨드를 얹은 아사이 볼그려줘",
     "imageUrl": "/images/00233.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00233.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00233.png"
   },
   "food_00234": {
     "index": 234,
@@ -20109,7 +20109,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
     "imageUrl": "/images/00234.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
   },
   "food_00235": {
     "index": 235,
@@ -20140,7 +20140,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 사과(A)·비트(B)·당근(C) 황금 비율로 짜낸 모닝 ABC 착즙 클렌즈 주스그려줘",
     "imageUrl": "/images/00235.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00235.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00235.png"
   },
   "food_00236": {
     "index": 236,
@@ -20171,7 +20171,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 잉글리시 머핀 사이에 짭조름한 캐나디안 베이컨과 치즈, 계란후라이 맥모닝 샌드위치그려줘",
     "imageUrl": "/images/00236.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00236.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00236.png"
   },
   "food_00237": {
     "index": 237,
@@ -20202,7 +20202,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 자몽 반쪽을 숟가락으로 떠먹고 곁들이는 꾸덕한 그릭 요거트 볼그려줘",
     "imageUrl": "/images/00237.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00237.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00237.png"
   },
   "food_00238": {
     "index": 238,
@@ -20233,7 +20233,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 가평 잣을 곱게 갈아 찹쌀과 함께 은근히 쑨 고소한 가평 잣죽그려줘",
     "imageUrl": "/images/00238.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00238.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00238.png"
   },
   "food_00239": {
     "index": 239,
@@ -20264,7 +20264,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 쪄낸 해남 햇감자 2알과 천일염 살짝, 차가운 흰 우유 한 잔그려줘",
     "imageUrl": "/images/00239.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00239.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00239.png"
   },
   "food_00240": {
     "index": 240,
@@ -20296,7 +20296,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
     "imageUrl": "/images/00240.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
   },
   "food_00241": {
     "index": 241,
@@ -20328,7 +20328,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
     "imageUrl": "/images/00241.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
   },
   "food_00242": {
     "index": 242,
@@ -20359,7 +20359,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀과 호두 분태를 듬뿍 뿌린 따뜻한 시나몬 오트밀 밀크볼그려줘",
     "imageUrl": "/images/00242.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00242.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00242.png"
   },
   "food_00243": {
     "index": 243,
@@ -20392,7 +20392,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00243.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
   },
   "food_00244": {
     "index": 244,
@@ -20425,7 +20425,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
     "imageUrl": "/images/00244.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
   },
   "food_00245": {
     "index": 245,
@@ -20457,7 +20457,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
     "imageUrl": "/images/00245.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
   },
   "food_00246": {
     "index": 246,
@@ -20490,7 +20490,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
     "imageUrl": "/images/00246.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
   },
   "food_00247": {
     "index": 247,
@@ -20522,7 +20522,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
     "imageUrl": "/images/00247.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
   },
   "food_00248": {
     "index": 248,
@@ -20555,7 +20555,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
     "imageUrl": "/images/00248.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
   },
   "food_00249": {
     "index": 249,
@@ -20588,7 +20588,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
     "imageUrl": "/images/00249.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
   },
   "food_00250": {
     "index": 250,
@@ -20621,7 +20621,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
     "imageUrl": "/images/00250.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
   },
   "food_00251": {
     "index": 251,
@@ -20654,7 +20654,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
     "imageUrl": "/images/00251.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
   },
   "food_00252": {
     "index": 252,
@@ -20687,7 +20687,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
     "imageUrl": "/images/00252.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
   },
   "food_00253": {
     "index": 253,
@@ -20720,7 +20720,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
     "imageUrl": "/images/00253.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
   },
   "food_00254": {
     "index": 254,
@@ -20752,7 +20752,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
     "imageUrl": "/images/00254.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
   },
   "food_00255": {
     "index": 255,
@@ -20785,7 +20785,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
     "imageUrl": "/images/00255.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
   },
   "food_00256": {
     "index": 256,
@@ -20817,7 +20817,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00256.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
   },
   "food_00257": {
     "index": 257,
@@ -20850,7 +20850,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
     "imageUrl": "/images/00257.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
   },
   "food_00258": {
     "index": 258,
@@ -20883,7 +20883,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
     "imageUrl": "/images/00258.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
   },
   "food_00259": {
     "index": 259,
@@ -20915,7 +20915,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
     "imageUrl": "/images/00259.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
   },
   "food_00260": {
     "index": 260,
@@ -20948,7 +20948,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
     "imageUrl": "/images/00260.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
   },
   "food_00261": {
     "index": 261,
@@ -20980,7 +20980,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
     "imageUrl": "/images/00261.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
   },
   "food_00262": {
     "index": 262,
@@ -21012,7 +21012,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00262.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
   },
   "food_00263": {
     "index": 263,
@@ -21044,7 +21044,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
     "imageUrl": "/images/00263.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
   },
   "food_00264": {
     "index": 264,
@@ -21077,7 +21077,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
     "imageUrl": "/images/00264.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
   },
   "food_00265": {
     "index": 265,
@@ -21110,7 +21110,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
     "imageUrl": "/images/00265.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
   },
   "food_00266": {
     "index": 266,
@@ -21141,7 +21141,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 국내산 마늘의 알싸한 풍미가 가득한 뽀득뽀득 의성마늘 프랑크 핫바그려줘",
     "imageUrl": "/images/00266.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00266.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00266.png"
   },
   "food_00267": {
     "index": 267,
@@ -21172,7 +21172,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 고추장 불향 제육과 7첩 반찬이 푸짐한 GS25 혜자로운 집밥 제육 도시락그려줘",
     "imageUrl": "/images/00267.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00267.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00267.png"
   },
   "food_00268": {
     "index": 268,
@@ -21203,7 +21203,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 너비아니와 불고기, 계란말이가 들어간 알찬 CU 백종원 한판 도시락그려줘",
     "imageUrl": "/images/00268.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00268.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00268.png"
   },
   "food_00269": {
     "index": 269,
@@ -21235,7 +21235,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
     "imageUrl": "/images/00269.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
   },
   "food_00270": {
     "index": 270,
@@ -21267,7 +21267,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
     "imageUrl": "/images/00270.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
   },
   "food_00271": {
     "index": 271,
@@ -21298,7 +21298,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참나무 훈제 향이 솔솔 나는 큼직하고 쫄깃한 편의점 스모크 훈제 닭다리그려줘",
     "imageUrl": "/images/00271.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00271.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00271.png"
   },
   "food_00272": {
     "index": 272,
@@ -21329,7 +21329,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스위트콘과 마요네즈, 모짜렐라 치즈를 듬뿍 올려 오븐에 구운 편의점 콘치즈 그라탕그려줘",
     "imageUrl": "/images/00272.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00272.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00272.png"
   },
   "food_00273": {
     "index": 273,
@@ -21361,7 +21361,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
     "imageUrl": "/images/00273.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
   },
   "food_00274": {
     "index": 274,
@@ -21393,7 +21393,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
     "imageUrl": "/images/00274.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
   },
   "food_00275": {
     "index": 275,
@@ -21425,7 +21425,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
     "imageUrl": "/images/00275.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
   },
   "food_00276": {
     "index": 276,
@@ -21457,7 +21457,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
     "imageUrl": "/images/00276.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
   },
   "food_00277": {
     "index": 277,
@@ -21488,7 +21488,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 방콕 야시장 땅콩가루와 숙주, 왕새우를 센 불에 볶아낸 팟타이 꿍그려줘",
     "imageUrl": "/images/00277.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00277.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00277.png"
   },
   "food_00278": {
     "index": 278,
@@ -21520,7 +21520,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
     "imageUrl": "/images/00278.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
   },
   "food_00279": {
     "index": 279,
@@ -21552,7 +21552,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
     "imageUrl": "/images/00279.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
   },
   "food_00280": {
     "index": 280,
@@ -21584,7 +21584,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
     "imageUrl": "/images/00280.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
   },
   "food_00281": {
     "index": 281,
@@ -21616,7 +21616,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
     "imageUrl": "/images/00281.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
   },
   "food_00282": {
     "index": 282,
@@ -21647,7 +21647,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 그리스 전통 화덕 피타 브레드에 구운 양고기와 차지키 요거트 소스를 감싼 기로스 랩그려줘",
     "imageUrl": "/images/00282.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00282.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00282.png"
   },
   "food_00283": {
     "index": 283,
@@ -21678,7 +21678,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 터키 이스탄불 갈라타 다리 명물 바게트 속에 구운 통고등어와 양파를 넣은 고등어 케밥그려줘",
     "imageUrl": "/images/00283.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00283.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00283.png"
   },
   "food_00284": {
     "index": 284,
@@ -21709,7 +21709,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 천상의 맛 우유 지방을 굳힌 카이막(Kaymak)과 꿀, 갓 구운 피데 빵 세트그려줘",
     "imageUrl": "/images/00284.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00284.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00284.png"
   },
   "food_00285": {
     "index": 285,
@@ -21740,7 +21740,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 대만 야시장 얼굴만 한 크기의 바삭하고 매콤한 오향 대왕 닭가슴살 튀김 지파이그려줘",
     "imageUrl": "/images/00285.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00285.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00285.png"
   },
   "food_00286": {
     "index": 286,
@@ -21771,7 +21771,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 홍콩식 얇고 바삭한 페이스트리 도우에 달걀 커스터드가 촉촉하게 채워진 에그타르트 3개그려줘",
     "imageUrl": "/images/00286.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00286.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00286.png"
   },
   "food_00287": {
     "index": 287,
@@ -21802,7 +21802,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 인도네시아 전통 달콤 짭조름한 케찹 마니스 소스에 새우를 볶은 나시고랭과 계란후라이그려줘",
     "imageUrl": "/images/00287.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00287.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00287.png"
   },
   "food_00288": {
     "index": 288,
@@ -21834,7 +21834,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
     "imageUrl": "/images/00288.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
   },
   "food_00289": {
     "index": 289,
@@ -21865,7 +21865,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 토스트한 식빵에 달콤한 판단 카야잼과 차가운 버터를 넣은 싱가포르 카야 토스트그려줘",
     "imageUrl": "/images/00289.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00289.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00289.png"
   },
   "food_00290": {
     "index": 290,
@@ -21896,7 +21896,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 칠리 토마토 계란 소스에 버무린 싱가포르 점보 칠리크랩과 튀긴 꽃빵 만토우그려줘",
     "imageUrl": "/images/00290.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00290.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00290.png"
   },
   "food_00291": {
     "index": 291,
@@ -21928,7 +21928,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
     "imageUrl": "/images/00291.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
   },
   "food_00292": {
     "index": 292,
@@ -21960,7 +21960,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
     "imageUrl": "/images/00292.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
   },
   "food_00293": {
     "index": 293,
@@ -21992,7 +21992,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
     "imageUrl": "/images/00293.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
   },
   "food_00294": {
     "index": 294,
@@ -22024,7 +22024,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
     "imageUrl": "/images/00294.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
   },
   "food_00295": {
     "index": 295,
@@ -22055,7 +22055,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 투구 모양 무쇠 불판에 숙주와 대파를 두르고 구운 삿포로식 생양고기 징기스칸그려줘",
     "imageUrl": "/images/00295.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00295.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00295.png"
   },
   "food_00296": {
     "index": 296,
@@ -22087,7 +22087,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
     "imageUrl": "/images/00296.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
   },
   "food_00297": {
     "index": 297,
@@ -22119,7 +22119,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
     "imageUrl": "/images/00297.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
   },
   "food_00298": {
     "index": 298,
@@ -22151,7 +22151,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
     "imageUrl": "/images/00298.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
   },
   "food_00299": {
     "index": 299,
@@ -22183,7 +22183,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
     "imageUrl": "/images/00299.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
   },
   "food_00300": {
     "index": 300,
@@ -22214,7 +22214,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 시나몬과 사과를 듬뿍 채워 바삭한 격자 파이로 구운 정통 아메리칸 애플파이그려줘",
     "imageUrl": "/images/00300.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00300.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00300.png"
   },
   "food_00301": {
     "index": 301,
@@ -22245,7 +22245,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 포르투갈 리스본 벨렘식 겉을 바짝 태워 카라멜라이징한 수제 에그타르트 2개그려줘",
     "imageUrl": "/images/00301.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00301.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00301.png"
   },
   "food_00302": {
     "index": 302,
@@ -22277,7 +22277,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
     "imageUrl": "/images/00302.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
   },
   "food_00303": {
     "index": 303,
@@ -22308,7 +22308,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 백탄에 구워 마블링 육즙이 뚝뚝 떨어지는 한우 1++ 꽃등심 구이그려줘",
     "imageUrl": "/images/00303.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00303.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00303.png"
   },
   "food_00304": {
     "index": 304,
@@ -22340,7 +22340,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
     "imageUrl": "/images/00304.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
   },
   "food_00305": {
     "index": 305,
@@ -22371,7 +22371,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 소 곱창, 대창, 막창, 염통을 부추와 함께 지글지글 굽는 소 모둠 곱창구이그려줘",
     "imageUrl": "/images/00305.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00305.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00305.png"
   },
   "food_00306": {
     "index": 306,
@@ -22402,7 +22402,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 돼지고기 앞다리살 숭덩숭덩 썰어 넣고 자글자글 끓인 얼큰 뚝배기 돼지 김치찌개그려줘",
     "imageUrl": "/images/00306.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00306.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00306.png"
   },
   "food_00307": {
     "index": 307,
@@ -22434,7 +22434,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
     "imageUrl": "/images/00307.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
   },
   "food_00308": {
     "index": 308,
@@ -22466,7 +22466,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
     "imageUrl": "/images/00308.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
   },
   "food_00309": {
     "index": 309,
@@ -22498,7 +22498,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
     "imageUrl": "/images/00309.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
   },
   "food_00310": {
     "index": 310,
@@ -22530,7 +22530,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
     "imageUrl": "/images/00310.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
   },
   "food_00311": {
     "index": 311,
@@ -22561,7 +22561,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 산지 직송 싱싱한 통오징어를 내장째 쪄낸 녹진한 오징어 통찜그려줘",
     "imageUrl": "/images/00311.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00311.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00311.png"
   },
   "food_00312": {
     "index": 312,
@@ -22593,7 +22593,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
     "imageUrl": "/images/00312.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
   },
   "food_00313": {
     "index": 313,
@@ -22624,7 +22624,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 백합, 가리비, 키조개, 홍합을 산더미처럼 쌓아 맑고 시원하게 끓인 조개전골그려줘",
     "imageUrl": "/images/00313.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00313.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00313.png"
   },
   "food_00314": {
     "index": 314,
@@ -22656,7 +22656,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
     "imageUrl": "/images/00314.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
   },
   "food_00315": {
     "index": 315,
@@ -22687,7 +22687,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 직화로 구워 불향 가득 매콤하게 뼈를 발라낸 무뼈 닭발과 뚝배기 계란찜그려줘",
     "imageUrl": "/images/00315.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00315.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00315.png"
   },
   "food_00316": {
     "index": 316,
@@ -22718,7 +22718,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 선홍빛 소고기 양지 슬라이스와 신선한 채소를 맑은 육수에 살랑살랑 흔들어 먹는 소고기 샤브샤브그려줘",
     "imageUrl": "/images/00316.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00316.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00316.png"
   },
   "food_00317": {
     "index": 317,
@@ -22749,7 +22749,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 진한 육개장 사골 국물에 칼국수 생면을 말아낸 육개장 칼국수 (육칼)그려줘",
     "imageUrl": "/images/00317.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00317.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00317.png"
   },
   "food_00318": {
     "index": 318,
@@ -22782,7 +22782,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
     "imageUrl": "/images/00318.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
   },
   "food_00319": {
     "index": 319,
@@ -22814,7 +22814,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
     "imageUrl": "/images/00319.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
   },
   "food_00320": {
     "index": 320,
@@ -22845,7 +22845,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤달콤 매콤한 초고추장 양념에 쫄깃한 골뱅이와 오이, 파채를 버무린 자연산 골뱅이 소면그려줘",
     "imageUrl": "/images/00320.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00320.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00320.png"
   },
   "food_00321": {
     "index": 321,
@@ -22876,7 +22876,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 고소한 버터 향을 입혀 통째로 구워낸 완도산 활전복 버터구이 5미그려줘",
     "imageUrl": "/images/00321.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00321.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00321.png"
   },
   "food_00322": {
     "index": 322,
@@ -22909,7 +22909,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
     "imageUrl": "/images/00322.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
   },
   "food_00323": {
     "index": 323,
@@ -22940,7 +22940,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판 위에서 꿈틀꿈틀 구워 매콤한 고추장 양념을 덧바른 자갈치 숯불 꼼장어 구이그려줘",
     "imageUrl": "/images/00323.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00323.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00323.png"
   },
   "food_00324": {
     "index": 324,
@@ -22971,7 +22971,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참기름과 통깨, 풋고추를 넣고 칼로 탕탕 쳐낸 싱싱한 목포 산낙지 탕탕이그려줘",
     "imageUrl": "/images/00324.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00324.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00324.png"
   },
   "food_00325": {
     "index": 325,
@@ -23003,7 +23003,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
     "imageUrl": "/images/00325.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
   },
   "food_00326": {
     "index": 326,
@@ -23034,7 +23034,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 당일 도축한 찰진 한우 생고기를 깍둑 썰어 마늘 고추장 양념에 찍어 먹는 대구 뭉티기그려줘",
     "imageUrl": "/images/00326.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00326.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00326.png"
   },
   "food_00327": {
     "index": 327,
@@ -23065,7 +23065,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 살얼음 육수를 동동 띄운 쫄깃한 칡냉면과 숯불 불고기 한 접시그려줘",
     "imageUrl": "/images/00327.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00327.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00327.png"
   },
   "food_00328": {
     "index": 328,
@@ -23097,7 +23097,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
     "imageUrl": "/images/00328.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
   },
   "food_00329": {
     "index": 329,
@@ -23129,7 +23129,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
     "imageUrl": "/images/00329.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
   },
   "food_00330": {
     "index": 330,
@@ -23160,7 +23160,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 바지락이 그릇 가득 산더미처럼 들어간 시원하고 맑은 대부도 바지락 칼국수그려줘",
     "imageUrl": "/images/00330.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00330.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00330.png"
   },
   "food_00331": {
     "index": 331,
@@ -23191,7 +23191,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 껍질 벗긴 고소한 거피 들깨가루를 듬뿍 넣어 걸쭉한 뚝배기 버섯 들깨 수제비그려줘",
     "imageUrl": "/images/00331.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00331.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00331.png"
   },
   "food_00332": {
     "index": 332,
@@ -23222,7 +23222,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 멸치 육수에 고추장과 된장을 풀어 칼칼하고 걸쭉하게 끓인 강릉식 장칼국수그려줘",
     "imageUrl": "/images/00332.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00332.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00332.png"
   },
   "food_00333": {
     "index": 333,
@@ -23254,7 +23254,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
     "imageUrl": "/images/00333.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
   },
   "food_00334": {
     "index": 334,
@@ -23286,7 +23286,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
     "imageUrl": "/images/00334.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
   },
   "food_00335": {
     "index": 335,
@@ -23319,7 +23319,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
     "imageUrl": "/images/00335.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
   },
   "food_00336": {
     "index": 336,
@@ -23351,7 +23351,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
     "imageUrl": "/images/00336.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
   },
   "food_00337": {
     "index": 337,
@@ -23383,7 +23383,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
     "imageUrl": "/images/00337.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
   },
   "food_00338": {
     "index": 338,
@@ -23415,7 +23415,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
     "imageUrl": "/images/00338.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
   },
   "food_00339": {
     "index": 339,
@@ -23446,7 +23446,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 국산 서리태 검은콩을 껍질째 맷돌에 곱게 갈아 살얼음을 띄운 진국 서리태 콩국수그려줘",
     "imageUrl": "/images/00339.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00339.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00339.png"
   },
   "food_00340": {
     "index": 340,
@@ -23479,7 +23479,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
     "imageUrl": "/images/00340.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
   },
   "food_00341": {
     "index": 341,
@@ -23510,7 +23510,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭 반 마리가 통째로 푹 고아져 올라간 파향 가득한 진한 일산 닭칼국수그려줘",
     "imageUrl": "/images/00341.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00341.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00341.png"
   },
   "food_00342": {
     "index": 342,
@@ -23541,7 +23541,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 전주 전통 놋그릇에 담아낸 선홍빛 한우 육회 비빔밥과 맑은 콩나물국그려줘",
     "imageUrl": "/images/00342.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00342.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00342.png"
   },
   "food_00343": {
     "index": 343,
@@ -23572,7 +23572,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 달궈진 돌솥 바닥에 눌어붙은 날치알과 볶음김치의 돌솥 알밥그려줘",
     "imageUrl": "/images/00343.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00343.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00343.png"
   },
   "food_00344": {
     "index": 344,
@@ -23603,7 +23603,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 뚝배기 국물에 당면과 얇은 소불고기가 푸짐한 뚝배기 불고기 (뚝불)그려줘",
     "imageUrl": "/images/00344.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00344.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00344.png"
   },
   "food_00345": {
     "index": 345,
@@ -23634,7 +23634,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 안목해변 스타일 매콤새콤 미나리와 쫄깃한 꼬막을 밥에 쓱쓱 비빈 꼬막 비빔밥그려줘",
     "imageUrl": "/images/00345.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00345.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00345.png"
   },
   "food_00346": {
     "index": 346,
@@ -23665,7 +23665,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 솥에 활전복과 완도 톳을 넣고 갓 지어낸 전복 톳 영양 솥밥과 달래 양념장그려줘",
     "imageUrl": "/images/00346.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00346.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00346.png"
   },
   "food_00347": {
     "index": 347,
@@ -23696,7 +23696,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 강원도 정선 곤드레 나물을 듬뿍 넣어 지은 구수한 곤드레 나물밥과 토속 강된장그려줘",
     "imageUrl": "/images/00347.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00347.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00347.png"
   },
   "food_00348": {
     "index": 348,
@@ -23728,7 +23728,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
     "imageUrl": "/images/00348.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
   },
   "food_00349": {
     "index": 349,
@@ -23760,7 +23760,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
     "imageUrl": "/images/00349.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
   },
   "food_00350": {
     "index": 350,
@@ -23791,7 +23791,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 전주 남부시장 스타일 개운하게 토렴한 콩나물국밥과 참기름 수란 2알그려줘",
     "imageUrl": "/images/00350.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00350.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00350.png"
   },
   "food_00351": {
     "index": 351,
@@ -23824,7 +23824,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
     "imageUrl": "/images/00351.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
   },
   "food_00352": {
     "index": 352,
@@ -23855,7 +23855,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 제주 은갈치와 달큰한 무를 매콤달콤한 비법 양념에 자작하게 졸여낸 갈치조림그려줘",
     "imageUrl": "/images/00352.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00352.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00352.png"
   },
   "food_00353": {
     "index": 353,
@@ -23886,7 +23886,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 천일염을 뿌려 기름기 쏙 빠지게 노릇노릇 구워낸 겉바속촉 고등어 자반구이 백반그려줘",
     "imageUrl": "/images/00353.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00353.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00353.png"
   },
   "food_00354": {
     "index": 354,
@@ -23917,7 +23917,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 철판 한가운데 모짜렐라 치즈 길을 낸 춘천 원조 매콤 닭갈비와 볶음밥 코스그려줘",
     "imageUrl": "/images/00354.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00354.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00354.png"
   },
   "food_00355": {
     "index": 355,
@@ -23948,7 +23948,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 불향 나게 매콤하게 볶아낸 통오징어와 삼겹살의 환상 궁합 철판 오삼불고기그려줘",
     "imageUrl": "/images/00355.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00355.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00355.png"
   },
   "food_00356": {
     "index": 356,
@@ -23980,7 +23980,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
     "imageUrl": "/images/00356.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
   },
   "food_00357": {
     "index": 357,
@@ -24011,7 +24011,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 시원하고 새콤달콤한 살얼음 동치미 육수에 도토리묵과 밥을 말아먹는 도토리묵밥그려줘",
     "imageUrl": "/images/00357.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00357.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00357.png"
   },
   "food_00358": {
     "index": 358,
@@ -24044,7 +24044,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
     "imageUrl": "/images/00358.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
   },
   "food_00359": {
     "index": 359,
@@ -24075,7 +24075,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤하게 푹 삭힌 흑산도 홍어와 야들야들 삶은 돼지 수육, 3년 묵은지의 남도 홍어삼합그려줘",
     "imageUrl": "/images/00359.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00359.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00359.png"
   },
   "food_00360": {
     "index": 360,
@@ -24107,7 +24107,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
     "imageUrl": "/images/00360.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
   },
   "food_00361": {
     "index": 361,
@@ -24139,7 +24139,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
     "imageUrl": "/images/00361.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
   },
   "food_00362": {
     "index": 362,
@@ -24170,7 +24170,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 천일염의 짭조름함과 겉은 바삭 속은 버터 동굴이 뚫린 갓 구운 소금빵그려줘",
     "imageUrl": "/images/00362.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00362.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00362.png"
   },
   "food_00363": {
     "index": 363,
@@ -24201,7 +24201,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 브르타뉴 전통 버터와 설탕을 겹겹이 캐러멜라이징해 구운 바삭 퀸아망그려줘",
     "imageUrl": "/images/00363.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00363.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00363.png"
   },
   "food_00364": {
     "index": 364,
@@ -24232,7 +24232,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 가르면 따뜻한 다크 초콜릿 용암이 주르륵 흘러내리는 퐁당 오 쇼콜라그려줘",
     "imageUrl": "/images/00364.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00364.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00364.png"
   },
   "food_00365": {
     "index": 365,
@@ -24263,7 +24263,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 보르도 전통 밀랍을 발라 구워 겉은 빠작하고 속은 커스터드처럼 촉촉한 까눌레 2개그려줘",
     "imageUrl": "/images/00365.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00365.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00365.png"
   },
   "food_00366": {
     "index": 366,
@@ -24295,7 +24295,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
     "imageUrl": "/images/00366.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
   },
   "food_00367": {
     "index": 367,
@@ -24327,7 +24327,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
     "imageUrl": "/images/00367.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
   },
   "food_00368": {
     "index": 368,
@@ -24359,7 +24359,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
     "imageUrl": "/images/00368.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
   },
   "food_00369": {
     "index": 369,
@@ -24390,7 +24390,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 타피오카 펄을 흑당 시럽에 졸여 신선한 생우유에 호랑이 무늬를 낸 대만 흑당 버블 밀크티그려줘",
     "imageUrl": "/images/00369.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00369.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00369.png"
   },
   "food_00370": {
     "index": 370,
@@ -24422,7 +24422,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
     "imageUrl": "/images/00370.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
   },
   "food_00371": {
     "index": 371,
@@ -24453,7 +24453,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 통마늘과 닭근위를 참기름 소금에 볶아 알싸하고 쫄깃한 포장마차 통마늘 닭똥집 볶음그려줘",
     "imageUrl": "/images/00371.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00371.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00371.png"
   },
   "food_00372": {
     "index": 372,
@@ -24484,7 +24484,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 홍합을 한 냄비 가득 넣고 청양고추와 대파를 송송 썰어 뽀얗게 끓인 얼큰 뚝배기 홍합탕그려줘",
     "imageUrl": "/images/00372.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00372.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00372.png"
   },
   "food_00373": {
     "index": 373,
@@ -24515,7 +24515,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판에 노릇하게 구워 벌집 칼집 사이로 기름이 쏙 빠진 쫀득 돼지껍데기와 콩가루그려줘",
     "imageUrl": "/images/00373.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00373.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00373.png"
   },
   "food_00374": {
     "index": 374,
@@ -24546,7 +24546,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 화끈한 불맛 고추장 양념에 뼈째 오독오독 씹히는 매콤 오돌뼈 볶음과 김가루 날치알 주먹밥그려줘",
     "imageUrl": "/images/00374.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00374.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00374.png"
   },
   "food_00375": {
     "index": 375,
@@ -24577,7 +24577,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바지락 조개에 버터와 마늘, 화이트와인(또는 청주)을 붓고 자작하게 끓인 바지락 술찜그려줘",
     "imageUrl": "/images/00375.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00375.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00375.png"
   },
   "food_00376": {
     "index": 376,
@@ -24609,7 +24609,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
     "imageUrl": "/images/00376.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
   },
   "food_00377": {
     "index": 377,
@@ -24640,7 +24640,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 브라질 전통 긴 쇠꼬챙이에 꿰어 숯불에 구운 슈하스코 삐까냐 (우둔살) 스테이크그려줘",
     "imageUrl": "/images/00377.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00377.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00377.png"
   },
   "food_00378": {
     "index": 378,
@@ -24671,7 +24671,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 아르헨티나 팜파스 스타일 소갈비를 장작불에 4시간 은근히 구운 아사도와 치미추리 소스그려줘",
     "imageUrl": "/images/00378.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00378.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00378.png"
   },
   "food_00379": {
     "index": 379,
@@ -24703,7 +24703,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
     "imageUrl": "/images/00379.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
   },
   "food_00380": {
     "index": 380,
@@ -24734,7 +24734,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 일본 후쿠오카 하카타 명물 부추와 마늘을 산더미로 얹어 끓인 한우 대창 모츠나베그려줘",
     "imageUrl": "/images/00380.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00380.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00380.png"
   },
   "food_00381": {
     "index": 381,
@@ -24766,7 +24766,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
     "imageUrl": "/images/00381.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
   },
   "food_00382": {
     "index": 382,
@@ -24797,7 +24797,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 텍사스 오스틴 스타일 16시간 참나무 연기에 천천히 훈연한 부드러운 소 차돌양지 브리스킷그려줘",
     "imageUrl": "/images/00382.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00382.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00382.png"
   },
   "food_00383": {
     "index": 383,
@@ -24828,7 +24828,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 피렌체식 두께 5cm 토스카나 키아니나 암소 T자 뼈 티본 스테이크 1kg그려줘",
     "imageUrl": "/images/00383.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00383.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00383.png"
   },
   "food_00384": {
     "index": 384,
@@ -24859,7 +24859,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 태국 치앙마이식 코코넛 밀크 옐로우 커리 육수에 튀긴 에그 누들을 얹은 카오소이그려줘",
     "imageUrl": "/images/00384.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00384.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00384.png"
   },
   "food_00385": {
     "index": 385,
@@ -24891,7 +24891,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
     "imageUrl": "/images/00385.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
   },
   "food_00386": {
     "index": 386,
@@ -24922,7 +24922,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 흰살 생선과 새우를 라임즙의 산(Acid)으로 익혀 적양파와 고수를 버무린 페루비안 세비체그려줘",
     "imageUrl": "/images/00386.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00386.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00386.png"
   },
   "food_00387": {
     "index": 387,
@@ -24954,7 +24954,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
     "imageUrl": "/images/00387.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
   },
   "food_00388": {
     "index": 388,
@@ -24985,7 +24985,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 스웨덴 스톡홀름 전통 부드러운 쇠고기 미트볼에 갈색 크림 그레이비와 붉은 링곤베리 잼그려줘",
     "imageUrl": "/images/00388.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00388.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00388.png"
   },
   "food_00389": {
     "index": 389,
@@ -25017,7 +25017,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
     "imageUrl": "/images/00389.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
   },
   "food_00390": {
     "index": 390,
@@ -25048,7 +25048,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 일본 교토식 겉만 60초간 바삭하게 튀겨내 미니 개인 화로에 취향껏 구워 먹는 규카츠 정식그려줘",
     "imageUrl": "/images/00390.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00390.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00390.png"
   },
   "food_00391": {
     "index": 391,
@@ -25080,7 +25080,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
     "imageUrl": "/images/00391.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
   },
   "food_00392": {
     "index": 392,
@@ -25111,7 +25111,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 구운 가지와 감자, 소고기 라구에 크리미한 베샤멜 소스를 얹어 오븐에 구운 그리스 정통 무사카그려줘",
     "imageUrl": "/images/00392.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00392.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00392.png"
   },
   "food_00393": {
     "index": 393,
@@ -25143,7 +25143,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
     "imageUrl": "/images/00393.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
   },
   "food_00394": {
     "index": 394,
@@ -25174,7 +25174,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 다진 양고기에 큐민과 가람마살라를 섞어 탄두르 쇠꼬챙이에 구운 인도식 시크 케밥 2개그려줘",
     "imageUrl": "/images/00394.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00394.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00394.png"
   },
   "food_00395": {
     "index": 395,
@@ -25206,7 +25206,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
     "imageUrl": "/images/00395.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
   },
   "food_00396": {
     "index": 396,
@@ -25237,7 +25237,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바질과 다진 돼지고기를 매콤한 피시소스에 센 불로 볶은 태국식 팟카파오무쌉과 계란후라이그려줘",
     "imageUrl": "/images/00396.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00396.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00396.png"
   },
   "food_00397": {
     "index": 397,
@@ -25268,7 +25268,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 사프란을 우려내어 황금빛으로 반짝이는 정통 이탈리아 밀라노식 황금 사프란 리조또그려줘",
     "imageUrl": "/images/00397.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00397.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00397.png"
   },
   "food_00398": {
     "index": 398,
@@ -25300,7 +25300,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
     "imageUrl": "/images/00398.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
   },
   "food_00399": {
     "index": 399,
@@ -25332,7 +25332,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
     "imageUrl": "/images/00399.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
   },
   "food_00400": {
     "index": 400,
@@ -25364,7 +25364,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
     "imageUrl": "/images/00400.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
   },
   "food_00401": {
     "index": 401,
@@ -25396,7 +25396,7 @@ export const FOODS_BY_ID = {
     ],
     "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
     "imageUrl": "/images/00401.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
   }
 };
 
@@ -25430,7 +25430,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 수요일 특식 토마토 미트소스 스파게티그려줘",
     "imageUrl": "/images/00001.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00001.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00001.png"
   },
   "00002": {
     "index": 2,
@@ -25463,7 +25463,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
     "imageUrl": "/images/00002.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
   },
   "00003": {
     "index": 3,
@@ -25495,7 +25495,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
     "imageUrl": "/images/00003.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
   },
   "00004": {
     "index": 4,
@@ -25526,7 +25526,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 경양식 수제 왕돈까스그려줘",
     "imageUrl": "/images/00004.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00004.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00004.png"
   },
   "00005": {
     "index": 5,
@@ -25558,7 +25558,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
     "imageUrl": "/images/00005.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
   },
   "00006": {
     "index": 6,
@@ -25589,7 +25589,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 물엿 코팅 바삭 고구마맛탕그려줘",
     "imageUrl": "/images/00006.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00006.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00006.png"
   },
   "00007": {
     "index": 7,
@@ -25620,7 +25620,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 코다리강정그려줘",
     "imageUrl": "/images/00007.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00007.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00007.png"
   },
   "00008": {
     "index": 8,
@@ -25652,7 +25652,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
     "imageUrl": "/images/00008.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
   },
   "00009": {
     "index": 9,
@@ -25684,7 +25684,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
     "imageUrl": "/images/00009.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
   },
   "00010": {
     "index": 10,
@@ -25716,7 +25716,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
     "imageUrl": "/images/00010.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
   },
   "00011": {
     "index": 11,
@@ -25748,7 +25748,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
     "imageUrl": "/images/00011.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
   },
   "00012": {
     "index": 12,
@@ -25780,7 +25780,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
     "imageUrl": "/images/00012.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
   },
   "00013": {
     "index": 13,
@@ -25811,7 +25811,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식실 그릴 마크 수제 떡갈비그려줘",
     "imageUrl": "/images/00013.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00013.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00013.png"
   },
   "00014": {
     "index": 14,
@@ -25843,7 +25843,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
     "imageUrl": "/images/00014.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
   },
   "00015": {
     "index": 15,
@@ -25875,7 +25875,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
     "imageUrl": "/images/00015.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
   },
   "00016": {
     "index": 16,
@@ -25907,7 +25907,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
     "imageUrl": "/images/00016.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
   },
   "00017": {
     "index": 17,
@@ -25939,7 +25939,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
     "imageUrl": "/images/00017.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
   },
   "00018": {
     "index": 18,
@@ -25970,7 +25970,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 미니 짜장밥과 반달 단무지 & 군만두그려줘",
     "imageUrl": "/images/00018.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00018.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00018.png"
   },
   "00019": {
     "index": 19,
@@ -26002,7 +26002,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
     "imageUrl": "/images/00019.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
   },
   "00020": {
     "index": 20,
@@ -26033,7 +26033,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 생크림 과일 사라다 모닝빵 샌드위치그려줘",
     "imageUrl": "/images/00020.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00020.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00020.png"
   },
   "00021": {
     "index": 21,
@@ -26065,7 +26065,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
     "imageUrl": "/images/00021.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
   },
   "00022": {
     "index": 22,
@@ -26096,7 +26096,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 흑트러플 완도 전복 게우소스 리조또그려줘",
     "imageUrl": "/images/00022.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00022.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00022.png"
   },
   "00023": {
     "index": 23,
@@ -26128,7 +26128,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
     "imageUrl": "/images/00023.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
   },
   "00024": {
     "index": 24,
@@ -26160,7 +26160,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
     "imageUrl": "/images/00024.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
   },
   "00025": {
     "index": 25,
@@ -26191,7 +26191,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 안심 비프 웰링턴과 페리고 트러플 주(Jus)그려줘",
     "imageUrl": "/images/00025.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00025.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00025.png"
   },
   "00026": {
     "index": 26,
@@ -26223,7 +26223,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
     "imageUrl": "/images/00026.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
   },
   "00027": {
     "index": 27,
@@ -26254,7 +26254,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 프랑스산 브레스 영계 로스트와 모렐 버섯 크림그려줘",
     "imageUrl": "/images/00027.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00027.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00027.png"
   },
   "00028": {
     "index": 28,
@@ -26286,7 +26286,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
     "imageUrl": "/images/00028.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
   },
   "00029": {
     "index": 29,
@@ -26317,7 +26317,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 블루 랍스터 포치드와 사프란 비스크 에멀전그려줘",
     "imageUrl": "/images/00029.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00029.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00029.png"
   },
   "00030": {
     "index": 30,
@@ -26349,7 +26349,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
     "imageUrl": "/images/00030.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
   },
   "00031": {
     "index": 31,
@@ -26381,7 +26381,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
     "imageUrl": "/images/00031.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
   },
   "00032": {
     "index": 32,
@@ -26412,7 +26412,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 한우 1++ 채끝등심 볏짚 훈연 구이와 발효 흑마늘그려줘",
     "imageUrl": "/images/00032.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00032.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00032.png"
   },
   "00033": {
     "index": 33,
@@ -26444,7 +26444,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
     "imageUrl": "/images/00033.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
   },
   "00034": {
     "index": 34,
@@ -26476,7 +26476,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
     "imageUrl": "/images/00034.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
   },
   "00035": {
     "index": 35,
@@ -26508,7 +26508,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
     "imageUrl": "/images/00035.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
   },
   "00036": {
     "index": 36,
@@ -26540,7 +26540,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
     "imageUrl": "/images/00036.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
   },
   "00037": {
     "index": 37,
@@ -26571,7 +26571,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 쑥 아이스크림과 갓 튀긴 개성 주악 디저트 소반그려줘",
     "imageUrl": "/images/00037.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00037.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00037.png"
   },
   "00038": {
     "index": 38,
@@ -26603,7 +26603,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
     "imageUrl": "/images/00038.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
   },
   "00039": {
     "index": 39,
@@ -26634,7 +26634,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 크리스피 오리 콩피(Duck Confit)와 오렌지 가스트릭그려줘",
     "imageUrl": "/images/00039.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00039.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00039.png"
   },
   "00040": {
     "index": 40,
@@ -26667,7 +26667,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
     "imageUrl": "/images/00040.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
   },
   "00041": {
     "index": 41,
@@ -26699,7 +26699,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
     "imageUrl": "/images/00041.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
   },
   "00042": {
     "index": 42,
@@ -26730,7 +26730,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 숯불 한우 트러플 떡갈비와 구운 대파 정찬그려줘",
     "imageUrl": "/images/00042.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00042.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00042.png"
   },
   "00043": {
     "index": 43,
@@ -26762,7 +26762,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
     "imageUrl": "/images/00043.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
   },
   "00044": {
     "index": 44,
@@ -26793,7 +26793,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 피스타치오 파리브레스트와 에스프레소 슈그려줘",
     "imageUrl": "/images/00044.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00044.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00044.png"
   },
   "00045": {
     "index": 45,
@@ -26825,7 +26825,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
     "imageUrl": "/images/00045.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
   },
   "00046": {
     "index": 46,
@@ -26858,7 +26858,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
     "imageUrl": "/images/00046.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
   },
   "00047": {
     "index": 47,
@@ -26889,7 +26889,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 명동 스타일 자가제면 칼국수와 왕만두그려줘",
     "imageUrl": "/images/00047.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00047.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00047.png"
   },
   "00048": {
     "index": 48,
@@ -26921,7 +26921,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
     "imageUrl": "/images/00048.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
   },
   "00049": {
     "index": 49,
@@ -26954,7 +26954,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
     "imageUrl": "/images/00049.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
   },
   "00050": {
     "index": 50,
@@ -26985,7 +26985,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 알이 꽉 찬 서해안 암꽃게 간장게장 정식그려줘",
     "imageUrl": "/images/00050.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00050.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00050.png"
   },
   "00051": {
     "index": 51,
@@ -27017,7 +27017,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
     "imageUrl": "/images/00051.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
   },
   "00052": {
     "index": 52,
@@ -27048,7 +27048,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 고소한 거피 들기름 막국수와 한방 보쌈 수육그려줘",
     "imageUrl": "/images/00052.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00052.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00052.png"
   },
   "00053": {
     "index": 53,
@@ -27080,7 +27080,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
     "imageUrl": "/images/00053.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
   },
   "00054": {
     "index": 54,
@@ -27111,7 +27111,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 [빕 구르망] 제주 흑돼지 족발과 새콤달콤 쟁반막국수그려줘",
     "imageUrl": "/images/00054.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00054.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00054.png"
   },
   "00055": {
     "index": 55,
@@ -27143,7 +27143,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
     "imageUrl": "/images/00055.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
   },
   "00056": {
     "index": 56,
@@ -27175,7 +27175,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
     "imageUrl": "/images/00056.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
   },
   "00057": {
     "index": 57,
@@ -27208,7 +27208,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
     "imageUrl": "/images/00057.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
   },
   "00058": {
     "index": 58,
@@ -27240,7 +27240,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
     "imageUrl": "/images/00058.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
   },
   "00059": {
     "index": 59,
@@ -27272,7 +27272,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
     "imageUrl": "/images/00059.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
   },
   "00060": {
     "index": 60,
@@ -27303,7 +27303,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 껍질째 아삭 베어 무는 청송 꿀사과 1개그려줘",
     "imageUrl": "/images/00060.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00060.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00060.png"
   },
   "00061": {
     "index": 61,
@@ -27336,7 +27336,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
     "imageUrl": "/images/00061.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
   },
   "00062": {
     "index": 62,
@@ -27368,7 +27368,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
     "imageUrl": "/images/00062.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
   },
   "00063": {
     "index": 63,
@@ -27400,7 +27400,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
     "imageUrl": "/images/00063.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
   },
   "00064": {
     "index": 64,
@@ -27432,7 +27432,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
     "imageUrl": "/images/00064.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
   },
   "00065": {
     "index": 65,
@@ -27463,7 +27463,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 유럽 프리미엄 납작복숭아 & 천도복숭아 플레이트그려줘",
     "imageUrl": "/images/00065.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00065.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00065.png"
   },
   "00066": {
     "index": 66,
@@ -27495,7 +27495,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
     "imageUrl": "/images/00066.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
   },
   "00067": {
     "index": 67,
@@ -27528,7 +27528,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
     "imageUrl": "/images/00067.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
   },
   "00068": {
     "index": 68,
@@ -27560,7 +27560,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
     "imageUrl": "/images/00068.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
   },
   "00069": {
     "index": 69,
@@ -27591,7 +27591,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두바이 초콜릿 피스타치오 카다이프 붕어빵그려줘",
     "imageUrl": "/images/00069.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00069.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00069.png"
   },
   "00070": {
     "index": 70,
@@ -27622,7 +27622,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 대왕 통오징어 튀김이 통째로 올라간 오징어먹물 짜장면그려줘",
     "imageUrl": "/images/00070.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00070.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00070.png"
   },
   "00071": {
     "index": 71,
@@ -27655,7 +27655,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
     "imageUrl": "/images/00071.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
   },
   "00072": {
     "index": 72,
@@ -27686,7 +27686,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 망치로 깨 먹는 대왕 공룡알 화석 초코 빙수그려줘",
     "imageUrl": "/images/00072.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00072.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00072.png"
   },
   "00073": {
     "index": 73,
@@ -27718,7 +27718,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
     "imageUrl": "/images/00073.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
   },
   "00074": {
     "index": 74,
@@ -27750,7 +27750,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
     "imageUrl": "/images/00074.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
   },
   "00075": {
     "index": 75,
@@ -27781,7 +27781,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 생와사비 소프트 아이스크림과 감자칩그려줘",
     "imageUrl": "/images/00075.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00075.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00075.png"
   },
   "00076": {
     "index": 76,
@@ -27813,7 +27813,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00076.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
   },
   "00077": {
     "index": 77,
@@ -27844,7 +27844,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 통메론 한 통을 파서 만든 메론 빙수와 연유 폭포그려줘",
     "imageUrl": "/images/00077.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00077.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00077.png"
   },
   "00078": {
     "index": 78,
@@ -27877,7 +27877,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
     "imageUrl": "/images/00078.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
   },
   "00079": {
     "index": 79,
@@ -27910,7 +27910,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
     "imageUrl": "/images/00079.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
   },
   "00080": {
     "index": 80,
@@ -27942,7 +27942,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
     "imageUrl": "/images/00080.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
   },
   "00081": {
     "index": 81,
@@ -27974,7 +27974,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
     "imageUrl": "/images/00081.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
   },
   "00082": {
     "index": 82,
@@ -28005,7 +28005,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 불향 가득 기사식당 직화 제육볶음과 상추쌈밥그려줘",
     "imageUrl": "/images/00082.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00082.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00082.png"
   },
   "00083": {
     "index": 83,
@@ -28036,7 +28036,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 솥뚜껑 숙성 삼겹살과 청도 미나리 & 볶음밥그려줘",
     "imageUrl": "/images/00083.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00083.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00083.png"
   },
   "00084": {
     "index": 84,
@@ -28069,7 +28069,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
     "imageUrl": "/images/00084.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
   },
   "00085": {
     "index": 85,
@@ -28101,7 +28101,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
     "imageUrl": "/images/00085.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
   },
   "00086": {
     "index": 86,
@@ -28132,7 +28132,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉바속촉 황금올리브 후라이드 + 매콤달콤 양념 반반치킨그려줘",
     "imageUrl": "/images/00086.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00086.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00086.png"
   },
   "00087": {
     "index": 87,
@@ -28163,7 +28163,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 곱이 꽉 찬 한우 소곱창·대창 모둠 구이와 부추무침그려줘",
     "imageUrl": "/images/00087.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00087.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00087.png"
   },
   "00088": {
     "index": 88,
@@ -28195,7 +28195,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
     "imageUrl": "/images/00088.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
   },
   "00089": {
     "index": 89,
@@ -28226,7 +28226,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 연돈 스타일 폭포수 통모짜렐라 치즈 돈까스그려줘",
     "imageUrl": "/images/00089.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00089.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00089.png"
   },
   "00090": {
     "index": 90,
@@ -28258,7 +28258,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00090.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
   },
   "00091": {
     "index": 91,
@@ -28289,7 +28289,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구워 버터 동굴이 뚫린 바삭 소금빵(시오빵) 2개와 아이스 라떼그려줘",
     "imageUrl": "/images/00091.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00091.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00091.png"
   },
   "00092": {
     "index": 92,
@@ -28320,7 +28320,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 겨울철 팥붕·슈붕(붕어빵) 반반 6마리그려줘",
     "imageUrl": "/images/00092.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00092.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00092.png"
   },
   "00093": {
     "index": 93,
@@ -28352,7 +28352,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
     "imageUrl": "/images/00093.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
   },
   "00094": {
     "index": 94,
@@ -28384,7 +28384,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
     "imageUrl": "/images/00094.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
   },
   "00095": {
     "index": 95,
@@ -28415,7 +28415,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 인절미 떡과 국내산 통단팥이 올라간 우유 눈꽃 팥빙수그려줘",
     "imageUrl": "/images/00095.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00095.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00095.png"
   },
   "00096": {
     "index": 96,
@@ -28448,7 +28448,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
     "imageUrl": "/images/00096.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
   },
   "00097": {
     "index": 97,
@@ -28480,7 +28480,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
     "imageUrl": "/images/00097.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
   },
   "00098": {
     "index": 98,
@@ -28512,7 +28512,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
     "imageUrl": "/images/00098.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
   },
   "00099": {
     "index": 99,
@@ -28544,7 +28544,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
     "imageUrl": "/images/00099.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
   },
   "00100": {
     "index": 100,
@@ -28575,7 +28575,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 도깨비에서 공유가 비 내리는 날 김고은에게 사주던 캐나다 소고기 스테이크그려줘",
     "imageUrl": "/images/00100.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00100.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00100.png"
   },
   "00101": {
     "index": 101,
@@ -28607,7 +28607,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
     "imageUrl": "/images/00101.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
   },
   "00102": {
     "index": 102,
@@ -28638,7 +28638,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 범죄도시 장첸이 비닐장갑 끼고 껍질째 뜯던 마라롱샤 (매운 가재)그려줘",
     "imageUrl": "/images/00102.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00102.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00102.png"
   },
   "00103": {
     "index": 103,
@@ -28669,7 +28669,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 응답하라 1988 덕선이네 삼선당 옛날 양념통닭과 사라다그려줘",
     "imageUrl": "/images/00103.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00103.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00103.png"
   },
   "00104": {
     "index": 104,
@@ -28700,7 +28700,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 센과 치히로의 행방불명에서 아빠가 삼키던 거대 육즙 고기 주머니그려줘",
     "imageUrl": "/images/00104.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00104.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00104.png"
   },
   "00105": {
     "index": 105,
@@ -28733,7 +28733,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
     "imageUrl": "/images/00105.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
   },
   "00106": {
     "index": 106,
@@ -28765,7 +28765,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
     "imageUrl": "/images/00106.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
   },
   "00107": {
     "index": 107,
@@ -28797,7 +28797,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
     "imageUrl": "/images/00107.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
   },
   "00108": {
     "index": 108,
@@ -28828,7 +28828,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 드라마 별에서 온 그대 천송이가 첫눈 오는 날 찾던 치맥 (치킨과 캔맥주)그려줘",
     "imageUrl": "/images/00108.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00108.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00108.png"
   },
   "00109": {
     "index": 109,
@@ -28859,7 +28859,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 대부(Godfather) 클레멘자가 마피아 패밀리에게 끓여주던 미트볼 토마토 파스타그려줘",
     "imageUrl": "/images/00109.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00109.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00109.png"
   },
   "00110": {
     "index": 110,
@@ -28891,7 +28891,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
     "imageUrl": "/images/00110.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
   },
   "00111": {
     "index": 111,
@@ -28924,7 +28924,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
     "imageUrl": "/images/00111.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
   },
   "00112": {
     "index": 112,
@@ -28956,7 +28956,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
     "imageUrl": "/images/00112.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
   },
   "00113": {
     "index": 113,
@@ -28988,7 +28988,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
     "imageUrl": "/images/00113.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
   },
   "00114": {
     "index": 114,
@@ -29019,7 +29019,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 아가씨 김태리가 껍질을 까서 김민희 입에 넣어주던 달콤한 백옥 백도 복숭아그려줘",
     "imageUrl": "/images/00114.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00114.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00114.png"
   },
   "00115": {
     "index": 115,
@@ -29051,7 +29051,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
     "imageUrl": "/images/00115.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
   },
   "00116": {
     "index": 116,
@@ -29082,7 +29082,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤알싸한 마늘소스 듬뿍 올린 마늘보쌈과 무김치그려줘",
     "imageUrl": "/images/00116.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00116.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00116.png"
   },
   "00117": {
     "index": 117,
@@ -29113,7 +29113,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 코끝이 찡한 부산 부평동식 해파리 냉채족발그려줘",
     "imageUrl": "/images/00117.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00117.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00117.png"
   },
   "00118": {
     "index": 118,
@@ -29144,7 +29144,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭 속은 쫀득한 독일 슈바인학센식 튀김족발그려줘",
     "imageUrl": "/images/00118.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00118.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00118.png"
   },
   "00119": {
     "index": 119,
@@ -29176,7 +29176,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
     "imageUrl": "/images/00119.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
   },
   "00120": {
     "index": 120,
@@ -29208,7 +29208,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
     "imageUrl": "/images/00120.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
   },
   "00121": {
     "index": 121,
@@ -29239,7 +29239,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤 콩나물 산더미 마산 아구찜과 볶음밥그려줘",
     "imageUrl": "/images/00121.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00121.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00121.png"
   },
   "00122": {
     "index": 122,
@@ -29270,7 +29270,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스팸·소시지·라면사리 듬뿍 들어간 의정부 원조 부대찌개그려줘",
     "imageUrl": "/images/00122.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00122.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00122.png"
   },
   "00123": {
     "index": 123,
@@ -29303,7 +29303,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
     "imageUrl": "/images/00123.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
   },
   "00124": {
     "index": 124,
@@ -29334,7 +29334,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에 구워 기름기 쏙 뺀 매콤 바삭 고추바사삭 치킨과 마블링 소스그려줘",
     "imageUrl": "/images/00124.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00124.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00124.png"
   },
   "00125": {
     "index": 125,
@@ -29365,7 +29365,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 원조 교촌 스타일 짭조름한 간장 윙봉 콤보그려줘",
     "imageUrl": "/images/00125.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00125.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00125.png"
   },
   "00126": {
     "index": 126,
@@ -29396,7 +29396,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 향 진하게 밴 양념 숯불바베큐 치킨과 우동사리 추가그려줘",
     "imageUrl": "/images/00126.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00126.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00126.png"
   },
   "00127": {
     "index": 127,
@@ -29428,7 +29428,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
     "imageUrl": "/images/00127.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
   },
   "00128": {
     "index": 128,
@@ -29460,7 +29460,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
     "imageUrl": "/images/00128.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
   },
   "00129": {
     "index": 129,
@@ -29492,7 +29492,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
     "imageUrl": "/images/00129.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
   },
   "00130": {
     "index": 130,
@@ -29523,7 +29523,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 12시간 훈연해 결대로 찢은 텍사스 풀드포크 바베큐 버거그려줘",
     "imageUrl": "/images/00130.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00130.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00130.png"
   },
   "00131": {
     "index": 131,
@@ -29554,7 +29554,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 불맛 확 살아있는 양파 듬뿍 삼선 간짜장과 반숙 계란후라이그려줘",
     "imageUrl": "/images/00131.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00131.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00131.png"
   },
   "00132": {
     "index": 132,
@@ -29586,7 +29586,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
     "imageUrl": "/images/00132.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
   },
   "00133": {
     "index": 133,
@@ -29619,7 +29619,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
     "imageUrl": "/images/00133.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
   },
   "00134": {
     "index": 134,
@@ -29651,7 +29651,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
     "imageUrl": "/images/00134.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
   },
   "00135": {
     "index": 135,
@@ -29682,7 +29682,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 튀긴 왕새우·장어·단호박이 탑처럼 쌓인 에도식 스페셜 텐동그려줘",
     "imageUrl": "/images/00135.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00135.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00135.png"
   },
   "00136": {
     "index": 136,
@@ -29713,7 +29713,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 참치·연어·광어·연어알이 가득한 바다 한 그릇 카이센동그려줘",
     "imageUrl": "/images/00136.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00136.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00136.png"
   },
   "00137": {
     "index": 137,
@@ -29745,7 +29745,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
     "imageUrl": "/images/00137.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
   },
   "00138": {
     "index": 138,
@@ -29776,7 +29776,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불 돼지고기와 새콤달콤 느억맘 소스에 적셔 먹는 하노이식 분짜그려줘",
     "imageUrl": "/images/00138.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00138.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00138.png"
   },
   "00139": {
     "index": 139,
@@ -29807,7 +29807,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새우와 레몬그라스 향이 폭발하는 세계 3대 수프 똠얌꿍과 쌀국수면그려줘",
     "imageUrl": "/images/00139.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00139.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00139.png"
   },
   "00140": {
     "index": 140,
@@ -29838,7 +29838,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 부드러운 옐로우 커리 푸팟퐁커리그려줘",
     "imageUrl": "/images/00140.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00140.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00140.png"
   },
   "00141": {
     "index": 141,
@@ -29871,7 +29871,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
     "imageUrl": "/images/00141.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
   },
   "00142": {
     "index": 142,
@@ -29903,7 +29903,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
     "imageUrl": "/images/00142.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
   },
   "00143": {
     "index": 143,
@@ -29935,7 +29935,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
     "imageUrl": "/images/00143.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
   },
   "00144": {
     "index": 144,
@@ -29968,7 +29968,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
     "imageUrl": "/images/00144.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
   },
   "00145": {
     "index": 145,
@@ -30001,7 +30001,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
     "imageUrl": "/images/00145.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
   },
   "00146": {
     "index": 146,
@@ -30033,7 +30033,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
     "imageUrl": "/images/00146.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
   },
   "00147": {
     "index": 147,
@@ -30064,7 +30064,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 바삭하고 속은 쫀득하게 카라멜화된 꾸덕 황치즈 버터바그려줘",
     "imageUrl": "/images/00147.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00147.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00147.png"
   },
   "00148": {
     "index": 148,
@@ -30096,7 +30096,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
     "imageUrl": "/images/00148.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
   },
   "00149": {
     "index": 149,
@@ -30128,7 +30128,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
     "imageUrl": "/images/00149.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
   },
   "00150": {
     "index": 150,
@@ -30160,7 +30160,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
     "imageUrl": "/images/00150.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
   },
   "00151": {
     "index": 151,
@@ -30191,7 +30191,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤 버팔로 윙 10조각과 블루치즈 딥 & 샐러리 스틱그려줘",
     "imageUrl": "/images/00151.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00151.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00151.png"
   },
   "00152": {
     "index": 152,
@@ -30222,7 +30222,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 치폴레(Chipotle) 스타일 과카몰리 비프 스테이크 부리또 볼그려줘",
     "imageUrl": "/images/00152.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00152.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00152.png"
   },
   "00153": {
     "index": 153,
@@ -30255,7 +30255,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
     "imageUrl": "/images/00153.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
   },
   "00154": {
     "index": 154,
@@ -30287,7 +30287,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
     "imageUrl": "/images/00154.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
   },
   "00155": {
     "index": 155,
@@ -30318,7 +30318,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 가평 휴게소 필수 오픈런 가평 맛남샌드 (잣 & 솔티드 카라멜)그려줘",
     "imageUrl": "/images/00155.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00155.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00155.png"
   },
   "00156": {
     "index": 156,
@@ -30350,7 +30350,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
     "imageUrl": "/images/00156.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
   },
   "00157": {
     "index": 157,
@@ -30382,7 +30382,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
     "imageUrl": "/images/00157.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
   },
   "00158": {
     "index": 158,
@@ -30414,7 +30414,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
     "imageUrl": "/images/00158.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
   },
   "00159": {
     "index": 159,
@@ -30446,7 +30446,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
     "imageUrl": "/images/00159.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
   },
   "00160": {
     "index": 160,
@@ -30477,7 +30477,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 굴려 껍질은 짭짤하고 속은 포슬한 휴게소 알감자 버터구이그려줘",
     "imageUrl": "/images/00160.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00160.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00160.png"
   },
   "00161": {
     "index": 161,
@@ -30508,7 +30508,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 1미터 늘어나는 경주 첨성대 십원빵그려줘",
     "imageUrl": "/images/00161.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00161.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00161.png"
   },
   "00162": {
     "index": 162,
@@ -30541,7 +30541,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
     "imageUrl": "/images/00162.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
   },
   "00163": {
     "index": 163,
@@ -30573,7 +30573,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
     "imageUrl": "/images/00163.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
   },
   "00164": {
     "index": 164,
@@ -30605,7 +30605,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
     "imageUrl": "/images/00164.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
   },
   "00165": {
     "index": 165,
@@ -30636,7 +30636,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 등산 후 계곡 평상에서 먹는 한방 능이버섯 토종닭 백숙과 찰밥죽그려줘",
     "imageUrl": "/images/00165.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00165.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00165.png"
   },
   "00166": {
     "index": 166,
@@ -30668,7 +30668,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
     "imageUrl": "/images/00166.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
   },
   "00167": {
     "index": 167,
@@ -30700,7 +30700,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
     "imageUrl": "/images/00167.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
   },
   "00168": {
     "index": 168,
@@ -30732,7 +30732,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
     "imageUrl": "/images/00168.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
   },
   "00169": {
     "index": 169,
@@ -30764,7 +30764,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
     "imageUrl": "/images/00169.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
   },
   "00170": {
     "index": 170,
@@ -30796,7 +30796,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
     "imageUrl": "/images/00170.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
   },
   "00171": {
     "index": 171,
@@ -30827,7 +30827,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 정통 로마식 관찰레와 페코리노 치즈로 만든 노란빛 까르보나라그려줘",
     "imageUrl": "/images/00171.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00171.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00171.png"
   },
   "00172": {
     "index": 172,
@@ -30859,7 +30859,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
     "imageUrl": "/images/00172.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
   },
   "00173": {
     "index": 173,
@@ -30890,7 +30890,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 세이지 버터에 바삭하게 구워낸 홈메이드 단호박 뇨끼그려줘",
     "imageUrl": "/images/00173.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00173.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00173.png"
   },
   "00174": {
     "index": 174,
@@ -30921,7 +30921,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바다 향 가득한 지중해식 오징어 먹물 해산물 리조또그려줘",
     "imageUrl": "/images/00174.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00174.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00174.png"
   },
   "00175": {
     "index": 175,
@@ -30952,7 +30952,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 포르치니 버섯 향이 진동하는 파르미지아노 크림 리조또그려줘",
     "imageUrl": "/images/00175.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00175.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00175.png"
   },
   "00176": {
     "index": 176,
@@ -30983,7 +30983,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 모시조개와 마늘 화이트와인으로 맛을 낸 봉골레 링귀니그려줘",
     "imageUrl": "/images/00176.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00176.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00176.png"
   },
   "00177": {
     "index": 177,
@@ -31014,7 +31014,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 소고기 라구 소스와 베샤멜을 겹겹이 쌓아 구운 볼로냐식 라자냐그려줘",
     "imageUrl": "/images/00177.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00177.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00177.png"
   },
   "00178": {
     "index": 178,
@@ -31045,7 +31045,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 제노바식 바질 페스토와 잣, 그라나파다노 치즈의 트로피에 파스타그려줘",
     "imageUrl": "/images/00178.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00178.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00178.png"
   },
   "00179": {
     "index": 179,
@@ -31077,7 +31077,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
     "imageUrl": "/images/00179.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
   },
   "00180": {
     "index": 180,
@@ -31108,7 +31108,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 블랙 트러플 슬라이스와 양송이 크림소스를 올린 수제 감자 뇨끼그려줘",
     "imageUrl": "/images/00180.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00180.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00180.png"
   },
   "00181": {
     "index": 181,
@@ -31139,7 +31139,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯에 직화로 구워 특제 타레 소스를 입힌 홋카이도 오비히로식 부타동그려줘",
     "imageUrl": "/images/00181.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00181.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00181.png"
   },
   "00182": {
     "index": 182,
@@ -31171,7 +31171,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
     "imageUrl": "/images/00182.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
   },
   "00183": {
     "index": 183,
@@ -31203,7 +31203,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
     "imageUrl": "/images/00183.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
   },
   "00184": {
     "index": 184,
@@ -31234,7 +31234,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 쯔유 국물에 적셔 먹는 일본 관동식 특상 소고기 스키야키 나베그려줘",
     "imageUrl": "/images/00184.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00184.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00184.png"
   },
   "00185": {
     "index": 185,
@@ -31266,7 +31266,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
     "imageUrl": "/images/00185.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
   },
   "00186": {
     "index": 186,
@@ -31297,7 +31297,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 걸쭉하고 진한 가쓰오 돈코츠 육수에 차가운 극태면을 찍어 먹는 츠케멘그려줘",
     "imageUrl": "/images/00186.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00186.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00186.png"
   },
   "00187": {
     "index": 187,
@@ -31328,7 +31328,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 향 가득 머금은 정통 일본식 수제 야키토리(닭꼬치) 7종 모둠 플래터그려줘",
     "imageUrl": "/images/00187.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00187.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00187.png"
   },
   "00188": {
     "index": 188,
@@ -31359,7 +31359,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 3단계로 즐기는 나고야식 장어덮밥 특선 히츠마부시 (장어 한 마리 반)그려줘",
     "imageUrl": "/images/00188.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00188.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00188.png"
   },
   "00189": {
     "index": 189,
@@ -31391,7 +31391,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
     "imageUrl": "/images/00189.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
   },
   "00190": {
     "index": 190,
@@ -31422,7 +31422,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
     "imageUrl": "/images/00190.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00190.png"
   },
   "00191": {
     "index": 191,
@@ -31455,7 +31455,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
     "imageUrl": "/images/00191.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
   },
   "00192": {
     "index": 192,
@@ -31486,7 +31486,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 토마토, 크림으로 끓여낸 달콤고소한 치킨 마크니 (버터 치킨)그려줘",
     "imageUrl": "/images/00192.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00192.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00192.png"
   },
   "00193": {
     "index": 193,
@@ -31517,7 +31517,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 향신료와 바스마티 쌀, 닭고기를 겹겹이 쪄낸 인도 궁중 요리 치킨 비리야니그려줘",
     "imageUrl": "/images/00193.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00193.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00193.png"
   },
   "00194": {
     "index": 194,
@@ -31549,7 +31549,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
     "imageUrl": "/images/00194.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
   },
   "00195": {
     "index": 195,
@@ -31581,7 +31581,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
     "imageUrl": "/images/00195.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
   },
   "00196": {
     "index": 196,
@@ -31614,7 +31614,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
     "imageUrl": "/images/00196.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
   },
   "00197": {
     "index": 197,
@@ -31645,7 +31645,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 오리 껍질과 밀전병, 야채 야장 소스의 베이징덕그려줘",
     "imageUrl": "/images/00197.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00197.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00197.png"
   },
   "00198": {
     "index": 198,
@@ -31677,7 +31677,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
     "imageUrl": "/images/00198.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
   },
   "00199": {
     "index": 199,
@@ -31708,7 +31708,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼얼한 마라 고추기름과 고소한 땅콩 참깨장 소스의 사천 탄탄면그려줘",
     "imageUrl": "/images/00199.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00199.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00199.png"
   },
   "00200": {
     "index": 200,
@@ -31739,7 +31739,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오향 향신료에 삶아 숟가락으로 부서질 만큼 연한 항저우식 정통 동파육그려줘",
     "imageUrl": "/images/00200.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00200.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00200.png"
   },
   "00201": {
     "index": 201,
@@ -31771,7 +31771,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
     "imageUrl": "/images/00201.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
   },
   "00202": {
     "index": 202,
@@ -31802,7 +31802,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 와인에 장시간 푹 고아 부드럽게 찢어지는 비프 부르기뇽 (소고기 스튜)그려줘",
     "imageUrl": "/images/00202.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00202.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00202.png"
   },
   "00203": {
     "index": 203,
@@ -31834,7 +31834,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
     "imageUrl": "/images/00203.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
   },
   "00204": {
     "index": 204,
@@ -31866,7 +31866,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
     "imageUrl": "/images/00204.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
   },
   "00205": {
     "index": 205,
@@ -31897,7 +31897,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭고기를 진한 레드 와인과 베이컨, 버섯에 졸여낸 프랑스 전통 코코뱅 (Coq au Vin)그려줘",
     "imageUrl": "/images/00205.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00205.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00205.png"
   },
   "00206": {
     "index": 206,
@@ -31929,7 +31929,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
     "imageUrl": "/images/00206.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
   },
   "00207": {
     "index": 207,
@@ -31960,7 +31960,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터와 메이플 시럽을 3단으로 쌓아 올린 아메리칸 버터밀크 팬케이크 타워그려줘",
     "imageUrl": "/images/00207.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00207.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00207.png"
   },
   "00208": {
     "index": 208,
@@ -31992,7 +31992,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
     "imageUrl": "/images/00208.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
   },
   "00209": {
     "index": 209,
@@ -32023,7 +32023,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 마늘 버터를 채운 뉴올리언스 포보이(Po-Boy) 샌드위치그려줘",
     "imageUrl": "/images/00209.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00209.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00209.png"
   },
   "00210": {
     "index": 210,
@@ -32055,7 +32055,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
     "imageUrl": "/images/00210.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
   },
   "00211": {
     "index": 211,
@@ -32087,7 +32087,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
     "imageUrl": "/images/00211.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
   },
   "00212": {
     "index": 212,
@@ -32118,7 +32118,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 안두이 소시지와 닭고기, 통새우를 케이준 향신료 밥에 볶은 루이지애나 잠발라야그려줘",
     "imageUrl": "/images/00212.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00212.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00212.png"
   },
   "00213": {
     "index": 213,
@@ -32149,7 +32149,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼음 동동 띄워 달콤고소하게 탄 옛날 방앗간 꿀 미숫가루 대접그려줘",
     "imageUrl": "/images/00213.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00213.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00213.png"
   },
   "00214": {
     "index": 214,
@@ -32180,7 +32180,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 귀리와 치아씨드를 우유에 밤새 불린 블루베리 오버나이트 오트밀그려줘",
     "imageUrl": "/images/00214.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00214.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00214.png"
   },
   "00215": {
     "index": 215,
@@ -32212,7 +32212,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
     "imageUrl": "/images/00215.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
   },
   "00216": {
     "index": 216,
@@ -32244,7 +32244,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
     "imageUrl": "/images/00216.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
   },
   "00217": {
     "index": 217,
@@ -32275,7 +32275,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 케일·사과·샐러리를 레몬즙과 함께 착즙한 모닝 그린 클렌즈 해독주스그려줘",
     "imageUrl": "/images/00217.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00217.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00217.png"
   },
   "00218": {
     "index": 218,
@@ -32306,7 +32306,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 단백질 30g 충전 초코 프로틴 쉐이크와 잘 익은 바나나 1개그려줘",
     "imageUrl": "/images/00218.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00218.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00218.png"
   },
   "00219": {
     "index": 219,
@@ -32337,7 +32337,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 통곡물 호밀 식빵에 100% 무첨가 땅콩버터와 바나나 슬라이스를 얹은 토스트그려줘",
     "imageUrl": "/images/00219.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00219.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00219.png"
   },
   "00220": {
     "index": 220,
@@ -32369,7 +32369,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
     "imageUrl": "/images/00220.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
   },
   "00221": {
     "index": 221,
@@ -32401,7 +32401,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
     "imageUrl": "/images/00221.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
   },
   "00222": {
     "index": 222,
@@ -32432,7 +32432,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 고소한 검은깨와 찹쌀, 우유를 부드럽게 쑨 궁중 흑임자 타락죽그려줘",
     "imageUrl": "/images/00222.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00222.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00222.png"
   },
   "00223": {
     "index": 223,
@@ -32463,7 +32463,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 삶은 달걀을 으깨어 마요네즈에 버무린 통밀 모닝빵 에그 샌드위치 2개그려줘",
     "imageUrl": "/images/00223.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00223.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00223.png"
   },
   "00224": {
     "index": 224,
@@ -32494,7 +32494,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 공복을 깨우는 아삭 세척 사과 1알과 구운 통아몬드 15알그려줘",
     "imageUrl": "/images/00224.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00224.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00224.png"
   },
   "00225": {
     "index": 225,
@@ -32525,7 +32525,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 국산 무가당 백태 두유 한 잔과 촉촉한 삶은 반숙 계란 2알그려줘",
     "imageUrl": "/images/00225.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00225.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00225.png"
   },
   "00226": {
     "index": 226,
@@ -32557,7 +32557,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
     "imageUrl": "/images/00226.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
   },
   "00227": {
     "index": 227,
@@ -32588,7 +32588,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 호텔 조식 스타일 몽글몽글 부드러운 버터 스크램블 에그와 구운 방울토마토그려줘",
     "imageUrl": "/images/00227.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00227.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00227.png"
   },
   "00228": {
     "index": 228,
@@ -32620,7 +32620,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
     "imageUrl": "/images/00228.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
   },
   "00229": {
     "index": 229,
@@ -32651,7 +32651,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터에 노릇하게 구워 메이플 시럽과 계핏가루를 솔솔 뿌린 클래식 프렌치 토스트그려줘",
     "imageUrl": "/images/00229.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00229.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00229.png"
   },
   "00230": {
     "index": 230,
@@ -32682,7 +32682,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 속을 편안하게 풀어주는 맑고 시원한 뚝배기 콩나물 황태 해장국그려줘",
     "imageUrl": "/images/00230.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00230.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00230.png"
   },
   "00231": {
     "index": 231,
@@ -32714,7 +32714,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
     "imageUrl": "/images/00231.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
   },
   "00232": {
     "index": 232,
@@ -32745,7 +32745,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 볶은 율무·현미·검은콩을 갈아 만든 든든한 통곡물 선식 곡물 라떼그려줘",
     "imageUrl": "/images/00232.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00232.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00232.png"
   },
   "00233": {
     "index": 233,
@@ -32776,7 +32776,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 슈퍼푸드 아사이베리 퓨레에 바나나, 그래놀라, 치아씨드를 얹은 아사이 볼그려줘",
     "imageUrl": "/images/00233.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00233.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00233.png"
   },
   "00234": {
     "index": 234,
@@ -32808,7 +32808,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
     "imageUrl": "/images/00234.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
   },
   "00235": {
     "index": 235,
@@ -32839,7 +32839,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 사과(A)·비트(B)·당근(C) 황금 비율로 짜낸 모닝 ABC 착즙 클렌즈 주스그려줘",
     "imageUrl": "/images/00235.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00235.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00235.png"
   },
   "00236": {
     "index": 236,
@@ -32870,7 +32870,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 잉글리시 머핀 사이에 짭조름한 캐나디안 베이컨과 치즈, 계란후라이 맥모닝 샌드위치그려줘",
     "imageUrl": "/images/00236.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00236.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00236.png"
   },
   "00237": {
     "index": 237,
@@ -32901,7 +32901,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 자몽 반쪽을 숟가락으로 떠먹고 곁들이는 꾸덕한 그릭 요거트 볼그려줘",
     "imageUrl": "/images/00237.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00237.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00237.png"
   },
   "00238": {
     "index": 238,
@@ -32932,7 +32932,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 가평 잣을 곱게 갈아 찹쌀과 함께 은근히 쑨 고소한 가평 잣죽그려줘",
     "imageUrl": "/images/00238.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00238.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00238.png"
   },
   "00239": {
     "index": 239,
@@ -32963,7 +32963,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 포슬포슬 쪄낸 해남 햇감자 2알과 천일염 살짝, 차가운 흰 우유 한 잔그려줘",
     "imageUrl": "/images/00239.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00239.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00239.png"
   },
   "00240": {
     "index": 240,
@@ -32995,7 +32995,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
     "imageUrl": "/images/00240.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
   },
   "00241": {
     "index": 241,
@@ -33027,7 +33027,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
     "imageUrl": "/images/00241.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
   },
   "00242": {
     "index": 242,
@@ -33058,7 +33058,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 꿀과 호두 분태를 듬뿍 뿌린 따뜻한 시나몬 오트밀 밀크볼그려줘",
     "imageUrl": "/images/00242.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00242.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00242.png"
   },
   "00243": {
     "index": 243,
@@ -33091,7 +33091,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
     "imageUrl": "/images/00243.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
   },
   "00244": {
     "index": 244,
@@ -33124,7 +33124,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
     "imageUrl": "/images/00244.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
   },
   "00245": {
     "index": 245,
@@ -33156,7 +33156,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
     "imageUrl": "/images/00245.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
   },
   "00246": {
     "index": 246,
@@ -33189,7 +33189,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
     "imageUrl": "/images/00246.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
   },
   "00247": {
     "index": 247,
@@ -33221,7 +33221,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
     "imageUrl": "/images/00247.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
   },
   "00248": {
     "index": 248,
@@ -33254,7 +33254,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
     "imageUrl": "/images/00248.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
   },
   "00249": {
     "index": 249,
@@ -33287,7 +33287,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
     "imageUrl": "/images/00249.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
   },
   "00250": {
     "index": 250,
@@ -33320,7 +33320,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
     "imageUrl": "/images/00250.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
   },
   "00251": {
     "index": 251,
@@ -33353,7 +33353,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
     "imageUrl": "/images/00251.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
   },
   "00252": {
     "index": 252,
@@ -33386,7 +33386,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
     "imageUrl": "/images/00252.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
   },
   "00253": {
     "index": 253,
@@ -33419,7 +33419,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
     "imageUrl": "/images/00253.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
   },
   "00254": {
     "index": 254,
@@ -33451,7 +33451,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
     "imageUrl": "/images/00254.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
   },
   "00255": {
     "index": 255,
@@ -33484,7 +33484,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
     "imageUrl": "/images/00255.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
   },
   "00256": {
     "index": 256,
@@ -33516,7 +33516,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00256.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
   },
   "00257": {
     "index": 257,
@@ -33549,7 +33549,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
     "imageUrl": "/images/00257.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
   },
   "00258": {
     "index": 258,
@@ -33582,7 +33582,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
     "imageUrl": "/images/00258.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
   },
   "00259": {
     "index": 259,
@@ -33614,7 +33614,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
     "imageUrl": "/images/00259.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
   },
   "00260": {
     "index": 260,
@@ -33647,7 +33647,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
     "imageUrl": "/images/00260.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
   },
   "00261": {
     "index": 261,
@@ -33679,7 +33679,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
     "imageUrl": "/images/00261.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
   },
   "00262": {
     "index": 262,
@@ -33711,7 +33711,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
     "imageUrl": "/images/00262.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
   },
   "00263": {
     "index": 263,
@@ -33743,7 +33743,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
     "imageUrl": "/images/00263.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
   },
   "00264": {
     "index": 264,
@@ -33776,7 +33776,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
     "imageUrl": "/images/00264.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
   },
   "00265": {
     "index": 265,
@@ -33809,7 +33809,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
     "imageUrl": "/images/00265.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
   },
   "00266": {
     "index": 266,
@@ -33840,7 +33840,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 국내산 마늘의 알싸한 풍미가 가득한 뽀득뽀득 의성마늘 프랑크 핫바그려줘",
     "imageUrl": "/images/00266.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00266.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00266.png"
   },
   "00267": {
     "index": 267,
@@ -33871,7 +33871,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤 고추장 불향 제육과 7첩 반찬이 푸짐한 GS25 혜자로운 집밥 제육 도시락그려줘",
     "imageUrl": "/images/00267.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00267.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00267.png"
   },
   "00268": {
     "index": 268,
@@ -33902,7 +33902,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 너비아니와 불고기, 계란말이가 들어간 알찬 CU 백종원 한판 도시락그려줘",
     "imageUrl": "/images/00268.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00268.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00268.png"
   },
   "00269": {
     "index": 269,
@@ -33934,7 +33934,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
     "imageUrl": "/images/00269.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
   },
   "00270": {
     "index": 270,
@@ -33966,7 +33966,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
     "imageUrl": "/images/00270.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
   },
   "00271": {
     "index": 271,
@@ -33997,7 +33997,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참나무 훈제 향이 솔솔 나는 큼직하고 쫄깃한 편의점 스모크 훈제 닭다리그려줘",
     "imageUrl": "/images/00271.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00271.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00271.png"
   },
   "00272": {
     "index": 272,
@@ -34028,7 +34028,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스위트콘과 마요네즈, 모짜렐라 치즈를 듬뿍 올려 오븐에 구운 편의점 콘치즈 그라탕그려줘",
     "imageUrl": "/images/00272.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00272.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00272.png"
   },
   "00273": {
     "index": 273,
@@ -34060,7 +34060,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
     "imageUrl": "/images/00273.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
   },
   "00274": {
     "index": 274,
@@ -34092,7 +34092,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
     "imageUrl": "/images/00274.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
   },
   "00275": {
     "index": 275,
@@ -34124,7 +34124,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
     "imageUrl": "/images/00275.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
   },
   "00276": {
     "index": 276,
@@ -34156,7 +34156,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
     "imageUrl": "/images/00276.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
   },
   "00277": {
     "index": 277,
@@ -34187,7 +34187,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 방콕 야시장 땅콩가루와 숙주, 왕새우를 센 불에 볶아낸 팟타이 꿍그려줘",
     "imageUrl": "/images/00277.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00277.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00277.png"
   },
   "00278": {
     "index": 278,
@@ -34219,7 +34219,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
     "imageUrl": "/images/00278.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
   },
   "00279": {
     "index": 279,
@@ -34251,7 +34251,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
     "imageUrl": "/images/00279.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
   },
   "00280": {
     "index": 280,
@@ -34283,7 +34283,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
     "imageUrl": "/images/00280.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
   },
   "00281": {
     "index": 281,
@@ -34315,7 +34315,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
     "imageUrl": "/images/00281.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
   },
   "00282": {
     "index": 282,
@@ -34346,7 +34346,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 그리스 전통 화덕 피타 브레드에 구운 양고기와 차지키 요거트 소스를 감싼 기로스 랩그려줘",
     "imageUrl": "/images/00282.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00282.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00282.png"
   },
   "00283": {
     "index": 283,
@@ -34377,7 +34377,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 터키 이스탄불 갈라타 다리 명물 바게트 속에 구운 통고등어와 양파를 넣은 고등어 케밥그려줘",
     "imageUrl": "/images/00283.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00283.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00283.png"
   },
   "00284": {
     "index": 284,
@@ -34408,7 +34408,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 천상의 맛 우유 지방을 굳힌 카이막(Kaymak)과 꿀, 갓 구운 피데 빵 세트그려줘",
     "imageUrl": "/images/00284.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00284.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00284.png"
   },
   "00285": {
     "index": 285,
@@ -34439,7 +34439,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 대만 야시장 얼굴만 한 크기의 바삭하고 매콤한 오향 대왕 닭가슴살 튀김 지파이그려줘",
     "imageUrl": "/images/00285.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00285.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00285.png"
   },
   "00286": {
     "index": 286,
@@ -34470,7 +34470,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 홍콩식 얇고 바삭한 페이스트리 도우에 달걀 커스터드가 촉촉하게 채워진 에그타르트 3개그려줘",
     "imageUrl": "/images/00286.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00286.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00286.png"
   },
   "00287": {
     "index": 287,
@@ -34501,7 +34501,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 인도네시아 전통 달콤 짭조름한 케찹 마니스 소스에 새우를 볶은 나시고랭과 계란후라이그려줘",
     "imageUrl": "/images/00287.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00287.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00287.png"
   },
   "00288": {
     "index": 288,
@@ -34533,7 +34533,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
     "imageUrl": "/images/00288.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
   },
   "00289": {
     "index": 289,
@@ -34564,7 +34564,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭하게 토스트한 식빵에 달콤한 판단 카야잼과 차가운 버터를 넣은 싱가포르 카야 토스트그려줘",
     "imageUrl": "/images/00289.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00289.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00289.png"
   },
   "00290": {
     "index": 290,
@@ -34595,7 +34595,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤달콤한 칠리 토마토 계란 소스에 버무린 싱가포르 점보 칠리크랩과 튀긴 꽃빵 만토우그려줘",
     "imageUrl": "/images/00290.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00290.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00290.png"
   },
   "00291": {
     "index": 291,
@@ -34627,7 +34627,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
     "imageUrl": "/images/00291.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
   },
   "00292": {
     "index": 292,
@@ -34659,7 +34659,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
     "imageUrl": "/images/00292.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
   },
   "00293": {
     "index": 293,
@@ -34691,7 +34691,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
     "imageUrl": "/images/00293.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
   },
   "00294": {
     "index": 294,
@@ -34723,7 +34723,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
     "imageUrl": "/images/00294.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
   },
   "00295": {
     "index": 295,
@@ -34754,7 +34754,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 투구 모양 무쇠 불판에 숙주와 대파를 두르고 구운 삿포로식 생양고기 징기스칸그려줘",
     "imageUrl": "/images/00295.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00295.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00295.png"
   },
   "00296": {
     "index": 296,
@@ -34786,7 +34786,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
     "imageUrl": "/images/00296.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
   },
   "00297": {
     "index": 297,
@@ -34818,7 +34818,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
     "imageUrl": "/images/00297.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
   },
   "00298": {
     "index": 298,
@@ -34850,7 +34850,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
     "imageUrl": "/images/00298.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
   },
   "00299": {
     "index": 299,
@@ -34882,7 +34882,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
     "imageUrl": "/images/00299.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
   },
   "00300": {
     "index": 300,
@@ -34913,7 +34913,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 시나몬과 사과를 듬뿍 채워 바삭한 격자 파이로 구운 정통 아메리칸 애플파이그려줘",
     "imageUrl": "/images/00300.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00300.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00300.png"
   },
   "00301": {
     "index": 301,
@@ -34944,7 +34944,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 포르투갈 리스본 벨렘식 겉을 바짝 태워 카라멜라이징한 수제 에그타르트 2개그려줘",
     "imageUrl": "/images/00301.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00301.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00301.png"
   },
   "00302": {
     "index": 302,
@@ -34976,7 +34976,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
     "imageUrl": "/images/00302.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
   },
   "00303": {
     "index": 303,
@@ -35007,7 +35007,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 백탄에 구워 마블링 육즙이 뚝뚝 떨어지는 한우 1++ 꽃등심 구이그려줘",
     "imageUrl": "/images/00303.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00303.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00303.png"
   },
   "00304": {
     "index": 304,
@@ -35039,7 +35039,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
     "imageUrl": "/images/00304.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
   },
   "00305": {
     "index": 305,
@@ -35070,7 +35070,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 소 곱창, 대창, 막창, 염통을 부추와 함께 지글지글 굽는 소 모둠 곱창구이그려줘",
     "imageUrl": "/images/00305.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00305.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00305.png"
   },
   "00306": {
     "index": 306,
@@ -35101,7 +35101,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 돼지고기 앞다리살 숭덩숭덩 썰어 넣고 자글자글 끓인 얼큰 뚝배기 돼지 김치찌개그려줘",
     "imageUrl": "/images/00306.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00306.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00306.png"
   },
   "00307": {
     "index": 307,
@@ -35133,7 +35133,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
     "imageUrl": "/images/00307.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
   },
   "00308": {
     "index": 308,
@@ -35165,7 +35165,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
     "imageUrl": "/images/00308.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
   },
   "00309": {
     "index": 309,
@@ -35197,7 +35197,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
     "imageUrl": "/images/00309.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
   },
   "00310": {
     "index": 310,
@@ -35229,7 +35229,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
     "imageUrl": "/images/00310.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
   },
   "00311": {
     "index": 311,
@@ -35260,7 +35260,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 산지 직송 싱싱한 통오징어를 내장째 쪄낸 녹진한 오징어 통찜그려줘",
     "imageUrl": "/images/00311.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00311.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00311.png"
   },
   "00312": {
     "index": 312,
@@ -35292,7 +35292,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
     "imageUrl": "/images/00312.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
   },
   "00313": {
     "index": 313,
@@ -35323,7 +35323,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 백합, 가리비, 키조개, 홍합을 산더미처럼 쌓아 맑고 시원하게 끓인 조개전골그려줘",
     "imageUrl": "/images/00313.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00313.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00313.png"
   },
   "00314": {
     "index": 314,
@@ -35355,7 +35355,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
     "imageUrl": "/images/00314.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
   },
   "00315": {
     "index": 315,
@@ -35386,7 +35386,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 직화로 구워 불향 가득 매콤하게 뼈를 발라낸 무뼈 닭발과 뚝배기 계란찜그려줘",
     "imageUrl": "/images/00315.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00315.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00315.png"
   },
   "00316": {
     "index": 316,
@@ -35417,7 +35417,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 선홍빛 소고기 양지 슬라이스와 신선한 채소를 맑은 육수에 살랑살랑 흔들어 먹는 소고기 샤브샤브그려줘",
     "imageUrl": "/images/00316.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00316.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00316.png"
   },
   "00317": {
     "index": 317,
@@ -35448,7 +35448,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 얼큰하고 진한 육개장 사골 국물에 칼국수 생면을 말아낸 육개장 칼국수 (육칼)그려줘",
     "imageUrl": "/images/00317.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00317.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00317.png"
   },
   "00318": {
     "index": 318,
@@ -35481,7 +35481,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
     "imageUrl": "/images/00318.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
   },
   "00319": {
     "index": 319,
@@ -35513,7 +35513,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
     "imageUrl": "/images/00319.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
   },
   "00320": {
     "index": 320,
@@ -35544,7 +35544,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤달콤 매콤한 초고추장 양념에 쫄깃한 골뱅이와 오이, 파채를 버무린 자연산 골뱅이 소면그려줘",
     "imageUrl": "/images/00320.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00320.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00320.png"
   },
   "00321": {
     "index": 321,
@@ -35575,7 +35575,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 노릇노릇 고소한 버터 향을 입혀 통째로 구워낸 완도산 활전복 버터구이 5미그려줘",
     "imageUrl": "/images/00321.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00321.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00321.png"
   },
   "00322": {
     "index": 322,
@@ -35608,7 +35608,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
     "imageUrl": "/images/00322.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
   },
   "00323": {
     "index": 323,
@@ -35639,7 +35639,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판 위에서 꿈틀꿈틀 구워 매콤한 고추장 양념을 덧바른 자갈치 숯불 꼼장어 구이그려줘",
     "imageUrl": "/images/00323.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00323.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00323.png"
   },
   "00324": {
     "index": 324,
@@ -35670,7 +35670,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참기름과 통깨, 풋고추를 넣고 칼로 탕탕 쳐낸 싱싱한 목포 산낙지 탕탕이그려줘",
     "imageUrl": "/images/00324.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00324.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00324.png"
   },
   "00325": {
     "index": 325,
@@ -35702,7 +35702,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
     "imageUrl": "/images/00325.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
   },
   "00326": {
     "index": 326,
@@ -35733,7 +35733,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 당일 도축한 찰진 한우 생고기를 깍둑 썰어 마늘 고추장 양념에 찍어 먹는 대구 뭉티기그려줘",
     "imageUrl": "/images/00326.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00326.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00326.png"
   },
   "00327": {
     "index": 327,
@@ -35764,7 +35764,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 살얼음 육수를 동동 띄운 쫄깃한 칡냉면과 숯불 불고기 한 접시그려줘",
     "imageUrl": "/images/00327.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00327.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00327.png"
   },
   "00328": {
     "index": 328,
@@ -35796,7 +35796,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
     "imageUrl": "/images/00328.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
   },
   "00329": {
     "index": 329,
@@ -35828,7 +35828,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
     "imageUrl": "/images/00329.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
   },
   "00330": {
     "index": 330,
@@ -35859,7 +35859,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 바지락이 그릇 가득 산더미처럼 들어간 시원하고 맑은 대부도 바지락 칼국수그려줘",
     "imageUrl": "/images/00330.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00330.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00330.png"
   },
   "00331": {
     "index": 331,
@@ -35890,7 +35890,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 껍질 벗긴 고소한 거피 들깨가루를 듬뿍 넣어 걸쭉한 뚝배기 버섯 들깨 수제비그려줘",
     "imageUrl": "/images/00331.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00331.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00331.png"
   },
   "00332": {
     "index": 332,
@@ -35921,7 +35921,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 멸치 육수에 고추장과 된장을 풀어 칼칼하고 걸쭉하게 끓인 강릉식 장칼국수그려줘",
     "imageUrl": "/images/00332.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00332.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00332.png"
   },
   "00333": {
     "index": 333,
@@ -35953,7 +35953,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
     "imageUrl": "/images/00333.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
   },
   "00334": {
     "index": 334,
@@ -35985,7 +35985,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
     "imageUrl": "/images/00334.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
   },
   "00335": {
     "index": 335,
@@ -36018,7 +36018,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
     "imageUrl": "/images/00335.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
   },
   "00336": {
     "index": 336,
@@ -36050,7 +36050,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
     "imageUrl": "/images/00336.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
   },
   "00337": {
     "index": 337,
@@ -36082,7 +36082,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
     "imageUrl": "/images/00337.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
   },
   "00338": {
     "index": 338,
@@ -36114,7 +36114,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
     "imageUrl": "/images/00338.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
   },
   "00339": {
     "index": 339,
@@ -36145,7 +36145,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 국산 서리태 검은콩을 껍질째 맷돌에 곱게 갈아 살얼음을 띄운 진국 서리태 콩국수그려줘",
     "imageUrl": "/images/00339.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00339.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00339.png"
   },
   "00340": {
     "index": 340,
@@ -36178,7 +36178,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
     "imageUrl": "/images/00340.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
   },
   "00341": {
     "index": 341,
@@ -36209,7 +36209,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 닭 반 마리가 통째로 푹 고아져 올라간 파향 가득한 진한 일산 닭칼국수그려줘",
     "imageUrl": "/images/00341.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00341.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00341.png"
   },
   "00342": {
     "index": 342,
@@ -36240,7 +36240,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 전주 전통 놋그릇에 담아낸 선홍빛 한우 육회 비빔밥과 맑은 콩나물국그려줘",
     "imageUrl": "/images/00342.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00342.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00342.png"
   },
   "00343": {
     "index": 343,
@@ -36271,7 +36271,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 지글지글 달궈진 돌솥 바닥에 눌어붙은 날치알과 볶음김치의 돌솥 알밥그려줘",
     "imageUrl": "/images/00343.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00343.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00343.png"
   },
   "00344": {
     "index": 344,
@@ -36302,7 +36302,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 뚝배기 국물에 당면과 얇은 소불고기가 푸짐한 뚝배기 불고기 (뚝불)그려줘",
     "imageUrl": "/images/00344.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00344.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00344.png"
   },
   "00345": {
     "index": 345,
@@ -36333,7 +36333,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 강릉 안목해변 스타일 매콤새콤 미나리와 쫄깃한 꼬막을 밥에 쓱쓱 비빈 꼬막 비빔밥그려줘",
     "imageUrl": "/images/00345.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00345.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00345.png"
   },
   "00346": {
     "index": 346,
@@ -36364,7 +36364,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 무쇠 솥에 활전복과 완도 톳을 넣고 갓 지어낸 전복 톳 영양 솥밥과 달래 양념장그려줘",
     "imageUrl": "/images/00346.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00346.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00346.png"
   },
   "00347": {
     "index": 347,
@@ -36395,7 +36395,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 강원도 정선 곤드레 나물을 듬뿍 넣어 지은 구수한 곤드레 나물밥과 토속 강된장그려줘",
     "imageUrl": "/images/00347.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00347.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00347.png"
   },
   "00348": {
     "index": 348,
@@ -36427,7 +36427,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
     "imageUrl": "/images/00348.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
   },
   "00349": {
     "index": 349,
@@ -36459,7 +36459,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
     "imageUrl": "/images/00349.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
   },
   "00350": {
     "index": 350,
@@ -36490,7 +36490,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 전주 남부시장 스타일 개운하게 토렴한 콩나물국밥과 참기름 수란 2알그려줘",
     "imageUrl": "/images/00350.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00350.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00350.png"
   },
   "00351": {
     "index": 351,
@@ -36523,7 +36523,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
     "imageUrl": "/images/00351.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
   },
   "00352": {
     "index": 352,
@@ -36554,7 +36554,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 통통한 제주 은갈치와 달큰한 무를 매콤달콤한 비법 양념에 자작하게 졸여낸 갈치조림그려줘",
     "imageUrl": "/images/00352.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00352.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00352.png"
   },
   "00353": {
     "index": 353,
@@ -36585,7 +36585,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 천일염을 뿌려 기름기 쏙 빠지게 노릇노릇 구워낸 겉바속촉 고등어 자반구이 백반그려줘",
     "imageUrl": "/images/00353.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00353.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00353.png"
   },
   "00354": {
     "index": 354,
@@ -36616,7 +36616,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 철판 한가운데 모짜렐라 치즈 길을 낸 춘천 원조 매콤 닭갈비와 볶음밥 코스그려줘",
     "imageUrl": "/images/00354.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00354.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00354.png"
   },
   "00355": {
     "index": 355,
@@ -36647,7 +36647,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 불향 나게 매콤하게 볶아낸 통오징어와 삼겹살의 환상 궁합 철판 오삼불고기그려줘",
     "imageUrl": "/images/00355.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00355.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00355.png"
   },
   "00356": {
     "index": 356,
@@ -36679,7 +36679,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
     "imageUrl": "/images/00356.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
   },
   "00357": {
     "index": 357,
@@ -36710,7 +36710,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 시원하고 새콤달콤한 살얼음 동치미 육수에 도토리묵과 밥을 말아먹는 도토리묵밥그려줘",
     "imageUrl": "/images/00357.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00357.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00357.png"
   },
   "00358": {
     "index": 358,
@@ -36743,7 +36743,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
     "imageUrl": "/images/00358.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
   },
   "00359": {
     "index": 359,
@@ -36774,7 +36774,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 새콤하게 푹 삭힌 흑산도 홍어와 야들야들 삶은 돼지 수육, 3년 묵은지의 남도 홍어삼합그려줘",
     "imageUrl": "/images/00359.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00359.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00359.png"
   },
   "00360": {
     "index": 360,
@@ -36806,7 +36806,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
     "imageUrl": "/images/00360.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
   },
   "00361": {
     "index": 361,
@@ -36838,7 +36838,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
     "imageUrl": "/images/00361.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
   },
   "00362": {
     "index": 362,
@@ -36869,7 +36869,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 천일염의 짭조름함과 겉은 바삭 속은 버터 동굴이 뚫린 갓 구운 소금빵그려줘",
     "imageUrl": "/images/00362.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00362.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00362.png"
   },
   "00363": {
     "index": 363,
@@ -36900,7 +36900,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 브르타뉴 전통 버터와 설탕을 겹겹이 캐러멜라이징해 구운 바삭 퀸아망그려줘",
     "imageUrl": "/images/00363.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00363.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00363.png"
   },
   "00364": {
     "index": 364,
@@ -36931,7 +36931,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스푼으로 가르면 따뜻한 다크 초콜릿 용암이 주르륵 흘러내리는 퐁당 오 쇼콜라그려줘",
     "imageUrl": "/images/00364.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00364.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00364.png"
   },
   "00365": {
     "index": 365,
@@ -36962,7 +36962,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 프랑스 보르도 전통 밀랍을 발라 구워 겉은 빠작하고 속은 커스터드처럼 촉촉한 까눌레 2개그려줘",
     "imageUrl": "/images/00365.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00365.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00365.png"
   },
   "00366": {
     "index": 366,
@@ -36994,7 +36994,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
     "imageUrl": "/images/00366.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
   },
   "00367": {
     "index": 367,
@@ -37026,7 +37026,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
     "imageUrl": "/images/00367.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
   },
   "00368": {
     "index": 368,
@@ -37058,7 +37058,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
     "imageUrl": "/images/00368.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
   },
   "00369": {
     "index": 369,
@@ -37089,7 +37089,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 타피오카 펄을 흑당 시럽에 졸여 신선한 생우유에 호랑이 무늬를 낸 대만 흑당 버블 밀크티그려줘",
     "imageUrl": "/images/00369.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00369.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00369.png"
   },
   "00370": {
     "index": 370,
@@ -37121,7 +37121,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
     "imageUrl": "/images/00370.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
   },
   "00371": {
     "index": 371,
@@ -37152,7 +37152,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 통마늘과 닭근위를 참기름 소금에 볶아 알싸하고 쫄깃한 포장마차 통마늘 닭똥집 볶음그려줘",
     "imageUrl": "/images/00371.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00371.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00371.png"
   },
   "00372": {
     "index": 372,
@@ -37183,7 +37183,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 홍합을 한 냄비 가득 넣고 청양고추와 대파를 송송 썰어 뽀얗게 끓인 얼큰 뚝배기 홍합탕그려줘",
     "imageUrl": "/images/00372.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00372.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00372.png"
   },
   "00373": {
     "index": 373,
@@ -37214,7 +37214,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참숯 불판에 노릇하게 구워 벌집 칼집 사이로 기름이 쏙 빠진 쫀득 돼지껍데기와 콩가루그려줘",
     "imageUrl": "/images/00373.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00373.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00373.png"
   },
   "00374": {
     "index": 374,
@@ -37245,7 +37245,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 화끈한 불맛 고추장 양념에 뼈째 오독오독 씹히는 매콤 오돌뼈 볶음과 김가루 날치알 주먹밥그려줘",
     "imageUrl": "/images/00374.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00374.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00374.png"
   },
   "00375": {
     "index": 375,
@@ -37276,7 +37276,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바지락 조개에 버터와 마늘, 화이트와인(또는 청주)을 붓고 자작하게 끓인 바지락 술찜그려줘",
     "imageUrl": "/images/00375.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00375.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00375.png"
   },
   "00376": {
     "index": 376,
@@ -37308,7 +37308,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
     "imageUrl": "/images/00376.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
   },
   "00377": {
     "index": 377,
@@ -37339,7 +37339,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 브라질 전통 긴 쇠꼬챙이에 꿰어 숯불에 구운 슈하스코 삐까냐 (우둔살) 스테이크그려줘",
     "imageUrl": "/images/00377.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00377.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00377.png"
   },
   "00378": {
     "index": 378,
@@ -37370,7 +37370,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 아르헨티나 팜파스 스타일 소갈비를 장작불에 4시간 은근히 구운 아사도와 치미추리 소스그려줘",
     "imageUrl": "/images/00378.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00378.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00378.png"
   },
   "00379": {
     "index": 379,
@@ -37402,7 +37402,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
     "imageUrl": "/images/00379.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
   },
   "00380": {
     "index": 380,
@@ -37433,7 +37433,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 일본 후쿠오카 하카타 명물 부추와 마늘을 산더미로 얹어 끓인 한우 대창 모츠나베그려줘",
     "imageUrl": "/images/00380.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00380.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00380.png"
   },
   "00381": {
     "index": 381,
@@ -37465,7 +37465,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
     "imageUrl": "/images/00381.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
   },
   "00382": {
     "index": 382,
@@ -37496,7 +37496,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 텍사스 오스틴 스타일 16시간 참나무 연기에 천천히 훈연한 부드러운 소 차돌양지 브리스킷그려줘",
     "imageUrl": "/images/00382.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00382.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00382.png"
   },
   "00383": {
     "index": 383,
@@ -37527,7 +37527,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 피렌체식 두께 5cm 토스카나 키아니나 암소 T자 뼈 티본 스테이크 1kg그려줘",
     "imageUrl": "/images/00383.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00383.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00383.png"
   },
   "00384": {
     "index": 384,
@@ -37558,7 +37558,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 태국 치앙마이식 코코넛 밀크 옐로우 커리 육수에 튀긴 에그 누들을 얹은 카오소이그려줘",
     "imageUrl": "/images/00384.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00384.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00384.png"
   },
   "00385": {
     "index": 385,
@@ -37590,7 +37590,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
     "imageUrl": "/images/00385.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
   },
   "00386": {
     "index": 386,
@@ -37621,7 +37621,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 흰살 생선과 새우를 라임즙의 산(Acid)으로 익혀 적양파와 고수를 버무린 페루비안 세비체그려줘",
     "imageUrl": "/images/00386.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00386.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00386.png"
   },
   "00387": {
     "index": 387,
@@ -37653,7 +37653,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
     "imageUrl": "/images/00387.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
   },
   "00388": {
     "index": 388,
@@ -37684,7 +37684,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 스웨덴 스톡홀름 전통 부드러운 쇠고기 미트볼에 갈색 크림 그레이비와 붉은 링곤베리 잼그려줘",
     "imageUrl": "/images/00388.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00388.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00388.png"
   },
   "00389": {
     "index": 389,
@@ -37716,7 +37716,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
     "imageUrl": "/images/00389.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
   },
   "00390": {
     "index": 390,
@@ -37747,7 +37747,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 일본 교토식 겉만 60초간 바삭하게 튀겨내 미니 개인 화로에 취향껏 구워 먹는 규카츠 정식그려줘",
     "imageUrl": "/images/00390.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00390.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00390.png"
   },
   "00391": {
     "index": 391,
@@ -37779,7 +37779,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
     "imageUrl": "/images/00391.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
   },
   "00392": {
     "index": 392,
@@ -37810,7 +37810,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 구운 가지와 감자, 소고기 라구에 크리미한 베샤멜 소스를 얹어 오븐에 구운 그리스 정통 무사카그려줘",
     "imageUrl": "/images/00392.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00392.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00392.png"
   },
   "00393": {
     "index": 393,
@@ -37842,7 +37842,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
     "imageUrl": "/images/00393.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
   },
   "00394": {
     "index": 394,
@@ -37873,7 +37873,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 다진 양고기에 큐민과 가람마살라를 섞어 탄두르 쇠꼬챙이에 구운 인도식 시크 케밥 2개그려줘",
     "imageUrl": "/images/00394.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00394.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00394.png"
   },
   "00395": {
     "index": 395,
@@ -37905,7 +37905,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
     "imageUrl": "/images/00395.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
   },
   "00396": {
     "index": 396,
@@ -37936,7 +37936,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 신선한 바질과 다진 돼지고기를 매콤한 피시소스에 센 불로 볶은 태국식 팟카파오무쌉과 계란후라이그려줘",
     "imageUrl": "/images/00396.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00396.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00396.png"
   },
   "00397": {
     "index": 397,
@@ -37967,7 +37967,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 사프란을 우려내어 황금빛으로 반짝이는 정통 이탈리아 밀라노식 황금 사프란 리조또그려줘",
     "imageUrl": "/images/00397.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00397.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00397.png"
   },
   "00398": {
     "index": 398,
@@ -37999,7 +37999,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
     "imageUrl": "/images/00398.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
   },
   "00399": {
     "index": 399,
@@ -38031,7 +38031,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
     "imageUrl": "/images/00399.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
   },
   "00400": {
     "index": 400,
@@ -38063,7 +38063,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
     "imageUrl": "/images/00400.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
   },
   "00401": {
     "index": 401,
@@ -38095,7 +38095,7 @@ export const FOODS_BY_CODE = {
     ],
     "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
     "imageUrl": "/images/00401.png",
-    "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+    "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
   }
 };
 
@@ -38132,7 +38132,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
       "imageUrl": "/images/00002.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
     },
     {
       "index": 9,
@@ -38164,7 +38164,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
       "imageUrl": "/images/00009.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
     },
     {
       "index": 10,
@@ -38196,7 +38196,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
       "imageUrl": "/images/00010.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
     },
     {
       "index": 11,
@@ -38228,7 +38228,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
       "imageUrl": "/images/00011.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
     },
     {
       "index": 12,
@@ -38260,7 +38260,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
       "imageUrl": "/images/00012.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
     },
     {
       "index": 14,
@@ -38292,7 +38292,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
       "imageUrl": "/images/00014.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
     },
     {
       "index": 16,
@@ -38324,7 +38324,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
       "imageUrl": "/images/00016.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
     },
     {
       "index": 19,
@@ -38356,7 +38356,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
       "imageUrl": "/images/00019.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
     },
     {
       "index": 20,
@@ -38387,7 +38387,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 생크림 과일 사라다 모닝빵 샌드위치그려줘",
       "imageUrl": "/images/00020.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00020.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00020.png"
     },
     {
       "index": 23,
@@ -38419,7 +38419,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
       "imageUrl": "/images/00023.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
     },
     {
       "index": 24,
@@ -38451,7 +38451,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
       "imageUrl": "/images/00024.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
     },
     {
       "index": 26,
@@ -38483,7 +38483,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
       "imageUrl": "/images/00026.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
     },
     {
       "index": 31,
@@ -38515,7 +38515,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
       "imageUrl": "/images/00031.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
     },
     {
       "index": 33,
@@ -38547,7 +38547,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
       "imageUrl": "/images/00033.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
     },
     {
       "index": 34,
@@ -38579,7 +38579,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
       "imageUrl": "/images/00034.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
     },
     {
       "index": 36,
@@ -38611,7 +38611,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
       "imageUrl": "/images/00036.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
     },
     {
       "index": 40,
@@ -38644,7 +38644,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
       "imageUrl": "/images/00040.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
     },
     {
       "index": 41,
@@ -38676,7 +38676,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
       "imageUrl": "/images/00041.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
     },
     {
       "index": 44,
@@ -38707,7 +38707,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 피스타치오 파리브레스트와 에스프레소 슈그려줘",
       "imageUrl": "/images/00044.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00044.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00044.png"
     },
     {
       "index": 46,
@@ -38740,7 +38740,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
       "imageUrl": "/images/00046.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
     },
     {
       "index": 49,
@@ -38773,7 +38773,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
       "imageUrl": "/images/00049.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
     },
     {
       "index": 53,
@@ -38805,7 +38805,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
       "imageUrl": "/images/00053.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
     },
     {
       "index": 55,
@@ -38837,7 +38837,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
       "imageUrl": "/images/00055.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
     },
     {
       "index": 56,
@@ -38869,7 +38869,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
       "imageUrl": "/images/00056.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
     },
     {
       "index": 57,
@@ -38902,7 +38902,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
       "imageUrl": "/images/00057.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
     },
     {
       "index": 58,
@@ -38934,7 +38934,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
       "imageUrl": "/images/00058.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
     },
     {
       "index": 59,
@@ -38966,7 +38966,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
       "imageUrl": "/images/00059.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
     },
     {
       "index": 60,
@@ -38997,7 +38997,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 껍질째 아삭 베어 무는 청송 꿀사과 1개그려줘",
       "imageUrl": "/images/00060.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00060.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00060.png"
     },
     {
       "index": 61,
@@ -39030,7 +39030,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
       "imageUrl": "/images/00061.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
     },
     {
       "index": 62,
@@ -39062,7 +39062,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
       "imageUrl": "/images/00062.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
     },
     {
       "index": 63,
@@ -39094,7 +39094,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
       "imageUrl": "/images/00063.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
     },
     {
       "index": 64,
@@ -39126,7 +39126,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
       "imageUrl": "/images/00064.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
     },
     {
       "index": 65,
@@ -39157,7 +39157,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 유럽 프리미엄 납작복숭아 & 천도복숭아 플레이트그려줘",
       "imageUrl": "/images/00065.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00065.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00065.png"
     },
     {
       "index": 66,
@@ -39189,7 +39189,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
       "imageUrl": "/images/00066.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
     },
     {
       "index": 67,
@@ -39222,7 +39222,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
       "imageUrl": "/images/00067.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
     },
     {
       "index": 73,
@@ -39254,7 +39254,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
       "imageUrl": "/images/00073.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
     },
     {
       "index": 78,
@@ -39287,7 +39287,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
       "imageUrl": "/images/00078.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
     },
     {
       "index": 79,
@@ -39320,7 +39320,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
       "imageUrl": "/images/00079.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
     },
     {
       "index": 80,
@@ -39352,7 +39352,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
       "imageUrl": "/images/00080.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
     },
     {
       "index": 81,
@@ -39384,7 +39384,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
       "imageUrl": "/images/00081.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
     },
     {
       "index": 84,
@@ -39417,7 +39417,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
       "imageUrl": "/images/00084.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
     },
     {
       "index": 85,
@@ -39449,7 +39449,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
       "imageUrl": "/images/00085.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
     },
     {
       "index": 91,
@@ -39480,7 +39480,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 구워 버터 동굴이 뚫린 바삭 소금빵(시오빵) 2개와 아이스 라떼그려줘",
       "imageUrl": "/images/00091.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00091.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00091.png"
     },
     {
       "index": 93,
@@ -39512,7 +39512,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
       "imageUrl": "/images/00093.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
     },
     {
       "index": 101,
@@ -39544,7 +39544,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
       "imageUrl": "/images/00101.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
     },
     {
       "index": 105,
@@ -39577,7 +39577,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
       "imageUrl": "/images/00105.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
     },
     {
       "index": 106,
@@ -39609,7 +39609,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
       "imageUrl": "/images/00106.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
     },
     {
       "index": 107,
@@ -39641,7 +39641,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
       "imageUrl": "/images/00107.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
     },
     {
       "index": 110,
@@ -39673,7 +39673,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
       "imageUrl": "/images/00110.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
     },
     {
       "index": 111,
@@ -39706,7 +39706,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
       "imageUrl": "/images/00111.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
     },
     {
       "index": 112,
@@ -39738,7 +39738,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
       "imageUrl": "/images/00112.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
     },
     {
       "index": 113,
@@ -39770,7 +39770,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
       "imageUrl": "/images/00113.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
     },
     {
       "index": 114,
@@ -39801,7 +39801,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 아가씨 김태리가 껍질을 까서 김민희 입에 넣어주던 달콤한 백옥 백도 복숭아그려줘",
       "imageUrl": "/images/00114.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00114.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00114.png"
     },
     {
       "index": 115,
@@ -39833,7 +39833,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
       "imageUrl": "/images/00115.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
     },
     {
       "index": 120,
@@ -39865,7 +39865,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
       "imageUrl": "/images/00120.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
     },
     {
       "index": 134,
@@ -39897,7 +39897,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
       "imageUrl": "/images/00134.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
     },
     {
       "index": 142,
@@ -39929,7 +39929,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
       "imageUrl": "/images/00142.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
     },
     {
       "index": 143,
@@ -39961,7 +39961,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
       "imageUrl": "/images/00143.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
     },
     {
       "index": 145,
@@ -39994,7 +39994,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
       "imageUrl": "/images/00145.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
     },
     {
       "index": 146,
@@ -40026,7 +40026,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
       "imageUrl": "/images/00146.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
     },
     {
       "index": 149,
@@ -40058,7 +40058,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
       "imageUrl": "/images/00149.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
     },
     {
       "index": 154,
@@ -40090,7 +40090,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
       "imageUrl": "/images/00154.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
     },
     {
       "index": 155,
@@ -40121,7 +40121,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가평 휴게소 필수 오픈런 가평 맛남샌드 (잣 & 솔티드 카라멜)그려줘",
       "imageUrl": "/images/00155.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00155.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00155.png"
     },
     {
       "index": 156,
@@ -40153,7 +40153,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
       "imageUrl": "/images/00156.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
     },
     {
       "index": 157,
@@ -40185,7 +40185,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
       "imageUrl": "/images/00157.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
     },
     {
       "index": 158,
@@ -40217,7 +40217,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
       "imageUrl": "/images/00158.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
     },
     {
       "index": 160,
@@ -40248,7 +40248,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터에 굴려 껍질은 짭짤하고 속은 포슬한 휴게소 알감자 버터구이그려줘",
       "imageUrl": "/images/00160.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00160.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00160.png"
     },
     {
       "index": 163,
@@ -40280,7 +40280,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
       "imageUrl": "/images/00163.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
     },
     {
       "index": 164,
@@ -40312,7 +40312,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
       "imageUrl": "/images/00164.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
     },
     {
       "index": 168,
@@ -40344,7 +40344,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
       "imageUrl": "/images/00168.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
     },
     {
       "index": 170,
@@ -40376,7 +40376,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
       "imageUrl": "/images/00170.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
     },
     {
       "index": 191,
@@ -40409,7 +40409,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
       "imageUrl": "/images/00191.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
     },
     {
       "index": 196,
@@ -40442,7 +40442,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
       "imageUrl": "/images/00196.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
     },
     {
       "index": 203,
@@ -40474,7 +40474,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
       "imageUrl": "/images/00203.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
     },
     {
       "index": 204,
@@ -40506,7 +40506,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
       "imageUrl": "/images/00204.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
     },
     {
       "index": 206,
@@ -40538,7 +40538,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
       "imageUrl": "/images/00206.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
     },
     {
       "index": 207,
@@ -40569,7 +40569,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터와 메이플 시럽을 3단으로 쌓아 올린 아메리칸 버터밀크 팬케이크 타워그려줘",
       "imageUrl": "/images/00207.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00207.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00207.png"
     },
     {
       "index": 211,
@@ -40601,7 +40601,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
       "imageUrl": "/images/00211.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
     },
     {
       "index": 213,
@@ -40632,7 +40632,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼음 동동 띄워 달콤고소하게 탄 옛날 방앗간 꿀 미숫가루 대접그려줘",
       "imageUrl": "/images/00213.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00213.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00213.png"
     },
     {
       "index": 214,
@@ -40663,7 +40663,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 볶은 귀리와 치아씨드를 우유에 밤새 불린 블루베리 오버나이트 오트밀그려줘",
       "imageUrl": "/images/00214.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00214.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00214.png"
     },
     {
       "index": 215,
@@ -40695,7 +40695,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
       "imageUrl": "/images/00215.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
     },
     {
       "index": 216,
@@ -40727,7 +40727,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
       "imageUrl": "/images/00216.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
     },
     {
       "index": 217,
@@ -40758,7 +40758,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케일·사과·샐러리를 레몬즙과 함께 착즙한 모닝 그린 클렌즈 해독주스그려줘",
       "imageUrl": "/images/00217.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00217.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00217.png"
     },
     {
       "index": 218,
@@ -40789,7 +40789,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단백질 30g 충전 초코 프로틴 쉐이크와 잘 익은 바나나 1개그려줘",
       "imageUrl": "/images/00218.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00218.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00218.png"
     },
     {
       "index": 219,
@@ -40820,7 +40820,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통곡물 호밀 식빵에 100% 무첨가 땅콩버터와 바나나 슬라이스를 얹은 토스트그려줘",
       "imageUrl": "/images/00219.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00219.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00219.png"
     },
     {
       "index": 220,
@@ -40852,7 +40852,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
       "imageUrl": "/images/00220.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
     },
     {
       "index": 221,
@@ -40884,7 +40884,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
       "imageUrl": "/images/00221.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
     },
     {
       "index": 222,
@@ -40915,7 +40915,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 검은깨와 찹쌀, 우유를 부드럽게 쑨 궁중 흑임자 타락죽그려줘",
       "imageUrl": "/images/00222.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00222.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00222.png"
     },
     {
       "index": 223,
@@ -40946,7 +40946,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포슬포슬 삶은 달걀을 으깨어 마요네즈에 버무린 통밀 모닝빵 에그 샌드위치 2개그려줘",
       "imageUrl": "/images/00223.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00223.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00223.png"
     },
     {
       "index": 224,
@@ -40977,7 +40977,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 공복을 깨우는 아삭 세척 사과 1알과 구운 통아몬드 15알그려줘",
       "imageUrl": "/images/00224.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00224.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00224.png"
     },
     {
       "index": 225,
@@ -41008,7 +41008,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국산 무가당 백태 두유 한 잔과 촉촉한 삶은 반숙 계란 2알그려줘",
       "imageUrl": "/images/00225.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00225.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00225.png"
     },
     {
       "index": 226,
@@ -41040,7 +41040,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
       "imageUrl": "/images/00226.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
     },
     {
       "index": 227,
@@ -41071,7 +41071,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 호텔 조식 스타일 몽글몽글 부드러운 버터 스크램블 에그와 구운 방울토마토그려줘",
       "imageUrl": "/images/00227.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00227.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00227.png"
     },
     {
       "index": 228,
@@ -41103,7 +41103,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
       "imageUrl": "/images/00228.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
     },
     {
       "index": 229,
@@ -41134,7 +41134,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터에 노릇하게 구워 메이플 시럽과 계핏가루를 솔솔 뿌린 클래식 프렌치 토스트그려줘",
       "imageUrl": "/images/00229.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00229.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00229.png"
     },
     {
       "index": 230,
@@ -41165,7 +41165,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 속을 편안하게 풀어주는 맑고 시원한 뚝배기 콩나물 황태 해장국그려줘",
       "imageUrl": "/images/00230.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00230.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00230.png"
     },
     {
       "index": 231,
@@ -41197,7 +41197,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
       "imageUrl": "/images/00231.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
     },
     {
       "index": 232,
@@ -41228,7 +41228,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 볶은 율무·현미·검은콩을 갈아 만든 든든한 통곡물 선식 곡물 라떼그려줘",
       "imageUrl": "/images/00232.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00232.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00232.png"
     },
     {
       "index": 233,
@@ -41259,7 +41259,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 슈퍼푸드 아사이베리 퓨레에 바나나, 그래놀라, 치아씨드를 얹은 아사이 볼그려줘",
       "imageUrl": "/images/00233.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00233.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00233.png"
     },
     {
       "index": 234,
@@ -41291,7 +41291,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
       "imageUrl": "/images/00234.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
     },
     {
       "index": 235,
@@ -41322,7 +41322,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사과(A)·비트(B)·당근(C) 황금 비율로 짜낸 모닝 ABC 착즙 클렌즈 주스그려줘",
       "imageUrl": "/images/00235.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00235.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00235.png"
     },
     {
       "index": 236,
@@ -41353,7 +41353,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 잉글리시 머핀 사이에 짭조름한 캐나디안 베이컨과 치즈, 계란후라이 맥모닝 샌드위치그려줘",
       "imageUrl": "/images/00236.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00236.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00236.png"
     },
     {
       "index": 237,
@@ -41384,7 +41384,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 자몽 반쪽을 숟가락으로 떠먹고 곁들이는 꾸덕한 그릭 요거트 볼그려줘",
       "imageUrl": "/images/00237.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00237.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00237.png"
     },
     {
       "index": 238,
@@ -41415,7 +41415,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가평 잣을 곱게 갈아 찹쌀과 함께 은근히 쑨 고소한 가평 잣죽그려줘",
       "imageUrl": "/images/00238.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00238.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00238.png"
     },
     {
       "index": 239,
@@ -41446,7 +41446,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포슬포슬 쪄낸 해남 햇감자 2알과 천일염 살짝, 차가운 흰 우유 한 잔그려줘",
       "imageUrl": "/images/00239.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00239.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00239.png"
     },
     {
       "index": 240,
@@ -41478,7 +41478,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
       "imageUrl": "/images/00240.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
     },
     {
       "index": 241,
@@ -41510,7 +41510,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
       "imageUrl": "/images/00241.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
     },
     {
       "index": 242,
@@ -41541,7 +41541,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 꿀과 호두 분태를 듬뿍 뿌린 따뜻한 시나몬 오트밀 밀크볼그려줘",
       "imageUrl": "/images/00242.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00242.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00242.png"
     },
     {
       "index": 243,
@@ -41574,7 +41574,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00243.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
     },
     {
       "index": 244,
@@ -41607,7 +41607,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
       "imageUrl": "/images/00244.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
     },
     {
       "index": 246,
@@ -41640,7 +41640,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
       "imageUrl": "/images/00246.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
     },
     {
       "index": 247,
@@ -41672,7 +41672,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
       "imageUrl": "/images/00247.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
     },
     {
       "index": 248,
@@ -41705,7 +41705,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
       "imageUrl": "/images/00248.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
     },
     {
       "index": 249,
@@ -41738,7 +41738,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
       "imageUrl": "/images/00249.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
     },
     {
       "index": 250,
@@ -41771,7 +41771,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
       "imageUrl": "/images/00250.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
     },
     {
       "index": 251,
@@ -41804,7 +41804,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
       "imageUrl": "/images/00251.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
     },
     {
       "index": 252,
@@ -41837,7 +41837,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
       "imageUrl": "/images/00252.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
     },
     {
       "index": 253,
@@ -41870,7 +41870,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
       "imageUrl": "/images/00253.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
     },
     {
       "index": 255,
@@ -41903,7 +41903,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
       "imageUrl": "/images/00255.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
     },
     {
       "index": 257,
@@ -41936,7 +41936,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
       "imageUrl": "/images/00257.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
     },
     {
       "index": 258,
@@ -41969,7 +41969,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
       "imageUrl": "/images/00258.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
     },
     {
       "index": 260,
@@ -42002,7 +42002,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
       "imageUrl": "/images/00260.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
     },
     {
       "index": 264,
@@ -42035,7 +42035,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
       "imageUrl": "/images/00264.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
     },
     {
       "index": 265,
@@ -42068,7 +42068,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
       "imageUrl": "/images/00265.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
     },
     {
       "index": 269,
@@ -42100,7 +42100,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
       "imageUrl": "/images/00269.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
     },
     {
       "index": 273,
@@ -42132,7 +42132,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
       "imageUrl": "/images/00273.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
     },
     {
       "index": 274,
@@ -42164,7 +42164,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
       "imageUrl": "/images/00274.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
     },
     {
       "index": 275,
@@ -42196,7 +42196,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
       "imageUrl": "/images/00275.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
     },
     {
       "index": 278,
@@ -42228,7 +42228,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
       "imageUrl": "/images/00278.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
     },
     {
       "index": 281,
@@ -42260,7 +42260,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
       "imageUrl": "/images/00281.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
     },
     {
       "index": 284,
@@ -42291,7 +42291,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천상의 맛 우유 지방을 굳힌 카이막(Kaymak)과 꿀, 갓 구운 피데 빵 세트그려줘",
       "imageUrl": "/images/00284.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00284.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00284.png"
     },
     {
       "index": 286,
@@ -42322,7 +42322,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 홍콩식 얇고 바삭한 페이스트리 도우에 달걀 커스터드가 촉촉하게 채워진 에그타르트 3개그려줘",
       "imageUrl": "/images/00286.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00286.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00286.png"
     },
     {
       "index": 289,
@@ -42353,7 +42353,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 토스트한 식빵에 달콤한 판단 카야잼과 차가운 버터를 넣은 싱가포르 카야 토스트그려줘",
       "imageUrl": "/images/00289.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00289.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00289.png"
     },
     {
       "index": 291,
@@ -42385,7 +42385,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
       "imageUrl": "/images/00291.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
     },
     {
       "index": 298,
@@ -42417,7 +42417,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
       "imageUrl": "/images/00298.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
     },
     {
       "index": 300,
@@ -42448,7 +42448,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 시나몬과 사과를 듬뿍 채워 바삭한 격자 파이로 구운 정통 아메리칸 애플파이그려줘",
       "imageUrl": "/images/00300.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00300.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00300.png"
     },
     {
       "index": 301,
@@ -42479,7 +42479,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포르투갈 리스본 벨렘식 겉을 바짝 태워 카라멜라이징한 수제 에그타르트 2개그려줘",
       "imageUrl": "/images/00301.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00301.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00301.png"
     },
     {
       "index": 307,
@@ -42511,7 +42511,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
       "imageUrl": "/images/00307.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
     },
     {
       "index": 310,
@@ -42543,7 +42543,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
       "imageUrl": "/images/00310.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
     },
     {
       "index": 319,
@@ -42575,7 +42575,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
       "imageUrl": "/images/00319.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
     },
     {
       "index": 322,
@@ -42608,7 +42608,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
       "imageUrl": "/images/00322.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
     },
     {
       "index": 329,
@@ -42640,7 +42640,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
       "imageUrl": "/images/00329.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
     },
     {
       "index": 338,
@@ -42672,7 +42672,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
       "imageUrl": "/images/00338.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
     },
     {
       "index": 340,
@@ -42705,7 +42705,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
       "imageUrl": "/images/00340.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
     },
     {
       "index": 348,
@@ -42737,7 +42737,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
       "imageUrl": "/images/00348.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
     },
     {
       "index": 349,
@@ -42769,7 +42769,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
       "imageUrl": "/images/00349.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
     },
     {
       "index": 350,
@@ -42800,7 +42800,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전주 남부시장 스타일 개운하게 토렴한 콩나물국밥과 참기름 수란 2알그려줘",
       "imageUrl": "/images/00350.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00350.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00350.png"
     },
     {
       "index": 351,
@@ -42833,7 +42833,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
       "imageUrl": "/images/00351.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
     },
     {
       "index": 356,
@@ -42865,7 +42865,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
       "imageUrl": "/images/00356.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
     },
     {
       "index": 358,
@@ -42898,7 +42898,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
       "imageUrl": "/images/00358.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
     },
     {
       "index": 362,
@@ -42929,7 +42929,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천일염의 짭조름함과 겉은 바삭 속은 버터 동굴이 뚫린 갓 구운 소금빵그려줘",
       "imageUrl": "/images/00362.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00362.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00362.png"
     },
     {
       "index": 363,
@@ -42960,7 +42960,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 프랑스 브르타뉴 전통 버터와 설탕을 겹겹이 캐러멜라이징해 구운 바삭 퀸아망그려줘",
       "imageUrl": "/images/00363.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00363.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00363.png"
     },
     {
       "index": 365,
@@ -42991,7 +42991,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 프랑스 보르도 전통 밀랍을 발라 구워 겉은 빠작하고 속은 커스터드처럼 촉촉한 까눌레 2개그려줘",
       "imageUrl": "/images/00365.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00365.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00365.png"
     },
     {
       "index": 366,
@@ -43023,7 +43023,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
       "imageUrl": "/images/00366.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
     },
     {
       "index": 367,
@@ -43055,7 +43055,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
       "imageUrl": "/images/00367.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
     },
     {
       "index": 368,
@@ -43087,7 +43087,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
       "imageUrl": "/images/00368.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
     },
     {
       "index": 369,
@@ -43118,7 +43118,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 타피오카 펄을 흑당 시럽에 졸여 신선한 생우유에 호랑이 무늬를 낸 대만 흑당 버블 밀크티그려줘",
       "imageUrl": "/images/00369.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00369.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00369.png"
     },
     {
       "index": 370,
@@ -43150,7 +43150,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
       "imageUrl": "/images/00370.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
     },
     {
       "index": 385,
@@ -43182,7 +43182,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
       "imageUrl": "/images/00385.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
     },
     {
       "index": 387,
@@ -43214,7 +43214,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
       "imageUrl": "/images/00387.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
     },
     {
       "index": 391,
@@ -43246,7 +43246,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
       "imageUrl": "/images/00391.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
     },
     {
       "index": 400,
@@ -43278,7 +43278,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
       "imageUrl": "/images/00400.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
     },
     {
       "index": 401,
@@ -43310,7 +43310,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
       "imageUrl": "/images/00401.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
     }
   ],
   "lunch": [
@@ -43343,7 +43343,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수요일 특식 토마토 미트소스 스파게티그려줘",
       "imageUrl": "/images/00001.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00001.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00001.png"
     },
     {
       "index": 2,
@@ -43376,7 +43376,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
       "imageUrl": "/images/00002.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
     },
     {
       "index": 3,
@@ -43408,7 +43408,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
       "imageUrl": "/images/00003.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
     },
     {
       "index": 4,
@@ -43439,7 +43439,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식실 경양식 수제 왕돈까스그려줘",
       "imageUrl": "/images/00004.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00004.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00004.png"
     },
     {
       "index": 5,
@@ -43471,7 +43471,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
       "imageUrl": "/images/00005.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
     },
     {
       "index": 6,
@@ -43502,7 +43502,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 물엿 코팅 바삭 고구마맛탕그려줘",
       "imageUrl": "/images/00006.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00006.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00006.png"
     },
     {
       "index": 7,
@@ -43533,7 +43533,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 코다리강정그려줘",
       "imageUrl": "/images/00007.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00007.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00007.png"
     },
     {
       "index": 8,
@@ -43565,7 +43565,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
       "imageUrl": "/images/00008.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
     },
     {
       "index": 9,
@@ -43597,7 +43597,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
       "imageUrl": "/images/00009.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
     },
     {
       "index": 10,
@@ -43629,7 +43629,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
       "imageUrl": "/images/00010.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
     },
     {
       "index": 11,
@@ -43661,7 +43661,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
       "imageUrl": "/images/00011.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
     },
     {
       "index": 12,
@@ -43693,7 +43693,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
       "imageUrl": "/images/00012.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
     },
     {
       "index": 13,
@@ -43724,7 +43724,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식실 그릴 마크 수제 떡갈비그려줘",
       "imageUrl": "/images/00013.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00013.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00013.png"
     },
     {
       "index": 14,
@@ -43756,7 +43756,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
       "imageUrl": "/images/00014.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
     },
     {
       "index": 15,
@@ -43788,7 +43788,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
       "imageUrl": "/images/00015.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
     },
     {
       "index": 17,
@@ -43820,7 +43820,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
       "imageUrl": "/images/00017.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
     },
     {
       "index": 18,
@@ -43851,7 +43851,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 미니 짜장밥과 반달 단무지 & 군만두그려줘",
       "imageUrl": "/images/00018.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00018.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00018.png"
     },
     {
       "index": 19,
@@ -43883,7 +43883,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
       "imageUrl": "/images/00019.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
     },
     {
       "index": 21,
@@ -43915,7 +43915,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
       "imageUrl": "/images/00021.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
     },
     {
       "index": 22,
@@ -43946,7 +43946,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 흑트러플 완도 전복 게우소스 리조또그려줘",
       "imageUrl": "/images/00022.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00022.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00022.png"
     },
     {
       "index": 24,
@@ -43978,7 +43978,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
       "imageUrl": "/images/00024.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
     },
     {
       "index": 25,
@@ -44009,7 +44009,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 안심 비프 웰링턴과 페리고 트러플 주(Jus)그려줘",
       "imageUrl": "/images/00025.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00025.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00025.png"
     },
     {
       "index": 26,
@@ -44041,7 +44041,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
       "imageUrl": "/images/00026.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
     },
     {
       "index": 27,
@@ -44072,7 +44072,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 프랑스산 브레스 영계 로스트와 모렐 버섯 크림그려줘",
       "imageUrl": "/images/00027.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00027.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00027.png"
     },
     {
       "index": 29,
@@ -44103,7 +44103,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 블루 랍스터 포치드와 사프란 비스크 에멀전그려줘",
       "imageUrl": "/images/00029.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00029.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00029.png"
     },
     {
       "index": 30,
@@ -44135,7 +44135,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
       "imageUrl": "/images/00030.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
     },
     {
       "index": 31,
@@ -44167,7 +44167,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
       "imageUrl": "/images/00031.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
     },
     {
       "index": 32,
@@ -44198,7 +44198,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 한우 1++ 채끝등심 볏짚 훈연 구이와 발효 흑마늘그려줘",
       "imageUrl": "/images/00032.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00032.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00032.png"
     },
     {
       "index": 33,
@@ -44230,7 +44230,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
       "imageUrl": "/images/00033.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
     },
     {
       "index": 34,
@@ -44262,7 +44262,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
       "imageUrl": "/images/00034.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
     },
     {
       "index": 35,
@@ -44294,7 +44294,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
       "imageUrl": "/images/00035.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
     },
     {
       "index": 38,
@@ -44326,7 +44326,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
       "imageUrl": "/images/00038.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
     },
     {
       "index": 39,
@@ -44357,7 +44357,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 크리스피 오리 콩피(Duck Confit)와 오렌지 가스트릭그려줘",
       "imageUrl": "/images/00039.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00039.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00039.png"
     },
     {
       "index": 40,
@@ -44390,7 +44390,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
       "imageUrl": "/images/00040.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
     },
     {
       "index": 41,
@@ -44422,7 +44422,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
       "imageUrl": "/images/00041.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
     },
     {
       "index": 42,
@@ -44453,7 +44453,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 숯불 한우 트러플 떡갈비와 구운 대파 정찬그려줘",
       "imageUrl": "/images/00042.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00042.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00042.png"
     },
     {
       "index": 43,
@@ -44485,7 +44485,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
       "imageUrl": "/images/00043.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
     },
     {
       "index": 45,
@@ -44517,7 +44517,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
       "imageUrl": "/images/00045.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
     },
     {
       "index": 46,
@@ -44550,7 +44550,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
       "imageUrl": "/images/00046.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
     },
     {
       "index": 47,
@@ -44581,7 +44581,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 명동 스타일 자가제면 칼국수와 왕만두그려줘",
       "imageUrl": "/images/00047.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00047.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00047.png"
     },
     {
       "index": 48,
@@ -44613,7 +44613,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
       "imageUrl": "/images/00048.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
     },
     {
       "index": 49,
@@ -44646,7 +44646,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
       "imageUrl": "/images/00049.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
     },
     {
       "index": 50,
@@ -44677,7 +44677,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 알이 꽉 찬 서해안 암꽃게 간장게장 정식그려줘",
       "imageUrl": "/images/00050.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00050.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00050.png"
     },
     {
       "index": 51,
@@ -44709,7 +44709,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
       "imageUrl": "/images/00051.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
     },
     {
       "index": 52,
@@ -44740,7 +44740,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 고소한 거피 들기름 막국수와 한방 보쌈 수육그려줘",
       "imageUrl": "/images/00052.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00052.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00052.png"
     },
     {
       "index": 53,
@@ -44772,7 +44772,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
       "imageUrl": "/images/00053.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
     },
     {
       "index": 64,
@@ -44804,7 +44804,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
       "imageUrl": "/images/00064.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
     },
     {
       "index": 68,
@@ -44836,7 +44836,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
       "imageUrl": "/images/00068.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
     },
     {
       "index": 70,
@@ -44867,7 +44867,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대왕 통오징어 튀김이 통째로 올라간 오징어먹물 짜장면그려줘",
       "imageUrl": "/images/00070.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00070.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00070.png"
     },
     {
       "index": 71,
@@ -44900,7 +44900,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
       "imageUrl": "/images/00071.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
     },
     {
       "index": 73,
@@ -44932,7 +44932,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
       "imageUrl": "/images/00073.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
     },
     {
       "index": 74,
@@ -44964,7 +44964,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
       "imageUrl": "/images/00074.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
     },
     {
       "index": 76,
@@ -44996,7 +44996,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00076.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
     },
     {
       "index": 78,
@@ -45029,7 +45029,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
       "imageUrl": "/images/00078.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
     },
     {
       "index": 79,
@@ -45062,7 +45062,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
       "imageUrl": "/images/00079.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
     },
     {
       "index": 80,
@@ -45094,7 +45094,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
       "imageUrl": "/images/00080.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
     },
     {
       "index": 81,
@@ -45126,7 +45126,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
       "imageUrl": "/images/00081.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
     },
     {
       "index": 82,
@@ -45157,7 +45157,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불향 가득 기사식당 직화 제육볶음과 상추쌈밥그려줘",
       "imageUrl": "/images/00082.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00082.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00082.png"
     },
     {
       "index": 84,
@@ -45190,7 +45190,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
       "imageUrl": "/images/00084.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
     },
     {
       "index": 85,
@@ -45222,7 +45222,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
       "imageUrl": "/images/00085.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
     },
     {
       "index": 88,
@@ -45254,7 +45254,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
       "imageUrl": "/images/00088.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
     },
     {
       "index": 89,
@@ -45285,7 +45285,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 연돈 스타일 폭포수 통모짜렐라 치즈 돈까스그려줘",
       "imageUrl": "/images/00089.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00089.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00089.png"
     },
     {
       "index": 90,
@@ -45317,7 +45317,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00090.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
     },
     {
       "index": 93,
@@ -45349,7 +45349,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
       "imageUrl": "/images/00093.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
     },
     {
       "index": 94,
@@ -45381,7 +45381,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
       "imageUrl": "/images/00094.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
     },
     {
       "index": 96,
@@ -45414,7 +45414,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
       "imageUrl": "/images/00096.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
     },
     {
       "index": 97,
@@ -45446,7 +45446,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
       "imageUrl": "/images/00097.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
     },
     {
       "index": 98,
@@ -45478,7 +45478,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
       "imageUrl": "/images/00098.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
     },
     {
       "index": 99,
@@ -45510,7 +45510,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
       "imageUrl": "/images/00099.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
     },
     {
       "index": 100,
@@ -45541,7 +45541,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 도깨비에서 공유가 비 내리는 날 김고은에게 사주던 캐나다 소고기 스테이크그려줘",
       "imageUrl": "/images/00100.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00100.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00100.png"
     },
     {
       "index": 101,
@@ -45573,7 +45573,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
       "imageUrl": "/images/00101.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
     },
     {
       "index": 104,
@@ -45604,7 +45604,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 센과 치히로의 행방불명에서 아빠가 삼키던 거대 육즙 고기 주머니그려줘",
       "imageUrl": "/images/00104.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00104.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00104.png"
     },
     {
       "index": 105,
@@ -45637,7 +45637,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
       "imageUrl": "/images/00105.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
     },
     {
       "index": 106,
@@ -45669,7 +45669,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
       "imageUrl": "/images/00106.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
     },
     {
       "index": 109,
@@ -45700,7 +45700,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 대부(Godfather) 클레멘자가 마피아 패밀리에게 끓여주던 미트볼 토마토 파스타그려줘",
       "imageUrl": "/images/00109.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00109.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00109.png"
     },
     {
       "index": 111,
@@ -45733,7 +45733,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
       "imageUrl": "/images/00111.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
     },
     {
       "index": 112,
@@ -45765,7 +45765,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
       "imageUrl": "/images/00112.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
     },
     {
       "index": 115,
@@ -45797,7 +45797,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
       "imageUrl": "/images/00115.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
     },
     {
       "index": 119,
@@ -45829,7 +45829,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
       "imageUrl": "/images/00119.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
     },
     {
       "index": 120,
@@ -45861,7 +45861,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
       "imageUrl": "/images/00120.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
     },
     {
       "index": 121,
@@ -45892,7 +45892,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤 콩나물 산더미 마산 아구찜과 볶음밥그려줘",
       "imageUrl": "/images/00121.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00121.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00121.png"
     },
     {
       "index": 122,
@@ -45923,7 +45923,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스팸·소시지·라면사리 듬뿍 들어간 의정부 원조 부대찌개그려줘",
       "imageUrl": "/images/00122.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00122.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00122.png"
     },
     {
       "index": 123,
@@ -45956,7 +45956,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
       "imageUrl": "/images/00123.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
     },
     {
       "index": 127,
@@ -45988,7 +45988,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
       "imageUrl": "/images/00127.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
     },
     {
       "index": 128,
@@ -46020,7 +46020,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
       "imageUrl": "/images/00128.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
     },
     {
       "index": 129,
@@ -46052,7 +46052,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
       "imageUrl": "/images/00129.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
     },
     {
       "index": 130,
@@ -46083,7 +46083,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 12시간 훈연해 결대로 찢은 텍사스 풀드포크 바베큐 버거그려줘",
       "imageUrl": "/images/00130.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00130.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00130.png"
     },
     {
       "index": 131,
@@ -46114,7 +46114,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불맛 확 살아있는 양파 듬뿍 삼선 간짜장과 반숙 계란후라이그려줘",
       "imageUrl": "/images/00131.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00131.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00131.png"
     },
     {
       "index": 132,
@@ -46146,7 +46146,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
       "imageUrl": "/images/00132.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
     },
     {
       "index": 133,
@@ -46179,7 +46179,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
       "imageUrl": "/images/00133.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
     },
     {
       "index": 134,
@@ -46211,7 +46211,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
       "imageUrl": "/images/00134.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
     },
     {
       "index": 135,
@@ -46242,7 +46242,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 튀긴 왕새우·장어·단호박이 탑처럼 쌓인 에도식 스페셜 텐동그려줘",
       "imageUrl": "/images/00135.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00135.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00135.png"
     },
     {
       "index": 136,
@@ -46273,7 +46273,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 참치·연어·광어·연어알이 가득한 바다 한 그릇 카이센동그려줘",
       "imageUrl": "/images/00136.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00136.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00136.png"
     },
     {
       "index": 137,
@@ -46305,7 +46305,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
       "imageUrl": "/images/00137.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
     },
     {
       "index": 138,
@@ -46336,7 +46336,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불 돼지고기와 새콤달콤 느억맘 소스에 적셔 먹는 하노이식 분짜그려줘",
       "imageUrl": "/images/00138.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00138.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00138.png"
     },
     {
       "index": 139,
@@ -46367,7 +46367,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우와 레몬그라스 향이 폭발하는 세계 3대 수프 똠얌꿍과 쌀국수면그려줘",
       "imageUrl": "/images/00139.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00139.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00139.png"
     },
     {
       "index": 140,
@@ -46398,7 +46398,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 부드러운 옐로우 커리 푸팟퐁커리그려줘",
       "imageUrl": "/images/00140.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00140.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00140.png"
     },
     {
       "index": 141,
@@ -46431,7 +46431,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
       "imageUrl": "/images/00141.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
     },
     {
       "index": 142,
@@ -46463,7 +46463,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
       "imageUrl": "/images/00142.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
     },
     {
       "index": 143,
@@ -46495,7 +46495,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
       "imageUrl": "/images/00143.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
     },
     {
       "index": 144,
@@ -46528,7 +46528,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
       "imageUrl": "/images/00144.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
     },
     {
       "index": 145,
@@ -46561,7 +46561,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
       "imageUrl": "/images/00145.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
     },
     {
       "index": 148,
@@ -46593,7 +46593,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
       "imageUrl": "/images/00148.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
     },
     {
       "index": 149,
@@ -46625,7 +46625,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
       "imageUrl": "/images/00149.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
     },
     {
       "index": 150,
@@ -46657,7 +46657,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
       "imageUrl": "/images/00150.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
     },
     {
       "index": 152,
@@ -46688,7 +46688,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치폴레(Chipotle) 스타일 과카몰리 비프 스테이크 부리또 볼그려줘",
       "imageUrl": "/images/00152.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00152.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00152.png"
     },
     {
       "index": 153,
@@ -46721,7 +46721,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
       "imageUrl": "/images/00153.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
     },
     {
       "index": 157,
@@ -46753,7 +46753,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
       "imageUrl": "/images/00157.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
     },
     {
       "index": 159,
@@ -46785,7 +46785,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
       "imageUrl": "/images/00159.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
     },
     {
       "index": 162,
@@ -46818,7 +46818,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
       "imageUrl": "/images/00162.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
     },
     {
       "index": 164,
@@ -46850,7 +46850,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
       "imageUrl": "/images/00164.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
     },
     {
       "index": 165,
@@ -46881,7 +46881,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 등산 후 계곡 평상에서 먹는 한방 능이버섯 토종닭 백숙과 찰밥죽그려줘",
       "imageUrl": "/images/00165.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00165.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00165.png"
     },
     {
       "index": 166,
@@ -46913,7 +46913,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
       "imageUrl": "/images/00166.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
     },
     {
       "index": 167,
@@ -46945,7 +46945,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
       "imageUrl": "/images/00167.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
     },
     {
       "index": 169,
@@ -46977,7 +46977,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
       "imageUrl": "/images/00169.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
     },
     {
       "index": 171,
@@ -47008,7 +47008,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 정통 로마식 관찰레와 페코리노 치즈로 만든 노란빛 까르보나라그려줘",
       "imageUrl": "/images/00171.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00171.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00171.png"
     },
     {
       "index": 172,
@@ -47040,7 +47040,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
       "imageUrl": "/images/00172.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
     },
     {
       "index": 173,
@@ -47071,7 +47071,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 세이지 버터에 바삭하게 구워낸 홈메이드 단호박 뇨끼그려줘",
       "imageUrl": "/images/00173.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00173.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00173.png"
     },
     {
       "index": 174,
@@ -47102,7 +47102,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바다 향 가득한 지중해식 오징어 먹물 해산물 리조또그려줘",
       "imageUrl": "/images/00174.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00174.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00174.png"
     },
     {
       "index": 175,
@@ -47133,7 +47133,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포르치니 버섯 향이 진동하는 파르미지아노 크림 리조또그려줘",
       "imageUrl": "/images/00175.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00175.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00175.png"
     },
     {
       "index": 176,
@@ -47164,7 +47164,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 모시조개와 마늘 화이트와인으로 맛을 낸 봉골레 링귀니그려줘",
       "imageUrl": "/images/00176.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00176.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00176.png"
     },
     {
       "index": 177,
@@ -47195,7 +47195,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 소고기 라구 소스와 베샤멜을 겹겹이 쌓아 구운 볼로냐식 라자냐그려줘",
       "imageUrl": "/images/00177.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00177.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00177.png"
     },
     {
       "index": 178,
@@ -47226,7 +47226,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향긋한 제노바식 바질 페스토와 잣, 그라나파다노 치즈의 트로피에 파스타그려줘",
       "imageUrl": "/images/00178.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00178.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00178.png"
     },
     {
       "index": 179,
@@ -47258,7 +47258,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
       "imageUrl": "/images/00179.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
     },
     {
       "index": 180,
@@ -47289,7 +47289,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 블랙 트러플 슬라이스와 양송이 크림소스를 올린 수제 감자 뇨끼그려줘",
       "imageUrl": "/images/00180.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00180.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00180.png"
     },
     {
       "index": 181,
@@ -47320,7 +47320,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯에 직화로 구워 특제 타레 소스를 입힌 홋카이도 오비히로식 부타동그려줘",
       "imageUrl": "/images/00181.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00181.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00181.png"
     },
     {
       "index": 182,
@@ -47352,7 +47352,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
       "imageUrl": "/images/00182.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
     },
     {
       "index": 183,
@@ -47384,7 +47384,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
       "imageUrl": "/images/00183.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
     },
     {
       "index": 184,
@@ -47415,7 +47415,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 쯔유 국물에 적셔 먹는 일본 관동식 특상 소고기 스키야키 나베그려줘",
       "imageUrl": "/images/00184.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00184.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00184.png"
     },
     {
       "index": 185,
@@ -47447,7 +47447,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
       "imageUrl": "/images/00185.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
     },
     {
       "index": 186,
@@ -47478,7 +47478,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 걸쭉하고 진한 가쓰오 돈코츠 육수에 차가운 극태면을 찍어 먹는 츠케멘그려줘",
       "imageUrl": "/images/00186.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00186.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00186.png"
     },
     {
       "index": 188,
@@ -47509,7 +47509,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 3단계로 즐기는 나고야식 장어덮밥 특선 히츠마부시 (장어 한 마리 반)그려줘",
       "imageUrl": "/images/00188.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00188.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00188.png"
     },
     {
       "index": 189,
@@ -47541,7 +47541,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
       "imageUrl": "/images/00189.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
     },
     {
       "index": 190,
@@ -47572,7 +47572,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
       "imageUrl": "/images/00190.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00190.png"
     },
     {
       "index": 191,
@@ -47605,7 +47605,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
       "imageUrl": "/images/00191.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
     },
     {
       "index": 192,
@@ -47636,7 +47636,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터와 토마토, 크림으로 끓여낸 달콤고소한 치킨 마크니 (버터 치킨)그려줘",
       "imageUrl": "/images/00192.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00192.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00192.png"
     },
     {
       "index": 193,
@@ -47667,7 +47667,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향신료와 바스마티 쌀, 닭고기를 겹겹이 쪄낸 인도 궁중 요리 치킨 비리야니그려줘",
       "imageUrl": "/images/00193.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00193.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00193.png"
     },
     {
       "index": 194,
@@ -47699,7 +47699,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
       "imageUrl": "/images/00194.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
     },
     {
       "index": 195,
@@ -47731,7 +47731,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
       "imageUrl": "/images/00195.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
     },
     {
       "index": 196,
@@ -47764,7 +47764,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
       "imageUrl": "/images/00196.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
     },
     {
       "index": 197,
@@ -47795,7 +47795,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 오리 껍질과 밀전병, 야채 야장 소스의 베이징덕그려줘",
       "imageUrl": "/images/00197.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00197.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00197.png"
     },
     {
       "index": 198,
@@ -47827,7 +47827,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
       "imageUrl": "/images/00198.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
     },
     {
       "index": 199,
@@ -47858,7 +47858,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼얼한 마라 고추기름과 고소한 땅콩 참깨장 소스의 사천 탄탄면그려줘",
       "imageUrl": "/images/00199.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00199.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00199.png"
     },
     {
       "index": 200,
@@ -47889,7 +47889,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오향 향신료에 삶아 숟가락으로 부서질 만큼 연한 항저우식 정통 동파육그려줘",
       "imageUrl": "/images/00200.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00200.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00200.png"
     },
     {
       "index": 201,
@@ -47921,7 +47921,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
       "imageUrl": "/images/00201.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
     },
     {
       "index": 202,
@@ -47952,7 +47952,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 와인에 장시간 푹 고아 부드럽게 찢어지는 비프 부르기뇽 (소고기 스튜)그려줘",
       "imageUrl": "/images/00202.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00202.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00202.png"
     },
     {
       "index": 204,
@@ -47984,7 +47984,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
       "imageUrl": "/images/00204.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
     },
     {
       "index": 205,
@@ -48015,7 +48015,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭고기를 진한 레드 와인과 베이컨, 버섯에 졸여낸 프랑스 전통 코코뱅 (Coq au Vin)그려줘",
       "imageUrl": "/images/00205.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00205.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00205.png"
     },
     {
       "index": 206,
@@ -48047,7 +48047,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
       "imageUrl": "/images/00206.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
     },
     {
       "index": 208,
@@ -48079,7 +48079,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00208.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
     },
     {
       "index": 209,
@@ -48110,7 +48110,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 마늘 버터를 채운 뉴올리언스 포보이(Po-Boy) 샌드위치그려줘",
       "imageUrl": "/images/00209.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00209.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00209.png"
     },
     {
       "index": 210,
@@ -48142,7 +48142,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
       "imageUrl": "/images/00210.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
     },
     {
       "index": 211,
@@ -48174,7 +48174,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
       "imageUrl": "/images/00211.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
     },
     {
       "index": 212,
@@ -48205,7 +48205,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 안두이 소시지와 닭고기, 통새우를 케이준 향신료 밥에 볶은 루이지애나 잠발라야그려줘",
       "imageUrl": "/images/00212.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00212.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00212.png"
     },
     {
       "index": 216,
@@ -48237,7 +48237,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
       "imageUrl": "/images/00216.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
     },
     {
       "index": 220,
@@ -48269,7 +48269,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
       "imageUrl": "/images/00220.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
     },
     {
       "index": 221,
@@ -48301,7 +48301,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
       "imageUrl": "/images/00221.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
     },
     {
       "index": 226,
@@ -48333,7 +48333,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
       "imageUrl": "/images/00226.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
     },
     {
       "index": 228,
@@ -48365,7 +48365,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
       "imageUrl": "/images/00228.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
     },
     {
       "index": 230,
@@ -48396,7 +48396,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 속을 편안하게 풀어주는 맑고 시원한 뚝배기 콩나물 황태 해장국그려줘",
       "imageUrl": "/images/00230.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00230.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00230.png"
     },
     {
       "index": 231,
@@ -48428,7 +48428,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
       "imageUrl": "/images/00231.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
     },
     {
       "index": 234,
@@ -48460,7 +48460,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
       "imageUrl": "/images/00234.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
     },
     {
       "index": 240,
@@ -48492,7 +48492,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
       "imageUrl": "/images/00240.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
     },
     {
       "index": 243,
@@ -48525,7 +48525,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00243.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
     },
     {
       "index": 244,
@@ -48558,7 +48558,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
       "imageUrl": "/images/00244.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
     },
     {
       "index": 245,
@@ -48590,7 +48590,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
       "imageUrl": "/images/00245.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
     },
     {
       "index": 246,
@@ -48623,7 +48623,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
       "imageUrl": "/images/00246.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
     },
     {
       "index": 247,
@@ -48655,7 +48655,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
       "imageUrl": "/images/00247.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
     },
     {
       "index": 248,
@@ -48688,7 +48688,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
       "imageUrl": "/images/00248.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
     },
     {
       "index": 249,
@@ -48721,7 +48721,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
       "imageUrl": "/images/00249.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
     },
     {
       "index": 250,
@@ -48754,7 +48754,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
       "imageUrl": "/images/00250.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
     },
     {
       "index": 251,
@@ -48787,7 +48787,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
       "imageUrl": "/images/00251.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
     },
     {
       "index": 252,
@@ -48820,7 +48820,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
       "imageUrl": "/images/00252.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
     },
     {
       "index": 253,
@@ -48853,7 +48853,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
       "imageUrl": "/images/00253.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
     },
     {
       "index": 254,
@@ -48885,7 +48885,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
       "imageUrl": "/images/00254.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
     },
     {
       "index": 255,
@@ -48918,7 +48918,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
       "imageUrl": "/images/00255.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
     },
     {
       "index": 256,
@@ -48950,7 +48950,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00256.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
     },
     {
       "index": 257,
@@ -48983,7 +48983,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
       "imageUrl": "/images/00257.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
     },
     {
       "index": 258,
@@ -49016,7 +49016,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
       "imageUrl": "/images/00258.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
     },
     {
       "index": 259,
@@ -49048,7 +49048,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
       "imageUrl": "/images/00259.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
     },
     {
       "index": 260,
@@ -49081,7 +49081,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
       "imageUrl": "/images/00260.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
     },
     {
       "index": 261,
@@ -49113,7 +49113,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
       "imageUrl": "/images/00261.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
     },
     {
       "index": 262,
@@ -49145,7 +49145,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00262.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
     },
     {
       "index": 263,
@@ -49177,7 +49177,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
       "imageUrl": "/images/00263.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
     },
     {
       "index": 264,
@@ -49210,7 +49210,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
       "imageUrl": "/images/00264.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
     },
     {
       "index": 265,
@@ -49243,7 +49243,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
       "imageUrl": "/images/00265.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
     },
     {
       "index": 267,
@@ -49274,7 +49274,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 고추장 불향 제육과 7첩 반찬이 푸짐한 GS25 혜자로운 집밥 제육 도시락그려줘",
       "imageUrl": "/images/00267.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00267.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00267.png"
     },
     {
       "index": 268,
@@ -49305,7 +49305,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 너비아니와 불고기, 계란말이가 들어간 알찬 CU 백종원 한판 도시락그려줘",
       "imageUrl": "/images/00268.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00268.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00268.png"
     },
     {
       "index": 269,
@@ -49337,7 +49337,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
       "imageUrl": "/images/00269.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
     },
     {
       "index": 270,
@@ -49369,7 +49369,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
       "imageUrl": "/images/00270.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
     },
     {
       "index": 273,
@@ -49401,7 +49401,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
       "imageUrl": "/images/00273.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
     },
     {
       "index": 276,
@@ -49433,7 +49433,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
       "imageUrl": "/images/00276.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
     },
     {
       "index": 277,
@@ -49464,7 +49464,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 방콕 야시장 땅콩가루와 숙주, 왕새우를 센 불에 볶아낸 팟타이 꿍그려줘",
       "imageUrl": "/images/00277.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00277.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00277.png"
     },
     {
       "index": 278,
@@ -49496,7 +49496,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
       "imageUrl": "/images/00278.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
     },
     {
       "index": 279,
@@ -49528,7 +49528,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
       "imageUrl": "/images/00279.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
     },
     {
       "index": 280,
@@ -49560,7 +49560,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
       "imageUrl": "/images/00280.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
     },
     {
       "index": 282,
@@ -49591,7 +49591,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 그리스 전통 화덕 피타 브레드에 구운 양고기와 차지키 요거트 소스를 감싼 기로스 랩그려줘",
       "imageUrl": "/images/00282.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00282.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00282.png"
     },
     {
       "index": 283,
@@ -49622,7 +49622,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 터키 이스탄불 갈라타 다리 명물 바게트 속에 구운 통고등어와 양파를 넣은 고등어 케밥그려줘",
       "imageUrl": "/images/00283.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00283.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00283.png"
     },
     {
       "index": 287,
@@ -49653,7 +49653,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 인도네시아 전통 달콤 짭조름한 케찹 마니스 소스에 새우를 볶은 나시고랭과 계란후라이그려줘",
       "imageUrl": "/images/00287.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00287.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00287.png"
     },
     {
       "index": 288,
@@ -49685,7 +49685,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
       "imageUrl": "/images/00288.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
     },
     {
       "index": 290,
@@ -49716,7 +49716,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 칠리 토마토 계란 소스에 버무린 싱가포르 점보 칠리크랩과 튀긴 꽃빵 만토우그려줘",
       "imageUrl": "/images/00290.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00290.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00290.png"
     },
     {
       "index": 292,
@@ -49748,7 +49748,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
       "imageUrl": "/images/00292.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
     },
     {
       "index": 294,
@@ -49780,7 +49780,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
       "imageUrl": "/images/00294.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
     },
     {
       "index": 296,
@@ -49812,7 +49812,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
       "imageUrl": "/images/00296.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
     },
     {
       "index": 297,
@@ -49844,7 +49844,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
       "imageUrl": "/images/00297.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
     },
     {
       "index": 302,
@@ -49876,7 +49876,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
       "imageUrl": "/images/00302.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
     },
     {
       "index": 303,
@@ -49907,7 +49907,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 백탄에 구워 마블링 육즙이 뚝뚝 떨어지는 한우 1++ 꽃등심 구이그려줘",
       "imageUrl": "/images/00303.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00303.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00303.png"
     },
     {
       "index": 304,
@@ -49939,7 +49939,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
       "imageUrl": "/images/00304.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
     },
     {
       "index": 306,
@@ -49970,7 +49970,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 돼지고기 앞다리살 숭덩숭덩 썰어 넣고 자글자글 끓인 얼큰 뚝배기 돼지 김치찌개그려줘",
       "imageUrl": "/images/00306.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00306.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00306.png"
     },
     {
       "index": 307,
@@ -50002,7 +50002,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
       "imageUrl": "/images/00307.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
     },
     {
       "index": 308,
@@ -50034,7 +50034,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
       "imageUrl": "/images/00308.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
     },
     {
       "index": 309,
@@ -50066,7 +50066,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
       "imageUrl": "/images/00309.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
     },
     {
       "index": 310,
@@ -50098,7 +50098,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
       "imageUrl": "/images/00310.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
     },
     {
       "index": 312,
@@ -50130,7 +50130,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
       "imageUrl": "/images/00312.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
     },
     {
       "index": 314,
@@ -50162,7 +50162,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
       "imageUrl": "/images/00314.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
     },
     {
       "index": 316,
@@ -50193,7 +50193,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 선홍빛 소고기 양지 슬라이스와 신선한 채소를 맑은 육수에 살랑살랑 흔들어 먹는 소고기 샤브샤브그려줘",
       "imageUrl": "/images/00316.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00316.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00316.png"
     },
     {
       "index": 317,
@@ -50224,7 +50224,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼큰하고 진한 육개장 사골 국물에 칼국수 생면을 말아낸 육개장 칼국수 (육칼)그려줘",
       "imageUrl": "/images/00317.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00317.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00317.png"
     },
     {
       "index": 318,
@@ -50257,7 +50257,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
       "imageUrl": "/images/00318.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
     },
     {
       "index": 319,
@@ -50289,7 +50289,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
       "imageUrl": "/images/00319.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
     },
     {
       "index": 321,
@@ -50320,7 +50320,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 고소한 버터 향을 입혀 통째로 구워낸 완도산 활전복 버터구이 5미그려줘",
       "imageUrl": "/images/00321.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00321.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00321.png"
     },
     {
       "index": 322,
@@ -50353,7 +50353,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
       "imageUrl": "/images/00322.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
     },
     {
       "index": 325,
@@ -50385,7 +50385,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
       "imageUrl": "/images/00325.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
     },
     {
       "index": 327,
@@ -50416,7 +50416,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살얼음 육수를 동동 띄운 쫄깃한 칡냉면과 숯불 불고기 한 접시그려줘",
       "imageUrl": "/images/00327.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00327.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00327.png"
     },
     {
       "index": 328,
@@ -50448,7 +50448,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
       "imageUrl": "/images/00328.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
     },
     {
       "index": 329,
@@ -50480,7 +50480,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
       "imageUrl": "/images/00329.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
     },
     {
       "index": 330,
@@ -50511,7 +50511,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바지락이 그릇 가득 산더미처럼 들어간 시원하고 맑은 대부도 바지락 칼국수그려줘",
       "imageUrl": "/images/00330.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00330.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00330.png"
     },
     {
       "index": 331,
@@ -50542,7 +50542,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 껍질 벗긴 고소한 거피 들깨가루를 듬뿍 넣어 걸쭉한 뚝배기 버섯 들깨 수제비그려줘",
       "imageUrl": "/images/00331.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00331.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00331.png"
     },
     {
       "index": 332,
@@ -50573,7 +50573,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 멸치 육수에 고추장과 된장을 풀어 칼칼하고 걸쭉하게 끓인 강릉식 장칼국수그려줘",
       "imageUrl": "/images/00332.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00332.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00332.png"
     },
     {
       "index": 333,
@@ -50605,7 +50605,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
       "imageUrl": "/images/00333.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
     },
     {
       "index": 334,
@@ -50637,7 +50637,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
       "imageUrl": "/images/00334.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
     },
     {
       "index": 335,
@@ -50670,7 +50670,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
       "imageUrl": "/images/00335.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
     },
     {
       "index": 336,
@@ -50702,7 +50702,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
       "imageUrl": "/images/00336.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
     },
     {
       "index": 337,
@@ -50734,7 +50734,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
       "imageUrl": "/images/00337.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
     },
     {
       "index": 339,
@@ -50765,7 +50765,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국산 서리태 검은콩을 껍질째 맷돌에 곱게 갈아 살얼음을 띄운 진국 서리태 콩국수그려줘",
       "imageUrl": "/images/00339.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00339.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00339.png"
     },
     {
       "index": 340,
@@ -50798,7 +50798,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
       "imageUrl": "/images/00340.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
     },
     {
       "index": 341,
@@ -50829,7 +50829,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭 반 마리가 통째로 푹 고아져 올라간 파향 가득한 진한 일산 닭칼국수그려줘",
       "imageUrl": "/images/00341.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00341.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00341.png"
     },
     {
       "index": 342,
@@ -50860,7 +50860,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전주 전통 놋그릇에 담아낸 선홍빛 한우 육회 비빔밥과 맑은 콩나물국그려줘",
       "imageUrl": "/images/00342.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00342.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00342.png"
     },
     {
       "index": 343,
@@ -50891,7 +50891,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 지글지글 달궈진 돌솥 바닥에 눌어붙은 날치알과 볶음김치의 돌솥 알밥그려줘",
       "imageUrl": "/images/00343.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00343.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00343.png"
     },
     {
       "index": 344,
@@ -50922,7 +50922,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 뚝배기 국물에 당면과 얇은 소불고기가 푸짐한 뚝배기 불고기 (뚝불)그려줘",
       "imageUrl": "/images/00344.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00344.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00344.png"
     },
     {
       "index": 345,
@@ -50953,7 +50953,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강릉 안목해변 스타일 매콤새콤 미나리와 쫄깃한 꼬막을 밥에 쓱쓱 비빈 꼬막 비빔밥그려줘",
       "imageUrl": "/images/00345.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00345.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00345.png"
     },
     {
       "index": 346,
@@ -50984,7 +50984,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 무쇠 솥에 활전복과 완도 톳을 넣고 갓 지어낸 전복 톳 영양 솥밥과 달래 양념장그려줘",
       "imageUrl": "/images/00346.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00346.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00346.png"
     },
     {
       "index": 347,
@@ -51015,7 +51015,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강원도 정선 곤드레 나물을 듬뿍 넣어 지은 구수한 곤드레 나물밥과 토속 강된장그려줘",
       "imageUrl": "/images/00347.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00347.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00347.png"
     },
     {
       "index": 348,
@@ -51047,7 +51047,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
       "imageUrl": "/images/00348.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
     },
     {
       "index": 349,
@@ -51079,7 +51079,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
       "imageUrl": "/images/00349.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
     },
     {
       "index": 350,
@@ -51110,7 +51110,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전주 남부시장 스타일 개운하게 토렴한 콩나물국밥과 참기름 수란 2알그려줘",
       "imageUrl": "/images/00350.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00350.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00350.png"
     },
     {
       "index": 351,
@@ -51143,7 +51143,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
       "imageUrl": "/images/00351.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
     },
     {
       "index": 352,
@@ -51174,7 +51174,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통통한 제주 은갈치와 달큰한 무를 매콤달콤한 비법 양념에 자작하게 졸여낸 갈치조림그려줘",
       "imageUrl": "/images/00352.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00352.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00352.png"
     },
     {
       "index": 353,
@@ -51205,7 +51205,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천일염을 뿌려 기름기 쏙 빠지게 노릇노릇 구워낸 겉바속촉 고등어 자반구이 백반그려줘",
       "imageUrl": "/images/00353.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00353.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00353.png"
     },
     {
       "index": 354,
@@ -51236,7 +51236,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 철판 한가운데 모짜렐라 치즈 길을 낸 춘천 원조 매콤 닭갈비와 볶음밥 코스그려줘",
       "imageUrl": "/images/00354.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00354.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00354.png"
     },
     {
       "index": 355,
@@ -51267,7 +51267,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불향 나게 매콤하게 볶아낸 통오징어와 삼겹살의 환상 궁합 철판 오삼불고기그려줘",
       "imageUrl": "/images/00355.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00355.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00355.png"
     },
     {
       "index": 356,
@@ -51299,7 +51299,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
       "imageUrl": "/images/00356.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
     },
     {
       "index": 357,
@@ -51330,7 +51330,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 시원하고 새콤달콤한 살얼음 동치미 육수에 도토리묵과 밥을 말아먹는 도토리묵밥그려줘",
       "imageUrl": "/images/00357.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00357.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00357.png"
     },
     {
       "index": 358,
@@ -51363,7 +51363,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
       "imageUrl": "/images/00358.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
     },
     {
       "index": 360,
@@ -51395,7 +51395,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
       "imageUrl": "/images/00360.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
     },
     {
       "index": 361,
@@ -51427,7 +51427,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
       "imageUrl": "/images/00361.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
     },
     {
       "index": 370,
@@ -51459,7 +51459,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
       "imageUrl": "/images/00370.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
     },
     {
       "index": 376,
@@ -51491,7 +51491,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
       "imageUrl": "/images/00376.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
     },
     {
       "index": 377,
@@ -51522,7 +51522,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 브라질 전통 긴 쇠꼬챙이에 꿰어 숯불에 구운 슈하스코 삐까냐 (우둔살) 스테이크그려줘",
       "imageUrl": "/images/00377.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00377.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00377.png"
     },
     {
       "index": 378,
@@ -51553,7 +51553,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아르헨티나 팜파스 스타일 소갈비를 장작불에 4시간 은근히 구운 아사도와 치미추리 소스그려줘",
       "imageUrl": "/images/00378.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00378.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00378.png"
     },
     {
       "index": 379,
@@ -51585,7 +51585,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
       "imageUrl": "/images/00379.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
     },
     {
       "index": 381,
@@ -51617,7 +51617,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
       "imageUrl": "/images/00381.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
     },
     {
       "index": 382,
@@ -51648,7 +51648,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 텍사스 오스틴 스타일 16시간 참나무 연기에 천천히 훈연한 부드러운 소 차돌양지 브리스킷그려줘",
       "imageUrl": "/images/00382.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00382.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00382.png"
     },
     {
       "index": 383,
@@ -51679,7 +51679,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 피렌체식 두께 5cm 토스카나 키아니나 암소 T자 뼈 티본 스테이크 1kg그려줘",
       "imageUrl": "/images/00383.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00383.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00383.png"
     },
     {
       "index": 384,
@@ -51710,7 +51710,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 태국 치앙마이식 코코넛 밀크 옐로우 커리 육수에 튀긴 에그 누들을 얹은 카오소이그려줘",
       "imageUrl": "/images/00384.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00384.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00384.png"
     },
     {
       "index": 385,
@@ -51742,7 +51742,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
       "imageUrl": "/images/00385.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
     },
     {
       "index": 386,
@@ -51773,7 +51773,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 흰살 생선과 새우를 라임즙의 산(Acid)으로 익혀 적양파와 고수를 버무린 페루비안 세비체그려줘",
       "imageUrl": "/images/00386.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00386.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00386.png"
     },
     {
       "index": 387,
@@ -51805,7 +51805,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
       "imageUrl": "/images/00387.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
     },
     {
       "index": 388,
@@ -51836,7 +51836,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스웨덴 스톡홀름 전통 부드러운 쇠고기 미트볼에 갈색 크림 그레이비와 붉은 링곤베리 잼그려줘",
       "imageUrl": "/images/00388.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00388.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00388.png"
     },
     {
       "index": 389,
@@ -51868,7 +51868,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
       "imageUrl": "/images/00389.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
     },
     {
       "index": 390,
@@ -51899,7 +51899,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 일본 교토식 겉만 60초간 바삭하게 튀겨내 미니 개인 화로에 취향껏 구워 먹는 규카츠 정식그려줘",
       "imageUrl": "/images/00390.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00390.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00390.png"
     },
     {
       "index": 391,
@@ -51931,7 +51931,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
       "imageUrl": "/images/00391.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
     },
     {
       "index": 392,
@@ -51962,7 +51962,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 구운 가지와 감자, 소고기 라구에 크리미한 베샤멜 소스를 얹어 오븐에 구운 그리스 정통 무사카그려줘",
       "imageUrl": "/images/00392.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00392.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00392.png"
     },
     {
       "index": 393,
@@ -51994,7 +51994,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
       "imageUrl": "/images/00393.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
     },
     {
       "index": 395,
@@ -52026,7 +52026,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
       "imageUrl": "/images/00395.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
     },
     {
       "index": 396,
@@ -52057,7 +52057,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 바질과 다진 돼지고기를 매콤한 피시소스에 센 불로 볶은 태국식 팟카파오무쌉과 계란후라이그려줘",
       "imageUrl": "/images/00396.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00396.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00396.png"
     },
     {
       "index": 397,
@@ -52088,7 +52088,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사프란을 우려내어 황금빛으로 반짝이는 정통 이탈리아 밀라노식 황금 사프란 리조또그려줘",
       "imageUrl": "/images/00397.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00397.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00397.png"
     },
     {
       "index": 398,
@@ -52120,7 +52120,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
       "imageUrl": "/images/00398.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
     },
     {
       "index": 399,
@@ -52152,7 +52152,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
       "imageUrl": "/images/00399.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
     },
     {
       "index": 401,
@@ -52184,7 +52184,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
       "imageUrl": "/images/00401.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
     }
   ],
   "snack": [
@@ -52218,7 +52218,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
       "imageUrl": "/images/00003.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
     },
     {
       "index": 5,
@@ -52250,7 +52250,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
       "imageUrl": "/images/00005.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
     },
     {
       "index": 6,
@@ -52281,7 +52281,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 물엿 코팅 바삭 고구마맛탕그려줘",
       "imageUrl": "/images/00006.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00006.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00006.png"
     },
     {
       "index": 8,
@@ -52313,7 +52313,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
       "imageUrl": "/images/00008.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
     },
     {
       "index": 10,
@@ -52345,7 +52345,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마요네즈 듬뿍 마카로니 콘샐러드그려줘",
       "imageUrl": "/images/00010.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00010.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00010.png"
     },
     {
       "index": 15,
@@ -52377,7 +52377,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
       "imageUrl": "/images/00015.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
     },
     {
       "index": 16,
@@ -52409,7 +52409,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
       "imageUrl": "/images/00016.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
     },
     {
       "index": 17,
@@ -52441,7 +52441,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
       "imageUrl": "/images/00017.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
     },
     {
       "index": 20,
@@ -52472,7 +52472,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 생크림 과일 사라다 모닝빵 샌드위치그려줘",
       "imageUrl": "/images/00020.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00020.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00020.png"
     },
     {
       "index": 23,
@@ -52504,7 +52504,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
       "imageUrl": "/images/00023.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
     },
     {
       "index": 28,
@@ -52536,7 +52536,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
       "imageUrl": "/images/00028.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
     },
     {
       "index": 36,
@@ -52568,7 +52568,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
       "imageUrl": "/images/00036.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
     },
     {
       "index": 37,
@@ -52599,7 +52599,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 쑥 아이스크림과 갓 튀긴 개성 주악 디저트 소반그려줘",
       "imageUrl": "/images/00037.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00037.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00037.png"
     },
     {
       "index": 41,
@@ -52631,7 +52631,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 화이트 아스파라거스 구이와 트러플 홀란다이즈 수란그려줘",
       "imageUrl": "/images/00041.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00041.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00041.png"
     },
     {
       "index": 44,
@@ -52662,7 +52662,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 피스타치오 파리브레스트와 에스프레소 슈그려줘",
       "imageUrl": "/images/00044.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00044.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00044.png"
     },
     {
       "index": 48,
@@ -52694,7 +52694,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
       "imageUrl": "/images/00048.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
     },
     {
       "index": 55,
@@ -52726,7 +52726,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
       "imageUrl": "/images/00055.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
     },
     {
       "index": 56,
@@ -52758,7 +52758,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
       "imageUrl": "/images/00056.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
     },
     {
       "index": 57,
@@ -52791,7 +52791,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
       "imageUrl": "/images/00057.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
     },
     {
       "index": 58,
@@ -52823,7 +52823,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
       "imageUrl": "/images/00058.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
     },
     {
       "index": 59,
@@ -52855,7 +52855,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
       "imageUrl": "/images/00059.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
     },
     {
       "index": 60,
@@ -52886,7 +52886,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 껍질째 아삭 베어 무는 청송 꿀사과 1개그려줘",
       "imageUrl": "/images/00060.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00060.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00060.png"
     },
     {
       "index": 61,
@@ -52919,7 +52919,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
       "imageUrl": "/images/00061.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
     },
     {
       "index": 62,
@@ -52951,7 +52951,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
       "imageUrl": "/images/00062.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
     },
     {
       "index": 63,
@@ -52983,7 +52983,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
       "imageUrl": "/images/00063.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
     },
     {
       "index": 65,
@@ -53014,7 +53014,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 유럽 프리미엄 납작복숭아 & 천도복숭아 플레이트그려줘",
       "imageUrl": "/images/00065.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00065.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00065.png"
     },
     {
       "index": 66,
@@ -53046,7 +53046,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
       "imageUrl": "/images/00066.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
     },
     {
       "index": 67,
@@ -53079,7 +53079,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
       "imageUrl": "/images/00067.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
     },
     {
       "index": 69,
@@ -53110,7 +53110,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두바이 초콜릿 피스타치오 카다이프 붕어빵그려줘",
       "imageUrl": "/images/00069.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00069.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00069.png"
     },
     {
       "index": 71,
@@ -53143,7 +53143,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
       "imageUrl": "/images/00071.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
     },
     {
       "index": 72,
@@ -53174,7 +53174,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 망치로 깨 먹는 대왕 공룡알 화석 초코 빙수그려줘",
       "imageUrl": "/images/00072.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00072.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00072.png"
     },
     {
       "index": 75,
@@ -53205,7 +53205,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 코끝이 찡한 생와사비 소프트 아이스크림과 감자칩그려줘",
       "imageUrl": "/images/00075.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00075.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00075.png"
     },
     {
       "index": 77,
@@ -53236,7 +53236,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통메론 한 통을 파서 만든 메론 빙수와 연유 폭포그려줘",
       "imageUrl": "/images/00077.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00077.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00077.png"
     },
     {
       "index": 90,
@@ -53268,7 +53268,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00090.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
     },
     {
       "index": 91,
@@ -53299,7 +53299,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 구워 버터 동굴이 뚫린 바삭 소금빵(시오빵) 2개와 아이스 라떼그려줘",
       "imageUrl": "/images/00091.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00091.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00091.png"
     },
     {
       "index": 92,
@@ -53330,7 +53330,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 겨울철 팥붕·슈붕(붕어빵) 반반 6마리그려줘",
       "imageUrl": "/images/00092.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00092.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00092.png"
     },
     {
       "index": 93,
@@ -53362,7 +53362,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 올린 브런치 카페 에그 베네딕트와 아보카도 샐러드그려줘",
       "imageUrl": "/images/00093.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00093.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00093.png"
     },
     {
       "index": 95,
@@ -53393,7 +53393,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 인절미 떡과 국내산 통단팥이 올라간 우유 눈꽃 팥빙수그려줘",
       "imageUrl": "/images/00095.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00095.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00095.png"
     },
     {
       "index": 96,
@@ -53426,7 +53426,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
       "imageUrl": "/images/00096.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
     },
     {
       "index": 105,
@@ -53459,7 +53459,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
       "imageUrl": "/images/00105.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
     },
     {
       "index": 107,
@@ -53491,7 +53491,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
       "imageUrl": "/images/00107.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
     },
     {
       "index": 110,
@@ -53523,7 +53523,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
       "imageUrl": "/images/00110.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
     },
     {
       "index": 113,
@@ -53555,7 +53555,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
       "imageUrl": "/images/00113.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
     },
     {
       "index": 114,
@@ -53586,7 +53586,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 아가씨 김태리가 껍질을 까서 김민희 입에 넣어주던 달콤한 백옥 백도 복숭아그려줘",
       "imageUrl": "/images/00114.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00114.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00114.png"
     },
     {
       "index": 115,
@@ -53618,7 +53618,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 카모메 식당 사치에가 갓 지은 쌀밥으로 쥐어낸 매실장아찌(우메보시) 삼각 오니기리그려줘",
       "imageUrl": "/images/00115.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00115.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00115.png"
     },
     {
       "index": 123,
@@ -53651,7 +53651,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
       "imageUrl": "/images/00123.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
     },
     {
       "index": 133,
@@ -53684,7 +53684,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
       "imageUrl": "/images/00133.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
     },
     {
       "index": 141,
@@ -53717,7 +53717,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
       "imageUrl": "/images/00141.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
     },
     {
       "index": 144,
@@ -53750,7 +53750,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
       "imageUrl": "/images/00144.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
     },
     {
       "index": 145,
@@ -53783,7 +53783,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
       "imageUrl": "/images/00145.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
     },
     {
       "index": 146,
@@ -53815,7 +53815,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
       "imageUrl": "/images/00146.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
     },
     {
       "index": 147,
@@ -53846,7 +53846,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 바삭하고 속은 쫀득하게 카라멜화된 꾸덕 황치즈 버터바그려줘",
       "imageUrl": "/images/00147.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00147.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00147.png"
     },
     {
       "index": 149,
@@ -53878,7 +53878,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단짠의 극치 크리스피 치킨 & 벨기에 와플 (메이플 시럽 듬뿍)그려줘",
       "imageUrl": "/images/00149.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00149.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00149.png"
     },
     {
       "index": 153,
@@ -53911,7 +53911,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
       "imageUrl": "/images/00153.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
     },
     {
       "index": 154,
@@ -53943,7 +53943,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
       "imageUrl": "/images/00154.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
     },
     {
       "index": 155,
@@ -53974,7 +53974,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가평 휴게소 필수 오픈런 가평 맛남샌드 (잣 & 솔티드 카라멜)그려줘",
       "imageUrl": "/images/00155.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00155.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00155.png"
     },
     {
       "index": 156,
@@ -54006,7 +54006,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
       "imageUrl": "/images/00156.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
     },
     {
       "index": 157,
@@ -54038,7 +54038,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대전 성심당의 전설 갓 튀겨 바삭달콤한 튀김소보로 & 부추빵그려줘",
       "imageUrl": "/images/00157.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00157.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00157.png"
     },
     {
       "index": 158,
@@ -54070,7 +54070,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
       "imageUrl": "/images/00158.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
     },
     {
       "index": 159,
@@ -54102,7 +54102,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
       "imageUrl": "/images/00159.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
     },
     {
       "index": 160,
@@ -54133,7 +54133,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터에 굴려 껍질은 짭짤하고 속은 포슬한 휴게소 알감자 버터구이그려줘",
       "imageUrl": "/images/00160.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00160.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00160.png"
     },
     {
       "index": 161,
@@ -54164,7 +54164,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈가 1미터 늘어나는 경주 첨성대 십원빵그려줘",
       "imageUrl": "/images/00161.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00161.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00161.png"
     },
     {
       "index": 162,
@@ -54197,7 +54197,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
       "imageUrl": "/images/00162.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
     },
     {
       "index": 163,
@@ -54229,7 +54229,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
       "imageUrl": "/images/00163.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
     },
     {
       "index": 166,
@@ -54261,7 +54261,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
       "imageUrl": "/images/00166.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
     },
     {
       "index": 168,
@@ -54293,7 +54293,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
       "imageUrl": "/images/00168.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
     },
     {
       "index": 169,
@@ -54325,7 +54325,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
       "imageUrl": "/images/00169.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
     },
     {
       "index": 170,
@@ -54357,7 +54357,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
       "imageUrl": "/images/00170.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
     },
     {
       "index": 191,
@@ -54390,7 +54390,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
       "imageUrl": "/images/00191.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
     },
     {
       "index": 194,
@@ -54422,7 +54422,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
       "imageUrl": "/images/00194.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
     },
     {
       "index": 196,
@@ -54455,7 +54455,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
       "imageUrl": "/images/00196.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
     },
     {
       "index": 203,
@@ -54487,7 +54487,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
       "imageUrl": "/images/00203.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
     },
     {
       "index": 206,
@@ -54519,7 +54519,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀과 생크림, 훈제 베이컨과 그뤼예르 치즈를 채워 구운 로렌 지방의 키슈 로렌그려줘",
       "imageUrl": "/images/00206.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00206.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00206.png"
     },
     {
       "index": 207,
@@ -54550,7 +54550,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터와 메이플 시럽을 3단으로 쌓아 올린 아메리칸 버터밀크 팬케이크 타워그려줘",
       "imageUrl": "/images/00207.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00207.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00207.png"
     },
     {
       "index": 213,
@@ -54581,7 +54581,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼음 동동 띄워 달콤고소하게 탄 옛날 방앗간 꿀 미숫가루 대접그려줘",
       "imageUrl": "/images/00213.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00213.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00213.png"
     },
     {
       "index": 214,
@@ -54612,7 +54612,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 볶은 귀리와 치아씨드를 우유에 밤새 불린 블루베리 오버나이트 오트밀그려줘",
       "imageUrl": "/images/00214.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00214.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00214.png"
     },
     {
       "index": 215,
@@ -54644,7 +54644,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
       "imageUrl": "/images/00215.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
     },
     {
       "index": 217,
@@ -54675,7 +54675,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케일·사과·샐러리를 레몬즙과 함께 착즙한 모닝 그린 클렌즈 해독주스그려줘",
       "imageUrl": "/images/00217.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00217.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00217.png"
     },
     {
       "index": 218,
@@ -54706,7 +54706,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단백질 30g 충전 초코 프로틴 쉐이크와 잘 익은 바나나 1개그려줘",
       "imageUrl": "/images/00218.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00218.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00218.png"
     },
     {
       "index": 219,
@@ -54737,7 +54737,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통곡물 호밀 식빵에 100% 무첨가 땅콩버터와 바나나 슬라이스를 얹은 토스트그려줘",
       "imageUrl": "/images/00219.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00219.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00219.png"
     },
     {
       "index": 222,
@@ -54768,7 +54768,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 검은깨와 찹쌀, 우유를 부드럽게 쑨 궁중 흑임자 타락죽그려줘",
       "imageUrl": "/images/00222.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00222.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00222.png"
     },
     {
       "index": 223,
@@ -54799,7 +54799,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포슬포슬 삶은 달걀을 으깨어 마요네즈에 버무린 통밀 모닝빵 에그 샌드위치 2개그려줘",
       "imageUrl": "/images/00223.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00223.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00223.png"
     },
     {
       "index": 224,
@@ -54830,7 +54830,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 공복을 깨우는 아삭 세척 사과 1알과 구운 통아몬드 15알그려줘",
       "imageUrl": "/images/00224.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00224.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00224.png"
     },
     {
       "index": 225,
@@ -54861,7 +54861,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국산 무가당 백태 두유 한 잔과 촉촉한 삶은 반숙 계란 2알그려줘",
       "imageUrl": "/images/00225.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00225.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00225.png"
     },
     {
       "index": 226,
@@ -54893,7 +54893,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 위에 으깬 아보카도와 크러쉬드 페퍼를 올린 오픈 토스트그려줘",
       "imageUrl": "/images/00226.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00226.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00226.png"
     },
     {
       "index": 227,
@@ -54924,7 +54924,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 호텔 조식 스타일 몽글몽글 부드러운 버터 스크램블 에그와 구운 방울토마토그려줘",
       "imageUrl": "/images/00227.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00227.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00227.png"
     },
     {
       "index": 229,
@@ -54955,7 +54955,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터에 노릇하게 구워 메이플 시럽과 계핏가루를 솔솔 뿌린 클래식 프렌치 토스트그려줘",
       "imageUrl": "/images/00229.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00229.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00229.png"
     },
     {
       "index": 232,
@@ -54986,7 +54986,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 볶은 율무·현미·검은콩을 갈아 만든 든든한 통곡물 선식 곡물 라떼그려줘",
       "imageUrl": "/images/00232.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00232.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00232.png"
     },
     {
       "index": 233,
@@ -55017,7 +55017,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 슈퍼푸드 아사이베리 퓨레에 바나나, 그래놀라, 치아씨드를 얹은 아사이 볼그려줘",
       "imageUrl": "/images/00233.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00233.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00233.png"
     },
     {
       "index": 235,
@@ -55048,7 +55048,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사과(A)·비트(B)·당근(C) 황금 비율로 짜낸 모닝 ABC 착즙 클렌즈 주스그려줘",
       "imageUrl": "/images/00235.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00235.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00235.png"
     },
     {
       "index": 236,
@@ -55079,7 +55079,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 잉글리시 머핀 사이에 짭조름한 캐나디안 베이컨과 치즈, 계란후라이 맥모닝 샌드위치그려줘",
       "imageUrl": "/images/00236.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00236.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00236.png"
     },
     {
       "index": 237,
@@ -55110,7 +55110,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 자몽 반쪽을 숟가락으로 떠먹고 곁들이는 꾸덕한 그릭 요거트 볼그려줘",
       "imageUrl": "/images/00237.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00237.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00237.png"
     },
     {
       "index": 238,
@@ -55141,7 +55141,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가평 잣을 곱게 갈아 찹쌀과 함께 은근히 쑨 고소한 가평 잣죽그려줘",
       "imageUrl": "/images/00238.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00238.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00238.png"
     },
     {
       "index": 239,
@@ -55172,7 +55172,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포슬포슬 쪄낸 해남 햇감자 2알과 천일염 살짝, 차가운 흰 우유 한 잔그려줘",
       "imageUrl": "/images/00239.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00239.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00239.png"
     },
     {
       "index": 240,
@@ -55204,7 +55204,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 구운 쫄깃한 플레인 베이글과 대파를 듬뿍 썬 수제 대파 크림치즈 스프레드그려줘",
       "imageUrl": "/images/00240.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00240.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00240.png"
     },
     {
       "index": 241,
@@ -55236,7 +55236,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
       "imageUrl": "/images/00241.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
     },
     {
       "index": 242,
@@ -55267,7 +55267,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 꿀과 호두 분태를 듬뿍 뿌린 따뜻한 시나몬 오트밀 밀크볼그려줘",
       "imageUrl": "/images/00242.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00242.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00242.png"
     },
     {
       "index": 243,
@@ -55300,7 +55300,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00243.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
     },
     {
       "index": 244,
@@ -55333,7 +55333,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
       "imageUrl": "/images/00244.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
     },
     {
       "index": 247,
@@ -55365,7 +55365,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짭짤고소한 명란 알갱이가 톡톡 터지는 고급 명란마요 삼각김밥그려줘",
       "imageUrl": "/images/00247.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00247.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00247.png"
     },
     {
       "index": 249,
@@ -55398,7 +55398,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
       "imageUrl": "/images/00249.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
     },
     {
       "index": 252,
@@ -55431,7 +55431,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
       "imageUrl": "/images/00252.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
     },
     {
       "index": 264,
@@ -55464,7 +55464,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
       "imageUrl": "/images/00264.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
     },
     {
       "index": 265,
@@ -55497,7 +55497,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
       "imageUrl": "/images/00265.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
     },
     {
       "index": 266,
@@ -55528,7 +55528,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국내산 마늘의 알싸한 풍미가 가득한 뽀득뽀득 의성마늘 프랑크 핫바그려줘",
       "imageUrl": "/images/00266.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00266.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00266.png"
     },
     {
       "index": 269,
@@ -55560,7 +55560,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 식빵 사이에 달걀 샐러드가 터질 듯 꽉 찬 편의점 촉촉 에그샌드위치그려줘",
       "imageUrl": "/images/00269.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00269.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00269.png"
     },
     {
       "index": 272,
@@ -55591,7 +55591,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스위트콘과 마요네즈, 모짜렐라 치즈를 듬뿍 올려 오븐에 구운 편의점 콘치즈 그라탕그려줘",
       "imageUrl": "/images/00272.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00272.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00272.png"
     },
     {
       "index": 273,
@@ -55623,7 +55623,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 얼음컵에 콸콸 붓는 달콤 쌉싸름한 헤이즐넛 향 원두커피 파우치그려줘",
       "imageUrl": "/images/00273.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00273.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00273.png"
     },
     {
       "index": 274,
@@ -55655,7 +55655,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
       "imageUrl": "/images/00274.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
     },
     {
       "index": 275,
@@ -55687,7 +55687,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
       "imageUrl": "/images/00275.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
     },
     {
       "index": 276,
@@ -55719,7 +55719,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
       "imageUrl": "/images/00276.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
     },
     {
       "index": 278,
@@ -55751,7 +55751,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 쌀 바게트 속에 돼지고기 바베큐와 고수, 당근 절임을 꽉 채운 베트남 반미그려줘",
       "imageUrl": "/images/00278.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00278.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00278.png"
     },
     {
       "index": 281,
@@ -55783,7 +55783,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
       "imageUrl": "/images/00281.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
     },
     {
       "index": 284,
@@ -55814,7 +55814,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천상의 맛 우유 지방을 굳힌 카이막(Kaymak)과 꿀, 갓 구운 피데 빵 세트그려줘",
       "imageUrl": "/images/00284.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00284.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00284.png"
     },
     {
       "index": 285,
@@ -55845,7 +55845,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대만 야시장 얼굴만 한 크기의 바삭하고 매콤한 오향 대왕 닭가슴살 튀김 지파이그려줘",
       "imageUrl": "/images/00285.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00285.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00285.png"
     },
     {
       "index": 286,
@@ -55876,7 +55876,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 홍콩식 얇고 바삭한 페이스트리 도우에 달걀 커스터드가 촉촉하게 채워진 에그타르트 3개그려줘",
       "imageUrl": "/images/00286.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00286.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00286.png"
     },
     {
       "index": 289,
@@ -55907,7 +55907,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 토스트한 식빵에 달콤한 판단 카야잼과 차가운 버터를 넣은 싱가포르 카야 토스트그려줘",
       "imageUrl": "/images/00289.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00289.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00289.png"
     },
     {
       "index": 291,
@@ -55939,7 +55939,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
       "imageUrl": "/images/00291.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
     },
     {
       "index": 293,
@@ -55971,7 +55971,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
       "imageUrl": "/images/00293.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
     },
     {
       "index": 298,
@@ -56003,7 +56003,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
       "imageUrl": "/images/00298.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
     },
     {
       "index": 299,
@@ -56035,7 +56035,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
       "imageUrl": "/images/00299.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
     },
     {
       "index": 300,
@@ -56066,7 +56066,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 시나몬과 사과를 듬뿍 채워 바삭한 격자 파이로 구운 정통 아메리칸 애플파이그려줘",
       "imageUrl": "/images/00300.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00300.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00300.png"
     },
     {
       "index": 301,
@@ -56097,7 +56097,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포르투갈 리스본 벨렘식 겉을 바짝 태워 카라멜라이징한 수제 에그타르트 2개그려줘",
       "imageUrl": "/images/00301.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00301.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00301.png"
     },
     {
       "index": 318,
@@ -56130,7 +56130,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
       "imageUrl": "/images/00318.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
     },
     {
       "index": 328,
@@ -56162,7 +56162,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
       "imageUrl": "/images/00328.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
     },
     {
       "index": 334,
@@ -56194,7 +56194,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
       "imageUrl": "/images/00334.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
     },
     {
       "index": 335,
@@ -56227,7 +56227,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
       "imageUrl": "/images/00335.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
     },
     {
       "index": 336,
@@ -56259,7 +56259,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
       "imageUrl": "/images/00336.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
     },
     {
       "index": 338,
@@ -56291,7 +56291,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
       "imageUrl": "/images/00338.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
     },
     {
       "index": 340,
@@ -56324,7 +56324,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
       "imageUrl": "/images/00340.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
     },
     {
       "index": 362,
@@ -56355,7 +56355,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천일염의 짭조름함과 겉은 바삭 속은 버터 동굴이 뚫린 갓 구운 소금빵그려줘",
       "imageUrl": "/images/00362.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00362.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00362.png"
     },
     {
       "index": 363,
@@ -56386,7 +56386,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 프랑스 브르타뉴 전통 버터와 설탕을 겹겹이 캐러멜라이징해 구운 바삭 퀸아망그려줘",
       "imageUrl": "/images/00363.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00363.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00363.png"
     },
     {
       "index": 364,
@@ -56417,7 +56417,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스푼으로 가르면 따뜻한 다크 초콜릿 용암이 주르륵 흘러내리는 퐁당 오 쇼콜라그려줘",
       "imageUrl": "/images/00364.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00364.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00364.png"
     },
     {
       "index": 365,
@@ -56448,7 +56448,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 프랑스 보르도 전통 밀랍을 발라 구워 겉은 빠작하고 속은 커스터드처럼 촉촉한 까눌레 2개그려줘",
       "imageUrl": "/images/00365.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00365.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00365.png"
     },
     {
       "index": 366,
@@ -56480,7 +56480,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
       "imageUrl": "/images/00366.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
     },
     {
       "index": 367,
@@ -56512,7 +56512,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
       "imageUrl": "/images/00367.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
     },
     {
       "index": 368,
@@ -56544,7 +56544,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
       "imageUrl": "/images/00368.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
     },
     {
       "index": 369,
@@ -56575,7 +56575,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 타피오카 펄을 흑당 시럽에 졸여 신선한 생우유에 호랑이 무늬를 낸 대만 흑당 버블 밀크티그려줘",
       "imageUrl": "/images/00369.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00369.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00369.png"
     },
     {
       "index": 370,
@@ -56607,7 +56607,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 제주 유기농 말차 가루를 진하게 개어 우유와 에스프레소를 층층이 쌓은 말차 샷 라떼그려줘",
       "imageUrl": "/images/00370.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00370.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00370.png"
     },
     {
       "index": 389,
@@ -56639,7 +56639,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
       "imageUrl": "/images/00389.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
     },
     {
       "index": 400,
@@ -56671,7 +56671,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
       "imageUrl": "/images/00400.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
     }
   ],
   "dinner": [
@@ -56704,7 +56704,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수요일 특식 토마토 미트소스 스파게티그려줘",
       "imageUrl": "/images/00001.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00001.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00001.png"
     },
     {
       "index": 2,
@@ -56737,7 +56737,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
       "imageUrl": "/images/00002.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
     },
     {
       "index": 4,
@@ -56768,7 +56768,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식실 경양식 수제 왕돈까스그려줘",
       "imageUrl": "/images/00004.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00004.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00004.png"
     },
     {
       "index": 7,
@@ -56799,7 +56799,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 코다리강정그려줘",
       "imageUrl": "/images/00007.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00007.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00007.png"
     },
     {
       "index": 11,
@@ -56831,7 +56831,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득 고추장 쥐포채·진미채볶음그려줘",
       "imageUrl": "/images/00011.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00011.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00011.png"
     },
     {
       "index": 13,
@@ -56862,7 +56862,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식실 그릴 마크 수제 떡갈비그려줘",
       "imageUrl": "/images/00013.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00013.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00013.png"
     },
     {
       "index": 14,
@@ -56894,7 +56894,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀장조림 버터비빔밥과 김가루그려줘",
       "imageUrl": "/images/00014.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00014.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00014.png"
     },
     {
       "index": 18,
@@ -56925,7 +56925,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 미니 짜장밥과 반달 단무지 & 군만두그려줘",
       "imageUrl": "/images/00018.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00018.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00018.png"
     },
     {
       "index": 19,
@@ -56957,7 +56957,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 들깨 미역국과 훈제오리 부추무침그려줘",
       "imageUrl": "/images/00019.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00019.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00019.png"
     },
     {
       "index": 21,
@@ -56989,7 +56989,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
       "imageUrl": "/images/00021.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
     },
     {
       "index": 22,
@@ -57020,7 +57020,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 흑트러플 완도 전복 게우소스 리조또그려줘",
       "imageUrl": "/images/00022.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00022.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00022.png"
     },
     {
       "index": 23,
@@ -57052,7 +57052,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 오세트라 캐비어와 감자 무스 아뮤즈부쉬그려줘",
       "imageUrl": "/images/00023.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00023.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00023.png"
     },
     {
       "index": 24,
@@ -57084,7 +57084,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 잣즙 소스를 곁들인 동해 대게살 냉채그려줘",
       "imageUrl": "/images/00024.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00024.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00024.png"
     },
     {
       "index": 25,
@@ -57115,7 +57115,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 안심 비프 웰링턴과 페리고 트러플 주(Jus)그려줘",
       "imageUrl": "/images/00025.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00025.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00025.png"
     },
     {
       "index": 26,
@@ -57147,7 +57147,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 자연산 송이버섯과 맑은 한우 채수 온반그려줘",
       "imageUrl": "/images/00026.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00026.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00026.png"
     },
     {
       "index": 27,
@@ -57178,7 +57178,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 프랑스산 브레스 영계 로스트와 모렐 버섯 크림그려줘",
       "imageUrl": "/images/00027.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00027.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00027.png"
     },
     {
       "index": 28,
@@ -57210,7 +57210,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
       "imageUrl": "/images/00028.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
     },
     {
       "index": 29,
@@ -57241,7 +57241,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 블루 랍스터 포치드와 사프란 비스크 에멀전그려줘",
       "imageUrl": "/images/00029.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00029.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00029.png"
     },
     {
       "index": 30,
@@ -57273,7 +57273,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
       "imageUrl": "/images/00030.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
     },
     {
       "index": 31,
@@ -57305,7 +57305,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 참숯에 구운 제철 금태와 봄나물 가마솥밥그려줘",
       "imageUrl": "/images/00031.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00031.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00031.png"
     },
     {
       "index": 32,
@@ -57336,7 +57336,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 한우 1++ 채끝등심 볏짚 훈연 구이와 발효 흑마늘그려줘",
       "imageUrl": "/images/00032.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00032.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00032.png"
     },
     {
       "index": 33,
@@ -57368,7 +57368,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 제주 옥돔 비늘 구이(마쓰카와)와 성게알 미역국그려줘",
       "imageUrl": "/images/00033.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00033.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00033.png"
     },
     {
       "index": 34,
@@ -57400,7 +57400,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 홋카이도산 가리비 관자 구이와 컬리플라워 벨루테그려줘",
       "imageUrl": "/images/00034.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00034.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00034.png"
     },
     {
       "index": 35,
@@ -57432,7 +57432,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
       "imageUrl": "/images/00035.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
     },
     {
       "index": 36,
@@ -57464,7 +57464,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 오리 푸아그라 테린과 무화과 브리오슈 토스트그려줘",
       "imageUrl": "/images/00036.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00036.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00036.png"
     },
     {
       "index": 37,
@@ -57495,7 +57495,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 쑥 아이스크림과 갓 튀긴 개성 주악 디저트 소반그려줘",
       "imageUrl": "/images/00037.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00037.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00037.png"
     },
     {
       "index": 38,
@@ -57527,7 +57527,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
       "imageUrl": "/images/00038.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
     },
     {
       "index": 39,
@@ -57558,7 +57558,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 크리스피 오리 콩피(Duck Confit)와 오렌지 가스트릭그려줘",
       "imageUrl": "/images/00039.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00039.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00039.png"
     },
     {
       "index": 40,
@@ -57591,7 +57591,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
       "imageUrl": "/images/00040.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
     },
     {
       "index": 42,
@@ -57622,7 +57622,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 숯불 한우 트러플 떡갈비와 구운 대파 정찬그려줘",
       "imageUrl": "/images/00042.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00042.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00042.png"
     },
     {
       "index": 43,
@@ -57654,7 +57654,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
       "imageUrl": "/images/00043.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
     },
     {
       "index": 45,
@@ -57686,7 +57686,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
       "imageUrl": "/images/00045.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
     },
     {
       "index": 46,
@@ -57719,7 +57719,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
       "imageUrl": "/images/00046.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
     },
     {
       "index": 47,
@@ -57750,7 +57750,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 명동 스타일 자가제면 칼국수와 왕만두그려줘",
       "imageUrl": "/images/00047.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00047.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00047.png"
     },
     {
       "index": 48,
@@ -57782,7 +57782,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 광화문 노포 판메밀(냉모밀) 2판과 메밀전병그려줘",
       "imageUrl": "/images/00048.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00048.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00048.png"
     },
     {
       "index": 49,
@@ -57815,7 +57815,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
       "imageUrl": "/images/00049.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
     },
     {
       "index": 50,
@@ -57846,7 +57846,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 알이 꽉 찬 서해안 암꽃게 간장게장 정식그려줘",
       "imageUrl": "/images/00050.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00050.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00050.png"
     },
     {
       "index": 51,
@@ -57878,7 +57878,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
       "imageUrl": "/images/00051.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
     },
     {
       "index": 52,
@@ -57909,7 +57909,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 고소한 거피 들기름 막국수와 한방 보쌈 수육그려줘",
       "imageUrl": "/images/00052.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00052.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00052.png"
     },
     {
       "index": 53,
@@ -57941,7 +57941,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 종로 노포 청국장 정식과 오징어볶음 비빔밥그려줘",
       "imageUrl": "/images/00053.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00053.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00053.png"
     },
     {
       "index": 54,
@@ -57972,7 +57972,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 제주 흑돼지 족발과 새콤달콤 쟁반막국수그려줘",
       "imageUrl": "/images/00054.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00054.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00054.png"
     },
     {
       "index": 57,
@@ -58005,7 +58005,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
       "imageUrl": "/images/00057.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
     },
     {
       "index": 61,
@@ -58038,7 +58038,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
       "imageUrl": "/images/00061.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
     },
     {
       "index": 64,
@@ -58070,7 +58070,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달큰한 찐 양배추 쌈과 고소한 우렁 강된장그려줘",
       "imageUrl": "/images/00064.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00064.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00064.png"
     },
     {
       "index": 67,
@@ -58103,7 +58103,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
       "imageUrl": "/images/00067.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
     },
     {
       "index": 68,
@@ -58135,7 +58135,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
       "imageUrl": "/images/00068.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
     },
     {
       "index": 70,
@@ -58166,7 +58166,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대왕 통오징어 튀김이 통째로 올라간 오징어먹물 짜장면그려줘",
       "imageUrl": "/images/00070.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00070.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00070.png"
     },
     {
       "index": 71,
@@ -58199,7 +58199,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
       "imageUrl": "/images/00071.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
     },
     {
       "index": 73,
@@ -58231,7 +58231,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쌀국수가 안 보이는 산더미 고수 폭탄 차돌 쌀국수그려줘",
       "imageUrl": "/images/00073.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00073.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00073.png"
     },
     {
       "index": 74,
@@ -58263,7 +58263,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
       "imageUrl": "/images/00074.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
     },
     {
       "index": 76,
@@ -58295,7 +58295,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00076.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
     },
     {
       "index": 78,
@@ -58328,7 +58328,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
       "imageUrl": "/images/00078.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
     },
     {
       "index": 79,
@@ -58361,7 +58361,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
       "imageUrl": "/images/00079.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
     },
     {
       "index": 80,
@@ -58393,7 +58393,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 앞다리살 돼지김치찌개와 케첩 계란말이그려줘",
       "imageUrl": "/images/00080.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00080.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00080.png"
     },
     {
       "index": 81,
@@ -58425,7 +58425,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 구수한 차돌박이 된장찌개와 강된장 열무비빔밥그려줘",
       "imageUrl": "/images/00081.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00081.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00081.png"
     },
     {
       "index": 82,
@@ -58456,7 +58456,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불향 가득 기사식당 직화 제육볶음과 상추쌈밥그려줘",
       "imageUrl": "/images/00082.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00082.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00082.png"
     },
     {
       "index": 83,
@@ -58487,7 +58487,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 솥뚜껑 숙성 삼겹살과 청도 미나리 & 볶음밥그려줘",
       "imageUrl": "/images/00083.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00083.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00083.png"
     },
     {
       "index": 84,
@@ -58520,7 +58520,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
       "imageUrl": "/images/00084.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
     },
     {
       "index": 86,
@@ -58551,7 +58551,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉바속촉 황금올리브 후라이드 + 매콤달콤 양념 반반치킨그려줘",
       "imageUrl": "/images/00086.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00086.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00086.png"
     },
     {
       "index": 87,
@@ -58582,7 +58582,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 곱이 꽉 찬 한우 소곱창·대창 모둠 구이와 부추무침그려줘",
       "imageUrl": "/images/00087.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00087.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00087.png"
     },
     {
       "index": 88,
@@ -58614,7 +58614,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
       "imageUrl": "/images/00088.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
     },
     {
       "index": 89,
@@ -58645,7 +58645,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 연돈 스타일 폭포수 통모짜렐라 치즈 돈까스그려줘",
       "imageUrl": "/images/00089.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00089.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00089.png"
     },
     {
       "index": 94,
@@ -58677,7 +58677,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
       "imageUrl": "/images/00094.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
     },
     {
       "index": 96,
@@ -58710,7 +58710,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
       "imageUrl": "/images/00096.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
     },
     {
       "index": 97,
@@ -58742,7 +58742,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
       "imageUrl": "/images/00097.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
     },
     {
       "index": 98,
@@ -58774,7 +58774,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
       "imageUrl": "/images/00098.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
     },
     {
       "index": 99,
@@ -58806,7 +58806,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
       "imageUrl": "/images/00099.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
     },
     {
       "index": 100,
@@ -58837,7 +58837,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 도깨비에서 공유가 비 내리는 날 김고은에게 사주던 캐나다 소고기 스테이크그려줘",
       "imageUrl": "/images/00100.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00100.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00100.png"
     },
     {
       "index": 102,
@@ -58868,7 +58868,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 범죄도시 장첸이 비닐장갑 끼고 껍질째 뜯던 마라롱샤 (매운 가재)그려줘",
       "imageUrl": "/images/00102.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00102.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00102.png"
     },
     {
       "index": 103,
@@ -58899,7 +58899,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 응답하라 1988 덕선이네 삼선당 옛날 양념통닭과 사라다그려줘",
       "imageUrl": "/images/00103.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00103.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00103.png"
     },
     {
       "index": 104,
@@ -58930,7 +58930,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 센과 치히로의 행방불명에서 아빠가 삼키던 거대 육즙 고기 주머니그려줘",
       "imageUrl": "/images/00104.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00104.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00104.png"
     },
     {
       "index": 106,
@@ -58962,7 +58962,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 라따뚜이에서 까다로운 평론가 이고를 눈물짓게 한 시골풍 라따뚜이그려줘",
       "imageUrl": "/images/00106.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00106.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00106.png"
     },
     {
       "index": 108,
@@ -58993,7 +58993,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 별에서 온 그대 천송이가 첫눈 오는 날 찾던 치맥 (치킨과 캔맥주)그려줘",
       "imageUrl": "/images/00108.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00108.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00108.png"
     },
     {
       "index": 109,
@@ -59024,7 +59024,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 대부(Godfather) 클레멘자가 마피아 패밀리에게 끓여주던 미트볼 토마토 파스타그려줘",
       "imageUrl": "/images/00109.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00109.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00109.png"
     },
     {
       "index": 111,
@@ -59057,7 +59057,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
       "imageUrl": "/images/00111.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
     },
     {
       "index": 116,
@@ -59088,7 +59088,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤알싸한 마늘소스 듬뿍 올린 마늘보쌈과 무김치그려줘",
       "imageUrl": "/images/00116.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00116.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00116.png"
     },
     {
       "index": 117,
@@ -59119,7 +59119,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 코끝이 찡한 부산 부평동식 해파리 냉채족발그려줘",
       "imageUrl": "/images/00117.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00117.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00117.png"
     },
     {
       "index": 118,
@@ -59150,7 +59150,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 바삭 속은 쫀득한 독일 슈바인학센식 튀김족발그려줘",
       "imageUrl": "/images/00118.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00118.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00118.png"
     },
     {
       "index": 119,
@@ -59182,7 +59182,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
       "imageUrl": "/images/00119.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
     },
     {
       "index": 120,
@@ -59214,7 +59214,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼큰하고 칼칼한 동해 생태 알곤이 동태탕 뚝배기그려줘",
       "imageUrl": "/images/00120.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00120.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00120.png"
     },
     {
       "index": 121,
@@ -59245,7 +59245,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤 콩나물 산더미 마산 아구찜과 볶음밥그려줘",
       "imageUrl": "/images/00121.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00121.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00121.png"
     },
     {
       "index": 122,
@@ -59276,7 +59276,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스팸·소시지·라면사리 듬뿍 들어간 의정부 원조 부대찌개그려줘",
       "imageUrl": "/images/00122.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00122.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00122.png"
     },
     {
       "index": 123,
@@ -59309,7 +59309,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
       "imageUrl": "/images/00123.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
     },
     {
       "index": 124,
@@ -59340,7 +59340,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오븐에 구워 기름기 쏙 뺀 매콤 바삭 고추바사삭 치킨과 마블링 소스그려줘",
       "imageUrl": "/images/00124.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00124.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00124.png"
     },
     {
       "index": 125,
@@ -59371,7 +59371,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단짠의 원조 교촌 스타일 짭조름한 간장 윙봉 콤보그려줘",
       "imageUrl": "/images/00125.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00125.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00125.png"
     },
     {
       "index": 126,
@@ -59402,7 +59402,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불 향 진하게 밴 양념 숯불바베큐 치킨과 우동사리 추가그려줘",
       "imageUrl": "/images/00126.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00126.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00126.png"
     },
     {
       "index": 127,
@@ -59434,7 +59434,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
       "imageUrl": "/images/00127.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
     },
     {
       "index": 128,
@@ -59466,7 +59466,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
       "imageUrl": "/images/00128.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
     },
     {
       "index": 129,
@@ -59498,7 +59498,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
       "imageUrl": "/images/00129.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
     },
     {
       "index": 130,
@@ -59529,7 +59529,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 12시간 훈연해 결대로 찢은 텍사스 풀드포크 바베큐 버거그려줘",
       "imageUrl": "/images/00130.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00130.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00130.png"
     },
     {
       "index": 131,
@@ -59560,7 +59560,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불맛 확 살아있는 양파 듬뿍 삼선 간짜장과 반숙 계란후라이그려줘",
       "imageUrl": "/images/00131.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00131.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00131.png"
     },
     {
       "index": 132,
@@ -59592,7 +59592,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
       "imageUrl": "/images/00132.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
     },
     {
       "index": 133,
@@ -59625,7 +59625,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
       "imageUrl": "/images/00133.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
     },
     {
       "index": 134,
@@ -59657,7 +59657,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼얼한 산초와 고추기름으로 볶아낸 사천 마파두부 덮밥그려줘",
       "imageUrl": "/images/00134.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00134.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00134.png"
     },
     {
       "index": 135,
@@ -59688,7 +59688,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 튀긴 왕새우·장어·단호박이 탑처럼 쌓인 에도식 스페셜 텐동그려줘",
       "imageUrl": "/images/00135.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00135.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00135.png"
     },
     {
       "index": 136,
@@ -59719,7 +59719,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 참치·연어·광어·연어알이 가득한 바다 한 그릇 카이센동그려줘",
       "imageUrl": "/images/00136.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00136.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00136.png"
     },
     {
       "index": 137,
@@ -59751,7 +59751,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
       "imageUrl": "/images/00137.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
     },
     {
       "index": 138,
@@ -59782,7 +59782,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불 돼지고기와 새콤달콤 느억맘 소스에 적셔 먹는 하노이식 분짜그려줘",
       "imageUrl": "/images/00138.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00138.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00138.png"
     },
     {
       "index": 139,
@@ -59813,7 +59813,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우와 레몬그라스 향이 폭발하는 세계 3대 수프 똠얌꿍과 쌀국수면그려줘",
       "imageUrl": "/images/00139.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00139.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00139.png"
     },
     {
       "index": 140,
@@ -59844,7 +59844,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 부드러운 옐로우 커리 푸팟퐁커리그려줘",
       "imageUrl": "/images/00140.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00140.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00140.png"
     },
     {
       "index": 141,
@@ -59877,7 +59877,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
       "imageUrl": "/images/00141.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
     },
     {
       "index": 142,
@@ -59909,7 +59909,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 생연어 깍둑썰기와 날치알, 현미밥이 어우러진 하와이안 살몬 포케 볼그려줘",
       "imageUrl": "/images/00142.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00142.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00142.png"
     },
     {
       "index": 143,
@@ -59941,7 +59941,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수비드 촉촉 닭가슴살과 구운 단호박 웜 샐러드그려줘",
       "imageUrl": "/images/00143.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00143.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00143.png"
     },
     {
       "index": 144,
@@ -59974,7 +59974,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
       "imageUrl": "/images/00144.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
     },
     {
       "index": 148,
@@ -60006,7 +60006,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
       "imageUrl": "/images/00148.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
     },
     {
       "index": 150,
@@ -60038,7 +60038,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
       "imageUrl": "/images/00150.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
     },
     {
       "index": 151,
@@ -60069,7 +60069,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤새콤 버팔로 윙 10조각과 블루치즈 딥 & 샐러리 스틱그려줘",
       "imageUrl": "/images/00151.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00151.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00151.png"
     },
     {
       "index": 152,
@@ -60100,7 +60100,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치폴레(Chipotle) 스타일 과카몰리 비프 스테이크 부리또 볼그려줘",
       "imageUrl": "/images/00152.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00152.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00152.png"
     },
     {
       "index": 153,
@@ -60133,7 +60133,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
       "imageUrl": "/images/00153.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
     },
     {
       "index": 162,
@@ -60166,7 +60166,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
       "imageUrl": "/images/00162.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
     },
     {
       "index": 165,
@@ -60197,7 +60197,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 등산 후 계곡 평상에서 먹는 한방 능이버섯 토종닭 백숙과 찰밥죽그려줘",
       "imageUrl": "/images/00165.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00165.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00165.png"
     },
     {
       "index": 166,
@@ -60229,7 +60229,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들기름과 깻잎에 팍팍 무쳐낸 산 밑 원조 도토리묵무침그려줘",
       "imageUrl": "/images/00166.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00166.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00166.png"
     },
     {
       "index": 167,
@@ -60261,7 +60261,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
       "imageUrl": "/images/00167.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
     },
     {
       "index": 171,
@@ -60292,7 +60292,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 정통 로마식 관찰레와 페코리노 치즈로 만든 노란빛 까르보나라그려줘",
       "imageUrl": "/images/00171.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00171.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00171.png"
     },
     {
       "index": 172,
@@ -60324,7 +60324,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
       "imageUrl": "/images/00172.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
     },
     {
       "index": 173,
@@ -60355,7 +60355,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 세이지 버터에 바삭하게 구워낸 홈메이드 단호박 뇨끼그려줘",
       "imageUrl": "/images/00173.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00173.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00173.png"
     },
     {
       "index": 174,
@@ -60386,7 +60386,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바다 향 가득한 지중해식 오징어 먹물 해산물 리조또그려줘",
       "imageUrl": "/images/00174.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00174.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00174.png"
     },
     {
       "index": 175,
@@ -60417,7 +60417,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 포르치니 버섯 향이 진동하는 파르미지아노 크림 리조또그려줘",
       "imageUrl": "/images/00175.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00175.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00175.png"
     },
     {
       "index": 176,
@@ -60448,7 +60448,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 모시조개와 마늘 화이트와인으로 맛을 낸 봉골레 링귀니그려줘",
       "imageUrl": "/images/00176.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00176.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00176.png"
     },
     {
       "index": 177,
@@ -60479,7 +60479,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 소고기 라구 소스와 베샤멜을 겹겹이 쌓아 구운 볼로냐식 라자냐그려줘",
       "imageUrl": "/images/00177.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00177.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00177.png"
     },
     {
       "index": 178,
@@ -60510,7 +60510,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향긋한 제노바식 바질 페스토와 잣, 그라나파다노 치즈의 트로피에 파스타그려줘",
       "imageUrl": "/images/00178.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00178.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00178.png"
     },
     {
       "index": 179,
@@ -60542,7 +60542,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
       "imageUrl": "/images/00179.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
     },
     {
       "index": 180,
@@ -60573,7 +60573,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 블랙 트러플 슬라이스와 양송이 크림소스를 올린 수제 감자 뇨끼그려줘",
       "imageUrl": "/images/00180.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00180.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00180.png"
     },
     {
       "index": 181,
@@ -60604,7 +60604,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯에 직화로 구워 특제 타레 소스를 입힌 홋카이도 오비히로식 부타동그려줘",
       "imageUrl": "/images/00181.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00181.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00181.png"
     },
     {
       "index": 182,
@@ -60636,7 +60636,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
       "imageUrl": "/images/00182.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
     },
     {
       "index": 183,
@@ -60668,7 +60668,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
       "imageUrl": "/images/00183.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
     },
     {
       "index": 184,
@@ -60699,7 +60699,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 쯔유 국물에 적셔 먹는 일본 관동식 특상 소고기 스키야키 나베그려줘",
       "imageUrl": "/images/00184.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00184.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00184.png"
     },
     {
       "index": 185,
@@ -60731,7 +60731,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
       "imageUrl": "/images/00185.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
     },
     {
       "index": 186,
@@ -60762,7 +60762,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 걸쭉하고 진한 가쓰오 돈코츠 육수에 차가운 극태면을 찍어 먹는 츠케멘그려줘",
       "imageUrl": "/images/00186.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00186.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00186.png"
     },
     {
       "index": 187,
@@ -60793,7 +60793,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 향 가득 머금은 정통 일본식 수제 야키토리(닭꼬치) 7종 모둠 플래터그려줘",
       "imageUrl": "/images/00187.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00187.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00187.png"
     },
     {
       "index": 188,
@@ -60824,7 +60824,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 3단계로 즐기는 나고야식 장어덮밥 특선 히츠마부시 (장어 한 마리 반)그려줘",
       "imageUrl": "/images/00188.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00188.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00188.png"
     },
     {
       "index": 189,
@@ -60856,7 +60856,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
       "imageUrl": "/images/00189.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
     },
     {
       "index": 190,
@@ -60887,7 +60887,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 시금치를 곱게 갈아 코티지 치즈를 퐁당 넣은 팔락 파니르 (시금치 커리)그려줘",
       "imageUrl": "/images/00190.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00190.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00190.png"
     },
     {
       "index": 191,
@@ -60920,7 +60920,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화덕에서 갓 구워 녹인 버터를 듬뿍 바른 대왕 버터 갈릭 난그려줘",
       "imageUrl": "/images/00191.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00191.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00191.png"
     },
     {
       "index": 192,
@@ -60951,7 +60951,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터와 토마토, 크림으로 끓여낸 달콤고소한 치킨 마크니 (버터 치킨)그려줘",
       "imageUrl": "/images/00192.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00192.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00192.png"
     },
     {
       "index": 193,
@@ -60982,7 +60982,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향신료와 바스마티 쌀, 닭고기를 겹겹이 쪄낸 인도 궁중 요리 치킨 비리야니그려줘",
       "imageUrl": "/images/00193.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00193.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00193.png"
     },
     {
       "index": 195,
@@ -61014,7 +61014,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
       "imageUrl": "/images/00195.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
     },
     {
       "index": 196,
@@ -61047,7 +61047,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 닭육수를 만두피 안에 가둔 상하이 샤오롱바오 (소롱포) 6개그려줘",
       "imageUrl": "/images/00196.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00196.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00196.png"
     },
     {
       "index": 197,
@@ -61078,7 +61078,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 오리 껍질과 밀전병, 야채 야장 소스의 베이징덕그려줘",
       "imageUrl": "/images/00197.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00197.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00197.png"
     },
     {
       "index": 198,
@@ -61110,7 +61110,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
       "imageUrl": "/images/00198.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
     },
     {
       "index": 199,
@@ -61141,7 +61141,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼얼한 마라 고추기름과 고소한 땅콩 참깨장 소스의 사천 탄탄면그려줘",
       "imageUrl": "/images/00199.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00199.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00199.png"
     },
     {
       "index": 200,
@@ -61172,7 +61172,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오향 향신료에 삶아 숟가락으로 부서질 만큼 연한 항저우식 정통 동파육그려줘",
       "imageUrl": "/images/00200.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00200.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00200.png"
     },
     {
       "index": 201,
@@ -61204,7 +61204,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
       "imageUrl": "/images/00201.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
     },
     {
       "index": 202,
@@ -61235,7 +61235,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 와인에 장시간 푹 고아 부드럽게 찢어지는 비프 부르기뇽 (소고기 스튜)그려줘",
       "imageUrl": "/images/00202.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00202.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00202.png"
     },
     {
       "index": 204,
@@ -61267,7 +61267,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 호박·가지·토마토를 올리브유와 허브에 뭉근히 졸여낸 남프랑스 프로방스식 라따뚜이그려줘",
       "imageUrl": "/images/00204.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00204.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00204.png"
     },
     {
       "index": 205,
@@ -61298,7 +61298,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭고기를 진한 레드 와인과 베이컨, 버섯에 졸여낸 프랑스 전통 코코뱅 (Coq au Vin)그려줘",
       "imageUrl": "/images/00205.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00205.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00205.png"
     },
     {
       "index": 208,
@@ -61330,7 +61330,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00208.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
     },
     {
       "index": 209,
@@ -61361,7 +61361,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 튀긴 소프트쉘 크랩과 마늘 버터를 채운 뉴올리언스 포보이(Po-Boy) 샌드위치그려줘",
       "imageUrl": "/images/00209.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00209.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00209.png"
     },
     {
       "index": 210,
@@ -61393,7 +61393,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
       "imageUrl": "/images/00210.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
     },
     {
       "index": 211,
@@ -61425,7 +61425,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭하게 구운 사워도우 브레드 볼에 담아낸 보스턴 클램 차우더 조개 수프그려줘",
       "imageUrl": "/images/00211.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00211.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00211.png"
     },
     {
       "index": 212,
@@ -61456,7 +61456,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 안두이 소시지와 닭고기, 통새우를 케이준 향신료 밥에 볶은 루이지애나 잠발라야그려줘",
       "imageUrl": "/images/00212.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00212.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00212.png"
     },
     {
       "index": 215,
@@ -61488,7 +61488,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 단호박을 곱게 갈아 찹쌀 경단을 동동 띄운 달콤 단호박죽그려줘",
       "imageUrl": "/images/00215.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00215.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00215.png"
     },
     {
       "index": 216,
@@ -61520,7 +61520,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 무쇠 가마솥에 눌어붙은 구수한 누룽지 숭늉과 짭짤한 오징어젓갈그려줘",
       "imageUrl": "/images/00216.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00216.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00216.png"
     },
     {
       "index": 220,
@@ -61552,7 +61552,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 활전복 내장(게우)을 참기름에 달달 볶아 푸른빛이 도는 전복 영양죽그려줘",
       "imageUrl": "/images/00220.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00220.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00220.png"
     },
     {
       "index": 221,
@@ -61584,7 +61584,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 다진 소고기와 표고버섯, 당근을 넣고 푹 끓여낸 쇠고기 야채 영양죽그려줘",
       "imageUrl": "/images/00221.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00221.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00221.png"
     },
     {
       "index": 228,
@@ -61616,7 +61616,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 토마토소스에 계란 2알을 퐁당 빠뜨려 자글자글 끓인 지중해식 에그인헬 (샥슈카)그려줘",
       "imageUrl": "/images/00228.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00228.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00228.png"
     },
     {
       "index": 231,
@@ -61648,7 +61648,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강릉 초당 스타일 뚝배기에 몽글몽글 끓여낸 맑은 순두부 탕과 양념간장그려줘",
       "imageUrl": "/images/00231.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00231.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00231.png"
     },
     {
       "index": 234,
@@ -61680,7 +61680,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 결대로 찢은 닭가슴살과 야채를 넣고 뭉근하게 끓인 닭가슴살 오트밀 닭죽그려줘",
       "imageUrl": "/images/00234.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00234.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00234.png"
     },
     {
       "index": 241,
@@ -61712,7 +61712,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 따뜻한 통단팥에 쫄깃한 찹쌀 새알심을 듬뿍 넣은 뚝배기 동지 팥죽그려줘",
       "imageUrl": "/images/00241.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00241.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00241.png"
     },
     {
       "index": 245,
@@ -61744,7 +61744,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
       "imageUrl": "/images/00245.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
     },
     {
       "index": 246,
@@ -61777,7 +61777,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
       "imageUrl": "/images/00246.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
     },
     {
       "index": 248,
@@ -61810,7 +61810,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
       "imageUrl": "/images/00248.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
     },
     {
       "index": 250,
@@ -61843,7 +61843,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
       "imageUrl": "/images/00250.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
     },
     {
       "index": 251,
@@ -61876,7 +61876,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
       "imageUrl": "/images/00251.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
     },
     {
       "index": 253,
@@ -61909,7 +61909,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
       "imageUrl": "/images/00253.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
     },
     {
       "index": 254,
@@ -61941,7 +61941,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
       "imageUrl": "/images/00254.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
     },
     {
       "index": 255,
@@ -61974,7 +61974,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
       "imageUrl": "/images/00255.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
     },
     {
       "index": 256,
@@ -62006,7 +62006,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00256.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
     },
     {
       "index": 257,
@@ -62039,7 +62039,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
       "imageUrl": "/images/00257.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
     },
     {
       "index": 258,
@@ -62072,7 +62072,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
       "imageUrl": "/images/00258.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
     },
     {
       "index": 259,
@@ -62104,7 +62104,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
       "imageUrl": "/images/00259.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
     },
     {
       "index": 260,
@@ -62137,7 +62137,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
       "imageUrl": "/images/00260.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
     },
     {
       "index": 261,
@@ -62169,7 +62169,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
       "imageUrl": "/images/00261.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
     },
     {
       "index": 262,
@@ -62201,7 +62201,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00262.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
     },
     {
       "index": 263,
@@ -62233,7 +62233,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
       "imageUrl": "/images/00263.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
     },
     {
       "index": 267,
@@ -62264,7 +62264,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 고추장 불향 제육과 7첩 반찬이 푸짐한 GS25 혜자로운 집밥 제육 도시락그려줘",
       "imageUrl": "/images/00267.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00267.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00267.png"
     },
     {
       "index": 268,
@@ -62295,7 +62295,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 너비아니와 불고기, 계란말이가 들어간 알찬 CU 백종원 한판 도시락그려줘",
       "imageUrl": "/images/00268.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00268.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00268.png"
     },
     {
       "index": 270,
@@ -62327,7 +62327,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
       "imageUrl": "/images/00270.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
     },
     {
       "index": 271,
@@ -62358,7 +62358,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참나무 훈제 향이 솔솔 나는 큼직하고 쫄깃한 편의점 스모크 훈제 닭다리그려줘",
       "imageUrl": "/images/00271.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00271.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00271.png"
     },
     {
       "index": 277,
@@ -62389,7 +62389,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 방콕 야시장 땅콩가루와 숙주, 왕새우를 센 불에 볶아낸 팟타이 꿍그려줘",
       "imageUrl": "/images/00277.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00277.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00277.png"
     },
     {
       "index": 279,
@@ -62421,7 +62421,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
       "imageUrl": "/images/00279.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
     },
     {
       "index": 280,
@@ -62453,7 +62453,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
       "imageUrl": "/images/00280.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
     },
     {
       "index": 282,
@@ -62484,7 +62484,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 그리스 전통 화덕 피타 브레드에 구운 양고기와 차지키 요거트 소스를 감싼 기로스 랩그려줘",
       "imageUrl": "/images/00282.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00282.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00282.png"
     },
     {
       "index": 283,
@@ -62515,7 +62515,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 터키 이스탄불 갈라타 다리 명물 바게트 속에 구운 통고등어와 양파를 넣은 고등어 케밥그려줘",
       "imageUrl": "/images/00283.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00283.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00283.png"
     },
     {
       "index": 287,
@@ -62546,7 +62546,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 인도네시아 전통 달콤 짭조름한 케찹 마니스 소스에 새우를 볶은 나시고랭과 계란후라이그려줘",
       "imageUrl": "/images/00287.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00287.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00287.png"
     },
     {
       "index": 288,
@@ -62578,7 +62578,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
       "imageUrl": "/images/00288.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
     },
     {
       "index": 290,
@@ -62609,7 +62609,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 칠리 토마토 계란 소스에 버무린 싱가포르 점보 칠리크랩과 튀긴 꽃빵 만토우그려줘",
       "imageUrl": "/images/00290.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00290.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00290.png"
     },
     {
       "index": 292,
@@ -62641,7 +62641,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
       "imageUrl": "/images/00292.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
     },
     {
       "index": 293,
@@ -62673,7 +62673,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
       "imageUrl": "/images/00293.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
     },
     {
       "index": 294,
@@ -62705,7 +62705,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
       "imageUrl": "/images/00294.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
     },
     {
       "index": 295,
@@ -62736,7 +62736,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 투구 모양 무쇠 불판에 숙주와 대파를 두르고 구운 삿포로식 생양고기 징기스칸그려줘",
       "imageUrl": "/images/00295.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00295.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00295.png"
     },
     {
       "index": 296,
@@ -62768,7 +62768,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
       "imageUrl": "/images/00296.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
     },
     {
       "index": 297,
@@ -62800,7 +62800,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
       "imageUrl": "/images/00297.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
     },
     {
       "index": 299,
@@ -62832,7 +62832,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
       "imageUrl": "/images/00299.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
     },
     {
       "index": 302,
@@ -62864,7 +62864,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
       "imageUrl": "/images/00302.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
     },
     {
       "index": 303,
@@ -62895,7 +62895,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 백탄에 구워 마블링 육즙이 뚝뚝 떨어지는 한우 1++ 꽃등심 구이그려줘",
       "imageUrl": "/images/00303.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00303.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00303.png"
     },
     {
       "index": 304,
@@ -62927,7 +62927,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
       "imageUrl": "/images/00304.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
     },
     {
       "index": 305,
@@ -62958,7 +62958,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃한 소 곱창, 대창, 막창, 염통을 부추와 함께 지글지글 굽는 소 모둠 곱창구이그려줘",
       "imageUrl": "/images/00305.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00305.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00305.png"
     },
     {
       "index": 306,
@@ -62989,7 +62989,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 돼지고기 앞다리살 숭덩숭덩 썰어 넣고 자글자글 끓인 얼큰 뚝배기 돼지 김치찌개그려줘",
       "imageUrl": "/images/00306.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00306.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00306.png"
     },
     {
       "index": 307,
@@ -63021,7 +63021,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃한 논우렁과 애호박, 두부를 듬뿍 넣고 자작하게 끓인 시골 우렁 된장찌개그려줘",
       "imageUrl": "/images/00307.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00307.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00307.png"
     },
     {
       "index": 308,
@@ -63053,7 +63053,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
       "imageUrl": "/images/00308.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
     },
     {
       "index": 309,
@@ -63085,7 +63085,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
       "imageUrl": "/images/00309.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
     },
     {
       "index": 310,
@@ -63117,7 +63117,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 인삼과 대추를 넣고 뽀얗게 고아낸 맑고 쫀득한 한우 도가니탕과 깍두기그려줘",
       "imageUrl": "/images/00310.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00310.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00310.png"
     },
     {
       "index": 311,
@@ -63148,7 +63148,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 동해안 산지 직송 싱싱한 통오징어를 내장째 쪄낸 녹진한 오징어 통찜그려줘",
       "imageUrl": "/images/00311.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00311.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00311.png"
     },
     {
       "index": 312,
@@ -63180,7 +63180,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
       "imageUrl": "/images/00312.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
     },
     {
       "index": 313,
@@ -63211,7 +63211,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 백합, 가리비, 키조개, 홍합을 산더미처럼 쌓아 맑고 시원하게 끓인 조개전골그려줘",
       "imageUrl": "/images/00313.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00313.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00313.png"
     },
     {
       "index": 314,
@@ -63243,7 +63243,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
       "imageUrl": "/images/00314.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
     },
     {
       "index": 315,
@@ -63274,7 +63274,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 직화로 구워 불향 가득 매콤하게 뼈를 발라낸 무뼈 닭발과 뚝배기 계란찜그려줘",
       "imageUrl": "/images/00315.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00315.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00315.png"
     },
     {
       "index": 316,
@@ -63305,7 +63305,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 선홍빛 소고기 양지 슬라이스와 신선한 채소를 맑은 육수에 살랑살랑 흔들어 먹는 소고기 샤브샤브그려줘",
       "imageUrl": "/images/00316.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00316.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00316.png"
     },
     {
       "index": 317,
@@ -63336,7 +63336,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얼큰하고 진한 육개장 사골 국물에 칼국수 생면을 말아낸 육개장 칼국수 (육칼)그려줘",
       "imageUrl": "/images/00317.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00317.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00317.png"
     },
     {
       "index": 318,
@@ -63369,7 +63369,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
       "imageUrl": "/images/00318.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
     },
     {
       "index": 319,
@@ -63401,7 +63401,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 향긋한 미나리와 콩나물을 듬뿍 넣고 식초를 살짝 쳐서 끓인 시원한 복지리 맑은탕그려줘",
       "imageUrl": "/images/00319.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00319.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00319.png"
     },
     {
       "index": 320,
@@ -63432,7 +63432,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤달콤 매콤한 초고추장 양념에 쫄깃한 골뱅이와 오이, 파채를 버무린 자연산 골뱅이 소면그려줘",
       "imageUrl": "/images/00320.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00320.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00320.png"
     },
     {
       "index": 321,
@@ -63463,7 +63463,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 고소한 버터 향을 입혀 통째로 구워낸 완도산 활전복 버터구이 5미그려줘",
       "imageUrl": "/images/00321.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00321.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00321.png"
     },
     {
       "index": 322,
@@ -63496,7 +63496,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
       "imageUrl": "/images/00322.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
     },
     {
       "index": 323,
@@ -63527,7 +63527,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 불판 위에서 꿈틀꿈틀 구워 매콤한 고추장 양념을 덧바른 자갈치 숯불 꼼장어 구이그려줘",
       "imageUrl": "/images/00323.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00323.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00323.png"
     },
     {
       "index": 324,
@@ -63558,7 +63558,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참기름과 통깨, 풋고추를 넣고 칼로 탕탕 쳐낸 싱싱한 목포 산낙지 탕탕이그려줘",
       "imageUrl": "/images/00324.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00324.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00324.png"
     },
     {
       "index": 325,
@@ -63590,7 +63590,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
       "imageUrl": "/images/00325.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
     },
     {
       "index": 326,
@@ -63621,7 +63621,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 당일 도축한 찰진 한우 생고기를 깍둑 썰어 마늘 고추장 양념에 찍어 먹는 대구 뭉티기그려줘",
       "imageUrl": "/images/00326.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00326.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00326.png"
     },
     {
       "index": 327,
@@ -63652,7 +63652,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살얼음 육수를 동동 띄운 쫄깃한 칡냉면과 숯불 불고기 한 접시그려줘",
       "imageUrl": "/images/00327.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00327.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00327.png"
     },
     {
       "index": 328,
@@ -63684,7 +63684,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤새콤한 특제 양념장에 콩나물과 오이를 비빈 인천 신포동 원조 쫄면그려줘",
       "imageUrl": "/images/00328.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00328.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00328.png"
     },
     {
       "index": 329,
@@ -63716,7 +63716,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뽀얀 한우 사골 육수에 손으로 직접 빚은 고기 왕만두와 쫄깃한 떡을 넣은 떡만둣국그려줘",
       "imageUrl": "/images/00329.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00329.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00329.png"
     },
     {
       "index": 330,
@@ -63747,7 +63747,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바지락이 그릇 가득 산더미처럼 들어간 시원하고 맑은 대부도 바지락 칼국수그려줘",
       "imageUrl": "/images/00330.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00330.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00330.png"
     },
     {
       "index": 331,
@@ -63778,7 +63778,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 껍질 벗긴 고소한 거피 들깨가루를 듬뿍 넣어 걸쭉한 뚝배기 버섯 들깨 수제비그려줘",
       "imageUrl": "/images/00331.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00331.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00331.png"
     },
     {
       "index": 332,
@@ -63809,7 +63809,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 멸치 육수에 고추장과 된장을 풀어 칼칼하고 걸쭉하게 끓인 강릉식 장칼국수그려줘",
       "imageUrl": "/images/00332.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00332.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00332.png"
     },
     {
       "index": 333,
@@ -63841,7 +63841,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
       "imageUrl": "/images/00333.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
     },
     {
       "index": 335,
@@ -63874,7 +63874,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
       "imageUrl": "/images/00335.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
     },
     {
       "index": 337,
@@ -63906,7 +63906,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
       "imageUrl": "/images/00337.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
     },
     {
       "index": 339,
@@ -63937,7 +63937,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국산 서리태 검은콩을 껍질째 맷돌에 곱게 갈아 살얼음을 띄운 진국 서리태 콩국수그려줘",
       "imageUrl": "/images/00339.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00339.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00339.png"
     },
     {
       "index": 341,
@@ -63968,7 +63968,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭 반 마리가 통째로 푹 고아져 올라간 파향 가득한 진한 일산 닭칼국수그려줘",
       "imageUrl": "/images/00341.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00341.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00341.png"
     },
     {
       "index": 342,
@@ -63999,7 +63999,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전주 전통 놋그릇에 담아낸 선홍빛 한우 육회 비빔밥과 맑은 콩나물국그려줘",
       "imageUrl": "/images/00342.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00342.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00342.png"
     },
     {
       "index": 343,
@@ -64030,7 +64030,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 지글지글 달궈진 돌솥 바닥에 눌어붙은 날치알과 볶음김치의 돌솥 알밥그려줘",
       "imageUrl": "/images/00343.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00343.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00343.png"
     },
     {
       "index": 344,
@@ -64061,7 +64061,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 뚝배기 국물에 당면과 얇은 소불고기가 푸짐한 뚝배기 불고기 (뚝불)그려줘",
       "imageUrl": "/images/00344.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00344.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00344.png"
     },
     {
       "index": 345,
@@ -64092,7 +64092,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강릉 안목해변 스타일 매콤새콤 미나리와 쫄깃한 꼬막을 밥에 쓱쓱 비빈 꼬막 비빔밥그려줘",
       "imageUrl": "/images/00345.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00345.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00345.png"
     },
     {
       "index": 346,
@@ -64123,7 +64123,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 무쇠 솥에 활전복과 완도 톳을 넣고 갓 지어낸 전복 톳 영양 솥밥과 달래 양념장그려줘",
       "imageUrl": "/images/00346.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00346.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00346.png"
     },
     {
       "index": 347,
@@ -64154,7 +64154,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 강원도 정선 곤드레 나물을 듬뿍 넣어 지은 구수한 곤드레 나물밥과 토속 강된장그려줘",
       "imageUrl": "/images/00347.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00347.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00347.png"
     },
     {
       "index": 348,
@@ -64186,7 +64186,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24시간 무쇠 가마솥에서 뽀얗게 우려낸 한우 양지 설렁탕과 소면 사리 & 섞박지그려줘",
       "imageUrl": "/images/00348.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00348.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00348.png"
     },
     {
       "index": 349,
@@ -64218,7 +64218,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 나주 금성관 스타일 맑고 깊은 한우 양지 육수에 계란지단을 올린 나주 곰탕그려줘",
       "imageUrl": "/images/00349.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00349.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00349.png"
     },
     {
       "index": 351,
@@ -64251,7 +64251,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
       "imageUrl": "/images/00351.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
     },
     {
       "index": 352,
@@ -64282,7 +64282,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통통한 제주 은갈치와 달큰한 무를 매콤달콤한 비법 양념에 자작하게 졸여낸 갈치조림그려줘",
       "imageUrl": "/images/00352.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00352.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00352.png"
     },
     {
       "index": 353,
@@ -64313,7 +64313,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천일염을 뿌려 기름기 쏙 빠지게 노릇노릇 구워낸 겉바속촉 고등어 자반구이 백반그려줘",
       "imageUrl": "/images/00353.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00353.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00353.png"
     },
     {
       "index": 354,
@@ -64344,7 +64344,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 철판 한가운데 모짜렐라 치즈 길을 낸 춘천 원조 매콤 닭갈비와 볶음밥 코스그려줘",
       "imageUrl": "/images/00354.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00354.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00354.png"
     },
     {
       "index": 355,
@@ -64375,7 +64375,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 불향 나게 매콤하게 볶아낸 통오징어와 삼겹살의 환상 궁합 철판 오삼불고기그려줘",
       "imageUrl": "/images/00355.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00355.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00355.png"
     },
     {
       "index": 356,
@@ -64407,7 +64407,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겨울철 싱싱한 통영 굴과 부드러운 매생이를 넣고 맑게 끓인 시원한 매생이 굴국밥그려줘",
       "imageUrl": "/images/00356.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00356.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00356.png"
     },
     {
       "index": 357,
@@ -64438,7 +64438,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 시원하고 새콤달콤한 살얼음 동치미 육수에 도토리묵과 밥을 말아먹는 도토리묵밥그려줘",
       "imageUrl": "/images/00357.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00357.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00357.png"
     },
     {
       "index": 358,
@@ -64471,7 +64471,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
       "imageUrl": "/images/00358.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
     },
     {
       "index": 359,
@@ -64502,7 +64502,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤하게 푹 삭힌 흑산도 홍어와 야들야들 삶은 돼지 수육, 3년 묵은지의 남도 홍어삼합그려줘",
       "imageUrl": "/images/00359.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00359.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00359.png"
     },
     {
       "index": 360,
@@ -64534,7 +64534,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
       "imageUrl": "/images/00360.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
     },
     {
       "index": 361,
@@ -64566,7 +64566,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
       "imageUrl": "/images/00361.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
     },
     {
       "index": 371,
@@ -64597,7 +64597,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통마늘과 닭근위를 참기름 소금에 볶아 알싸하고 쫄깃한 포장마차 통마늘 닭똥집 볶음그려줘",
       "imageUrl": "/images/00371.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00371.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00371.png"
     },
     {
       "index": 372,
@@ -64628,7 +64628,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 홍합을 한 냄비 가득 넣고 청양고추와 대파를 송송 썰어 뽀얗게 끓인 얼큰 뚝배기 홍합탕그려줘",
       "imageUrl": "/images/00372.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00372.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00372.png"
     },
     {
       "index": 373,
@@ -64659,7 +64659,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 불판에 노릇하게 구워 벌집 칼집 사이로 기름이 쏙 빠진 쫀득 돼지껍데기와 콩가루그려줘",
       "imageUrl": "/images/00373.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00373.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00373.png"
     },
     {
       "index": 374,
@@ -64690,7 +64690,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화끈한 불맛 고추장 양념에 뼈째 오독오독 씹히는 매콤 오돌뼈 볶음과 김가루 날치알 주먹밥그려줘",
       "imageUrl": "/images/00374.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00374.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00374.png"
     },
     {
       "index": 375,
@@ -64721,7 +64721,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 바지락 조개에 버터와 마늘, 화이트와인(또는 청주)을 붓고 자작하게 끓인 바지락 술찜그려줘",
       "imageUrl": "/images/00375.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00375.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00375.png"
     },
     {
       "index": 376,
@@ -64753,7 +64753,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
       "imageUrl": "/images/00376.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
     },
     {
       "index": 377,
@@ -64784,7 +64784,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 브라질 전통 긴 쇠꼬챙이에 꿰어 숯불에 구운 슈하스코 삐까냐 (우둔살) 스테이크그려줘",
       "imageUrl": "/images/00377.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00377.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00377.png"
     },
     {
       "index": 378,
@@ -64815,7 +64815,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아르헨티나 팜파스 스타일 소갈비를 장작불에 4시간 은근히 구운 아사도와 치미추리 소스그려줘",
       "imageUrl": "/images/00378.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00378.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00378.png"
     },
     {
       "index": 379,
@@ -64847,7 +64847,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
       "imageUrl": "/images/00379.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
     },
     {
       "index": 380,
@@ -64878,7 +64878,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 일본 후쿠오카 하카타 명물 부추와 마늘을 산더미로 얹어 끓인 한우 대창 모츠나베그려줘",
       "imageUrl": "/images/00380.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00380.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00380.png"
     },
     {
       "index": 381,
@@ -64910,7 +64910,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
       "imageUrl": "/images/00381.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
     },
     {
       "index": 382,
@@ -64941,7 +64941,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 텍사스 오스틴 스타일 16시간 참나무 연기에 천천히 훈연한 부드러운 소 차돌양지 브리스킷그려줘",
       "imageUrl": "/images/00382.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00382.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00382.png"
     },
     {
       "index": 383,
@@ -64972,7 +64972,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 피렌체식 두께 5cm 토스카나 키아니나 암소 T자 뼈 티본 스테이크 1kg그려줘",
       "imageUrl": "/images/00383.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00383.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00383.png"
     },
     {
       "index": 384,
@@ -65003,7 +65003,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 태국 치앙마이식 코코넛 밀크 옐로우 커리 육수에 튀긴 에그 누들을 얹은 카오소이그려줘",
       "imageUrl": "/images/00384.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00384.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00384.png"
     },
     {
       "index": 385,
@@ -65035,7 +65035,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 베트남 후에 황실 스타일 매콤하고 얼큰한 레몬그라스 소고기 쌀국수 분보후에그려줘",
       "imageUrl": "/images/00385.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00385.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00385.png"
     },
     {
       "index": 386,
@@ -65066,7 +65066,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 흰살 생선과 새우를 라임즙의 산(Acid)으로 익혀 적양파와 고수를 버무린 페루비안 세비체그려줘",
       "imageUrl": "/images/00386.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00386.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00386.png"
     },
     {
       "index": 387,
@@ -65098,7 +65098,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하와이 로컬 스타일 흰쌀밥 위에 두툼한 햄버그 스테이크와 반숙 계란후라이, 그레이비 소스를 얹은 로코모코그려줘",
       "imageUrl": "/images/00387.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00387.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00387.png"
     },
     {
       "index": 388,
@@ -65129,7 +65129,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스웨덴 스톡홀름 전통 부드러운 쇠고기 미트볼에 갈색 크림 그레이비와 붉은 링곤베리 잼그려줘",
       "imageUrl": "/images/00388.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00388.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00388.png"
     },
     {
       "index": 390,
@@ -65160,7 +65160,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 일본 교토식 겉만 60초간 바삭하게 튀겨내 미니 개인 화로에 취향껏 구워 먹는 규카츠 정식그려줘",
       "imageUrl": "/images/00390.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00390.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00390.png"
     },
     {
       "index": 391,
@@ -65192,7 +65192,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 흑식초와 오향 간장에 장시간 조려낸 돼지고기를 밥 위에 얹은 대만식 루러우판그려줘",
       "imageUrl": "/images/00391.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00391.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00391.png"
     },
     {
       "index": 392,
@@ -65223,7 +65223,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 구운 가지와 감자, 소고기 라구에 크리미한 베샤멜 소스를 얹어 오븐에 구운 그리스 정통 무사카그려줘",
       "imageUrl": "/images/00392.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00392.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00392.png"
     },
     {
       "index": 393,
@@ -65255,7 +65255,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
       "imageUrl": "/images/00393.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
     },
     {
       "index": 394,
@@ -65286,7 +65286,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 다진 양고기에 큐민과 가람마살라를 섞어 탄두르 쇠꼬챙이에 구운 인도식 시크 케밥 2개그려줘",
       "imageUrl": "/images/00394.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00394.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00394.png"
     },
     {
       "index": 395,
@@ -65318,7 +65318,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
       "imageUrl": "/images/00395.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
     },
     {
       "index": 396,
@@ -65349,7 +65349,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 바질과 다진 돼지고기를 매콤한 피시소스에 센 불로 볶은 태국식 팟카파오무쌉과 계란후라이그려줘",
       "imageUrl": "/images/00396.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00396.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00396.png"
     },
     {
       "index": 397,
@@ -65380,7 +65380,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사프란을 우려내어 황금빛으로 반짝이는 정통 이탈리아 밀라노식 황금 사프란 리조또그려줘",
       "imageUrl": "/images/00397.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00397.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00397.png"
     },
     {
       "index": 398,
@@ -65412,7 +65412,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
       "imageUrl": "/images/00398.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
     },
     {
       "index": 399,
@@ -65444,7 +65444,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
       "imageUrl": "/images/00399.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
     },
     {
       "index": 401,
@@ -65476,7 +65476,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참치 필렛과 안초비, 삶은 달걀, 올리브, 그린빈을 프렌치 비네그레트로 버무린 니스식 샐러드그려줘",
       "imageUrl": "/images/00401.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00401.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00401.png"
     }
   ],
   "night": [
@@ -65511,7 +65511,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩 범벅 소시지야채볶음 (쏘야)그려줘",
       "imageUrl": "/images/00002.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00002.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00002.png"
     },
     {
       "index": 3,
@@ -65543,7 +65543,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 학교 앞 분식 & 급식 특선 피카츄 돈까스그려줘",
       "imageUrl": "/images/00003.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00003.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00003.png"
     },
     {
       "index": 5,
@@ -65575,7 +65575,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈 시즈닝 회오리감자 꼬치그려줘",
       "imageUrl": "/images/00005.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00005.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00005.png"
     },
     {
       "index": 8,
@@ -65607,7 +65607,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 비빔만두 (야끼만두와 양배추초무침)그려줘",
       "imageUrl": "/images/00008.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00008.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00008.png"
     },
     {
       "index": 9,
@@ -65639,7 +65639,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 어묵꼬치 우동국과 유부초밥그려줘",
       "imageUrl": "/images/00009.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00009.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00009.png"
     },
     {
       "index": 12,
@@ -65671,7 +65671,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 옛날 분홍소시지 계란옷 부침그려줘",
       "imageUrl": "/images/00012.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00012.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00012.png"
     },
     {
       "index": 15,
@@ -65703,7 +65703,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김말이 튀김 올린 급식 쌀떡볶이그려줘",
       "imageUrl": "/images/00015.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00015.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00015.png"
     },
     {
       "index": 16,
@@ -65735,7 +65735,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 급식 후식 얼린 요구르트 2개 & 바나나우유그려줘",
       "imageUrl": "/images/00016.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00016.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00016.png"
     },
     {
       "index": 17,
@@ -65767,7 +65767,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 케첩·머스타드 설탕 범벅 회오리 핫도그그려줘",
       "imageUrl": "/images/00017.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00017.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00017.png"
     },
     {
       "index": 21,
@@ -65799,7 +65799,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 한우 우니(성게알) 김부각 타르타르그려줘",
       "imageUrl": "/images/00021.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00021.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00021.png"
     },
     {
       "index": 28,
@@ -65831,7 +65831,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 돔 페리뇽 샴페인 소르베와 금박 백도 디저트그려줘",
       "imageUrl": "/images/00028.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00028.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00028.png"
     },
     {
       "index": 30,
@@ -65863,7 +65863,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 3스타] 화이트 트러플 타야린(수제 생면 파스타)그려줘",
       "imageUrl": "/images/00030.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00030.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00030.png"
     },
     {
       "index": 35,
@@ -65895,7 +65895,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 2스타] 성게알과 단새우를 올린 찬 감태 메밀국수그려줘",
       "imageUrl": "/images/00035.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00035.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00035.png"
     },
     {
       "index": 38,
@@ -65927,7 +65927,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 성게알 한우 육회와 들기름 카펠리니 파스타그려줘",
       "imageUrl": "/images/00038.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00038.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00038.png"
     },
     {
       "index": 40,
@@ -65960,7 +65960,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 그뤼예르 치즈 듬뿍 프렌치 어니언 수프그려줘",
       "imageUrl": "/images/00040.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00040.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00040.png"
     },
     {
       "index": 43,
@@ -65992,7 +65992,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [미슐랭 1스타] 스시 오마카세 오토로(참치 대뱃살) & 아까미 스시그려줘",
       "imageUrl": "/images/00043.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00043.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00043.png"
     },
     {
       "index": 45,
@@ -66024,7 +66024,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 맑은 한우 육수 평양냉면 (순면 100%)그려줘",
       "imageUrl": "/images/00045.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00045.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00045.png"
     },
     {
       "index": 46,
@@ -66057,7 +66057,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 옥동식 스타일 맑은 버크셔K 돼지곰탕그려줘",
       "imageUrl": "/images/00046.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00046.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00046.png"
     },
     {
       "index": 49,
@@ -66090,7 +66090,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 서소문 노포 100년 전통 한우 양지 설렁탕그려줘",
       "imageUrl": "/images/00049.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00049.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00049.png"
     },
     {
       "index": 51,
@@ -66122,7 +66122,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 진한 소뼈 육수 대만식 우육면과 어향가지그려줘",
       "imageUrl": "/images/00051.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00051.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00051.png"
     },
     {
       "index": 54,
@@ -66153,7 +66153,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 [빕 구르망] 제주 흑돼지 족발과 새콤달콤 쟁반막국수그려줘",
       "imageUrl": "/images/00054.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00054.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00054.png"
     },
     {
       "index": 55,
@@ -66185,7 +66185,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙 털어낸 제주 구좌 유기농 생당근 1개 통째로그려줘",
       "imageUrl": "/images/00055.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00055.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00055.png"
     },
     {
       "index": 56,
@@ -66217,7 +66217,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 하얀 설탕 눈처럼 듬뿍 뿌린 완숙 찰토마토그려줘",
       "imageUrl": "/images/00056.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00056.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00056.png"
     },
     {
       "index": 57,
@@ -66250,7 +66250,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼭지 딴 싱싱한 대추방울토마토 한 컵그려줘",
       "imageUrl": "/images/00057.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00057.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00057.png"
     },
     {
       "index": 58,
@@ -66282,7 +66282,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 등산 정상에서 먹는 아삭한 생오이 1개와 쌈장그려줘",
       "imageUrl": "/images/00058.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00058.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00058.png"
     },
     {
       "index": 59,
@@ -66314,7 +66314,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 알맹이가 자두만 한 김천 특등급 샤인머스캣 한 송이그려줘",
       "imageUrl": "/images/00059.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00059.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00059.png"
     },
     {
       "index": 61,
@@ -66347,7 +66347,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 해남 호박고구마와 잘 익은 총각김치그려줘",
       "imageUrl": "/images/00061.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00061.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00061.png"
     },
     {
       "index": 62,
@@ -66379,7 +66379,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꾸덕한 수제 그릭요거트와 냉동 블루베리 & 벌집꿀그려줘",
       "imageUrl": "/images/00062.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00062.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00062.png"
     },
     {
       "index": 63,
@@ -66411,7 +66411,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 반숙 감동란(삶은 달걀 2개)과 아메리카노그려줘",
       "imageUrl": "/images/00063.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00063.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00063.png"
     },
     {
       "index": 66,
@@ -66443,7 +66443,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 손톱 노랗게 물들며 까먹는 제주 노지 햇감귤 5개그려줘",
       "imageUrl": "/images/00066.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00066.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00066.png"
     },
     {
       "index": 67,
@@ -66476,7 +66476,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭달콤 삼색 생파프리카 스틱과 레몬 갈릭 후무스그려줘",
       "imageUrl": "/images/00067.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00067.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00067.png"
     },
     {
       "index": 68,
@@ -66508,7 +66508,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 민트초코 소스 부먹 찹쌀 탕수육그려줘",
       "imageUrl": "/images/00068.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00068.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00068.png"
     },
     {
       "index": 69,
@@ -66539,7 +66539,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두바이 초콜릿 피스타치오 카다이프 붕어빵그려줘",
       "imageUrl": "/images/00069.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00069.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00069.png"
     },
     {
       "index": 71,
@@ -66572,7 +66572,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭포수 모짜렐라 치즈 마라 로제 떡볶이 & 분모자그려줘",
       "imageUrl": "/images/00071.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00071.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00071.png"
     },
     {
       "index": 72,
@@ -66603,7 +66603,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 망치로 깨 먹는 대왕 공룡알 화석 초코 빙수그려줘",
       "imageUrl": "/images/00072.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00072.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00072.png"
     },
     {
       "index": 74,
@@ -66635,7 +66635,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 24K 순금 금박을 덮은 55cm 롱 한우 육회 초밥그려줘",
       "imageUrl": "/images/00074.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00074.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00074.png"
     },
     {
       "index": 75,
@@ -66666,7 +66666,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 코끝이 찡한 생와사비 소프트 아이스크림과 감자칩그려줘",
       "imageUrl": "/images/00075.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00075.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00075.png"
     },
     {
       "index": 76,
@@ -66698,7 +66698,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매운 등갈비 김치찜 품은 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00076.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00076.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00076.png"
     },
     {
       "index": 77,
@@ -66729,7 +66729,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통메론 한 통을 파서 만든 메론 빙수와 연유 폭포그려줘",
       "imageUrl": "/images/00077.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00077.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00077.png"
     },
     {
       "index": 78,
@@ -66762,7 +66762,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 들깨가루 듬뿍 뚝배기 특순대국밥그려줘",
       "imageUrl": "/images/00078.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00078.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00078.png"
     },
     {
       "index": 79,
@@ -66795,7 +66795,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살코기가 산처럼 쌓인 얼큰 뚝배기 뼈해장국그려줘",
       "imageUrl": "/images/00079.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00079.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00079.png"
     },
     {
       "index": 83,
@@ -66826,7 +66826,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 솥뚜껑 숙성 삼겹살과 청도 미나리 & 볶음밥그려줘",
       "imageUrl": "/images/00083.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00083.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00083.png"
     },
     {
       "index": 84,
@@ -66859,7 +66859,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노릇노릇 구운 스팸과 반숙 버터 간장계란밥그려줘",
       "imageUrl": "/images/00084.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00084.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00084.png"
     },
     {
       "index": 85,
@@ -66891,7 +66891,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 수란 띄운 전주 남부시장식 오징어 콩나물국밥그려줘",
       "imageUrl": "/images/00085.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00085.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00085.png"
     },
     {
       "index": 86,
@@ -66922,7 +66922,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉바속촉 황금올리브 후라이드 + 매콤달콤 양념 반반치킨그려줘",
       "imageUrl": "/images/00086.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00086.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00086.png"
     },
     {
       "index": 87,
@@ -66953,7 +66953,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 곱이 꽉 찬 한우 소곱창·대창 모둠 구이와 부추무침그려줘",
       "imageUrl": "/images/00087.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00087.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00087.png"
     },
     {
       "index": 88,
@@ -66985,7 +66985,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 숙성 생연어 초밥 10피스와 미니 우동그려줘",
       "imageUrl": "/images/00088.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00088.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00088.png"
     },
     {
       "index": 90,
@@ -67017,7 +67017,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 꿀조합 불닭게티(불닭볶음면+짜파게티)와 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00090.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00090.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00090.png"
     },
     {
       "index": 92,
@@ -67048,7 +67048,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 김이 모락모락 나는 겨울철 팥붕·슈붕(붕어빵) 반반 6마리그려줘",
       "imageUrl": "/images/00092.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00092.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00092.png"
     },
     {
       "index": 94,
@@ -67080,7 +67080,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 돈사골 육수 하카타식 돈코츠 라멘과 반숙 아지타마고그려줘",
       "imageUrl": "/images/00094.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00094.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00094.png"
     },
     {
       "index": 95,
@@ -67111,7 +67111,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 고소한 인절미 떡과 국내산 통단팥이 올라간 우유 눈꽃 팥빙수그려줘",
       "imageUrl": "/images/00095.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00095.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00095.png"
     },
     {
       "index": 96,
@@ -67144,7 +67144,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아이언맨 토니 스타크가 납치에서 돌아와 제일 먼저 찾던 치즈버거그려줘",
       "imageUrl": "/images/00096.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00096.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00096.png"
     },
     {
       "index": 97,
@@ -67176,7 +67176,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 올드보이에서 최민식이 15년간 군소리 없이 먹던 자금성 군만두그려줘",
       "imageUrl": "/images/00097.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00097.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00097.png"
     },
     {
       "index": 98,
@@ -67208,7 +67208,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 기생충에서 조여정이 8분 만에 끓여내라던 한우 채끝 짜파구리그려줘",
       "imageUrl": "/images/00098.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00098.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00098.png"
     },
     {
       "index": 99,
@@ -67240,7 +67240,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 극한직업 마포 어벤져스의 수원왕갈비통닭그려줘",
       "imageUrl": "/images/00099.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00099.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00099.png"
     },
     {
       "index": 101,
@@ -67272,7 +67272,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 황해에서 하정우가 편의점에서 분노하며 먹던 30초 컷 컵라면과 핫바그려줘",
       "imageUrl": "/images/00101.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00101.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00101.png"
     },
     {
       "index": 102,
@@ -67303,7 +67303,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 범죄도시 장첸이 비닐장갑 끼고 껍질째 뜯던 마라롱샤 (매운 가재)그려줘",
       "imageUrl": "/images/00102.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00102.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00102.png"
     },
     {
       "index": 103,
@@ -67334,7 +67334,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 응답하라 1988 덕선이네 삼선당 옛날 양념통닭과 사라다그려줘",
       "imageUrl": "/images/00103.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00103.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00103.png"
     },
     {
       "index": 105,
@@ -67367,7 +67367,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 하울의 움직이는 성에서 캘시퍼가 장작불로 구워준 두툼한 베이컨 에그그려줘",
       "imageUrl": "/images/00105.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00105.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00105.png"
     },
     {
       "index": 107,
@@ -67399,7 +67399,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 펄프 픽션에서 존 트라볼타가 감탄하던 빈센트 베가의 5달러짜리 밀크셰이크그려줘",
       "imageUrl": "/images/00107.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00107.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00107.png"
     },
     {
       "index": 108,
@@ -67430,7 +67430,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 드라마 별에서 온 그대 천송이가 첫눈 오는 날 찾던 치맥 (치킨과 캔맥주)그려줘",
       "imageUrl": "/images/00108.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00108.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00108.png"
     },
     {
       "index": 110,
@@ -67462,7 +67462,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 악마는 프라다를 입는다에서 앤 해서웨이가 앤디를 위해 챙기던 그릴드 치즈 샌드위치그려줘",
       "imageUrl": "/images/00110.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00110.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00110.png"
     },
     {
       "index": 111,
@@ -67495,7 +67495,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 신세계 이정재와 황정민의 \"드루와\" 한우 사골 소머리국밥그려줘",
       "imageUrl": "/images/00111.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00111.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00111.png"
     },
     {
       "index": 112,
@@ -67527,7 +67527,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 애니메이션 포뇨가 눈을 반짝이며 먹던 꿀 올린 따뜻한 차와 햄 라면그려줘",
       "imageUrl": "/images/00112.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00112.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00112.png"
     },
     {
       "index": 113,
@@ -67559,7 +67559,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영화 마녀 김다미가 기차 안에서 계란 한 판 털어 넣던 찜질방 맥반석 구운 계란그려줘",
       "imageUrl": "/images/00113.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00113.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00113.png"
     },
     {
       "index": 116,
@@ -67590,7 +67590,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤알싸한 마늘소스 듬뿍 올린 마늘보쌈과 무김치그려줘",
       "imageUrl": "/images/00116.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00116.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00116.png"
     },
     {
       "index": 117,
@@ -67621,7 +67621,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 코끝이 찡한 부산 부평동식 해파리 냉채족발그려줘",
       "imageUrl": "/images/00117.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00117.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00117.png"
     },
     {
       "index": 118,
@@ -67652,7 +67652,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 바삭 속은 쫀득한 독일 슈바인학센식 튀김족발그려줘",
       "imageUrl": "/images/00118.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00118.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00118.png"
     },
     {
       "index": 119,
@@ -67684,7 +67684,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 양념이 쏙 밴 뚝배기 묵은지 닭볶음탕(닭도리탕)그려줘",
       "imageUrl": "/images/00119.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00119.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00119.png"
     },
     {
       "index": 123,
@@ -67717,7 +67717,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 마법의 치즈 시즈닝 가루 솔솔 뿌린 단짠 뿌링클 치킨과 요거트 딥핑그려줘",
       "imageUrl": "/images/00123.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00123.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00123.png"
     },
     {
       "index": 124,
@@ -67748,7 +67748,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오븐에 구워 기름기 쏙 뺀 매콤 바삭 고추바사삭 치킨과 마블링 소스그려줘",
       "imageUrl": "/images/00124.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00124.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00124.png"
     },
     {
       "index": 125,
@@ -67779,7 +67779,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 단짠의 원조 교촌 스타일 짭조름한 간장 윙봉 콤보그려줘",
       "imageUrl": "/images/00125.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00125.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00125.png"
     },
     {
       "index": 126,
@@ -67810,7 +67810,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불 향 진하게 밴 양념 숯불바베큐 치킨과 우동사리 추가그려줘",
       "imageUrl": "/images/00126.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00126.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00126.png"
     },
     {
       "index": 127,
@@ -67842,7 +67842,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 꿀에 찍어 먹는 얇고 쫀득한 화덕 고르곤졸라 피자그려줘",
       "imageUrl": "/images/00127.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00127.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00127.png"
     },
     {
       "index": 128,
@@ -67874,7 +67874,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 네모난 바삭 크러스트 페퍼로니 디트로이트 딥디쉬 피자그려줘",
       "imageUrl": "/images/00128.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00128.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00128.png"
     },
     {
       "index": 129,
@@ -67906,7 +67906,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 좔좔 100% 소고기 패티의 브리오슈 번 수제 치즈버거그려줘",
       "imageUrl": "/images/00129.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00129.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00129.png"
     },
     {
       "index": 132,
@@ -67938,7 +67938,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 해물과 고기가 가득 들어간 얼큰 불맛 차돌 짬뽕그려줘",
       "imageUrl": "/images/00132.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00132.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00132.png"
     },
     {
       "index": 133,
@@ -67971,7 +67971,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새우살을 식빵 사이에 다져 넣어 튀긴 바삭한 멘보샤 6개그려줘",
       "imageUrl": "/images/00133.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00133.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00133.png"
     },
     {
       "index": 137,
@@ -68003,7 +68003,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 삼겹 차슈가 4장 올라간 미소라멘과 미니 교자그려줘",
       "imageUrl": "/images/00137.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00137.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00137.png"
     },
     {
       "index": 141,
@@ -68036,7 +68036,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 과카몰리와 살사 소스를 얹은 정통 멕시칸 비프 타코 3피스그려줘",
       "imageUrl": "/images/00141.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00141.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00141.png"
     },
     {
       "index": 144,
@@ -68069,7 +68069,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 순살 치킨 가라아게 토핑 올린 매콤 꾸덕 크림 로제 떡볶이그려줘",
       "imageUrl": "/images/00144.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00144.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00144.png"
     },
     {
       "index": 145,
@@ -68102,7 +68102,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 추억의 달콤한 키위 소스와 햄·치즈·계란 듬뿍 이삭 햄스페셜 토스트그려줘",
       "imageUrl": "/images/00145.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00145.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00145.png"
     },
     {
       "index": 146,
@@ -68134,7 +68134,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상을 누룽지처럼 얇게 눌러 구운 빠작한 크룽지와 바닐라 아이스크림그려줘",
       "imageUrl": "/images/00146.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00146.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00146.png"
     },
     {
       "index": 147,
@@ -68165,7 +68165,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 바삭하고 속은 쫀득하게 카라멜화된 꾸덕 황치즈 버터바그려줘",
       "imageUrl": "/images/00147.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00147.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00147.png"
     },
     {
       "index": 148,
@@ -68197,7 +68197,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스모키 바베큐 베이비백립과 코울슬로 (Uber Eats 1위)그려줘",
       "imageUrl": "/images/00148.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00148.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00148.png"
     },
     {
       "index": 150,
@@ -68229,7 +68229,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 철판에 볶은 얇은 소고기와 치즈 위즈 폭포 필라델피아 치즈스테이크그려줘",
       "imageUrl": "/images/00150.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00150.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00150.png"
     },
     {
       "index": 151,
@@ -68260,7 +68260,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤새콤 버팔로 윙 10조각과 블루치즈 딥 & 샐러리 스틱그려줘",
       "imageUrl": "/images/00151.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00151.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00151.png"
     },
     {
       "index": 153,
@@ -68293,7 +68293,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 체다치즈를 아낌없이 쏟아부어 오븐에 구운 꾸덕 맥앤치즈 (Mac & Cheese)그려줘",
       "imageUrl": "/images/00153.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00153.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00153.png"
     },
     {
       "index": 154,
@@ -68325,7 +68325,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 흙에서 갓 캔 듯한 비주얼의 춘천 원조 감자빵과 옥수수빵그려줘",
       "imageUrl": "/images/00154.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00154.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00154.png"
     },
     {
       "index": 156,
@@ -68357,7 +68357,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 피 속에 달콤한 팥앙금이 90% 차 있는 경주 황남빵 3개그려줘",
       "imageUrl": "/images/00156.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00156.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00156.png"
     },
     {
       "index": 158,
@@ -68389,7 +68389,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 삼거리 원조 호두과자 (통호두 알갱이가 콕 박힌 흰앙금)그려줘",
       "imageUrl": "/images/00158.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00158.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00158.png"
     },
     {
       "index": 159,
@@ -68421,7 +68421,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 영자 언니 추천 케첩+머스타드 양면 코팅 원조 소떡소떡 꼬치그려줘",
       "imageUrl": "/images/00159.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00159.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00159.png"
     },
     {
       "index": 161,
@@ -68452,7 +68452,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈가 1미터 늘어나는 경주 첨성대 십원빵그려줘",
       "imageUrl": "/images/00161.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00161.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00161.png"
     },
     {
       "index": 162,
@@ -68485,7 +68485,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 에어프라이어에 180도 10분 돌린 바삭 비비고 왕교자 만두 6개그려줘",
       "imageUrl": "/images/00162.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00162.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00162.png"
     },
     {
       "index": 163,
@@ -68517,7 +68517,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 겉은 크리스피하고 속은 모짜렐라+소시지 반반 핫도그그려줘",
       "imageUrl": "/images/00163.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00163.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00163.png"
     },
     {
       "index": 164,
@@ -68549,7 +68549,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 만두피가 거의 안 보이는 속 꽉 찬 얇은피 김치만두그려줘",
       "imageUrl": "/images/00164.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00164.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00164.png"
     },
     {
       "index": 167,
@@ -68581,7 +68581,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오징어와 쪽파가 통째로 들어간 바삭 두툼 해물파전그려줘",
       "imageUrl": "/images/00167.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00167.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00167.png"
     },
     {
       "index": 168,
@@ -68613,7 +68613,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달걀 1개가 통째로 들어가 짭짤달콤한 겨울철 길거리 계란빵 2개그려줘",
       "imageUrl": "/images/00168.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00168.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00168.png"
     },
     {
       "index": 169,
@@ -68645,7 +68645,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤매콤 고추장 소스 발라 튀겨낸 쫄깃 떡꼬치 3개그려줘",
       "imageUrl": "/images/00169.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00169.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00169.png"
     },
     {
       "index": 170,
@@ -68677,7 +68677,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 남포동 포장마차 어묵 국물에 불려 먹는 가래떡 물떡 3꼬치그려줘",
       "imageUrl": "/images/00170.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00170.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00170.png"
     },
     {
       "index": 172,
@@ -68709,7 +68709,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바질과 모짜렐라, 산마르자노 토마토의 화덕 나폴리 마르게리타 피자그려줘",
       "imageUrl": "/images/00172.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00172.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00172.png"
     },
     {
       "index": 179,
@@ -68741,7 +68741,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진한 고르곤졸라·탈레지오·모짜렐라·파르미지아노 콰트로 포르마지 피자그려줘",
       "imageUrl": "/images/00179.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00179.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00179.png"
     },
     {
       "index": 182,
@@ -68773,7 +68773,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 닭 뼈를 10시간 고아 거품을 낸 카푸치노 질감의 토리파이탄(닭백탕) 라멘그려줘",
       "imageUrl": "/images/00182.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00182.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00182.png"
     },
     {
       "index": 183,
@@ -68805,7 +68805,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 녹진함의 극치 바다의 푸아그라 안키모(아귀간) 된장 라멘그려줘",
       "imageUrl": "/images/00183.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00183.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00183.png"
     },
     {
       "index": 185,
@@ -68837,7 +68837,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤한 다진 고기와 고등어 어분, 달걀노른자를 비벼 먹는 나고야식 타이완 마제소바그려줘",
       "imageUrl": "/images/00185.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00185.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00185.png"
     },
     {
       "index": 187,
@@ -68868,7 +68868,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 향 가득 머금은 정통 일본식 수제 야키토리(닭꼬치) 7종 모둠 플래터그려줘",
       "imageUrl": "/images/00187.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00187.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00187.png"
     },
     {
       "index": 189,
@@ -68900,7 +68900,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 요거트와 마살라 향신료에 재워 탄두르 화덕에 구운 붉은 탄두리 치킨그려줘",
       "imageUrl": "/images/00189.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00189.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00189.png"
     },
     {
       "index": 194,
@@ -68932,7 +68932,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 감자와 완두콩을 커리 향신료로 볶아 세모나게 튀긴 인도식 만두 사모사 2개그려줘",
       "imageUrl": "/images/00194.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00194.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00194.png"
     },
     {
       "index": 195,
@@ -68964,7 +68964,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 가지 속에 다진 새우를 채워 튀겨낸 새콤달콤 매콤 어향가지그려줘",
       "imageUrl": "/images/00195.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00195.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00195.png"
     },
     {
       "index": 198,
@@ -68996,7 +68996,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 식초 향이 톡 쏘는 바삭 쫄깃한 동북 꿔바로우 (찹쌀 탕수육)그려줘",
       "imageUrl": "/images/00198.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00198.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00198.png"
     },
     {
       "index": 201,
@@ -69028,7 +69028,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 파슬리 갈릭 버터에 구워낸 부르고뉴 정통 달팽이 요리 에스까르고 6개그려줘",
       "imageUrl": "/images/00201.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00201.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00201.png"
     },
     {
       "index": 203,
@@ -69060,7 +69060,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스푼으로 설탕 막을 탁 깨서 먹는 차가운 바닐라빈 크렘 브륄레그려줘",
       "imageUrl": "/images/00203.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00203.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00203.png"
     },
     {
       "index": 208,
@@ -69092,7 +69092,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 치즈가 5cm 폭포처럼 흘러내리는 정통 시카고 딥디쉬 피자그려줘",
       "imageUrl": "/images/00208.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00208.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00208.png"
     },
     {
       "index": 210,
@@ -69124,7 +69124,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 육즙 가득 두툼한 립아이 소고기 패티와 트러플 아이올리의 고메 스테이크 버거그려줘",
       "imageUrl": "/images/00210.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00210.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00210.png"
     },
     {
       "index": 243,
@@ -69157,7 +69157,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 편의점 부동의 1위 고소한 마요네즈 범벅 참치마요 삼각김밥그려줘",
       "imageUrl": "/images/00243.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00243.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00243.png"
     },
     {
       "index": 244,
@@ -69190,7 +69190,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤 비빔밥에 소고기 고추장 양념을 비빈 전주비빔 삼각김밥그려줘",
       "imageUrl": "/images/00244.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00244.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00244.png"
     },
     {
       "index": 245,
@@ -69222,7 +69222,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화끈하게 매운 불닭 소스에 마요네즈를 버무린 불닭마요 삼각김밥그려줘",
       "imageUrl": "/images/00245.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00245.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00245.png"
     },
     {
       "index": 246,
@@ -69255,7 +69255,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 통스팸과 매콤하게 볶아낸 묵은지 볶음밥의 스팸김치볶음 삼각김밥그려줘",
       "imageUrl": "/images/00246.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00246.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00246.png"
     },
     {
       "index": 248,
@@ -69288,7 +69288,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤짭짤한 숯불 불고기 양념육이 가득 든 언양식 바베큐 불고기 삼각김밥그려줘",
       "imageUrl": "/images/00248.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00248.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00248.png"
     },
     {
       "index": 249,
@@ -69321,7 +69321,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤하게 볶은 묵은지와 고소한 참치마요가 반반 들어찬 참치김치 삼각김밥그려줘",
       "imageUrl": "/images/00249.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00249.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00249.png"
     },
     {
       "index": 250,
@@ -69354,7 +69354,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 청양고추를 잘게 다져 넣어 알싸하고 개운한 땡초참치 삼각김밥그려줘",
       "imageUrl": "/images/00250.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00250.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00250.png"
     },
     {
       "index": 251,
@@ -69387,7 +69387,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 매콤달콤한 고추장 제육볶음을 아낌없이 채워 넣은 제육볶음 삼각김밥그려줘",
       "imageUrl": "/images/00251.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00251.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00251.png"
     },
     {
       "index": 252,
@@ -69420,7 +69420,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤한 데리야끼 소스를 발라 구운 큼직한 통스팸 덮밥식 삼각김밥그려줘",
       "imageUrl": "/images/00252.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00252.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00252.png"
     },
     {
       "index": 253,
@@ -69453,7 +69453,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 얇은 면발에 구수한 소고기 국물과 소용돌이 맛살 농심 육개장 사발면그려줘",
       "imageUrl": "/images/00253.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00253.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00253.png"
     },
     {
       "index": 254,
@@ -69485,7 +69485,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 칼칼하고 얼큰한 국물로 전 국민의 속을 풀어주는 농심 신라면 소컵그려줘",
       "imageUrl": "/images/00254.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00254.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00254.png"
     },
     {
       "index": 255,
@@ -69518,7 +69518,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 계란 블록과 고소한 참기름 유성스프가 든 오뚜기 참깨라면 큰컵그려줘",
       "imageUrl": "/images/00255.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00255.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00255.png"
     },
     {
       "index": 256,
@@ -69550,7 +69550,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 눈물 콧물 쏙 빼며 혀를 불태우는 중독성 삼양 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00256.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00256.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00256.png"
     },
     {
       "index": 257,
@@ -69583,7 +69583,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 큼직하고 쫄깃한 튀김 후레이크가 둥둥 뜬 맑은 가쓰오 국물 농심 튀김우동 큰사발그려줘",
       "imageUrl": "/images/00257.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00257.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00257.png"
     },
     {
       "index": 258,
@@ -69616,7 +69616,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사각 네모 용기에 담긴 추억의 칼칼한 러시아 국민라면 팔도 도시락 네모 컵라면그려줘",
       "imageUrl": "/images/00258.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00258.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00258.png"
     },
     {
       "index": 259,
@@ -69648,7 +69648,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오동통하고 두툼한 면발에 완도산 다시마 한 장이 들어간 농심 너구리 큰사발그려줘",
       "imageUrl": "/images/00259.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00259.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00259.png"
     },
     {
       "index": 260,
@@ -69681,7 +69681,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃하고 부드러운 면발에 깔끔하고 얼큰한 국물의 오뚜기 진라면 매운맛 큰컵그려줘",
       "imageUrl": "/images/00260.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00260.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00260.png"
     },
     {
       "index": 261,
@@ -69713,7 +69713,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숙성 묵은지 김치 파우치가 통째로 들어간 칼칼한 오모리 김치찌개 라면그려줘",
       "imageUrl": "/images/00261.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00261.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00261.png"
     },
     {
       "index": 262,
@@ -69745,7 +69745,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드러운 크림 분말과 불닭의 화끈함이 만난 삼양 까르보 불닭볶음면 큰컵그려줘",
       "imageUrl": "/images/00262.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00262.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00262.png"
     },
     {
       "index": 263,
@@ -69777,7 +69777,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 넓은 대접 뚜껑에 푸짐한 면과 얼큰 칼칼한 짬뽕 국물의 팔도 왕뚜껑 컵라면그려줘",
       "imageUrl": "/images/00263.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00263.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00263.png"
     },
     {
       "index": 264,
@@ -69810,7 +69810,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 짜장스프에 꼬들한 면발을 비벼 숟가락으로 떠먹는 농심 짜파게티 범벅 (미니컵)그려줘",
       "imageUrl": "/images/00264.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00264.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00264.png"
     },
     {
       "index": 265,
@@ -69843,7 +69843,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 전자레인지 30초 돌려 육즙 터지는 숯불 바베큐맛 프랑크 핫바 꼬치그려줘",
       "imageUrl": "/images/00265.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00265.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00265.png"
     },
     {
       "index": 266,
@@ -69874,7 +69874,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 국내산 마늘의 알싸한 풍미가 가득한 뽀득뽀득 의성마늘 프랑크 핫바그려줘",
       "imageUrl": "/images/00266.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00266.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00266.png"
     },
     {
       "index": 270,
@@ -69906,7 +69906,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 소고기 패티와 달콤 데리야끼 소스, 치즈가 녹아내린 편의점 빅 불고기버거그려줘",
       "imageUrl": "/images/00270.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00270.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00270.png"
     },
     {
       "index": 271,
@@ -69937,7 +69937,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참나무 훈제 향이 솔솔 나는 큼직하고 쫄깃한 편의점 스모크 훈제 닭다리그려줘",
       "imageUrl": "/images/00271.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00271.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00271.png"
     },
     {
       "index": 272,
@@ -69968,7 +69968,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스위트콘과 마요네즈, 모짜렐라 치즈를 듬뿍 올려 오븐에 구운 편의점 콘치즈 그라탕그려줘",
       "imageUrl": "/images/00272.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00272.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00272.png"
     },
     {
       "index": 274,
@@ -70000,7 +70000,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 우유 생크림이 빵 속에 터져 나갈 정도로 가득 채워진 쫀득한 연세우유 생크림빵그려줘",
       "imageUrl": "/images/00274.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00274.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00274.png"
     },
     {
       "index": 275,
@@ -70032,7 +70032,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 노란 뚱캔에 담긴 달콤하고 부드러운 빙그레 바나나맛 우유 (단지우유)그려줘",
       "imageUrl": "/images/00275.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00275.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00275.png"
     },
     {
       "index": 276,
@@ -70064,7 +70064,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 시원한 살얼음이 동동 뜬 달콤하고 알싸한 엿기름 밥알 전통 편의점 아이스 식혜그려줘",
       "imageUrl": "/images/00276.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00276.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00276.png"
     },
     {
       "index": 279,
@@ -70096,7 +70096,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 또띠아 사이에 소고기와 멕시칸 치즈를 넣고 반달로 구운 비프 퀘사디아와 과카몰리그려줘",
       "imageUrl": "/images/00279.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00279.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00279.png"
     },
     {
       "index": 280,
@@ -70128,7 +70128,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 장시간 푹 고아낸 소고기를 또띠아에 싸서 진한 육수에 찍어 먹는 멕시코 비리아(Birria) 타코 3개그려줘",
       "imageUrl": "/images/00280.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00280.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00280.png"
     },
     {
       "index": 281,
@@ -70160,7 +70160,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 마드리드 전통 갓 튀긴 바삭한 츄러스 5개와 진한 핫 딥핑 초콜릿그려줘",
       "imageUrl": "/images/00281.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00281.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00281.png"
     },
     {
       "index": 285,
@@ -70191,7 +70191,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대만 야시장 얼굴만 한 크기의 바삭하고 매콤한 오향 대왕 닭가슴살 튀김 지파이그려줘",
       "imageUrl": "/images/00285.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00285.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00285.png"
     },
     {
       "index": 288,
@@ -70223,7 +70223,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 숯불에 구워 고소한 피넛 소스에 찍어 먹는 인도네시아 발리식 치킨 사테(Satay) 꼬치 5개그려줘",
       "imageUrl": "/images/00288.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00288.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00288.png"
     },
     {
       "index": 291,
@@ -70255,7 +70255,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 생우유로 만든 이탈리아 로마식 정통 수제 젤라또 2가지 맛 (피스타치오 & 리조 쌀)그려줘",
       "imageUrl": "/images/00291.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00291.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00291.png"
     },
     {
       "index": 292,
@@ -70287,7 +70287,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 뉴욕 맨해튼 53번가 할랄가이즈 스타일 노란 사프란 라이스 치킨 & 자이로 플래터그려줘",
       "imageUrl": "/images/00292.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00292.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00292.png"
     },
     {
       "index": 293,
@@ -70319,7 +70319,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오사카 도톤보리 스타일 겉은 바삭 속은 크리미한 문어 타코야키 8알 (가쓰오부시 춤)그려줘",
       "imageUrl": "/images/00293.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00293.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00293.png"
     },
     {
       "index": 294,
@@ -70351,7 +70351,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 아삭한 양배추와 삼겹살, 새우를 반죽해 철판에 지진 오사카식 오코노미야키그려줘",
       "imageUrl": "/images/00294.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00294.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00294.png"
     },
     {
       "index": 295,
@@ -70382,7 +70382,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 투구 모양 무쇠 불판에 숙주와 대파를 두르고 구운 삿포로식 생양고기 징기스칸그려줘",
       "imageUrl": "/images/00295.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00295.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00295.png"
     },
     {
       "index": 296,
@@ -70414,7 +70414,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 두툼한 대구살을 흑맥주 반죽에 튀겨낸 영국 정통 피시 앤 칩스와 타르타르 소스그려줘",
       "imageUrl": "/images/00296.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00296.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00296.png"
     },
     {
       "index": 297,
@@ -70446,7 +70446,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인식 뚝배기에 끓는 올리브유와 통마늘, 탱글한 새우의 감바스 알 아히요와 바게트그려줘",
       "imageUrl": "/images/00297.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00297.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00297.png"
     },
     {
       "index": 298,
@@ -70478,7 +70478,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오븐에서 구워낸 진하고 꾸덕한 크림치즈의 뉴욕 베이크드 치즈케이크 한 조각그려줘",
       "imageUrl": "/images/00298.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00298.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00298.png"
     },
     {
       "index": 299,
@@ -70510,7 +70510,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 바삭한 나초 칩 위에 따뜻한 체다치즈 소스와 할라피뇨, 살사를 듬뿍 얹은 나초 플래터그려줘",
       "imageUrl": "/images/00299.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00299.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00299.png"
     },
     {
       "index": 302,
@@ -70542,7 +70542,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 지글지글 무쇠 솥뚜껑에 묵은지와 함께 굽는 두툼한 칼집 생삼겹살그려줘",
       "imageUrl": "/images/00302.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00302.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00302.png"
     },
     {
       "index": 304,
@@ -70574,7 +70574,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 달콤 짭조름한 비법 간장 양념이 쏙 밴 야들야들 숯불 양념 돼지갈비그려줘",
       "imageUrl": "/images/00304.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00304.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00304.png"
     },
     {
       "index": 305,
@@ -70605,7 +70605,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫄깃한 소 곱창, 대창, 막창, 염통을 부추와 함께 지글지글 굽는 소 모둠 곱창구이그려줘",
       "imageUrl": "/images/00305.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00305.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00305.png"
     },
     {
       "index": 308,
@@ -70637,7 +70637,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 차돌박이 기름과 고추장 양념이 자작하게 졸아든 밥도둑 매콤 차돌 짜글이그려줘",
       "imageUrl": "/images/00308.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00308.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00308.png"
     },
     {
       "index": 309,
@@ -70669,7 +70669,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 살점이 두둑하게 붙은 돼지 등뼈와 우거지, 들깨가루를 듬뿍 넣은 뼈다귀 감자탕그려줘",
       "imageUrl": "/images/00309.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00309.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00309.png"
     },
     {
       "index": 311,
@@ -70700,7 +70700,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 동해안 산지 직송 싱싱한 통오징어를 내장째 쪄낸 녹진한 오징어 통찜그려줘",
       "imageUrl": "/images/00311.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00311.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00311.png"
     },
     {
       "index": 312,
@@ -70732,7 +70732,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통통한 낙지와 한우 대창, 탱글한 새우를 매콤 칼칼한 양념에 끓인 부산 조방식 낙곱새 전골그려줘",
       "imageUrl": "/images/00312.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00312.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00312.png"
     },
     {
       "index": 313,
@@ -70763,7 +70763,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 백합, 가리비, 키조개, 홍합을 산더미처럼 쌓아 맑고 시원하게 끓인 조개전골그려줘",
       "imageUrl": "/images/00313.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00313.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00313.png"
     },
     {
       "index": 314,
@@ -70795,7 +70795,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 센 불에 빠르게 볶아내 불맛이 살아있는 매콤 쫄깃한 철판 쭈꾸미 볶음과 날치알 쌈그려줘",
       "imageUrl": "/images/00314.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00314.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00314.png"
     },
     {
       "index": 315,
@@ -70826,7 +70826,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 직화로 구워 불향 가득 매콤하게 뼈를 발라낸 무뼈 닭발과 뚝배기 계란찜그려줘",
       "imageUrl": "/images/00315.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00315.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00315.png"
     },
     {
       "index": 318,
@@ -70859,7 +70859,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 맷돌에 거칠게 갈아 돼지고기와 숙주, 고사리를 넣고 노릇하게 부친 광장시장 원조 녹두 빈대떡그려줘",
       "imageUrl": "/images/00318.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00318.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00318.png"
     },
     {
       "index": 320,
@@ -70890,7 +70890,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤달콤 매콤한 초고추장 양념에 쫄깃한 골뱅이와 오이, 파채를 버무린 자연산 골뱅이 소면그려줘",
       "imageUrl": "/images/00320.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00320.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00320.png"
     },
     {
       "index": 322,
@@ -70923,7 +70923,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 진하게 우려낸 디포리 멸치 육수에 소면을 말고 애호박과 양념장을 올린 온 잔치국수그려줘",
       "imageUrl": "/images/00322.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00322.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00322.png"
     },
     {
       "index": 323,
@@ -70954,7 +70954,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 불판 위에서 꿈틀꿈틀 구워 매콤한 고추장 양념을 덧바른 자갈치 숯불 꼼장어 구이그려줘",
       "imageUrl": "/images/00323.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00323.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00323.png"
     },
     {
       "index": 324,
@@ -70985,7 +70985,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참기름과 통깨, 풋고추를 넣고 칼로 탕탕 쳐낸 싱싱한 목포 산낙지 탕탕이그려줘",
       "imageUrl": "/images/00324.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00324.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00324.png"
     },
     {
       "index": 325,
@@ -71017,7 +71017,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 갓 부쳐낸 따뜻한 촌두부와 볶은 김치, 돼지고기를 곁들인 막걸리 안주 두부김치그려줘",
       "imageUrl": "/images/00325.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00325.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00325.png"
     },
     {
       "index": 326,
@@ -71048,7 +71048,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 당일 도축한 찰진 한우 생고기를 깍둑 썰어 마늘 고추장 양념에 찍어 먹는 대구 뭉티기그려줘",
       "imageUrl": "/images/00326.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00326.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00326.png"
     },
     {
       "index": 333,
@@ -71080,7 +71080,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤한 묵은지를 송송 썰어 넣고 참기름과 고추장에 비벼낸 여름 김치 비빔국수그려줘",
       "imageUrl": "/images/00333.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00333.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00333.png"
     },
     {
       "index": 334,
@@ -71112,7 +71112,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 대구 서문시장 명물 얇은 만두피에 당면만 넣고 지져낸 납작만두와 초고추장 야채무침그려줘",
       "imageUrl": "/images/00334.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00334.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00334.png"
     },
     {
       "index": 335,
@@ -71145,7 +71145,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 쫀득한 쌀떡 속에 모짜렐라 치즈가 꽉 차서 쭉 늘어나는 치즈 폭탄 쌀떡볶이그려줘",
       "imageUrl": "/images/00335.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00335.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00335.png"
     },
     {
       "index": 336,
@@ -71177,7 +71177,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 깨끗한 기름에 황금빛으로 튀겨낸 바삭한 수제 모둠튀김 (김말이, 오징어, 고구마, 야채)그려줘",
       "imageUrl": "/images/00336.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00336.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00336.png"
     },
     {
       "index": 337,
@@ -71209,7 +71209,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 천안 아우내 장터 전통 피순대와 야채, 당면을 꽉 채워 쪄낸 구수한 병천 순대 한 접시그려줘",
       "imageUrl": "/images/00337.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00337.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00337.png"
     },
     {
       "index": 338,
@@ -71241,7 +71241,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 모짜렐라 치즈와 소시지가 반반 들어간 설탕과 케첩 범벅 통모짜 핫도그그려줘",
       "imageUrl": "/images/00338.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00338.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00338.png"
     },
     {
       "index": 340,
@@ -71274,7 +71274,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 꼬마김밥 속에 단무지와 당근을 넣고 참기름을 발라 마약 겨자소스에 찍어 먹는 광장시장 마약김밥 5줄그려줘",
       "imageUrl": "/images/00340.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00340.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00340.png"
     },
     {
       "index": 351,
@@ -71307,7 +71307,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부산 서면 국밥골목 스타일 돼지 뼈를 푹 고아 살코기를 듬뿍 넣은 부산 돼지국밥그려줘",
       "imageUrl": "/images/00351.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00351.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00351.png"
     },
     {
       "index": 358,
@@ -71340,7 +71340,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 폭신하게 부풀어 오른 뚝배기 달걀찜 위에 체다치즈와 날치알을 얹은 폭탄 계란찜그려줘",
       "imageUrl": "/images/00358.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00358.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00358.png"
     },
     {
       "index": 359,
@@ -71371,7 +71371,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 새콤하게 푹 삭힌 흑산도 홍어와 야들야들 삶은 돼지 수육, 3년 묵은지의 남도 홍어삼합그려줘",
       "imageUrl": "/images/00359.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00359.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00359.png"
     },
     {
       "index": 360,
@@ -71403,7 +71403,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 소고기 우둔살을 얇게 저며 계란옷을 입혀 노릇하게 지져낸 전라도 광주식 소고기 육전그려줘",
       "imageUrl": "/images/00360.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00360.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00360.png"
     },
     {
       "index": 361,
@@ -71435,7 +71435,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신림동 순대타운 스타일 들깨가루와 깻잎, 양배추를 넣고 볶아낸 백순대 철판볶음그려줘",
       "imageUrl": "/images/00361.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00361.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00361.png"
     },
     {
       "index": 364,
@@ -71466,7 +71466,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스푼으로 가르면 따뜻한 다크 초콜릿 용암이 주르륵 흘러내리는 퐁당 오 쇼콜라그려줘",
       "imageUrl": "/images/00364.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00364.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00364.png"
     },
     {
       "index": 366,
@@ -71498,7 +71498,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 크루아상 생지를 와플 팬에 눌러 구워 바닐라 아이스크림과 메이플 시럽을 얹은 크로플그려줘",
       "imageUrl": "/images/00366.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00366.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00366.png"
     },
     {
       "index": 367,
@@ -71530,7 +71530,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스페인 바스크 지방 전통 고온에서 윗면을 검게 그을려 스모키 향을 입힌 바스크 치즈케이크그려줘",
       "imageUrl": "/images/00367.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00367.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00367.png"
     },
     {
       "index": 368,
@@ -71562,7 +71562,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 이탈리아 마스카포네 치즈와 에스프레소에 적신 사보이아르디 쿠키의 정통 수제 티라미수그려줘",
       "imageUrl": "/images/00368.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00368.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00368.png"
     },
     {
       "index": 371,
@@ -71593,7 +71593,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 통마늘과 닭근위를 참기름 소금에 볶아 알싸하고 쫄깃한 포장마차 통마늘 닭똥집 볶음그려줘",
       "imageUrl": "/images/00371.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00371.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00371.png"
     },
     {
       "index": 372,
@@ -71624,7 +71624,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 홍합을 한 냄비 가득 넣고 청양고추와 대파를 송송 썰어 뽀얗게 끓인 얼큰 뚝배기 홍합탕그려줘",
       "imageUrl": "/images/00372.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00372.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00372.png"
     },
     {
       "index": 373,
@@ -71655,7 +71655,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 참숯 불판에 노릇하게 구워 벌집 칼집 사이로 기름이 쏙 빠진 쫀득 돼지껍데기와 콩가루그려줘",
       "imageUrl": "/images/00373.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00373.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00373.png"
     },
     {
       "index": 374,
@@ -71686,7 +71686,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 화끈한 불맛 고추장 양념에 뼈째 오독오독 씹히는 매콤 오돌뼈 볶음과 김가루 날치알 주먹밥그려줘",
       "imageUrl": "/images/00374.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00374.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00374.png"
     },
     {
       "index": 375,
@@ -71717,7 +71717,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 신선한 바지락 조개에 버터와 마늘, 화이트와인(또는 청주)을 붓고 자작하게 끓인 바지락 술찜그려줘",
       "imageUrl": "/images/00375.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00375.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00375.png"
     },
     {
       "index": 376,
@@ -71749,7 +71749,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 동해안 싱싱한 참문어 다리를 얇게 썰어 참기름 소금장과 초고추장에 찍어 먹는 문어 숙회그려줘",
       "imageUrl": "/images/00376.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00376.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00376.png"
     },
     {
       "index": 379,
@@ -71781,7 +71781,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 스위스 알프스 전통 휠 치즈 단면을 녹여 감자와 소시지 위에 긁어내리는 라클렛그려줘",
       "imageUrl": "/images/00379.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00379.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00379.png"
     },
     {
       "index": 380,
@@ -71812,7 +71812,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 일본 후쿠오카 하카타 명물 부추와 마늘을 산더미로 얹어 끓인 한우 대창 모츠나베그려줘",
       "imageUrl": "/images/00380.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00380.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00380.png"
     },
     {
       "index": 381,
@@ -71844,7 +71844,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 사천 청두식 혀가 마비되는 얼얼한 마라 홍탕과 뽀얀 사골 백탕의 반반 원앙 훠궈그려줘",
       "imageUrl": "/images/00381.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00381.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00381.png"
     },
     {
       "index": 389,
@@ -71876,7 +71876,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 캐나다 퀘벡식 갓 튀긴 두툼한 감자튀김에 뽀득한 치즈 커드와 뜨거운 비프 그레이비를 얹은 푸틴그려줘",
       "imageUrl": "/images/00389.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00389.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00389.png"
     },
     {
       "index": 393,
@@ -71908,7 +71908,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 오렌지 주스와 향신료에 돼지고기를 튀기듯 조려 부드럽게 찢은 멕시코 카르니타스 타코 3개그려줘",
       "imageUrl": "/images/00393.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00393.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00393.png"
     },
     {
       "index": 394,
@@ -71939,7 +71939,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 다진 양고기에 큐민과 가람마살라를 섞어 탄두르 쇠꼬챙이에 구운 인도식 시크 케밥 2개그려줘",
       "imageUrl": "/images/00394.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00394.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00394.png"
     },
     {
       "index": 395,
@@ -71971,7 +71971,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 야끼소바 면과 양배추, 삼겹살, 계란후라이를 층층이 탑처럼 쌓아 구운 히로시마풍 오코노미야키그려줘",
       "imageUrl": "/images/00395.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00395.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00395.png"
     },
     {
       "index": 398,
@@ -72003,7 +72003,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 부드럽게 삶아낸 문어 다리에 삶은 감자와 스페인 훈제 파프리카 가루를 듬뿍 뿌린 갈리시아 문어 요리그려줘",
       "imageUrl": "/images/00398.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00398.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00398.png"
     },
     {
       "index": 399,
@@ -72035,7 +72035,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 버터밀크에 24시간 재워 매콤한 케이준 시즈닝으로 바삭하게 튀겨낸 미국 남부식 버터밀크 치킨그려줘",
       "imageUrl": "/images/00399.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00399.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00399.png"
     },
     {
       "index": 400,
@@ -72067,7 +72067,7 @@ export const POOLS_BY_MEAL = {
       ],
       "illustrationPrompt": "일러스트풍으로 그릴에 구운 옥수수에 마요네즈와 코티하 치즈, 칠리 파우더를 듬뿍 바른 멕시칸 스트리트 엘로테 (마약 옥수수)그려줘",
       "imageUrl": "/images/00400.png",
-      "imageUrlAbsolute": "https://food.tellmyname.app/images/00400.png"
+      "imageUrlAbsolute": "https://img.tellmyname.app/foods/00400.png"
     }
   ]
 };
