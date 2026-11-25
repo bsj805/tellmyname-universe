@@ -85,7 +85,7 @@ export function sampleLevelsForMode(modeId, count, seed = null) {
 export function buildWorldCupShareUrl(mode = wcState.mode, roundSize = wcState.roundSize, seed = wcState.seed, lang = wcState.lang) {
   const origin = (typeof window !== 'undefined' && window.location && window.location.origin)
     ? window.location.origin
-    : 'https://myhome.tellmyname.app';
+    : 'https://tellmyname.app';
   const params = new URLSearchParams();
   params.set('round', String(roundSize));
   if (seed !== null && seed !== undefined) {

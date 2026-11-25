@@ -1,5 +1,5 @@
 // worker.js — Cloudflare Edge Dynamic SSR Router & Same-Domain R2 Handler
-// myhome.tellmyname.app (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
+// tellmyname.app (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
 
 import { SITE_ORIGIN, MIN_LEVEL, MAX_LEVEL, GOOD_HOUSE_THRESHOLD } from './src/lib/constants.js';
 import { analyzeNameToHouse } from './src/lib/hash.js';
@@ -132,8 +132,8 @@ function localizeStaticShellHtml(html, selectedLang, dict) {
   replaceById('photodiary-text', escapeHtml(foodLabel));
   replaceById('footer-link-food', `🍱 ${escapeHtml(foodLabel)}`);
   const pdHref = selectedLang && selectedLang !== 'ko'
-    ? `https://food.tellmyname.app/?lang=${escapeHtml(selectedLang)}`
-    : 'https://food.tellmyname.app/';
+    ? `https://tellmyname.app/food/?lang=${escapeHtml(selectedLang)}`
+    : 'https://tellmyname.app/food/';
   html = html.replace(/id="photodiary-link"\s+href="[^"]*"/g, `id="photodiary-link" href="${pdHref}"`);
   html = html.replace(/id="footer-link-food"\s+href="[^"]*"/g, `id="footer-link-food" href="${pdHref}"`);
   replaceById('header-brand-text', escapeHtml(dict.brandHeader || 'The House That Suits You'));
@@ -872,7 +872,7 @@ export default {
             .replace(/href=["']\/favicon([^"']*)["']/g, `href="${p}/favicon$1"`)
             .replace(/(<a[^>]*class=["'][^"']*brand[^"']*["'][^>]*href=["'])\/(["'])/g, `$1${p}/$2`)
             .replace(/href=["']\/(level|name|worldcup|gallery)(\/[^"']*)?["']/g, `href="${p}/$1$2"`)
-            // Keep food Static Assets images on food.tellmyname.app/images/ (0 Worker hits), unify page/canonical URLs to tellmyname.app
+            // Keep food Static Assets images on tellmyname.app/food/images/ (0 Worker hits), unify page/canonical URLs to tellmyname.app
             .replace(/https:\/\/food\.tellmyname\.app\/r2\/foods\//g, 'https://tellmyname.app/r2/foods/')
             .replace(/https:\/\/food\.tellmyname\.app\/(?!images\/)/g, 'https://tellmyname.app/food/')
             .replace(/https:\/\/food\.tellmyname\.app(?=["'<,\s?])/g, 'https://tellmyname.app/food')
@@ -1157,10 +1157,10 @@ export default {
       });
     }
 
-    // Method B: /food or /food/* seamlessly connects to food.tellmyname.app
+    // Method B: /food or /food/* seamlessly connects to tellmyname.app/food
     if (pathname === '/food' || pathname.startsWith('/food/')) {
       const subPath = pathname.slice('/food'.length) || '/';
-      return Response.redirect(`https://food.tellmyname.app${subPath}${url.search}`, 302);
+      return Response.redirect(`https://tellmyname.app/food${subPath}${url.search}`, 302);
     }
 
     if (pathname === '/match' || pathname.startsWith('/match/')) {

@@ -1,5 +1,5 @@
 // web/js/worldcup.js — 자동차·탈것 이상형 월드컵 (최악 중 최선 / 최선 중 최악) — 14개국어 & 모바일 상하 스크롤 최적화
-// Domain: car.tellmyname.app
+// Domain: tellmyname.app/car
 
 import * as taxonomyMod from './lib/taxonomy.js';
 import * as i18nMod from './lib/i18n.js';
@@ -298,7 +298,7 @@ export function sampleLevelsForMode(modeId, count, seed = null) {
 export function buildWorldCupShareUrl(mode = wcState.mode, roundSize = wcState.roundSize, seed = wcState.seed, lang = wcState.lang) {
   const origin = (typeof window !== 'undefined' && window.location && window.location.origin && !window.location.origin.startsWith('file:'))
     ? window.location.origin
-    : 'https://car.tellmyname.app';
+    : 'https://tellmyname.app/car';
   const params = new URLSearchParams();
   params.set('round', String(roundSize));
   if (seed !== null && seed !== undefined) {

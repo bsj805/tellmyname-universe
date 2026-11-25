@@ -1,5 +1,5 @@
 // src/lib/taxonomy.js — 0~999단계 (1,000종) 건물 마스터 택소노미 및 50:50 교차 데이터셋 엔진
-// myhome.tellmyname.app
+// tellmyname.app
 
 import {
   MIN_LEVEL,
@@ -167,7 +167,7 @@ export function renderHouseArtworkSvg(concept) {
   <text x="512" y="790" text-anchor="middle" fill="${accent}" font-family="'Pretendard','Noto Sans KR',sans-serif" font-size="24" font-weight="800">[${isGood ? '대박 하우스' : '폭망 하우스'} · Tier ${String(concept.tier || 1).padStart(2, '0')}] ${escapeXml(concept.categoryLabel || '')}</text>
   <text x="512" y="842" text-anchor="middle" fill="#ffffff" font-family="'Pretendard','Noto Sans KR',sans-serif" font-size="32" font-weight="800">${escapeXml(line1)}</text>
   ${line2 ? `<text x="512" y="886" text-anchor="middle" fill="#ffffff" font-family="'Pretendard','Noto Sans KR',sans-serif" font-size="30" font-weight="700">${escapeXml(line2)}</text>` : ''}
-  <text x="512" y="924" text-anchor="middle" fill="${textLight}" font-family="'Pretendard','Noto Sans KR',sans-serif" font-size="21" font-weight="600">추산 가치: ${escapeXml(String(concept.estimatedValue || '').slice(0, 38))} | myhome.tellmyname.app</text>
+  <text x="512" y="924" text-anchor="middle" fill="${textLight}" font-family="'Pretendard','Noto Sans KR',sans-serif" font-size="21" font-weight="600">추산 가치: ${escapeXml(String(concept.estimatedValue || '').slice(0, 38))} | tellmyname.app</text>
 </svg>`;
 }
 

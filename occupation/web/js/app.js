@@ -206,7 +206,7 @@ export async function getJobData(level) {
     specialFeature: duty,
     aiVerdict: 'AI 인사팀장이 심혈을 기울여 다중우주 인사기록부에 정식 발령한 직업입니다.',
     imageUrl: `/r2/jobs/${String(lv).padStart(5, '0')}.webp`,
-    ogImageUrl: `https://job.tellmyname.app/r2/jobs/${String(lv).padStart(5, '0')}.webp`
+    ogImageUrl: `https://img.tellmyname.app/jobs/${String(lv).padStart(5, '0')}.webp`
   };
 }
 
@@ -821,9 +821,9 @@ function updateLocalizedStaticTexts() {
   }
   const langSuffix = state.lang && state.lang !== 'ko' ? `?lang=${encodeURIComponent(state.lang)}` : '';
   const myhomeLink = document.getElementById('family-link-myhome');
-  if (myhomeLink) myhomeLink.href = `https://myhome.tellmyname.app/${langSuffix}`;
+  if (myhomeLink) myhomeLink.href = `https://tellmyname.app/${langSuffix}`;
   const foodLink = document.getElementById('family-link-food');
-  if (foodLink) foodLink.href = `https://food.tellmyname.app/${langSuffix}`;
+  if (foodLink) foodLink.href = `https://tellmyname.app/food/${langSuffix}`;
   const photoLink = document.getElementById('family-link-photodiary');
   if (photoLink) photoLink.href = `https://photodiary.tellmyname.app/${langSuffix}`;
 

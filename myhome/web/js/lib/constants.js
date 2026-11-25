@@ -1,6 +1,6 @@
 // src/lib/constants.js — Shared constants, Phase-Aware Active Slot Mapping & R2 same-domain contract for MyHome
 
-export const SITE_ORIGIN = 'https://myhome.tellmyname.app';
+export const SITE_ORIGIN = 'https://tellmyname.app';
 export const MIN_LEVEL = 0;
 export const MAX_LEVEL = 999;
 export const TOTAL_LEVELS = 1000; // 0 .. 999 inclusive

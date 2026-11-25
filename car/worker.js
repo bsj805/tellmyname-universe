@@ -1,5 +1,5 @@
 // worker.js — Cloudflare Edge Dynamic SSR Router & Same-Domain R2 Handler for MyCar
-// car.tellmyname.app (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
+// tellmyname.app/car (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
 
 import { SITE_ORIGIN, MIN_LEVEL, MAX_LEVEL, GOOD_CAR_THRESHOLD } from './src/lib/constants.js';
 import { FAMILY_SITES } from './src/lib/common/family_sites.js';

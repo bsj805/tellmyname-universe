@@ -1,5 +1,5 @@
 // worker.js — Cloudflare Edge Dynamic SSR Router & Multilingual Food SEO Handler
-// food.tellmyname.app (Deterministic JSA-FoodHash-Date SSR with Timezone-Aware Spotlight, Gallery & Multilingual SEO)
+// tellmyname.app/food (Deterministic JSA-FoodHash-Date SSR with Timezone-Aware Spotlight, Gallery & Multilingual SEO)
 
 import {
   SITE_ORIGIN,
@@ -216,7 +216,7 @@ export function getFallbackHtmlTemplate() {
 
 /**
  * 사이트맵 인덱스 XML 생성 (/sitemap.xml)
- * Method B: Only food.tellmyname.app & myhome.tellmyname.app open, 0 name doorway sitemaps
+ * Method B: Only tellmyname.app/food & tellmyname.app open, 0 name doorway sitemaps
  */
 export function generateSitemapIndex(origin = SITE_ORIGIN) {
   const today = new Date().toISOString().slice(0, 10);
@@ -239,15 +239,15 @@ export function generateSitemapIndex(origin = SITE_ORIGIN) {
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://myhome.tellmyname.app/sitemap.xml</loc>
+    <loc>https://tellmyname.app/sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://job.tellmyname.app/sitemap.xml</loc>
+    <loc>https://tellmyname.app/job/sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://car.tellmyname.app/sitemap.xml</loc>
+    <loc>https://tellmyname.app/car/sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
@@ -1425,10 +1425,10 @@ export default {
     }
     const langParam = normalizeLang(url.searchParams.get('lang') || pathLang || 'ko');
 
-    // Method B: /myhome or /myhome/* seamlessly connects to myhome.tellmyname.app
+    // Method B: /myhome or /myhome/* seamlessly connects to tellmyname.app
     if (pathname === '/myhome' || pathname.startsWith('/myhome/')) {
       const subPath = pathname.slice('/myhome'.length) || '/';
-      return Response.redirect(`https://myhome.tellmyname.app${subPath}${url.search}`, 302);
+      return Response.redirect(`https://tellmyname.app${subPath}${url.search}`, 302);
     }
 
     if (pathname === '/ads.txt') {

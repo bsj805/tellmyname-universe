@@ -1,6 +1,6 @@
 // src/lib/i18n.js — 14-Language Internationalization (i18n) Engine & Dynamic House Localizer
 // Supports: ko, en, hi, vi, fr, pt, es, id, ru, de, it, ja, zh, ms
-// Domain: myhome.tellmyname.app
+// Domain: tellmyname.app
 
 import { MASTER_HOUSES } from './master_dataset.js';
 

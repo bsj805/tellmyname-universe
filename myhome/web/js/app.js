@@ -204,7 +204,7 @@ export async function getHouseData(level) {
     specialFeature: '시간과 공간의 법칙을 뒤흔드는 기괴한 주거 특권이 부여됩니다.',
     aiVerdict: 'AI 감정평가사가 심혈을 기울여 다중우주 등기부에 정식 등록한 건축물입니다.',
     imageUrl: `/r2/houses/${String(lv).padStart(5, '0')}.webp`,
-    ogImageUrl: `https://myhome.tellmyname.app/r2/houses/${String(lv).padStart(5, '0')}.webp`
+    ogImageUrl: `https://img.tellmyname.app/houses/${String(lv).padStart(5, '0')}.webp`
   };
 }
 
@@ -891,15 +891,15 @@ function updateLocalizedStaticTexts() {
   setElText('photodiary-text', state.lang === 'ko' ? '포토 다이어리' : 'Photo Diary');
 
   const foodNavLink = document.getElementById('food-nav-link');
-  if (foodNavLink) foodNavLink.href = `https://food.tellmyname.app/${langQuery}`;
+  if (foodNavLink) foodNavLink.href = `https://tellmyname.app/food/${langQuery}`;
   setElText('food-nav-text', dict.foodLink || (state.lang === 'ko' ? '오늘 뭐 먹지?' : 'What to Eat?'));
 
   const jobNavLink = document.getElementById('job-nav-link');
-  if (jobNavLink) jobNavLink.href = `https://job.tellmyname.app/${langQuery}`;
+  if (jobNavLink) jobNavLink.href = `https://tellmyname.app/job/${langQuery}`;
   setElText('job-nav-text', state.lang === 'ko' ? '내 직업' : 'MyJob');
 
   const carNavLink = document.getElementById('car-nav-link');
-  if (carNavLink) carNavLink.href = `https://car.tellmyname.app/${langQuery}`;
+  if (carNavLink) carNavLink.href = `https://tellmyname.app/car/${langQuery}`;
   setElText('car-nav-text', state.lang === 'ko' ? '내 자동차' : 'MyCar');
 
   const hubNavLink = document.getElementById('hub-link');

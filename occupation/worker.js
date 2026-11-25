@@ -1,5 +1,5 @@
 // worker.js — Cloudflare Edge Dynamic SSR Router & Same-Domain R2 Handler for MyJob
-// job.tellmyname.app (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
+// tellmyname.app/job (Zero-File-Explosion Dynamic Edge SSR with 14-Language Support & Image SEO)
 
 import { SITE_ORIGIN, MIN_LEVEL, MAX_LEVEL, GOOD_JOB_THRESHOLD } from './src/lib/constants.js';
 import { analyzeNameToJob } from './src/lib/hash.js';
@@ -101,23 +101,23 @@ function getFallbackHtmlTemplate(lang = 'ko') {
   <meta name="naver-site-verification" content="500b75986dd93e8da7fcbbb280dae50e9f195b04" />
   <meta name="yandex-verification" content="05d40864cd87eefe" />
   <meta name="msvalidate.01" content="2ACD105E72F63152A701D20FEC1AD467" />
-  <link rel="sitemap" type="application/xml" title="MyJob Sitemap" href="https://job.tellmyname.app/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" title="MyJob Sitemap" href="https://tellmyname.app/job/sitemap.xml" />
   <link rel="sitemap" type="application/xml" title="Photodiary Sitemap" href="https://photodiary.tellmyname.app/sitemap.xml" />
-  <link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://myhome.tellmyname.app/sitemap.xml" />
-  <link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://food.tellmyname.app/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://tellmyname.app/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://tellmyname.app/food/sitemap.xml" />
   <title>${escapeHtml(headerBrand)} | MyJob</title>
 </head>
 <body>
   <div class="app-layout">
     <nav id="family-top-nav" class="family-top-nav" aria-label="tellmyname.app 패밀리 서비스">
       <div class="family-nav-inner">
-        <a href="https://job.tellmyname.app/" class="family-nav-link active" id="family-link-job" aria-current="page" title="나에게 어울리는 직업 (MyJob)">
+        <a href="https://tellmyname.app/job/" class="family-nav-link active" id="family-link-job" aria-current="page" title="나에게 어울리는 직업 (MyJob)">
           <span class="family-nav-icon">💼</span> <span class="family-nav-label" id="family-label-job">${escapeHtml(dict.familyNav?.job || '나에게 어울리는 직업')}</span>
         </a>
-        <a href="https://myhome.tellmyname.app/" class="family-nav-link" id="family-link-myhome" target="_blank" rel="noopener" title="나에게 어울리는 집 (MyHome)">
+        <a href="https://tellmyname.app/" class="family-nav-link" id="family-link-myhome" target="_blank" rel="noopener" title="나에게 어울리는 집 (MyHome)">
           <span class="family-nav-icon">🏠</span> <span class="family-nav-label" id="family-label-myhome">${escapeHtml(dict.familyNav?.myhome || '나에게 어울리는 집')}</span>
         </a>
-        <a href="https://food.tellmyname.app/" class="family-nav-link" id="family-link-food" target="_blank" rel="noopener" title="나에게 어울리는 음식 (MyFood)">
+        <a href="https://tellmyname.app/food/" class="family-nav-link" id="family-link-food" target="_blank" rel="noopener" title="나에게 어울리는 음식 (MyFood)">
           <span class="family-nav-icon">🍔</span> <span class="family-nav-label" id="family-label-food">${escapeHtml(dict.familyNav?.food || '나에게 어울리는 음식')}</span>
         </a>
         <a href="https://photodiary.tellmyname.app/" class="family-nav-link" id="family-link-photodiary" target="_blank" rel="noopener" title="포토다이어리 (Photodiary)">
@@ -156,8 +156,8 @@ function localizeStaticShellHtml(html, selectedLang, dict) {
     replaceById('family-label-photodiary', escapeHtml(dict.familyNav.photodiary));
   }
   const langSuffix = selectedLang !== 'ko' ? `?lang=${escapeHtml(selectedLang)}` : '';
-  html = html.replace(/id="family-link-myhome"\s+href="[^"]*"/g, `id="family-link-myhome" href="https://myhome.tellmyname.app/${langSuffix}"`);
-  html = html.replace(/id="family-link-food"\s+href="[^"]*"/g, `id="family-link-food" href="https://food.tellmyname.app/${langSuffix}"`);
+  html = html.replace(/id="family-link-myhome"\s+href="[^"]*"/g, `id="family-link-myhome" href="https://tellmyname.app/${langSuffix}"`);
+  html = html.replace(/id="family-link-food"\s+href="[^"]*"/g, `id="family-link-food" href="https://tellmyname.app/food/${langSuffix}"`);
   html = html.replace(/id="family-link-photodiary"\s+href="[^"]*"/g, `id="family-link-photodiary" href="https://photodiary.tellmyname.app/${langSuffix}"`);
 
   replaceById('photodiary-text', escapeHtml(dict.photoDiaryLink || 'Photo Diary'));
@@ -490,8 +490,8 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
     `<link rel="canonical" href="${canonicalUrl}" />`,
     `<link rel="sitemap" type="application/xml" title="MyJob Sitemap" href="${SITE_ORIGIN}/sitemap.xml" />`,
     '<link rel="sitemap" type="application/xml" title="Photodiary Sitemap" href="https://photodiary.tellmyname.app/sitemap.xml" />',
-    '<link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://myhome.tellmyname.app/sitemap.xml" />',
-    '<link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://food.tellmyname.app/sitemap.xml" />',
+    '<link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://tellmyname.app/sitemap.xml" />',
+    '<link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://tellmyname.app/food/sitemap.xml" />',
     hreflangTags,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:site_name" content="나에게 어울리는 직업 (MyJob)" />`,
@@ -752,8 +752,8 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
     `<link rel="canonical" href="${canonicalUrl}" />`,
     `<link rel="sitemap" type="application/xml" title="MyJob Sitemap" href="${SITE_ORIGIN}/sitemap.xml" />`,
     '<link rel="sitemap" type="application/xml" title="Photodiary Sitemap" href="https://photodiary.tellmyname.app/sitemap.xml" />',
-    '<link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://myhome.tellmyname.app/sitemap.xml" />',
-    '<link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://food.tellmyname.app/sitemap.xml" />',
+    '<link rel="sitemap" type="application/xml" title="MyHome Sitemap" href="https://tellmyname.app/sitemap.xml" />',
+    '<link rel="sitemap" type="application/xml" title="Food Sitemap" href="https://tellmyname.app/food/sitemap.xml" />',
     hreflangTags,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:title" content="${escapeHtml(localizedTitle)}" />`,
@@ -1100,7 +1100,7 @@ export default {
     // ----------------------------------------------------
     if (pathname === '/robots.txt') {
       const robotsTxt = [
-        '# Robots.txt for https://job.tellmyname.app',
+        '# Robots.txt for https://tellmyname.app/job',
         '# Designed for Naver Yeti, Googlebot, Yandex, Bingbot, Baiduspider, Daum, Kakao, and Facebook crawlers',
         '',
         'User-agent: *',
@@ -1170,8 +1170,8 @@ export default {
         `Sitemap: ${SITE_ORIGIN}/sitemap-names-1.xml`,
         `Sitemap: ${SITE_ORIGIN}/sitemap-names-2.xml`,
         'Sitemap: https://photodiary.tellmyname.app/sitemap.xml',
-        'Sitemap: https://myhome.tellmyname.app/sitemap.xml',
-        'Sitemap: https://food.tellmyname.app/sitemap.xml',
+        'Sitemap: https://tellmyname.app/sitemap.xml',
+        'Sitemap: https://tellmyname.app/food/sitemap.xml',
         `Sitemap: ${SITE_ORIGIN}/rss.xml`,
         ''
       ].join('\n');
@@ -1215,11 +1215,11 @@ export default {
         `    <lastmod>${today}</lastmod>`,
         '  </sitemap>',
         '  <sitemap>',
-        '    <loc>https://myhome.tellmyname.app/sitemap.xml</loc>',
+        '    <loc>https://tellmyname.app/sitemap.xml</loc>',
         `    <lastmod>${today}</lastmod>`,
         '  </sitemap>',
         '  <sitemap>',
-        '    <loc>https://food.tellmyname.app/sitemap.xml</loc>',
+        '    <loc>https://tellmyname.app/food/sitemap.xml</loc>',
         `    <lastmod>${today}</lastmod>`,
         '  </sitemap>',
         '</sitemapindex>'

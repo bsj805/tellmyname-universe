@@ -1,5 +1,5 @@
 // src/lib/hash.js — JSA-Hash-20001 (Jamo-Stroke Avalanche Hybrid Hash Engine with Phase-Aware Active Slot Mapping)
-// myhome.tellmyname.app
+// tellmyname.app
 
 import { TOTAL_LEVELS, ACTIVE_SLOTS_PER_TIER, normalizeToActiveLevel, getLevelClassifier } from './constants.js';
 

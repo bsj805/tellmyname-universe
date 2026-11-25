@@ -423,7 +423,7 @@ export async function getCarData(level) {
     specialDuty: feature,
     aiVerdict: 'AI 수석 정비사가 다중우주 차고에서 직접 출고 검증을 완료한 탈것입니다.',
     imageUrl: `/r2/cars/${paddedLv}.webp`,
-    ogImageUrl: `https://car.tellmyname.app/r2/cars/${paddedLv}.webp`
+    ogImageUrl: `https://img.tellmyname.app/cars/${paddedLv}.webp`
   };
 }
 
@@ -976,10 +976,10 @@ function updateLocalizedStaticTexts() {
   }
   const langSuffix = state.lang && state.lang !== 'ko' ? `?lang=${encodeURIComponent(state.lang)}` : '';
   const familyLinks = [
-    ['family-link-car', 'https://car.tellmyname.app/'],
-    ['family-link-job', 'https://job.tellmyname.app/'],
-    ['family-link-myhome', 'https://myhome.tellmyname.app/'],
-    ['family-link-food', 'https://food.tellmyname.app/'],
+    ['family-link-car', 'https://tellmyname.app/car/'],
+    ['family-link-job', 'https://tellmyname.app/job/'],
+    ['family-link-myhome', 'https://tellmyname.app/'],
+    ['family-link-food', 'https://tellmyname.app/food/'],
     ['family-link-photodiary', 'https://photodiary.tellmyname.app/']
   ];
   for (const [elId, baseHref] of familyLinks) {
@@ -1001,7 +1001,7 @@ function updateLocalizedStaticTexts() {
   setElText('photodiary-text', dict.photoDiaryLink || dict.familyNav?.photodiary);
 
   const mjLink = document.getElementById('myjob-link');
-  if (mjLink) mjLink.href = `https://job.tellmyname.app/${langSuffix}`;
+  if (mjLink) mjLink.href = `https://tellmyname.app/job/${langSuffix}`;
   setElText('myjob-text', dict.myJobLink || dict.familyNav?.job);
 
   if (DOM.nameInput && dict.searchPlaceholder) {
