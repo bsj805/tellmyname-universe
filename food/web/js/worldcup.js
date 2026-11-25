@@ -7,6 +7,7 @@
 // - Full 14-language localization via src/lib/i18n.js
 // - SEO URL routing (/worldcup, /worldcup/lunch, /worldcup/worst, etc.)
 
+import { shareModal } from './share.js?v=20261125';
 import {
   SITE_ORIGIN,
   getFoodImageUrl,
@@ -43,7 +44,7 @@ import {
   copyToClipboard,
   showToast,
   formatPriceForLang
-} from './share_core.js';
+} from './share_core.js?v=20261125';
 
 /**
  * Build World Cup URL for pushState & sharing (preserves category, mode, roundSize, seed, lang)
@@ -492,17 +493,8 @@ export class WorldCupController {
         </div>
 
         <div class="wc-result-actions">
-          <button type="button" id="wc-share-story-btn" class="btn btn-share-instagram">
-            📸 ${t(this.lang, 'shareInstagramBtn')}
-          </button>
-          <button type="button" id="wc-share-kakao-btn" class="btn btn-share-kakao">
-            💬 ${t(this.lang, 'shareKakaoBtn')}
-          </button>
-          <button type="button" id="wc-download-png-btn" class="btn btn-download-png">
-            ⬇️ ${t(this.lang, 'downloadPngBtn')}
-          </button>
-          <button type="button" id="wc-copy-link-btn" class="btn btn-share-link">
-            🔗 ${t(this.lang, 'shareLinkBtn')}
+          <button type="button" id="wc-share-story-btn" class="btn btn-share-instagram" style="width: 100%; grid-column: 1 / -1;">
+            🖼️ ${t(this.lang, 'shareInstagramBtn')}
           </button>
         </div>
 
@@ -599,20 +591,8 @@ export class WorldCupController {
       food: localizedWinner
     }];
 
-    document.getElementById('wc-share-story-btn')?.addEventListener('click', async () => {
-      try {
-        const canvas = await renderStoryCanvas({
-          mode: 'single',
-          name: rankTitle,
-          dateText: new Date().toISOString().slice(0, 10),
-          items: storyItems,
-          lang: this.lang
-        });
-        const blob = await canvasToBlob(canvas);
-        await shareImage(blob, `mukbang-worldcup-${code}.png`, `${loc.displayName} — ${shareUrl}`);
-      } catch (err) {
-        showToast(t(this.lang, 'wcShareFail'), 'error');
-      }
+    document.getElementById('wc-share-story-btn')?.addEventListener('click', () => {
+      shareModal.openFood(localizedWinner);
     });
 
     document.getElementById('wc-download-png-btn')?.addEventListener('click', async () => {

@@ -12,7 +12,7 @@ import {
   MAX_LEVEL,
   GOOD_CAR_THRESHOLD
 } from './lib/constants.js';
-import { openShareModal, copyShareUrl, renderStoryCanvas } from './share.js';
+import { openShareModal, copyShareUrl, renderStoryCanvas } from './share.js?v=20261125';
 import * as i18nMod from './lib/i18n.js';
 import { getSitemapNameForLevel } from './lib/level_name_map.js';
 import {
@@ -693,14 +693,9 @@ export function renderCard(car, name = null, strokeInfo = null) {
 
       <!-- Action Buttons -->
       <div class="card-action-bar">
-        <button type="button" id="btn-open-share" class="btn-action btn-share-modal" title="${escapeHtml(shareBtnLabel)}">
-          <span class="btn-icon">📸</span>
+        <button type="button" id="btn-open-share" class="btn-action btn-share-modal" style="width: 100%; flex: 1 1 100%;" title="${escapeHtml(shareBtnLabel)}">
+          <span class="btn-icon">🖼️</span>
           <span class="btn-label">${escapeHtml(shareBtnLabel)}</span>
-        </button>
-
-        <button type="button" id="btn-copy-url" class="btn-action btn-copy-address" title="${escapeHtml(copyBtnLabel)}">
-          <span class="btn-icon">🔗</span>
-          <span class="btn-label">${escapeHtml(copyBtnLabel)}</span>
         </button>
       </div>
 

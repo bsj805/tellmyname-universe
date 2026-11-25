@@ -1,10 +1,6 @@
-// web/js/share_core.js — Core Sharing & Instagram Story (1080×1920) Engine for Mukbang
-// Supports:
-// - mode: 'daily'  -> 5-meal daily board with user name, date, calories, badges
-// - mode: 'single' -> 1 selected meal card with user name & meal slot
-// - mode: 'food'   -> Special single food enlarged card (1080-wide prominent illustration, origin, category, tagline)
-// - mode: 'multi'  -> 2~4 selected meals card
-// Multilingual support (14 languages) & Web Share API Level 2 (files) with PNG download fallback
+// web/js/share_core.js — Unified Viral Photocard & Bento Share Engine for Mukbang (/food)
+// Supports: 'daily' (5-meal board), 'multi' (2~4 meals), 'single' (1 meal), 'food' (gallery dish card)
+// 14-Language support, R2 Custom Domain (img.tellmyname.app/foods), Zero-Clip Dynamic Height
 
 import {
   SITE_ORIGIN,
@@ -22,24 +18,27 @@ import {
   localizeFood
 } from '../../src/lib/i18n.js';
 
-/**
- * 14-Language Fallback Toast Notifications for Download Fallback
- */
+const WATERMARK_DOMAIN = 'tellmyname.app/food';
+
+export const FONT_STACK_DISPLAY = '"Paperlogy", "SUITE Variable", "Pretendard", "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", sans-serif';
+export const FONT_STACK_SANS = '"SUITE Variable", "Pretendard", "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", "Noto Sans Devanagari", sans-serif';
+export const FONT_STACK_SERIF = FONT_STACK_DISPLAY;
+
 export const FALLBACK_SAVE_TOASTS = {
-  ko: '이미지를 저장했습니다. 인스타그램 스토리나 카카오톡에서 불러와 공유해보세요.',
-  en: 'Image saved. Open Instagram Stories or KakaoTalk to share it.',
-  hi: 'छवि सहेजी गई। साझा करने के लिए इसे इंस्टाग्राम स्टोरी या काकाओटॉक में आयात करें।',
-  vi: 'Đã lưu hình ảnh. Hãy tải lên Instagram Story hoặc KakaoTalk để chia sẻ.',
-  fr: 'Image enregistrée. Importez-la dans vos Stories Instagram ou KakaoTalk pour la partager.',
-  pt: 'Imagem salva. Importe no Instagram Stories ou KakaoTalk para compartilhar.',
-  es: 'Imagen guardada. Impórtala en Instagram Stories o KakaoTalk para compartir.',
-  id: 'Gambar berhasil disimpan. Buka di Instagram Stories atau KakaoTalk untuk membagikannya.',
-  ru: 'Изображение сохранено. Загрузите его в Instagram Stories или KakaoTalk, чтобы поделиться.',
-  de: 'Bild gespeichert. In Instagram Stories oder KakaoTalk importieren, um es zu teilen.',
-  it: 'Immagine salvata. Importala nelle Storie di Instagram o su KakaoTalk per condividerla.',
-  ja: '画像を保存しました。インスタストーリーやKakaoTalkから読み込んで共有してみてください。',
-  zh: '图片已保存。可导入至Instagram快拍或KakaoTalk中进行分享。',
-  ms: 'Imej berjaya disimpan. Muat naik ke Instagram Stories atau KakaoTalk untuk berkongsi.'
+  ko: '이미지를 저장했습니다! 인스타그램이나 카카오톡에서 불러와 공유해보세요.',
+  en: 'Image saved! Share it on Instagram, KakaoTalk, or anywhere.',
+  hi: 'छवि सहेजी गई। साझा करने के लिए इसे इंस्टाग्राम या काकाओटॉक में खोलें।',
+  vi: 'Đã lưu hình ảnh. Hãy chia sẻ lên Instagram hoặc Zalo nhé.',
+  fr: 'Image enregistrée. Partagez-la sur Instagram ou vos messageries.',
+  pt: 'Imagem salva. Compartilhe no Instagram ou WhatsApp.',
+  es: 'Imagen guardada. Compártela en Instagram o WhatsApp.',
+  id: 'Gambar berhasil disimpan. Bagikan ke Instagram atau WhatsApp.',
+  ru: 'Изображение сохранено. Поделитесь им в Instagram или мессенджере.',
+  de: 'Bild gespeichert. Jetzt auf Instagram oder WhatsApp teilen.',
+  it: 'Immagine salvata. Condividila su Instagram o WhatsApp.',
+  ja: '画像を保存しました！インスタやLINEでシェアしてみてください。',
+  zh: '图片已保存！可导入至社交平台进行分享。',
+  ms: 'Imej berjaya disimpan. Kongsikan di Instagram atau WhatsApp.'
 };
 
 export function getFallbackSaveToast(lang = 'ko') {
@@ -47,9 +46,20 @@ export function getFallbackSaveToast(lang = 'ko') {
   return FALLBACK_SAVE_TOASTS[norm] || FALLBACK_SAVE_TOASTS.ko;
 }
 
-/**
- * Format priceRange cleanly for the active language (avoiding Korean "원" in non-ko)
- */
+
+function resolveLocalizedFoodForCanvas(rawFood, currentLang, foodDict = null) {
+  if (!rawFood) return {};
+  const dict = foodDict || (typeof window !== 'undefined' ? window.__MUKBANG_FOOD_DICT__ : null);
+  const loc = localizeFood(rawFood, currentLang, dict) || rawFood;
+  if (currentLang === 'ko') return loc;
+  const hasHangul = (s) => /[가-힣]/.test(String(s || ''));
+  return {
+    ...loc,
+    name: hasHangul(loc.name) ? (rawFood.englishName || loc.name) : loc.name,
+    tagline: hasHangul(loc.tagline) ? '' : loc.tagline
+  };
+}
+
 export function formatPriceForLang(priceRange, lang = 'ko') {
   if (!priceRange) return '';
   const norm = normalizeLang(lang);
@@ -66,122 +76,6 @@ export function formatPriceForLang(priceRange, lang = 'ko') {
   return noKoreanNotes;
 }
 
-/**
- * Load food artwork with PNG -> WebP fallback
- */
-async function loadFoodArtworkWithFallback(food) {
-  const imgCode = food?.code || formatFoodCode(food?.index || 1);
-  let img = await loadArtworkImage(`/images/${imgCode}.png`);
-  if (!img) {
-    img = await loadArtworkImage(`/images/web/${imgCode}.webp`);
-  }
-  return img;
-}
-
-/**
- * Draw image with cover-fit (center crop) inside rounded rectangle
- */
-function drawCoverImageInRoundedRect(ctx, img, x, y, w, h, radius) {
-  ctx.save();
-  ctx.beginPath();
-  if (typeof ctx.roundRect === 'function') {
-    ctx.roundRect(x, y, w, h, radius);
-  } else {
-    ctx.rect(x, y, w, h);
-  }
-  ctx.clip();
-
-  const imgRatio = img.width / Math.max(1, img.height);
-  const boxRatio = w / Math.max(1, h);
-  let drawW = w;
-  let drawH = h;
-  let drawX = x;
-  let drawY = y;
-
-  if (imgRatio > boxRatio) {
-    drawH = h;
-    drawW = h * imgRatio;
-    drawX = x - (drawW - w) / 2;
-  } else {
-    drawW = w;
-    drawH = w / Math.max(0.01, imgRatio);
-    drawY = y - (drawH - h) / 2;
-  }
-
-  ctx.drawImage(img, drawX, drawY, drawW, drawH);
-  ctx.restore();
-}
-
-/**
- * Draw a photo-first meal tile with minimal bottom gradient caption
- */
-function drawPhotoMealTile(ctx, { x, y, w, h, radius = 24, img, entry, food, currentLang, palette }) {
-  drawRoundedRect(ctx, x, y, w, h, radius, palette.cardBg, 'rgba(255, 255, 255, 0.16)', 2);
-
-  if (img) {
-    drawCoverImageInRoundedRect(ctx, img, x + 3, y + 3, w - 6, h - 6, Math.max(8, radius - 2));
-  } else {
-    drawFallbackFoodIllustration(
-      ctx,
-      x + (w - Math.min(w, h) * 0.72) / 2,
-      y + 20,
-      Math.min(w, h) * 0.72,
-      entry.mealEmoji || '🍽',
-      food.name || t(currentLang, 'canvasFallbackFood'),
-      entry.themeColor || palette.textAccent
-    );
-  }
-
-  // Subtle bottom gradient scrim so photo remains 80%+ unobstructed
-  ctx.save();
-  ctx.beginPath();
-  if (typeof ctx.roundRect === 'function') {
-    ctx.roundRect(x + 3, y + 3, w - 6, h - 6, Math.max(8, radius - 2));
-  } else {
-    ctx.rect(x + 3, y + 3, w - 6, h - 6);
-  }
-  ctx.clip();
-
-  const scrimH = Math.min(130, Math.round(h * 0.34));
-  const scrimY = y + h - scrimH;
-  const scrim = ctx.createLinearGradient(0, scrimY, 0, y + h);
-  scrim.addColorStop(0, 'rgba(0, 0, 0, 0)');
-  scrim.addColorStop(0.55, 'rgba(0, 0, 0, 0.62)');
-  scrim.addColorStop(1, 'rgba(0, 0, 0, 0.88)');
-  ctx.fillStyle = scrim;
-  ctx.fillRect(x, scrimY, w, scrimH);
-
-  const localizedMeal = entry.mealKey ? t(currentLang, 'meal_' + entry.mealKey) : '';
-  const padX = 22;
-
-  ctx.textAlign = 'left';
-  ctx.fillStyle = entry.themeColor || palette.textAccent;
-  ctx.font = `bold 24px ${FONT_STACK_SANS}`;
-  if (localizedMeal) {
-    ctx.fillText(`${entry.mealEmoji || '🍽'} ${localizedMeal}`, x + padX, y + h - 56);
-  }
-
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = `900 30px ${FONT_STACK_SERIF}`;
-  const foodName = String(food.name || t(currentLang, 'canvasFallbackFood'));
-  // Truncate cleanly if too wide for tile
-  let displayTitle = foodName;
-  while (ctx.measureText(displayTitle).width > w - padX * 2 && displayTitle.length > 4) {
-    displayTitle = displayTitle.slice(0, -2) + '…';
-  }
-  ctx.fillText(displayTitle, x + padX, y + h - 20);
-  ctx.restore();
-}
-
-/**
- * Multilingual font families with safe fallbacks across 14 target languages
- */
-export const FONT_STACK_SANS = 'Pretendard, "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", "Noto Sans Devanagari", sans-serif';
-export const FONT_STACK_SERIF = '"Noto Serif KR", Georgia, serif, Pretendard, "Noto Sans JP", "Noto Sans SC", "Noto Sans Devanagari", sans-serif';
-
-/**
- * Toast Notification Utility
- */
 export function showToast(message, duration = 3000) {
   if (typeof document === 'undefined') return;
   const container = document.getElementById('toast-container') || document.body;
@@ -201,9 +95,6 @@ export function showToast(message, duration = 3000) {
   }, duration);
 }
 
-/**
- * Clipboard Copy with Fallback
- */
 export async function copyToClipboard(text, successMessage = null) {
   if (typeof navigator !== 'undefined' && navigator.clipboard && navigator.clipboard.writeText) {
     try {
@@ -213,7 +104,6 @@ export async function copyToClipboard(text, successMessage = null) {
     } catch (_) {}
   }
 
-  // Fallback for older browsers
   if (typeof document !== 'undefined') {
     try {
       const textarea = document.createElement('textarea');
@@ -232,30 +122,26 @@ export async function copyToClipboard(text, successMessage = null) {
       }
     } catch (_) {}
   }
-
   return false;
 }
 
-/**
- * Helper: Draw rounded rectangle on canvas
- */
 export function drawRoundedRect(ctx, x, y, width, height, radius, fillStyle = null, strokeStyle = null, lineWidth = 1) {
   ctx.save();
-  ctx.beginPath();
+  if (typeof ctx.beginPath === 'function') ctx.beginPath();
   if (typeof ctx.roundRect === 'function') {
     ctx.roundRect(x, y, width, height, radius);
   } else {
     const r = Math.min(radius, width / 2, height / 2);
-    ctx.moveTo(x + r, y);
-    ctx.lineTo(x + width - r, y);
-    ctx.quadraticCurveTo(x + width, y, x + width, y + r);
-    ctx.lineTo(x + width, y + height - r);
-    ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
-    ctx.lineTo(x + r, y + height);
-    ctx.quadraticCurveTo(x, y + height, x, y + height - r);
-    ctx.lineTo(x, y + r);
-    ctx.quadraticCurveTo(x, y, x + r, y);
-    ctx.closePath();
+    if (typeof ctx.moveTo === 'function') ctx.moveTo(x + r, y);
+    if (typeof ctx.lineTo === 'function') ctx.lineTo(x + width - r, y);
+    if (typeof ctx.quadraticCurveTo === 'function') ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+    if (typeof ctx.lineTo === 'function') ctx.lineTo(x + width, y + height - r);
+    if (typeof ctx.quadraticCurveTo === 'function') ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+    if (typeof ctx.lineTo === 'function') ctx.lineTo(x + r, y + height);
+    if (typeof ctx.quadraticCurveTo === 'function') ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+    if (typeof ctx.lineTo === 'function') ctx.lineTo(x, y + r);
+    if (typeof ctx.quadraticCurveTo === 'function') ctx.quadraticCurveTo(x, y, x + r, y);
+    if (typeof ctx.closePath === 'function') ctx.closePath();
   }
 
   if (fillStyle) {
@@ -271,142 +157,235 @@ export function drawRoundedRect(ctx, x, y, width, height, radius, fillStyle = nu
 }
 
 /**
- * Helper: Multi-line wrapped text
+ * Full-fidelity text wrapper with ZERO '...' truncation
  */
-export function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 4) {
-  if (!text) return y;
-  const chars = Array.from(String(text));
-  let line = '';
-  let lineCount = 0;
-  let currentY = y;
+export function wrapCanvasLines(ctx, text, maxWidth) {
+  if (!text) return [];
+  const raw = String(text).replace(/\s+/g, ' ').trim();
+  if (!raw) return [];
 
-  for (let i = 0; i < chars.length; i++) {
-    const testLine = line + chars[i];
-    const metrics = ctx.measureText(testLine);
-    if (metrics.width > maxWidth && line.length > 0) {
-      lineCount++;
-      if (lineCount >= maxLines) {
-        ctx.fillText(line.slice(0, Math.max(0, line.length - 2)) + '...', x, currentY);
-        return currentY + lineHeight;
+  const hasSpaces = raw.includes(' ');
+  const units = hasSpaces ? raw.split(' ') : Array.from(raw);
+  const lines = [];
+  let current = '';
+
+  const breakLongWord = (word) => {
+    let chunk = '';
+    for (const ch of Array.from(word)) {
+      const next = chunk + ch;
+      if (ctx.measureText(next).width > maxWidth && chunk.length > 0) {
+        lines.push(chunk);
+        chunk = ch;
+      } else {
+        chunk = next;
       }
-      ctx.fillText(line, x, currentY);
-      line = chars[i];
-      currentY += lineHeight;
+    }
+    return chunk;
+  };
+
+  for (let i = 0; i < units.length; i++) {
+    const unit = units[i];
+    const sep = (hasSpaces && current.length > 0) ? ' ' : '';
+    const candidate = current + sep + unit;
+    if (ctx.measureText(candidate).width <= maxWidth) {
+      current = candidate;
     } else {
-      line = testLine;
+      if (current.length > 0) lines.push(current);
+      if (ctx.measureText(unit).width > maxWidth) {
+        current = breakLongWord(unit);
+      } else {
+        current = unit;
+      }
     }
   }
-
-  if (line && lineCount < maxLines) {
-    ctx.fillText(line, x, currentY);
-    currentY += lineHeight;
-  }
-  return currentY;
+  if (current.length > 0) lines.push(current);
+  return lines;
 }
 
-/**
- * Asynchronously load food artwork image or return null on error/timeout
- */
-export function loadArtworkImage(src) {
+export function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight) {
+  const lines = wrapCanvasLines(ctx, text, maxWidth);
+  let curY = y;
+  for (const line of lines) {
+    ctx.fillText(line, x, curY);
+    curY += lineHeight;
+  }
+  return curY;
+}
+
+async function ensureFoodCanvasFonts() {
+  if (typeof document === 'undefined' || !document.fonts || typeof document.fonts.load !== 'function') {
+    return;
+  }
+  try {
+    await Promise.race([
+      Promise.all([
+        document.fonts.load('700 34px "Paperlogy"'),
+        document.fonts.load('800 44px "Paperlogy"'),
+        document.fonts.load('600 24px "SUITE Variable"'),
+        document.fonts.load('700 26px "SUITE Variable"')
+      ]),
+      new Promise((resolve) => setTimeout(resolve, 1500))
+    ]);
+  } catch (_) {}
+}
+
+export function loadArtworkImage(src, timeoutMs = 4200) {
   return new Promise((resolve) => {
-    if (typeof Image === 'undefined') return resolve(null);
+    if (typeof Image === 'undefined' || !src) return resolve(null);
     const img = new Image();
     img.crossOrigin = 'anonymous';
-    img.onload = () => resolve(img);
-    img.onerror = () => resolve(null);
+    let settled = false;
+    const done = (val) => {
+      if (!settled) {
+        settled = true;
+        resolve(val);
+      }
+    };
+    img.onload = () => done((img.naturalWidth > 0 || img.width > 0) ? img : null);
+    img.onerror = () => done(null);
     img.src = src;
-    setTimeout(() => resolve(null), 3500);
+    setTimeout(() => done(null), timeoutMs);
   });
 }
 
-/**
- * Fallback vector illustration for foods when image asset fails to load
- */
-export function drawFallbackFoodIllustration(ctx, x, y, size, emoji = '🍲', foodName = '맛있는 음식', themeColor = '#FF9F43') {
+async function loadFoodArtworkWithFallback(food) {
+  const imgCode = food?.code || formatFoodCode(food?.index || 1);
+  const candidates = [
+    `https://img.tellmyname.app/foods/${imgCode}.png?v=2`,
+    `/images/web/${imgCode}.webp`,
+    `/images/${imgCode}.png`
+  ];
+  for (const url of candidates) {
+    const img = await loadArtworkImage(url);
+    if (img) return img;
+  }
+  return null;
+}
+
+function drawCoverImageInRoundedRect(ctx, img, x, y, w, h, radius) {
   ctx.save();
-  const grad = ctx.createRadialGradient(x + size / 2, y + size / 2, size * 0.1, x + size / 2, y + size / 2, size * 0.5);
-  grad.addColorStop(0, 'rgba(255, 255, 255, 0.15)');
-  grad.addColorStop(0.7, 'rgba(0, 0, 0, 0.25)');
-  grad.addColorStop(1, 'rgba(0, 0, 0, 0.5)');
+  if (typeof ctx.beginPath === 'function') ctx.beginPath();
+  if (typeof ctx.roundRect === 'function') {
+    ctx.roundRect(x, y, w, h, radius);
+  } else if (typeof ctx.rect === 'function') {
+    ctx.rect(x, y, w, h);
+  }
+  ctx.clip();
 
-  ctx.fillStyle = grad;
-  ctx.beginPath();
-  ctx.arc(x + size / 2, y + size / 2, size * 0.42, 0, Math.PI * 2);
-  ctx.fill();
+  const imgRatio = img.width / Math.max(1, img.height);
+  const boxRatio = w / Math.max(1, h);
+  let drawW = w, drawH = h, drawX = x, drawY = y;
 
-  ctx.strokeStyle = themeColor;
-  ctx.lineWidth = 4;
-  ctx.stroke();
+  if (imgRatio > boxRatio) {
+    drawH = h;
+    drawW = h * imgRatio;
+    drawX = x - (drawW - w) / 2;
+  } else {
+    drawW = w;
+    drawH = w / Math.max(0.01, imgRatio);
+    drawY = y - (drawH - h) / 2;
+  }
 
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
-  ctx.beginPath();
-  ctx.arc(x + size / 2, y + size / 2, size * 0.32, 0, Math.PI * 2);
-  ctx.fill();
-
-  ctx.font = `${Math.floor(size * 0.34)}px serif`;
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText(emoji, x + size / 2, y + size / 2 - 10);
-
-  ctx.font = `bold 24px ${FONT_STACK_SANS}`;
-  ctx.fillStyle = '#FFFFFF';
-  ctx.fillText(String(foodName || '').slice(0, 10), x + size / 2, y + size / 2 + size * 0.24);
-
+  ctx.drawImage(img, drawX, drawY, drawW, drawH);
   ctx.restore();
 }
 
-/**
- * Theme palette generator
- */
-export function getThemePalette(theme = 'amber') {
-  if (theme === 'dark') {
+export function drawFallbackFoodIllustration(ctx, x, y, size, emoji = '🍲', foodName = '맛있는 음식', themeColor = '#F97316') {
+  ctx.save();
+  drawRoundedRect(ctx, x, y, size, size, 28, '#FFF7ED', themeColor, 2);
+  ctx.font = `${Math.floor(size * 0.34)}px sans-serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(emoji, x + size / 2, y + size / 2 - 12);
+  ctx.textBaseline = 'alphabetic';
+  ctx.font = `700 24px ${FONT_STACK_DISPLAY}`;
+  ctx.fillStyle = '#9A3412';
+  ctx.fillText(String(foodName || '').slice(0, 14), x + size / 2, y + size / 2 + size * 0.24);
+  ctx.restore();
+}
+
+export function getThemePalette(theme = 'cream') {
+  if (theme === 'aurora' || theme === 'dark') {
     return {
-      bgGrad1: '#0A0C11',
-      bgGrad2: '#161A24',
-      cardBg: 'rgba(24, 28, 38, 0.92)',
-      textPrimary: '#FFFFFF',
-      textSecondary: '#B0B8C4',
-      textAccent: '#D4AF37', // Gold
-      cardBorder: 'rgba(212, 175, 55, 0.4)'
+      bgGrad1: '#090D1A',
+      bgGrad2: '#151E36',
+      bgGrad3: '#0D1326',
+      orbA: 'rgba(56, 189, 248, 0.16)',
+      orbB: 'rgba(249, 115, 22, 0.14)',
+      cardBg: '#151E33',
+      cardBorder: 'rgba(148, 163, 184, 0.22)',
+      cardShadow: 'rgba(2, 6, 23, 0.55)',
+      topPillBg: 'rgba(249, 115, 22, 0.20)',
+      topPillText: '#FDBA74',
+      textPrimary: '#F8FAFC',
+      textSecondary: '#CBD5E1',
+      textMuted: '#94A3B8',
+      textAccent: '#FB923C',
+      bentoBg: 'rgba(30, 41, 69, 0.88)',
+      bentoBorder: 'rgba(148, 163, 184, 0.16)',
+      quoteBg1: 'rgba(249, 115, 22, 0.20)',
+      quoteBg2: 'rgba(236, 72, 153, 0.16)',
+      quoteBorder: 'rgba(251, 146, 60, 0.32)',
+      quoteText: '#FFF7ED',
+      footerPillBg: 'rgba(30, 41, 69, 0.92)',
+      footerText: '#94A3B8'
     };
   }
-  if (theme === 'fresh') {
+  if (theme === 'peach' || theme === 'fresh') {
     return {
-      bgGrad1: '#06130D',
-      bgGrad2: '#11291E',
-      cardBg: 'rgba(16, 40, 30, 0.92)',
-      textPrimary: '#FFFFFF',
-      textSecondary: '#C5E7D7',
-      textAccent: '#10AC84', // Green
-      cardBorder: 'rgba(16, 172, 132, 0.4)'
+      bgGrad1: '#FFF1F2',
+      bgGrad2: '#FFE4E6',
+      bgGrad3: '#FFEDD5',
+      orbA: 'rgba(251, 113, 133, 0.18)',
+      orbB: 'rgba(16, 185, 129, 0.12)',
+      cardBg: '#FFFCFA',
+      cardBorder: '#FECDD3',
+      cardShadow: 'rgba(136, 19, 55, 0.10)',
+      topPillBg: '#FFE4E6',
+      topPillText: '#E11D48',
+      textPrimary: '#1C1917',
+      textSecondary: '#57534E',
+      textMuted: '#78716C',
+      textAccent: '#E11D48',
+      bentoBg: '#FFF5F5',
+      bentoBorder: '#FFE4E6',
+      quoteBg1: '#FFF1F2',
+      quoteBg2: '#FFEDD5',
+      quoteBorder: '#FDBA74',
+      quoteText: '#431407',
+      footerPillBg: '#FFF1F2',
+      footerText: '#9F1239'
     };
   }
-  // Amber foodie default
+  // Default: 'cream' / 'amber' — Bright Warm Polaroid Photocard
   return {
-    bgGrad1: '#140E0A',
-    bgGrad2: '#28170D',
-    cardBg: 'rgba(38, 24, 16, 0.92)',
-    textPrimary: '#FFF8F0',
-    textSecondary: '#DFC7B4',
-    textAccent: '#FFA94D', // Amber
-    cardBorder: 'rgba(255, 169, 77, 0.4)'
+    bgGrad1: '#FFF7ED',
+    bgGrad2: '#FDF2F8',
+    bgGrad3: '#EEF2FF',
+    orbA: 'rgba(249, 115, 22, 0.14)',
+    orbB: 'rgba(99, 102, 241, 0.12)',
+    cardBg: '#FFFFFF',
+    cardBorder: '#E2E8F0',
+    cardShadow: 'rgba(15, 23, 42, 0.10)',
+    topPillBg: '#FFF7ED',
+    topPillText: '#EA580C',
+    textPrimary: '#0F172A',
+    textSecondary: '#475569',
+    textMuted: '#64748B',
+    textAccent: '#EA580C',
+    bentoBg: '#F8FAFC',
+    bentoBorder: '#E2E8F0',
+    quoteBg1: '#FFF7ED',
+    quoteBg2: '#FDF2F8',
+    quoteBorder: '#FED7AA',
+    quoteText: '#431407',
+    footerPillBg: '#F1F5F9',
+    footerText: '#64748B'
   };
 }
 
 /**
- * 9:16 High-Resolution Instagram Story Canvas Renderer (1080 × 1920)
- *
- * @param {Object} options
- * @param {string} options.mode - 'daily' | 'single' | 'food' | 'multi'
- * @param {string} options.lang - 2-letter language code (ko, en, ja, etc.)
- * @param {Array} options.items - Array of food/meal items
- * @param {string} options.name - User name (for daily / single)
- * @param {string} options.dateText - Formatted date string
- * @param {string} options.siteUrl - Canonical URL
- * @param {string} options.theme - 'amber' | 'dark' | 'fresh'
- * @param {HTMLCanvasElement} [options.canvas] - Target canvas (created if missing)
- * @param {Object} [options.dailyData] - Backwards compatibility with share.js
- * @param {Array} [options.selectedMealKeys] - Backwards compatibility
+ * Dynamic-Height Zero-Clip Polaroid Bento Canvas Renderer for Food
  */
 export async function renderStoryCanvas({
   mode = 'daily',
@@ -415,12 +394,11 @@ export async function renderStoryCanvas({
   name = '',
   dateText = '',
   siteUrl = SITE_ORIGIN,
-  theme = 'amber',
+  theme = 'cream',
   canvas = null,
   dailyData = null,
   selectedMealKeys = null
 } = {}) {
-  // Resolve canvas
   let targetCanvas = canvas;
   if (!targetCanvas) {
     if (typeof document !== 'undefined' && typeof document.createElement === 'function') {
@@ -433,16 +411,13 @@ export async function renderStoryCanvas({
   const ctx = targetCanvas.getContext('2d');
   if (!ctx) return targetCanvas;
 
+  await ensureFoodCanvasFonts();
+
   const width = 1080;
-  const height = 1920;
-  targetCanvas.width = width;
-  targetCanvas.height = height;
-
   const currentLang = normalizeLang(lang);
-  const palette = getThemePalette(theme);
+  const pal = getThemePalette(theme);
 
-  // Normalize inputs from dailyData if provided
-  let effectiveName = name || dailyData?.name || '김서윤';
+  let effectiveName = name || dailyData?.name || (currentLang === 'ko' ? '김서윤' : 'Chloe');
   let effectiveDate = dateText || dailyData?.date || '';
   let effectiveItems = items;
 
@@ -453,469 +428,513 @@ export async function renderStoryCanvas({
     effectiveItems = dailyData.orderedList.filter(m => keys.includes(m.mealKey));
   }
 
-  // 1. Draw Main Background Gradient
-  const bg = ctx.createLinearGradient(0, 0, width, height);
-  bg.addColorStop(0, palette.bgGrad1);
-  bg.addColorStop(0.5, palette.bgGrad2);
-  bg.addColorStop(1, palette.bgGrad1);
-  ctx.fillStyle = bg;
-  ctx.fillRect(0, 0, width, height);
+  const cardX = 56;
+  const cardW = width - cardX * 2; // 968
+  const padX = 48;
+  const innerX = cardX + padX;     // 104
+  const innerW = cardW - padX * 2; // 872
 
-  // Subtle radial glow
-  const glow = ctx.createRadialGradient(width / 2, 420, 50, width / 2, 420, 720);
-  glow.addColorStop(0, 'rgba(255, 107, 107, 0.15)');
-  glow.addColorStop(1, 'rgba(0, 0, 0, 0)');
-  ctx.fillStyle = glow;
-  ctx.fillRect(0, 0, width, height);
+  targetCanvas.width = width;
+  targetCanvas.height = 1600;
 
-  // Outer border frame
-  drawRoundedRect(ctx, 40, 40, width - 80, height - 80, 36, null, 'rgba(255, 255, 255, 0.1)', 2);
+  const isSingleCard = (mode === 'food' || mode === 'single' || effectiveItems.length <= 1);
+  const brandTitle = t(currentLang, 'brandTitle') || (currentLang === 'ko' ? '오늘 뭐 먹지?' : 'What to Eat Today?');
 
-  // 2. Render Header (Y: 90 ~ 210)
-  ctx.textAlign = 'center';
-  ctx.fillStyle = palette.textAccent;
-  ctx.font = `bold 28px ${FONT_STACK_SANS}`;
-  ctx.letterSpacing = '2px';
-  ctx.fillText(t(currentLang, 'canvasBrand'), width / 2, 120);
-
-  ctx.fillStyle = palette.textSecondary;
-  ctx.font = `500 26px ${FONT_STACK_SANS}`;
-  if (mode === 'food') {
-    const item0 = effectiveItems[0] || {};
-    const code = item0.code || formatFoodCode(item0.index || 1);
-    ctx.fillText(`ILLUSTRATION GALLERY · #${code}`, width / 2, 165);
-  } else {
-    ctx.fillText(t(currentLang, 'canvasSub', { date: effectiveDate }), width / 2, 165);
-  }
-
-  // Thin separator line
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.12)';
-  ctx.lineWidth = 1;
-  ctx.beginPath();
-  ctx.moveTo(120, 205);
-  ctx.lineTo(width - 120, 205);
-  ctx.stroke();
-
-  // =========================================================================
-  // MODE: 'food' — Special Single Food Enlarged Illustration Card (#14)
-  // Prominent 1080-wide card with large artwork, origin badge, tagline, specs
-  // =========================================================================
-  if (mode === 'food') {
-    const rawItem = effectiveItems[0] || {};
-    const food = rawItem.food || rawItem;
-    const origin = FOOD_ORIGIN_GROUPS[food.originGroup] || { badge: '🍲 추천 메뉴', color: palette.textAccent };
-    const localizedOriginBadge = t(currentLang, 'origin_' + food.originGroup) || origin.badge || '🍲 추천 메뉴';
-
-    // Origin Badge & Delivery Category Badge (Y: 230 ~ 285)
-    ctx.font = `bold 26px ${FONT_STACK_SANS}`;
-    const originText = localizedOriginBadge;
-    const originW = ctx.measureText(originText).width + 40;
-    const badgeY = 240;
-    const badgeH = 50;
-
-    let totalBadgesW = originW;
-    let deliveryText = food.deliveryCategory ? `📦 ${food.deliveryCategory.replace(/_/g, ' ')}` : null;
-    let deliveryW = 0;
-    if (deliveryText) {
-      deliveryW = ctx.measureText(deliveryText).width + 36;
-      totalBadgesW += deliveryW + 16;
-    }
-
-    const startBadgeX = (width - totalBadgesW) / 2;
-    drawRoundedRect(ctx, startBadgeX, badgeY, originW, badgeH, 25, 'rgba(15, 17, 23, 0.88)', origin.color || palette.textAccent, 2);
-    ctx.fillStyle = '#FFFFFF';
-    ctx.textAlign = 'center';
-    ctx.fillText(originText, startBadgeX + originW / 2, badgeY + 34);
-
-    if (deliveryText) {
-      drawRoundedRect(ctx, startBadgeX + originW + 16, badgeY, deliveryW, badgeH, 25, 'rgba(255, 255, 255, 0.08)', 'rgba(255, 255, 255, 0.25)', 1.5);
-      ctx.fillStyle = palette.textSecondary;
-      ctx.fillText(deliveryText, startBadgeX + originW + 16 + deliveryW / 2, badgeY + 34);
-    }
-
-    // Prominent Large Food Illustration Card (X: 60, Y: 320, W: 960, H: 860)
-    const cardX = 60;
-    const cardY = 320;
-    const cardW = 960;
-    const cardH = 860;
-    drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 32, palette.cardBg, palette.cardBorder, 2.5);
-
-    // Load Food Image (원본 고해상도 PNG 우선, 폴백으로 webp)
-    const imgCode = food.code || formatFoodCode(food.index || 1);
-    const pngUrl = `/images/${imgCode}.png`;
-    const webpUrl = `/images/web/${imgCode}.webp`;
-    let loadedImg = await loadArtworkImage(pngUrl);
-    if (!loadedImg) {
-      loadedImg = await loadArtworkImage(webpUrl);
-    }
-
-    if (loadedImg) {
-      ctx.save();
-      ctx.beginPath();
-      if (typeof ctx.roundRect === 'function') {
-        ctx.roundRect(cardX + 24, cardY + 24, cardW - 48, cardH - 48, 24);
-      } else {
-        ctx.rect(cardX + 24, cardY + 24, cardW - 48, cardH - 48);
-      }
-      ctx.clip();
-      ctx.drawImage(loadedImg, cardX + 24, cardY + 24, cardW - 48, cardH - 48);
-      ctx.restore();
-    } else {
-      drawFallbackFoodIllustration(
-        ctx,
-        cardX + 80,
-        cardY + 50,
-        cardW - 160,
-        food.emoji || '🍲',
-        food.name || t(currentLang, 'canvasFallbackFood'),
-        palette.textAccent
-      );
-    }
-
-    // Food Title Area (Y: 1220 ~ 1380)
-    ctx.textAlign = 'center';
-    ctx.fillStyle = palette.textPrimary;
-    ctx.font = `900 52px ${FONT_STACK_SERIF}`;
-    const displayName = food.name || t(currentLang, 'canvasFallbackFood');
-    ctx.fillText(displayName, width / 2, 1250);
-
-    // English or Original Korean Subtitle
-    let subTitle = '';
-    if (currentLang !== 'en' && food.englishName) {
-      subTitle = food.englishName;
-    } else if (currentLang !== 'ko' && food.rawName && food.rawName !== food.name) {
-      subTitle = food.rawName;
-    }
-    if (subTitle) {
-      ctx.fillStyle = palette.textSecondary;
-      ctx.font = `500 28px ${FONT_STACK_SANS}`;
-      ctx.fillText(subTitle, width / 2, 1300);
-    }
-
-    // Calories & Price Range Pills (Y: 1335 ~ 1390)
-    const calText = food.calories ? `🔥 ${food.calories}` : t(currentLang, 'canvasNutritionBalance');
-    const formattedPrice = formatPriceForLang(food.priceRange, currentLang);
-    const priceText = formattedPrice ? `💰 ${formattedPrice}` : t(currentLang, 'canvasGreatPrice');
-    ctx.font = `bold 24px ${FONT_STACK_SANS}`;
-    const calW = ctx.measureText(calText).width + 36;
-    const priceW = ctx.measureText(priceText).width + 36;
-    const pillsW = calW + priceW + 16;
-    const startPillX = (width - pillsW) / 2;
-    const pillY = subTitle ? 1335 : 1300;
-
-    drawRoundedRect(ctx, startPillX, pillY, calW, 44, 22, 'rgba(255, 255, 255, 0.08)', 'rgba(255, 169, 77, 0.4)', 1.5);
-    ctx.fillStyle = palette.textAccent;
-    ctx.fillText(calText, startPillX + calW / 2, pillY + 30);
-
-    drawRoundedRect(ctx, startPillX + calW + 16, pillY, priceW, 44, 22, 'rgba(255, 255, 255, 0.08)', 'rgba(84, 160, 255, 0.4)', 1.5);
-    ctx.fillStyle = '#54A0FF';
-    ctx.fillText(priceText, startPillX + calW + 16 + priceW / 2, pillY + 30);
-
-    // Tagline Box (Y: 1410 ~ 1560)
-    if (food.tagline) {
-      const boxW = 960;
-      const boxX = (width - boxW) / 2;
-      const boxY = pillY + 65;
-      drawRoundedRect(ctx, boxX, boxY, boxW, 120, 20, 'rgba(255, 255, 255, 0.05)', 'rgba(255, 255, 255, 0.12)', 1);
-      ctx.fillStyle = '#FFEAA7';
-      ctx.font = `bold 28px ${FONT_STACK_SANS}`;
-      renderWrappedText(ctx, `"${food.tagline}"`, width / 2, boxY + 52, 880, 40, 2);
-    }
-
-    // Pairing tip (ko only) or Meal tags
-    if (food.pairingTip && currentLang === 'ko') {
-      const tipW = 960;
-      const tipX = (width - tipW) / 2;
-      drawRoundedRect(ctx, tipX, 1620, tipW, 90, 16, 'rgba(0, 0, 0, 0.35)', 'rgba(255, 255, 255, 0.08)', 1);
-      ctx.fillStyle = palette.textSecondary;
-      ctx.font = `500 24px ${FONT_STACK_SANS}`;
-      ctx.fillText(`꿀조합 팁: ${food.pairingTip}`, width / 2, 1675);
-    }
-
-  // =========================================================================
-  // MODE: 'single' — Personalized Single Meal Showcase
-  // =========================================================================
-  } else if (mode === 'single' || effectiveItems.length === 1) {
+  // =======================================================================
+  // SINGLE DISH / GALLERY SHOWCASE POLAROID CARD (1 Dish)
+  // =======================================================================
+  if (isSingleCard) {
     const entry = effectiveItems[0] || {};
-    const food = entry.food || entry;
-    const origin = FOOD_ORIGIN_GROUPS[food.originGroup] || { badge: '🍲 추천 메뉴', color: palette.textAccent };
+    const food = resolveLocalizedFoodForCanvas(entry.food || entry, currentLang);
+    const imgCode = food.code || formatFoodCode(food.index || 1);
+    const loadedImg = await loadFoodArtworkWithFallback(food);
+
+    const origin = FOOD_ORIGIN_GROUPS[food.originGroup] || { badge: '🍲 추천 메뉴', color: pal.textAccent };
+    const localizedOriginBadge = t(currentLang, 'origin_' + food.originGroup) || origin.badge || '🍲 Menu';
     const localizedMeal = entry.mealKey ? t(currentLang, 'meal_' + entry.mealKey) : '';
     const localizedMealFull = entry.mealKey ? t(currentLang, 'mealFull_' + entry.mealKey) : '';
-    const localizedOriginBadge = t(currentLang, 'origin_' + food.originGroup) || origin.badge;
 
-    // Headline
-    ctx.textAlign = 'center';
-    ctx.fillStyle = palette.textPrimary;
-    ctx.font = `bold 44px ${FONT_STACK_SERIF}`;
-    ctx.fillText(t(currentLang, 'canvasSingleHeadline', { name: effectiveName, meal: localizedMeal }), width / 2, 280);
-
-    // Meal Time Badge
-    if (localizedMealFull) {
-      const mealBadgeText = `${entry.mealEmoji || '🍽'} ${localizedMealFull} · ${entry.timeRangeText || ''}`;
-      ctx.font = `bold 26px ${FONT_STACK_SANS}`;
-      const badgeW = ctx.measureText(mealBadgeText).width + 48;
-      drawRoundedRect(ctx, (width - badgeW) / 2, 320, badgeW, 46, 23, 'rgba(255, 255, 255, 0.08)', entry.themeColor || palette.textAccent, 1.5);
-      ctx.fillStyle = entry.themeColor || palette.textAccent;
-      ctx.fillText(mealBadgeText, width / 2, 352);
+    let catchphrase = '';
+    if (mode === 'food') {
+      catchphrase = currentLang === 'ko' ? `미식 일러스트 도감 · #${imgCode}` : `Food Showcase · #${imgCode}`;
+    } else {
+      catchphrase = t(currentLang, 'canvasSingleHeadline', { name: effectiveName, meal: localizedMeal });
     }
 
-    // Large Food Illustration Card (Y: 410 ~ 1110)
-    const cardX = 130;
-    const cardY = 410;
-    const cardW = 820;
-    const cardH = 700;
-    drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 28, palette.cardBg, palette.cardBorder, 2);
+    const foodTitle = String(food.name || t(currentLang, 'canvasFallbackFood')).trim();
+    let subTitle = '';
+    if (currentLang === 'ko' && food.englishName) {
+      subTitle = String(food.englishName).trim();
+    }
 
-    const imgCode = food.code || formatFoodCode(food.index || 1);
-    const loadedImg = await loadArtworkImage(`/images/${imgCode}.png`);
+    const calLabel = `🔥 ${currentLang === 'ko' ? '예상 열량' : 'Calories'}`;
+    const calVal = String(food.calories || t(currentLang, 'canvasNutritionBalance')).replace(/^🔥\s*/, '').trim();
+
+    const priceLabel = `💰 ${currentLang === 'ko' ? '예상 가격대' : 'Est. Price'}`;
+    const formattedPrice = formatPriceForLang(food.priceRange, currentLang);
+    const priceVal = String(formattedPrice || t(currentLang, 'canvasGreatPrice')).replace(/^💰\s*/, '').trim();
+
+    const taglineQuote = food.tagline ? `“${String(food.tagline).trim()}”` : '';
+    const pairingText = (currentLang === 'ko' && food.pairingTip) ? String(food.pairingTip).trim() : '';
+
+    // Pre-measure all wrapped text blocks
+    ctx.font = `700 34px ${FONT_STACK_DISPLAY}`;
+    const catchLines = wrapCanvasLines(ctx, catchphrase, innerW - 20);
+    const catchLineH = 46;
+
+    const titleFontPx = Array.from(foodTitle).length > 26 ? 38 : 44;
+    const titleLineH = titleFontPx === 38 ? 50 : 58;
+    ctx.font = `800 ${titleFontPx}px ${FONT_STACK_DISPLAY}`;
+    const titleLines = wrapCanvasLines(ctx, foodTitle, innerW - 16);
+
+    ctx.font = `600 24px ${FONT_STACK_SANS}`;
+    const subLines = subTitle ? wrapCanvasLines(ctx, subTitle, innerW - 24) : [];
+    const subLineH = 34;
+
+    const bentoGap = 20;
+    const bentoColW = Math.floor((innerW - bentoGap) / 2);
+    const bentoInnerW = bentoColW - 48;
+    const bentoValLineH = 34;
+
+    ctx.font = `700 24px ${FONT_STACK_DISPLAY}`;
+    const calLines = wrapCanvasLines(ctx, calVal, bentoInnerW);
+    const priceLines = wrapCanvasLines(ctx, priceVal, bentoInnerW);
+    const maxSpecLines = Math.max(1, calLines.length, priceLines.length);
+    const bentoBoxH = 24 + 28 + 12 + maxSpecLines * bentoValLineH + 22;
+
+    ctx.font = `700 27px ${FONT_STACK_SANS}`;
+    const quoteLines = taglineQuote ? wrapCanvasLines(ctx, taglineQuote, innerW - 64) : [];
+    const quoteLineH = 40;
+    const quoteBoxH = quoteLines.length > 0 ? (26 + quoteLines.length * quoteLineH + 26) : 0;
+
+    ctx.font = `600 24px ${FONT_STACK_SANS}`;
+    const tipLines = pairingText ? wrapCanvasLines(ctx, pairingText, innerW - 56) : [];
+    const tipLineH = 36;
+    const tipBoxH = tipLines.length > 0 ? (22 + 28 + 10 + tipLines.length * tipLineH + 22) : 0;
+
+    const photoH = 720;
+    const padTop = 46;
+    const appPillH = 46;
+    const footerPillH = 44;
+    const padBottom = 42;
+
+    const cardH =
+      padTop +
+      appPillH +
+      20 +
+      catchLines.length * catchLineH +
+      26 +
+      photoH +
+      36 +
+      titleLines.length * titleLineH +
+      (subLines.length > 0 ? (10 + subLines.length * subLineH) : 0) +
+      26 +
+      bentoBoxH +
+      (quoteBoxH > 0 ? (18 + quoteBoxH) : 0) +
+      (tipBoxH > 0 ? (18 + tipBoxH) : 0) +
+      28 +
+      footerPillH +
+      padBottom;
+
+    const finalHeight = Math.max(1520, cardH + 112);
+    targetCanvas.width = width;
+    targetCanvas.height = finalHeight;
+    const cardY = Math.round((finalHeight - cardH) / 2);
+
+    // Draw Backdrop
+    const bgGrad = ctx.createLinearGradient(0, 0, width, finalHeight);
+    bgGrad.addColorStop(0, pal.bgGrad1);
+    bgGrad.addColorStop(0.5, pal.bgGrad2);
+    bgGrad.addColorStop(1, pal.bgGrad3);
+    ctx.fillStyle = bgGrad;
+    ctx.fillRect(0, 0, width, finalHeight);
+
+    if (typeof ctx.createRadialGradient === 'function') {
+      const orb1 = ctx.createRadialGradient(180, 220, 20, 180, 220, 460);
+      orb1.addColorStop(0, pal.orbA);
+      orb1.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = orb1;
+      ctx.fillRect(0, 0, width, finalHeight);
+    }
+
+    // Polaroid Card Shadow + Fill
+    ctx.save();
+    ctx.shadowColor = pal.cardShadow;
+    ctx.shadowBlur = 48;
+    ctx.shadowOffsetY = 18;
+    drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, pal.cardBg);
+    ctx.restore();
+    drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, null, pal.cardBorder, 2);
+
+    let curY = cardY + padTop;
+
+    // Top App Pill
+    ctx.font = `700 22px ${FONT_STACK_DISPLAY}`;
+    const appPillLabel = `🍽️ ${brandTitle}`;
+    const appPillW = Math.min(innerW, Math.ceil(ctx.measureText(appPillLabel).width) + 52);
+    drawRoundedRect(ctx, Math.round((width - appPillW) / 2), curY, appPillW, appPillH, 23, pal.topPillBg);
+    ctx.fillStyle = pal.topPillText;
+    ctx.textAlign = 'center';
+    ctx.fillText(appPillLabel, width / 2, curY + 31);
+    curY += appPillH + 20;
+
+    // Catchphrase
+    ctx.fillStyle = pal.textSecondary;
+    ctx.font = `700 34px ${FONT_STACK_DISPLAY}`;
+    ctx.textAlign = 'center';
+    for (const line of catchLines) {
+      ctx.fillText(line, width / 2, curY + 34);
+      curY += catchLineH;
+    }
+    curY += 26;
+
+    // Hero Food Photo
+    const photoX = innerX;
+    const photoY = curY;
+    const photoW = innerW;
+    drawRoundedRect(ctx, photoX, photoY, photoW, photoH, 32, '#F1F5F9');
 
     if (loadedImg) {
-      ctx.save();
-      ctx.beginPath();
-      if (typeof ctx.roundRect === 'function') {
-        ctx.roundRect(cardX + 20, cardY + 20, cardW - 40, cardH - 40, 20);
-      } else {
-        ctx.rect(cardX + 20, cardY + 20, cardW - 40, cardH - 40);
-      }
-      ctx.clip();
-      ctx.drawImage(loadedImg, cardX + 20, cardY + 20, cardW - 40, cardH - 40);
-      ctx.restore();
+      drawCoverImageInRoundedRect(ctx, loadedImg, photoX, photoY, photoW, photoH, 32);
     } else {
-      drawFallbackFoodIllustration(ctx, cardX + 60, cardY + 30, cardW - 120, entry.mealEmoji || '🍲', food.name || t(currentLang, 'canvasFallbackFood'), entry.themeColor || palette.textAccent);
+      drawFallbackFoodIllustration(ctx, photoX + (photoW - 560) / 2, photoY + 80, 560, entry.mealEmoji || '🍲', foodTitle, pal.textAccent);
     }
+    drawRoundedRect(ctx, photoX, photoY, photoW, photoH, 32, null, 'rgba(15, 23, 42, 0.08)', 2);
 
-    // Origin Badge Float
-    ctx.font = `bold 26px ${FONT_STACK_SANS}`;
-    const originBadgeText = localizedOriginBadge || '🍲 추천 메뉴';
-    const originW = ctx.measureText(originBadgeText).width + 36;
-    drawRoundedRect(ctx, cardX + 30, cardY + 30, originW, 48, 24, 'rgba(15, 17, 23, 0.88)', origin.color || palette.textAccent, 2);
+    // Floating Badges on Photo
+    ctx.font = `700 21px ${FONT_STACK_DISPLAY}`;
+    const leftPillText = localizedOriginBadge;
+    const leftPillW = Math.min(photoW - 60, Math.ceil(ctx.measureText(leftPillText).width) + 40);
+    drawRoundedRect(ctx, photoX + 22, photoY + 22, leftPillW, 46, 23, 'rgba(15, 23, 42, 0.76)', 'rgba(255,255,255,0.22)', 1.5);
     ctx.fillStyle = '#FFFFFF';
+    ctx.textAlign = 'center';
+    ctx.fillText(leftPillText, photoX + 22 + leftPillW / 2, photoY + 52);
+
+    if (localizedMealFull) {
+      const rightPillText = `${entry.mealEmoji || '🍽️'} ${localizedMealFull}`;
+      const rightPillW = Math.ceil(ctx.measureText(rightPillText).width) + 36;
+      if (leftPillW + rightPillW + 64 < photoW) {
+        const rightPillX = photoX + photoW - 22 - rightPillW;
+        drawRoundedRect(ctx, rightPillX, photoY + 22, rightPillW, 46, 23, 'rgba(15, 23, 42, 0.74)', 'rgba(255,255,255,0.22)', 1.5);
+        ctx.fillStyle = '#FDBA74';
+        ctx.fillText(rightPillText, rightPillX + rightPillW / 2, photoY + 52);
+      }
+    }
+
+    curY += photoH + 36;
+
+    // Food Title
+    ctx.fillStyle = pal.textPrimary;
+    ctx.font = `800 ${titleFontPx}px ${FONT_STACK_DISPLAY}`;
+    ctx.textAlign = 'center';
+    for (const line of titleLines) {
+      ctx.fillText(line, width / 2, curY + titleFontPx);
+      curY += titleLineH;
+    }
+
+    if (subLines.length > 0) {
+      curY += 10;
+      ctx.fillStyle = pal.textMuted;
+      ctx.font = `600 24px ${FONT_STACK_SANS}`;
+      for (const line of subLines) {
+        ctx.fillText(line, width / 2, curY + 24);
+        curY += subLineH;
+      }
+    }
+
+    curY += 26;
+
+    // 2 Side-by-Side Bento Stat Boxes
+    const leftBoxX = innerX;
+    const rightBoxX = innerX + bentoColW + bentoGap;
+    drawRoundedRect(ctx, leftBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
+    drawRoundedRect(ctx, rightBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
+
     ctx.textAlign = 'left';
-    ctx.fillText(originBadgeText, cardX + 48, cardY + 63);
+    ctx.font = `700 20px ${FONT_STACK_SANS}`;
+    ctx.fillStyle = pal.textMuted;
+    ctx.fillText(calLabel, leftBoxX + 24, curY + 42);
+    ctx.fillText(priceLabel, rightBoxX + 24, curY + 42);
 
-    // Food Title & Info Area
-    ctx.textAlign = 'center';
-    ctx.fillStyle = palette.textPrimary;
-    ctx.font = `900 52px ${FONT_STACK_SERIF}`;
-    ctx.fillText(food.name || t(currentLang, 'canvasFallbackFood'), width / 2, 1190);
-
-    if (food.englishName && currentLang !== 'en') {
-      ctx.fillStyle = palette.textSecondary;
-      ctx.font = `500 28px ${FONT_STACK_SANS}`;
-      ctx.fillText(food.englishName, width / 2, 1240);
+    ctx.font = `700 24px ${FONT_STACK_DISPLAY}`;
+    ctx.fillStyle = pal.textPrimary;
+    let cY = curY + 80;
+    for (const line of calLines) {
+      ctx.fillText(line, leftBoxX + 24, cY);
+      cY += bentoValLineH;
     }
 
-    // Calories & Price Pills
-    const calText = food.calories ? `🔥 ${food.calories}` : t(currentLang, 'canvasNutritionBalance');
-    const formattedPrice = formatPriceForLang(food.priceRange, currentLang);
-    const priceText = formattedPrice ? `💰 ${formattedPrice}` : t(currentLang, 'canvasGreatPrice');
-    ctx.font = `bold 24px ${FONT_STACK_SANS}`;
-    const calW = ctx.measureText(calText).width + 32;
-    const priceW = ctx.measureText(priceText).width + 32;
-    const totalPillsW = calW + priceW + 16;
-    const startPillX = (width - totalPillsW) / 2;
-
-    drawRoundedRect(ctx, startPillX, 1275, calW, 42, 21, 'rgba(255, 255, 255, 0.08)', 'rgba(255, 169, 77, 0.4)', 1);
-    ctx.fillStyle = palette.textAccent;
-    ctx.fillText(calText, startPillX + calW / 2, 1304);
-
-    drawRoundedRect(ctx, startPillX + calW + 16, 1275, priceW, 42, 21, 'rgba(255, 255, 255, 0.08)', 'rgba(84, 160, 255, 0.4)', 1);
-    ctx.fillStyle = '#54A0FF';
-    ctx.fillText(priceText, startPillX + calW + 16 + priceW / 2, 1304);
-
-    // Tagline Box
-    if (food.tagline) {
-      const boxW = 820;
-      const boxX = (width - boxW) / 2;
-      drawRoundedRect(ctx, boxX, 1345, boxW, 110, 18, 'rgba(255, 255, 255, 0.05)', 'rgba(255, 255, 255, 0.1)', 1);
-      ctx.fillStyle = '#FFEAA7';
-      ctx.font = `bold 28px ${FONT_STACK_SANS}`;
-      renderWrappedText(ctx, `"${food.tagline}"`, width / 2, 1395, 760, 38, 2);
+    ctx.fillStyle = pal.textAccent;
+    let pY = curY + 80;
+    for (const line of priceLines) {
+      ctx.fillText(line, rightBoxX + 24, pY);
+      pY += bentoValLineH;
     }
 
-    // Pairing Tip Box (ko only)
-    if (food.pairingTip && currentLang === 'ko') {
-      const tipW = 820;
-      const tipX = (width - tipW) / 2;
-      drawRoundedRect(ctx, tipX, 1475, tipW, 90, 16, 'rgba(0, 0, 0, 0.35)', 'rgba(255, 255, 255, 0.08)', 1);
-      ctx.fillStyle = palette.textSecondary;
-      ctx.font = `500 24px ${FONT_STACK_SANS}`;
-      ctx.fillText(`꿀조합 팁: ${food.pairingTip}`, width / 2, 1530);
-    }
+    curY += bentoBoxH;
 
-  // =========================================================================
-  // MODE: 'multi' — 2 to 4 Selected Meals (Photo-First Layout)
-  // =========================================================================
-  } else if (effectiveItems.length >= 2 && effectiveItems.length <= 4) {
-    ctx.textAlign = 'center';
-    ctx.fillStyle = palette.textPrimary;
-    ctx.font = `bold 40px ${FONT_STACK_SERIF}`;
-    ctx.fillText(t(currentLang, 'canvasMultiHeadline', { name: effectiveName, count: effectiveItems.length }), width / 2, 255);
-
-    const imgs = await Promise.all(effectiveItems.map((entry) => loadFoodArtworkWithFallback(entry.food || entry)));
-    const count = effectiveItems.length;
-    const marginX = 56;
-    const gap = 18;
-    const fullW = width - marginX * 2;
-    const halfW = Math.floor((fullW - gap) / 2);
-
-    if (count === 2) {
-      const tileH = 660;
-      effectiveItems.forEach((entry, idx) => {
-        drawPhotoMealTile(ctx, {
-          x: marginX,
-          y: 290 + idx * (tileH + gap),
-          w: fullW,
-          h: tileH,
-          img: imgs[idx],
-          entry,
-          food: entry.food || entry,
-          currentLang,
-          palette
-        });
-      });
-    } else if (count === 3) {
-      drawPhotoMealTile(ctx, {
-        x: marginX,
-        y: 290,
-        w: fullW,
-        h: 640,
-        img: imgs[0],
-        entry: effectiveItems[0],
-        food: effectiveItems[0].food || effectiveItems[0],
-        currentLang,
-        palette
-      });
-      for (let i = 1; i < 3; i++) {
-        drawPhotoMealTile(ctx, {
-          x: marginX + (i - 1) * (halfW + gap),
-          y: 290 + 640 + gap,
-          w: halfW,
-          h: 640,
-          img: imgs[i],
-          entry: effectiveItems[i],
-          food: effectiveItems[i].food || effectiveItems[i],
-          currentLang,
-          palette
-        });
-      }
-    } else {
-      const tileH = 645;
-      effectiveItems.forEach((entry, idx) => {
-        const col = idx % 2;
-        const row = Math.floor(idx / 2);
-        drawPhotoMealTile(ctx, {
-          x: marginX + col * (halfW + gap),
-          y: 290 + row * (tileH + gap),
-          w: halfW,
-          h: tileH,
-          img: imgs[idx],
-          entry,
-          food: entry.food || entry,
-          currentLang,
-          palette
-        });
-      });
-    }
-
-  // =========================================================================
-  // MODE: 'daily' — 5-Meal Full Course Photo-First Grid
-  // =========================================================================
-  } else {
-    ctx.textAlign = 'center';
-    ctx.fillStyle = palette.textPrimary;
-    ctx.font = `bold 38px ${FONT_STACK_SERIF}`;
-    ctx.fillText(t(currentLang, 'canvasDailyHeadline', { name: effectiveName }), width / 2, 250);
-
-    const items5 = effectiveItems.slice(0, 5);
-    const imgs = await Promise.all(items5.map((entry) => loadFoodArtworkWithFallback(entry.food || entry)));
-
-    const marginX = 56;
-    const gap = 18;
-    const fullW = width - marginX * 2;
-    const halfW = Math.floor((fullW - gap) / 2);
-    const heroY = 278;
-    const heroH = 440;
-    const gridH = 445;
-
-    // Top Hero Photo (Meal 1)
-    if (items5[0]) {
-      drawPhotoMealTile(ctx, {
-        x: marginX,
-        y: heroY,
-        w: fullW,
-        h: heroH,
-        radius: 26,
-        img: imgs[0],
-        entry: items5[0],
-        food: items5[0].food || items5[0],
-        currentLang,
-        palette
-      });
-    }
-
-    // 2x2 Photo Grid (Meals 2~5)
-    let totalCalories = 0;
-    for (const entry of items5) {
-      const f = entry.food || entry;
-      if (f?.calories) {
-        const m = String(f.calories).match(/(\d+)/);
-        if (m) totalCalories += parseInt(m[1], 10);
-      }
-    }
-
-    for (let i = 1; i < items5.length; i++) {
-      const idx = i - 1;
-      const col = idx % 2;
-      const row = Math.floor(idx / 2);
-      const tileX = marginX + col * (halfW + gap);
-      const tileY = heroY + heroH + gap + row * (gridH + gap);
-      drawPhotoMealTile(ctx, {
-        x: tileX,
-        y: tileY,
-        w: halfW,
-        h: gridH,
-        radius: 24,
-        img: imgs[i],
-        entry: items5[i],
-        food: items5[i].food || items5[i],
-        currentLang,
-        palette
-      });
-    }
-
-    // Subtle 1-line total calories pill below the 5 photos
-    if (totalCalories > 0) {
+    // Quote Card
+    if (quoteLines.length > 0) {
+      curY += 18;
+      const qGrad = ctx.createLinearGradient(innerX, curY, innerX + innerW, curY + quoteBoxH);
+      qGrad.addColorStop(0, pal.quoteBg1);
+      qGrad.addColorStop(1, pal.quoteBg2);
+      drawRoundedRect(ctx, innerX, curY, innerW, quoteBoxH, 26, qGrad, pal.quoteBorder, 1.5);
       ctx.textAlign = 'center';
-      ctx.fillStyle = palette.textAccent;
-      ctx.font = `bold 22px ${FONT_STACK_SANS}`;
-      ctx.fillText(t(currentLang, 'canvasCalTotal', { calories: totalCalories.toLocaleString() }), width / 2, 1692);
+      ctx.font = `700 27px ${FONT_STACK_SANS}`;
+      ctx.fillStyle = pal.quoteText;
+      let qY = curY + 54;
+      for (const line of quoteLines) {
+        ctx.fillText(line, width / 2, qY);
+        qY += quoteLineH;
+      }
+      curY += quoteBoxH;
     }
+
+    // Pairing Tip Card (ko)
+    if (tipLines.length > 0) {
+      curY += 18;
+      drawRoundedRect(ctx, innerX, curY, innerW, tipBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
+      ctx.textAlign = 'left';
+      ctx.font = `700 20px ${FONT_STACK_SANS}`;
+      ctx.fillStyle = pal.textAccent;
+      ctx.fillText('💡 꿀조합 추천', innerX + 28, curY + 40);
+      ctx.font = `600 24px ${FONT_STACK_SANS}`;
+      ctx.fillStyle = pal.textSecondary;
+      let tY = curY + 76;
+      for (const line of tipLines) {
+        ctx.fillText(line, innerX + 28, tY);
+        tY += tipLineH;
+      }
+      curY += tipBoxH;
+    }
+
+    curY += 28;
+
+    // Clean Domain Watermark Pill
+    ctx.font = `700 21px ${FONT_STACK_DISPLAY}`;
+    const wmW = Math.ceil(ctx.measureText(WATERMARK_DOMAIN).width) + 48;
+    drawRoundedRect(ctx, Math.round((width - wmW) / 2), curY, wmW, footerPillH, 22, pal.footerPillBg);
+    ctx.fillStyle = pal.footerText;
+    ctx.textAlign = 'center';
+    ctx.fillText(WATERMARK_DOMAIN, width / 2, curY + 29);
+
+    return targetCanvas;
   }
 
-  // 3. Render Footer Watermark (Y: 1720 ~ 1850)
+  // =======================================================================
+  // MULTI / 5-MEAL DAILY MENU BOARD POLAROID CARD (2 ~ 5 Meals, Zero Clip)
+  // =======================================================================
+  const mealEntries = effectiveItems.slice(0, 5);
+  const loadedImgs = await Promise.all(mealEntries.map((e) => loadFoodArtworkWithFallback(e.food || e)));
+
+  const headline = mealEntries.length >= 5
+    ? t(currentLang, 'canvasDailyHeadline', { name: effectiveName })
+    : t(currentLang, 'canvasMultiHeadline', { name: effectiveName, count: mealEntries.length });
+
+  ctx.font = `800 38px ${FONT_STACK_DISPLAY}`;
+  const headLines = wrapCanvasLines(ctx, headline, innerW - 16);
+  const headLineH = 50;
+
+  // Pre-measure every meal row so long dish names never clip
+  const thumbSize = 180;
+  const rowTextW = innerW - 24 - thumbSize - 28 - 28; // right column text width
+  let totalCalories = 0;
+
+  const measuredRows = mealEntries.map((entry, idx) => {
+    const food = resolveLocalizedFoodForCanvas(entry.food || entry, currentLang);
+    const foodTitle = String(food.name || t(currentLang, 'canvasFallbackFood')).trim();
+    const localizedMeal = entry.mealKey ? t(currentLang, 'meal_' + entry.mealKey) : '';
+    const originBadge = t(currentLang, 'origin_' + food.originGroup) || '';
+
+    if (food.calories) {
+      const m = String(food.calories).match(/(\d+)/);
+      if (m) totalCalories += parseInt(m[1], 10);
+    }
+
+    ctx.font = `800 29px ${FONT_STACK_DISPLAY}`;
+    const fTitleLines = wrapCanvasLines(ctx, foodTitle, rowTextW);
+    const fTitleLineH = 38;
+
+    const metaParts = [
+      food.calories ? `🔥 ${food.calories}` : '',
+      food.priceRange ? `💰 ${formatPriceForLang(food.priceRange, currentLang)}` : ''
+    ].filter(Boolean).join('  ·  ');
+
+    ctx.font = `600 22px ${FONT_STACK_SANS}`;
+    const tagLines = food.tagline ? wrapCanvasLines(ctx, food.tagline, rowTextW) : [];
+    const tagLineH = 31;
+
+    const textBlockH = 34 + 10 + fTitleLines.length * fTitleLineH + (metaParts ? 34 : 0) + (tagLines.length > 0 ? (8 + tagLines.length * tagLineH) : 0);
+    const rowH = Math.max(thumbSize + 36, textBlockH + 40);
+
+    return {
+      entry,
+      food,
+      img: loadedImgs[idx],
+      localizedMeal,
+      originBadge,
+      fTitleLines,
+      fTitleLineH,
+      metaParts,
+      tagLines,
+      tagLineH,
+      rowH
+    };
+  });
+
+  const rowsGap = 16;
+  const totalRowsH = measuredRows.reduce((acc, r) => acc + r.rowH, 0) + Math.max(0, measuredRows.length - 1) * rowsGap;
+  const calBannerH = totalCalories > 0 ? 54 : 0;
+  const padTop = 46;
+  const appPillH = 46;
+  const footerPillH = 44;
+  const padBottom = 42;
+
+  const cardH =
+    padTop +
+    appPillH +
+    18 +
+    headLines.length * headLineH +
+    (effectiveDate ? 40 : 0) +
+    26 +
+    totalRowsH +
+    (calBannerH > 0 ? (22 + calBannerH) : 0) +
+    26 +
+    footerPillH +
+    padBottom;
+
+  const finalHeight = Math.max(1560, cardH + 112);
+  targetCanvas.width = width;
+  targetCanvas.height = finalHeight;
+  const cardY = Math.round((finalHeight - cardH) / 2);
+
+  // Backdrop
+  const bgGrad = ctx.createLinearGradient(0, 0, width, finalHeight);
+  bgGrad.addColorStop(0, pal.bgGrad1);
+  bgGrad.addColorStop(0.5, pal.bgGrad2);
+  bgGrad.addColorStop(1, pal.bgGrad3);
+  ctx.fillStyle = bgGrad;
+  ctx.fillRect(0, 0, width, finalHeight);
+
+  // Polaroid Card
+  ctx.save();
+  ctx.shadowColor = pal.cardShadow;
+  ctx.shadowBlur = 48;
+  ctx.shadowOffsetY = 18;
+  drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, pal.cardBg);
+  ctx.restore();
+  drawRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, null, pal.cardBorder, 2);
+
+  let curY = cardY + padTop;
+
+  // App Pill
+  ctx.font = `700 22px ${FONT_STACK_DISPLAY}`;
+  const appPillLabel = `🍽️ ${brandTitle}`;
+  const appPillW = Math.min(innerW, Math.ceil(ctx.measureText(appPillLabel).width) + 52);
+  drawRoundedRect(ctx, Math.round((width - appPillW) / 2), curY, appPillW, appPillH, 23, pal.topPillBg);
+  ctx.fillStyle = pal.topPillText;
   ctx.textAlign = 'center';
-  ctx.fillStyle = palette.textAccent;
-  ctx.font = `bold 28px ${FONT_STACK_SANS}`;
-  ctx.fillText(t(currentLang, 'canvasFooterCta'), width / 2, 1780);
+  ctx.fillText(appPillLabel, width / 2, curY + 31);
+  curY += appPillH + 18;
 
-  ctx.fillStyle = palette.textSecondary;
-  ctx.font = `500 22px ${FONT_STACK_SANS}`;
-  if (mode === 'food') {
-    const cleanHost = siteUrl.replace(/^https?:\/\//, '');
-    ctx.fillText(currentLang === 'ko' ? `${cleanHost} · 401가지 맛있는 일러스트 도감` : `${cleanHost} · 401 Food Illustrations`, width / 2, 1825);
-  } else {
-    ctx.fillText(t(currentLang, 'canvasFooterReset', { name: effectiveName }), width / 2, 1825);
+  // Headline
+  ctx.fillStyle = pal.textPrimary;
+  ctx.font = `800 38px ${FONT_STACK_DISPLAY}`;
+  ctx.textAlign = 'center';
+  for (const line of headLines) {
+    ctx.fillText(line, width / 2, curY + 38);
+    curY += headLineH;
   }
+
+  if (effectiveDate) {
+    ctx.fillStyle = pal.textMuted;
+    ctx.font = `600 23px ${FONT_STACK_SANS}`;
+    ctx.fillText(`📅 ${effectiveDate}`, width / 2, curY + 30);
+    curY += 40;
+  }
+
+  curY += 26;
+
+  // Meal Bento Rows
+  for (let i = 0; i < measuredRows.length; i++) {
+    const r = measuredRows[i];
+    drawRoundedRect(ctx, innerX, curY, innerW, r.rowH, 28, pal.bentoBg, pal.bentoBorder, 1.5);
+
+    const thumbX = innerX + 20;
+    const thumbY = curY + Math.round((r.rowH - thumbSize) / 2);
+    drawRoundedRect(ctx, thumbX, thumbY, thumbSize, thumbSize, 22, '#E2E8F0');
+    if (r.img) {
+      drawCoverImageInRoundedRect(ctx, r.img, thumbX, thumbY, thumbSize, thumbSize, 22);
+    } else {
+      drawFallbackFoodIllustration(ctx, thumbX, thumbY, thumbSize, r.entry.mealEmoji || '🍽️', r.food.name || '', pal.textAccent);
+    }
+
+    const tx = thumbX + thumbSize + 26;
+    let ty = curY + 42;
+
+    ctx.textAlign = 'left';
+    ctx.font = `700 21px ${FONT_STACK_DISPLAY}`;
+    ctx.fillStyle = pal.textAccent;
+    const mealHeader = [
+      `${r.entry.mealEmoji || '🍽️'} ${r.localizedMeal}`,
+      r.originBadge
+    ].filter(Boolean).join('  ·  ');
+    ctx.fillText(mealHeader, tx, ty);
+    ty += 38;
+
+    ctx.font = `800 29px ${FONT_STACK_DISPLAY}`;
+    ctx.fillStyle = pal.textPrimary;
+    for (const fl of r.fTitleLines) {
+      ctx.fillText(fl, tx, ty);
+      ty += r.fTitleLineH;
+    }
+
+    if (r.metaParts) {
+      ctx.font = `700 21px ${FONT_STACK_SANS}`;
+      ctx.fillStyle = pal.textSecondary;
+      ctx.fillText(r.metaParts, tx, ty - 2);
+      ty += 32;
+    }
+
+    if (r.tagLines.length > 0) {
+      ctx.font = `600 21px ${FONT_STACK_SANS}`;
+      ctx.fillStyle = pal.textMuted;
+      for (const tl of r.tagLines) {
+        ctx.fillText(tl, tx, ty);
+        ty += r.tagLineH;
+      }
+    }
+
+    curY += r.rowH + rowsGap;
+  }
+
+  curY -= rowsGap;
+
+  if (calBannerH > 0) {
+    curY += 22;
+    const calSummary = t(currentLang, 'canvasCalTotal', { calories: totalCalories.toLocaleString() });
+    drawRoundedRect(ctx, innerX, curY, innerW, calBannerH, 27, pal.topPillBg);
+    ctx.textAlign = 'center';
+    ctx.font = `700 23px ${FONT_STACK_DISPLAY}`;
+    ctx.fillStyle = pal.topPillText;
+    ctx.fillText(calSummary, width / 2, curY + 35);
+    curY += calBannerH;
+  }
+
+  curY += 26;
+
+  // Clean Domain Watermark Pill
+  ctx.font = `700 21px ${FONT_STACK_DISPLAY}`;
+  const wmW = Math.ceil(ctx.measureText(WATERMARK_DOMAIN).width) + 48;
+  drawRoundedRect(ctx, Math.round((width - wmW) / 2), curY, wmW, footerPillH, 22, pal.footerPillBg);
+  ctx.fillStyle = pal.footerText;
+  ctx.textAlign = 'center';
+  ctx.fillText(WATERMARK_DOMAIN, width / 2, curY + 29);
 
   return targetCanvas;
 }
 
-/**
- * Convert Canvas to PNG Blob
- * @param {HTMLCanvasElement} canvas
- * @returns {Promise<Blob>}
- */
 export function canvasToBlob(canvas) {
   return new Promise((resolve, reject) => {
     if (!canvas) return reject(new Error('Canvas is required'));
@@ -932,9 +951,7 @@ export function canvasToBlob(canvas) {
         const binStr = (typeof atob === 'function') ? atob(b64Data) : Buffer.from(b64Data, 'base64').toString('binary');
         const len = binStr.length;
         const bytes = new Uint8Array(len);
-        for (let i = 0; i < len; i++) {
-          bytes[i] = binStr.charCodeAt(i);
-        }
+        for (let i = 0; i < len; i++) bytes[i] = binStr.charCodeAt(i);
         resolve(new Blob([bytes], { type: 'image/png' }));
       } catch (err) {
         reject(err);
@@ -945,12 +962,6 @@ export function canvasToBlob(canvas) {
   });
 }
 
-/**
- * Trigger browser file download for a Blob
- * @param {Blob} blob
- * @param {string} filename
- * @returns {boolean}
- */
 export function downloadImage(blob, filename = 'mukbang-share.png') {
   if (!blob) return false;
   if (typeof document === 'undefined' || typeof window === 'undefined') return true;
@@ -970,7 +981,7 @@ export function downloadImage(blob, filename = 'mukbang-share.png') {
       setTimeout(() => {
         if (a.parentNode) document.body.removeChild(a);
         if (revokeUrl) revokeUrl(url);
-      }, 100);
+      }, 1500);
       return true;
     }
   } catch (err) {
@@ -979,20 +990,15 @@ export function downloadImage(blob, filename = 'mukbang-share.png') {
   return false;
 }
 
-/**
- * High-Level Share Image Handler
- * Tries Web Share API Level 2 files (iOS/Android Instagram Stories & KakaoTalk)
- * Falls back to automatic download + localized toast
- *
- * @param {Object} options
- * @param {Blob} options.blob
- * @param {string} options.filename
- * @param {string} options.title
- * @param {string} options.text
- * @param {string} options.url
- * @param {string} options.lang
- * @returns {Promise<{ success: boolean, method: string, aborted?: boolean }>}
- */
+function shouldUseMobileShareSheet() {
+  if (typeof window === 'undefined') return true; // allow Node unit test mocks
+  if (typeof navigator === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPad|iPod|Mobile/i.test(ua)) return true;
+  if (navigator.maxTouchPoints > 1 && window.innerWidth < 1024) return true;
+  return false;
+}
+
 export async function shareImage({
   blob,
   filename = 'mukbang-share.png',
@@ -1003,8 +1009,8 @@ export async function shareImage({
 } = {}) {
   const currentLang = normalizeLang(lang);
 
-  // 1. Try Web Share API Level 2 (files support)
   if (
+    shouldUseMobileShareSheet() &&
     typeof navigator !== 'undefined' &&
     typeof navigator.canShare === 'function' &&
     typeof navigator.share === 'function' &&
@@ -1027,27 +1033,14 @@ export async function shareImage({
       if (err?.name === 'AbortError') {
         return { success: false, method: 'share', aborted: true };
       }
-      console.warn('Native share failed, falling back to download:', err);
     }
   }
 
-  // 2. Fallback: Automatic download + localized guidance toast
   downloadImage(blob, filename);
-  const fallbackMessage = getFallbackSaveToast(currentLang);
-  showToast(fallbackMessage);
+  showToast(getFallbackSaveToast(currentLang));
   return { success: true, method: 'download' };
 }
 
-/**
- * Share KakaoTalk Text / Native Share with Clipboard Fallback
- *
- * @param {Object} options
- * @param {string} options.title
- * @param {string} options.text
- * @param {string} options.url
- * @param {string} options.lang
- * @returns {Promise<{ success: boolean, method: string, aborted?: boolean }>}
- */
 export async function shareKakaoText({
   title = '',
   text = '',
@@ -1056,7 +1049,7 @@ export async function shareKakaoText({
 } = {}) {
   const currentLang = normalizeLang(lang);
 
-  if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
+  if (shouldUseMobileShareSheet() && typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
     try {
       await navigator.share({
         title,
@@ -1072,22 +1065,11 @@ export async function shareKakaoText({
     }
   }
 
-  // Fallback: Copy to clipboard
   const fullText = [title, text, url].filter(Boolean).join('\n\n');
   const copied = await copyToClipboard(fullText, t(currentLang, 'toastKakaoCopied'));
   return { success: copied, method: 'clipboard' };
 }
 
-/**
- * Share via WhatsApp Universal Web / Mobile Link
- *
- * @param {Object} options
- * @param {string} options.title
- * @param {string} options.text
- * @param {string} options.url
- * @param {string} options.lang
- * @returns {Promise<{ success: boolean, method: string }>}
- */
 export async function shareWhatsAppText({
   title = '',
   text = '',
@@ -1104,7 +1086,6 @@ export async function shareWhatsAppText({
     return { success: true, method: 'whatsapp' };
   }
 
-  // Fallback
   const copied = await copyToClipboard(fullText, t(currentLang, 'toastWhatsAppSuccess'));
   return { success: copied, method: 'clipboard' };
 }

@@ -1,7 +1,7 @@
 // src/lib/constants.js — Shared contract for food.tellmyname.app
 // Defines domain, 5 meal categories (ordered Morning -> Late-night), 8 food origin groups, and per-category cap settings.
 
-export const SITE_ORIGIN = 'https://food.tellmyname.app';
+export const SITE_ORIGIN = 'https://tellmyname.app/food';
 export const SITE_NAME = '오늘 뭐 먹지? (Mukbang)';
 
 /**
@@ -189,6 +189,5 @@ export function buildIllustrationPrompt(foodName) {
  */
 export function getFoodImageUrl(index, withOrigin = false) {
   const padded = formatFoodCode(index);
-  const relPath = `/images/${padded}.png`;
-  return withOrigin ? `${SITE_ORIGIN}${relPath}` : relPath;
+  return `https://img.tellmyname.app/foods/${padded}.png`;
 }

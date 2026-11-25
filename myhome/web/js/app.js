@@ -5,8 +5,8 @@ import { analyzeNameToHouse } from './lib/hash.js';
 import { getHouseConceptByLevel } from './lib/taxonomy.js';
 import { renderHouseArtworkSvg, getHouseArtworkSvgDataUri } from './lib/taxonomy.js';
 import { getNextActiveLevel, getPrevActiveLevel, getRandomActiveLevel, normalizeToActiveLevel, MAX_LEVEL, GOOD_HOUSE_THRESHOLD } from './lib/constants.js';
-import { openShareModal, copyShareUrl } from './share.js';
-import { renderStoryCanvas } from './share.js';
+import { openShareModal, copyShareUrl } from './share.js?v=20261125';
+import { renderStoryCanvas } from './share.js?v=20261125';
 import { SUPPORTED_LANGUAGES, LANGUAGE_MAP, UI_DICTIONARY, getTranslation, localizeHouse, getWorldCupTranslation } from './lib/i18n.js';
 import { LEVEL_TO_NAME_MAP, getSitemapNameForLevel } from './lib/level_name_map.js';
 import { openWorldCupMode, setWorldCupLanguage, renderWorldCup } from './worldcup.js';
@@ -421,14 +421,9 @@ export function renderCard(house, name = null, strokeInfo = null) {
 
       <!-- Action Buttons (Feature #8 Shared Interface) -->
       <div class="card-action-bar">
-        <button type="button" id="btn-open-share" class="btn-action btn-share-modal" title="${escapeHtml(shareBtnLabel)}">
-          <span class="btn-icon">📸</span>
+        <button type="button" id="btn-open-share" class="btn-action btn-share-modal" style="width: 100%; flex: 1 1 100%;" title="${escapeHtml(shareBtnLabel)}">
+          <span class="btn-icon">🖼️</span>
           <span class="btn-label">${escapeHtml(shareBtnLabel)}</span>
-        </button>
-
-        <button type="button" id="btn-copy-url" class="btn-action btn-copy-address" title="${escapeHtml(copyBtnLabel)}">
-          <span class="btn-icon">🔗</span>
-          <span class="btn-label">${escapeHtml(copyBtnLabel)}</span>
         </button>
       </div>
 

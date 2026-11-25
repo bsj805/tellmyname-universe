@@ -1,270 +1,254 @@
-// web/js/share.js — Multilingual Instagram Story 9:16 Canvas & KakaoTalk Share Module for MyCar
+// web/js/share.js — Unified Viral Photocard & Bento Share Card Engine (14 Languages)
 // Domain: tellmyname.app/car
 
 import * as i18nMod from './lib/i18n.js';
 import { MAX_LEVEL, GOOD_CAR_THRESHOLD } from './lib/constants.js';
 
 export const SHARE_ORIGIN = 'https://tellmyname.app/car';
+const WATERMARK_DOMAIN = 'tellmyname.app/car';
 const GOOD_THRESHOLD = typeof GOOD_CAR_THRESHOLD === 'number' ? GOOD_CAR_THRESHOLD : 500;
 
-const CAR_SHARE_I18N = {
+const DISPLAY_FONT = '"Paperlogy", "SUITE Variable", "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+const BODY_FONT = '"SUITE Variable", "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+
+const SHARE_UI_COPY = {
   ko: {
-    brandHeader: '나에게 어울리는 자동차',
-    ownerHeadline: '{name}님에게 어울리는 자동차는',
-    defaultHeadline: '나에게 어울리는 자동차는',
-    subHeadlineWithName: '{name}님의 다중우주 시승 감정서',
-    subHeadlineDefault: '나의 다중우주 시승 감정서',
-    eraLabel: '언제 타던 탈것인지',
-    priceLabel: '추산 가격·유지비',
-    featureLabel: '특별한 기능·주행성능',
-    verdictLabel: 'AI 시승 총평',
-    zoneGood: '대박 탈것',
-    zoneBad: '폭망 탈것',
-    realBadge: '🏛️ 짝수 · 실제 탈것',
-    fictionBadge: '🦄 홀수 · 허구 탈것',
-    hint: '👆 링크를 눌러 나에게 어울리는 자동차를 확인해보세요!',
-    storySubtitle: '인스타그램 스토리 / 카카오톡 공유용 인증 카드 (9:16)',
-    themeCert: '시승 감정서',
-    themeCyber: '사이버 네온',
-    themeSunset: '노을 그라디언트',
-    instaDirectBtn: '인스타그램 스토리로 바로 보내기 / 공유',
-    tiktokDirectBtn: '틱톡 공유 (9:16 카드 & 링크)',
-    whatsappDirectBtn: '왓츠앱으로 공유하기',
-    kakaoShareBtn: '카카오톡 / 모바일로 공유하기',
-    saveStoryBtn: '스토리 카드 이미지 저장',
-    copyUrlBtn: '결과 링크 복사',
-    copyShort: '복사',
-    copiedToast: '공유 주소가 복사되었습니다!',
-    savedToast: '📥 9:16 인스타 스토리 이미지가 저장되었습니다!',
-    instaDownloadedToast: '📸 스토리가 다운로드되고 링크가 복사되었습니다!',
-    tiktokDownloadedToast: '🎵 9:16 스토리가 다운로드되고 링크가 복사되었습니다!',
-    whatsappOpenedToast: '🟢 왓츠앱으로 공유 메시지가 전송됩니다!',
-    messengerCopiedToast: '💬 공유 주소가 복사되었습니다! 카카오톡 대화방에 붙여넣어 공유하세요.'
+    subtitle: '원하는 테마를 골라 이미지를 저장하거나 공유해보세요',
+    themeCream: '포토카드',
+    themeAurora: '오로라',
+    themePeach: '피치',
+    unifiedBtn: '이미지 저장 · 공유하기',
+    downloadDirect: '파일로 바로 저장',
+    copyLink: '링크 복사',
+    generating: '포토카드 만드는 중...',
+    savedToast: '이미지를 저장했습니다! 인스타그램이나 카카오톡에서 바로 올려보세요.',
+    sharedToast: '공유 창을 열었습니다!',
+    copiedToast: '결과 링크를 복사했습니다!',
+    realShort: '실제',
+    fictionShort: '상상'
   },
   en: {
-    brandHeader: 'The Ride That Suits You',
-    ownerHeadline: 'The ride that suits {name} is',
-    defaultHeadline: 'The Ride That Suits You',
-    subHeadlineWithName: "{name}'s Multiverse Vehicle Appraisal",
-    subHeadlineDefault: 'Multiverse Vehicle Appraisal',
-    eraLabel: 'Vehicle Era',
-    priceLabel: 'Est. Price & Upkeep',
-    featureLabel: 'Special Feature',
-    verdictLabel: 'AI Mechanic Verdict',
-    zoneGood: 'Dream Ride',
-    zoneBad: 'Doom Ride',
-    realBadge: '🏛️ Even · Real Ride',
-    fictionBadge: '🦄 Odd · Fictional Ride',
-    hint: '👆 Tap the link to discover your destined ride!',
-    storySubtitle: '9:16 Story Share Card for Instagram & Messengers',
-    themeCert: 'Appraisal',
-    themeCyber: 'Cyber Neon',
-    themeSunset: 'Sunset Glow',
-    instaDirectBtn: 'Share to Instagram Story Directly',
-    tiktokDirectBtn: 'Share to TikTok (9:16 Card & Link)',
-    whatsappDirectBtn: 'Share via WhatsApp',
-    kakaoShareBtn: 'Share via Mobile / Messenger',
-    saveStoryBtn: 'Save 9:16 Story Card PNG',
-    copyUrlBtn: 'Copy Result Link',
-    copyShort: 'Copy',
-    copiedToast: 'Share URL copied to clipboard!',
-    savedToast: '📥 9:16 Instagram Story card saved!',
-    instaDownloadedToast: '📸 Story downloaded & link copied!',
-    tiktokDownloadedToast: '🎵 9:16 card downloaded & link copied!',
-    whatsappOpenedToast: '🟢 Opening WhatsApp share!',
-    messengerCopiedToast: '💬 Share link copied! Paste it into your chat.'
+    subtitle: 'Pick a theme and save or share your image card',
+    themeCream: 'Photocard',
+    themeAurora: 'Aurora',
+    themePeach: 'Peach',
+    unifiedBtn: 'Save & Share Image',
+    downloadDirect: 'Download PNG',
+    copyLink: 'Copy Link',
+    generating: 'Creating card...',
+    savedToast: 'Image saved! Share it on Instagram, WhatsApp, or anywhere.',
+    sharedToast: 'Share sheet opened!',
+    copiedToast: 'Result link copied!',
+    realShort: 'Real',
+    fictionShort: 'Fiction'
   },
   ja: {
-    brandHeader: 'あなたに似合う車',
-    ownerHeadline: '{name}さんに似合う乗り物は',
-    defaultHeadline: 'あなたに似合う乗り物は',
-    subHeadlineWithName: '{name}さんの試乗鑑定書',
-    subHeadlineDefault: '多次元ガレージ試乗鑑定書',
-    eraLabel: '活躍した時代',
-    priceLabel: '推定価格・維持費',
-    featureLabel: '特殊機能・走行性能',
-    verdictLabel: 'AI整備士の一言',
-    zoneGood: '神スペック名車',
-    zoneBad: '爆死ポンコツ',
-    realBadge: '🏛️ 偶数 · 実在',
-    fictionBadge: '🦄 奇数 · 架空',
-    hint: '👆 リンクをタップしてあなたに似合う車をチェック！',
-    copyShort: 'コピー'
+    subtitle: 'テーマを選んで画像を保存・共有しましょう',
+    themeCream: 'フォトカード',
+    themeAurora: 'オーロラ',
+    themePeach: 'ピーチ',
+    unifiedBtn: '画像を保存・共有する',
+    downloadDirect: 'PNGを直接保存',
+    copyLink: 'リンクをコピー',
+    generating: 'カード作成中...',
+    savedToast: '画像を保存しました！インスタやLINEでシェアしましょう。',
+    sharedToast: '共有メニューを開きました！',
+    copiedToast: 'リンクをコピーしました！',
+    realShort: '実在',
+    fictionShort: '架空'
   },
   zh: {
-    brandHeader: '适合你的座驾',
-    ownerHeadline: '最适合 {name} 的座驾是',
-    defaultHeadline: '最适合你的座驾是',
-    subHeadlineWithName: '{name} 的多元宇宙试驾鉴定书',
-    subHeadlineDefault: '多元宇宙试驾鉴定书',
-    eraLabel: '活跃年代',
-    priceLabel: '预估车价与维护费',
-    featureLabel: '特殊功能与性能',
-    verdictLabel: 'AI首席技师总评',
-    zoneGood: '神级梦想座驾',
-    zoneBad: '惨烈报废座驾',
-    realBadge: '🏛️ 偶数 · 现实',
-    fictionBadge: '🦄 奇数 · 虚构',
-    hint: '👆 点击链接查看最适合你的座驾！',
-    copyShort: '复制'
-  },
-  hi: {
-    brandHeader: 'आपके लिए सही सवारी',
-    ownerHeadline: '{name} के लिए सही सवारी है',
-    defaultHeadline: 'आपके लिए सही सवारी',
-    eraLabel: 'वाहन का युग',
-    priceLabel: 'अनुमानित कीमत',
-    featureLabel: 'विशेष फ़ीचर',
-    verdictLabel: 'AI मैकेनिक की राय',
-    zoneGood: 'ड्रीम राइड',
-    zoneBad: 'डूम राइड',
-    hint: '👆 अपनी सवारी जानने के लिए लिंक पर टैप करें!'
-  },
-  vi: {
-    brandHeader: 'Chiếc Xe Hợp Với Bạn',
-    ownerHeadline: 'Chiếc xe hợp với {name} là',
-    defaultHeadline: 'Chiếc xe hợp với bạn là',
-    eraLabel: 'Thời đại hoạt động',
-    priceLabel: 'Giá & Chi phí dự kiến',
-    featureLabel: 'Tính năng đặc biệt',
-    verdictLabel: 'Nhận xét của AI',
-    zoneGood: 'Siêu Xe Đỉnh',
-    zoneBad: 'Xe Thảm Họa',
-    hint: '👆 Nhấn vào liên kết để xem chiếc xe của bạn!'
-  },
-  fr: {
-    brandHeader: 'Le Véhicule Fait Pour Vous',
-    ownerHeadline: 'Le véhicule pour {name} est',
-    defaultHeadline: 'Votre véhicule idéal',
-    eraLabel: 'Époque',
-    priceLabel: 'Prix & Entretien est.',
-    featureLabel: 'Fonction spéciale',
-    verdictLabel: 'Verdict du mécanicien IA',
-    zoneGood: 'Bolide de Rêve',
-    zoneBad: 'Épave Infernale',
-    hint: '👆 Touchez le lien pour découvrir votre véhicule !'
-  },
-  pt: {
-    brandHeader: 'O Veículo Que Combina Com Você',
-    ownerHeadline: 'O veículo ideal para {name} é',
-    defaultHeadline: 'O veículo ideal para você',
-    eraLabel: 'Época',
-    priceLabel: 'Preço e Custo est.',
-    featureLabel: 'Recurso Especial',
-    verdictLabel: 'Veredito da IA',
-    zoneGood: 'Veículo dos Sonhos',
-    zoneBad: 'Sucata Maldita',
-    hint: '👆 Toque no link para descobrir seu veículo!'
+    subtitle: '选择卡片主题并保存或分享图片',
+    themeCream: '拍立得白',
+    themeAurora: '极光暗黑',
+    themePeach: '蜜桃落日',
+    unifiedBtn: '保存并分享图片',
+    downloadDirect: '直接下载PNG',
+    copyLink: '复制链接',
+    generating: '正在生成卡片...',
+    savedToast: '图片已保存！快去社交平台分享吧。',
+    sharedToast: '已打开分享面板！',
+    copiedToast: '链接已复制！',
+    realShort: '现实',
+    fictionShort: '虚构'
   },
   es: {
-    brandHeader: 'El Vehículo Para Ti',
-    ownerHeadline: 'El vehículo para {name} es',
-    defaultHeadline: 'El vehículo ideal para ti',
-    eraLabel: 'Época',
-    priceLabel: 'Precio y Mantenimiento',
-    featureLabel: 'Función Especial',
-    verdictLabel: 'Veredicto IA',
-    zoneGood: 'Vehículo Soñado',
-    zoneBad: 'Chatarra Total',
-    hint: '👆 ¡Toca el enlace para descubrir tu vehículo!'
+    subtitle: 'Elige un tema para guardar o compartir tu tarjeta',
+    themeCream: 'Postal',
+    themeAurora: 'Aurora',
+    themePeach: 'Atardecer',
+    unifiedBtn: 'Guardar y compartir imagen',
+    downloadDirect: 'Descargar PNG',
+    copyLink: 'Copiar enlace',
+    generating: 'Creando tarjeta...',
+    savedToast: '¡Imagen guardada! Compártela en Instagram o WhatsApp.',
+    sharedToast: '¡Menú para compartir abierto!',
+    copiedToast: '¡Enlace copiado!',
+    realShort: 'Real',
+    fictionShort: 'Ficción'
   },
-  id: {
-    brandHeader: 'Kendaraan yang Cocok Untukmu',
-    ownerHeadline: 'Kendaraan untuk {name} adalah',
-    defaultHeadline: 'Kendaraan untukmu adalah',
-    eraLabel: 'Era Kendaraan',
-    priceLabel: 'Perkiraan Harga',
-    featureLabel: 'Fitur Spesial',
-    verdictLabel: 'Komentar Mekanik AI',
-    zoneGood: 'Kendaraan Impian',
-    zoneBad: 'Kendaraan Zonk',
-    hint: '👆 Ketuk tautan untuk cek kendaraanmu!'
-  },
-  ru: {
-    brandHeader: 'Твой Идеальный Транспорт',
-    ownerHeadline: 'Транспорт для {name}:',
-    defaultHeadline: 'Ваш идеальный транспорт',
-    eraLabel: 'Эпоха',
-    priceLabel: 'Цена и содержание',
-    featureLabel: 'Особые функции',
-    verdictLabel: 'Вердикт ИИ-механика',
-    zoneGood: 'Мечта',
-    zoneBad: 'Кошмар',
-    hint: '👆 Нажмите на ссылку, чтобы узнать свой транспорт!'
+  fr: {
+    subtitle: 'Choisissez un thème pour enregistrer ou partager',
+    themeCream: 'Photo',
+    themeAurora: 'Aurore',
+    themePeach: 'Pêche',
+    unifiedBtn: 'Enregistrer et partager l’image',
+    downloadDirect: 'Télécharger PNG',
+    copyLink: 'Copier le lien',
+    generating: 'Création de la carte...',
+    savedToast: 'Image enregistrée ! Partagez-la sur Instagram ou ailleurs.',
+    sharedToast: 'Menu de partage ouvert !',
+    copiedToast: 'Lien copié !',
+    realShort: 'Réel',
+    fictionShort: 'Fiction'
   },
   de: {
-    brandHeader: 'Dein Passendes Fahrzeug',
-    ownerHeadline: 'Das Fahrzeug für {name} ist',
-    defaultHeadline: 'Dein passendes Fahrzeug',
-    eraLabel: 'Epoche',
-    priceLabel: 'Geschätzter Preis',
-    featureLabel: 'Spezial-Feature',
-    verdictLabel: 'KI-Mechaniker-Urteil',
-    zoneGood: 'Traumfahrzeug',
-    zoneBad: 'Schrottkarre',
-    hint: '👆 Link antippen und dein Fahrzeug entdecken!'
+    subtitle: 'Thema wählen und Bild speichern oder teilen',
+    themeCream: 'Fotokarte',
+    themeAurora: 'Aurora',
+    themePeach: 'Pfirsich',
+    unifiedBtn: 'Bild speichern & teilen',
+    downloadDirect: 'PNG herunterladen',
+    copyLink: 'Link kopieren',
+    generating: 'Karte wird erstellt...',
+    savedToast: 'Bild gespeichert! Jetzt auf Instagram oder WhatsApp teilen.',
+    sharedToast: 'Teilen-Menü geöffnet!',
+    copiedToast: 'Link kopiert!',
+    realShort: 'Real',
+    fictionShort: 'Fiktion'
+  },
+  pt: {
+    subtitle: 'Escolha um tema para salvar ou compartilhar',
+    themeCream: 'Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Pêssego',
+    unifiedBtn: 'Salvar e compartilhar imagem',
+    downloadDirect: 'Baixar PNG',
+    copyLink: 'Copiar link',
+    generating: 'Criando cartão...',
+    savedToast: 'Imagem salva! Compartilhe no Instagram ou WhatsApp.',
+    sharedToast: 'Menu de compartilhamento aberto!',
+    copiedToast: 'Link copiado!',
+    realShort: 'Real',
+    fictionShort: 'Ficção'
   },
   it: {
-    brandHeader: 'Il Veicolo Adatto a Te',
-    ownerHeadline: 'Il veicolo per {name} è',
-    defaultHeadline: 'Il veicolo adatto a te',
-    eraLabel: 'Epoca',
-    priceLabel: 'Prezzo e Costi st.',
-    featureLabel: 'Funzione Speciale',
-    verdictLabel: 'Giudizio IA',
-    zoneGood: 'Veicolo da Sogno',
-    zoneBad: 'Rottame Totale',
-    hint: '👆 Tocca il link per scoprire il tuo veicolo!'
+    subtitle: 'Scegli un tema per salvare o condividere',
+    themeCream: 'Fotocard',
+    themeAurora: 'Aurora',
+    themePeach: 'Pesca',
+    unifiedBtn: 'Salva e condividi immagine',
+    downloadDirect: 'Scarica PNG',
+    copyLink: 'Copia link',
+    generating: 'Creazione card...',
+    savedToast: 'Immagine salvata! Condividila su Instagram o WhatsApp.',
+    sharedToast: 'Menu di condivisione aperto!',
+    copiedToast: 'Link copiato!',
+    realShort: 'Reale',
+    fictionShort: 'Finzione'
+  },
+  ru: {
+    subtitle: 'Выберите тему, чтобы сохранить или поделиться',
+    themeCream: 'Фотокарта',
+    themeAurora: 'Аврора',
+    themePeach: 'Персик',
+    unifiedBtn: 'Сохранить и поделиться',
+    downloadDirect: 'Скачать PNG',
+    copyLink: 'Копировать ссылку',
+    generating: 'Создание карточки...',
+    savedToast: 'Изображение сохранено! Поделитесь им в соцсетях.',
+    sharedToast: 'Меню отправки открыто!',
+    copiedToast: 'Ссылка скопирована!',
+    realShort: 'Реальность',
+    fictionShort: 'Вымысел'
+  },
+  vi: {
+    subtitle: 'Chọn giao diện để lưu hoặc chia sẻ thẻ ảnh',
+    themeCream: 'Thẻ Ảnh',
+    themeAurora: 'Cực Quang',
+    themePeach: 'Đào',
+    unifiedBtn: 'Lưu & Chia sẻ ảnh',
+    downloadDirect: 'Tải PNG',
+    copyLink: 'Sao chép link',
+    generating: 'Đang tạo thẻ ảnh...',
+    savedToast: 'Đã lưu ảnh! Hãy chia sẻ lên Instagram hoặc Zalo.',
+    sharedToast: 'Đã mở bảng chia sẻ!',
+    copiedToast: 'Đã sao chép liên kết!',
+    realShort: 'Thực tế',
+    fictionShort: 'Hư cấu'
+  },
+  id: {
+    subtitle: 'Pilih tema untuk menyimpan atau membagikan gambar',
+    themeCream: 'Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Senja',
+    unifiedBtn: 'Simpan & Bagikan Gambar',
+    downloadDirect: 'Unduh PNG',
+    copyLink: 'Salin Tautan',
+    generating: 'Membuat kartu...',
+    savedToast: 'Gambar disimpan! Bagikan ke Instagram atau WhatsApp.',
+    sharedToast: 'Menu bagikan dibuka!',
+    copiedToast: 'Tautan disalin!',
+    realShort: 'Nyata',
+    fictionShort: 'Fiksi'
   },
   ms: {
-    brandHeader: 'Kenderaan yang Sesuai Dengan Anda',
-    ownerHeadline: 'Kenderaan untuk {name} ialah',
-    defaultHeadline: 'Kenderaan untuk anda ialah',
-    eraLabel: 'Era Kenderaan',
-    priceLabel: 'Anggaran Harga',
-    featureLabel: 'Ciri Istimewa',
-    verdictLabel: 'Ulasan Mekanik AI',
-    zoneGood: 'Kenderaan Impian',
-    zoneBad: 'Kenderaan Teruk',
-    hint: '👆 Ketik pautan untuk melihat kenderaan anda!'
+    subtitle: 'Pilih tema untuk simpan atau kongsi kad imej',
+    themeCream: 'Kad Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Senja',
+    unifiedBtn: 'Simpan & Kongsi Imej',
+    downloadDirect: 'Muat Turun PNG',
+    copyLink: 'Salin Pautan',
+    generating: 'Menjana kad...',
+    savedToast: 'Imej disimpan! Kongsikan di Instagram atau WhatsApp.',
+    sharedToast: 'Menu kongsi dibuka!',
+    copiedToast: 'Pautan disalin!',
+    realShort: 'Nyata',
+    fictionShort: 'Fiksyen'
+  },
+  hi: {
+    subtitle: 'थीम चुनें और अपनी कार्ड इमेज सेव या शेयर करें',
+    themeCream: 'फ़ोटो कार्ड',
+    themeAurora: 'ऑरोरा',
+    themePeach: 'पीच',
+    unifiedBtn: 'इमेज सेव और शेयर करें',
+    downloadDirect: 'PNG डाउनलोड',
+    copyLink: 'लिंक कॉपी',
+    generating: 'कार्ड बन रहा है...',
+    savedToast: 'इमेज सेव हो गई! इसे इंस्टाग्राम या व्हाट्सऐप पर शेयर करें।',
+    sharedToast: 'शेयर विकल्प खुल गया!',
+    copiedToast: 'लिंक कॉपी हो गया!',
+    realShort: 'वास्तविक',
+    fictionShort: 'काल्पनिक'
   }
 };
 
-function getShareCopy(lang = 'ko') {
-  const code = CAR_SHARE_I18N[lang] ? lang : 'en';
-  const base = code === 'ko' ? CAR_SHARE_I18N.ko : { ...CAR_SHARE_I18N.en, ...CAR_SHARE_I18N[code] };
-  const dict = i18nMod.UI_DICTIONARY?.[lang] || null;
-  return { base, dict };
+function getDict(lang = 'ko') {
+  const dictMap = i18nMod.UI_DICTIONARY || i18nMod.TRANSLATIONS || {};
+  return dictMap[lang] || dictMap.ko || {};
 }
 
-function localizeVehicle(carData, lang = 'ko', currentName = '') {
-  const fn = i18nMod.localizeCar || i18nMod.localizeJob || i18nMod.localizeHouse;
+function localizeItem(itemData, lang = 'ko', name = '') {
+  const fn = i18nMod.localizeHouse || i18nMod.localizeJob || i18nMod.localizeVehicle || i18nMod.localizeCar;
   if (typeof fn === 'function') {
-    return fn(carData, lang, currentName);
+    return fn(itemData, lang, name);
   }
-  return carData;
+  return itemData || {};
 }
 
-/**
- * 이름 기반 영구 공유 URL 생성
- * - currentName이 있으면: https://tellmyname.app/car/name/{encodeURIComponent(이름)}
- * - 없으면: https://tellmyname.app/car/level/{level}
- */
-export function buildPermanentShareUrl(carData, currentName = '', lang = 'ko') {
+export function buildPermanentShareUrl(itemData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
   if (trimmed) {
     const base = `${SHARE_ORIGIN}/name/${encodeURIComponent(trimmed)}`;
     return (lang && lang !== 'ko') ? `${base}?lang=${lang}` : base;
   }
-  const rawLv = (carData && carData.level != null) ? Number(carData.level) : 0;
-  const lv = Math.max(0, Math.min(MAX_LEVEL, rawLv));
+  const rawLv = (itemData && itemData.level != null) ? Number(itemData.level) : 0;
+  const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
   const base = `${SHARE_ORIGIN}/level/${lv}`;
   return (lang && lang !== 'ko') ? `${base}?lang=${lang}` : base;
 }
 
-/**
- * URL 디코딩을 통한 사람이 읽기 쉬운 공유 URL 포맷터
- */
 export function formatReadableShareUrl(url) {
   try {
     return decodeURIComponent(url);
@@ -273,60 +257,53 @@ export function formatReadableShareUrl(url) {
   }
 }
 
-/**
- * 카카오톡 / 인스타그램 / Web Share API용 공유 페이로드 생성 (다국어 지원)
- */
-export function buildSharePayload(carData, currentName = '', lang = 'ko') {
+export function buildSharePayload(itemData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const rawLv = (carData && carData.level != null) ? carData.level : 0;
-  const lv = Math.max(0, Math.min(MAX_LEVEL, Number(rawLv) || 0));
-  const { base, dict } = getShareCopy(lang);
-  const localized = localizeVehicle(carData || { level: lv }, lang, trimmed);
+  const rawLv = (itemData && itemData.level != null) ? Number(itemData.level) : 0;
+  const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
+  const dict = getDict(lang);
+  const localized = localizeItem(itemData || { level: lv }, lang, trimmed);
 
-  const title = localized?.title || carData?.title || `다중우주 탈것 Lv.${lv}`;
-  const era = localized?.era || localized?.builtYear || carData?.era || carData?.builtYear || '';
-  const estimatedPrice = localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || carData?.estimatedPrice || carData?.estimatedSalary || carData?.estimatedValue || '';
-  const specialFeature = localized?.specialFeature || localized?.specialDuty || carData?.specialFeature || carData?.specialDuty || '';
+  const title = localized?.title || itemData?.title || `Lv.${lv}`;
+  const spec1 = localized?.era || localized?.builtYear || itemData?.era || itemData?.builtYear || '';
+  const spec2 = localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || itemData?.estimatedPrice || itemData?.estimatedSalary || itemData?.estimatedValue || '';
+  const spec3 = localized?.specialFeature || localized?.specialDuty || itemData?.specialFeature || itemData?.specialDuty || '';
 
   let shareTitle = '';
   if (lang === 'ko') {
-    shareTitle = trimmed
-      ? `${trimmed}님에게 어울리는 자동차 — Lv.${lv} ${title}`
-      : `나에게 어울리는 자동차 — Lv.${lv} ${title}`;
+    const baseHeadline = trimmed
+      ? '{name}님에게 어울리는 자동차는'.replace('{name}', trimmed).replace(/은$|는$/, '')
+      : '나에게 어울리는 자동차';
+    shareTitle = `${baseHeadline} · Lv.${lv} ${title}`;
   } else {
-    const ownerPhrase = trimmed
-      ? (dict?.ownerTitle || base.ownerHeadline).replace('{name}', trimmed)
-      : (dict?.brandHeader || base.brandHeader);
-    shareTitle = `${ownerPhrase} — Lv.${lv} ${title}`;
+    const ownerPhrase = trimmed && dict.ownerTitle
+      ? dict.ownerTitle.replace('{name}', trimmed)
+      : (dict.brandHeader || 'The Ride That Suits You');
+    shareTitle = `${ownerPhrase} · Lv.${lv} ${title}`;
   }
 
-  const specEraLabel = (lang !== 'ko' && dict?.specs?.eraLabel) || (lang !== 'ko' && dict?.specs?.builtYearLabel) || base.eraLabel;
-  const specPriceLabel = (lang !== 'ko' && dict?.specs?.priceLabel) || (lang !== 'ko' && dict?.specs?.estimatedValueLabel) || base.priceLabel;
-  const specFeatureLabel = (lang !== 'ko' && dict?.specs?.featureLabel) || (lang !== 'ko' && dict?.specs?.specialFeatureLabel) || base.featureLabel;
+  const spec1Label = dict.specs?.eraLabel || dict.specs?.builtYearLabel || (lang === 'ko' ? '연식·시대' : 'Vehicle Era');
+  const spec2Label = dict.specs?.priceLabel || dict.specs?.estimatedValueLabel || (lang === 'ko' ? '추산 가격' : 'Est. Price');
+  const spec3Label = dict.specs?.featureLabel || dict.specs?.specialFeatureLabel || (lang === 'ko' ? '특별한 성능' : 'Key Spec');
 
   const textLines = [
-    era ? `📅 ${specEraLabel}: ${era}` : '',
-    estimatedPrice ? `💰 ${specPriceLabel}: ${estimatedPrice}` : '',
-    specialFeature ? `⚡ ${specFeatureLabel}: ${specialFeature}` : ''
+    spec1 ? `📅 ${spec1Label}: ${spec1}` : '',
+    spec2 ? `💰 ${spec2Label}: ${spec2}` : '',
+    spec3 ? `⚡ ${spec3Label}: ${spec3}` : ''
   ].filter(Boolean);
 
-  const shareText = textLines.join('\n');
-  const shareUrl = buildPermanentShareUrl(carData, trimmed, lang);
-
+  const shareUrl = buildPermanentShareUrl(itemData, trimmed, lang);
   const paddedLevel = String(lv).padStart(5, '0');
-  const imageUrl = carData?.ogImageUrl || `${SHARE_ORIGIN}/r2/cars/${paddedLevel}.webp`;
+  const imageUrl = itemData?.ogImageUrl || `https://img.tellmyname.app/cars/${paddedLevel}.webp`;
 
   return {
     title: shareTitle,
-    text: shareText,
+    text: textLines.join('\n'),
     url: shareUrl,
     imageUrl
   };
 }
 
-/**
- * 토스트 알림 표시
- */
 export function showToast(message, duration = 2800) {
   if (typeof document === 'undefined') return;
 
@@ -351,13 +328,10 @@ export function showToast(message, duration = 2800) {
   }, duration);
 }
 
-/**
- * 클립보드에 고정 공유 URL 복사 및 토스트 피드백
- */
-export async function copyShareUrl(carData, currentName = '', lang = 'ko') {
-  const url = buildPermanentShareUrl(carData, currentName, lang);
+export async function copyShareUrl(itemData, currentName = '', lang = 'ko') {
+  const url = buildPermanentShareUrl(itemData, currentName, lang);
   const readableUrl = formatReadableShareUrl(url);
-  const { base, dict } = getShareCopy(lang);
+  const ui = SHARE_UI_COPY[lang] || SHARE_UI_COPY.en;
   let copied = false;
 
   if (typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
@@ -383,56 +357,10 @@ export async function copyShareUrl(carData, currentName = '', lang = 'ko') {
     } catch (_) {}
   }
 
-  const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const displayUrl = trimmed
-    ? `tellmyname.app/car/name/${trimmed}`
-    : readableUrl.replace(/^https?:\/\//, '');
-
-  const toastMsg = `🔗 ${dict?.copiedToast || base.copiedToast} (${displayUrl})`;
-  showToast(toastMsg);
+  showToast(`🔗 ${ui.copiedToast}`);
   return url;
 }
 
-/**
- * 텍스트 줄바꿈 렌더링 헬퍼 (Canvas 2D)
- */
-function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 4) {
-  if (!text) return y;
-  const str = String(text).trim();
-  const useWordWrap = /[A-Za-z0-9]/.test(str) && str.includes(' ');
-  const tokens = useWordWrap ? str.split(/(\s+)/) : Array.from(str);
-  let line = '';
-  let lineCount = 0;
-  let currentY = y;
-
-  for (let i = 0; i < tokens.length; i++) {
-    const token = tokens[i];
-    const testLine = line + token;
-    const metrics = ctx.measureText(testLine);
-    if (metrics.width > maxWidth && line.trim().length > 0) {
-      lineCount++;
-      if (lineCount >= maxLines) {
-        ctx.fillText(line.trimEnd().slice(0, Math.max(0, line.trimEnd().length - 2)) + '...', x, currentY);
-        return currentY + lineHeight;
-      }
-      ctx.fillText(line.trimEnd(), x, currentY);
-      line = token.trimStart();
-      currentY += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-
-  if (line.trim() && lineCount < maxLines) {
-    ctx.fillText(line.trimEnd(), x, currentY);
-    currentY += lineHeight;
-  }
-  return currentY;
-}
-
-/**
- * 둥근 사각형 경로 헬퍼
- */
 function drawRoundedRectPath(ctx, x, y, width, height, radius) {
   if (typeof ctx.beginPath === 'function') ctx.beginPath();
   if (typeof ctx.roundRect === 'function') {
@@ -452,29 +380,224 @@ function drawRoundedRectPath(ctx, x, y, width, height, radius) {
   }
 }
 
-/**
- * 비동기 이미지 로더
- */
-function loadArtworkImage(src) {
-  return new Promise((resolve) => {
-    if (typeof Image === 'undefined') return resolve(null);
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => resolve(img);
-    img.onerror = () => resolve(null);
-    img.src = src;
-    setTimeout(() => resolve(null), 4500);
-  });
+function fillRoundedRect(ctx, x, y, w, h, r, fillStyle, strokeStyle = null, lineWidth = 1) {
+  ctx.save();
+  drawRoundedRectPath(ctx, x, y, w, h, r);
+  if (fillStyle) {
+    ctx.fillStyle = fillStyle;
+    ctx.fill();
+  }
+  if (strokeStyle) {
+    ctx.strokeStyle = strokeStyle;
+    ctx.lineWidth = lineWidth;
+    ctx.stroke();
+  }
+  ctx.restore();
 }
 
 /**
- * 9:16 인스타그램 스토리 고해상도 캔버스(1080 × 1920) 렌더링
- * Visual Hierarchy:
- *   1. Top Headline: "{name}님에게 어울리는 자동차는" + Vehicle Title & Tier/Level badges
- *   2. Middle Visual: 1:1 High-res Vehicle Artwork Image (720x720)
- *   3. Bottom Specs: 📅 언제 타던 탈것인지, 💰 추산 가격·유지비, ⚡ 특별한 기능·주행성능, 🤖 AI 시승 총평 + tellmyname.app/car/name/{name}
+ * Full-fidelity line wrapper with ZERO truncation ('...' never happens).
+ * Supports space-delimited words AND CJK character wrapping + long compound word breaking.
  */
-export async function renderStoryCanvas(canvas, carData, currentName = '', theme = 'sunset', lang = 'ko') {
+function wrapCanvasLines(ctx, text, maxWidth) {
+  if (!text) return [];
+  const raw = String(text).replace(/\s+/g, ' ').trim();
+  if (!raw) return [];
+
+  const hasSpaces = raw.includes(' ');
+  const units = hasSpaces ? raw.split(' ') : Array.from(raw);
+  const lines = [];
+  let current = '';
+
+  const pushBrokenLongWord = (word) => {
+    let chunk = '';
+    for (const ch of Array.from(word)) {
+      const next = chunk + ch;
+      if (ctx.measureText(next).width > maxWidth && chunk.length > 0) {
+        lines.push(chunk);
+        chunk = ch;
+      } else {
+        chunk = next;
+      }
+    }
+    return chunk;
+  };
+
+  for (let i = 0; i < units.length; i++) {
+    const unit = units[i];
+    const sep = (hasSpaces && current.length > 0) ? ' ' : '';
+    const candidate = current + sep + unit;
+
+    if (ctx.measureText(candidate).width <= maxWidth) {
+      current = candidate;
+    } else {
+      if (current.length > 0) {
+        lines.push(current);
+      }
+      if (ctx.measureText(unit).width > maxWidth) {
+        current = pushBrokenLongWord(unit);
+      } else {
+        current = unit;
+      }
+    }
+  }
+
+  if (current.length > 0) {
+    lines.push(current);
+  }
+  return lines;
+}
+
+async function ensureCanvasFonts() {
+  if (typeof document === 'undefined' || !document.fonts || typeof document.fonts.load !== 'function') {
+    return;
+  }
+  try {
+    await Promise.race([
+      Promise.all([
+        document.fonts.load('700 36px "Paperlogy"'),
+        document.fonts.load('800 44px "Paperlogy"'),
+        document.fonts.load('600 25px "SUITE Variable"'),
+        document.fonts.load('700 27px "SUITE Variable"')
+      ]),
+      new Promise((resolve) => setTimeout(resolve, 1500))
+    ]);
+  } catch (_) {}
+}
+
+function loadSingleImage(src, timeoutMs = 4200) {
+  return new Promise((resolve) => {
+    if (typeof Image === 'undefined' || !src) return resolve(null);
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    let settled = false;
+    const done = (val) => {
+      if (!settled) {
+        settled = true;
+        resolve(val);
+      }
+    };
+    img.onload = () => done(img.naturalWidth > 0 || img.width > 0 ? img : null);
+    img.onerror = () => done(null);
+    img.src = src;
+    setTimeout(() => done(null), timeoutMs);
+  });
+}
+
+async function loadArtworkWithFallbacks(lv, itemData) {
+  const padded = String(lv).padStart(5, '0');
+  const altExt = 'webp' === 'png' ? 'webp' : 'png';
+  const candidates = [
+    `https://img.tellmyname.app/cars/${padded}.webp?v=2`,
+    `https://img.tellmyname.app/cars/${padded}.${altExt}?v=2`,
+    itemData?.imageUrl || '',
+    `/r2/cars/${padded}.webp`,
+    `/r2/cars/${padded}.png`
+  ].filter(Boolean);
+
+  const seen = new Set();
+  for (const url of candidates) {
+    if (seen.has(url)) continue;
+    seen.add(url);
+    const img = await loadSingleImage(url);
+    if (img) return img;
+  }
+  return null;
+}
+
+function normalizeShareTheme(theme) {
+  if (theme === 'aurora' || theme === 'cyber' || theme === 'dark') return 'aurora';
+  if (theme === 'peach' || theme === 'sunset' || theme === 'cosmic' || theme === 'fresh') return 'peach';
+  return 'cream';
+}
+
+function getPalette(themeName) {
+  if (themeName === 'aurora') {
+    return {
+      bgStops: ['#090D1A', '#131C38', '#0D1326'],
+      orbA: 'rgba(56, 189, 248, 0.16)',
+      orbB: 'rgba(167, 139, 250, 0.16)',
+      cardBg: '#151E33',
+      cardBorder: 'rgba(148, 163, 184, 0.22)',
+      cardShadow: 'rgba(2, 6, 23, 0.55)',
+      topPillBg: 'rgba(99, 102, 241, 0.22)',
+      topPillText: '#A5B4FC',
+      catchphrase: '#CBD5E1',
+      title: '#F8FAFC',
+      bentoBg: 'rgba(30, 41, 69, 0.88)',
+      bentoBorder: 'rgba(148, 163, 184, 0.16)',
+      bentoLabel: '#94A3B8',
+      bentoVal: '#F1F5F9',
+      bentoAccent: '#38BDF8',
+      featureLabel: '#A78BFA',
+      featureText: '#E2E8F0',
+      quoteBgStart: 'rgba(79, 70, 229, 0.24)',
+      quoteBgEnd: 'rgba(236, 72, 153, 0.18)',
+      quoteBorder: 'rgba(165, 180, 252, 0.28)',
+      quoteText: '#F8FAFC',
+      footerPillBg: 'rgba(30, 41, 69, 0.9)',
+      footerText: '#94A3B8'
+    };
+  }
+  if (themeName === 'peach') {
+    return {
+      bgStops: ['#FFF1F2', '#FFE4E6', '#FFEDD5'],
+      orbA: 'rgba(251, 113, 133, 0.18)',
+      orbB: 'rgba(251, 146, 60, 0.16)',
+      cardBg: '#FFFCFA',
+      cardBorder: '#FECDD3',
+      cardShadow: 'rgba(136, 19, 55, 0.10)',
+      topPillBg: '#FFE4E6',
+      topPillText: '#E11D48',
+      catchphrase: '#57534E',
+      title: '#1C1917',
+      bentoBg: '#FFF5F5',
+      bentoBorder: '#FFE4E6',
+      bentoLabel: '#78716C',
+      bentoVal: '#292524',
+      bentoAccent: '#E11D48',
+      featureLabel: '#EA580C',
+      featureText: '#292524',
+      quoteBgStart: '#FFF1F2',
+      quoteBgEnd: '#FFEDD5',
+      quoteBorder: '#FDBA74',
+      quoteText: '#431407',
+      footerPillBg: '#FFF1F2',
+      footerText: '#9F1239'
+    };
+  }
+  // Default: 'cream' (Bright Polaroid Photocard)
+  return {
+    bgStops: ['#EEF2FF', '#FDF2F8', '#FFF7ED'],
+    orbA: 'rgba(99, 102, 241, 0.14)',
+    orbB: 'rgba(236, 72, 153, 0.12)',
+    cardBg: '#FFFFFF',
+    cardBorder: '#E2E8F0',
+    cardShadow: 'rgba(15, 23, 42, 0.10)',
+    topPillBg: '#EEF2FF',
+    topPillText: '#4F46E5',
+    catchphrase: '#475569',
+    title: '#0F172A',
+    bentoBg: '#F8FAFC',
+    bentoBorder: '#E2E8F0',
+    bentoLabel: '#64748B',
+    bentoVal: '#1E293B',
+    bentoAccent: '#4F46E5',
+    featureLabel: '#6366F1',
+    featureText: '#334155',
+    quoteBgStart: '#EEF2FF',
+    quoteBgEnd: '#FDF2F8',
+    quoteBorder: '#C7D2FE',
+    quoteText: '#1E1B4B',
+    footerPillBg: '#F1F5F9',
+    footerText: '#64748B'
+  };
+}
+
+/**
+ * Dynamic-Height Zero-Clip Polaroid Bento Share Card Renderer
+ */
+export async function renderStoryCanvas(canvas, itemData, currentName = '', theme = 'cream', lang = 'ko') {
   if (!canvas || typeof canvas.getContext !== 'function') {
     return null;
   }
@@ -482,365 +605,418 @@ export async function renderStoryCanvas(canvas, carData, currentName = '', theme
   const ctx = canvas.getContext('2d');
   if (!ctx) return null;
 
-  canvas.width = 1080;
-  canvas.height = 1920;
+  await ensureCanvasFonts();
 
   const width = 1080;
-  const height = 1920;
   const trimmedName = typeof currentName === 'string' ? currentName.trim() : '';
-  const rawLv = Number(carData?.level);
+  const rawLv = Number(itemData?.level);
   const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
-  const paddedLevel = String(lv).padStart(5, '0');
   const isReal = lv % 2 === 0;
   const isGood = lv >= GOOD_THRESHOLD;
-  const tierNum = carData?.tier || Math.min(20, Math.floor(lv / 50) + 1);
 
-  const selectedLang = CAR_SHARE_I18N[lang] ? lang : 'ko';
-  const { base, dict } = getShareCopy(selectedLang);
-  const localized = localizeVehicle(carData || { level: lv }, selectedLang, trimmedName);
+  const dict = getDict(lang);
+  const selectedLang = SHARE_UI_COPY[lang] ? lang : (dict && Object.keys(dict).length > 0 ? lang : 'ko');
+  const ui = SHARE_UI_COPY[selectedLang] || SHARE_UI_COPY.en;
+  const localized = localizeItem(itemData || { level: lv }, selectedLang, trimmedName);
+  const activeTheme = normalizeShareTheme(theme);
+  const pal = getPalette(activeTheme);
 
-  let activeTheme = theme;
-  if (activeTheme === 'cosmic') activeTheme = 'sunset';
-  if (!['cert', 'cyber', 'sunset'].includes(activeTheme)) {
-    activeTheme = 'sunset';
-  }
-
-  let bgGradient, borderGradient, cardBg, textPrimary, textSecondary, textAccent, badgeBg;
-  if (activeTheme === 'cert') {
-    bgGradient = ctx.createLinearGradient(0, 0, width, height);
-    bgGradient.addColorStop(0, '#170609');
-    bgGradient.addColorStop(0.4, '#280c13');
-    bgGradient.addColorStop(1, '#110306');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#f4d06f');
-    borderGradient.addColorStop(0.5, '#c89933');
-    borderGradient.addColorStop(1, '#f9e79f');
-
-    cardBg = 'rgba(28, 9, 14, 0.88)';
-    textPrimary = '#fff8e7';
-    textSecondary = '#e6c887';
-    textAccent = '#ffd700';
-    badgeBg = 'rgba(218, 165, 32, 0.25)';
-  } else if (activeTheme === 'cyber') {
-    bgGradient = ctx.createLinearGradient(0, 0, width, height);
-    bgGradient.addColorStop(0, '#04060e');
-    bgGradient.addColorStop(0.5, '#0a1024');
-    bgGradient.addColorStop(1, '#050711');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#00f0ff');
-    borderGradient.addColorStop(0.5, '#8a2be2');
-    borderGradient.addColorStop(1, '#ff007f');
-
-    cardBg = 'rgba(7, 13, 30, 0.90)';
-    textPrimary = '#f0f8ff';
-    textSecondary = '#00f0ff';
-    textAccent = '#ff007f';
-    badgeBg = 'rgba(0, 240, 255, 0.2)';
+  // Prepare text values
+  const brandHeader = dict.brandHeader || (selectedLang === 'ko' ? '나에게 어울리는 자동차' : 'The Ride That Suits You');
+  let catchphrase = '';
+  if (trimmedName) {
+    if (selectedLang === 'ko') {
+      catchphrase = '{name}님에게 어울리는 자동차는'.replace('{name}', trimmedName);
+    } else {
+      catchphrase = dict.ownerTitle
+        ? dict.ownerTitle.replace('{name}', trimmedName)
+        : 'The Ride That Suits {name}'.replace('{name}', trimmedName);
+    }
   } else {
-    bgGradient = ctx.createLinearGradient(0, 0, 0, height);
-    bgGradient.addColorStop(0, '#0f051d');
-    bgGradient.addColorStop(0.3, '#351044');
-    bgGradient.addColorStop(0.65, '#831843');
-    bgGradient.addColorStop(0.85, '#ea580c');
-    bgGradient.addColorStop(1, '#f59e0b');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#ffffff');
-    borderGradient.addColorStop(0.5, '#f472b6');
-    borderGradient.addColorStop(1, '#fbbf24');
-
-    cardBg = 'rgba(20, 6, 30, 0.80)';
-    textPrimary = '#ffffff';
-    textSecondary = '#fbcfe8';
-    textAccent = '#fde047';
-    badgeBg = 'rgba(255, 255, 255, 0.18)';
+    catchphrase = selectedLang === 'ko' ? '나에게 어울리는 자동차는' : brandHeader;
   }
 
-  ctx.fillStyle = bgGradient;
-  ctx.fillRect(0, 0, width, height);
+  const itemTitle = String(localized?.title || itemData?.title || `Lv.${lv}`).trim();
+  const spec1Label = `📅 ${dict.specs?.eraLabel || dict.specs?.builtYearLabel || (selectedLang === 'ko' ? '연식·시대' : 'Vehicle Era')}`;
+  const spec1Val = String(localized?.era || localized?.builtYear || itemData?.era || itemData?.builtYear || '-').trim();
 
-  if (activeTheme === 'cyber') {
-    ctx.save();
-    ctx.strokeStyle = 'rgba(0, 240, 255, 0.06)';
-    ctx.lineWidth = 1.5;
-    for (let x = 60; x < width; x += 60) {
-      ctx.beginPath();
-      ctx.moveTo(x, 0);
-      ctx.lineTo(x, height);
-      ctx.stroke();
-    }
-    for (let y = 60; y < height; y += 60) {
-      ctx.beginPath();
-      ctx.moveTo(0, y);
-      ctx.lineTo(width, y);
-      ctx.stroke();
-    }
-    ctx.restore();
+  const spec2Label = `💰 ${dict.specs?.priceLabel || dict.specs?.estimatedValueLabel || (selectedLang === 'ko' ? '추산 가격' : 'Est. Price')}`;
+  const spec2Val = String(localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || itemData?.estimatedPrice || itemData?.estimatedSalary || itemData?.estimatedValue || '-').trim();
+
+  const spec3Label = `⚡ ${dict.specs?.featureLabel || dict.specs?.specialFeatureLabel || (selectedLang === 'ko' ? '특별한 성능' : 'Key Spec')}`;
+  const spec3Val = String(localized?.specialFeature || localized?.specialDuty || itemData?.specialFeature || itemData?.specialDuty || '-').trim();
+
+  const rawVerdict = String(localized?.aiVerdict || itemData?.aiVerdict || '').trim();
+  const verdictQuote = rawVerdict ? `“${rawVerdict}”` : '';
+
+  const zoneText = isGood
+    ? (dict.zones?.GOOD || (selectedLang === 'ko' ? '대박 탈것' : 'Dream Ride'))
+    : (dict.zones?.BAD || (selectedLang === 'ko' ? '폭망 탈것' : 'Doom Ride'));
+  const levelPillText = `Lv.${lv.toLocaleString()} · ${isGood ? '💎' : '💀'} ${zoneText}`;
+  const realityPillText = isReal ? `🏛️ ${ui.realShort}` : `✨ ${ui.fictionShort}`;
+
+  // Load image in parallel
+  const artworkImg = await loadArtworkWithFallbacks(lv, itemData);
+
+  // Pre-measure all wrapped text blocks BEFORE setting final canvas height (0% clipping!)
+  const cardX = 56;
+  const cardW = width - cardX * 2; // 968
+  const padX = 48;
+  const innerX = cardX + padX;     // 104
+  const innerW = cardW - padX * 2; // 872
+
+  canvas.width = width;
+  canvas.height = 1600; // temporary height for measureText context
+
+  ctx.font = `700 34px ${DISPLAY_FONT}`;
+  const catchLines = wrapCanvasLines(ctx, catchphrase, innerW - 20);
+  const catchLineH = 46;
+
+  const titleFontPx = Array.from(itemTitle).length > 28 ? 38 : 44;
+  const titleLineH = titleFontPx === 38 ? 50 : 58;
+  ctx.font = `800 ${titleFontPx}px ${DISPLAY_FONT}`;
+  const titleLines = wrapCanvasLines(ctx, itemTitle, innerW - 16);
+
+  const bentoGap = 20;
+  const bentoColW = Math.floor((innerW - bentoGap) / 2); // 426
+  const bentoInnerW = bentoColW - 48;
+  const bentoValLineH = 34;
+
+  ctx.font = `700 24px ${DISPLAY_FONT}`;
+  const spec1Lines = wrapCanvasLines(ctx, spec1Val, bentoInnerW);
+  const spec2Lines = wrapCanvasLines(ctx, spec2Val, bentoInnerW);
+  const maxSpecLines = Math.max(1, spec1Lines.length, spec2Lines.length);
+  const bentoBoxH = 24 + 28 + 12 + maxSpecLines * bentoValLineH + 22;
+
+  ctx.font = `600 25px ${BODY_FONT}`;
+  const featureLines = wrapCanvasLines(ctx, spec3Val, innerW - 56);
+  const featureLineH = 37;
+  const featureBoxH = 22 + 28 + 10 + Math.max(1, featureLines.length) * featureLineH + 22;
+
+  ctx.font = `700 27px ${BODY_FONT}`;
+  const verdictLines = verdictQuote ? wrapCanvasLines(ctx, verdictQuote, innerW - 64) : [];
+  const verdictLineH = 40;
+  const quoteBoxH = verdictLines.length > 0 ? (26 + verdictLines.length * verdictLineH + 26) : 0;
+
+  const photoH = 720;
+  const padTop = 46;
+  const appPillH = 46;
+  const footerPillH = 44;
+  const padBottom = 42;
+
+  const cardH =
+    padTop +
+    appPillH +
+    20 +
+    catchLines.length * catchLineH +
+    26 +
+    photoH +
+    36 +
+    titleLines.length * titleLineH +
+    26 +
+    bentoBoxH +
+    18 +
+    featureBoxH +
+    (quoteBoxH > 0 ? (18 + quoteBoxH) : 0) +
+    28 +
+    footerPillH +
+    padBottom;
+
+  const outerPadY = 56;
+  const finalHeight = Math.max(1520, cardH + outerPadY * 2);
+  canvas.width = width;
+  canvas.height = finalHeight;
+
+  const cardY = Math.round((finalHeight - cardH) / 2);
+
+  // 1. Draw Soft Studio Gradient Backdrop
+  const bgGrad = ctx.createLinearGradient(0, 0, width, finalHeight);
+  bgGrad.addColorStop(0, pal.bgStops[0]);
+  bgGrad.addColorStop(0.5, pal.bgStops[1]);
+  bgGrad.addColorStop(1, pal.bgStops[2]);
+  ctx.fillStyle = bgGrad;
+  ctx.fillRect(0, 0, width, finalHeight);
+
+  // Soft decorative ambient orbs (if createRadialGradient available)
+  if (typeof ctx.createRadialGradient === 'function') {
+    const orb1 = ctx.createRadialGradient(180, 220, 20, 180, 220, 460);
+    orb1.addColorStop(0, pal.orbA);
+    orb1.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = orb1;
+    ctx.fillRect(0, 0, width, finalHeight);
+
+    const orb2 = ctx.createRadialGradient(width - 160, finalHeight - 240, 20, width - 160, finalHeight - 240, 500);
+    orb2.addColorStop(0, pal.orbB);
+    orb2.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = orb2;
+    ctx.fillRect(0, 0, width, finalHeight);
   }
 
-  if (activeTheme === 'sunset') {
-    ctx.save();
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
-    const stars = [
-      [140, 150, 2.5], [280, 220, 1.8], [420, 120, 3], [780, 180, 2], [920, 250, 3],
-      [200, 360, 2], [850, 380, 2.2], [160, 520, 1.5], [940, 580, 2], [320, 700, 1.8]
-    ];
-    stars.forEach(([sx, sy, sr]) => {
-      ctx.beginPath();
-      ctx.arc(sx, sy, sr, 0, Math.PI * 2);
-      ctx.fill();
-    });
-    ctx.restore();
-  }
-
-  // Outer Frame Border
+  // 2. Draw Polaroid Poster Card Container
   ctx.save();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 4;
-  drawRoundedRectPath(ctx, 48, 48, width - 96, height - 96, 36);
-  ctx.stroke();
-  ctx.restore();
-
-  // =========================================================================
-  // 1. TOP HEADLINE (Y: 78 ~ 340) — Owner Headline + Vehicle Title & Badges
-  // =========================================================================
-  ctx.save();
-  ctx.textAlign = 'center';
-
-  ctx.fillStyle = badgeBg;
-  drawRoundedRectPath(ctx, width / 2 - 270, 78, 540, 40, 20);
+  ctx.shadowColor = pal.cardShadow;
+  ctx.shadowBlur = 48;
+  ctx.shadowOffsetY = 18;
+  drawRoundedRectPath(ctx, cardX, cardY, cardW, cardH, 44);
+  ctx.fillStyle = pal.cardBg;
   ctx.fill();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 1.5;
-  ctx.stroke();
-
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 20px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  ctx.fillText(`🚗 ${dict?.brandHeader || base.brandHeader} • MyCar AI`, width / 2, 105);
-
-  const primaryHeadline = trimmedName
-    ? (dict?.ownerTitle || base.ownerHeadline).replace('{name}', trimmedName)
-    : base.defaultHeadline;
-
-  ctx.fillStyle = textPrimary;
-  ctx.font = 'bold 40px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
-  ctx.shadowBlur = 12;
-  ctx.fillText(primaryHeadline, width / 2, 162);
-  ctx.shadowBlur = 0;
-
-  const vehicleTitle = localized?.title || carData?.title || `Vehicle Lv.${lv}`;
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 34px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  const afterTitleY = renderWrappedText(ctx, vehicleTitle, width / 2, 214, 920, 42, 2);
-
-  // Tier / Level / Zone / Reality Badges Row
-  const badgeRowY = Math.min(298, Math.max(264, afterTitleY + 6));
-  const zoneLabel = isGood
-    ? `🌟 ${dict?.zones?.GOOD || base.zoneGood}`
-    : `💀 ${dict?.zones?.BAD || base.zoneBad}`;
-  const realityLabel = isReal
-    ? (dict?.reality?.REAL ? `🏛️ ${dict.reality.REAL}` : base.realBadge)
-    : (dict?.reality?.FICTION ? `🦄 ${dict.reality.FICTION}` : base.fictionBadge);
-
-  const tierBadgeTxt = `Tier ${String(tierNum).padStart(2, '0')} · Lv.${lv.toLocaleString()}`;
-  const pills = [
-    { txt: tierBadgeTxt, color: textAccent, w: 250 },
-    { txt: zoneLabel, color: isGood ? '#34d399' : '#f87171', w: 240 },
-    { txt: realityLabel, color: isReal ? '#38bdf8' : '#e879f9', w: 320 }
-  ];
-  const totalPillsW = pills.reduce((s, p) => s + p.w, 0) + 24;
-  let px = (width - totalPillsW) / 2;
-
-  for (const p of pills) {
-    ctx.fillStyle = 'rgba(5, 7, 15, 0.85)';
-    drawRoundedRectPath(ctx, px, badgeRowY, p.w, 42, 21);
-    ctx.fill();
-    ctx.strokeStyle = p.color;
-    ctx.lineWidth = 2;
-    ctx.stroke();
-
-    ctx.fillStyle = p.color;
-    ctx.font = 'bold 20px "Pretendard", sans-serif';
-    ctx.fillText(p.txt, px + p.w / 2, badgeRowY + 28);
-    px += p.w + 12;
-  }
-
   ctx.restore();
 
-  // =========================================================================
-  // 2. MIDDLE VISUAL (Y: 360 ~ 1080) — Exact 1:1 Vehicle Artwork (720 x 720)
-  // =========================================================================
-  const artSize = 720;
-  const artX = (width - artSize) / 2;
-  const artY = 360;
-  const artRadius = 32;
+  fillRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, null, pal.cardBorder, 2);
+
+  let curY = cardY + padTop;
+
+  // 3. Top App Brand Pill
+  ctx.save();
+  ctx.font = `700 22px ${DISPLAY_FONT}`;
+  const appPillLabel = `🚗 ${brandHeader}`;
+  const appPillW = Math.min(innerW, Math.ceil(ctx.measureText(appPillLabel).width) + 52);
+  const appPillX = Math.round((width - appPillW) / 2);
+  fillRoundedRect(ctx, appPillX, curY, appPillW, appPillH, 23, pal.topPillBg);
+  ctx.fillStyle = pal.topPillText;
+  ctx.textAlign = 'center';
+  ctx.fillText(appPillLabel, width / 2, curY + 31);
+  ctx.restore();
+
+  curY += appPillH + 20;
+
+  // 4. Owner Catchphrase
+  ctx.save();
+  ctx.fillStyle = pal.catchphrase;
+  ctx.font = `700 34px ${DISPLAY_FONT}`;
+  ctx.textAlign = 'center';
+  for (const line of catchLines) {
+    ctx.fillText(line, width / 2, curY + 34);
+    curY += catchLineH;
+  }
+  ctx.restore();
+
+  curY += 26;
+
+  // 5. Large Rounded Hero Artwork Frame
+  const photoX = innerX;
+  const photoY = curY;
+  const photoW = innerW;
+  const photoRadius = 32;
 
   ctx.save();
-  drawRoundedRectPath(ctx, artX, artY, artSize, artSize, artRadius);
+  drawRoundedRectPath(ctx, photoX, photoY, photoW, photoH, photoRadius);
   ctx.clip();
 
-  ctx.fillStyle = '#080c18';
-  ctx.fillRect(artX, artY, artSize, artSize);
-
-  const imageSrc = carData?.imageUrl || `/r2/cars/${paddedLevel}.webp`;
-  const artworkImg = await loadArtworkImage(imageSrc);
+  ctx.fillStyle = activeTheme === 'aurora' ? '#0F172A' : '#F1F5F9';
+  ctx.fillRect(photoX, photoY, photoW, photoH);
 
   if (artworkImg) {
-    const imgRatio = artworkImg.width / artworkImg.height;
-    let sx, sy, sWidth, sHeight;
-    if (imgRatio > 1) {
+    const imgRatio = artworkImg.width / Math.max(1, artworkImg.height);
+    const boxRatio = photoW / photoH;
+    let sx = 0, sy = 0, sWidth = artworkImg.width, sHeight = artworkImg.height;
+    if (imgRatio > boxRatio) {
       sHeight = artworkImg.height;
-      sWidth = artworkImg.height;
+      sWidth = artworkImg.height * boxRatio;
       sx = (artworkImg.width - sWidth) / 2;
-      sy = 0;
     } else {
       sWidth = artworkImg.width;
-      sHeight = artworkImg.width;
-      sx = 0;
+      sHeight = artworkImg.width / boxRatio;
       sy = (artworkImg.height - sHeight) / 2;
     }
-    ctx.drawImage(artworkImg, sx, sy, sWidth, sHeight, artX, artY, artSize, artSize);
-
-    const artGlow = ctx.createLinearGradient(artX, artY + artSize - 140, artX, artY + artSize);
-    artGlow.addColorStop(0, 'rgba(0, 0, 0, 0)');
-    artGlow.addColorStop(1, 'rgba(0, 0, 0, 0.55)');
-    ctx.fillStyle = artGlow;
-    ctx.fillRect(artX, artY + artSize - 140, artSize, 140);
+    ctx.drawImage(artworkImg, sx, sy, sWidth, sHeight, photoX, photoY, photoW, photoH);
   } else {
-    const fallbackGrad = ctx.createLinearGradient(artX, artY, artX + artSize, artY + artSize);
-    fallbackGrad.addColorStop(0, '#1e293b');
-    fallbackGrad.addColorStop(1, '#0f172a');
-    ctx.fillStyle = fallbackGrad;
-    ctx.fillRect(artX, artY, artSize, artSize);
-
-    ctx.fillStyle = textSecondary;
+    const fbGrad = ctx.createLinearGradient(photoX, photoY, photoX + photoW, photoY + photoH);
+    fbGrad.addColorStop(0, '#312E81');
+    fbGrad.addColorStop(1, '#1E1B4B');
+    ctx.fillStyle = fbGrad;
+    ctx.fillRect(photoX, photoY, photoW, photoH);
+    ctx.fillStyle = '#FFFFFF';
     ctx.textAlign = 'center';
     ctx.font = '88px sans-serif';
-    ctx.fillText(localized?.categoryEmoji || carData?.categoryEmoji || '🚗', artX + artSize / 2, artY + artSize / 2 - 20);
-    ctx.font = 'bold 30px "Pretendard", sans-serif';
-    ctx.fillText(`Lv.${lv} Vehicle Artwork`, artX + artSize / 2, artY + artSize / 2 + 50);
+    ctx.fillText(localized?.categoryEmoji || itemData?.categoryEmoji || '🚗', photoX + photoW / 2, photoY + photoH / 2 - 12);
+    ctx.font = `700 30px ${DISPLAY_FONT}`;
+    ctx.fillText(`Lv.${lv}`, photoX + photoW / 2, photoY + photoH / 2 + 54);
   }
   ctx.restore();
 
+  fillRoundedRect(ctx, photoX, photoY, photoW, photoH, photoRadius, null, 'rgba(15, 23, 42, 0.08)', 2);
+
+  // Sleek Frosted Badges on Top of Photo (Unobstructive)
   ctx.save();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 3;
-  drawRoundedRectPath(ctx, artX, artY, artSize, artSize, artRadius);
-  ctx.stroke();
+  ctx.font = `700 22px ${DISPLAY_FONT}`;
+  const lvPillW = Math.min(photoW - 220, Math.ceil(ctx.measureText(levelPillText).width) + 42);
+  fillRoundedRect(ctx, photoX + 22, photoY + 22, lvPillW, 46, 23, 'rgba(15, 23, 42, 0.76)', 'rgba(255,255,255,0.22)', 1.5);
+  ctx.fillStyle = '#FFFFFF';
+  ctx.textAlign = 'center';
+  ctx.fillText(levelPillText, photoX + 22 + lvPillW / 2, photoY + 53);
+
+  ctx.font = `700 21px ${DISPLAY_FONT}`;
+  const realPillW = Math.ceil(ctx.measureText(realityPillText).width) + 36;
+  const realPillX = photoX + photoW - 22 - realPillW;
+  fillRoundedRect(ctx, realPillX, photoY + 22, realPillW, 46, 23, 'rgba(15, 23, 42, 0.72)', 'rgba(255,255,255,0.22)', 1.5);
+  ctx.fillStyle = isReal ? '#7DD3FC' : '#F0ABFC';
+  ctx.fillText(realityPillText, realPillX + realPillW / 2, photoY + 52);
   ctx.restore();
 
-  // =========================================================================
-  // 3. BOTTOM SPECS (Y: 1104 ~ 1720) — Era, Price, Special Feature, AI Verdict
-  // =========================================================================
-  const cardX = 80;
-  const cardY = 1104;
-  const cardW = 920;
-  const cardH = 616;
-  const cardRadius = 32;
+  curY += photoH + 36;
+
+  // 6. Full Unclipped Result Title
+  ctx.save();
+  ctx.fillStyle = pal.title;
+  ctx.font = `800 ${titleFontPx}px ${DISPLAY_FONT}`;
+  ctx.textAlign = 'center';
+  for (const line of titleLines) {
+    ctx.fillText(line, width / 2, curY + titleFontPx);
+    curY += titleLineH;
+  }
+  ctx.restore();
+
+  curY += 26;
+
+  // 7. Two Side-by-Side Bento Stat Boxes
+  const leftBoxX = innerX;
+  const rightBoxX = innerX + bentoColW + bentoGap;
+
+  fillRoundedRect(ctx, leftBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
+  fillRoundedRect(ctx, rightBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
 
   ctx.save();
-  ctx.fillStyle = cardBg;
-  drawRoundedRectPath(ctx, cardX, cardY, cardW, cardH, cardRadius);
-  ctx.fill();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 2.5;
-  ctx.stroke();
-
-  let detailY = cardY + 58;
-  const labelColX = cardX + 42;
-  const valColX = cardX + 295;
-  const valWidth = cardW - 337;
-
-  const eraVal = localized?.era || localized?.builtYear || carData?.era || carData?.builtYear || '-';
-  const priceVal = localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || carData?.estimatedPrice || carData?.estimatedSalary || carData?.estimatedValue || '-';
-  const featureVal = localized?.specialFeature || localized?.specialDuty || carData?.specialFeature || carData?.specialDuty || '-';
-  const verdictVal = localized?.aiVerdict || carData?.aiVerdict || '-';
-
-  const eraLbl = `📅 ${dict?.specs?.eraLabel || dict?.specs?.builtYearLabel || base.eraLabel}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
   ctx.textAlign = 'left';
-  ctx.fillText(eraLbl, labelColX, detailY);
-  ctx.fillStyle = textPrimary;
-  ctx.font = '600 22px "Pretendard", sans-serif';
-  detailY = renderWrappedText(ctx, eraVal, valColX, detailY, valWidth, 32, 2) + 18;
+  ctx.font = `700 20px ${BODY_FONT}`;
+  ctx.fillStyle = pal.bentoLabel;
+  ctx.fillText(spec1Label, leftBoxX + 24, curY + 42);
+  ctx.fillText(spec2Label, rightBoxX + 24, curY + 42);
 
-  const priceLbl = `💰 ${dict?.specs?.priceLabel || dict?.specs?.estimatedValueLabel || base.priceLabel}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.fillText(priceLbl, labelColX, detailY);
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 23px "Pretendard", sans-serif';
-  detailY = renderWrappedText(ctx, priceVal, valColX, detailY, valWidth, 32, 2) + 18;
+  ctx.font = `700 24px ${DISPLAY_FONT}`;
+  ctx.fillStyle = pal.bentoVal;
+  let s1Y = curY + 80;
+  for (const line of spec1Lines) {
+    ctx.fillText(line, leftBoxX + 24, s1Y);
+    s1Y += bentoValLineH;
+  }
 
-  const featureLbl = `⚡ ${dict?.specs?.featureLabel || dict?.specs?.specialFeatureLabel || base.featureLabel}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.fillText(featureLbl, labelColX, detailY);
-  ctx.fillStyle = textPrimary;
-  ctx.font = '500 21px "Pretendard", sans-serif';
-  detailY = renderWrappedText(ctx, featureVal, valColX, detailY, valWidth, 30, 3) + 16;
-
-  const verdictDivY = Math.max(detailY + 4, cardY + 390);
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
-  ctx.lineWidth = 1.5;
-  ctx.beginPath();
-  ctx.moveTo(cardX + 42, verdictDivY);
-  ctx.lineTo(cardX + cardW - 42, verdictDivY);
-  ctx.stroke();
-
-  ctx.textAlign = 'center';
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 20px "Pretendard", sans-serif';
-  ctx.fillText(`🤖 ${dict?.specs?.aiVerdictLabel || base.verdictLabel}`, width / 2, verdictDivY + 38);
-
-  ctx.fillStyle = textPrimary;
-  ctx.font = 'bold 25px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  renderWrappedText(ctx, `“${verdictVal}”`, width / 2, verdictDivY + 80, cardW - 90, 35, 3);
-
+  ctx.fillStyle = pal.bentoAccent;
+  let s2Y = curY + 80;
+  for (const line of spec2Lines) {
+    ctx.fillText(line, rightBoxX + 24, s2Y);
+    s2Y += bentoValLineH;
+  }
   ctx.restore();
 
-  // =========================================================================
-  // 4. FOOTER URL & CTA (Y: 1745 ~ 1875)
-  // =========================================================================
+  curY += bentoBoxH + 18;
+
+  // 8. Key Feature Bento Box (Full Wrap, Zero Clip)
+  fillRoundedRect(ctx, innerX, curY, innerW, featureBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
   ctx.save();
+  ctx.textAlign = 'left';
+  ctx.font = `700 20px ${BODY_FONT}`;
+  ctx.fillStyle = pal.featureLabel;
+  ctx.fillText(spec3Label, innerX + 28, curY + 40);
+
+  ctx.font = `600 25px ${BODY_FONT}`;
+  ctx.fillStyle = pal.featureText;
+  let fY = curY + 78;
+  for (const line of featureLines) {
+    ctx.fillText(line, innerX + 28, fY);
+    fY += featureLineH;
+  }
+  ctx.restore();
+
+  curY += featureBoxH;
+
+  // 9. Highlight AI One-Liner Quote Card
+  if (verdictLines.length > 0) {
+    curY += 18;
+    const qGrad = ctx.createLinearGradient(innerX, curY, innerX + innerW, curY + quoteBoxH);
+    qGrad.addColorStop(0, pal.quoteBgStart);
+    qGrad.addColorStop(1, pal.quoteBgEnd);
+    fillRoundedRect(ctx, innerX, curY, innerW, quoteBoxH, 26, qGrad, pal.quoteBorder, 1.5);
+
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.font = `700 27px ${BODY_FONT}`;
+    ctx.fillStyle = pal.quoteText;
+    let qY = curY + 54;
+    for (const line of verdictLines) {
+      ctx.fillText(line, width / 2, qY);
+      qY += verdictLineH;
+    }
+    ctx.restore();
+
+    curY += quoteBoxH;
+  }
+
+  curY += 28;
+
+  // 10. Clean Subtle Domain Watermark Pill (Zero Clutter!)
+  ctx.save();
+  ctx.font = `700 21px ${DISPLAY_FONT}`;
+  const wmText = WATERMARK_DOMAIN;
+  const wmW = Math.ceil(ctx.measureText(wmText).width) + 48;
+  const wmX = Math.round((width - wmW) / 2);
+  fillRoundedRect(ctx, wmX, curY, wmW, footerPillH, 22, pal.footerPillBg);
+  ctx.fillStyle = pal.footerText;
   ctx.textAlign = 'center';
-
-  const shareUrl = buildPermanentShareUrl(carData, trimmedName, selectedLang);
-  const readableUrl = formatReadableShareUrl(shareUrl);
-  const displayHostAndPath = readableUrl.replace(/^https?:\/\//, '');
-
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 29px "Pretendard", sans-serif';
-  ctx.fillText(`🔗 ${displayHostAndPath}`, width / 2, 1770);
-
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.92)';
-  ctx.font = '500 22px "Pretendard", sans-serif';
-  ctx.fillText(dict?.storyPhotoHint || base.hint, width / 2, 1814);
-
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
-  ctx.font = '400 17px monospace';
-  ctx.fillText('tellmyname.app/car • 0~1000 Multiverse Vehicle Appraisal', width / 2, 1852);
+  ctx.fillText(wmText, width / 2, curY + 29);
   ctx.restore();
 
   return canvas;
 }
 
+function isMobileShareDevice() {
+  if (typeof navigator === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPad|iPod|Mobile/i.test(ua)) return true;
+  if (navigator.maxTouchPoints > 1 && typeof window !== 'undefined' && window.innerWidth < 1024) return true;
+  return false;
+}
+
+function canvasToPngBlob(canvas) {
+  return new Promise((resolve) => {
+    if (!canvas) return resolve(null);
+    if (typeof canvas.toBlob === 'function') {
+      canvas.toBlob((blob) => resolve(blob || null), 'image/png');
+    } else if (typeof canvas.toDataURL === 'function') {
+      try {
+        const dataUrl = canvas.toDataURL('image/png');
+        const b64 = dataUrl.split(',')[1] || '';
+        const bin = atob(b64);
+        const bytes = new Uint8Array(bin.length);
+        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+        resolve(new Blob([bytes], { type: 'image/png' }));
+      } catch (_) {
+        resolve(null);
+      }
+    } else {
+      resolve(null);
+    }
+  });
+}
+
+function downloadBlobAsFile(blob, filename) {
+  if (!blob || typeof document === 'undefined') return false;
+  const blobUrl = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = blobUrl;
+  a.download = filename;
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    if (a.parentNode) document.body.removeChild(a);
+    URL.revokeObjectURL(blobUrl);
+  }, 1500);
+  return true;
+}
+
 /**
- * 공유 모달 대화상자 열기 (다국어 지원)
+ * Simplified 1-Button Share Preview Modal
  */
-export function openShareModal(carData, currentName = '', lang = 'ko') {
+export function openShareModal(itemData, currentName = '', lang = 'ko') {
   if (typeof document === 'undefined') return;
 
-  const selectedLang = CAR_SHARE_I18N[lang] ? lang : 'ko';
-  const { base, dict } = getShareCopy(selectedLang);
+  const dict = getDict(lang);
+  const selectedLang = SHARE_UI_COPY[lang] ? lang : 'ko';
+  const ui = SHARE_UI_COPY[selectedLang] || SHARE_UI_COPY.en;
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const shareUrl = buildPermanentShareUrl(carData, trimmed, selectedLang);
-  const readableShareUrl = formatReadableShareUrl(shareUrl);
-  const payload = buildSharePayload(carData, trimmed, selectedLang);
+  const payload = buildSharePayload(itemData, trimmed, selectedLang);
+  const brandHeader = dict.brandHeader || (selectedLang === 'ko' ? '나에게 어울리는 자동차' : 'The Ride That Suits You');
 
   let root = document.getElementById('share-modal-root');
   if (!root) {
@@ -854,54 +1030,30 @@ export function openShareModal(carData, currentName = '', lang = 'ko') {
       <div class="share-modal" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
         <div class="share-modal-header">
           <div>
-            <h3 class="share-modal-title" id="share-modal-title">🚗 ${dict?.brandHeader || base.brandHeader}</h3>
-            <p class="share-modal-subtitle">${dict?.storyPhotoHint || base.storySubtitle}</p>
+            <h3 class="share-modal-title" id="share-modal-title">🚗 ${brandHeader}</h3>
+            <p class="share-modal-subtitle">${ui.subtitle}</p>
           </div>
-          <button class="share-modal-close" id="share-modal-close-btn" aria-label="Close">×</button>
+          <button type="button" class="share-modal-close" id="share-modal-close-btn" aria-label="Close">×</button>
         </div>
 
         <div class="share-modal-body">
-          <div class="theme-selector">
-            <button class="theme-pill" data-theme="cert">📜 ${dict?.shareModal?.themeCert || base.themeCert}</button>
-            <button class="theme-pill" data-theme="cyber">⚡ ${dict?.shareModal?.themeCyber || base.themeCyber}</button>
-            <button class="theme-pill active" data-theme="sunset">🌅 ${dict?.shareModal?.themeSunset || base.themeSunset}</button>
+          <div class="theme-selector" role="tablist">
+            <button type="button" class="theme-pill active" data-theme="cream">🤍 ${ui.themeCream}</button>
+            <button type="button" class="theme-pill" data-theme="aurora">🌙 ${ui.themeAurora}</button>
+            <button type="button" class="theme-pill" data-theme="peach">🍑 ${ui.themePeach}</button>
           </div>
 
           <div class="share-canvas-wrapper">
-            <canvas id="share-story-canvas" width="1080" height="1920"></canvas>
+            <canvas id="share-story-canvas" width="1080" height="1560"></canvas>
             <div id="share-canvas-spinner" class="share-canvas-spinner" style="display: none;">
-              🎨 9:16 Story Generating...
+              ✨ ${ui.generating}
             </div>
           </div>
 
-          <div class="share-url-container">
-            <input type="text" class="share-url-input" id="share-url-field" readonly value="${readableShareUrl}">
-            <button class="share-url-copy-btn" id="share-url-copy-button">${base.copyShort}</button>
-          </div>
-
           <div class="share-actions">
-            <button class="share-btn share-btn-insta" id="share-action-insta-direct">
-              📸 ${dict?.shareModal?.instaDirectBtn || base.instaDirectBtn}
-            </button>
-
-            <button class="share-btn share-btn-tiktok" id="share-action-tiktok">
-              🎵 ${dict?.shareModal?.tiktokDirectBtn || base.tiktokDirectBtn}
-            </button>
-
-            <button class="share-btn share-btn-whatsapp" id="share-action-whatsapp">
-              🟢 ${dict?.shareModal?.whatsappDirectBtn || base.whatsappDirectBtn}
-            </button>
-
-            <button class="share-btn share-btn-kakao" id="share-action-mobile-share">
-              💬 ${dict?.shareMobileBtn || base.kakaoShareBtn}
-            </button>
-
-            <button class="share-btn share-btn-save" id="share-action-save-image">
-              📥 ${dict?.saveStoryBtn || base.saveStoryBtn}
-            </button>
-
-            <button class="share-btn share-btn-copy" id="share-action-copy-url">
-              🔗 ${dict?.copyUrlBtn || base.copyUrlBtn}
+            <button type="button" class="share-btn share-btn-unified" id="share-action-unified">
+              <span>📥</span>
+              <span>${ui.unifiedBtn}</span>
             </button>
           </div>
         </div>
@@ -909,18 +1061,19 @@ export function openShareModal(carData, currentName = '', lang = 'ko') {
     </div>
   `;
 
-  let currentTheme = 'sunset';
+  let currentTheme = 'cream';
+  let renderPromise = null;
   const canvas = document.getElementById('share-story-canvas');
   const spinner = document.getElementById('share-canvas-spinner');
 
-  const updateCanvas = async (t) => {
+  const updateCanvas = (t) => {
     currentTheme = t;
     if (spinner) spinner.style.display = 'flex';
-    try {
-      await renderStoryCanvas(canvas, carData, trimmed, currentTheme, selectedLang);
-    } finally {
-      if (spinner) spinner.style.display = 'none';
-    }
+    renderPromise = renderStoryCanvas(canvas, itemData, trimmed, currentTheme, selectedLang)
+      .finally(() => {
+        if (spinner) spinner.style.display = 'none';
+      });
+    return renderPromise;
   };
 
   updateCanvas(currentTheme);
@@ -950,142 +1103,66 @@ export function openShareModal(carData, currentName = '', lang = 'ko') {
     pill.addEventListener('click', () => {
       themePills.forEach((p) => p.classList.remove('active'));
       pill.classList.add('active');
-      const selectedTheme = pill.getAttribute('data-theme') || 'sunset';
-      updateCanvas(selectedTheme);
+      updateCanvas(pill.getAttribute('data-theme') || 'cream');
     });
   });
 
-  const handleCopy = () => {
-    copyShareUrl(carData, trimmed, selectedLang);
+  const getExportFilename = () => {
+    const lv = itemData?.level ?? 0;
+    const sanitized = (trimmed || 'mycar').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
+    return `mycar_${sanitized}_lv${lv}.png`;
   };
 
-  const copyFieldBtn = document.getElementById('share-url-copy-button');
-  const copyActionBtn = document.getElementById('share-action-copy-url');
-  if (copyFieldBtn) copyFieldBtn.addEventListener('click', handleCopy);
-  if (copyActionBtn) copyActionBtn.addEventListener('click', handleCopy);
+  const handleDirectDownload = async () => {
+    if (renderPromise) await renderPromise;
+    const blob = await canvasToPngBlob(canvas);
+    if (blob) {
+      downloadBlobAsFile(blob, getExportFilename());
+      showToast(`📥 ${ui.savedToast}`);
+    }
+  };
 
-  const downloadCanvasPng = () => {
-    return new Promise((resolve) => {
-      if (!canvas) return resolve(null);
-      const lv = carData?.level ?? 0;
-      const sanitized = (trimmed || 'mycar').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
-      const filename = `mycar_${sanitized}_lv${lv}_${currentTheme}.png`;
+  const unifiedBtn = document.getElementById('share-action-unified');
+  if (unifiedBtn) {
+    unifiedBtn.addEventListener('click', async () => {
+      if (renderPromise) await renderPromise;
+      const blob = await canvasToPngBlob(canvas);
+      if (!blob) return;
+      const filename = getExportFilename();
 
-      if (typeof canvas.toBlob === 'function') {
-        canvas.toBlob((blob) => {
-          if (!blob) return resolve(null);
-          const blobUrl = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = blobUrl;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          setTimeout(() => URL.revokeObjectURL(blobUrl), 3000);
-          resolve({ blob, filename });
-        }, 'image/png');
-      } else {
+      // On Mobile (iOS/Android), open native Share Sheet with PNG file (Instagram / KakaoTalk / Save Image in 1 tap)
+      if (isMobileShareDevice() && typeof navigator !== 'undefined' && typeof navigator.share === 'function' && typeof File === 'function') {
         try {
-          const dataUrl = canvas.toDataURL('image/png');
-          const a = document.createElement('a');
-          a.href = dataUrl;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          resolve({ dataUrl, filename });
-        } catch (_) {
-          resolve(null);
+          const file = new File([blob], filename, { type: 'image/png' });
+          if (!navigator.canShare || navigator.canShare({ files: [file] })) {
+            await navigator.share({
+              files: [file],
+              title: payload.title,
+              text: `${payload.title}\n${formatReadableShareUrl(payload.url)}`
+            });
+            showToast(`✨ ${ui.sharedToast}`);
+            return;
+          }
+        } catch (err) {
+          if (err && err.name === 'AbortError') return;
         }
       }
-    });
-  };
 
-  const shareCanvasFiles = async () => {
-    if (!canvas || typeof navigator === 'undefined' || typeof navigator.share !== 'function' || typeof File !== 'function') {
-      return false;
-    }
-    const blobResult = await new Promise((resolve) => {
-      if (typeof canvas.toBlob === 'function') {
-        canvas.toBlob((blob) => resolve(blob), 'image/png');
-      } else {
-        resolve(null);
-      }
-    });
-    if (!blobResult) return false;
-    const lv = carData?.level ?? 0;
-    const sanitized = (trimmed || 'mycar').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
-    const filename = `mycar_${sanitized}_lv${lv}_${currentTheme}.png`;
-    try {
-      const file = new File([blobResult], filename, { type: 'image/png' });
-      if (!navigator.canShare || navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          files: [file],
-          title: payload.title,
-          text: `${payload.title}\n${payload.text}`,
-          url: payload.url
-        });
-        return true;
-      }
-    } catch (_) {}
-    return false;
-  };
-
-  const saveImgBtn = document.getElementById('share-action-save-image');
-  if (saveImgBtn) {
-    saveImgBtn.addEventListener('click', async () => {
-      await downloadCanvasPng();
-      showToast(dict?.shareModal?.savedToast || base.savedToast);
+      // Desktop (or fallback): Direct PNG download
+      downloadBlobAsFile(blob, filename);
+      showToast(`📥 ${ui.savedToast}`);
     });
   }
 
-  const instaDirectBtn = document.getElementById('share-action-insta-direct');
-  if (instaDirectBtn) {
-    instaDirectBtn.addEventListener('click', async () => {
-      await copyShareUrl(carData, trimmed, selectedLang);
-      const shared = await shareCanvasFiles();
-      if (shared) return;
-      await downloadCanvasPng();
-      showToast(dict?.shareModal?.instaDownloadedToast || base.instaDownloadedToast);
-    });
+  const saveDirectBtn = document.getElementById('share-action-save-direct');
+  if (saveDirectBtn) {
+    saveDirectBtn.addEventListener('click', handleDirectDownload);
   }
 
-  const tiktokBtn = document.getElementById('share-action-tiktok');
-  if (tiktokBtn) {
-    tiktokBtn.addEventListener('click', async () => {
-      await copyShareUrl(carData, trimmed, selectedLang);
-      const shared = await shareCanvasFiles();
-      if (shared) return;
-      await downloadCanvasPng();
-      showToast(dict?.shareModal?.tiktokDownloadedToast || base.tiktokDownloadedToast);
-    });
-  }
-
-  const whatsappBtn = document.getElementById('share-action-whatsapp');
-  if (whatsappBtn) {
-    whatsappBtn.addEventListener('click', () => {
-      const waText = `${payload.title}\n${payload.text}\n👉 ${readableShareUrl}`;
-      const waUrl = `https://wa.me/?text=${encodeURIComponent(waText)}`;
-      window.open(waUrl, '_blank', 'noopener,noreferrer');
-      showToast(dict?.shareModal?.whatsappOpenedToast || base.whatsappOpenedToast);
-    });
-  }
-
-  const mobileShareBtn = document.getElementById('share-action-mobile-share');
-  if (mobileShareBtn) {
-    mobileShareBtn.addEventListener('click', async () => {
-      if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
-        try {
-          await navigator.share({
-            title: payload.title,
-            text: `${payload.title}\n${payload.text}`,
-            url: payload.url
-          });
-          return;
-        } catch (_) {}
-      }
-      await copyShareUrl(carData, trimmed, selectedLang);
-      showToast(dict?.shareModal?.messengerCopiedToast || base.messengerCopiedToast);
+  const copyUrlBtn = document.getElementById('share-action-copy-url');
+  if (copyUrlBtn) {
+    copyUrlBtn.addEventListener('click', () => {
+      copyShareUrl(itemData, trimmed, selectedLang);
     });
   }
 }

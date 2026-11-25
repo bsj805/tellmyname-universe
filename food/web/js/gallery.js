@@ -38,7 +38,8 @@ import {
   copyToClipboard,
   showToast,
   formatPriceForLang
-} from './share_core.js';
+} from './share_core.js?v=20261125';
+import { shareModal } from './share.js?v=20261125';
 
 /**
  * Gallery Filter Category Definitions
@@ -517,7 +518,9 @@ export class GalleryController {
     });
     if (picked) {
       this.openDetail(picked, { pushState: true });
-      showToast(t(this.lang, 'toastRandomPick'));
+      if (this.currentFood?.name) {
+        showToast(`🎲 ${this.currentFood.name}`);
+      }
     }
   }
 
@@ -670,21 +673,7 @@ export class GalleryController {
 
   async shareStory() {
     if (!this.currentFood) return;
-    const canvas = await this.getRenderedFoodCanvas();
-    if (!canvas) return;
-    const blob = await canvasToBlob(canvas);
-    const code = this.currentFood.code || formatFoodCode(this.currentFood.index || 1);
-    const filename = `mukbang-food-${code}.png`;
-    const shareUrl = `${SITE_ORIGIN}${buildFoodUrl(code, this.lang)}`;
-
-    await shareImage({
-      blob,
-      filename,
-      title: `${this.currentFood.name} — ${t(this.lang, 'brandTitle')}`,
-      text: `"${this.currentFood.tagline || this.currentFood.name}" — ${t(this.lang, 'galleryBadge')}`,
-      url: shareUrl,
-      lang: this.lang
-    });
+    shareModal.openFood(this.currentFood);
   }
 
   async shareKakao() {

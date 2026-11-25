@@ -50,12 +50,12 @@ import {
   buildKakaoShareText,
   buildWhatsAppShareText,
   copyToClipboard
-} from './share.js';
+} from './share.js?v=20261125';
 
 import {
   shareWhatsAppText,
   formatPriceForLang
-} from './share_core.js';
+} from './share_core.js?v=20261125';
 
 import {
   GalleryController,
@@ -63,12 +63,12 @@ import {
   buildGalleryUrl,
   buildFoodUrl,
   getFoodByCode
-} from './gallery.js';
+} from './gallery.js?v=20261125';
 
 import {
   WorldCupController,
   buildWorldCupUrl
-} from './worldcup.js';
+} from './worldcup.js?v=20261125';
 
 import {
   parseWorldCupPath
@@ -934,7 +934,7 @@ export function renderHeroMeal() {
   const originClass = `badge-${(food.originGroup || '').toLowerCase().replace(/_/g, '')}`;
   const originBadge = food.originBadge || t(appState.currentLang, 'origin_' + food.originGroup);
   const paddedIndex = formatFoodCode(food.index || 1);
-  const imgUrl = `/images/${paddedIndex}.png`;
+  const imgUrl = `https://img.tellmyname.app/foods/${paddedIndex}.png`;
   const fallbackSvgUrl = `/r2/foods/${paddedIndex}.svg`;
 
   const currentSlotObj = resolveActiveMealByHour(effectiveHour);
@@ -993,24 +993,9 @@ export function renderHeroMeal() {
         ${(food.pairingTip && isKo) ? `<div class="hero-pairing-tip"><span>💡</span> <span><strong>${t(appState.currentLang, 'heroPairingTip')}</strong> ${food.pairingTip}</span></div>` : ''}
 
         <div class="hero-actions">
-          <button type="button" id="hero-share-kakao-btn" class="btn btn-share-kakao-hero" title="카카오톡 공유">
-            <span class="btn-icon">💬</span>
-            <span class="btn-label">${t(appState.currentLang, 'heroShareKakao')}</span>
-          </button>
-          <button type="button" id="hero-share-whatsapp-btn" class="btn btn-share-whatsapp-hero" title="WhatsApp 공유">
-            <span class="btn-icon">🟢</span>
-            <span class="btn-label">${t(appState.currentLang, 'shareWhatsAppBtn')}</span>
-          </button>
-          <button type="button" id="hero-share-single-btn" class="btn btn-share-story-hero" title="인스타 스토리 공유">
-            <span class="btn-icon">📸</span>
-            <span class="btn-label">${t(appState.currentLang, 'heroShareStory')}</span>
-          </button>
-          <button type="button" id="hero-share-link-btn" class="btn btn-share-link-hero" title="식단 공유 링크 복사">
-            <span class="btn-icon">🔗</span>
-            <span class="btn-label">${t(appState.currentLang, 'heroShareLink')}</span>
-          </button>
-          <button type="button" id="hero-share-all-btn" class="btn btn-secondary hero-desktop-only" title="오늘 하루 5끼 전체 공유하기">
-            <span>${t(appState.currentLang, 'heroShareAll')}</span>
+          <button type="button" id="hero-share-single-btn" class="btn btn-share-story-hero" style="width: 100%; flex: 1 1 100%;">
+            <span class="btn-icon">🖼️</span>
+            <span class="btn-label">${t(appState.currentLang, 'shareInstagramBtn')}</span>
           </button>
         </div>
       </div>
@@ -1140,7 +1125,7 @@ export function renderTimeline() {
     const isCurrent = entry.mealKey === activeKey;
     const isSelected = appState.selectedMealKeys.has(entry.mealKey);
     const paddedIndex = formatFoodCode(food.index || 1);
-    const imgUrl = `/images/${paddedIndex}.png`;
+    const imgUrl = `https://img.tellmyname.app/foods/${paddedIndex}.png`;
     const fallbackSvgUrl = `/r2/foods/${paddedIndex}.svg`;
     const localizedMealLabel = t(appState.currentLang, 'meal_' + entry.mealKey);
 
@@ -1547,7 +1532,7 @@ export function initApp() {
   const sliderHint = document.getElementById('slider-meal-hint');
   if (slider) slider.value = String(effectiveHour);
   if (sliderValue) sliderValue.textContent = `${String(effectiveHour).padStart(2, '0')}:00`;
-  if (sliderHint) sliderHint.textContent = `${initialActiveMeal.emoji} ${initialActiveMeal.fullLabel} 시간대`;
+  if (sliderHint) sliderHint.textContent = `${initialActiveMeal.emoji} ${t(appState.currentLang, 'sliderMealHint', { meal: t(appState.currentLang, 'meal_' + initialActiveMeal.key) })}`;
 
   // 3. Bind Name Form and Random Button
   const nameForm = document.getElementById('name-form');

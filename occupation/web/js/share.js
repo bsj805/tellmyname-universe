@@ -1,31 +1,254 @@
-// web/js/share.js — Multilingual Instagram Story 9:16 Canvas & KakaoTalk Share Module
+// web/js/share.js — Unified Viral Photocard & Bento Share Card Engine (14 Languages)
 // Domain: tellmyname.app/job
 
-import { UI_DICTIONARY, getTranslation, localizeJob } from './lib/i18n.js';
+import * as i18nMod from './lib/i18n.js';
 import { MAX_LEVEL, GOOD_JOB_THRESHOLD } from './lib/constants.js';
 
 export const SHARE_ORIGIN = 'https://tellmyname.app/job';
+const WATERMARK_DOMAIN = 'tellmyname.app/job';
+const GOOD_THRESHOLD = typeof GOOD_JOB_THRESHOLD === 'number' ? GOOD_JOB_THRESHOLD : 500;
 
-/**
- * 이름 기반 영구 공유 URL 생성
- * - currentName이 있으면: https://tellmyname.app/job/name/{encodeURIComponent(이름)}
- * - 없으면: https://tellmyname.app/job/level/{level}
- */
-export function buildPermanentShareUrl(jobData, currentName = '', lang = 'ko') {
+const DISPLAY_FONT = '"Paperlogy", "SUITE Variable", "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+const BODY_FONT = '"SUITE Variable", "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+
+const SHARE_UI_COPY = {
+  ko: {
+    subtitle: '원하는 테마를 골라 이미지를 저장하거나 공유해보세요',
+    themeCream: '포토카드',
+    themeAurora: '오로라',
+    themePeach: '피치',
+    unifiedBtn: '이미지 저장 · 공유하기',
+    downloadDirect: '파일로 바로 저장',
+    copyLink: '링크 복사',
+    generating: '포토카드 만드는 중...',
+    savedToast: '이미지를 저장했습니다! 인스타그램이나 카카오톡에서 바로 올려보세요.',
+    sharedToast: '공유 창을 열었습니다!',
+    copiedToast: '결과 링크를 복사했습니다!',
+    realShort: '실제',
+    fictionShort: '상상'
+  },
+  en: {
+    subtitle: 'Pick a theme and save or share your image card',
+    themeCream: 'Photocard',
+    themeAurora: 'Aurora',
+    themePeach: 'Peach',
+    unifiedBtn: 'Save & Share Image',
+    downloadDirect: 'Download PNG',
+    copyLink: 'Copy Link',
+    generating: 'Creating card...',
+    savedToast: 'Image saved! Share it on Instagram, WhatsApp, or anywhere.',
+    sharedToast: 'Share sheet opened!',
+    copiedToast: 'Result link copied!',
+    realShort: 'Real',
+    fictionShort: 'Fiction'
+  },
+  ja: {
+    subtitle: 'テーマを選んで画像を保存・共有しましょう',
+    themeCream: 'フォトカード',
+    themeAurora: 'オーロラ',
+    themePeach: 'ピーチ',
+    unifiedBtn: '画像を保存・共有する',
+    downloadDirect: 'PNGを直接保存',
+    copyLink: 'リンクをコピー',
+    generating: 'カード作成中...',
+    savedToast: '画像を保存しました！インスタやLINEでシェアしましょう。',
+    sharedToast: '共有メニューを開きました！',
+    copiedToast: 'リンクをコピーしました！',
+    realShort: '実在',
+    fictionShort: '架空'
+  },
+  zh: {
+    subtitle: '选择卡片主题并保存或分享图片',
+    themeCream: '拍立得白',
+    themeAurora: '极光暗黑',
+    themePeach: '蜜桃落日',
+    unifiedBtn: '保存并分享图片',
+    downloadDirect: '直接下载PNG',
+    copyLink: '复制链接',
+    generating: '正在生成卡片...',
+    savedToast: '图片已保存！快去社交平台分享吧。',
+    sharedToast: '已打开分享面板！',
+    copiedToast: '链接已复制！',
+    realShort: '现实',
+    fictionShort: '虚构'
+  },
+  es: {
+    subtitle: 'Elige un tema para guardar o compartir tu tarjeta',
+    themeCream: 'Postal',
+    themeAurora: 'Aurora',
+    themePeach: 'Atardecer',
+    unifiedBtn: 'Guardar y compartir imagen',
+    downloadDirect: 'Descargar PNG',
+    copyLink: 'Copiar enlace',
+    generating: 'Creando tarjeta...',
+    savedToast: '¡Imagen guardada! Compártela en Instagram o WhatsApp.',
+    sharedToast: '¡Menú para compartir abierto!',
+    copiedToast: '¡Enlace copiado!',
+    realShort: 'Real',
+    fictionShort: 'Ficción'
+  },
+  fr: {
+    subtitle: 'Choisissez un thème pour enregistrer ou partager',
+    themeCream: 'Photo',
+    themeAurora: 'Aurore',
+    themePeach: 'Pêche',
+    unifiedBtn: 'Enregistrer et partager l’image',
+    downloadDirect: 'Télécharger PNG',
+    copyLink: 'Copier le lien',
+    generating: 'Création de la carte...',
+    savedToast: 'Image enregistrée ! Partagez-la sur Instagram ou ailleurs.',
+    sharedToast: 'Menu de partage ouvert !',
+    copiedToast: 'Lien copié !',
+    realShort: 'Réel',
+    fictionShort: 'Fiction'
+  },
+  de: {
+    subtitle: 'Thema wählen und Bild speichern oder teilen',
+    themeCream: 'Fotokarte',
+    themeAurora: 'Aurora',
+    themePeach: 'Pfirsich',
+    unifiedBtn: 'Bild speichern & teilen',
+    downloadDirect: 'PNG herunterladen',
+    copyLink: 'Link kopieren',
+    generating: 'Karte wird erstellt...',
+    savedToast: 'Bild gespeichert! Jetzt auf Instagram oder WhatsApp teilen.',
+    sharedToast: 'Teilen-Menü geöffnet!',
+    copiedToast: 'Link kopiert!',
+    realShort: 'Real',
+    fictionShort: 'Fiktion'
+  },
+  pt: {
+    subtitle: 'Escolha um tema para salvar ou compartilhar',
+    themeCream: 'Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Pêssego',
+    unifiedBtn: 'Salvar e compartilhar imagem',
+    downloadDirect: 'Baixar PNG',
+    copyLink: 'Copiar link',
+    generating: 'Criando cartão...',
+    savedToast: 'Imagem salva! Compartilhe no Instagram ou WhatsApp.',
+    sharedToast: 'Menu de compartilhamento aberto!',
+    copiedToast: 'Link copiado!',
+    realShort: 'Real',
+    fictionShort: 'Ficção'
+  },
+  it: {
+    subtitle: 'Scegli un tema per salvare o condividere',
+    themeCream: 'Fotocard',
+    themeAurora: 'Aurora',
+    themePeach: 'Pesca',
+    unifiedBtn: 'Salva e condividi immagine',
+    downloadDirect: 'Scarica PNG',
+    copyLink: 'Copia link',
+    generating: 'Creazione card...',
+    savedToast: 'Immagine salvata! Condividila su Instagram o WhatsApp.',
+    sharedToast: 'Menu di condivisione aperto!',
+    copiedToast: 'Link copiato!',
+    realShort: 'Reale',
+    fictionShort: 'Finzione'
+  },
+  ru: {
+    subtitle: 'Выберите тему, чтобы сохранить или поделиться',
+    themeCream: 'Фотокарта',
+    themeAurora: 'Аврора',
+    themePeach: 'Персик',
+    unifiedBtn: 'Сохранить и поделиться',
+    downloadDirect: 'Скачать PNG',
+    copyLink: 'Копировать ссылку',
+    generating: 'Создание карточки...',
+    savedToast: 'Изображение сохранено! Поделитесь им в соцсетях.',
+    sharedToast: 'Меню отправки открыто!',
+    copiedToast: 'Ссылка скопирована!',
+    realShort: 'Реальность',
+    fictionShort: 'Вымысел'
+  },
+  vi: {
+    subtitle: 'Chọn giao diện để lưu hoặc chia sẻ thẻ ảnh',
+    themeCream: 'Thẻ Ảnh',
+    themeAurora: 'Cực Quang',
+    themePeach: 'Đào',
+    unifiedBtn: 'Lưu & Chia sẻ ảnh',
+    downloadDirect: 'Tải PNG',
+    copyLink: 'Sao chép link',
+    generating: 'Đang tạo thẻ ảnh...',
+    savedToast: 'Đã lưu ảnh! Hãy chia sẻ lên Instagram hoặc Zalo.',
+    sharedToast: 'Đã mở bảng chia sẻ!',
+    copiedToast: 'Đã sao chép liên kết!',
+    realShort: 'Thực tế',
+    fictionShort: 'Hư cấu'
+  },
+  id: {
+    subtitle: 'Pilih tema untuk menyimpan atau membagikan gambar',
+    themeCream: 'Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Senja',
+    unifiedBtn: 'Simpan & Bagikan Gambar',
+    downloadDirect: 'Unduh PNG',
+    copyLink: 'Salin Tautan',
+    generating: 'Membuat kartu...',
+    savedToast: 'Gambar disimpan! Bagikan ke Instagram atau WhatsApp.',
+    sharedToast: 'Menu bagikan dibuka!',
+    copiedToast: 'Tautan disalin!',
+    realShort: 'Nyata',
+    fictionShort: 'Fiksi'
+  },
+  ms: {
+    subtitle: 'Pilih tema untuk simpan atau kongsi kad imej',
+    themeCream: 'Kad Foto',
+    themeAurora: 'Aurora',
+    themePeach: 'Senja',
+    unifiedBtn: 'Simpan & Kongsi Imej',
+    downloadDirect: 'Muat Turun PNG',
+    copyLink: 'Salin Pautan',
+    generating: 'Menjana kad...',
+    savedToast: 'Imej disimpan! Kongsikan di Instagram atau WhatsApp.',
+    sharedToast: 'Menu kongsi dibuka!',
+    copiedToast: 'Pautan disalin!',
+    realShort: 'Nyata',
+    fictionShort: 'Fiksyen'
+  },
+  hi: {
+    subtitle: 'थीम चुनें और अपनी कार्ड इमेज सेव या शेयर करें',
+    themeCream: 'फ़ोटो कार्ड',
+    themeAurora: 'ऑरोरा',
+    themePeach: 'पीच',
+    unifiedBtn: 'इमेज सेव और शेयर करें',
+    downloadDirect: 'PNG डाउनलोड',
+    copyLink: 'लिंक कॉपी',
+    generating: 'कार्ड बन रहा है...',
+    savedToast: 'इमेज सेव हो गई! इसे इंस्टाग्राम या व्हाट्सऐप पर शेयर करें।',
+    sharedToast: 'शेयर विकल्प खुल गया!',
+    copiedToast: 'लिंक कॉपी हो गया!',
+    realShort: 'वास्तविक',
+    fictionShort: 'काल्पनिक'
+  }
+};
+
+function getDict(lang = 'ko') {
+  const dictMap = i18nMod.UI_DICTIONARY || i18nMod.TRANSLATIONS || {};
+  return dictMap[lang] || dictMap.ko || {};
+}
+
+function localizeItem(itemData, lang = 'ko', name = '') {
+  const fn = i18nMod.localizeHouse || i18nMod.localizeJob || i18nMod.localizeVehicle || i18nMod.localizeCar;
+  if (typeof fn === 'function') {
+    return fn(itemData, lang, name);
+  }
+  return itemData || {};
+}
+
+export function buildPermanentShareUrl(itemData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
   if (trimmed) {
     const base = `${SHARE_ORIGIN}/name/${encodeURIComponent(trimmed)}`;
     return (lang && lang !== 'ko') ? `${base}?lang=${lang}` : base;
   }
-  const rawLv = (jobData && jobData.level != null) ? Number(jobData.level) : 0;
-  const lv = Math.max(0, Math.min(MAX_LEVEL, rawLv));
+  const rawLv = (itemData && itemData.level != null) ? Number(itemData.level) : 0;
+  const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
   const base = `${SHARE_ORIGIN}/level/${lv}`;
   return (lang && lang !== 'ko') ? `${base}?lang=${lang}` : base;
 }
 
-/**
- * URL 디코딩을 통한 사람이 읽기 쉬운 공유 URL 포맷터
- */
 export function formatReadableShareUrl(url) {
   try {
     return decodeURIComponent(url);
@@ -34,66 +257,53 @@ export function formatReadableShareUrl(url) {
   }
 }
 
-/**
- * 카카오톡 / 인스타그램 / Web Share API용 공유 페이로드 생성 (다국어 지원)
- */
-export function buildSharePayload(jobData, currentName = '', lang = 'ko') {
+export function buildSharePayload(itemData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const rawLv = (jobData && jobData.level != null) ? jobData.level : 0;
-  const lv = Math.max(0, Math.min(MAX_LEVEL, Number(rawLv) || 0));
-  const dict = UI_DICTIONARY[lang] || UI_DICTIONARY['ko'];
-  const localized = localizeJob(jobData || { level: lv }, lang, trimmed);
+  const rawLv = (itemData && itemData.level != null) ? Number(itemData.level) : 0;
+  const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
+  const dict = getDict(lang);
+  const localized = localizeItem(itemData || { level: lv }, lang, trimmed);
 
-  const title = localized?.title || jobData?.title || '다중우주 직업';
-  const era = localized?.era || localized?.builtYear || jobData?.era || jobData?.builtYear || '';
-  const estimatedSalary = localized?.estimatedSalary || localized?.estimatedValue || jobData?.estimatedSalary || jobData?.estimatedValue || '';
-  const specialDuty = localized?.specialDuty || localized?.specialFeature || jobData?.specialDuty || jobData?.specialFeature || '';
+  const title = localized?.title || itemData?.title || `Lv.${lv}`;
+  const spec1 = localized?.era || localized?.builtYear || itemData?.era || itemData?.builtYear || '';
+  const spec2 = localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || itemData?.estimatedPrice || itemData?.estimatedSalary || itemData?.estimatedValue || '';
+  const spec3 = localized?.specialFeature || localized?.specialDuty || itemData?.specialFeature || itemData?.specialDuty || '';
 
   let shareTitle = '';
   if (lang === 'ko') {
-    shareTitle = trimmed
-      ? `${trimmed}님에게 어울리는 직업 — Lv.${lv} ${title}`
-      : `나에게 어울리는 직업 — Lv.${lv} ${title}`;
+    const baseHeadline = trimmed
+      ? '{name}님에게 어울리는 직업은'.replace('{name}', trimmed).replace(/은$|는$/, '')
+      : '나에게 어울리는 직업';
+    shareTitle = `${baseHeadline} · Lv.${lv} ${title}`;
   } else {
-    const ownerPhrase = trimmed
+    const ownerPhrase = trimmed && dict.ownerTitle
       ? dict.ownerTitle.replace('{name}', trimmed)
-      : dict.brandHeader;
-    shareTitle = `${ownerPhrase} — Lv.${lv} ${title}`;
+      : (dict.brandHeader || 'The Job That Suits You');
+    shareTitle = `${ownerPhrase} · Lv.${lv} ${title}`;
   }
 
-  let specEraLabel = '활동시대';
-  let specSalaryLabel = '추산연봉';
-  let specDutyLabel = '특별한할일';
-
-  if (lang !== 'ko' && dict.specs) {
-    specEraLabel = dict.specs.builtYearLabel || 'Active Era';
-    specSalaryLabel = dict.specs.estimatedValueLabel || 'Est. Salary';
-    specDutyLabel = dict.specs.specialFeatureLabel || 'Special Duty';
-  }
+  const spec1Label = dict.specs?.eraLabel || dict.specs?.builtYearLabel || (lang === 'ko' ? '활동 시대' : 'Active Era');
+  const spec2Label = dict.specs?.priceLabel || dict.specs?.estimatedValueLabel || (lang === 'ko' ? '추산 연봉' : 'Est. Salary');
+  const spec3Label = dict.specs?.featureLabel || dict.specs?.specialFeatureLabel || (lang === 'ko' ? '특별한 역할' : 'Key Role');
 
   const textLines = [
-    era ? `📅 ${specEraLabel}: ${era}` : '',
-    estimatedSalary ? `💰 ${specSalaryLabel}: ${estimatedSalary}` : '',
-    specialDuty ? `⚡ ${specDutyLabel}: ${specialDuty}` : ''
+    spec1 ? `📅 ${spec1Label}: ${spec1}` : '',
+    spec2 ? `💰 ${spec2Label}: ${spec2}` : '',
+    spec3 ? `⚡ ${spec3Label}: ${spec3}` : ''
   ].filter(Boolean);
 
-  const shareText = textLines.join('\n');
-  const shareUrl = buildPermanentShareUrl(jobData, trimmed, lang);
-
+  const shareUrl = buildPermanentShareUrl(itemData, trimmed, lang);
   const paddedLevel = String(lv).padStart(5, '0');
-  const imageUrl = jobData?.ogImageUrl || `${SHARE_ORIGIN}/r2/jobs/${paddedLevel}.webp`;
+  const imageUrl = itemData?.ogImageUrl || `https://img.tellmyname.app/jobs/${paddedLevel}.png`;
 
   return {
     title: shareTitle,
-    text: shareText,
+    text: textLines.join('\n'),
     url: shareUrl,
     imageUrl
   };
 }
 
-/**
- * 토스트 알림 표시
- */
 export function showToast(message, duration = 2800) {
   if (typeof document === 'undefined') return;
 
@@ -118,13 +328,10 @@ export function showToast(message, duration = 2800) {
   }, duration);
 }
 
-/**
- * 클립보드에 고정 공유 URL 복사 및 토스트 피드백
- */
-export async function copyShareUrl(jobData, currentName = '', lang = 'ko') {
-  const url = buildPermanentShareUrl(jobData, currentName, lang);
+export async function copyShareUrl(itemData, currentName = '', lang = 'ko') {
+  const url = buildPermanentShareUrl(itemData, currentName, lang);
   const readableUrl = formatReadableShareUrl(url);
-  const dict = UI_DICTIONARY[lang] || UI_DICTIONARY['ko'];
+  const ui = SHARE_UI_COPY[lang] || SHARE_UI_COPY.en;
   let copied = false;
 
   if (typeof navigator !== 'undefined' && navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
@@ -150,59 +357,10 @@ export async function copyShareUrl(jobData, currentName = '', lang = 'ko') {
     } catch (_) {}
   }
 
-  const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const displayUrl = trimmed
-    ? `tellmyname.app/job/name/${trimmed}`
-    : readableUrl.replace(/^https?:\/\//, '');
-
-  const toastMsg = dict.copiedToast
-    ? `🔗 ${dict.copiedToast} (${displayUrl})`
-    : `🔗 공유 주소가 복사되었습니다! (${displayUrl})`;
-
-  showToast(toastMsg);
+  showToast(`🔗 ${ui.copiedToast}`);
   return url;
 }
 
-/**
- * 텍스트 줄바꿈 렌더링 헬퍼 (Canvas 2D)
- */
-function renderWrappedText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 4) {
-  if (!text) return y;
-  const str = String(text).trim();
-  const useWordWrap = /[A-Za-z0-9]/.test(str) && str.includes(' ');
-  const tokens = useWordWrap ? str.split(/(\s+)/) : Array.from(str);
-  let line = '';
-  let lineCount = 0;
-  let currentY = y;
-
-  for (let i = 0; i < tokens.length; i++) {
-    const token = tokens[i];
-    const testLine = line + token;
-    const metrics = ctx.measureText(testLine);
-    if (metrics.width > maxWidth && line.trim().length > 0) {
-      lineCount++;
-      if (lineCount >= maxLines) {
-        ctx.fillText(line.trimEnd().slice(0, Math.max(0, line.trimEnd().length - 2)) + '...', x, currentY);
-        return currentY + lineHeight;
-      }
-      ctx.fillText(line.trimEnd(), x, currentY);
-      line = token.trimStart();
-      currentY += lineHeight;
-    } else {
-      line = testLine;
-    }
-  }
-
-  if (line.trim() && lineCount < maxLines) {
-    ctx.fillText(line.trimEnd(), x, currentY);
-    currentY += lineHeight;
-  }
-  return currentY;
-}
-
-/**
- * 둥근 사각형 경로 헬퍼
- */
 function drawRoundedRectPath(ctx, x, y, width, height, radius) {
   if (typeof ctx.beginPath === 'function') ctx.beginPath();
   if (typeof ctx.roundRect === 'function') {
@@ -222,25 +380,224 @@ function drawRoundedRectPath(ctx, x, y, width, height, radius) {
   }
 }
 
-/**
- * 비동기 이미지 로더
- */
-function loadArtworkImage(src) {
-  return new Promise((resolve) => {
-    if (typeof Image === 'undefined') return resolve(null);
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => resolve(img);
-    img.onerror = () => resolve(null);
-    img.src = src;
-    setTimeout(() => resolve(null), 4500);
-  });
+function fillRoundedRect(ctx, x, y, w, h, r, fillStyle, strokeStyle = null, lineWidth = 1) {
+  ctx.save();
+  drawRoundedRectPath(ctx, x, y, w, h, r);
+  if (fillStyle) {
+    ctx.fillStyle = fillStyle;
+    ctx.fill();
+  }
+  if (strokeStyle) {
+    ctx.strokeStyle = strokeStyle;
+    ctx.lineWidth = lineWidth;
+    ctx.stroke();
+  }
+  ctx.restore();
 }
 
 /**
- * 9:16 인스타그램 스토리 고해상도 캔버스(1080 × 1920) 렌더링
+ * Full-fidelity line wrapper with ZERO truncation ('...' never happens).
+ * Supports space-delimited words AND CJK character wrapping + long compound word breaking.
  */
-export async function renderStoryCanvas(canvas, jobData, currentName = '', theme = 'cosmic', lang = 'ko') {
+function wrapCanvasLines(ctx, text, maxWidth) {
+  if (!text) return [];
+  const raw = String(text).replace(/\s+/g, ' ').trim();
+  if (!raw) return [];
+
+  const hasSpaces = raw.includes(' ');
+  const units = hasSpaces ? raw.split(' ') : Array.from(raw);
+  const lines = [];
+  let current = '';
+
+  const pushBrokenLongWord = (word) => {
+    let chunk = '';
+    for (const ch of Array.from(word)) {
+      const next = chunk + ch;
+      if (ctx.measureText(next).width > maxWidth && chunk.length > 0) {
+        lines.push(chunk);
+        chunk = ch;
+      } else {
+        chunk = next;
+      }
+    }
+    return chunk;
+  };
+
+  for (let i = 0; i < units.length; i++) {
+    const unit = units[i];
+    const sep = (hasSpaces && current.length > 0) ? ' ' : '';
+    const candidate = current + sep + unit;
+
+    if (ctx.measureText(candidate).width <= maxWidth) {
+      current = candidate;
+    } else {
+      if (current.length > 0) {
+        lines.push(current);
+      }
+      if (ctx.measureText(unit).width > maxWidth) {
+        current = pushBrokenLongWord(unit);
+      } else {
+        current = unit;
+      }
+    }
+  }
+
+  if (current.length > 0) {
+    lines.push(current);
+  }
+  return lines;
+}
+
+async function ensureCanvasFonts() {
+  if (typeof document === 'undefined' || !document.fonts || typeof document.fonts.load !== 'function') {
+    return;
+  }
+  try {
+    await Promise.race([
+      Promise.all([
+        document.fonts.load('700 36px "Paperlogy"'),
+        document.fonts.load('800 44px "Paperlogy"'),
+        document.fonts.load('600 25px "SUITE Variable"'),
+        document.fonts.load('700 27px "SUITE Variable"')
+      ]),
+      new Promise((resolve) => setTimeout(resolve, 1500))
+    ]);
+  } catch (_) {}
+}
+
+function loadSingleImage(src, timeoutMs = 4200) {
+  return new Promise((resolve) => {
+    if (typeof Image === 'undefined' || !src) return resolve(null);
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    let settled = false;
+    const done = (val) => {
+      if (!settled) {
+        settled = true;
+        resolve(val);
+      }
+    };
+    img.onload = () => done(img.naturalWidth > 0 || img.width > 0 ? img : null);
+    img.onerror = () => done(null);
+    img.src = src;
+    setTimeout(() => done(null), timeoutMs);
+  });
+}
+
+async function loadArtworkWithFallbacks(lv, itemData) {
+  const padded = String(lv).padStart(5, '0');
+  const altExt = 'png' === 'png' ? 'webp' : 'png';
+  const candidates = [
+    `https://img.tellmyname.app/jobs/${padded}.png?v=2`,
+    `https://img.tellmyname.app/jobs/${padded}.${altExt}?v=2`,
+    itemData?.imageUrl || '',
+    `/r2/jobs/${padded}.webp`,
+    `/r2/jobs/${padded}.png`
+  ].filter(Boolean);
+
+  const seen = new Set();
+  for (const url of candidates) {
+    if (seen.has(url)) continue;
+    seen.add(url);
+    const img = await loadSingleImage(url);
+    if (img) return img;
+  }
+  return null;
+}
+
+function normalizeShareTheme(theme) {
+  if (theme === 'aurora' || theme === 'cyber' || theme === 'dark') return 'aurora';
+  if (theme === 'peach' || theme === 'sunset' || theme === 'cosmic' || theme === 'fresh') return 'peach';
+  return 'cream';
+}
+
+function getPalette(themeName) {
+  if (themeName === 'aurora') {
+    return {
+      bgStops: ['#090D1A', '#131C38', '#0D1326'],
+      orbA: 'rgba(56, 189, 248, 0.16)',
+      orbB: 'rgba(167, 139, 250, 0.16)',
+      cardBg: '#151E33',
+      cardBorder: 'rgba(148, 163, 184, 0.22)',
+      cardShadow: 'rgba(2, 6, 23, 0.55)',
+      topPillBg: 'rgba(99, 102, 241, 0.22)',
+      topPillText: '#A5B4FC',
+      catchphrase: '#CBD5E1',
+      title: '#F8FAFC',
+      bentoBg: 'rgba(30, 41, 69, 0.88)',
+      bentoBorder: 'rgba(148, 163, 184, 0.16)',
+      bentoLabel: '#94A3B8',
+      bentoVal: '#F1F5F9',
+      bentoAccent: '#38BDF8',
+      featureLabel: '#A78BFA',
+      featureText: '#E2E8F0',
+      quoteBgStart: 'rgba(79, 70, 229, 0.24)',
+      quoteBgEnd: 'rgba(236, 72, 153, 0.18)',
+      quoteBorder: 'rgba(165, 180, 252, 0.28)',
+      quoteText: '#F8FAFC',
+      footerPillBg: 'rgba(30, 41, 69, 0.9)',
+      footerText: '#94A3B8'
+    };
+  }
+  if (themeName === 'peach') {
+    return {
+      bgStops: ['#FFF1F2', '#FFE4E6', '#FFEDD5'],
+      orbA: 'rgba(251, 113, 133, 0.18)',
+      orbB: 'rgba(251, 146, 60, 0.16)',
+      cardBg: '#FFFCFA',
+      cardBorder: '#FECDD3',
+      cardShadow: 'rgba(136, 19, 55, 0.10)',
+      topPillBg: '#FFE4E6',
+      topPillText: '#E11D48',
+      catchphrase: '#57534E',
+      title: '#1C1917',
+      bentoBg: '#FFF5F5',
+      bentoBorder: '#FFE4E6',
+      bentoLabel: '#78716C',
+      bentoVal: '#292524',
+      bentoAccent: '#E11D48',
+      featureLabel: '#EA580C',
+      featureText: '#292524',
+      quoteBgStart: '#FFF1F2',
+      quoteBgEnd: '#FFEDD5',
+      quoteBorder: '#FDBA74',
+      quoteText: '#431407',
+      footerPillBg: '#FFF1F2',
+      footerText: '#9F1239'
+    };
+  }
+  // Default: 'cream' (Bright Polaroid Photocard)
+  return {
+    bgStops: ['#EEF2FF', '#FDF2F8', '#FFF7ED'],
+    orbA: 'rgba(99, 102, 241, 0.14)',
+    orbB: 'rgba(236, 72, 153, 0.12)',
+    cardBg: '#FFFFFF',
+    cardBorder: '#E2E8F0',
+    cardShadow: 'rgba(15, 23, 42, 0.10)',
+    topPillBg: '#EEF2FF',
+    topPillText: '#4F46E5',
+    catchphrase: '#475569',
+    title: '#0F172A',
+    bentoBg: '#F8FAFC',
+    bentoBorder: '#E2E8F0',
+    bentoLabel: '#64748B',
+    bentoVal: '#1E293B',
+    bentoAccent: '#4F46E5',
+    featureLabel: '#6366F1',
+    featureText: '#334155',
+    quoteBgStart: '#EEF2FF',
+    quoteBgEnd: '#FDF2F8',
+    quoteBorder: '#C7D2FE',
+    quoteText: '#1E1B4B',
+    footerPillBg: '#F1F5F9',
+    footerText: '#64748B'
+  };
+}
+
+/**
+ * Dynamic-Height Zero-Clip Polaroid Bento Share Card Renderer
+ */
+export async function renderStoryCanvas(canvas, itemData, currentName = '', theme = 'cream', lang = 'ko') {
   if (!canvas || typeof canvas.getContext !== 'function') {
     return null;
   }
@@ -248,412 +605,418 @@ export async function renderStoryCanvas(canvas, jobData, currentName = '', theme
   const ctx = canvas.getContext('2d');
   if (!ctx) return null;
 
-  canvas.width = 1080;
-  canvas.height = 1920;
+  await ensureCanvasFonts();
 
   const width = 1080;
-  const height = 1920;
   const trimmedName = typeof currentName === 'string' ? currentName.trim() : '';
-  const rawLv = Number(jobData?.level);
+  const rawLv = Number(itemData?.level);
   const lv = Math.max(0, Math.min(MAX_LEVEL, isNaN(rawLv) ? 0 : rawLv));
-  const paddedLevel = String(lv).padStart(5, '0');
   const isReal = lv % 2 === 0;
-  const isGood = lv >= GOOD_JOB_THRESHOLD;
+  const isGood = lv >= GOOD_THRESHOLD;
 
-  const selectedLang = UI_DICTIONARY[lang] ? lang : 'ko';
-  const dict = UI_DICTIONARY[selectedLang] || UI_DICTIONARY['ko'];
-  const localized = localizeJob(jobData || { level: lv }, selectedLang, trimmedName);
+  const dict = getDict(lang);
+  const selectedLang = SHARE_UI_COPY[lang] ? lang : (dict && Object.keys(dict).length > 0 ? lang : 'ko');
+  const ui = SHARE_UI_COPY[selectedLang] || SHARE_UI_COPY.en;
+  const localized = localizeItem(itemData || { level: lv }, selectedLang, trimmedName);
+  const activeTheme = normalizeShareTheme(theme);
+  const pal = getPalette(activeTheme);
 
-  let activeTheme = theme;
-  if (activeTheme === 'cosmic') activeTheme = 'sunset';
-  if (!['cert', 'cyber', 'sunset'].includes(activeTheme)) {
-    activeTheme = 'cert';
-  }
-
-  let bgGradient, borderGradient, cardBg, textPrimary, textSecondary, textAccent, badgeBg;
-  if (activeTheme === 'cert') {
-    bgGradient = ctx.createLinearGradient(0, 0, width, height);
-    bgGradient.addColorStop(0, '#170609');
-    bgGradient.addColorStop(0.4, '#280c13');
-    bgGradient.addColorStop(1, '#110306');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#f4d06f');
-    borderGradient.addColorStop(0.5, '#c89933');
-    borderGradient.addColorStop(1, '#f9e79f');
-
-    cardBg = 'rgba(28, 9, 14, 0.88)';
-    textPrimary = '#fff8e7';
-    textSecondary = '#e6c887';
-    textAccent = '#ffd700';
-    badgeBg = 'rgba(218, 165, 32, 0.25)';
-  } else if (activeTheme === 'cyber') {
-    bgGradient = ctx.createLinearGradient(0, 0, width, height);
-    bgGradient.addColorStop(0, '#04060e');
-    bgGradient.addColorStop(0.5, '#0a1024');
-    bgGradient.addColorStop(1, '#050711');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#00f0ff');
-    borderGradient.addColorStop(0.5, '#8a2be2');
-    borderGradient.addColorStop(1, '#ff007f');
-
-    cardBg = 'rgba(7, 13, 30, 0.90)';
-    textPrimary = '#f0f8ff';
-    textSecondary = '#00f0ff';
-    textAccent = '#ff007f';
-    badgeBg = 'rgba(0, 240, 255, 0.2)';
-  } else {
-    bgGradient = ctx.createLinearGradient(0, 0, 0, height);
-    bgGradient.addColorStop(0, '#0f051d');
-    bgGradient.addColorStop(0.3, '#351044');
-    bgGradient.addColorStop(0.65, '#831843');
-    bgGradient.addColorStop(0.85, '#ea580c');
-    bgGradient.addColorStop(1, '#f59e0b');
-
-    borderGradient = ctx.createLinearGradient(60, 60, width - 60, height - 60);
-    borderGradient.addColorStop(0, '#ffffff');
-    borderGradient.addColorStop(0.5, '#f472b6');
-    borderGradient.addColorStop(1, '#fbbf24');
-
-    cardBg = 'rgba(20, 6, 30, 0.78)';
-    textPrimary = '#ffffff';
-    textSecondary = '#fbcfe8';
-    textAccent = '#fde047';
-    badgeBg = 'rgba(255, 255, 255, 0.18)';
-  }
-
-  ctx.fillStyle = bgGradient;
-  ctx.fillRect(0, 0, width, height);
-
-  if (activeTheme === 'cyber') {
-    ctx.save();
-    ctx.strokeStyle = 'rgba(0, 240, 255, 0.06)';
-    ctx.lineWidth = 1.5;
-    for (let x = 60; x < width; x += 60) {
-      ctx.beginPath();
-      ctx.moveTo(x, 0);
-      ctx.lineTo(x, height);
-      ctx.stroke();
-    }
-    for (let y = 60; y < height; y += 60) {
-      ctx.beginPath();
-      ctx.moveTo(0, y);
-      ctx.lineTo(width, y);
-      ctx.stroke();
-    }
-    ctx.restore();
-  }
-
-  if (activeTheme === 'sunset') {
-    ctx.save();
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
-    const stars = [
-      [140, 150, 2.5], [280, 220, 1.8], [420, 120, 3], [780, 180, 2], [920, 250, 3],
-      [200, 360, 2], [850, 380, 2.2], [160, 520, 1.5], [940, 580, 2], [320, 700, 1.8]
-    ];
-    stars.forEach(([sx, sy, sr]) => {
-      ctx.beginPath();
-      ctx.arc(sx, sy, sr, 0, Math.PI * 2);
-      ctx.fill();
-    });
-    ctx.restore();
-  }
-
-  ctx.save();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 4;
-  drawRoundedRectPath(ctx, 50, 50, width - 100, height - 100, 36);
-  ctx.stroke();
-
-  if (activeTheme === 'cert') {
-    ctx.strokeStyle = 'rgba(218, 165, 32, 0.4)';
-    ctx.lineWidth = 1.5;
-    drawRoundedRectPath(ctx, 62, 62, width - 124, height - 124, 28);
-    ctx.stroke();
-  }
-  ctx.restore();
-
-  // STEP 1: TOP (Y: 90 ~ 250) — Owner Headline
-  ctx.save();
-  ctx.textAlign = 'center';
-
-  ctx.fillStyle = badgeBg;
-  drawRoundedRectPath(ctx, width / 2 - 270, 92, 540, 44, 22);
-  ctx.fill();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 1.5;
-  ctx.stroke();
-
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 20px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  const orgBadgeText = `💼 ${dict.brandHeader || 'MyJob'} • MULTIVERSE HR AI`;
-  ctx.fillText(orgBadgeText, width / 2, 122);
-
-  let primaryHeadline = '';
-  let subHeadline = '';
-
+  // Prepare text values
+  const brandHeader = dict.brandHeader || (selectedLang === 'ko' ? '나에게 어울리는 직업' : 'The Job That Suits You');
+  let catchphrase = '';
   if (trimmedName) {
     if (selectedLang === 'ko') {
-      primaryHeadline = `${trimmedName}님에게 어울리는 직업은`;
-      subHeadline = `${trimmedName}님의 다중우주 인사발령장`;
+      catchphrase = '{name}님에게 어울리는 직업은'.replace('{name}', trimmedName);
     } else {
-      primaryHeadline = dict.ownerTitle ? dict.ownerTitle.replace('{name}', trimmedName) : `The Job That Suits ${trimmedName}`;
-      subHeadline = `${dict.brandHeader || 'MyJob'} • ${trimmedName}`;
+      catchphrase = dict.ownerTitle
+        ? dict.ownerTitle.replace('{name}', trimmedName)
+        : 'The Job That Suits {name}'.replace('{name}', trimmedName);
     }
   } else {
-    if (selectedLang === 'ko') {
-      primaryHeadline = '나에게 어울리는 직업은';
-      subHeadline = '나의 다중우주 인사발령장';
-    } else {
-      primaryHeadline = dict.brandHeader || 'The Job That Suits You';
-      subHeadline = dict.brandHeader || 'MyJob';
-    }
+    catchphrase = selectedLang === 'ko' ? '나에게 어울리는 직업은' : brandHeader;
   }
 
-  ctx.fillStyle = textPrimary;
-  ctx.font = 'bold 44px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.85)';
-  ctx.shadowBlur = 14;
-  ctx.fillText(primaryHeadline, width / 2, 185);
-  ctx.shadowBlur = 0;
+  const itemTitle = String(localized?.title || itemData?.title || `Lv.${lv}`).trim();
+  const spec1Label = `📅 ${dict.specs?.eraLabel || dict.specs?.builtYearLabel || (selectedLang === 'ko' ? '활동 시대' : 'Active Era')}`;
+  const spec1Val = String(localized?.era || localized?.builtYear || itemData?.era || itemData?.builtYear || '-').trim();
 
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 24px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  ctx.fillText(subHeadline, width / 2, 228);
+  const spec2Label = `💰 ${dict.specs?.priceLabel || dict.specs?.estimatedValueLabel || (selectedLang === 'ko' ? '추산 연봉' : 'Est. Salary')}`;
+  const spec2Val = String(localized?.estimatedPrice || localized?.estimatedSalary || localized?.estimatedValue || itemData?.estimatedPrice || itemData?.estimatedSalary || itemData?.estimatedValue || '-').trim();
 
+  const spec3Label = `⚡ ${dict.specs?.featureLabel || dict.specs?.specialFeatureLabel || (selectedLang === 'ko' ? '특별한 역할' : 'Key Role')}`;
+  const spec3Val = String(localized?.specialFeature || localized?.specialDuty || itemData?.specialFeature || itemData?.specialDuty || '-').trim();
+
+  const rawVerdict = String(localized?.aiVerdict || itemData?.aiVerdict || '').trim();
+  const verdictQuote = rawVerdict ? `“${rawVerdict}”` : '';
+
+  const zoneText = isGood
+    ? (dict.zones?.GOOD || (selectedLang === 'ko' ? '대박 직업' : 'Dream Job'))
+    : (dict.zones?.BAD || (selectedLang === 'ko' ? '폭망 직업' : 'Doom Job'));
+  const levelPillText = `Lv.${lv.toLocaleString()} · ${isGood ? '💎' : '💀'} ${zoneText}`;
+  const realityPillText = isReal ? `🏛️ ${ui.realShort}` : `✨ ${ui.fictionShort}`;
+
+  // Load image in parallel
+  const artworkImg = await loadArtworkWithFallbacks(lv, itemData);
+
+  // Pre-measure all wrapped text blocks BEFORE setting final canvas height (0% clipping!)
+  const cardX = 56;
+  const cardW = width - cardX * 2; // 968
+  const padX = 48;
+  const innerX = cardX + padX;     // 104
+  const innerW = cardW - padX * 2; // 872
+
+  canvas.width = width;
+  canvas.height = 1600; // temporary height for measureText context
+
+  ctx.font = `700 34px ${DISPLAY_FONT}`;
+  const catchLines = wrapCanvasLines(ctx, catchphrase, innerW - 20);
+  const catchLineH = 46;
+
+  const titleFontPx = Array.from(itemTitle).length > 28 ? 38 : 44;
+  const titleLineH = titleFontPx === 38 ? 50 : 58;
+  ctx.font = `800 ${titleFontPx}px ${DISPLAY_FONT}`;
+  const titleLines = wrapCanvasLines(ctx, itemTitle, innerW - 16);
+
+  const bentoGap = 20;
+  const bentoColW = Math.floor((innerW - bentoGap) / 2); // 426
+  const bentoInnerW = bentoColW - 48;
+  const bentoValLineH = 34;
+
+  ctx.font = `700 24px ${DISPLAY_FONT}`;
+  const spec1Lines = wrapCanvasLines(ctx, spec1Val, bentoInnerW);
+  const spec2Lines = wrapCanvasLines(ctx, spec2Val, bentoInnerW);
+  const maxSpecLines = Math.max(1, spec1Lines.length, spec2Lines.length);
+  const bentoBoxH = 24 + 28 + 12 + maxSpecLines * bentoValLineH + 22;
+
+  ctx.font = `600 25px ${BODY_FONT}`;
+  const featureLines = wrapCanvasLines(ctx, spec3Val, innerW - 56);
+  const featureLineH = 37;
+  const featureBoxH = 22 + 28 + 10 + Math.max(1, featureLines.length) * featureLineH + 22;
+
+  ctx.font = `700 27px ${BODY_FONT}`;
+  const verdictLines = verdictQuote ? wrapCanvasLines(ctx, verdictQuote, innerW - 64) : [];
+  const verdictLineH = 40;
+  const quoteBoxH = verdictLines.length > 0 ? (26 + verdictLines.length * verdictLineH + 26) : 0;
+
+  const photoH = 720;
+  const padTop = 46;
+  const appPillH = 46;
+  const footerPillH = 44;
+  const padBottom = 42;
+
+  const cardH =
+    padTop +
+    appPillH +
+    20 +
+    catchLines.length * catchLineH +
+    26 +
+    photoH +
+    36 +
+    titleLines.length * titleLineH +
+    26 +
+    bentoBoxH +
+    18 +
+    featureBoxH +
+    (quoteBoxH > 0 ? (18 + quoteBoxH) : 0) +
+    28 +
+    footerPillH +
+    padBottom;
+
+  const outerPadY = 56;
+  const finalHeight = Math.max(1520, cardH + outerPadY * 2);
+  canvas.width = width;
+  canvas.height = finalHeight;
+
+  const cardY = Math.round((finalHeight - cardH) / 2);
+
+  // 1. Draw Soft Studio Gradient Backdrop
+  const bgGrad = ctx.createLinearGradient(0, 0, width, finalHeight);
+  bgGrad.addColorStop(0, pal.bgStops[0]);
+  bgGrad.addColorStop(0.5, pal.bgStops[1]);
+  bgGrad.addColorStop(1, pal.bgStops[2]);
+  ctx.fillStyle = bgGrad;
+  ctx.fillRect(0, 0, width, finalHeight);
+
+  // Soft decorative ambient orbs (if createRadialGradient available)
+  if (typeof ctx.createRadialGradient === 'function') {
+    const orb1 = ctx.createRadialGradient(180, 220, 20, 180, 220, 460);
+    orb1.addColorStop(0, pal.orbA);
+    orb1.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = orb1;
+    ctx.fillRect(0, 0, width, finalHeight);
+
+    const orb2 = ctx.createRadialGradient(width - 160, finalHeight - 240, 20, width - 160, finalHeight - 240, 500);
+    orb2.addColorStop(0, pal.orbB);
+    orb2.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = orb2;
+    ctx.fillRect(0, 0, width, finalHeight);
+  }
+
+  // 2. Draw Polaroid Poster Card Container
+  ctx.save();
+  ctx.shadowColor = pal.cardShadow;
+  ctx.shadowBlur = 48;
+  ctx.shadowOffsetY = 18;
+  drawRoundedRectPath(ctx, cardX, cardY, cardW, cardH, 44);
+  ctx.fillStyle = pal.cardBg;
+  ctx.fill();
   ctx.restore();
 
-  // STEP 2: CENTER (Y: 260 ~ 1020) — High-Resolution Job Photo
-  const artX = 90;
-  const artY = 260;
-  const artW = 900;
-  const artH = 760;
-  const artRadius = 32;
+  fillRoundedRect(ctx, cardX, cardY, cardW, cardH, 44, null, pal.cardBorder, 2);
+
+  let curY = cardY + padTop;
+
+  // 3. Top App Brand Pill
+  ctx.save();
+  ctx.font = `700 22px ${DISPLAY_FONT}`;
+  const appPillLabel = `💼 ${brandHeader}`;
+  const appPillW = Math.min(innerW, Math.ceil(ctx.measureText(appPillLabel).width) + 52);
+  const appPillX = Math.round((width - appPillW) / 2);
+  fillRoundedRect(ctx, appPillX, curY, appPillW, appPillH, 23, pal.topPillBg);
+  ctx.fillStyle = pal.topPillText;
+  ctx.textAlign = 'center';
+  ctx.fillText(appPillLabel, width / 2, curY + 31);
+  ctx.restore();
+
+  curY += appPillH + 20;
+
+  // 4. Owner Catchphrase
+  ctx.save();
+  ctx.fillStyle = pal.catchphrase;
+  ctx.font = `700 34px ${DISPLAY_FONT}`;
+  ctx.textAlign = 'center';
+  for (const line of catchLines) {
+    ctx.fillText(line, width / 2, curY + 34);
+    curY += catchLineH;
+  }
+  ctx.restore();
+
+  curY += 26;
+
+  // 5. Large Rounded Hero Artwork Frame
+  const photoX = innerX;
+  const photoY = curY;
+  const photoW = innerW;
+  const photoRadius = 32;
 
   ctx.save();
-  drawRoundedRectPath(ctx, artX, artY, artW, artH, artRadius);
+  drawRoundedRectPath(ctx, photoX, photoY, photoW, photoH, photoRadius);
   ctx.clip();
 
-  ctx.fillStyle = '#080c18';
-  ctx.fillRect(artX, artY, artW, artH);
-
-  const imageSrc = jobData?.imageUrl || `/r2/jobs/${paddedLevel}.webp`;
-  const artworkImg = await loadArtworkImage(imageSrc);
+  ctx.fillStyle = activeTheme === 'aurora' ? '#0F172A' : '#F1F5F9';
+  ctx.fillRect(photoX, photoY, photoW, photoH);
 
   if (artworkImg) {
-    const imgRatio = artworkImg.width / artworkImg.height;
-    const targetRatio = artW / artH;
-    let sx, sy, sWidth, sHeight;
-
-    if (imgRatio > targetRatio) {
+    const imgRatio = artworkImg.width / Math.max(1, artworkImg.height);
+    const boxRatio = photoW / photoH;
+    let sx = 0, sy = 0, sWidth = artworkImg.width, sHeight = artworkImg.height;
+    if (imgRatio > boxRatio) {
       sHeight = artworkImg.height;
-      sWidth = artworkImg.height * targetRatio;
+      sWidth = artworkImg.height * boxRatio;
       sx = (artworkImg.width - sWidth) / 2;
-      sy = 0;
     } else {
       sWidth = artworkImg.width;
-      sHeight = artworkImg.width / targetRatio;
-      sx = 0;
+      sHeight = artworkImg.width / boxRatio;
       sy = (artworkImg.height - sHeight) / 2;
     }
-    ctx.drawImage(artworkImg, sx, sy, sWidth, sHeight, artX, artY, artW, artH);
-
-    const artGlow = ctx.createLinearGradient(artX, artY + artH - 220, artX, artY + artH);
-    artGlow.addColorStop(0, 'rgba(0, 0, 0, 0)');
-    artGlow.addColorStop(1, 'rgba(0, 0, 0, 0.75)');
-    ctx.fillStyle = artGlow;
-    ctx.fillRect(artX, artY + artH - 220, artW, 220);
+    ctx.drawImage(artworkImg, sx, sy, sWidth, sHeight, photoX, photoY, photoW, photoH);
   } else {
-    const fallbackGrad = ctx.createLinearGradient(artX, artY, artX + artW, artY + artH);
-    fallbackGrad.addColorStop(0, '#1e293b');
-    fallbackGrad.addColorStop(1, '#0f172a');
-    ctx.fillStyle = fallbackGrad;
-    ctx.fillRect(artX, artY, artW, artH);
-
-    ctx.fillStyle = textSecondary;
+    const fbGrad = ctx.createLinearGradient(photoX, photoY, photoX + photoW, photoY + photoH);
+    fbGrad.addColorStop(0, '#312E81');
+    fbGrad.addColorStop(1, '#1E1B4B');
+    ctx.fillStyle = fbGrad;
+    ctx.fillRect(photoX, photoY, photoW, photoH);
+    ctx.fillStyle = '#FFFFFF';
     ctx.textAlign = 'center';
-    ctx.font = '72px sans-serif';
-    ctx.fillText(localized?.categoryEmoji || jobData?.categoryEmoji || '💼', artX + artW / 2, artY + artH / 2 - 30);
-    ctx.font = 'bold 32px "Pretendard", sans-serif';
-    ctx.fillText(`Lv.${lv} Occupation Photo`, artX + artW / 2, artY + artH / 2 + 40);
+    ctx.font = '88px sans-serif';
+    ctx.fillText(localized?.categoryEmoji || itemData?.categoryEmoji || '💼', photoX + photoW / 2, photoY + photoH / 2 - 12);
+    ctx.font = `700 30px ${DISPLAY_FONT}`;
+    ctx.fillText(`Lv.${lv}`, photoX + photoW / 2, photoY + photoH / 2 + 54);
   }
   ctx.restore();
 
+  fillRoundedRect(ctx, photoX, photoY, photoW, photoH, photoRadius, null, 'rgba(15, 23, 42, 0.08)', 2);
+
+  // Sleek Frosted Badges on Top of Photo (Unobstructive)
   ctx.save();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 3;
-  drawRoundedRectPath(ctx, artX, artY, artW, artH, artRadius);
-  ctx.stroke();
+  ctx.font = `700 22px ${DISPLAY_FONT}`;
+  const lvPillW = Math.min(photoW - 220, Math.ceil(ctx.measureText(levelPillText).width) + 42);
+  fillRoundedRect(ctx, photoX + 22, photoY + 22, lvPillW, 46, 23, 'rgba(15, 23, 42, 0.76)', 'rgba(255,255,255,0.22)', 1.5);
+  ctx.fillStyle = '#FFFFFF';
+  ctx.textAlign = 'center';
+  ctx.fillText(levelPillText, photoX + 22 + lvPillW / 2, photoY + 53);
+
+  ctx.font = `700 21px ${DISPLAY_FONT}`;
+  const realPillW = Math.ceil(ctx.measureText(realityPillText).width) + 36;
+  const realPillX = photoX + photoW - 22 - realPillW;
+  fillRoundedRect(ctx, realPillX, photoY + 22, realPillW, 46, 23, 'rgba(15, 23, 42, 0.72)', 'rgba(255,255,255,0.22)', 1.5);
+  ctx.fillStyle = isReal ? '#7DD3FC' : '#F0ABFC';
+  ctx.fillText(realityPillText, realPillX + realPillW / 2, photoY + 52);
   ctx.restore();
 
-  // 2-B. 아트워크 위 3대 뱃지 오버레이
+  curY += photoH + 36;
+
+  // 6. Full Unclipped Result Title
   ctx.save();
-
-  ctx.fillStyle = 'rgba(5, 7, 15, 0.88)';
-  drawRoundedRectPath(ctx, artX + 24, artY + 24, 280, 52, 26);
-  ctx.fill();
-  ctx.strokeStyle = textAccent;
-  ctx.lineWidth = 2;
-  ctx.stroke();
-
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 26px "Pretendard", sans-serif';
+  ctx.fillStyle = pal.title;
+  ctx.font = `800 ${titleFontPx}px ${DISPLAY_FONT}`;
   ctx.textAlign = 'center';
-  ctx.fillText(`Lv.${lv.toLocaleString()} / ${MAX_LEVEL}`, artX + 164, artY + 59);
-
-  const realityBadgeText = isReal
-    ? (selectedLang === 'ko' ? '🏛️ 짝수 · 실제 직업' : `🏛️ Even · ${dict.reality?.REAL || 'Real World'}`)
-    : (selectedLang === 'ko' ? '🦄 홀수 · 허구 직업' : `🦄 Odd · ${dict.reality?.FICTION || 'Fictional'}`);
-  const realityBadgeColor = isReal ? '#38bdf8' : '#e879f9';
-
-  ctx.font = 'bold 21px "Pretendard", sans-serif';
-  const rBadgeW = Math.max(276, Math.min(540, Math.ceil(ctx.measureText(realityBadgeText).width) + 48));
-  const rBadgeX = artX + artW - 24 - rBadgeW;
-  ctx.fillStyle = 'rgba(5, 7, 15, 0.88)';
-  drawRoundedRectPath(ctx, rBadgeX, artY + 24, rBadgeW, 52, 26);
-  ctx.fill();
-  ctx.strokeStyle = realityBadgeColor;
-  ctx.lineWidth = 2;
-  ctx.stroke();
-  ctx.fillStyle = realityBadgeColor;
-  ctx.fillText(realityBadgeText, rBadgeX + rBadgeW / 2, artY + 59);
-
-  const zoneLabelLocalized = isGood
-    ? (dict.zones?.GOOD || 'Jackpot Job')
-    : (dict.zones?.BAD || 'Doom Job');
-  const zoneBadgeText = isGood ? `🌟 ${zoneLabelLocalized}` : `💀 ${zoneLabelLocalized}`;
-  const zoneBadgeColor = isGood ? '#34d399' : '#f87171';
-
-  ctx.fillStyle = 'rgba(5, 7, 15, 0.88)';
-  drawRoundedRectPath(ctx, artX + 24, artY + artH - 76, 360, 52, 26);
-  ctx.fill();
-  ctx.strokeStyle = zoneBadgeColor;
-  ctx.lineWidth = 2;
-  ctx.stroke();
-
-  ctx.fillStyle = zoneBadgeColor;
-  ctx.font = 'bold 23px "Pretendard", sans-serif';
-  ctx.fillText(zoneBadgeText, artX + 204, artY + artH - 42);
-
+  for (const line of titleLines) {
+    ctx.fillText(line, width / 2, curY + titleFontPx);
+    curY += titleLineH;
+  }
   ctx.restore();
 
-  // STEP 3: BOTTOM (Y: 1040 ~ 1695) — Photo Descriptions & Appraisal Specs
-  const cardX = 90;
-  const cardY = 1040;
-  const cardW = 900;
-  const cardH = 655;
-  const cardRadius = 32;
+  curY += 26;
+
+  // 7. Two Side-by-Side Bento Stat Boxes
+  const leftBoxX = innerX;
+  const rightBoxX = innerX + bentoColW + bentoGap;
+
+  fillRoundedRect(ctx, leftBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
+  fillRoundedRect(ctx, rightBoxX, curY, bentoColW, bentoBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
 
   ctx.save();
-  ctx.fillStyle = cardBg;
-  drawRoundedRectPath(ctx, cardX, cardY, cardW, cardH, cardRadius);
-  ctx.fill();
-  ctx.strokeStyle = borderGradient;
-  ctx.lineWidth = 2.5;
-  ctx.stroke();
-
-  const jobTitle = localized?.title || jobData?.title || `Job Lv.${lv}`;
-  ctx.fillStyle = textPrimary;
-  ctx.font = 'bold 32px "Pretendard", "Apple SD Gothic Neo", sans-serif';
   ctx.textAlign = 'left';
-  let cursorY = renderWrappedText(ctx, jobTitle, cardX + 45, cardY + 58, cardW - 90, 42, 2);
+  ctx.font = `700 20px ${BODY_FONT}`;
+  ctx.fillStyle = pal.bentoLabel;
+  ctx.fillText(spec1Label, leftBoxX + 24, curY + 42);
+  ctx.fillText(spec2Label, rightBoxX + 24, curY + 42);
 
-  const dividerY = Math.max(cursorY + 6, cardY + 118);
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.18)';
-  ctx.lineWidth = 1.5;
-  ctx.beginPath();
-  ctx.moveTo(cardX + 45, dividerY);
-  ctx.lineTo(cardX + cardW - 45, dividerY);
-  ctx.stroke();
+  ctx.font = `700 24px ${DISPLAY_FONT}`;
+  ctx.fillStyle = pal.bentoVal;
+  let s1Y = curY + 80;
+  for (const line of spec1Lines) {
+    ctx.fillText(line, leftBoxX + 24, s1Y);
+    s1Y += bentoValLineH;
+  }
 
-  let detailY = dividerY + 46;
-  const labelColX = cardX + 45;
-  const valColX = cardX + 255;
-  const valWidth = cardW - 300;
-
-  const builtYearLabel = `📅 ${dict.specs?.builtYearLabel || '언제 하던 직업인지'}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.textAlign = 'left';
-  ctx.fillText(builtYearLabel, labelColX, detailY);
-  ctx.fillStyle = textPrimary;
-  ctx.font = '500 22px "Pretendard", sans-serif';
-  detailY = renderWrappedText(ctx, localized?.era || localized?.builtYear || jobData?.era || jobData?.builtYear || '-', valColX, detailY, valWidth, 32, 2) + 16;
-
-  const estValueLabel = `💰 ${dict.specs?.estimatedValueLabel || '추산되는 연봉'}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.textAlign = 'left';
-  ctx.fillText(estValueLabel, labelColX, detailY);
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 23px "Pretendard", sans-serif';
-  detailY = renderWrappedText(ctx, localized?.estimatedSalary || localized?.estimatedValue || jobData?.estimatedSalary || jobData?.estimatedValue || '-', valColX, detailY, valWidth, 32, 2) + 16;
-
-  const specFeatureLabel = `⚡ ${dict.specs?.specialFeatureLabel || '특별한 역할·할일'}`;
-  ctx.fillStyle = textSecondary;
-  ctx.font = 'bold 22px "Pretendard", sans-serif';
-  ctx.textAlign = 'left';
-  ctx.fillText(specFeatureLabel, labelColX, detailY);
-  ctx.fillStyle = textPrimary;
-  ctx.font = '400 21px "Pretendard", sans-serif';
-  const specialText = localized?.specialDuty || localized?.specialFeature || jobData?.specialDuty || jobData?.specialFeature || '-';
-  detailY = renderWrappedText(ctx, specialText, valColX, detailY, valWidth, 30, 2) + 12;
-
-  const verdictDivY = detailY + 4;
-  ctx.strokeStyle = 'rgba(255, 255, 255, 0.18)';
-  ctx.lineWidth = 1.5;
-  ctx.beginPath();
-  ctx.moveTo(cardX + 45, verdictDivY);
-  ctx.lineTo(cardX + cardW - 45, verdictDivY);
-  ctx.stroke();
-
-  const verdictStartY = verdictDivY + 44;
-  ctx.textAlign = 'center';
-  ctx.fillStyle = textPrimary;
-  ctx.font = 'bold 25px "Pretendard", "Apple SD Gothic Neo", sans-serif';
-  const verdictText = localized?.aiVerdict || jobData?.aiVerdict || '-';
-  renderWrappedText(ctx, `“${verdictText}”`, width / 2, verdictStartY, cardW - 90, 35, 3);
-
+  ctx.fillStyle = pal.bentoAccent;
+  let s2Y = curY + 80;
+  for (const line of spec2Lines) {
+    ctx.fillText(line, rightBoxX + 24, s2Y);
+    s2Y += bentoValLineH;
+  }
   ctx.restore();
 
-  // 4. 하단 워터마크 & 스토리 참여 유도 (Y: 1715 ~ 1860)
+  curY += bentoBoxH + 18;
+
+  // 8. Key Feature Bento Box (Full Wrap, Zero Clip)
+  fillRoundedRect(ctx, innerX, curY, innerW, featureBoxH, 24, pal.bentoBg, pal.bentoBorder, 1.5);
   ctx.save();
+  ctx.textAlign = 'left';
+  ctx.font = `700 20px ${BODY_FONT}`;
+  ctx.fillStyle = pal.featureLabel;
+  ctx.fillText(spec3Label, innerX + 28, curY + 40);
+
+  ctx.font = `600 25px ${BODY_FONT}`;
+  ctx.fillStyle = pal.featureText;
+  let fY = curY + 78;
+  for (const line of featureLines) {
+    ctx.fillText(line, innerX + 28, fY);
+    fY += featureLineH;
+  }
+  ctx.restore();
+
+  curY += featureBoxH;
+
+  // 9. Highlight AI One-Liner Quote Card
+  if (verdictLines.length > 0) {
+    curY += 18;
+    const qGrad = ctx.createLinearGradient(innerX, curY, innerX + innerW, curY + quoteBoxH);
+    qGrad.addColorStop(0, pal.quoteBgStart);
+    qGrad.addColorStop(1, pal.quoteBgEnd);
+    fillRoundedRect(ctx, innerX, curY, innerW, quoteBoxH, 26, qGrad, pal.quoteBorder, 1.5);
+
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.font = `700 27px ${BODY_FONT}`;
+    ctx.fillStyle = pal.quoteText;
+    let qY = curY + 54;
+    for (const line of verdictLines) {
+      ctx.fillText(line, width / 2, qY);
+      qY += verdictLineH;
+    }
+    ctx.restore();
+
+    curY += quoteBoxH;
+  }
+
+  curY += 28;
+
+  // 10. Clean Subtle Domain Watermark Pill (Zero Clutter!)
+  ctx.save();
+  ctx.font = `700 21px ${DISPLAY_FONT}`;
+  const wmText = WATERMARK_DOMAIN;
+  const wmW = Math.ceil(ctx.measureText(wmText).width) + 48;
+  const wmX = Math.round((width - wmW) / 2);
+  fillRoundedRect(ctx, wmX, curY, wmW, footerPillH, 22, pal.footerPillBg);
+  ctx.fillStyle = pal.footerText;
   ctx.textAlign = 'center';
-
-  const shareUrl = buildPermanentShareUrl(jobData, trimmedName, selectedLang);
-  const readableUrl = formatReadableShareUrl(shareUrl);
-  const displayHostAndPath = readableUrl.replace(/^https?:\/\//, '');
-
-  ctx.fillStyle = textAccent;
-  ctx.font = 'bold 29px "Pretendard", sans-serif';
-  ctx.fillText(`🔗 ${displayHostAndPath}`, width / 2, 1755);
-
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.90)';
-  ctx.font = '500 22px "Pretendard", sans-serif';
-  const stickerHint = dict.storyPhotoHint || '👆 링크를 눌러 나에게 어울리는 직업을 확인해보세요!';
-  ctx.fillText(stickerHint, width / 2, 1800);
-
-  ctx.fillStyle = 'rgba(255, 255, 255, 0.45)';
-  ctx.font = '400 17px monospace';
-  ctx.fillText('tellmyname.app/job • 0~1000 Multiverse AI Occupation Appraisal', width / 2, 1840);
+  ctx.fillText(wmText, width / 2, curY + 29);
   ctx.restore();
 
   return canvas;
 }
 
+function isMobileShareDevice() {
+  if (typeof navigator === 'undefined') return false;
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPad|iPod|Mobile/i.test(ua)) return true;
+  if (navigator.maxTouchPoints > 1 && typeof window !== 'undefined' && window.innerWidth < 1024) return true;
+  return false;
+}
+
+function canvasToPngBlob(canvas) {
+  return new Promise((resolve) => {
+    if (!canvas) return resolve(null);
+    if (typeof canvas.toBlob === 'function') {
+      canvas.toBlob((blob) => resolve(blob || null), 'image/png');
+    } else if (typeof canvas.toDataURL === 'function') {
+      try {
+        const dataUrl = canvas.toDataURL('image/png');
+        const b64 = dataUrl.split(',')[1] || '';
+        const bin = atob(b64);
+        const bytes = new Uint8Array(bin.length);
+        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+        resolve(new Blob([bytes], { type: 'image/png' }));
+      } catch (_) {
+        resolve(null);
+      }
+    } else {
+      resolve(null);
+    }
+  });
+}
+
+function downloadBlobAsFile(blob, filename) {
+  if (!blob || typeof document === 'undefined') return false;
+  const blobUrl = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = blobUrl;
+  a.download = filename;
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    if (a.parentNode) document.body.removeChild(a);
+    URL.revokeObjectURL(blobUrl);
+  }, 1500);
+  return true;
+}
+
 /**
- * 공유 모달 대화상자 열기 (다국어 지원)
+ * Simplified 1-Button Share Preview Modal
  */
-export function openShareModal(jobData, currentName = '', lang = 'ko') {
+export function openShareModal(itemData, currentName = '', lang = 'ko') {
   if (typeof document === 'undefined') return;
 
-  const selectedLang = UI_DICTIONARY[lang] ? lang : 'ko';
-  const dict = UI_DICTIONARY[selectedLang] || UI_DICTIONARY['ko'];
+  const dict = getDict(lang);
+  const selectedLang = SHARE_UI_COPY[lang] ? lang : 'ko';
+  const ui = SHARE_UI_COPY[selectedLang] || SHARE_UI_COPY.en;
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
-  const shareUrl = buildPermanentShareUrl(jobData, trimmed, selectedLang);
-  const readableShareUrl = formatReadableShareUrl(shareUrl);
-  const payload = buildSharePayload(jobData, trimmed, selectedLang);
+  const payload = buildSharePayload(itemData, trimmed, selectedLang);
+  const brandHeader = dict.brandHeader || (selectedLang === 'ko' ? '나에게 어울리는 직업' : 'The Job That Suits You');
 
   let root = document.getElementById('share-modal-root');
   if (!root) {
@@ -667,58 +1030,30 @@ export function openShareModal(jobData, currentName = '', lang = 'ko') {
       <div class="share-modal" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
         <div class="share-modal-header">
           <div>
-            <h3 class="share-modal-title" id="share-modal-title">✨ ${dict.brandHeader || 'MyJob'}</h3>
-            <p class="share-modal-subtitle">${dict.storyPhotoHint || 'Instagram Story (9:16)'}</p>
+            <h3 class="share-modal-title" id="share-modal-title">💼 ${brandHeader}</h3>
+            <p class="share-modal-subtitle">${ui.subtitle}</p>
           </div>
-          <button class="share-modal-close" id="share-modal-close-btn" aria-label="Close">×</button>
+          <button type="button" class="share-modal-close" id="share-modal-close-btn" aria-label="Close">×</button>
         </div>
 
         <div class="share-modal-body">
-          <!-- 테마 선택기 -->
-          <div class="theme-selector">
-            <button class="theme-pill" data-theme="cert">📜 ${dict.shareModal?.themeCert || (selectedLang === 'ko' ? '인사발령장' : 'Classic')}</button>
-            <button class="theme-pill" data-theme="cyber">⚡ ${dict.shareModal?.themeCyber || (selectedLang === 'ko' ? '사이버 네온' : 'Cyberpunk')}</button>
-            <button class="theme-pill active" data-theme="sunset">🌅 ${dict.shareModal?.themeSunset || (selectedLang === 'ko' ? '노을 그라디언트' : 'Sunset')}</button>
+          <div class="theme-selector" role="tablist">
+            <button type="button" class="theme-pill active" data-theme="cream">🤍 ${ui.themeCream}</button>
+            <button type="button" class="theme-pill" data-theme="aurora">🌙 ${ui.themeAurora}</button>
+            <button type="button" class="theme-pill" data-theme="peach">🍑 ${ui.themePeach}</button>
           </div>
 
-          <!-- 9:16 인스타그램 스토리 프리뷰 캔버스 -->
           <div class="share-canvas-wrapper">
-            <canvas id="share-story-canvas" width="1080" height="1920"></canvas>
+            <canvas id="share-story-canvas" width="1080" height="1560"></canvas>
             <div id="share-canvas-spinner" class="share-canvas-spinner" style="display: none;">
-              🎨 9:16 Story Generating...
+              ✨ ${ui.generating}
             </div>
           </div>
 
-          <!-- 고정 URL 표시 및 즉시 복사 -->
-          <div class="share-url-container">
-            <input type="text" class="share-url-input" id="share-url-field" readonly value="${readableShareUrl}">
-            <button class="share-url-copy-btn" id="share-url-copy-button">${selectedLang === 'ko' ? '복사' : (selectedLang === 'ja' ? 'コピー' : (selectedLang === 'zh' ? '复制' : 'Copy'))}</button>
-          </div>
-
-          <!-- 액션 버튼 -->
           <div class="share-actions">
-            <button class="share-btn share-btn-insta" id="share-action-insta-direct">
-              📸 ${dict.shareModal?.instaDirectBtn || (selectedLang === 'ko' ? '인스타그램 스토리로 바로 보내기 / 공유' : 'Share to Instagram Story Directly')}
-            </button>
-
-            <button class="share-btn share-btn-tiktok" id="share-action-tiktok">
-              🎵 ${dict.shareModal?.tiktokDirectBtn || (selectedLang === 'ko' ? '틱톡 공유 (9:16 카드 & 링크)' : 'Share to TikTok')}
-            </button>
-
-            <button class="share-btn share-btn-whatsapp" id="share-action-whatsapp">
-              🟢 ${dict.shareModal?.whatsappDirectBtn || (selectedLang === 'ko' ? '왓츠앱으로 공유하기' : 'Share via WhatsApp')}
-            </button>
-
-            <button class="share-btn share-btn-kakao" id="share-action-mobile-share">
-              💬 ${dict.shareMobileBtn || '카카오톡 / 모바일로 공유하기'}
-            </button>
-
-            <button class="share-btn share-btn-save" id="share-action-save-image">
-              📥 ${dict.saveStoryBtn || '스토리 카드 이미지 저장'}
-            </button>
-
-            <button class="share-btn share-btn-copy" id="share-action-copy-url">
-              🔗 ${dict.copyUrlBtn || '결과 링크 복사'}
+            <button type="button" class="share-btn share-btn-unified" id="share-action-unified">
+              <span>📥</span>
+              <span>${ui.unifiedBtn}</span>
             </button>
           </div>
         </div>
@@ -726,18 +1061,19 @@ export function openShareModal(jobData, currentName = '', lang = 'ko') {
     </div>
   `;
 
-  let currentTheme = 'sunset';
+  let currentTheme = 'cream';
+  let renderPromise = null;
   const canvas = document.getElementById('share-story-canvas');
   const spinner = document.getElementById('share-canvas-spinner');
 
-  const updateCanvas = async (t) => {
+  const updateCanvas = (t) => {
     currentTheme = t;
     if (spinner) spinner.style.display = 'flex';
-    try {
-      await renderStoryCanvas(canvas, jobData, trimmed, currentTheme, selectedLang);
-    } finally {
-      if (spinner) spinner.style.display = 'none';
-    }
+    renderPromise = renderStoryCanvas(canvas, itemData, trimmed, currentTheme, selectedLang)
+      .finally(() => {
+        if (spinner) spinner.style.display = 'none';
+      });
+    return renderPromise;
   };
 
   updateCanvas(currentTheme);
@@ -767,122 +1103,66 @@ export function openShareModal(jobData, currentName = '', lang = 'ko') {
     pill.addEventListener('click', () => {
       themePills.forEach((p) => p.classList.remove('active'));
       pill.classList.add('active');
-      const selectedTheme = pill.getAttribute('data-theme') || 'cert';
-      updateCanvas(selectedTheme);
+      updateCanvas(pill.getAttribute('data-theme') || 'cream');
     });
   });
 
-  const handleCopy = () => {
-    copyShareUrl(jobData, trimmed, selectedLang);
+  const getExportFilename = () => {
+    const lv = itemData?.level ?? 0;
+    const sanitized = (trimmed || 'myjob').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
+    return `myjob_${sanitized}_lv${lv}.png`;
   };
 
-  const copyFieldBtn = document.getElementById('share-url-copy-button');
-  const copyActionBtn = document.getElementById('share-action-copy-url');
-  if (copyFieldBtn) copyFieldBtn.addEventListener('click', handleCopy);
-  if (copyActionBtn) copyActionBtn.addEventListener('click', handleCopy);
-
-  const downloadCanvasPng = () => {
-    return new Promise((resolve) => {
-      if (!canvas) return resolve(null);
-      const lv = jobData?.level ?? 0;
-      const sanitized = (trimmed || 'myjob').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
-      const filename = `myjob_${sanitized}_lv${lv}_${currentTheme}.png`;
-
-      if (typeof canvas.toBlob === 'function') {
-        canvas.toBlob((blob) => {
-          if (!blob) return resolve(null);
-          const blobUrl = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = blobUrl;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          setTimeout(() => URL.revokeObjectURL(blobUrl), 3000);
-          resolve({ blob, filename });
-        }, 'image/png');
-      } else {
-        try {
-          const dataUrl = canvas.toDataURL('image/png');
-          const a = document.createElement('a');
-          a.href = dataUrl;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          resolve({ dataUrl, filename });
-        } catch (_) {
-          resolve(null);
-        }
-      }
-    });
+  const handleDirectDownload = async () => {
+    if (renderPromise) await renderPromise;
+    const blob = await canvasToPngBlob(canvas);
+    if (blob) {
+      downloadBlobAsFile(blob, getExportFilename());
+      showToast(`📥 ${ui.savedToast}`);
+    }
   };
 
-  const saveImgBtn = document.getElementById('share-action-save-image');
-  if (saveImgBtn) {
-    saveImgBtn.addEventListener('click', async () => {
-      await downloadCanvasPng();
-      showToast(dict.shareModal?.savedToast || '📥 9:16 인스타 스토리 이미지가 저장되었습니다!');
-    });
-  }
+  const unifiedBtn = document.getElementById('share-action-unified');
+  if (unifiedBtn) {
+    unifiedBtn.addEventListener('click', async () => {
+      if (renderPromise) await renderPromise;
+      const blob = await canvasToPngBlob(canvas);
+      if (!blob) return;
+      const filename = getExportFilename();
 
-  const instaDirectBtn = document.getElementById('share-action-insta-direct');
-  if (instaDirectBtn) {
-    instaDirectBtn.addEventListener('click', async () => {
-      await copyShareUrl(jobData, trimmed, selectedLang);
-      const res = await downloadCanvasPng();
-      if (res && res.blob && typeof navigator !== 'undefined' && typeof navigator.share === 'function' && typeof File === 'function') {
+      // On Mobile (iOS/Android), open native Share Sheet with PNG file (Instagram / KakaoTalk / Save Image in 1 tap)
+      if (isMobileShareDevice() && typeof navigator !== 'undefined' && typeof navigator.share === 'function' && typeof File === 'function') {
         try {
-          const file = new File([res.blob], res.filename, { type: 'image/png' });
+          const file = new File([blob], filename, { type: 'image/png' });
           if (!navigator.canShare || navigator.canShare({ files: [file] })) {
             await navigator.share({
               files: [file],
               title: payload.title,
-              text: `${payload.title}\n${payload.text}`,
-              url: payload.url
+              text: `${payload.title}\n${formatReadableShareUrl(payload.url)}`
             });
+            showToast(`✨ ${ui.sharedToast}`);
             return;
           }
-        } catch (_) {}
+        } catch (err) {
+          if (err && err.name === 'AbortError') return;
+        }
       }
-      showToast(dict.shareModal?.instaDownloadedToast || '📸 스토리가 다운로드되고 링크가 복사되었습니다!');
+
+      // Desktop (or fallback): Direct PNG download
+      downloadBlobAsFile(blob, filename);
+      showToast(`📥 ${ui.savedToast}`);
     });
   }
 
-  const tiktokBtn = document.getElementById('share-action-tiktok');
-  if (tiktokBtn) {
-    tiktokBtn.addEventListener('click', async () => {
-      await copyShareUrl(jobData, trimmed, selectedLang);
-      await downloadCanvasPng();
-      showToast(dict.shareModal?.tiktokDownloadedToast || '🎵 9:16 스토리가 다운로드되고 링크가 복사되었습니다!');
-    });
+  const saveDirectBtn = document.getElementById('share-action-save-direct');
+  if (saveDirectBtn) {
+    saveDirectBtn.addEventListener('click', handleDirectDownload);
   }
 
-  const whatsappBtn = document.getElementById('share-action-whatsapp');
-  if (whatsappBtn) {
-    whatsappBtn.addEventListener('click', () => {
-      const waText = `${payload.title}\n${payload.text}\n👉 ${ readableShareUrl }`;
-      const waUrl = `https://wa.me/?text=${encodeURIComponent(waText)}`;
-      window.open(waUrl, '_blank', 'noopener,noreferrer');
-      showToast(dict.shareModal?.whatsappOpenedToast || '🟢 왓츠앱으로 공유 메시지가 전송됩니다!');
-    });
-  }
-
-  const mobileShareBtn = document.getElementById('share-action-mobile-share');
-  if (mobileShareBtn) {
-    mobileShareBtn.addEventListener('click', async () => {
-      if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
-        try {
-          await navigator.share({
-            title: payload.title,
-            text: `${payload.title}\n${payload.text}`,
-            url: payload.url
-          });
-          return;
-        } catch (_) {}
-      }
-      await copyShareUrl(jobData, trimmed, selectedLang);
-      showToast(dict.shareModal?.messengerCopiedToast || '💬 공유 주소가 복사되었습니다! 카카오톡 대화방에 붙여넣어 공유하세요.');
+  const copyUrlBtn = document.getElementById('share-action-copy-url');
+  if (copyUrlBtn) {
+    copyUrlBtn.addEventListener('click', () => {
+      copyShareUrl(itemData, trimmed, selectedLang);
     });
   }
 }

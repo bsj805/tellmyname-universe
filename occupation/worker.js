@@ -361,10 +361,10 @@ export function renderSeoHtml(baseHtml, job, nameQuery, origin = SITE_ORIGIN, la
 
   // Cache-busting query string
   html = html
-    .replace(/href="\/css\/style\.css"/g, 'href="/css/style.css?v=20261115b"')
-    .replace(/href="\/css\/share\.css"/g, 'href="/css/share.css?v=20261115b"')
-    .replace(/src="\/js\/consent\.js"/g, 'src="/js/consent.js?v=20261115b"')
-    .replace(/src="\/js\/app\.js"/g, 'src="/js/app.js?v=20261115b"');
+    .replace(/href="\/css\/style\.css(\?[^"]*)?"/g, 'href="/css/style.css?v=20261125"')
+    .replace(/href="\/css\/share\.css(\?[^"]*)?"/g, 'href="/css/share.css?v=20261125"')
+    .replace(/src="\/js\/consent\.js(\?[^"]*)?"/g, 'src="/js/consent.js?v=20261125"')
+    .replace(/src="\/js\/app\.js(\?[^"]*)?"/g, 'src="/js/app.js?v=20261125"');
 
   // Title:
   const titleText = isRoot
@@ -707,10 +707,10 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
   }).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${baseCanonicalUrl}" />`;
 
   html = html
-    .replace(/href="\/css\/style\.css"/g, 'href="/css/style.css?v=20261115b"')
-    .replace(/href="\/css\/share\.css"/g, 'href="/css/share.css?v=20261115b"')
-    .replace(/src="\/js\/consent\.js"/g, 'src="/js/consent.js?v=20261115b"')
-    .replace(/src="\/js\/app\.js"/g, 'src="/js/app.js?v=20261115b"');
+    .replace(/href="\/css\/style\.css(\?[^"]*)?"/g, 'href="/css/style.css?v=20261125"')
+    .replace(/href="\/css\/share\.css(\?[^"]*)?"/g, 'href="/css/share.css?v=20261125"')
+    .replace(/src="\/js\/consent\.js(\?[^"]*)?"/g, 'src="/js/consent.js?v=20261125"')
+    .replace(/src="\/js\/app\.js(\?[^"]*)?"/g, 'src="/js/app.js?v=20261125"');
 
   const jsonLd = {
     '@context': 'https://schema.org',

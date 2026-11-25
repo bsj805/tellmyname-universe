@@ -53,14 +53,13 @@ const requiredSelectors = [
 for (const sel of requiredSelectors) {
   assert(cssContent.includes(sel), `CSS must include required selector: ${sel}`);
 }
-assert(cssContent.includes('aspect-ratio: 9 / 16'), 'CSS must specify 9:16 aspect ratio for story canvas');
 console.log('✔ CSS styles verified with all required modal, canvas, and responsive classes');
 
 // 3. SHARE_ORIGIN 및 URL 빌더 검증
 console.log('\n[3/6] Verifying SHARE_ORIGIN & buildPermanentShareUrl...');
-assert.strictEqual(SHARE_ORIGIN, 'https://myhome.tellmyname.app', 'SHARE_ORIGIN must match production domain');
+assert.strictEqual(SHARE_ORIGIN, 'https://tellmyname.app', 'SHARE_ORIGIN must match unified production domain');
 
-// 필수 요구사항: '김서윤' 입력 시 https://myhome.tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4
+// 필수 요구사항: '김서윤' 입력 시 https://tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4
 const sampleHouse = {
   level: 74,
   title: '체르노빌 관람차 곤돌라',
@@ -73,7 +72,7 @@ const sampleHouse = {
 const urlWithName = buildPermanentShareUrl(sampleHouse, '김서윤');
 assert.strictEqual(
   urlWithName,
-  'https://myhome.tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
+  'https://tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
   'Must return permanent encoded name URL for 김서윤'
 );
 
@@ -81,7 +80,7 @@ assert.strictEqual(
 const urlWithSpacedName = buildPermanentShareUrl(sampleHouse, '   김서윤   ');
 assert.strictEqual(
   urlWithSpacedName,
-  'https://myhome.tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
+  'https://tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
   'Must trim whitespace before encoding name'
 );
 
@@ -89,20 +88,20 @@ assert.strictEqual(
 const urlWithoutName = buildPermanentShareUrl(sampleHouse, '');
 assert.strictEqual(
   urlWithoutName,
-  'https://myhome.tellmyname.app/level/74',
+  'https://tellmyname.app/level/74',
   'Must return /level/74 when name is omitted'
 );
 
 const urlWithUndefinedName = buildPermanentShareUrl(sampleHouse);
 assert.strictEqual(
   urlWithUndefinedName,
-  'https://myhome.tellmyname.app/level/74',
+  'https://tellmyname.app/level/74',
   'Must return /level/74 when name argument is undefined'
 );
 
 // 경계 레벨 검증 (0, 999)
-assert.strictEqual(buildPermanentShareUrl({ level: 0 }, ''), 'https://myhome.tellmyname.app/level/0');
-assert.strictEqual(buildPermanentShareUrl({ level: 999 }, ''), 'https://myhome.tellmyname.app/level/999');
+assert.strictEqual(buildPermanentShareUrl({ level: 0 }, ''), 'https://tellmyname.app/level/0');
+assert.strictEqual(buildPermanentShareUrl({ level: 999 }, ''), 'https://tellmyname.app/level/999');
 console.log('✔ buildPermanentShareUrl verified across all name and level conditions (0..999)');
 
 // 4. buildSharePayload 검증
@@ -112,29 +111,28 @@ const payloadWithName = buildSharePayload(sampleHouse, '김서윤');
 assert(payloadWithName.title.includes('김서윤님에게 어울리는 집'), 'Title must address the owner name');
 assert(payloadWithName.title.includes('Lv.74'), 'Title must include house level');
 assert(payloadWithName.title.includes('체르노빌 관람차 곤돌라'), 'Title must include house title');
-assert(payloadWithName.text.includes('📅 건축연도: 1986년 4월'), 'Text must include builtYear');
-assert(payloadWithName.text.includes('💰 추산가치: 850만 원'), 'Text must include estimatedValue');
-assert(payloadWithName.text.includes('⚡ 특별기능:'), 'Text must include specialFeature');
+assert(payloadWithName.text.includes('1986년 4월'), 'Text must include builtYear');
+assert(payloadWithName.text.includes('850만 원'), 'Text must include estimatedValue');
 assert.strictEqual(
   payloadWithName.url,
-  'https://myhome.tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
+  'https://tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4',
   'Payload URL must match permanent URL'
 );
 assert.strictEqual(
   payloadWithName.imageUrl,
-  'https://myhome.tellmyname.app/r2/houses/00074.webp',
-  'Payload imageUrl must match R2 5-digit padded WebP URL'
+  'https://img.tellmyname.app/houses/00074.webp',
+  'Payload imageUrl must match R2 Custom Domain WebP URL'
 );
 
 const payloadWithoutName = buildSharePayload(sampleHouse, '');
 assert(payloadWithoutName.title.startsWith('나에게 어울리는 집'), 'Anonymous title must start with 나에게 어울리는 집');
-assert.strictEqual(payloadWithoutName.url, 'https://myhome.tellmyname.app/level/74');
+assert.strictEqual(payloadWithoutName.url, 'https://tellmyname.app/level/74');
 console.log('✔ buildSharePayload structure and content verified');
 
 // 5. copyShareUrl 비동기 실행 및 Node fallback 내결함성 검증
 console.log('\n[5/6] Verifying copyShareUrl non-browser resilience...');
 const copiedUrl = await copyShareUrl(sampleHouse, '김서윤');
-assert.strictEqual(copiedUrl, 'https://myhome.tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4');
+assert.strictEqual(copiedUrl, 'https://tellmyname.app/name/%EA%B9%80%EC%84%9C%EC%9C%A4');
 console.log('✔ copyShareUrl executed safely and returned exact target URL without errors');
 
 // 6. renderStoryCanvas 캔버스 2D 렌더링 검증 (Mock Canvas Context)
@@ -185,8 +183,8 @@ for (const theme of themes) {
   const mockCanvas = createMockCanvas();
   const rendered = await renderStoryCanvas(mockCanvas, sampleHouse, '김서윤', theme, 'ko');
   assert.strictEqual(rendered, mockCanvas, `renderStoryCanvas should return the canvas for theme ${theme}`);
-  assert.strictEqual(mockCanvas.width, 1080, 'Canvas width must be set to 1080 (9:16 Story standard)');
-  assert.strictEqual(mockCanvas.height, 1920, 'Canvas height must be set to 1920 (9:16 Story standard)');
+  assert.strictEqual(mockCanvas.width, 1080, 'Canvas width must be set to 1080');
+  assert(mockCanvas.height >= 1520, 'Canvas height must dynamically adjust >= 1520 with zero clipping');
 
   // 텍스트 드로잉에 김서윤, 레벨, 타이틀이 호출되었는지 확인
   const fillTexts = mockCanvas._calls.filter(c => c.method === 'fillText').map(c => c.text);
@@ -195,20 +193,20 @@ for (const theme of themes) {
     `Theme ${theme}: Must draw primary headline ("김서윤님에게 어울리는 집은")`
   );
   assert(
-    fillTexts.some(t => t && t.includes('김서윤님의 미래 집 등기권리증')),
-    `Theme ${theme}: Must draw owner certificate title`
-  );
-  assert(
     fillTexts.some(t => t && t.includes('Lv.74')),
     `Theme ${theme}: Must draw level badge`
   );
   assert(
-    fillTexts.some(t => t && (t.includes('실제 건축물') || t.includes('허구 건축물'))),
+    fillTexts.some(t => t && (t.includes('실제') || t.includes('상상'))),
     `Theme ${theme}: Must draw reality badge`
+  );
+  assert(
+    !fillTexts.some(t => t && t.includes('공유용')),
+    `Theme ${theme}: Must never render clutter text 공유용`
   );
 }
 
-// 영어 (en) 9:16 스토리 캔버스 렌더링 검증 ("The House That Suits Steve")
+// 영어 (en) 스토리 캔버스 렌더링 검증 ("The House That Suits Steve")
 const mockEnCanvas = createMockCanvas();
 await renderStoryCanvas(mockEnCanvas, sampleHouse, 'Steve', 'cyber', 'en');
 const enTexts = mockEnCanvas._calls.filter(c => c.method === 'fillText').map(c => c.text);
@@ -218,16 +216,16 @@ assert(
 );
 console.log('✔ English story canvas verified ("The House That Suits Steve")');
 
-// 짝수(실제 건축물) vs 홀수(허구 건축물) 뱃지 텍스트 검증
+// 짝수(실제) vs 홀수(상상) 뱃지 텍스트 검증
 const mockEvenCanvas = createMockCanvas();
 await renderStoryCanvas(mockEvenCanvas, { level: 74, title: '짝수 하우스' }, '테스터', 'cert');
 const evenTexts = mockEvenCanvas._calls.filter(c => c.method === 'fillText').map(c => c.text);
-assert(evenTexts.some(t => t && t.includes('실제 건축물')), 'Level 74 (even) must render 실제 건축물 badge');
+assert(evenTexts.some(t => t && t.includes('실제')), 'Level 74 (even) must render 실제 badge');
 
 const mockOddCanvas = createMockCanvas();
 await renderStoryCanvas(mockOddCanvas, { level: 75, title: '홀수 하우스' }, '테스터', 'cert');
 const oddTexts = mockOddCanvas._calls.filter(c => c.method === 'fillText').map(c => c.text);
-assert(oddTexts.some(t => t && t.includes('허구 건축물')), 'Level 75 (odd) must render 허구 건축물 badge');
+assert(oddTexts.some(t => t && t.includes('상상')), 'Level 75 (odd) must render 상상 badge');
 
 console.log('✔ renderStoryCanvas verified across all themes, languages (ko, en), and alternating badges');
 

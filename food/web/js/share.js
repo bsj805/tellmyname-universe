@@ -1,27 +1,17 @@
-// web/js/share.js — Feature #5 & #12: Instagram Story & KakaoTalk Share Integration
-// Delegates core canvas rendering and sharing logic to share_core.js
+// web/js/share.js — Unified 1-Button Share Modal Controller for Mukbang (/food)
 
 import {
   SITE_ORIGIN,
   SITE_NAME,
   MEAL_CATEGORIES,
   MEAL_KEYS,
-  MEAL_MAP,
-  FOOD_ORIGIN_GROUPS,
-  formatFoodCode,
-  getFoodImageUrl
+  formatFoodCode
 } from '../../src/lib/constants.js';
 
 import {
-  DEFAULT_TIMEZONE,
-  getLocalTimeParts
+  DEFAULT_TIMEZONE
 } from '../../src/lib/timezone.js';
 
-import {
-  recommendDailyMeals
-} from '../../src/lib/hash.js';
-
-import * as FoodDatasetModule from '../../src/lib/food_dataset.js';
 import { t, normalizeLang } from '../../src/lib/i18n.js';
 
 import {
@@ -33,7 +23,7 @@ import {
   shareWhatsAppText,
   copyToClipboard as coreCopyToClipboard,
   showToast as coreShowToast
-} from './share_core.js';
+} from './share_core.js?v=20261125';
 
 export function getAppLang() {
   if (typeof document !== 'undefined' && document.documentElement && document.documentElement.lang) {
@@ -42,24 +32,14 @@ export function getAppLang() {
   return 'ko';
 }
 
-/**
- * Toast Notification Utility (re-export from share_core)
- */
 export function showToast(message, duration = 3000) {
   coreShowToast(message, duration);
 }
 
-/**
- * Clipboard Copy with Fallback (re-export from share_core)
- */
 export async function copyToClipboard(text, successMessage = null) {
   return coreCopyToClipboard(text, successMessage);
 }
 
-/**
- * Share URL Builder
- * Generates canonical permanent URL with query params
- */
 export function buildShareUrl({ name = '김서윤', date = '', tz = 'Asia/Seoul', meals = [], lang = null } = {}) {
   const url = new URL(SITE_ORIGIN);
   const currentLang = normalizeLang(lang || getAppLang());
@@ -78,9 +58,6 @@ export function buildShareUrl({ name = '김서윤', date = '', tz = 'Asia/Seoul'
   return url.toString();
 }
 
-/**
- * KakaoTalk Rich Text Message Builder
- */
 export function buildKakaoShareText({ dailyData, selectedMealKeys = [], name = '김서윤', dateStr = '', lang = null } = {}) {
   const currentLang = normalizeLang(lang || getAppLang());
   const dateFormatted = dateStr || dailyData?.date || '';
@@ -105,9 +82,7 @@ export function buildKakaoShareText({ dailyData, selectedMealKeys = [], name = '
     const mealLabel = t(currentLang, 'meal_' + entry.mealKey);
     const originBadge = t(currentLang, 'origin_' + food.originGroup);
     lines.push(`${entry.mealEmoji} ${mealLabel}: ${food.name} (${originBadge})`);
-    if (food.tagline) {
-      lines.push(`   "${food.tagline}"`);
-    }
+    if (food.tagline) lines.push(`   "${food.tagline}"`);
     if (food.calories) {
       const match = String(food.calories).match(/(\d+)/);
       if (match) totalCalories += parseInt(match[1], 10);
@@ -124,7 +99,8 @@ export function buildKakaoShareText({ dailyData, selectedMealKeys = [], name = '
   const shareUrl = buildShareUrl({
     name: effectiveName,
     date: dateFormatted,
-    meals: Array.from(selectedSet)
+    meals: Array.from(selectedSet),
+    lang: currentLang
   });
   lines.push(shareUrl);
 
@@ -135,68 +111,23 @@ export function buildKakaoShareText({ dailyData, selectedMealKeys = [], name = '
   };
 }
 
-/**
- * WhatsApp Formatted Text Message Builder
- */
 export function buildWhatsAppShareText({ dailyData, selectedMealKeys = [], name = '김서윤', dateStr = '', lang = null } = {}) {
-  const currentLang = normalizeLang(lang || getAppLang());
-  const dateFormatted = dateStr || dailyData?.date || '';
-  const effectiveName = name || dailyData?.name || '김서윤';
-  const mealsList = dailyData?.orderedList || [];
-  const selectedSet = new Set(selectedMealKeys.length > 0 ? selectedMealKeys : MEAL_KEYS);
-
-  const siteTitle = t(currentLang, 'brandTitle');
-  const lines = [
-    `*${siteTitle}* — ${t(currentLang, 'kakaoTitle', { name: effectiveName, date: dateFormatted })}`,
-    ''
-  ];
-
-  let totalCalories = 0;
-
-  for (const entry of mealsList) {
-    if (!selectedSet.has(entry.mealKey)) continue;
-    const food = entry.food;
-    if (!food) continue;
-
-    const mealLabel = t(currentLang, 'meal_' + entry.mealKey);
-    const originBadge = t(currentLang, 'origin_' + food.originGroup);
-    lines.push(`${entry.mealEmoji} *${mealLabel}*: ${food.name} _(${originBadge})_`);
-    if (food.tagline) {
-      lines.push(`   "${food.tagline}"`);
-    }
-    if (food.calories) {
-      const match = String(food.calories).match(/(\d+)/);
-      if (match) totalCalories += parseInt(match[1], 10);
-    }
-  }
-
-  if (totalCalories > 0 && selectedSet.size >= 3) {
-    lines.push('');
-    lines.push(`🔥 ${t(currentLang, 'kakaoTotalCal', { calories: totalCalories.toLocaleString() })}`);
-  }
-
-  lines.push('');
-  lines.push(t(currentLang, 'kakaoCta'));
-  const shareUrl = buildShareUrl({
-    name: effectiveName,
-    date: dateFormatted,
-    meals: Array.from(selectedSet),
-    lang: currentLang
-  });
-  lines.push(shareUrl);
-
-  return {
-    title: `${siteTitle} · ${effectiveName}`,
-    text: lines.join('\n'),
-    url: shareUrl
-  };
+  const payload = buildKakaoShareText({ dailyData, selectedMealKeys, name, dateStr, lang });
+  return payload;
 }
 
-/**
- * Delegate drawStoryCanvas to renderStoryCanvas in share_core.js
- */
-export async function drawStoryCanvas(canvas, { dailyData, selectedMealKeys = ['lunch'], theme = 'amber', lang = null } = {}) {
+export async function drawStoryCanvas(canvas, { dailyData, selectedMealKeys = ['lunch'], theme = 'cream', lang = null, singleFood = null } = {}) {
   const currentLang = normalizeLang(lang || getAppLang());
+  if (singleFood) {
+    return renderStoryCanvas({
+      mode: 'food',
+      lang: currentLang,
+      theme,
+      canvas,
+      items: [singleFood]
+    });
+  }
+
   const selectedKeys = Array.isArray(selectedMealKeys) && selectedMealKeys.length > 0
     ? selectedMealKeys
     : ['lunch'];
@@ -220,10 +151,7 @@ export async function drawStoryCanvas(canvas, { dailyData, selectedMealKeys = ['
   });
 }
 
-/**
- * Download Canvas Image as PNG
- */
-export async function downloadStoryImage(canvas, filename = 'mukbang_today_story.png') {
+export async function downloadStoryImage(canvas, filename = 'mukbang_card.png') {
   if (!canvas) return;
   const currentLang = getAppLang();
   try {
@@ -236,10 +164,7 @@ export async function downloadStoryImage(canvas, filename = 'mukbang_today_story
   }
 }
 
-/**
- * Mobile Native Share (Instagram Story / Web Share API with File)
- */
-export async function shareStoryImage(canvas, filename = 'mukbang_today_story.png', shareData = {}) {
+export async function shareStoryImage(canvas, filename = 'mukbang_card.png', shareData = {}) {
   if (!canvas) return;
   const currentLang = getAppLang();
   try {
@@ -258,17 +183,16 @@ export async function shareStoryImage(canvas, filename = 'mukbang_today_story.pn
   }
 }
 
-/**
- * Share Modal Manager (State & Event Binding)
- */
 class ShareModalController {
   constructor() {
     this.modalEl = null;
     this.canvasEl = null;
     this.dailyData = null;
+    this.singleFood = null;
     this.selectedKeys = ['lunch'];
-    this.activeTheme = 'amber';
-    this.mode = 'selective'; // 'selective' | 'daily_all'
+    this.activeTheme = 'cream';
+    this.mode = 'selective'; // 'selective' | 'daily_all' | 'food_single'
+    this.renderPromise = null;
   }
 
   init() {
@@ -277,164 +201,121 @@ class ShareModalController {
     this.canvasEl = document.getElementById('story-canvas');
     if (!this.modalEl || !this.canvasEl) return;
 
-    // Close button & backdrop click
     const closeBtn = document.getElementById('modal-close-btn');
     if (closeBtn) closeBtn.addEventListener('click', () => this.close());
     this.modalEl.addEventListener('click', (e) => {
       if (e.target === this.modalEl) this.close();
     });
 
-    // ESC key
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && this.modalEl.classList.contains('open')) {
         this.close();
       }
     });
 
-    // Mode Tabs
     const tabSelective = document.getElementById('tab-mode-selective');
     const tabDailyAll = document.getElementById('tab-mode-daily-all');
-    if (tabSelective) {
-      tabSelective.addEventListener('click', () => {
-        this.setMode('selective');
-      });
-    }
-    if (tabDailyAll) {
-      tabDailyAll.addEventListener('click', () => {
-        this.setMode('daily_all');
-      });
-    }
+    if (tabSelective) tabSelective.addEventListener('click', () => this.setMode('selective'));
+    if (tabDailyAll) tabDailyAll.addEventListener('click', () => this.setMode('daily_all'));
 
-    // Meal Checkboxes
     const checkboxes = this.modalEl.querySelectorAll('.modal-meal-checkbox');
     checkboxes.forEach(cb => {
-      cb.addEventListener('change', () => {
-        this.onMealCheckboxChange();
-      });
+      cb.addEventListener('change', () => this.onMealCheckboxChange());
     });
 
-    // Theme Chips
     const themeChips = this.modalEl.querySelectorAll('.theme-chip');
     themeChips.forEach(chip => {
       chip.addEventListener('click', () => {
         themeChips.forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
-        this.activeTheme = chip.dataset.theme || 'amber';
+        this.activeTheme = chip.dataset.theme || 'cream';
         this.renderCanvas();
       });
     });
 
-    // Action 1: Instagram Story
+    const getFilename = () => {
+      if (this.singleFood) {
+        const code = this.singleFood.code || formatFoodCode(this.singleFood.index || 1);
+        return `mukbang_food_${code}.png`;
+      }
+      const name = (this.dailyData?.name || 'mukbang').replace(/[^a-zA-Z0-9가-힣_-]/g, '_');
+      const date = this.dailyData?.date || 'today';
+      return `mukbang_${name}_${date}.png`;
+    };
+
+    const getCurrentShareUrl = () => {
+      const currentLang = getAppLang();
+      if (this.singleFood) {
+        const code = this.singleFood.code || formatFoodCode(this.singleFood.index || 1);
+        return `${SITE_ORIGIN}/food/${code}${currentLang !== 'ko' ? '?lang=' + currentLang : ''}`;
+      }
+      return buildShareUrl({
+        name: this.dailyData?.name || '김서윤',
+        date: this.dailyData?.date || '',
+        meals: this.selectedKeys,
+        lang: currentLang
+      });
+    };
+
+    // Unified Primary Button: Save & Share Image
     const storyBtn = document.getElementById('modal-share-story-btn');
     if (storyBtn) {
-      storyBtn.addEventListener('click', () => {
-        const name = this.dailyData?.name || '김서윤';
-        const date = this.dailyData?.date || 'today';
-        const filename = `mukbang_${name}_${date}_story.png`;
-        const payload = buildKakaoShareText({
-          dailyData: this.dailyData,
-          selectedMealKeys: this.selectedKeys,
-          name,
-          dateStr: date
-        });
-        shareStoryImage(this.canvasEl, filename, payload);
+      storyBtn.addEventListener('click', async () => {
+        if (this.renderPromise) await this.renderPromise;
+        const filename = getFilename();
+        const url = getCurrentShareUrl();
+        const title = this.singleFood
+          ? `${this.singleFood.name} — ${t(getAppLang(), 'brandTitle')}`
+          : `${this.dailyData?.name || ''} — ${t(getAppLang(), 'brandTitle')}`;
+        await shareStoryImage(this.canvasEl, filename, { title, text: `${title}\n${url}`, url });
       });
     }
 
-    // Action 2: KakaoTalk
-    const kakaoBtn = document.getElementById('modal-share-kakao-btn');
-    if (kakaoBtn) {
-      kakaoBtn.addEventListener('click', async () => {
-        const currentLang = getAppLang();
-        const name = this.dailyData?.name || '김서윤';
-        const date = this.dailyData?.date || '';
-        const payload = buildKakaoShareText({
-          dailyData: this.dailyData,
-          selectedMealKeys: this.selectedKeys,
-          name,
-          dateStr: date
-        });
-
-        await shareKakaoText({
-          title: payload.title,
-          text: payload.text,
-          url: payload.url,
-          lang: currentLang
-        });
-      });
-    }
-
-    // Action 2b: WhatsApp
-    const waBtn = document.getElementById('modal-share-whatsapp-btn');
-    if (waBtn) {
-      waBtn.addEventListener('click', async () => {
-        const currentLang = getAppLang();
-        const name = this.dailyData?.name || '김서윤';
-        const date = this.dailyData?.date || '';
-        const payload = buildWhatsAppShareText({
-          dailyData: this.dailyData,
-          selectedMealKeys: this.selectedKeys,
-          name,
-          dateStr: date,
-          lang: currentLang
-        });
-
-        await shareWhatsAppText({
-          title: payload.title,
-          text: payload.text,
-          url: payload.url,
-          lang: currentLang
-        });
-      });
-    }
-
-    // Action 3: Download Image (PNG)
+    // Secondary Helper: Direct PNG Download
     const downloadBtn = document.getElementById('modal-download-png-btn');
     if (downloadBtn) {
-      downloadBtn.addEventListener('click', () => {
-        const name = this.dailyData?.name || '김서윤';
-        const date = this.dailyData?.date || 'today';
-        const filename = `mukbang_${name}_${date}_story.png`;
-        downloadStoryImage(this.canvasEl, filename);
+      downloadBtn.addEventListener('click', async () => {
+        if (this.renderPromise) await this.renderPromise;
+        await downloadStoryImage(this.canvasEl, getFilename());
       });
     }
 
-    // Action 4: Copy Link
+    // Secondary Helper: Copy Link
     const linkBtn = document.getElementById('modal-copy-link-btn');
     if (linkBtn) {
       linkBtn.addEventListener('click', () => {
         const currentLang = getAppLang();
-        const name = this.dailyData?.name || '김서윤';
-        const date = this.dailyData?.date || '';
-        const url = buildShareUrl({
-          name,
-          date,
-          meals: this.selectedKeys
-        });
-        copyToClipboard(url, t(currentLang, 'toastLinkCopied'));
+        copyToClipboard(getCurrentShareUrl(), t(currentLang, 'toastLinkCopied'));
       });
     }
   }
 
   setMode(mode) {
     this.mode = mode;
+    const modeTabsWrap = this.modalEl?.querySelector('.share-mode-tabs');
     const tabSelective = document.getElementById('tab-mode-selective');
     const tabDailyAll = document.getElementById('tab-mode-daily-all');
     const selectorWrap = document.getElementById('modal-meal-selector-wrap');
 
-    if (mode === 'daily_all') {
-      tabDailyAll?.classList.add('active');
-      tabSelective?.classList.remove('active');
+    if (mode === 'food_single') {
+      if (modeTabsWrap) modeTabsWrap.style.display = 'none';
       if (selectorWrap) selectorWrap.style.display = 'none';
-      this.selectedKeys = [...MEAL_KEYS];
     } else {
-      tabSelective?.classList.add('active');
-      tabDailyAll?.classList.remove('active');
-      if (selectorWrap) selectorWrap.style.display = 'flex';
-      this.syncCheckboxes();
+      if (modeTabsWrap) modeTabsWrap.style.display = 'grid';
+      if (mode === 'daily_all') {
+        tabDailyAll?.classList.add('active');
+        tabSelective?.classList.remove('active');
+        if (selectorWrap) selectorWrap.style.display = 'none';
+        this.selectedKeys = [...MEAL_KEYS];
+      } else {
+        tabSelective?.classList.add('active');
+        tabDailyAll?.classList.remove('active');
+        if (selectorWrap) selectorWrap.style.display = 'flex';
+        this.syncCheckboxes();
+      }
+      this.updateSelectedCountText();
     }
 
-    this.updateSelectedCountText();
     this.renderCanvas();
   }
 
@@ -455,6 +336,12 @@ class ShareModalController {
   }
 
   updateSelectedCountText() {
+    const labelEl = document.getElementById('tab-selective-label');
+    const currentLang = getAppLang();
+    if (labelEl) {
+      labelEl.textContent = t(currentLang, 'tabSelective', { count: this.selectedKeys.length });
+      return;
+    }
     const countEl = document.getElementById('modal-selected-count');
     if (countEl) {
       countEl.textContent = String(this.selectedKeys.length);
@@ -462,6 +349,7 @@ class ShareModalController {
   }
 
   open({ dailyData, initialMealKeys = ['lunch'], mode = 'selective' } = {}) {
+    this.singleFood = null;
     this.dailyData = dailyData;
     this.selectedKeys = Array.isArray(initialMealKeys) && initialMealKeys.length > 0
       ? initialMealKeys
@@ -479,6 +367,16 @@ class ShareModalController {
     this.setMode(mode);
   }
 
+  openFood(foodObj) {
+    if (!foodObj) return;
+    this.singleFood = foodObj;
+    if (this.modalEl) {
+      this.modalEl.classList.add('open');
+      this.modalEl.setAttribute('aria-hidden', 'false');
+    }
+    this.setMode('food_single');
+  }
+
   close() {
     if (this.modalEl) {
       this.modalEl.classList.remove('open');
@@ -486,13 +384,16 @@ class ShareModalController {
     }
   }
 
-  async renderCanvas() {
-    if (!this.canvasEl || !this.dailyData) return;
-    await drawStoryCanvas(this.canvasEl, {
+  renderCanvas() {
+    if (!this.canvasEl) return null;
+    if (!this.singleFood && !this.dailyData) return null;
+    this.renderPromise = drawStoryCanvas(this.canvasEl, {
       dailyData: this.dailyData,
       selectedMealKeys: this.selectedKeys,
-      theme: this.activeTheme
+      theme: this.activeTheme,
+      singleFood: this.singleFood
     });
+    return this.renderPromise;
   }
 }
 

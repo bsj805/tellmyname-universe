@@ -778,7 +778,7 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
     const isCur = m.mealKey === activeMeal.key;
     const f = m.food;
     const code = formatFoodCode(f?.index || 1);
-    const imgUrl = `${origin}/images/web/${code}.webp`;
+    const imgUrl = `https://img.tellmyname.app/foods/${code}.png`;
     const mealLabelText = t(normLang, `meal_${m.mealKey}`) || m.mealLabel;
     return `        <article class="meal-card${isCur ? ' is-active-slot' : ''}" data-meal="${escapeHtml(m.mealKey)}">
           <div class="meal-card-header">
@@ -901,7 +901,7 @@ export function renderFoodDetailSeoHtml(baseHtml, food, lang = 'ko', dict = null
 
   const keywordsText = `${localized.name}, ${food.englishName}, ${food.name}, 오늘뭐먹지, 음식추천, ${localized.originBadge || ''}, Mukbang`;
   const canonicalUrl = `${origin}/food/${code}?lang=${normLang}`;
-  const ogImageUrl = `${origin}/images/web/${code}.jpg`;
+  const ogImageUrl = `https://img.tellmyname.app/foods/${code}.png`;
 
   // 15 hreflang tags
   const hreflangTags = SUPPORTED_LANG_CODES.map(l =>
@@ -919,8 +919,8 @@ export function renderFoodDetailSeoHtml(baseHtml, food, lang = 'ko', dict = null
         'name': localized.name,
         'headline': `${localized.name} (${food.englishName} / ${food.name})`,
         'image': [
-          `${origin}/images/web/${code}.jpg`,
-          `${origin}/images/web/${code}.webp`
+          `https://img.tellmyname.app/foods/${code}.png`,
+          `https://img.tellmyname.app/foods/${code}.png`
         ],
         'description': localized.tagline || food.tagline || descText,
         'recipeCategory': food.primaryMeal || 'lunch',
@@ -1026,7 +1026,7 @@ export function renderFoodDetailSeoHtml(baseHtml, food, lang = 'ko', dict = null
       </header>
       <div class="food-detail-visual">
         <picture>
-          <source srcset="${origin}/images/web/${code}.webp" type="image/webp">
+          <source srcset="https://img.tellmyname.app/foods/${code}.png" type="image/png">
           <img src="${ogImageUrl}" alt="${escapeHtml(localized.name)} (${escapeHtml(food.englishName)} / ${escapeHtml(food.name)}) 일러스트" width="800" height="800" loading="eager" class="food-hero-img" />
         </picture>
       </div>
@@ -1098,7 +1098,7 @@ export function renderWorldCupSeoHtml(baseHtml, slug = '', lang = 'ko', origin =
   const descText = normLang === 'ko' ? preset.koDesc : preset.enDesc;
   const keywordsText = preset.koKeywords || '음식 이상형 월드컵, 점심 고르기, 저녁 메뉴 월드컵, 최악의 음식 월드컵';
   const canonicalUrl = normLang === 'ko' ? `${origin}${basePath}` : `${origin}${basePath}?lang=${normLang}`;
-  const ogImageUrl = `${origin}/images/web/00001.jpg`;
+  const ogImageUrl = 'https://img.tellmyname.app/foods/00001.png';
 
   const hreflangTags = SUPPORTED_LANG_CODES.map((l) => {
     const href = l === 'ko' ? `${origin}${basePath}` : `${origin}${basePath}?lang=${l}`;
@@ -1232,7 +1232,7 @@ export function renderGallerySeoHtml(baseHtml, lang = 'ko', origin = SITE_ORIGIN
 
   const keywordsText = `일러스트도감, 음식도감, 401선, 푸드아트, 랜덤음식추천, Mukbang, Gallery`;
   const canonicalUrl = normLang === 'ko' ? `${origin}/gallery` : `${origin}/gallery?lang=${normLang}`;
-  const ogImageUrl = `${origin}/images/web/00001.jpg`;
+  const ogImageUrl = 'https://img.tellmyname.app/foods/00001.png';
 
   // 15 hreflang tags
   const hreflangTags = SUPPORTED_LANG_CODES.map(l =>

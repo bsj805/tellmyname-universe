@@ -337,10 +337,10 @@ export function renderSeoHtml(baseHtml, house, nameQuery, origin = SITE_ORIGIN, 
 
   // Cache-busting query string for static CSS/JS assets so browsers always load latest localized bundles
   html = html
-    .replace(/href="\/css\/style\.css"/g, 'href="/css/style.css?v=20261122a"')
-    .replace(/href="\/css\/share\.css"/g, 'href="/css/share.css?v=20261122a"')
-    .replace(/src="\/js\/consent\.js"/g, 'src="/js/consent.js?v=20261122a"')
-    .replace(/src="\/js\/app\.js"/g, 'src="/js/app.js?v=20261122a"');
+    .replace(/href="\/css\/style\.css(\?[^"]*)?"/g, 'href="/css/style.css?v=20261125"')
+    .replace(/href="\/css\/share\.css(\?[^"]*)?"/g, 'href="/css/share.css?v=20261125"')
+    .replace(/src="\/js\/consent\.js(\?[^"]*)?"/g, 'src="/js/consent.js?v=20261125"')
+    .replace(/src="\/js\/app\.js(\?[^"]*)?"/g, 'src="/js/app.js?v=20261125"');
 
   // Title:
   // 한국어(기본값)일 때 기존 테스트 호환성을 100% 엄격 보장
@@ -724,10 +724,10 @@ export function renderWorldCupSeoHtml(baseHtml, mode = 'worst-to-best', origin =
   ).join('\n  ') + `\n  <link rel="alternate" hreflang="x-default" href="${baseCanonicalUrl}" />`;
 
   html = html
-    .replace(/href="\/css\/style\.css"/g, 'href="/css/style.css?v=20261115a"')
-    .replace(/href="\/css\/share\.css"/g, 'href="/css/share.css?v=20261115a"')
-    .replace(/src="\/js\/consent\.js"/g, 'src="/js/consent.js?v=20261115a"')
-    .replace(/src="\/js\/app\.js"/g, 'src="/js/app.js?v=20261115a"');
+    .replace(/href="\/css\/style\.css(\?[^"]*)?"/g, 'href="/css/style.css?v=20261125"')
+    .replace(/href="\/css\/share\.css(\?[^"]*)?"/g, 'href="/css/share.css?v=20261125"')
+    .replace(/src="\/js\/consent\.js(\?[^"]*)?"/g, 'src="/js/consent.js?v=20261125"')
+    .replace(/src="\/js\/app\.js(\?[^"]*)?"/g, 'src="/js/app.js?v=20261125"');
 
   const jsonLd = {
     '@context': 'https://schema.org',

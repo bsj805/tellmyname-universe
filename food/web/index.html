@@ -12,34 +12,36 @@
   <meta name="keywords" content="오늘뭐먹지, 이름음식추천, 하루5끼식단, 점심추천, 저녁메뉴, 급식메뉴, 미슐랭3스타, 먹방, Mukbang, tellmyname" />
   <meta name="author" content="Mukbang - 오늘 뭐 먹지?" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://food.tellmyname.app" />
+  <link rel="canonical" href="https://tellmyname.app/food" />
 
   <!-- OpenGraph Meta Tags -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="오늘 뭐 먹지? (Mukbang)" />
   <meta property="og:title" content="오늘 뭐 먹지? - 내 이름의 하루 5끼 맞춤 추천 식단" />
   <meta property="og:description" content="지금 먹을 끼니가 최상단에 쏙! 아침부터 야식까지 5끼 정배열 식단표와 9:16 인스타 스토리 맞춤 공유를 즐겨보세요." />
-  <meta property="og:image" content="https://food.tellmyname.app/images/00001.png" />
-  <meta property="og:url" content="https://food.tellmyname.app" />
+  <meta property="og:image" content="https://img.tellmyname.app/foods/00001.png" />
+  <meta property="og:url" content="https://tellmyname.app/food" />
   <meta property="og:locale" content="ko_KR" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="오늘 뭐 먹지? (Mukbang) - 이름 기반 하루 5끼 추천" />
   <meta name="twitter:description" content="내 이름과 오늘 날짜에 딱 맞춘 아침·점심·간식·저녁·야식 메뉴를 확인해보세요!" />
-  <meta name="twitter:image" content="https://food.tellmyname.app/images/00001.png" />
+  <meta name="twitter:image" content="https://img.tellmyname.app/foods/00001.png" />
 
   <!-- Web Fonts (Pretendard & Noto Serif KR) -->
+    <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy.css" />
+  <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/sun-typeface/SUITE@2/fonts/variable/woff2/SUITE-Variable.css" />
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap" rel="stylesheet" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="/css/style.css?v=20261123" />
-  <link rel="stylesheet" href="/css/share.css" />
-  <link rel="stylesheet" href="/css/gallery.css" />
-  <link rel="stylesheet" href="/css/worldcup.css" />
+  <link rel="stylesheet" href="/css/style.css?v=20261125" />
+  <link rel="stylesheet" href="/css/share.css?v=20261125" />
+  <link rel="stylesheet" href="/css/gallery.css?v=20261125" />
+  <link rel="stylesheet" href="/css/worldcup.css?v=20261125" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>
   <script src="/js/consent.js" defer></script>
 </head>
@@ -390,10 +392,7 @@
         </div>
         <div class="sticky-btn-group">
           <button type="button" id="sticky-share-selected-btn" class="btn btn-primary sticky-btn">
-            <span data-i18n="stickyShareSelected">📤 선택 메뉴 공유하기</span>
-          </button>
-          <button type="button" id="sticky-share-all-btn" class="btn btn-outline sticky-btn">
-            <span data-i18n="stickyShareAll">📋 5끼 전체 공유</span>
+            <span>🖼️</span> <span data-i18n="shareInstagramBtn">이미지로 저장 · 공유하기</span>
           </button>
         </div>
       </div>
@@ -416,10 +415,10 @@
           <!-- Sharing Mode Selector Tabs -->
           <div class="share-mode-tabs" role="tablist">
             <button type="button" id="tab-mode-selective" class="share-mode-tab active" role="tab" aria-selected="true">
-              <span id="tab-selective-label">✅ 원하는 음식만 선택 (<span id="modal-selected-count">1</span>끼)</span>
+              <span id="tab-selective-label">✅ 선택 메뉴 (<span id="modal-selected-count">1</span>끼)</span>
             </button>
             <button type="button" id="tab-mode-daily-all" class="share-mode-tab" role="tab" aria-selected="false">
-              <span data-i18n="tabDailyAll">📋 오늘의 5끼 전체 공유</span>
+              <span data-i18n="tabDailyAll">📋 5끼 전체 식단</span>
             </button>
           </div>
 
@@ -453,9 +452,9 @@
           <div class="story-theme-bar">
             <span class="theme-label" data-i18n="themeLabel">🎨 스토리 테마:</span>
             <div class="theme-chips">
-              <button type="button" class="theme-chip active" data-theme="amber" data-i18n="themeAmber">🍽️ 미식 앰버</button>
-              <button type="button" class="theme-chip" data-theme="dark" data-i18n="themeDark">✨ 럭셔리 다크</button>
-              <button type="button" class="theme-chip" data-theme="fresh" data-i18n="themeFresh">🌿 자연식 그린</button>
+              <button type="button" class="theme-chip active" data-theme="cream" data-i18n="themeAmber">🤍 포토카드</button>
+              <button type="button" class="theme-chip" data-theme="aurora" data-i18n="themeDark">🌙 오로라</button>
+              <button type="button" class="theme-chip" data-theme="peach" data-i18n="themeFresh">🍑 피치</button>
             </div>
           </div>
 
@@ -472,24 +471,8 @@
           <!-- Share Action Buttons (5 Explicit Actions) -->
           <div class="modal-actions-list">
             <button type="button" id="modal-share-story-btn" class="btn btn-share-instagram">
-              <span class="btn-icon">📸</span>
-              <span class="btn-label" data-i18n="shareInstagramBtn">인스타 스토리로 보내기</span>
-            </button>
-            <button type="button" id="modal-share-kakao-btn" class="btn btn-share-kakao">
-              <span class="btn-icon">💬</span>
-              <span class="btn-label" data-i18n="shareKakaoBtn">카카오톡 메시지 공유</span>
-            </button>
-            <button type="button" id="modal-share-whatsapp-btn" class="btn btn-share-whatsapp">
-              <span class="btn-icon">🟢</span>
-              <span class="btn-label" data-i18n="shareWhatsAppBtn">WhatsApp 공유</span>
-            </button>
-            <button type="button" id="modal-download-png-btn" class="btn btn-download-png">
-              <span class="btn-icon">⬇️</span>
-              <span class="btn-label" data-i18n="downloadPngBtn">이미지 저장 (PNG)</span>
-            </button>
-            <button type="button" id="modal-copy-link-btn" class="btn btn-share-link">
-              <span class="btn-icon">🔗</span>
-              <span class="btn-label" data-i18n="shareLinkBtn">식단 공유 링크 복사</span>
+              <span class="btn-icon">📥</span>
+              <span class="btn-label" data-i18n="shareInstagramBtn">이미지로 저장 · 공유하기</span>
             </button>
           </div>
 
@@ -545,24 +528,8 @@
           <!-- 5 Action Buttons in Enlarged View -->
           <div class="detail-actions-list">
             <button type="button" id="detail-share-story-btn" class="btn btn-share-instagram">
-              <span class="btn-icon">📸</span>
-              <span data-i18n="shareInstagramBtn">인스타 스토리로 보내기</span>
-            </button>
-            <button type="button" id="detail-share-kakao-btn" class="btn btn-share-kakao">
-              <span class="btn-icon">💬</span>
-              <span data-i18n="shareKakaoBtn">카카오톡 공유</span>
-            </button>
-            <button type="button" id="detail-share-whatsapp-btn" class="btn btn-share-whatsapp">
-              <span class="btn-icon">🟢</span>
-              <span data-i18n="shareWhatsAppBtn">WhatsApp 공유</span>
-            </button>
-            <button type="button" id="detail-download-png-btn" class="btn btn-download-png">
-              <span class="btn-icon">⬇️</span>
-              <span data-i18n="downloadPngBtn">이미지 저장 (PNG)</span>
-            </button>
-            <button type="button" id="detail-copy-link-btn" class="btn btn-share-link">
-              <span class="btn-icon">🔗</span>
-              <span data-i18n="shareFoodLinkBtn">음식 링크 복사</span>
+              <span class="btn-icon">🖼️</span>
+              <span data-i18n="shareInstagramBtn">이미지로 저장 · 공유하기</span>
             </button>
           </div>
 
@@ -621,6 +588,6 @@
   </div>
 
   <!-- Main ES Module Application Script -->
-  <script type="module" src="/js/app.js?v=20261123"></script>
+  <script type="module" src="/js/app.js?v=20261125"></script>
 </body>
 </html>

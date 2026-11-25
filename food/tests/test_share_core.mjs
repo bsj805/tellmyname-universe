@@ -132,15 +132,15 @@ console.log('\n[Check 2] renderStoryCanvas mode: "food" (Illustration Showcase)'
   });
 
   assert.strictEqual(mockCanvas.width, 1080, 'Canvas width must be 1080');
-  assert.strictEqual(mockCanvas.height, 1920, 'Canvas height must be 1920');
+  assert(mockCanvas.height >= 1520, 'Canvas height must be dynamically computed >= 1520');
 
   const texts = mockCanvas._inspect.drawnTexts.map(t => t.text);
   assert(texts.some(t => t.includes('00116')), 'Canvas must include food code #00116');
   assert(texts.some(t => t.includes('황금빛 바삭 꽈배기')), 'Canvas must include food name');
   assert(texts.some(t => t.includes('420 kcal')), 'Canvas must include calories');
   assert(texts.some(t => t.includes('시장통 국민 간식')), 'Canvas must include tagline');
-  assert(texts.some(t => t.includes('food.tellmyname.app')), 'Canvas must include site footer');
-  console.log('✔ mode: "food" renders 1080x1920 enlarged illustration card with full metadata');
+  assert(texts.some(t => t.includes('tellmyname.app/food')), 'Canvas must include unified site footer');
+  console.log('✔ mode: "food" renders 1080xDynamic enlarged illustration card with full metadata');
 }
 
 // 4. Test renderStoryCanvas in 'daily' Mode (5 Meals Course Board)
