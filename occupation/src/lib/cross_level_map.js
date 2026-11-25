@@ -506,8 +506,8 @@ export function renderCrossLevelSectionHtml(level, activeName = '', lang = 'ko',
   const foodTitle = useEnData ? (food.en || food.n) : food.n;
   const foodTagline = useEnData ? (food.et || food.t) : food.t;
   const foodBadge = useEnData ? slot.en : slot.ko;
-  const foodLocalImg = `https://food.tellmyname.app/images/web/${food.c}.webp`;
-  const foodProdImg = `https://tellmyname.app/images/web/${food.c}.webp`;
+  const foodLocalImg = `https://img.tellmyname.app/foods/${food.c}.png`;
+  const foodProdImg = `/images/web/${food.c}.webp`;
   const foodDetailHref = `/food/food/${food.c}${langQuery}`;
   const foodNameHref = cleanName
     ? `/food/name/${encodedName}${langQuery}`

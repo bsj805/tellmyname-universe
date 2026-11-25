@@ -1,6 +1,7 @@
 name = "mukbang"
 main = "worker.js"
 compatibility_date = "2026-10-01"
+workers_dev = false
 
 [assets]
 directory = "./dist"
@@ -8,10 +9,6 @@ binding = "ASSETS"
 not_found_handling = "none"
 html_handling = "none"
 run_worker_first = ["/", "/name/*", "/food/*", "/gallery*", "/worldcup*", "/r2/*", "/api/*"]
-
-[[routes]]
-pattern = "food.tellmyname.app"
-custom_domain = true
 
 [[r2_buckets]]
 binding = "MUKBANG_R2"

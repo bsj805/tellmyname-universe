@@ -579,7 +579,7 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
   const foodIndex = activeRec ? Number(activeRec.index || 1) : 1;
   const paddedCode = formatFoodCode(foodIndex);
 
-  const ogImageUrl = `${origin}/images/web/${paddedCode}.jpg`;
+  const ogImageUrl = `https://img.tellmyname.app/foods/${paddedCode}.png`;
   const canonicalUrl = normLang === 'ko'
     ? `${origin}/`
     : `${origin}/?lang=${normLang}`;
@@ -624,7 +624,7 @@ export function renderMukbangSeoHtml(baseHtml, ssrPayload, origin = SITE_ORIGIN)
       '@type': 'MenuItem',
       'name': f?.name || slot.mealLabel,
       'description': f?.tagline || f?.funComment || `${slot.mealFullLabel} 메뉴`,
-      'image': `${origin}/images/web/${formatFoodCode(f?.index || 1)}.webp`,
+      'image': `https://img.tellmyname.app/foods/${formatFoodCode(f?.index || 1)}.png`,
       'offers': {
         '@type': 'Offer',
         'price': f?.priceRange || '0',
@@ -1344,7 +1344,7 @@ export function renderGallerySeoHtml(baseHtml, lang = 'ko', origin = SITE_ORIGIN
       const code = f.code || formatFoodCode(f.index || 1);
       const displayName = normLang === 'ko' ? f.name : (f.englishName || f.name);
       const cal = f.calories ? `🔥 ${escapeHtml(f.calories)}` : '';
-      return `<article class="gallery-food-card"><a href="/food/${code}${normLang !== 'ko' ? '?lang=' + normLang : ''}" style="text-decoration:none;color:inherit;display:block;"><div class="gallery-card-thumb-wrap"><img src="https://food.tellmyname.app/images/web/${code}.webp" alt="${escapeHtml(displayName)}" class="gallery-card-thumb" loading="lazy" width="320" height="240" /><span class="gallery-code-badge">#${code}</span></div><div class="gallery-card-info"><h3 class="gallery-card-title">${escapeHtml(displayName)}</h3><div class="gallery-card-meta"><span>${cal}</span></div></div></a></article>`;
+      return `<article class="gallery-food-card"><a href="/food/${code}${normLang !== 'ko' ? '?lang=' + normLang : ''}" style="text-decoration:none;color:inherit;display:block;"><div class="gallery-card-thumb-wrap"><img src="https://img.tellmyname.app/foods/${code}.png" alt="${escapeHtml(displayName)}" class="gallery-card-thumb" loading="lazy" width="320" height="240" /><span class="gallery-code-badge">#${code}</span></div><div class="gallery-card-info"><h3 class="gallery-card-title">${escapeHtml(displayName)}</h3><div class="gallery-card-meta"><span>${cal}</span></div></div></a></article>`;
     }).join('\n');
     html = html
       .replace(/<div id="daily-view" class="daily-view">/i, '<div id="daily-view" class="daily-view" style="display:none;">')

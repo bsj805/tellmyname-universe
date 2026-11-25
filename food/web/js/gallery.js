@@ -466,7 +466,7 @@ export class GalleryController {
       card.setAttribute('tabindex', '0');
       card.setAttribute('aria-label', `${food.name} 상세보기`);
 
-      const pngUrl = `https://food.tellmyname.app/images/web/${code}.webp`;
+      const pngUrl = `https://img.tellmyname.app/foods/${code}.png`;
       const webpUrl = `/images/${code}.png`;
 
       card.innerHTML = `
@@ -565,7 +565,7 @@ export class GalleryController {
     const pairingEl = this.detailModal.querySelector('#detail-food-pairing');
 
     if (imgEl) {
-      imgEl.src = `https://food.tellmyname.app/images/web/${code}.webp`;
+      imgEl.src = `https://img.tellmyname.app/foods/${code}.png`;
       imgEl.onerror = () => {
         imgEl.onerror = null;
         imgEl.src = `/images/web/${code}.webp`;
