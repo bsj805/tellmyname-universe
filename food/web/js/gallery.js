@@ -661,7 +661,7 @@ export class GalleryController {
       mode: 'food',
       lang: this.lang,
       items: [this.currentFood],
-      siteUrl: SITE_ORIGIN,
+      siteUrl: 'https://tellmyname.app/food',
       theme: 'amber',
       canvas
     });

@@ -1,15 +1,15 @@
 // web/js/share.js — Feature #8: Multilingual Instagram Story 9:16 Canvas & KakaoTalk Share Module
-// Domain: myhome.tellmyname.app
+// Domain: tellmyname.app
 
 import { UI_DICTIONARY, getTranslation, localizeHouse } from './lib/i18n.js';
 import { MAX_LEVEL, GOOD_HOUSE_THRESHOLD } from './lib/constants.js';
 
-export const SHARE_ORIGIN = 'https://myhome.tellmyname.app';
+export const SHARE_ORIGIN = 'https://tellmyname.app';
 
 /**
  * 이름 기반 영구 공유 URL 생성
- * - currentName이 있으면: https://myhome.tellmyname.app/name/{encodeURIComponent(이름)}
- * - 없으면: https://myhome.tellmyname.app/level/{level}
+ * - currentName이 있으면: https://tellmyname.app/name/{encodeURIComponent(이름)}
+ * - 없으면: https://tellmyname.app/level/{level}
  */
 export function buildPermanentShareUrl(houseData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
@@ -153,7 +153,7 @@ export async function copyShareUrl(houseData, currentName = '', lang = 'ko') {
 
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
   const displayUrl = trimmed
-    ? `myhome.tellmyname.app/name/${trimmed}`
+    ? `tellmyname.app/name/${trimmed}`
     : readableUrl.replace(/^https?:\/\//, '');
 
   const toastMsg = dict.copiedToast
@@ -659,7 +659,7 @@ export async function renderStoryCanvas(canvas, houseData, currentName = '', the
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.45)';
   ctx.font = '400 17px monospace';
-  ctx.fillText('myhome.tellmyname.app • 0~999 Multiverse AI House Appraisal', width / 2, 1840);
+  ctx.fillText('tellmyname.app • 0~999 Multiverse AI House Appraisal', width / 2, 1840);
   ctx.restore();
 
   return canvas;

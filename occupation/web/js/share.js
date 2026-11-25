@@ -1,15 +1,15 @@
 // web/js/share.js — Multilingual Instagram Story 9:16 Canvas & KakaoTalk Share Module
-// Domain: job.tellmyname.app
+// Domain: tellmyname.app/job
 
 import { UI_DICTIONARY, getTranslation, localizeJob } from './lib/i18n.js';
 import { MAX_LEVEL, GOOD_JOB_THRESHOLD } from './lib/constants.js';
 
-export const SHARE_ORIGIN = 'https://job.tellmyname.app';
+export const SHARE_ORIGIN = 'https://tellmyname.app/job';
 
 /**
  * 이름 기반 영구 공유 URL 생성
- * - currentName이 있으면: https://job.tellmyname.app/name/{encodeURIComponent(이름)}
- * - 없으면: https://job.tellmyname.app/level/{level}
+ * - currentName이 있으면: https://tellmyname.app/job/name/{encodeURIComponent(이름)}
+ * - 없으면: https://tellmyname.app/job/level/{level}
  */
 export function buildPermanentShareUrl(jobData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
@@ -152,7 +152,7 @@ export async function copyShareUrl(jobData, currentName = '', lang = 'ko') {
 
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
   const displayUrl = trimmed
-    ? `job.tellmyname.app/name/${trimmed}`
+    ? `tellmyname.app/job/name/${trimmed}`
     : readableUrl.replace(/^https?:\/\//, '');
 
   const toastMsg = dict.copiedToast
@@ -636,7 +636,7 @@ export async function renderStoryCanvas(canvas, jobData, currentName = '', theme
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.45)';
   ctx.font = '400 17px monospace';
-  ctx.fillText('job.tellmyname.app • 0~1000 Multiverse AI Occupation Appraisal', width / 2, 1840);
+  ctx.fillText('tellmyname.app/job • 0~1000 Multiverse AI Occupation Appraisal', width / 2, 1840);
   ctx.restore();
 
   return canvas;

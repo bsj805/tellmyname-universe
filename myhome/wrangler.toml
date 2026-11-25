@@ -1,6 +1,7 @@
 name = "myhome"
 main = "worker.js"
 compatibility_date = "2026-10-01"
+workers_dev = false
 
 [assets]
 directory = "./dist"
@@ -15,10 +16,6 @@ custom_domain = true
 
 [[routes]]
 pattern = "www.tellmyname.app"
-custom_domain = true
-
-[[routes]]
-pattern = "myhome.tellmyname.app"
 custom_domain = true
 
 [[r2_buckets]]

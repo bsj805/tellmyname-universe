@@ -1,6 +1,7 @@
 name = "car"
 main = "worker.js"
 compatibility_date = "2026-10-01"
+workers_dev = false
 
 [assets]
 directory = "./dist"
@@ -8,10 +9,6 @@ binding = "ASSETS"
 not_found_handling = "none"
 html_handling = "none"
 run_worker_first = ["/", "/level/*", "/name/*", "/worldcup*", "/r2/*", "/api/*"]
-
-[[routes]]
-pattern = "car.tellmyname.app"
-custom_domain = true
 
 [[r2_buckets]]
 binding = "CAR_R2"

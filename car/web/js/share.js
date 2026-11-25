@@ -1,10 +1,10 @@
 // web/js/share.js — Multilingual Instagram Story 9:16 Canvas & KakaoTalk Share Module for MyCar
-// Domain: car.tellmyname.app
+// Domain: tellmyname.app/car
 
 import * as i18nMod from './lib/i18n.js';
 import { MAX_LEVEL, GOOD_CAR_THRESHOLD } from './lib/constants.js';
 
-export const SHARE_ORIGIN = 'https://car.tellmyname.app';
+export const SHARE_ORIGIN = 'https://tellmyname.app/car';
 const GOOD_THRESHOLD = typeof GOOD_CAR_THRESHOLD === 'number' ? GOOD_CAR_THRESHOLD : 500;
 
 const CAR_SHARE_I18N = {
@@ -247,8 +247,8 @@ function localizeVehicle(carData, lang = 'ko', currentName = '') {
 
 /**
  * 이름 기반 영구 공유 URL 생성
- * - currentName이 있으면: https://car.tellmyname.app/name/{encodeURIComponent(이름)}
- * - 없으면: https://car.tellmyname.app/level/{level}
+ * - currentName이 있으면: https://tellmyname.app/car/name/{encodeURIComponent(이름)}
+ * - 없으면: https://tellmyname.app/car/level/{level}
  */
 export function buildPermanentShareUrl(carData, currentName = '', lang = 'ko') {
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
@@ -385,7 +385,7 @@ export async function copyShareUrl(carData, currentName = '', lang = 'ko') {
 
   const trimmed = typeof currentName === 'string' ? currentName.trim() : '';
   const displayUrl = trimmed
-    ? `car.tellmyname.app/name/${trimmed}`
+    ? `tellmyname.app/car/name/${trimmed}`
     : readableUrl.replace(/^https?:\/\//, '');
 
   const toastMsg = `🔗 ${dict?.copiedToast || base.copiedToast} (${displayUrl})`;
@@ -472,7 +472,7 @@ function loadArtworkImage(src) {
  * Visual Hierarchy:
  *   1. Top Headline: "{name}님에게 어울리는 자동차는" + Vehicle Title & Tier/Level badges
  *   2. Middle Visual: 1:1 High-res Vehicle Artwork Image (720x720)
- *   3. Bottom Specs: 📅 언제 타던 탈것인지, 💰 추산 가격·유지비, ⚡ 특별한 기능·주행성능, 🤖 AI 시승 총평 + car.tellmyname.app/name/{name}
+ *   3. Bottom Specs: 📅 언제 타던 탈것인지, 💰 추산 가격·유지비, ⚡ 특별한 기능·주행성능, 🤖 AI 시승 총평 + tellmyname.app/car/name/{name}
  */
 export async function renderStoryCanvas(canvas, carData, currentName = '', theme = 'sunset', lang = 'ko') {
   if (!canvas || typeof canvas.getContext !== 'function') {
@@ -823,7 +823,7 @@ export async function renderStoryCanvas(canvas, carData, currentName = '', theme
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
   ctx.font = '400 17px monospace';
-  ctx.fillText('car.tellmyname.app • 0~1000 Multiverse Vehicle Appraisal', width / 2, 1852);
+  ctx.fillText('tellmyname.app/car • 0~1000 Multiverse Vehicle Appraisal', width / 2, 1852);
   ctx.restore();
 
   return canvas;
