@@ -555,7 +555,7 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
   // Google AdSense
   const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(baseHtml) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
-  // Schema.org JSON-LD (WebApplication, WebPage, Vehicle, Product, ImageObject, FAQPage + Family Sites)
+  // Schema.org JSON-LD (WebApplication, WebPage, Vehicle, ImageObject, FAQPage + Family Sites)
   const imageObjectNode = {
     '@type': 'ImageObject',
     '@id': `${canonicalUrl}#image`,
@@ -628,21 +628,6 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
         'vehicleModelDate': String(displayCar.era),
         'model': `Lv.${levelNum} (${displayCar.tierName || ''})`,
         'image': ogImageUrl
-      },
-      {
-        '@type': 'Product',
-        '@id': `${canonicalUrl}#product`,
-        'name': displayCar.title,
-        'description': `${displayCar.era} / ${displayCar.estimatedPrice} / ${displayCar.specialFeature} — ${displayCar.aiVerdict}`.trim(),
-        'image': ogImageUrl,
-        'category': displayCar.categoryLabel || displayCar.category || 'Vehicle',
-        'offers': {
-          '@type': 'Offer',
-          'price': '0',
-          'priceCurrency': 'KRW',
-          'description': String(displayCar.estimatedPrice),
-          'availability': 'https://schema.org/InStock'
-        }
       },
       imageObjectNode,
       {
