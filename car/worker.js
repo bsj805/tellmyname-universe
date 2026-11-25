@@ -555,7 +555,7 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
   // Google AdSense
   const adsenseTag = /<script[^>]*adsbygoogle\.js/i.test(baseHtml) ? '' : '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8793936135959956" crossorigin="anonymous"></script>';
 
-  // Schema.org JSON-LD (WebApplication, WebPage, Vehicle, ImageObject, FAQPage + Family Sites)
+  // Schema.org JSON-LD (WebApplication, WebPage, Article, ImageObject, FAQPage + Family Sites)
   const imageObjectNode = {
     '@type': 'ImageObject',
     '@id': `${canonicalUrl}#image`,
@@ -621,13 +621,12 @@ export function renderSeoHtml(baseHtml, car, nameQuery, origin = SITE_ORIGIN, la
         'primaryImageOfPage': { '@id': `${canonicalUrl}#image` }
       },
       {
-        '@type': 'Vehicle',
-        '@id': `${canonicalUrl}#vehicle`,
-        'name': displayCar.title,
+        '@type': 'Article',
+        '@id': `${canonicalUrl}#article`,
+        'headline': displayCar.title,
         'description': `${displayCar.specialFeature} ${displayCar.aiVerdict}`.trim(),
-        'vehicleModelDate': String(displayCar.era),
-        'model': `Lv.${levelNum} (${displayCar.tierName || ''})`,
-        'image': ogImageUrl
+        'image': ogImageUrl,
+        'mainEntityOfPage': { '@id': `${canonicalUrl}#webpage` }
       },
       imageObjectNode,
       {
